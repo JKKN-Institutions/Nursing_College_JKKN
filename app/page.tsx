@@ -1,8 +1,8 @@
-"use client";
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ScrollButton from "@/components/ScrollButton";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -21,14 +21,134 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
-const scrollToPrograms = () => {
-  document.getElementById('programs')?.scrollIntoView({ behavior: 'smooth' });
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "JKKN College of Nursing",
+  "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "telephone": "+919345855001",
+  "email": "info@jkkn.ac.in",
+  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+    "addressLocality": "Komarapalayam",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "638183",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.4333,
+    "longitude": 77.7167
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
+  "areaServed": [
+    "Komarapalayam", "Namakkal", "Erode", "Salem", "Tiruchengode",
+    "Rasipuram", "Tamil Nadu", "India"
+  ],
+  "sameAs": [
+    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+    "https://www.facebook.com/jkknnursing",
+    "https://www.instagram.com/jkknnursing",
+    "https://www.linkedin.com/school/jkknnursing"
+  ]
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is JKKN College of Nursing approved by INC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, J.K.K. Nattraja College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the fee structure for nursing programs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000, GNM - ₹75,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the placement opportunities after nursing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can male candidates apply for nursing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely! Nursing is a gender-neutral profession with growing demand for male nurses, especially in ICU, emergency, orthopedics, psychiatry, and community health. JKKN welcomes male applicants and provides separate hostel facilities. Male nurses have excellent career opportunities, particularly in critical care units and international placements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What clinical training facilities are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our Learners receive clinical training at the attached 500+ bedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is hostel accommodation mandatory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hostel is not mandatory but strongly recommended for nursing Learners due to clinical posting schedules that may include early morning and evening shifts. Our hostels offer 24/7 security, Wi-Fi, mess with nutritious meals, gym, recreation room, and are located within the campus for safety and convenience. Day scholars are also welcome if they can manage clinical posting timings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the M.Sc Nursing specializations available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Admission is based on entrance exam and B.Sc Nursing percentage."
+      }
+    }
+  ]
 };
 
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
+      <BreadcrumbSchema items={[
+        { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
+        { name: 'JKKN College of Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+      ]} />
       <main className="overflow-x-hidden !pt-0">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-[#006837] to-[#002309] pt-28 pb-12 sm:pt-28 sm:pb-16 md:pt-32 md:pb-24 lg:pt-36 lg:pb-32 overflow-hidden">
@@ -57,12 +177,12 @@ export default function Home() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
-                  <button
-                    onClick={scrollToPrograms}
+                  <ScrollButton
+                    targetId="programs"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base cursor-pointer"
                   >
                     Explore Programs →
-                  </button>
+                  </ScrollButton>
                   <a
                     href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
                     className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base"
@@ -243,12 +363,12 @@ export default function Home() {
                   ))}
                 </div>
 
-                <button
-                  onClick={scrollToPrograms}
+                <ScrollButton
+                  targetId="programs"
                   className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg text-sm sm:text-base cursor-pointer"
                 >
                   View All Programs →
-                </button>
+                </ScrollButton>
               </div>
 
               <div className="relative mt-8 lg:mt-0">

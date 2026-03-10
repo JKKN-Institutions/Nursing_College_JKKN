@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 import {
   CheckCircleIcon,
@@ -26,6 +27,11 @@ export default function BScNursing() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema items={[
+        { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
+        { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/' },
+      ]} />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-16 md:py-24">

@@ -52,6 +52,74 @@ export const metadata: Metadata = {
   },
 };
 
+const educationalOrgSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollegeOrUniversity",
+  "name": "JKKN College of Nursing",
+  "alternateName": [
+    "Sresakthimayeil Institute of Nursing and Research",
+    "JKKN Nursing College",
+    "Sresakthimayeil Nursing College"
+  ],
+  "description": "INC-approved nursing college offering B.Sc, M.Sc, and Post Basic B.Sc Nursing programs. NAAC accredited and affiliated to Tamil Nadu Dr. MGR Medical University.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "telephone": "+919345855001",
+  "email": "nursing@jkkn.ac.in",
+  "foundingDate": "2007",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+    "addressLocality": "Komarapalayam",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "638183",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 11.4333,
+    "longitude": 77.7167
+  },
+  "accreditedBy": [
+    {
+      "@type": "Organization",
+      "name": "Indian Nursing Council (INC)",
+      "url": "https://www.indiannursingcouncil.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "National Assessment and Accreditation Council (NAAC)"
+    }
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "JKKN Institutions",
+    "url": "https://jkkn.ac.in/"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Tamil Nadu Dr. MGR Medical University (TNMGRMU)",
+    "url": "https://www.tnmgrmu.ac.in/"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Nursing Programs 2026-27",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
+    ]
+  },
+  "sameAs": [
+    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+    "https://www.facebook.com/jkknnursing",
+    "https://www.instagram.com/jkknnursing",
+    "https://www.linkedin.com/school/jkknnursing",
+    "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY"
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -59,6 +127,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrgSchema) }}
+        />
+      </head>
       <body className={`${poppins.className} antialiased bg-[#FBFBEE]`} suppressHydrationWarning>
         <ClientLayout>
           {children}

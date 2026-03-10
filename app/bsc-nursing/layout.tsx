@@ -34,10 +34,54 @@ export const metadata: Metadata = {
   },
 };
 
+const bscNursingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
+  "description": "4-year INC-approved undergraduate nursing program at JKKN College of Nursing, Komarapalayam. Clinical training at 500+ bed teaching hospital. NAAC accredited.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/",
+  "provider": {
+    "@type": "CollegeOrUniversity",
+    "name": "JKKN College of Nursing",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+      "addressLocality": "Komarapalayam",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "638183",
+      "addressCountry": "IN"
+    }
+  },
+  "educationalCredentialAwarded": "B.Sc Nursing",
+  "timeRequired": "P4Y",
+  "occupationalCategory": "Registered Nurse",
+  "coursePrerequisites": "10+2 with Physics, Chemistry, Biology (PCB) with minimum 45% aggregate. NEET-UG qualification required.",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Full-time",
+    "startDate": "2026-09"
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
+    "category": "Government Quota / Management Quota"
+  }
+};
+
 export default function BScNursingLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscNursingSchema) }}
+      />
+      {children}
+    </>
+  );
 }

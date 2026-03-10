@@ -1,8 +1,8 @@
-"use client";
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import ScrollButton from "@/components/ScrollButton";
 import Image from "next/image";
 import Link from "next/link";
 import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase, FaClipboardCheck, FaFileAlt } from "react-icons/fa";
@@ -11,6 +11,11 @@ export default function MScNursing() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema items={[
+        { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
+        { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'M.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing/' },
+      ]} />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-20 md:py-32 relative overflow-hidden">
@@ -63,12 +68,12 @@ export default function MScNursing() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </a>
-                  <button
-                    onClick={() => document.getElementById('specializations')?.scrollIntoView({ behavior: 'smooth' })}
+                  <ScrollButton
+                    targetId="specializations"
                     className="inline-flex items-center gap-2 border-2 border-white text-white hover:bg-white hover:text-[#006837] px-8 py-4 rounded-lg font-semibold transition-all duration-300"
                   >
                     Explore Specializations
-                  </button>
+                  </ScrollButton>
                 </div>
               </div>
 
@@ -239,15 +244,15 @@ export default function MScNursing() {
                   </div>
                 </div>
 
-                <button
-                  onClick={() => document.getElementById('curriculum')?.scrollIntoView({ behavior: 'smooth' })}
+                <ScrollButton
+                  targetId="curriculum"
                   className="mt-8 inline-flex items-center gap-2 border-2 border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300"
                 >
                   View Full Curriculum
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-                </button>
+                </ScrollButton>
               </div>
             </div>
           </div>

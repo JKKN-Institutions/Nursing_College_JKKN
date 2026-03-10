@@ -34,10 +34,46 @@ export const metadata: Metadata = {
   },
 };
 
+const mscNursingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Master of Science in Nursing (M.Sc Nursing)",
+  "description": "2-year INC-approved postgraduate nursing program at JKKN College of Nursing, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing/",
+  "provider": {
+    "@type": "CollegeOrUniversity",
+    "name": "JKKN College of Nursing",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+  },
+  "educationalCredentialAwarded": "M.Sc Nursing",
+  "timeRequired": "P2Y",
+  "occupationalCategory": "Advanced Practice Nurse, Nurse Educator",
+  "coursePrerequisites": "B.Sc Nursing from a recognized university with minimum 55% aggregate.",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Full-time",
+    "startDate": "2026-09"
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
+    "category": "Government Quota / Management Quota"
+  }
+};
+
 export default function MScNursingLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscNursingSchema) }}
+      />
+      {children}
+    </>
+  );
 }

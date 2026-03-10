@@ -34,10 +34,46 @@ export const metadata: Metadata = {
   },
 };
 
+const pbscNursingSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Post Basic B.Sc Nursing",
+  "description": "2-year INC-approved program for GNM diploma holders. Upgrade your nursing qualifications to a full B.Sc Nursing degree at JKKN College of Nursing, Komarapalayam.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing/",
+  "provider": {
+    "@type": "CollegeOrUniversity",
+    "name": "JKKN College of Nursing",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+  },
+  "educationalCredentialAwarded": "Post Basic B.Sc Nursing",
+  "timeRequired": "P2Y",
+  "occupationalCategory": "Registered Nurse",
+  "coursePrerequisites": "GNM (General Nursing and Midwifery) diploma from a recognized institution with 2 years of registered nursing experience.",
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "Full-time",
+    "startDate": "2026-09"
+  },
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
+    "category": "Government Quota / Management Quota"
+  }
+};
+
 export default function PBScNursingLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pbscNursingSchema) }}
+      />
+      {children}
+    </>
+  );
 }
