@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Food Court & Cafeteria — JKKN Nursing",
     description: "Hygienic food court and cafeteria with nutritious meals for students at JKKN, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/food-court",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/food-court",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/food-court",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/food-court",
   },
 };
 

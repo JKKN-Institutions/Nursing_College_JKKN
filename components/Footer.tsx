@@ -78,7 +78,7 @@ export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
                 <p className="text-sm sm:text-base leading-relaxed">
                   JKKN College of Allied Health Sciences, NH-544<br />
                   (Salem To Coimbatore National Highway),<br />
-                  Kumarapalayam (TK), Namakkal (DT), Tamil Nadu.<br />
+                  Komarapalayam (TK), Namakkal (DT), Tamil Nadu.<br />
                   638183.
                 </p>
               </div>

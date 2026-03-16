@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Affiliation & Recognition — JKKN Nursing College",
     description: "INC, TNMGRMU, and NAAC affiliations and recognitions of Sresakthimayeil Institute of Nursing, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/affiliation",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/affiliation",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/affiliation",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/affiliation",
   },
 };
 

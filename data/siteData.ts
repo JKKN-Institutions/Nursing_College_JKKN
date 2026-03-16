@@ -16,7 +16,7 @@ export const siteData = {
   contact: {
     phone: "+91 93458 55001",
     email: "nursing@jkkn.ac.in",
-    address: "JKKN Dental College & Hospital, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
+    address: "JKKN Dental College & Hospital, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
   },
   socialMedia: {
     facebook: "https://www.facebook.com/jkknnursing",
@@ -113,6 +113,7 @@ export const navigationMenu = [
     label: "OTHERS",
     href: "#",
     submenu: [
+      { label: "Blog", href: "/blog" },
       { label: "NIRF", href: "/nirf-others" },
       { label: "Digital Campus", href: "https://jkkn.ac.in/digital-campus" },
       { label: "Academic Calendar", href: "/academic-calendar" },
@@ -174,7 +175,7 @@ export const heroSlides = [
   {
     id: 1,
     image: "/images/hero/slide1.jpg",
-    title: "SRESAKTHIMAYEIL INSTITUTE OF NURSING AND RESEARCH",
+    title: "JKKN College of Nursing",
     subtitle: "JKKN Educational Institutions",
     buttonText: "Online Admissions 2025-2026",
     buttonLink: "/admissions",

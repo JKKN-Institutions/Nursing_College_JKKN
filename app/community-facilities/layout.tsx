@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Community Health Facilities — JKKN Nursing",
     description: "Community health training facilities and field practice areas for nursing students at JKKN.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/community-facilities",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/community-facilities",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/community-facilities",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/community-facilities",
   },
 };
 

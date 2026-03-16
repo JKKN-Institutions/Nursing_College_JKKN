@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Library — JKKN Nursing College",
     description: "Well-stocked library with nursing books, journals, and digital resources at JKKN Nursing College, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/library",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/library",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/library",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/library",
   },
 };
 

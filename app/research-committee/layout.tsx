@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Research Committee — JKKN Nursing College",
     description: "Research committee guiding nursing research projects, publications, and academic research at JKKN.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/research-committee",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/research-committee",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee",
   },
 };
 

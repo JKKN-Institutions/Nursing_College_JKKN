@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Curriculum & Syllabus — JKKN Nursing College",
     description: "INC-approved curriculum and syllabus for B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes at JKKN, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/curriculum-syllabus",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/curriculum-syllabus",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/curriculum-syllabus",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/curriculum-syllabus",
   },
 };
 

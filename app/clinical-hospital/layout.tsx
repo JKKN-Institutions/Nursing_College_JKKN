@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Clinical Training Hospitals — JKKN Nursing",
     description: "Clinical training facilities and affiliated hospitals for nursing students at JKKN. Hands-on clinical experience.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/clinical-hospital",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/clinical-hospital",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital",
   },
 };
 

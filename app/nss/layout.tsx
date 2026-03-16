@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "NSS — National Service Scheme | JKKN Nursing",
     description: "NSS unit activities, community service, and social outreach programmes at JKKN Nursing College.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/nss",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/nss",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/nss",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/nss",
   },
 };
 

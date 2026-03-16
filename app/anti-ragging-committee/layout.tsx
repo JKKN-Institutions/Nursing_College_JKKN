@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Anti-Ragging Committee — JKKN Nursing",
     description: "Anti-ragging committee members, helpline numbers, and student safety measures at JKKN Nursing College.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/anti-ragging-committee",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-committee",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/anti-ragging-committee",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-committee",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "NIRF 2024 — JKKN Nursing College Rankings",
     description: "NIRF 2024 ranking data and performance metrics of JKKN Nursing College in national institutional ranking framework.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/nirf-2024",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2024",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/nirf-2024",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2024",
   },
 };
 

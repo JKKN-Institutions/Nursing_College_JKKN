@@ -125,7 +125,7 @@ export default function PrivacyPolicy() {
                   </p>
                   <p>Address: JKKN College of Nursing & Research,</p>
                   <p>Natarajapuram, NH-544 (Salem To Coimbatore National Highway),</p>
-                  <p>Kumarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.</p>
+                  <p>Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.</p>
                 </div>
               </div>
             </div>

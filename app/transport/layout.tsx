@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Transport Facilities — JKKN Nursing College",
     description: "Safe and reliable bus transport services for students at JKKN Nursing College, covering major routes.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/transport",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/transport",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/transport",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/transport",
   },
 };
 

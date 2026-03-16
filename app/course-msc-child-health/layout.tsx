@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "M.Sc Child Health Nursing — JKKN Nursing College",
     description: "M.Sc Nursing in Child Health (Pediatric Nursing) at JKKN. 2-year specialization in pediatric care, neonatal nursing, and child development.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/course-msc-child-health",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/course-msc-child-health",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Faculty & Staff — JKKN Nursing College",
     description: "Meet our experienced faculty members at JKKN Nursing College. Qualified nursing educators with clinical expertise.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/faculty-details",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/faculty-details",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details",
   },
 };
 

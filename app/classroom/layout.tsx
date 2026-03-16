@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Smart Classrooms — JKKN Nursing College",
     description: "Modern smart classrooms with audio-visual equipment and technology-enabled learning at JKKN, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/classroom",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/classroom",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/classroom",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/classroom",
   },
 };
 

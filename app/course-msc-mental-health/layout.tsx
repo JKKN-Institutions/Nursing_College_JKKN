@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "M.Sc Mental Health Nursing — JKKN Nursing",
     description: "M.Sc Nursing in Mental Health (Psychiatric Nursing) at JKKN. Specialization in psychiatric care, counseling, and mental health promotion.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/course-msc-mental-health",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/course-msc-mental-health",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health",
   },
 };
 

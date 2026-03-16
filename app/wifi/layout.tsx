@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Wi-Fi & IT Infrastructure — JKKN Nursing",
     description: "High-speed Wi-Fi and modern IT infrastructure for digital learning at JKKN Nursing College.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/wifi",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/wifi",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/wifi",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/wifi",
   },
 };
 

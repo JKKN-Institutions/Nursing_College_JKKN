@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Sister Institutions — JKKN Group of Institutions",
     description: "JKKN group of educational institutions under J.K.K. Rangammal Charitable Trust. Engineering, pharmacy, arts, and science colleges.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/our-institutions",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/our-institutions",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions",
   },
 };
 

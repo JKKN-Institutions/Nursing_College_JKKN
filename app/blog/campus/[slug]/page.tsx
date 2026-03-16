@@ -121,8 +121,43 @@ export default async function CampusBlogPost({
 
   const { words, readTime } = calcReadMeta(rawHtml);
 
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt || post.meta_description || "",
+    "datePublished": post.published_at || post.created_at,
+    "dateModified": post.updated_at || post.published_at || post.created_at,
+    "author": {
+      "@type": "Organization",
+      "name": "JKKN College of Nursing",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "JKKN College of Nursing",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/${slug}`
+    },
+    ...(post.cover_image_url ? { "image": post.cover_image_url } : {}),
+    "wordCount": words,
+    "articleSection": post.category || "General",
+    "inLanguage": "en"
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
       <Header />
       <CampusBlogContent
         post={post}

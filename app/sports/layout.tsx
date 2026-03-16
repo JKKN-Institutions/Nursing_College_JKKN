@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Sports & Athletics — JKKN Nursing College",
     description: "Sports facilities and athletic programmes for nursing students at JKKN, Komarapalayam. Indoor and outdoor sports.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/sports",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/sports",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/sports",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/sports",
   },
 };
 

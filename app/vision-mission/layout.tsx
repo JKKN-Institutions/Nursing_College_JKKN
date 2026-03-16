@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Vision & Mission — JKKN Nursing College",
     description: "Vision and mission of Sresakthimayeil Institute of Nursing. Our commitment to nursing excellence and quality healthcare education.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/vision-mission",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/vision-mission",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission",
   },
 };
 

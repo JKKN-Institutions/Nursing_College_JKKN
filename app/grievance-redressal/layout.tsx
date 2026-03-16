@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Grievance Redressal — JKKN Nursing College",
     description: "Student grievance redressal mechanism and complaint handling at JKKN Nursing College, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/grievance-redressal",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/grievance-redressal",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/grievance-redressal",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/grievance-redressal",
   },
 };
 

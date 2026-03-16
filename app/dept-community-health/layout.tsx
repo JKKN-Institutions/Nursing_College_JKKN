@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Community Health Nursing Dept — JKKN Nursing",
     description: "Community Health Nursing Department at JKKN. Public health training, field visits, and community-based learning.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/dept-community-health",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/dept-community-health",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health",
   },
 };
 

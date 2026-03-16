@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Nursing Labs — JKKN Nursing College",
     description: "State-of-the-art nursing laboratories with modern equipment for practical training at JKKN, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/laboratories",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/laboratories",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/laboratories",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/laboratories",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Management — JKKN Nursing College",
     description: "Leadership and management team of Sresakthimayeil Institute of Nursing, JKKN. Experienced administrators dedicated to nursing education.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/our-management",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-management",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/our-management",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/our-management",
   },
 };
 

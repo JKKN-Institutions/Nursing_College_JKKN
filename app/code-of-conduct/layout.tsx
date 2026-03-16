@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Code of Conduct — JKKN Nursing College",
     description: "Professional code of conduct and ethical standards for nursing students at Sresakthimayeil Institute of Nursing.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/code-of-conduct",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/code-of-conduct",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/code-of-conduct",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/code-of-conduct",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Child Health Nursing Dept — JKKN Nursing",
     description: "Child Health Nursing Department at JKKN. Expert faculty, pediatric nursing lab, and clinical training in child healthcare.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/dept-child-health",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-child-health",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/dept-child-health",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-child-health",
   },
 };
 

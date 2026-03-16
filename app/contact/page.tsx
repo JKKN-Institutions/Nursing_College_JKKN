@@ -80,7 +80,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg sm:text-xl font-bold text-[#002309] mb-2 sm:mb-3">Address</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                      SRESAKTHIMAYEIL INSTITUTE OF NURSING & RESEARCH<br />
+                      JKKN College of Nursing<br />
                       NATARAJAPURAM, NH-544 (SALEM TO COIMBATORE),<br />
                       KOMARAPALAYAM – 638183, NAMAKKAL (DT)
                     </p>

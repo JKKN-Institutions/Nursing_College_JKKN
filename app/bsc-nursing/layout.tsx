@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
     description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/bsc-nursing",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,8 +30,55 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/bsc-nursing",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
   },
+};
+
+const bscNursingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the eligibility for B.Sc Nursing at JKKN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with a minimum of 45% aggregate marks. NEET-UG qualification is mandatory. Age should be between 17-35 years at the time of admission. Both male and female candidates are eligible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the B.Sc Nursing fee structure at JKKN College of Nursing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The annual tuition fee for B.Sc Nursing at JKKN is approximately ₹95,000 per year. Additional charges include hostel fees (₹60,000-75,000/year), examination fees, and uniform costs. Merit-based scholarships covering up to 75% of tuition are available for eligible students."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the B.Sc Nursing course duration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "B.Sc Nursing is a 4-year full-time undergraduate programme affiliated to Tamil Nadu Dr. MGR Medical University. It includes theoretical classes, practical lab sessions, and clinical postings at the attached 500+ bed multi-specialty hospital from Year 1."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the placement opportunities after B.Sc Nursing from JKKN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "JKKN has a 98%+ placement rate. Graduates are recruited by top hospitals like Apollo, Fortis, MIOT, Manipal, and international employers including NHS UK, Cleveland Clinic Abu Dhabi, and hospitals in Singapore, Canada, and Australia. Starting salaries range from ₹3.5-6 LPA domestically and ₹15-25 LPA internationally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is JKKN College of Nursing INC approved and NAAC accredited?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated to Tamil Nadu Dr. MGR Medical University. The college is NAAC accredited with B++ grade."
+      }
+    }
+  ]
 };
 
 const bscNursingSchema = {
@@ -80,6 +127,10 @@ export default function BScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(bscNursingSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscNursingFaqSchema) }}
       />
       {children}
     </>

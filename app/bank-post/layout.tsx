@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Banking & Postal Services — JKKN Nursing",
     description: "On-campus banking services and post office facilities for students and staff at JKKN, Komarapalayam.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/bank-post",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/bank-post",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/bank-post",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/bank-post",
   },
 };
 

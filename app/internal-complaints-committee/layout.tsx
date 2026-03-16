@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Internal Complaints Committee — JKKN Nursing",
     description: "Internal Complaints Committee for addressing grievances and ensuring a safe campus environment at JKKN.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/internal-complaints-committee",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee",
     siteName: "JKKN College of Nursing",
   },
   robots: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/internal-complaints-committee",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee",
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "M.Sc Medical-Surgical Nursing — JKKN Nursing",
     description: "M.Sc Nursing in Medical-Surgical Nursing at JKKN. Advanced training in critical care, surgical nursing, and patient management.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/course-msc-medical-surgical",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/course-msc-medical-surgical",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical",
   },
 };
 

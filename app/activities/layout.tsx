@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Student Activities — JKKN Nursing College",
     description: "Co-curricular and extracurricular activities, cultural events, and student clubs at JKKN Nursing College.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/activities",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/activities",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/activities",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/activities",
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "IQAC — Internal Quality Assurance | JKKN Nursing",
     description: "Internal Quality Assurance Cell (IQAC) at JKKN Nursing College. Quality enhancement and accreditation initiatives.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/iqac",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/iqac",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac",
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "M.Sc OBG Nursing — JKKN Nursing College",
     description: "M.Sc Nursing in Obstetrics & Gynecological Nursing at JKKN. Specialization in maternal health, midwifery, and women's healthcare.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/course-msc-obstetrics-gynecological",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/course-msc-obstetrics-gynecological",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
   },
 };
 

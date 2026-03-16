@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Hostel Facilities — JKKN Nursing College",
     description: "Safe and comfortable hostel accommodation for nursing students at JKKN, Komarapalayam. Modern amenities and 24/7 security.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/hostel",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/hostel",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/hostel",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/hostel",
   },
 };
 

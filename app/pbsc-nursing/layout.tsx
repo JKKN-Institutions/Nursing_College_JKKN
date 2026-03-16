@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Post Basic B.Sc Nursing — JKKN Nursing College",
     description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/pbsc-nursing",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -30,8 +30,55 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/pbsc-nursing",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
   },
+};
+
+const pbscNursingFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Post Basic B.Sc Nursing and who is it for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post Basic B.Sc Nursing is a 2-year degree programme designed for registered GNM (General Nursing and Midwifery) diploma holders who want to upgrade their qualification to a full B.Sc Nursing degree. It enables working nurses to advance their career, pursue M.Sc Nursing, and access higher positions in hospitals and academia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the eligibility for Post Basic B.Sc Nursing at JKKN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Candidates must hold a GNM diploma from a recognized institution, have registration with the State Nursing Council, and possess at least 2 years of clinical nursing experience. Both male and female nurses are eligible to apply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Post Basic B.Sc Nursing fee structure at JKKN?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The annual tuition fee for Post Basic B.Sc Nursing at JKKN is approximately ₹85,000 per year. Additional charges include hostel fees, examination fees, and library fees. Scholarships and educational loan assistance are available for eligible students."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I work while studying Post Basic B.Sc Nursing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post Basic B.Sc Nursing at JKKN is a full-time course requiring regular attendance for classes and clinical postings. However, the programme is structured to accommodate working nurses, with clinical postings at the attached 500+ bed teaching hospital providing practical learning alongside academics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the career benefits of Post Basic B.Sc Nursing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Post Basic B.Sc Nursing graduates become eligible for M.Sc Nursing admission, nursing faculty positions, senior nursing roles in hospitals, government nursing officer positions, and international nursing opportunities in UK, USA, Australia, and Gulf countries. The degree significantly enhances career progression and salary prospects."
+      }
+    }
+  ]
 };
 
 const pbscNursingSchema = {
@@ -72,6 +119,10 @@ export default function PBScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(pbscNursingSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(pbscNursingFaqSchema) }}
       />
       {children}
     </>

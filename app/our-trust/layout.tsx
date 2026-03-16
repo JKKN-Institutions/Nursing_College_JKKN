@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "J.K.K. Trust — Education Since 1989",
     description: "About J.K.K. Rangammal Charitable Trust, established in 1989. Managing multiple educational institutions across Tamil Nadu.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/our-trust",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-trust",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/our-trust",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/our-trust",
   },
 };
 

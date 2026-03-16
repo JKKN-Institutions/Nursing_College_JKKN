@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Campus Gallery — Sresakthimayeil Nursing College",
     description: "Explore JKKN Nursing College campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/gallery",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/gallery",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/gallery",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/gallery",
   },
 };
 

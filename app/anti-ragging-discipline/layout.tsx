@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Anti-Ragging Policy — JKKN Nursing College",
     description: "Anti-ragging measures and student discipline policies at Sresakthimayeil Institute of Nursing, JKKN.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/anti-ragging-discipline",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-discipline",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/anti-ragging-discipline",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-discipline",
   },
 };
 

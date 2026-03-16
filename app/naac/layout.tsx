@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "NAAC Accreditation — JKKN Nursing College",
     description: "NAAC accreditation details, quality assurance, and academic excellence standards at Sresakthimayeil Institute of Nursing, JKKN.",
     type: "website",
-    url: "https://nursing.jkkn.ac.in/naac",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/naac",
     siteName: "JKKN College of Nursing",
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nursing.jkkn.ac.in/naac",
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/naac",
   },
 };
 
