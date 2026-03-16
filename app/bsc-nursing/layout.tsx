@@ -34,50 +34,25 @@ export const metadata: Metadata = {
   },
 };
 
-const bscNursingFaqSchema = {
+const bscFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the eligibility for B.Sc Nursing at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology (PCB) with a minimum of 45% aggregate marks. NEET-UG qualification is mandatory. Age should be between 17-35 years at the time of admission. Both male and female candidates are eligible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the B.Sc Nursing fee structure at JKKN College of Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The annual tuition fee for B.Sc Nursing at JKKN is approximately ₹95,000 per year. Additional charges include hostel fees (₹60,000-75,000/year), examination fees, and uniform costs. Merit-based scholarships covering up to 75% of tuition are available for eligible students."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long is the B.Sc Nursing course duration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Sc Nursing is a 4-year full-time undergraduate programme affiliated to Tamil Nadu Dr. MGR Medical University. It includes theoretical classes, practical lab sessions, and clinical postings at the attached 500+ bed multi-specialty hospital from Year 1."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the placement opportunities after B.Sc Nursing from JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "JKKN has a 98%+ placement rate. Graduates are recruited by top hospitals like Apollo, Fortis, MIOT, Manipal, and international employers including NHS UK, Cleveland Clinic Abu Dhabi, and hospitals in Singapore, Canada, and Australia. Starting salaries range from ₹3.5-6 LPA domestically and ₹15-25 LPA internationally."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is JKKN College of Nursing INC approved and NAAC accredited?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated to Tamil Nadu Dr. MGR Medical University. The college is NAAC accredited with B++ grade."
-      }
-    }
+    { "@type": "Question", "name": "What is the B.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "The annual fee is ₹95,000 per year for the 4-year program. Includes tuition, lab, clinical training, and exam fees. Hostel: ₹60,000-75,000/year. Merit scholarships up to 75% available." } },
+    { "@type": "Question", "name": "Is NEET required for B.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "No, NEET is not required. Admission is merit-based on 10+2 with PCB. Minimum 45% marks (40% for SC/ST). Apply online at admission.jkkn.ac.in." } },
+    { "@type": "Question", "name": "What is the B.Sc Nursing duration at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "4-year full-time program including mandatory clinical internship at the attached 500+ bed teaching hospital. Hands-on training from Year 1." } },
+    { "@type": "Question", "name": "What careers after B.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Staff Nurse, ICU Specialist, Community Health Nurse, Nursing Supervisor, International Nursing (NHS UK, UAE, Singapore). NCLEX prep, IELTS coaching, visa support provided. Domestic: ₹3.8-4.2 LPA. International: ₹15-25 LPA." } },
+    { "@type": "Question", "name": "Does JKKN B.Sc Nursing include hospital training?", "acceptedAnswer": { "@type": "Answer", "text": "Yes – 500+ bed multi-specialty teaching hospital. Real patient interactions from Year 1 across Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry. Advanced simulation labs complement clinical training." } }
+  ]
+};
+
+const bscBreadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "JKKN Institutions", "item": "https://jkkn.ac.in/" },
+    { "@type": "ListItem", "position": 2, "name": "College of Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+    { "@type": "ListItem", "position": 3, "name": "B.Sc Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" }
   ]
 };
 
@@ -130,7 +105,11 @@ export default function BScNursingLayout({
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscNursingFaqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscFaqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscBreadcrumbSchema) }}
       />
       {children}
     </>

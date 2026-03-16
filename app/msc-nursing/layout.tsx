@@ -34,50 +34,24 @@ export const metadata: Metadata = {
   },
 };
 
-const mscNursingFaqSchema = {
+const mscFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the M.Sc Nursing specializations available at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing, Obstetrics & Gynecological Nursing, Child Health (Pediatric) Nursing, Mental Health (Psychiatric) Nursing, and Community Health Nursing. Each specialization prepares graduates for advanced clinical practice, nursing education, and research roles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the eligibility for M.Sc Nursing at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Candidates must hold a B.Sc Nursing degree from a recognized university with minimum 55% aggregate marks. Registration with the State Nursing Council is required. Candidates must have at least 1 year of clinical experience after completing B.Sc Nursing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the M.Sc Nursing course duration and fee at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "M.Sc Nursing is a 2-year full-time postgraduate programme. The annual tuition fee is approximately ₹1,25,000 per year. The course includes advanced theoretical studies, clinical specialization, research methodology, and dissertation work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What career opportunities are available after M.Sc Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "M.Sc Nursing graduates can work as Nurse Educators in nursing colleges, Clinical Nurse Specialists in hospitals, Nursing Superintendents, Research Associates, and Public Health Consultants. International opportunities include positions in UK (NHS), USA, Australia, and Gulf countries with salaries ranging from ₹8-25 LPA."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does JKKN provide research facilities for M.Sc Nursing students?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, JKKN provides comprehensive research facilities including a well-equipped research lab, access to international nursing journals and databases, guidance from experienced faculty for dissertation work, and opportunities to present research at national and international conferences."
-      }
-    }
+    { "@type": "Question", "name": "What M.Sc Nursing specializations does JKKN offer?", "acceptedAnswer": { "@type": "Answer", "text": "5 specializations: 1) Medical-Surgical Nursing (most popular), 2) OBG Nursing, 3) Pediatric Nursing, 4) Psychiatric Nursing, 5) Community Health Nursing." } },
+    { "@type": "Question", "name": "What is the eligibility for M.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "B.Sc Nursing or Post Basic B.Sc with 55% marks, 1 year clinical experience, valid TNNMC registration. 2 years full-time, 25 seats, ₹1,25,000/year." } },
+    { "@type": "Question", "name": "What careers after M.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Nursing Educator, Clinical Nurse Specialist, Nurse Manager, Research Associate, Advanced Practice Nurse in specialized departments." } },
+    { "@type": "Question", "name": "What is the M.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "₹1,25,000 per year for the 2-year program. Includes tuition, lab, clinical training, exam fees. Hostel: ₹60,000-75,000/year. Merit scholarships available." } }
+  ]
+};
+
+const mscBreadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "JKKN Institutions", "item": "https://jkkn.ac.in/" },
+    { "@type": "ListItem", "position": 2, "name": "College of Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+    { "@type": "ListItem", "position": 3, "name": "M.Sc Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" }
   ]
 };
 
@@ -122,7 +96,11 @@ export default function MScNursingLayout({
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscNursingFaqSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscFaqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscBreadcrumbSchema) }}
       />
       {children}
     </>
