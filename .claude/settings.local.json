@@ -8,7 +8,8 @@
       "Bash(npm run dev:*)",
       "Bash(npm run build:*)",
       "Bash(npm uninstall:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }

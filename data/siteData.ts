@@ -67,6 +67,19 @@ export const navigationMenu = [
     ],
   },
   {
+    label: "ADMISSIONS",
+    href: "#",
+    submenu: [
+      { label: "How to Apply", href: "/admissions" },
+      { label: "Fee Structure", href: "/fee-structure" },
+      { label: "Fees Refund Policy", href: "/fees-refund-policy" },
+    ],
+  },
+  {
+    label: "PLACEMENT",
+    href: "/placement",
+  },
+  {
     label: "GALLERY",
     href: "/gallery",
   },
@@ -100,7 +113,6 @@ export const navigationMenu = [
     label: "OTHERS",
     href: "#",
     submenu: [
-      { label: "Fees refund policy", href: "/fees-refund-policy" },
       { label: "NIRF", href: "/nirf-others" },
       { label: "Digital Campus", href: "https://jkkn.ac.in/digital-campus" },
       { label: "Academic Calendar", href: "/academic-calendar" },
@@ -130,7 +142,6 @@ export const navigationMenu = [
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Alumni", href: "https://alumni.jkkn.ac.in/login" },
       { label: "Faculty Details", href: "/faculty-details" },
-      { label: "Placement", href: "/placement" },
       { label: "E- CONTENT", href: "/e-content" },
       { label: "Feedback Analysis and Action Taken", href: "/feedback-analysis" },
     ],

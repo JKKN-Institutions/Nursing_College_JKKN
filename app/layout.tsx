@@ -93,7 +93,8 @@ const educationalOrgSchema = {
     }
   ],
   "parentOrganization": {
-    "@type": "Organization",
+    "@type": "EducationalOrganization",
+    "@id": "https://www.jkkn.ac.in/#organization",
     "name": "JKKN Institutions",
     "url": "https://jkkn.ac.in/"
   },
@@ -116,7 +117,8 @@ const educationalOrgSchema = {
     "https://www.facebook.com/jkknnursing",
     "https://www.instagram.com/jkknnursing",
     "https://www.linkedin.com/school/jkknnursing",
-    "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY"
+    "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+    "https://www.indiannursingcouncil.org/"
   ]
 };
 
