@@ -320,15 +320,20 @@ const scholarshipOfferSchema = {
 };
 
 export default async function Home() {
-  const supabase = await createClient();
-  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID ?? "nursing";
-  const { data: dbEvents } = await supabase
-    .from("events")
-    .select("id, slug, title, description, event_date, event_time, venue, image_url")
-    .eq("college_id", collegeId)
-    .eq("is_published", true)
-    .order("event_date", { ascending: true });
-  const events = dbEvents ?? [];
+  let events: { id: string; slug: string; title: string; description: string; event_date: string; event_time: string; venue: string; image_url: string }[] = [];
+  try {
+    const supabase = await createClient();
+    const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID ?? "nursing";
+    const { data: dbEvents } = await supabase
+      .from("events")
+      .select("id, slug, title, description, event_date, event_time, venue, image_url")
+      .eq("college_id", collegeId)
+      .eq("is_published", true)
+      .order("event_date", { ascending: true });
+    events = dbEvents ?? [];
+  } catch {
+    // Supabase not configured — proceed with empty events
+  }
 
   return (
     <>
