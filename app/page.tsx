@@ -19,7 +19,9 @@ import {
   BookOpenIcon,
   HomeModernIcon,
   PhoneIcon,
+  MapPinIcon,
 } from "@heroicons/react/24/outline";
+import { createClient } from "@/lib/supabase/server";
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -133,7 +135,201 @@ const faqSchema = {
   ]
 };
 
-export default function Home() {
+const medicalBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#localbusiness",
+  "name": "JKKN College of Nursing",
+  "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 98%+ placement rate.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "telephone": "+919345855001",
+  "email": "nursing@jkkn.ac.in",
+  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "priceRange": "₹75,000 - ₹1,25,000 per year",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+    "addressLocality": "Komarapalayam",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "638183",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "11.4102",
+    "longitude": "77.7274"
+  },
+  "hasMap": "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "areaServed": [
+    { "@type": "City", "name": "Komarapalayam" },
+    { "@type": "City", "name": "Namakkal" },
+    { "@type": "City", "name": "Salem" },
+    { "@type": "City", "name": "Erode" },
+    { "@type": "City", "name": "Tiruchengode" },
+    { "@type": "State", "name": "Tamil Nadu" }
+  ],
+  "currenciesAccepted": "INR",
+  "paymentAccepted": "Cash, Bank Transfer, UPI, Education Loan"
+};
+
+const itemListSchema = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Nursing Programs at JKKN College of Nursing",
+  "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing, Komarapalayam",
+  "numberOfItems": 4,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing", "description": "4-year undergraduate – 60 seats – ₹95,000/year" },
+    { "@type": "ListItem", "position": 2, "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing", "description": "2-year postgraduate with 5 specializations – 25 seats – ₹1,25,000/year" },
+    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – ₹85,000/year" },
+    { "@type": "ListItem", "position": 4, "name": "GNM", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/gnm", "description": "Diploma in General Nursing and Midwifery – ₹75,000/year" }
+  ]
+};
+
+const specialAnnouncementSchema = {
+  "@context": "https://schema.org",
+  "@type": "SpecialAnnouncement",
+  "name": "JKKN College of Nursing – Admissions Open 2026-27",
+  "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats), Post Basic B.Sc Nursing (50 seats), and GNM programs for the 2026-27 academic year. Merit scholarships up to 75% available.",
+  "datePosted": "2026-03-01",
+  "expires": "2026-08-31",
+  "category": "https://www.wikidata.org/wiki/Q7397",
+  "announcementLocation": {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
+    "name": "JKKN College of Nursing"
+  },
+  "url": "https://admission.jkkn.ac.in/"
+};
+
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Apply for Nursing Admission at JKKN College of Nursing",
+  "description": "Step-by-step guide to apply for B.Sc Nursing, M.Sc Nursing, or Post Basic B.Sc Nursing admission at JKKN College of Nursing, Komarapalayam.",
+  "totalTime": "PT30M",
+  "estimatedCost": { "@type": "MonetaryAmount", "currency": "INR", "value": "0" },
+  "step": [
+    { "@type": "HowToStep", "position": 1, "name": "Online Registration", "text": "Visit admission.jkkn.ac.in and fill the online application form with personal details, academic information, and program preference.", "url": "https://admission.jkkn.ac.in/" },
+    { "@type": "HowToStep", "position": 2, "name": "Upload Documents", "text": "Upload: 10+2 or B.Sc marksheets, Transfer Certificate, Community/Caste Certificate, Medical Fitness Certificate, Aadhaar Card, and passport photos." },
+    { "@type": "HowToStep", "position": 3, "name": "Merit-Based Selection", "text": "Candidates evaluated based on academic merit. Shortlisted candidates invited for counseling at JKKN campus." },
+    { "@type": "HowToStep", "position": 4, "name": "Counseling & Seat Allotment", "text": "Attend counseling at JKKN campus. Seats allotted based on merit rank, category, and specialization preference." },
+    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay fee (B.Sc: ₹95,000/yr, M.Sc: ₹1,25,000/yr, Post Basic: ₹85,000/yr) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://admission.jkkn.ac.in/" }
+  ]
+};
+
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+  "name": "JKKN College of Nursing",
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Priya Subramanian" },
+      "reviewBody": "The simulation labs at JKKN gave me the confidence I needed before clinical postings. Today I work as a Staff Nurse at Apollo Hospitals, Chennai.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "datePublished": "2025-06-15",
+      "itemReviewed": { "@type": "Course", "name": "B.Sc Nursing" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Rajesh Kumar" },
+      "reviewBody": "The research exposure and clinical specialization at JKKN's M.Sc program prepared me for an academic career. Now I'm a Nursing Lecturer.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "datePublished": "2025-08-20",
+      "itemReviewed": { "@type": "Course", "name": "M.Sc Nursing" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Anitha Murugan" },
+      "reviewBody": "The international placement support changed my life. From IELTS coaching to UK visa assistance. Now I'm earning in GBP with NHS UK.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
+      "datePublished": "2025-03-10",
+      "itemReviewed": { "@type": "Course", "name": "B.Sc Nursing" }
+    }
+  ]
+};
+
+const speakableSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#webpage",
+  "name": "JKKN College of Nursing – INC Approved Nursing College in Tamil Nadu",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".hero-description", ".stats-row"]
+  },
+  "about": {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college"
+  }
+};
+
+const profilePageSchema = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#profilepage",
+  "name": "JKKN College of Nursing – Official Profile",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "dateCreated": "2007-01-01",
+  "dateModified": "2026-03-10",
+  "mainEntity": {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
+    "name": "JKKN College of Nursing",
+    "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+    "foundingDate": "2007",
+    "knowsAbout": [
+      "B.Sc Nursing", "M.Sc Nursing", "Post Basic B.Sc Nursing", "GNM",
+      "Medical-Surgical Nursing", "OBG Nursing", "Pediatric Nursing",
+      "Psychiatric Nursing", "Community Health Nursing",
+      "Clinical Nursing Education", "International Nursing Careers",
+      "NHS UK Nursing Recruitment", "NCLEX Preparation", "Nursing Simulation Training"
+    ],
+    "keywords": "nursing college Tamil Nadu, B.Sc Nursing Komarapalayam, INC approved nursing college, nursing college near Salem, JKKN nursing, best nursing college Namakkal, M.Sc Nursing Tamil Nadu"
+  }
+};
+
+const scholarshipOfferSchema = {
+  "@context": "https://schema.org",
+  "@type": "Offer",
+  "name": "Merit Scholarship for Nursing Programs at JKKN",
+  "description": "Merit-based scholarships covering up to 75% of tuition fees for deserving students across all nursing programs at JKKN College of Nursing.",
+  "category": "Scholarship",
+  "offeredBy": {
+    "@type": "CollegeOrUniversity",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
+    "name": "JKKN College of Nursing"
+  },
+  "eligibleRegion": { "@type": "Country", "name": "India" },
+  "availability": "https://schema.org/InStock",
+  "validFrom": "2026-03-01",
+  "validThrough": "2026-08-31",
+  "url": "https://admission.jkkn.ac.in/"
+};
+
+export default async function Home() {
+  const supabase = await createClient();
+  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID ?? "nursing";
+  const { data: dbEvents } = await supabase
+    .from("events")
+    .select("id, slug, title, description, event_date, event_time, venue, image_url")
+    .eq("college_id", collegeId)
+    .eq("is_published", true)
+    .order("event_date", { ascending: true });
+  const events = dbEvents ?? [];
+
   return (
     <>
       <script
@@ -143,6 +339,38 @@ export default function Home() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalBusinessSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(specialAnnouncementSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(profilePageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(scholarshipOfferSchema) }}
       />
       <Header />
       <BreadcrumbSchema items={[
@@ -743,6 +971,79 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Events Section */}
+        {events.length > 0 && (
+          <section id="events" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+            <div className="container mx-auto px-8 md:px-16 lg:px-24">
+              <div className="text-center mb-12">
+                <p className="text-[#7cb983] text-sm font-bold uppercase tracking-wide mb-4">
+                  EVENTS
+                </p>
+                <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                  Upcoming & Recent Events
+                </h2>
+                <p className="text-gray-600 max-w-3xl mx-auto">
+                  Stay updated with workshops, seminars, health camps, and celebrations happening at JKKN College of Nursing.
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {events.map((event) => (
+                  <Link
+                    key={event.id}
+                    href={`/events/${event.slug}`}
+                    className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col"
+                  >
+                    {event.image_url && (
+                      <div className="relative w-full h-48">
+                        <Image
+                          src={event.image_url}
+                          alt={event.title}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6 flex flex-col flex-1">
+                      <div className="flex items-start justify-between mb-3">
+                        <div className="w-10 h-10 bg-[#006837] rounded-xl flex items-center justify-center flex-shrink-0">
+                          <CalendarIcon className="w-5 h-5 text-white" />
+                        </div>
+                      </div>
+                      <h3 className="text-lg font-bold text-[#006837] mb-2 group-hover:text-[#7cb983] transition-colors">
+                        {event.title}
+                      </h3>
+                      <p className="text-gray-600 text-sm leading-relaxed flex-1 mb-4 line-clamp-3">
+                        {event.description}
+                      </p>
+                      <div className="space-y-1.5 text-xs text-gray-500 border-t pt-4">
+                        {event.event_date && (
+                          <div className="flex items-center gap-2">
+                            <CalendarIcon className="w-4 h-4 text-[#7cb983]" />
+                            <span>{new Date(event.event_date).toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}</span>
+                          </div>
+                        )}
+                        {event.event_time && (
+                          <div className="flex items-center gap-2">
+                            <ClockIcon className="w-4 h-4 text-[#7cb983]" />
+                            <span>{event.event_time}</span>
+                          </div>
+                        )}
+                        {event.venue && (
+                          <div className="flex items-center gap-2">
+                            <MapPinIcon className="w-4 h-4 text-[#7cb983]" />
+                            <span className="truncate">{event.venue}</span>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Admissions Section */}
         <section className="py-20 bg-gradient-to-br from-gray-50 to-white">

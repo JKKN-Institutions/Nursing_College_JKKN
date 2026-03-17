@@ -52,9 +52,107 @@ export const metadata: Metadata = {
   },
 };
 
+const educationalOrganizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+  "name": "JKKN College of Nursing",
+  "alternateName": [
+    "Sresakthimayeil Institute of Nursing and Research",
+    "JKKN Nursing College",
+    "JKKN College of Nursing Komarapalayam"
+  ],
+  "description": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "foundingDate": "2007",
+  "telephone": "+919345855001",
+  "email": "nursing@jkkn.ac.in",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+    "addressLocality": "Komarapalayam",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "638183",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "11.4102",
+    "longitude": "77.7274"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+919345855001",
+      "contactType": "admissions",
+      "availableLanguage": ["English", "Tamil"],
+      "areaServed": "IN"
+    }
+  ],
+  "parentOrganization": {
+    "@type": "EducationalOrganization",
+    "@id": "https://jkkn.ac.in/#organization",
+    "name": "JKKN Institutions",
+    "url": "https://jkkn.ac.in/"
+  },
+  "memberOf": {
+    "@type": "Organization",
+    "name": "The Tamil Nadu Dr. M.G.R. Medical University",
+    "url": "https://www.tnmgrmu.ac.in/"
+  },
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Accreditation",
+      "recognizedBy": { "@type": "Organization", "name": "Indian Nursing Council (INC)" }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Recognition",
+      "recognizedBy": { "@type": "Organization", "name": "Tamil Nadu Nurses and Midwives Council (TNNMC)" }
+    }
+  ],
+  "numberOfStudents": "135",
+  "areaServed": [
+    { "@type": "State", "name": "Tamil Nadu" },
+    { "@type": "Country", "name": "India" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/jkkn.nursing/",
+    "https://www.facebook.com/JKKNInstitutions/",
+    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Nursing Programs at JKKN",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
+    ]
+  }
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#website",
+  "name": "JKKN College of Nursing",
+  "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization"
+  },
+  "inLanguage": "en"
+};
+
 const educationalOrgSchema = {
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
   "name": "JKKN College of Nursing",
   "alternateName": [
     "Sresakthimayeil Institute of Nursing and Research",
@@ -143,6 +241,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrganizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrgSchema) }}
