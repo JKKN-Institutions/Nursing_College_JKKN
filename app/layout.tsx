@@ -11,12 +11,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
-  description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited, TNMGRMU affiliated.",
+  title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
+  description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing programs. 98%+ placements, 500-bed hospital training. NAAC accredited, TNMGRMU affiliated.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
-    title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
-    description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
+    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
+    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sresakthimayeil Institute of Nursing — JKKN, Komarapalayam",
-    description: "Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing courses. NAAC accredited.",
+    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
+    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
     images: ["/images/nursing_logo.png"],
   },
   icons: {
@@ -112,6 +112,19 @@ const educationalOrgSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
     ]
   },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".speakable", "[data-speakable]"]
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Erode" },
+    { "@type": "City", "name": "Salem" },
+    { "@type": "City", "name": "Namakkal" },
+    { "@type": "City", "name": "Coimbatore" },
+    { "@type": "City", "name": "Tiruchengode" },
+    { "@type": "City", "name": "Tiruppur" },
+    { "@type": "AdministrativeArea", "name": "Namakkal District" }
+  ],
   "sameAs": [
     "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
     "https://www.facebook.com/jkknnursing",

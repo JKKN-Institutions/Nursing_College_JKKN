@@ -193,8 +193,42 @@ export default function BlogDetailPage() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "B.Ed Admission 2026 in Tamil Nadu: Eligibility, Process & Key Dates",
+    "description": "Complete guide to B.Ed admission 2026 in Tamil Nadu — eligibility criteria, TNTEU counseling process, fee structure, career scope, and how to apply at JKKN College of Education.",
+    "datePublished": "2026-02-20",
+    "dateModified": "2026-03-15",
+    "author": {
+      "@type": "Organization",
+      "name": "JKKN College of Nursing",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "JKKN College of Nursing",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/blog/bed-admission-2026-tamil-nadu"
+    },
+    "wordCount": 2200,
+    "articleSection": "B.Ed Admissions",
+    "inLanguage": "en"
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+      />
       <Header />
 
       {/* ── Article Header ── */}
