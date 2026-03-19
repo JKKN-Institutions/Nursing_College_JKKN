@@ -1,5 +1,12 @@
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+
 export default function MentalHealthNursing() {
   return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Psychiatric Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-mental-health" }
+      ]} />
     <div className="container mx-auto px-4 sm:px-6 lg:px-16 py-8">
       <h1 className="text-4xl font-bold text-primary mb-6">Mental Health Nursing</h1>
       <div className="prose max-w-none">
@@ -65,5 +72,6 @@ export default function MentalHealthNursing() {
         </section>
       </div>
     </div>
+    </>
   );
 }

@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function ResearchCommittee() {
   const breadcrumbItems = [
@@ -11,6 +12,10 @@ export default function ResearchCommittee() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Research Committee", url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee" }
+      ]} />
       <Header />
       <div className="pt-20 sm:pt-24 lg:pt-28">
         <Breadcrumb items={breadcrumbItems} />

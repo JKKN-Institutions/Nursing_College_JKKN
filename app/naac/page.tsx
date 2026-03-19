@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function NAAC() {
   const [activeSection, setActiveSection] = useState("overview");
@@ -29,6 +30,10 @@ export default function NAAC() {
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "NAAC", url: "https://nursing.sresakthimayeil.jkkn.ac.in/naac" }
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">
@@ -72,7 +77,7 @@ export default function NAAC() {
                   </h2>
                   <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
                     <p>
-                      India has one of the largest and most diverse education systems in the world. Privatization, widespread expansion, increased autonomy and introduction of Programmes in new and emerging areas have improved access to higher education. At the same time, it has also led to widespread concern on the quality and relevance of higher education. To address these Mconcerns, the National Policy on Education (NPE, 1986) and the Programme of Action (PoA, 1992) spelt out strategic plans for the policies and advocated the establishment of an independent National Accreditation Agency. Consequently, the National Assessment and Accreditation Council (NAAC) was established in 1994 as an autonomous institution of the University Grants Commission (UGC) with its Head Quarter in Bengaluru. The mandate of NAAC as reflected in its vision statement is to make quality assurance an integral part of the functioning of Higher Education Institutions (HEIs).
+                      India has one of the largest and most diverse education systems in the world. Privatization, widespread expansion, increased autonomy and introduction of Programmes in new and emerging areas have improved access to higher education. At the same time, it has also led to widespread concern on the quality and relevance of higher education. To address these Mconcerns, the National Policy on Education (NPE, 1986) and the Programme of Action (PoA, 1992) spelt out strategic plans for the policies and advocated the establishment of an independent National Accreditation Agency. Consequently, the <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">National Assessment and Accreditation Council (NAAC)</a> was established in 1994 as an autonomous institution of the University Grants Commission (UGC) with its Head Quarter in Bengaluru. The mandate of NAAC as reflected in its vision statement is to make quality assurance an integral part of the functioning of Higher Education Institutions (HEIs).
                     </p>
                     <p>
                       The NAAC functions through its General Council (GC) and Executive Committee (EC) comprising educational administrators, policy makers, and senior academicians from a cross-section of the Indian higher education system. The Chairperson of the UGC is the President of the

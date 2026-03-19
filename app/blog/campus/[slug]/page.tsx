@@ -130,12 +130,12 @@ export default async function CampusBlogPost({
     "dateModified": post.updated_at || post.published_at || post.created_at,
     "author": {
       "@type": "Organization",
-      "name": "JKKN College of Nursing",
+      "name": "Sresakthimayeil Institute of Nursing and Research",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "JKKN College of Nursing",
+      "name": "Sresakthimayeil Institute of Nursing and Research",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
       "logo": {
         "@type": "ImageObject",

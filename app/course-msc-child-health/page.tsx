@@ -4,6 +4,7 @@ import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,6 +44,90 @@ export default function MScChildHealthNursing() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+          { name: "M.Sc Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
+          { name: "Child Health Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Sc Child Health (Paediatric) Nursing",
+              "description": "A 2-year postgraduate nursing specialization in Child Health (Paediatric) Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers NICU, PICU, pediatric emergency, pediatric specialty units, and community child health nursing.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+              },
+              "timeRequired": "P2Y",
+              "educationalCredentialAwarded": "M.Sc Nursing (Child Health Nursing)",
+              "coursePrerequisites": "B.Sc Nursing or Post Basic B.Sc Nursing with minimum 55% marks and 1 year clinical experience",
+              "availableLanguage": "English",
+              "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the duration of M.Sc Nursing in Child Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "M.Sc Nursing in Child Health Nursing is a 2-year full-time postgraduate program divided into 4 semesters. The first year focuses on core nursing subjects, child growth and development, pediatric foundations, and research methodology. The second year emphasizes advanced neonatal and pediatric clinical specialization, teaching practicum, and dissertation/thesis work in pediatric nursing."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the eligibility criteria for M.Sc Nursing in Child Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Candidates must have completed B.Sc Nursing (4-year course) or Post Basic B.Sc Nursing with a minimum of 55% aggregate marks from a recognized university. Additionally, applicants must possess valid registration with the State Nursing Council as RN/RM and have at least 1 year of clinical work experience after completing their basic nursing degree. Experience in pediatric settings is preferred but not mandatory."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What career opportunities are available after completing M.Sc in Child Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Graduates can pursue diverse careers including Pediatric Nursing Educator/Lecturer at nursing colleges, Pediatric Clinical Nurse Specialist in children's hospitals, NICU/PICU In-charge, Child Health Program Manager, Pediatric Nursing Research Associate, Nurse Administrator in pediatric healthcare settings, and can pursue Ph.D. in Nursing for academic and research careers in child health."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the M.Sc Nursing program at JKKN approved by INC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What clinical areas are covered in Child Health Nursing specialization?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Child Health Nursing specialization encompasses Neonatal Intensive Care (NICU), Pediatric Intensive Care (PICU), pediatric emergency nursing, pediatric cardiology, pediatric neurology, pediatric oncology, pediatric surgery, developmental pediatrics, and community child health nursing. Learners gain comprehensive expertise in caring for neonates, infants, children, and adolescents across multiple clinical settings."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What clinical exposure will learners receive during the Child Health Nursing program?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Learners receive over 1000 hours of supervised clinical practice in affiliated hospitals with pediatric specialties. Clinical rotations include Neonatal ICU (NICU), Pediatric ICU (PICU), pediatric emergency departments, pediatric medical and surgical wards, pediatric specialty units (cardiology, oncology, neurology), and community child health centers."
+                  }
+                }
+              ]
+            }
+          ])
+        }}
+      />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white py-16 md:py-24">
@@ -53,6 +138,14 @@ export default function MScChildHealthNursing() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 mt-12 md:mt-16">
                 M.Sc Nursing - <span className="text-[#7cb983]">Child Health Nursing</span>
               </h1>
+
+              <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
+
+              <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
+                <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Child Health (Pediatric Nursing), approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Advanced training in pediatric care, neonatal nursing, and child development at the 500+ bed teaching hospital.</p>
+              </div>
+
               <p className="text-xl md:text-2xl text-[#a8d5b0] mb-6">
                 Specialized Pediatric & Neonatal Nursing Excellence
               </p>
@@ -116,7 +209,7 @@ export default function MScChildHealthNursing() {
             <div className="relative">
               <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/Child-Health-Nursing-Hero-Banner-image.png"
+                  src="/images/Child-Health-Nursing-Hero-Banner-image.webp"
                   alt="Child Health Nursing Training"
                   fill
                   className="object-cover"
@@ -173,7 +266,7 @@ export default function MScChildHealthNursing() {
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-6">
               <p className="text-gray-700 leading-relaxed">
-                The Master of Science in Nursing with specialization in Child Health Nursing (Pediatric Nursing) at JKKN College of Nursing is a two-year, full-time postgraduate program designed to prepare registered nurses for advanced roles in pediatric clinical practice, nursing education, research, and administration.
+                The Master of Science in Nursing with specialization in Child Health Nursing (Pediatric Nursing) at Sresakthimayeil Institute of Nursing and Research is a two-year, full-time postgraduate program designed to prepare registered nurses for advanced roles in pediatric clinical practice, nursing education, research, and administration.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 This program provides comprehensive knowledge of child growth and development, pediatric pathophysiology, neonatal nursing, advanced pediatric assessment skills, and evidence-based pediatric nursing practice. Learners develop expertise in caring for neonates, infants, children, and adolescents across various clinical settings including NICUs, PICUs, pediatric wards, and community health centers.
@@ -972,7 +1065,7 @@ export default function MScChildHealthNursing() {
             {/* Note */}
             <div className="mt-8 bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <p className="text-gray-700 leading-relaxed">
-                <span className="font-semibold text-[#002309]">Note:</span> Fee structure is indicative and subject to revision. Additional charges may apply for hostel accommodation, examination fees, and other miscellaneous expenses. Scholarships and educational loans are available for eligible learners. Contact the admission office for the latest fee details and payment options.
+                <span className="font-semibold text-[#002309]">Note:</span> Fee structure is reviewed annually. Additional charges apply for hostel accommodation, examination fees, and other miscellaneous expenses. Scholarships and educational loans are available for eligible learners. Contact the admission office for the latest fee details and payment options.
               </p>
             </div>
           </div>
@@ -1010,7 +1103,7 @@ export default function MScChildHealthNursing() {
 
             <FAQItem
               question="Is the M.Sc Nursing program at JKKN approved by INC?"
-              answer="Yes, the M.Sc Nursing program at JKKN College of Nursing is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
+              answer="Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
             />
 
             <FAQItem
@@ -1025,7 +1118,7 @@ export default function MScChildHealthNursing() {
 
             <FAQItem
               question="Are scholarships available for M.Sc Nursing learners?"
-              answer="Yes, JKKN College of Nursing offers various scholarship opportunities for deserving learners based on academic merit, financial need, and other criteria. Additionally, learners may be eligible for government scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office provides guidance on available financial assistance options for postgraduate nursing education."
+              answer="Yes, Sresakthimayeil Institute of Nursing and Research offers various scholarship opportunities for deserving learners based on academic merit, financial need, and other criteria. Additionally, learners are eligible for government scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office provides guidance on available financial assistance options for postgraduate nursing education."
             />
 
             <FAQItem
@@ -1065,6 +1158,17 @@ export default function MScChildHealthNursing() {
       
         </div>
       </section>
+
+      {/* Institutional Authority Block */}
+      <div className="container-custom">
+        <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+          <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+          <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+          <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+          <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+          <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+        </div>
+      </div>
 
       <Footer hideLifeAtJKKN />
       <FloatingButtons />

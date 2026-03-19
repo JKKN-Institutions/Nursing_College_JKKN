@@ -11,29 +11,32 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-  description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing programs. 98%+ placements, 500-bed hospital training. NAAC accredited, TNMGRMU affiliated.",
+  title: "JKKN College of Nursing | Top BSc Nursing Tamil Nadu",
+  description: "JKKN College of Nursing, Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 97% placements, 500-bed hospital training, NAAC accredited.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
+  other: {
+    "theme-color": "#0b7845",
+  },
   openGraph: {
-    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
+    title: "JKKN College of Nursing | Top BSc Nursing Tamil Nadu",
+    description: "JKKN College of Nursing, Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 97% placements, 500-bed hospital training, NAAC accredited.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
     images: [
       {
-        url: "/images/nursing_logo.png",
+        url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing Campus",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
-    images: ["/images/nursing_logo.png"],
+    title: "JKKN College of Nursing | Top BSc Nursing Tamil Nadu",
+    description: "JKKN College of Nursing, Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 97% placements, 500-bed hospital training, NAAC accredited.",
+    images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
   icons: {
     icon: "/images/nursing_logo.png",
@@ -56,13 +59,13 @@ const educationalOrganizationSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-  "name": "JKKN College of Nursing",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
   "alternateName": [
-    "Sresakthimayeil Institute of Nursing and Research",
+    "JKKN College of Nursing",
     "JKKN Nursing College",
-    "JKKN College of Nursing Komarapalayam"
+    "Sresakthimayeil Institute of Nursing and Research Komarapalayam"
   ],
-  "description": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
+  "description": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 97% placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
@@ -79,8 +82,8 @@ const educationalOrganizationSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "11.4102",
-    "longitude": "77.7274"
+    "latitude": "11.4333",
+    "longitude": "77.7167"
   },
   "contactPoint": [
     {
@@ -120,9 +123,15 @@ const educationalOrganizationSchema = {
     { "@type": "Country", "name": "India" }
   ],
   "sameAs": [
-    "https://www.instagram.com/jkkn.nursing/",
-    "https://www.facebook.com/JKKNInstitutions/",
-    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6"
+    "https://www.facebook.com/jkknnursing",
+    "https://www.instagram.com/jkknnursing",
+    "https://www.linkedin.com/school/jkknnursing",
+    "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+    "https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions",
+    "https://www.wikidata.org/wiki/Q55090877",
+    "https://www.indiannursingcouncil.org/",
+    "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -132,6 +141,10 @@ const educationalOrganizationSchema = {
       { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
       { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
     ]
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".tldr-summary", ".key-facts"]
   }
 };
 
@@ -139,8 +152,8 @@ const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#website",
-  "name": "JKKN College of Nursing",
-  "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
+  "alternateName": "JKKN College of Nursing",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "publisher": {
     "@type": "EducationalOrganization",
@@ -153,9 +166,9 @@ const educationalOrgSchema = {
   "@context": "https://schema.org",
   "@type": "CollegeOrUniversity",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-  "name": "JKKN College of Nursing",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
   "alternateName": [
-    "Sresakthimayeil Institute of Nursing and Research",
+    "JKKN College of Nursing",
     "JKKN Nursing College",
     "Sresakthimayeil Nursing College"
   ],
@@ -229,7 +242,10 @@ const educationalOrgSchema = {
     "https://www.instagram.com/jkknnursing",
     "https://www.linkedin.com/school/jkknnursing",
     "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
-    "https://www.indiannursingcouncil.org/"
+    "https://www.indiannursingcouncil.org/",
+    "https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions",
+    "https://www.wikidata.org/wiki/Q55090877",
+    "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
   ]
 };
 
@@ -241,6 +257,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrganizationSchema) }}

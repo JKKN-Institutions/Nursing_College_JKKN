@@ -1,14 +1,26 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+
+export const metadata: Metadata = {
+  title: "Contact Sresakthimayeil Institute of Nursing and Research | Phone, Email, Location",
+  description: "Contact Sresakthimayeil Institute of Nursing and Research at +91 93458 55001 or nursing@jkkn.ac.in. Visit us at Komarapalayam, NH-544, Namakkal, Tamil Nadu 638183.",
+};
 
 export default function Contact() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Contact", url: "https://nursing.sresakthimayeil.jkkn.ac.in/contact" }
+      ]} />
       <Header />
 
       <main className="bg-[#FBFBEE] pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-10 lg:pb-16">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Contact Sresakthimayeil Institute of Nursing and Research</h1>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
             {/* Left Column - Contact Info */}
             <div>
@@ -80,7 +92,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg sm:text-xl font-bold text-[#002309] mb-2 sm:mb-3">Address</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                      JKKN College of Nursing<br />
+                      Sresakthimayeil Institute of Nursing and Research<br />
                       NATARAJAPURAM, NH-544 (SALEM TO COIMBATORE),<br />
                       KOMARAPALAYAM – 638183, NAMAKKAL (DT)
                     </p>

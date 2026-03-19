@@ -9,6 +9,14 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/classroom",
     siteName: "JKKN College of Nursing",
+    images: [
+      {
+        url: "/images/Homepage-Hero_Banner-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "JKKN College of Nursing",
+      },
+    ],
   },
   robots: {
     index: true,

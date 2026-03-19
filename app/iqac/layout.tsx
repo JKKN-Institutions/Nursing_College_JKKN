@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Internal Quality Assurance Cell (IQAC) at JKKN Nursing College. Quality enhancement and accreditation initiatives.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "Sresakthimayeil Institute of Nursing and Research",
       },
     ],
   },

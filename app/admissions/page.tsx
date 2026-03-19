@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Admissions 2026 | Sresakthimayeil Institute of Nursing and Research, Tamil Nadu",
+  description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research. NEET-based admission. INC approved. Scholarships available.",
+};
 
 export default function Admissions() {
   return (
@@ -18,6 +24,15 @@ export default function Admissions() {
           ]}
         />
 
+        {/* ── TIMESTAMP & TL;DR ──────────────────────────────────── */}
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 pt-6">
+          <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
+          <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
+            <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at admission.jkkn.ac.in or contact +91 93458 55001.</p>
+          </div>
+        </div>
+
         {/* ── 1. HERO BANNER ─────────────────────────────────────── */}
         <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white py-16 md:py-24">
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
@@ -25,7 +40,7 @@ export default function Admissions() {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              INC Approved · NAAC Accredited · TNMGRMU Affiliated
+              <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved · <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited · <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Affiliated
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
@@ -65,7 +80,7 @@ export default function Admissions() {
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
             <div className="text-center mb-10">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0b7845] mb-3">
-                Why Choose JKKN College of Nursing?
+                Why Choose Sresakthimayeil Institute of Nursing and Research?
               </h2>
               <div className="w-16 h-1 bg-[#7cb983] mx-auto mb-4"></div>
               <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
@@ -102,7 +117,7 @@ export default function Admissions() {
                   📈
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">98%+ Placement Rate</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">97% Placement Rate</h3>
                   <p className="text-gray-600 text-sm">Consistently high placement record with graduates placed in leading hospitals across India and abroad.</p>
                 </div>
               </div>
@@ -152,7 +167,7 @@ export default function Admissions() {
               </h2>
               <div className="w-16 h-1 bg-[#7cb983] mx-auto mb-4"></div>
               <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
-                Follow these 6 simple steps to secure your seat at JKKN College of Nursing
+                Follow these 6 simple steps to secure your seat at Sresakthimayeil Institute of Nursing and Research
               </p>
             </div>
 
@@ -274,7 +289,7 @@ export default function Admissions() {
               <svg className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
-              Fees are subject to revision. See{" "}
+              Fees are reviewed annually. See{" "}
               <Link href="/fee-structure" className="text-[#006837] underline hover:text-[#004d28]">
                 Fee Structure
               </Link>{" "}
@@ -545,6 +560,17 @@ export default function Admissions() {
             </div>
           </div>
         </section>
+
+        {/* ── INSTITUTIONAL AUTHORITY BLOCK ──────────────────────── */}
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
 
       </main>
       <Footer hideLifeAtJKKN={true} />

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "State-of-the-art nursing laboratories with modern equipment for practical training at JKKN, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/laboratories",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "Sresakthimayeil Institute of Nursing and Research",
       },
     ],
   },

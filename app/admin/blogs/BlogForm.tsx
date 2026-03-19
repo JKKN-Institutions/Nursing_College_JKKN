@@ -68,7 +68,7 @@ const DEFAULT_SECTIONS: BlogSections = {
   career_scope_title: 'Career Scope After B.Ed',
   mid_cta_heading: 'Ready to Start Your Teaching Career?',
   mid_cta_description:
-    'Apply for B.Ed 2026 at JKKN College of Education — 100 seats, NCTE approved, TNTEU affiliated, and 98% placement rate.',
+    'Apply for B.Ed 2026 at JKKN College of Education — 60 seats, NCTE approved, TNTEU affiliated, and 98% placement rate.',
   mid_cta_button1: 'Apply Now →',
   mid_cta_button2: 'Contact Admissions',
   why_jkkn: '',
@@ -80,7 +80,7 @@ const DEFAULT_SECTIONS: BlogSections = {
     'The content team at JKKN College of Education creates evidence-based educational content about teacher education, career guidance, and academic pathways. Our faculty includes experienced teacher-educators and researchers affiliated to Tamil Nadu Teachers Education University (TNTEU).',
   sidebar_status: 'OPEN',
   sidebar_heading: 'B.Ed Admission 2026',
-  sidebar_description: '100 Seats Available at JKKN College of Education, Komarapalayam',
+  sidebar_description: '60 Seats Available at JKKN College of Education, Komarapalayam',
   sidebar_phone: '+91 9345855001',
 };
 
@@ -917,7 +917,7 @@ export default function BlogForm({ blog }: BlogFormProps) {
                   onChange={(v) =>
                     setSections((s) => ({ ...s, sidebar_description: v }))
                   }
-                  placeholder="100 Seats Available..."
+                  placeholder="60 Seats Available..."
                 />
                 <TextInput
                   label="Phone Number"

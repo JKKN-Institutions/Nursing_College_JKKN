@@ -2,10 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function IQAC() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "IQAC", url: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac" }
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] pt-20 sm:pt-24 lg:pt-28">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">

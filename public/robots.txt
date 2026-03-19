@@ -529,6 +529,9 @@ Disallow: /
 # ---------------------------------------------------------------------------
 
 Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap.xml
+Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-blog.xml
+Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-courses.xml
+Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-pages.xml
 Host: https://nursing.sresakthimayeil.jkkn.ac.in
 
 # =============================================================================

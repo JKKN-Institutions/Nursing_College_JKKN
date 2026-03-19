@@ -26,9 +26,9 @@ import { createClient } from "@/lib/supabase/server";
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
-  "name": "JKKN College of Nursing",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
   "alternateName": "Sresakthimayeil Institute of Nursing and Research",
-  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 97% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "info@jkkn.ac.in",
@@ -78,7 +78,7 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Is JKKN College of Nursing approved by INC?",
+      "name": "Is Sresakthimayeil Institute of Nursing and Research approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes, J.K.K. Nattraja College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
@@ -89,7 +89,7 @@ const faqSchema = {
       "name": "What is the fee structure for nursing programs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000, GNM - ₹75,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners."
+        "text": "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners."
       }
     },
     {
@@ -97,7 +97,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has 97% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -121,7 +121,7 @@ const faqSchema = {
       "name": "Is hostel accommodation mandatory?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Hostel is not mandatory but strongly recommended for nursing Learners due to clinical posting schedules that may include early morning and evening shifts. Our hostels offer 24/7 security, Wi-Fi, mess with nutritious meals, gym, recreation room, and are located within the campus for safety and convenience. Day scholars are also welcome if they can manage clinical posting timings."
+        "text": "Hostel is not mandatory but strongly recommended for nursing Learners due to clinical posting schedules that include early morning and evening shifts. Our hostels offer 24/7 security, Wi-Fi, mess with nutritious meals, gym, recreation room, and are located within the campus for safety and convenience. Day scholars are also welcome if they can manage clinical posting timings."
       }
     },
     {
@@ -139,9 +139,9 @@ const medicalBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#localbusiness",
-  "name": "JKKN College of Nursing",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
   "alternateName": "Sresakthimayeil Institute of Nursing and Research",
-  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 98%+ placement rate.",
+  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 97% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
@@ -184,29 +184,28 @@ const medicalBusinessSchema = {
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Nursing Programs at JKKN College of Nursing",
-  "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing, Komarapalayam",
-  "numberOfItems": 4,
+  "name": "Nursing Programs at Sresakthimayeil Institute of Nursing and Research",
+  "description": "Complete list of INC-approved nursing programs offered at Sresakthimayeil Institute of Nursing and Research, Komarapalayam",
+  "numberOfItems": 3,
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing", "description": "4-year undergraduate – 60 seats – ₹95,000/year" },
     { "@type": "ListItem", "position": 2, "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing", "description": "2-year postgraduate with 5 specializations – 25 seats – ₹1,25,000/year" },
-    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – ₹85,000/year" },
-    { "@type": "ListItem", "position": 4, "name": "GNM", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/gnm", "description": "Diploma in General Nursing and Midwifery – ₹75,000/year" }
+    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – ₹85,000/year" }
   ]
 };
 
 const specialAnnouncementSchema = {
   "@context": "https://schema.org",
   "@type": "SpecialAnnouncement",
-  "name": "JKKN College of Nursing – Admissions Open 2026-27",
-  "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats), Post Basic B.Sc Nursing (50 seats), and GNM programs for the 2026-27 academic year. Merit scholarships up to 75% available.",
+  "name": "Sresakthimayeil Institute of Nursing and Research – Admissions Open 2026-27",
+  "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats), and Post Basic B.Sc Nursing (50 seats) for the 2026-27 academic year. Merit scholarships up to 75% available.",
   "datePosted": "2026-03-01",
   "expires": "2026-08-31",
   "category": "https://www.wikidata.org/wiki/Q7397",
   "announcementLocation": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing"
+    "name": "Sresakthimayeil Institute of Nursing and Research"
   },
   "url": "https://admission.jkkn.ac.in/"
 };
@@ -214,8 +213,8 @@ const specialAnnouncementSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Apply for Nursing Admission at JKKN College of Nursing",
-  "description": "Step-by-step guide to apply for B.Sc Nursing, M.Sc Nursing, or Post Basic B.Sc Nursing admission at JKKN College of Nursing, Komarapalayam.",
+  "name": "How to Apply for Nursing Admission at Sresakthimayeil Institute of Nursing and Research",
+  "description": "Step-by-step guide to apply for B.Sc Nursing, M.Sc Nursing, or Post Basic B.Sc Nursing admission at Sresakthimayeil Institute of Nursing and Research, Komarapalayam.",
   "totalTime": "PT30M",
   "estimatedCost": { "@type": "MonetaryAmount", "currency": "INR", "value": "0" },
   "step": [
@@ -231,7 +230,7 @@ const reviewSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-  "name": "JKKN College of Nursing",
+  "name": "Sresakthimayeil Institute of Nursing and Research",
   "review": [
     {
       "@type": "Review",
@@ -264,7 +263,7 @@ const speakableSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#webpage",
-  "name": "JKKN College of Nursing – INC Approved Nursing College in Tamil Nadu",
+  "name": "Sresakthimayeil Institute of Nursing and Research – INC Approved Nursing College in Tamil Nadu",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "speakable": {
     "@type": "SpeakableSpecification",
@@ -280,18 +279,18 @@ const profilePageSchema = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#profilepage",
-  "name": "JKKN College of Nursing – Official Profile",
+  "name": "Sresakthimayeil Institute of Nursing and Research – Official Profile",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "dateCreated": "2007-01-01",
   "dateModified": "2026-03-10",
   "mainEntity": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing",
+    "name": "Sresakthimayeil Institute of Nursing and Research",
     "alternateName": "Sresakthimayeil Institute of Nursing and Research",
     "foundingDate": "2007",
     "knowsAbout": [
-      "B.Sc Nursing", "M.Sc Nursing", "Post Basic B.Sc Nursing", "GNM",
+      "B.Sc Nursing", "M.Sc Nursing", "Post Basic B.Sc Nursing",
       "Medical-Surgical Nursing", "OBG Nursing", "Pediatric Nursing",
       "Psychiatric Nursing", "Community Health Nursing",
       "Clinical Nursing Education", "International Nursing Careers",
@@ -305,12 +304,12 @@ const scholarshipOfferSchema = {
   "@context": "https://schema.org",
   "@type": "Offer",
   "name": "Merit Scholarship for Nursing Programs at JKKN",
-  "description": "Merit-based scholarships covering up to 75% of tuition fees for deserving students across all nursing programs at JKKN College of Nursing.",
+  "description": "Merit-based scholarships covering up to 75% of tuition fees for deserving students across all nursing programs at Sresakthimayeil Institute of Nursing and Research.",
   "category": "Scholarship",
   "offeredBy": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing"
+    "name": "Sresakthimayeil Institute of Nursing and Research"
   },
   "eligibleRegion": { "@type": "Country", "name": "India" },
   "availability": "https://schema.org/InStock",
@@ -380,7 +379,7 @@ export default async function Home() {
       <Header />
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
-        { name: 'JKKN College of Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'Sresakthimayeil Institute of Nursing and Research', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
       ]} />
       <main className="overflow-x-hidden !pt-0">
         {/* Hero Section */}
@@ -392,20 +391,20 @@ export default async function Home() {
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6 md:mb-8">
                   <BuildingOffice2Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                   <span className="text-white text-xs sm:text-sm md:text-base font-medium">
-                    INC Approved | TNNMC Recognized | Tamil Nadu's Premier Nursing College
+                    <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved | TNNMC Recognized | Tamil Nadu&apos;s Premier Nursing College
                   </span>
                 </div>
 
                 {/* Heading */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6">
-                  Begin Your Journey in
+                  Begin Your Journey at
                   <br />
-                  <span className="text-[#7cb983]">Nursing Excellence</span>
+                  <span className="text-[#7cb983]">Sresakthimayeil Institute of Nursing and Research</span>
                 </h1>
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
+                  Join Sresakthimayeil Institute of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 97% placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -436,8 +435,8 @@ export default async function Home() {
                   {/* Image with curved edges */}
                   <div className="relative rounded-[30px] sm:rounded-[35px] lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-white/20">
                     <Image
-                      src="/images/Homepage-Hero_Banner-image.png"
-                      alt="JKKN College of Nursing"
+                      src="/images/Homepage-Hero_Banner-image.webp"
+                      alt="Sresakthimayeil Institute of Nursing and Research campus building at Komarapalayam, Namakkal — INC-approved nursing college on NH-544"
                       width={450}
                       height={450}
                       className="object-cover w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px]"
@@ -461,7 +460,7 @@ export default async function Home() {
                     <div className="flex items-center gap-1.5 sm:gap-2">
                       <StarIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#f59e0b]" />
                       <div>
-                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98%+ Placement</p>
+                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">97% Placement</p>
                         <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Success Rate</p>
                       </div>
                     </div>
@@ -480,7 +479,7 @@ export default async function Home() {
             <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-8 sm:mt-10 md:mt-12">
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
-                { number: "98%+", label: "PLACEMENT RATE" },
+                { number: "97%", label: "PLACEMENT RATE" },
                 { number: "500+", label: "BED HOSPITAL\nTRAINING" },
                 { number: "500+", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
@@ -503,6 +502,7 @@ export default async function Home() {
         {/* About Section */}
         <section className="py-10 sm:py-14 md:py-20 bg-[#FBFBEE]">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
+            <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
             {/* Info Cards Row */}
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl p-4 sm:p-6 md:p-8 mb-8 sm:mb-12 md:mb-16">
               <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
@@ -563,10 +563,10 @@ export default async function Home() {
                   Nurturing Compassionate Healthcare Leaders Since 2007
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
+                  Sresakthimayeil Institute of Nursing and Research, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced Learning Facilitators combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
+                  Affiliated with <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Tamil Nadu Dr. M.G.R. Medical University</a>, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced Learning Facilitators combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
                 </p>
 
                 {/* Features */}
@@ -612,8 +612,8 @@ export default async function Home() {
                 </div>
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Simulation-lab-image.png"
-                    alt="JKKN Nursing College Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
+                    src="/images/Simulation-lab-image.webp"
+                    alt="Nursing simulation laboratory at Sresakthimayeil Institute of Nursing and Research, Komarapalayam — students practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
                     className="w-full h-auto object-cover"
@@ -764,7 +764,7 @@ export default async function Home() {
                 WHY CHOOSE US
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">
-                Why JKKN College of Nursing?
+                Why Sresakthimayeil Institute of Nursing and Research?
               </h2>
               <p className="text-sm sm:text-base text-white/80 max-w-3xl mx-auto px-2">
                 Experience world-class nursing education with clinical excellence, modern facilities, and exceptional career opportunities.
@@ -838,7 +838,7 @@ export default async function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
               {[
-                { number: "98%+", label: "Placement Rate" },
+                { number: "97%", label: "Placement Rate" },
                 { number: "₹4.2L", label: "Avg. Package" },
                 { number: "₹25L", label: "Highest (International)" },
                 { number: "80+", label: "Recruiting Partners" },
@@ -989,7 +989,7 @@ export default async function Home() {
                   Upcoming & Recent Events
                 </h2>
                 <p className="text-gray-600 max-w-3xl mx-auto">
-                  Stay updated with workshops, seminars, health camps, and celebrations happening at JKKN College of Nursing.
+                  Stay updated with workshops, seminars, health camps, and celebrations happening at Sresakthimayeil Institute of Nursing and Research.
                 </p>
               </div>
 
@@ -1157,7 +1157,7 @@ export default async function Home() {
                 What Our Learners Say
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Hear from our Learners and alumni about their transformative experience at JKKN College of Nursing.
+                Hear from our Learners and alumni about their transformative experience at Sresakthimayeil Institute of Nursing and Research.
               </p>
             </div>
 
@@ -1233,19 +1233,19 @@ export default async function Home() {
               {[
                 
                 {
-                  question: "Is JKKN College of Nursing approved by INC?",
+                  question: "Is Sresakthimayeil Institute of Nursing and Research approved by INC?",
                   answer:
                     "Yes, J.K.K. Nattraja College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
                 },
                 {
                   question: "What is the fee structure for nursing programs?",
                   answer:
-                    "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000, GNM - ₹75,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners.",
+                    "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners.",
                 },
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has 97% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",
@@ -1260,7 +1260,7 @@ export default async function Home() {
                 {
                   question: "Is hostel accommodation mandatory?",
                   answer:
-                    "Hostel is not mandatory but strongly recommended for nursing Learners due to clinical posting schedules that may include early morning and evening shifts. Our hostels offer 24/7 security, Wi-Fi, mess with nutritious meals, gym, recreation room, and are located within the campus for safety and convenience. Day scholars are also welcome if they can manage clinical posting timings.",
+                    "Hostel is not mandatory but strongly recommended for nursing Learners due to clinical posting schedules that include early morning and evening shifts. Our hostels offer 24/7 security, Wi-Fi, mess with nutritious meals, gym, recreation room, and are located within the campus for safety and convenience. Day scholars are also welcome if they can manage clinical posting timings.",
                 },
                 {
                   question: "What are the M.Sc Nursing specializations available?",
@@ -1289,6 +1289,17 @@ export default async function Home() {
           </div>
         </section>
 
+        {/* Institutional Authority Block */}
+        <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 py-8">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
+
         {/* Final CTA Section */}
         <section className="py-20 bg-[#7cb983]">
           <div className="container mx-auto px-8 md:px-16 lg:px-24 text-center">
@@ -1296,7 +1307,7 @@ export default async function Home() {
               Ready to Begin Your Nursing Journey?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-3xl mx-auto">
-              Join JKKN College of Nursing and become part of a legacy of healthcare excellence spanning 100 years. Applications for 2026-27 are now open.
+              Join Sresakthimayeil Institute of Nursing and Research and become part of a legacy of healthcare excellence spanning 100 years. Applications for 2026-27 are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a

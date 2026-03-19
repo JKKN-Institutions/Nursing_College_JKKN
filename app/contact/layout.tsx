@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Contact Sresakthimayeil Institute of Nursing, Natarajapuram, Komarapalayam. Phone, email, map directions, and admission enquiry details.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/contact",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "Sresakthimayeil Institute of Nursing and Research",
       },
     ],
   },

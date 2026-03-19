@@ -20,6 +20,7 @@ export default function AntiSexualHarassment() {
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-4">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-6">Anti-Sexual Harassment Policy — JKKN College of Nursing</h1>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Internal Compliance Committee
             </h2>

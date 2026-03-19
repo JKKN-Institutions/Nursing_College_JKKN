@@ -5,18 +5,24 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function Activities() {
   const [activeTab, setActiveTab] = useState<"staff" | "student">("student");
 
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Activities", url: "https://nursing.sresakthimayeil.jkkn.ac.in/activities" },
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] pb-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Title */}
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Activities — Sresakthimayeil Institute of Nursing and Research</h1>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Activities
             </h2>

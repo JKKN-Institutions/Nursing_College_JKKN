@@ -2,10 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Image from "next/image";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function Wifi() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "WiFi Campus", url: "https://nursing.sresakthimayeil.jkkn.ac.in/wifi" }
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Main Title */}
@@ -57,7 +62,7 @@ export default function Wifi() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Main Paragraph */}
             <p className="text-gray-700 leading-relaxed text-justify">
-              Welcome to JKKN College of Nursing! Our campus offers state-of-the-art facilities, including high-speed wifi connectivity, ensuring students stay connected and engaged in their academic journey. With seamless internet access across the campus, students can access online resources, research materials, and collaborate with peers effortlessly. Our robust wifi network enables innovative learning experiences, empowering students to explore new ideas and stay ahead in a rapidly evolving world. Whether it&#39;s attending virtual lectures, participating in e-learning platforms, or connecting with faculty, our reliable wifi infrastructure supports a dynamic and interactive learning environment. At JKKN College of Nursing, we understand the importance of connectivity, and our dedicated IT team ensures smooth, uninterrupted access to the digital realm. Embrace the power of connectivity as you embark on a transformative educational experience at JKKN College of Nursing!
+              Welcome to Sresakthimayeil Institute of Nursing and Research! Our campus offers state-of-the-art facilities, including high-speed wifi connectivity, ensuring students stay connected and engaged in their academic journey. With seamless internet access across the campus, students can access online resources, research materials, and collaborate with peers effortlessly. Our robust wifi network enables innovative learning experiences, empowering students to explore new ideas and stay ahead in a rapidly evolving world. Whether it&#39;s attending virtual lectures, participating in e-learning platforms, or connecting with faculty, our reliable wifi infrastructure supports a dynamic and interactive learning environment. At Sresakthimayeil Institute of Nursing and Research, we understand the importance of connectivity, and our dedicated IT team ensures smooth, uninterrupted access to the digital realm. Embrace the power of connectivity as you embark on a transformative educational experience at Sresakthimayeil Institute of Nursing and Research!
             </p>
           </div>
         </div>

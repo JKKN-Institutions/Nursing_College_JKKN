@@ -1,87 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Course Pages -->
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <!-- M.Sc Specializations -->
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/mental-health-nursing</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/department-of-community-health-nursing</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/naac</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/iqac</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/research-committee</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/activities</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health</loc>
+    <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/ilr</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Departments -->
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dept-medical-surgical</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/ivbp</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/curricular-aspects</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dept-child-health</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/curricular-aspects-2</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dept-mental-health</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/mrs-arockia-mary-m</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dept-obstetrics-gynecological</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

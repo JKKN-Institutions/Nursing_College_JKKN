@@ -1,12 +1,17 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 
 export default function Library() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Library", url: "https://nursing.sresakthimayeil.jkkn.ac.in/library" }
+      ]} />
       <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">

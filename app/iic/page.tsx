@@ -1,7 +1,13 @@
 import Image from 'next/image';
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function IIC() {
   return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "IIC", url: "https://nursing.sresakthimayeil.jkkn.ac.in/iic" }
+      ]} />
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-center">
         <iframe
@@ -11,5 +17,6 @@ export default function IIC() {
         />
       </div>
     </div>
+    </>
   );
 }

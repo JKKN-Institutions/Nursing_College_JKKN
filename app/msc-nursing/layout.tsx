@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "M.Sc Nursing Course — Specialisations | JKKN Nursing",
-  description: "M.Sc Nursing at JKKN with 5 specializations: Child Health, Community Health, Medical-Surgical, Mental Health, OBG. 2-year course, INC approved.",
+  title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
+  description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
   keywords: "msc nursing colleges in tamilnadu, msc nursing distance education in tamilnadu, best msc nursing colleges in tamilnadu, msc nursing private colleges in tamilnadu",
   openGraph: {
-    title: "M.Sc Nursing Course — Specialisations | JKKN Nursing",
-    description: "M.Sc Nursing at JKKN with 5 specializations: Child Health, Community Health, Medical-Surgical, Mental Health, OBG. 2-year course, INC approved.",
+    title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
+    description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
-        url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png",
+        url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
         width: 1200,
         height: 630,
         alt: "MSc Nursing at JKKN College",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "M.Sc Nursing Course — Specialisations | JKKN Nursing",
-    description: "M.Sc Nursing at JKKN with 5 specializations: Child Health, Community Health, Medical-Surgical, Mental Health, OBG. 2-year course, INC approved.",
-    images: ["/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png"],
+    title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
+    description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
+    images: ["/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp"],
   },
   robots: {
     index: true,
@@ -45,25 +45,15 @@ const mscFaqSchema = {
   ]
 };
 
-const mscBreadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JKKN Institutions", "item": "https://jkkn.ac.in/" },
-    { "@type": "ListItem", "position": 2, "name": "College of Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/" },
-    { "@type": "ListItem", "position": 3, "name": "M.Sc Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" }
-  ]
-};
-
 const mscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Master of Science in Nursing (M.Sc Nursing)",
-  "description": "2-year INC-approved postgraduate nursing program at JKKN College of Nursing, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
+  "description": "2-year INC-approved postgraduate nursing program at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing/",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "JKKN College of Nursing",
+    "name": "Sresakthimayeil Institute of Nursing and Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
   },
   "educationalCredentialAwarded": "M.Sc Nursing",
@@ -80,6 +70,10 @@ const mscNursingSchema = {
     "availability": "https://schema.org/InStock",
     "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
     "category": "Government Quota / Management Quota"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".course-overview", ".key-facts"]
   }
 };
 
@@ -97,10 +91,6 @@ export default function MScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(mscFaqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscBreadcrumbSchema) }}
       />
       {children}
     </>

@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Calendar, Clock } from 'lucide-react';
 import { createClient } from '@/lib/supabase/server';
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const revalidate = 60;
 
@@ -29,16 +30,21 @@ export default async function BlogPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Blog", url: "https://nursing.sresakthimayeil.jkkn.ac.in/blog" },
+      ]} />
       <Header />
 
       {/* ── Page Title ── */}
       <div className="bg-[#FBFBEE] px-4 sm:px-6 lg:px-8 pt-28 pb-6">
         <div className="max-w-7xl mx-auto">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-6">Nursing Blog — JKKN College of Nursing</h1>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309]">
             Latest Articles
           </h2>
           <p className="text-gray-500 text-sm mt-1.5">
-            Expert insights on teacher education and careers
+            Expert insights on nursing education, healthcare careers, and clinical training
           </p>
         </div>
       </div>

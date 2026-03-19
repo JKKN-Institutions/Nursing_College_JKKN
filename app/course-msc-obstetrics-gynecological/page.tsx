@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 import { useState } from "react";
 import {
@@ -28,6 +29,82 @@ export default function MScObstetricsGynecologicalNursing() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+          { name: "M.Sc Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
+          { name: "Obstetric and Gynecological Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Sc Obstetric and Gynecological Nursing",
+              "description": "A 2-year postgraduate nursing specialization in Obstetric and Gynecological Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers antenatal care, intrapartum nursing, high-risk pregnancy, neonatal nursing, gynecological nursing, and women's health.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+              },
+              "timeRequired": "P2Y",
+              "educationalCredentialAwarded": "M.Sc Nursing (Obstetric and Gynecological Nursing)",
+              "coursePrerequisites": "B.Sc Nursing or Post Basic B.Sc Nursing with minimum 55% marks and 1 year clinical experience",
+              "availableLanguage": "English",
+              "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the duration of M.Sc Nursing in Obstetrics and Gynecology Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "M.Sc Nursing in Obstetrics and Gynecology Nursing is a 2-year full-time postgraduate program divided into 4 semesters. The first year focuses on core nursing subjects, research methodology, and foundational OBG nursing courses including antenatal care and normal midwifery. The second year emphasizes advanced clinical specialization in high-risk pregnancy, neonatal care, gynecological nursing, and dissertation/thesis work."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the eligibility criteria for M.Sc OBG Nursing admission?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Candidates must have completed B.Sc Nursing (4-year course) or Post Basic B.Sc Nursing with a minimum of 55% aggregate marks from a recognized university. Additionally, applicants must possess valid registration with the State Nursing Council as RN/RM and have at least 1 year of clinical work experience after completing their basic nursing degree."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What career opportunities are available after completing M.Sc OBG Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Graduates can pursue diverse careers including Nursing Educator/Lecturer specializing in maternal-child health at nursing colleges, Clinical Nurse Midwife, Women's Health Consultant, Labor Ward Manager, NICU Specialist, Research Associate in maternal health, Quality Assurance Officer in maternity services, and can also pursue Ph.D. in Nursing for academic and research careers."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is the M.Sc OBG Nursing program at JKKN approved by INC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What specialization areas are covered in OBG Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "OBG Nursing specialization encompasses antenatal care, intrapartum nursing, postnatal care, high-risk pregnancy management, neonatal nursing, gynecological nursing, reproductive health, family planning services, infertility counseling, and women's health promotion. Learners gain comprehensive expertise in managing maternal and newborn care across various clinical settings."
+                  }
+                }
+              ]
+            }
+          ])
+        }}
+      />
       <main className="bg-[#FBFBEE] min-h-screen">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-16 md:py-20">
@@ -42,6 +119,14 @@ export default function MScObstetricsGynecologicalNursing() {
                     <br />& Gynecology Nursing
                   </span>
                 </h1>
+
+                <p className="text-sm text-cyan-200 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-cyan-100 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Obstetric and Gynecological Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates build advanced expertise in maternal health, high-risk pregnancy management, midwifery, neonatal care, and women's healthcare at the 500+ bed teaching hospital.</p>
+                </div>
+
                 <p className="text-lg md:text-xl text-cyan-100 mb-6">
                   Postgraduate Specialization in Maternal-Child Health &
                   Women's Healthcare
@@ -95,7 +180,7 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="flex justify-center lg:justify-end">
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
-                    src="/images/Obstetrics-Hero-Banner-Image.png"
+                    src="/images/Obstetrics-Hero-Banner-Image.webp"
                     alt="OBG Nursing Excellence"
                     width={500}
                     height={400}
@@ -120,7 +205,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="text-gray-700 font-medium">Affiliated Hospitals</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">98%</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">97%</div>
                 <div className="text-gray-700 font-medium">Placement Success Rate</div>
               </div>
               <div className="text-center">
@@ -164,7 +249,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </p>
 
                 <p>
-                  At JKKN College of Nursing, our M.Sc OBG Nursing program is delivered by
+                  At Sresakthimayeil Institute of Nursing and Research, our M.Sc OBG Nursing program is delivered by
                   experienced Learning Facilitators who are experts in maternal-child health nursing.
                   The curriculum integrates contemporary obstetric practices, advanced gynecological
                   nursing concepts, and cutting-edge research methodologies to prepare graduates
@@ -785,7 +870,7 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="flex justify-center">
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
-                    src="/images/Obstetrics-OBG-Clinical-Training-image.png"
+                    src="/images/Obstetrics-OBG-Clinical-Training-image.webp"
                     alt="OBG Clinical Training"
                     width={500}
                     height={400}
@@ -1259,7 +1344,7 @@ export default function MScObstetricsGynecologicalNursing() {
               {/* Note */}
               <div className="mt-8 bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  <span className="font-bold text-gray-900">Note:</span> Fee structure is indicative and subject to revision. Additional charges may apply for hostel accommodation, examination fees, and other
+                  <span className="font-bold text-gray-900">Note:</span> Fee structure is reviewed annually. Additional charges apply for hostel accommodation, examination fees, and other
                   miscellaneous expenses. Scholarships and educational loans are available for eligible learners. Contact the admission office for the latest fee details and
                   payment options.
                 </p>
@@ -1354,7 +1439,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, the M.Sc Nursing program in Obstetrics & Gynecology at JKKN College of Nursing is approved by the
+                    Yes, the M.Sc Nursing program in Obstetrics & Gynecology at Sresakthimayeil Institute of Nursing and Research is approved by the
                     Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The
                     college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid
                     for employment and higher education across India.
@@ -1416,8 +1501,8 @@ export default function MScObstetricsGynecologicalNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, JKKN College of Nursing offers various scholarship opportunities for deserving learners based on
-                    academic merit, financial need, and other criteria. Additionally, learners may be eligible for government
+                    Yes, Sresakthimayeil Institute of Nursing and Research offers various scholarship opportunities for deserving learners based on
+                    academic merit, financial need, and other criteria. Additionally, learners are eligible for government
                     scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office
                     provides guidance on available financial assistance options.
                   </p>
@@ -1474,6 +1559,17 @@ export default function MScObstetricsGynecologicalNursing() {
             </div>
           </div>
         </section>
+
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
 
       </main>
       <Footer hideLifeAtJKKN />

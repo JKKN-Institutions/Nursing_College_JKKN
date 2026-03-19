@@ -2,10 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Image from "next/image";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function OurTrust() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Our Trust", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-trust" }
+      ]} />
       <Header />
       <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
         <div className="container-custom py-12 md:py-16">

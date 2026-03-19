@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 function WhatsAppIcon({ className = "w-5 h-5" }: { className?: string }) {
   return (
@@ -21,7 +23,7 @@ const faqs = [
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
-    a: "B.Sc Nursing admissions in Tamil Nadu are typically through NEET counselling. Contact the admission office for the latest admission requirements for the current academic year.",
+    a: "No, NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on 10+2 with Physics, Chemistry, Biology (PCB). Minimum 45% marks (40% for SC/ST). Apply online at admission.jkkn.ac.in or through TN DME counselling.",
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
@@ -78,22 +80,16 @@ const programmes = [
   {
     icon: "🎓",
     title: "B.Sc Nursing",
+    href: "/bsc-nursing",
     duration: "4 years",
     level: "UG",
-    intake: "100 seats",
-    eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
-  },
-  {
-    icon: "📋",
-    title: "GNM (General Nursing and Midwifery)",
-    duration: "3.5 years",
-    level: "Diploma",
     intake: "60 seats",
-    eligibility: "10+2 with Science",
+    eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
   },
   {
     icon: "🎓",
     title: "M.Sc Nursing",
+    href: "/msc-nursing",
     duration: "2 years",
     level: "PG",
     intake: "30 seats",
@@ -102,6 +98,7 @@ const programmes = [
   {
     icon: "📋",
     title: "Post Basic B.Sc Nursing",
+    href: "/pbsc-nursing",
     duration: "2 years",
     level: "UG",
     intake: "50 seats",
@@ -110,7 +107,7 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "90%+", label: "PLACEMENT RATE" },
+  { value: "97%", label: "PLACEMENT RATE" },
   { value: "6-8", label: "LPA HIGHEST" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
@@ -185,22 +182,22 @@ const cities = [
 ];
 
 const quickLinks = [
-  "All Programmes",
-  "Admissions",
-  "Placements",
-  "Campus Life",
-  "Fee Structure",
-  "Contact Us",
+  { name: "All Programmes", href: "/bsc-nursing" },
+  { name: "Admissions", href: "/admissions" },
+  { name: "Placements", href: "/placement" },
+  { name: "Campus Life", href: "/campus-life" },
+  { name: "Eligibility", href: "/eligibility-criteria" },
+  { name: "Contact Us", href: "/contact" },
 ];
 
 const jkknInstitutions = [
-  "JKKN Group",
-  "Dental",
-  "Pharmacy",
-  "Nursing",
-  "Engineering",
-  "Arts & Science",
-  "Allied Health Sciences",
+  { name: "JKKN Group", href: "https://jkkn.ac.in/" },
+  { name: "Dental", href: "https://dental.jkkn.ac.in/" },
+  { name: "Pharmacy", href: "https://pharmacy.jkkn.ac.in/" },
+  { name: "Nursing", href: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+  { name: "Engineering", href: "https://engg.jkkn.ac.in/" },
+  { name: "Arts & Science", href: "https://cas.jkkn.ac.in/" },
+  { name: "Allied Health Sciences", href: "https://ahs.jkkn.ac.in/" },
 ];
 
 export default function NamakkalPage() {
@@ -221,6 +218,78 @@ export default function NamakkalPage() {
 
   return (
     <div className="min-h-screen font-sans bg-white">
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Nursing College in Namakkal", url: "https://nursing.sresakthimayeil.jkkn.ac.in/namakkal" }
+      ]} />
+      {/* ── FAQPage JSON-LD Schema ────────────────────────────────── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is the best nursing college in Namakkal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Sresakthimayeil Institute of Nursing and Research, located just 5-10 km from Namakkal on NH-544, is widely regarded as one of the top nursing colleges accessible from Namakkal. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How far is JKKN Nursing from Namakkal?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "JKKN Nursing is approximately 5-10 km from Namakkal town, which takes about 15-20 minutes by road via NH-544 (Salem-Coimbatore Highway). Frequent local buses and auto-rickshaws are available from Namakkal town to Komarapalayam throughout the day."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is NEET required for B.Sc Nursing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on 10+2 with Physics, Chemistry, Biology (PCB). Minimum 45% marks (40% for SC/ST). Apply online at admission.jkkn.ac.in or through TN DME counselling."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I get a nursing job abroad after studying here?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does the institute have hostel for girls?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women students with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for students from all cities."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does JKKN Nursing provide hostel for Namakkal students?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. However, since the campus is just 5-10 km from Namakkal town, many students prefer to commute daily from home. College transport services are also available."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I apply for admission at JKKN Nursing?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can apply online through the official website at https://nursing.sresakthimayeil.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance."
+                }
+              }
+            ]
+          })
+        }}
+      />
       {/* ── Sticky Announcement Bar ───────────────────────────────── */}
       <div className="fixed top-0 left-0 right-0 z-50 bg-[#6B1040] py-2 sm:py-2.5 px-3 sm:px-4">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-4 flex-wrap">
@@ -265,15 +334,15 @@ export default function NamakkalPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Namakkal is home — and so are we. Sresakthimayeil Institute of Nursing
-              and Research offers top-tier nursing programmes with 90%+ placement
+              Namakkal is home — and so is JKKN. Sresakthimayeil Institute of Nursing
+              and Research offers top-tier nursing programmes with 97% placement
               support — located right in your home district.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "90%+", label: "PLACEMENTS" },
+                { value: "97%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "10km", label: "FROM NAMAKKAL" },
                 { value: "4", label: "PROGRAMMES" },
@@ -419,7 +488,13 @@ export default function NamakkalPage() {
                 >
                   <div className="text-3xl mb-3">{prog.icon}</div>
                   <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-4 leading-snug">
-                    {prog.title}
+                    {prog.href ? (
+                      <Link href={prog.href} className="hover:text-green-700 hover:underline transition-colors">
+                        {prog.title}
+                      </Link>
+                    ) : (
+                      prog.title
+                    )}
                   </h3>
 
                   <div className="space-y-2 mb-4">
@@ -463,7 +538,7 @@ export default function NamakkalPage() {
                 Placement Highlights
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
-                Our placement cell connects you with India&apos;s top employers
+                The Sresakthimayeil Institute of Nursing and Research placement cell connects students with India&apos;s top employers
               </p>
               <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
             </div>
@@ -713,7 +788,7 @@ export default function NamakkalPage() {
                 Interested? Let&apos;s Talk!
               </h2>
               <p className="text-white/70 text-sm sm:text-base">
-                Fill in your details and our admission team will contact you within 24 hours
+                Fill in your details and the admission team will contact you within 24 hours
               </p>
               <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
             </div>
@@ -769,7 +844,6 @@ export default function NamakkalPage() {
                   >
                     <option value="" className="text-gray-800 bg-white">Select a Programme</option>
                     <option value="B.Sc Nursing" className="text-gray-800 bg-white">B.Sc Nursing</option>
-                    <option value="GNM" className="text-gray-800 bg-white">GNM (General Nursing and Midwifery)</option>
                     <option value="M.Sc Nursing" className="text-gray-800 bg-white">M.Sc Nursing</option>
                     <option value="Post Basic B.Sc Nursing" className="text-gray-800 bg-white">Post Basic B.Sc Nursing</option>
                   </select>
@@ -901,12 +975,12 @@ export default function NamakkalPage() {
               <h3 className="text-white font-bold text-base sm:text-lg mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 {quickLinks.map((link) => (
-                  <li key={link}>
+                  <li key={link.name}>
                     <a
-                      href="#"
+                      href={link.href}
                       className="text-white/70 hover:text-white text-xs sm:text-sm transition-colors"
                     >
-                      {link}
+                      {link.name}
                     </a>
                   </li>
                 ))}
@@ -920,12 +994,14 @@ export default function NamakkalPage() {
               </h3>
               <ul className="space-y-2">
                 {jkknInstitutions.map((inst) => (
-                  <li key={inst}>
+                  <li key={inst.name}>
                     <a
-                      href="#"
+                      href={inst.href}
+                      target={inst.href.startsWith("http") ? "_blank" : undefined}
+                      rel={inst.href.startsWith("http") ? "noopener noreferrer" : undefined}
                       className="text-white/70 hover:text-white text-xs sm:text-sm transition-colors"
                     >
-                      {inst}
+                      {inst.name}
                     </a>
                   </li>
                 ))}

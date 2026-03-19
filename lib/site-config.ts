@@ -15,7 +15,7 @@ export const siteConfig = {
   /** Full institution name shown in metadata, headers, footer */
   name:
     process.env.NEXT_PUBLIC_COLLEGE_NAME ??
-    'JKKN College of Nursing',
+    'Sresakthimayeil Institute of Nursing and Research',
 
   /** Short name used in compact UI (admin sidebar subtitle, login page) */
   shortName:
@@ -48,7 +48,7 @@ export const siteConfig = {
   email: process.env.NEXT_PUBLIC_COLLEGE_EMAIL ?? 'nursing@jkkn.ac.in',
   address:
     process.env.NEXT_PUBLIC_COLLEGE_ADDRESS ??
-    'JKKN College of Nursing, NH-544 (Salem to Coimbatore Highway), Kumarapalayam, Namakkal (DT), Tamil Nadu. 638183.',
+    'Sresakthimayeil Institute of Nursing and Research, NH-544 (Salem to Coimbatore Highway), Kumarapalayam, Namakkal (DT), Tamil Nadu. 638183.',
 
   /** Google Maps embed src URL */
   mapsEmbedUrl:

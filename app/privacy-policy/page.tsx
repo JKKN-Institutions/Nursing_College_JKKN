@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
             <div className="space-y-8 text-gray-700 text-base leading-relaxed">
               {/* Introduction */}
               <p className="text-justify">
-                At JKKN College of Nursing & Research, we are committed to protecting the privacy of our website visitors and ensuring the security and confidentiality of the personal information you share with us. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of personal information on our website.
+                At Sresakthimayeil Institute of Nursing and Research & Research, we are committed to protecting the privacy of our website visitors and ensuring the security and confidentiality of the personal information you share with us. This Privacy Policy outlines our practices regarding the collection, use, and disclosure of personal information on our website.
               </p>
 
               {/* Personal Information We Collect */}
@@ -48,7 +48,7 @@ export default function PrivacyPolicy() {
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>To respond to your inquiries and provide you with information about our programs, services, and events</li>
                   <li>To process and evaluate your application for admission to our college or for employment</li>
-                  <li>To communicate with you about news, events, and other updates related to JKKN College of Nursing & Research</li>
+                  <li>To communicate with you about news, events, and other updates related to Sresakthimayeil Institute of Nursing and Research & Research</li>
                   <li>To improve the content and functionality of our website and to better understand our website visitors' interests and preferences</li>
                 </ul>
               </div>
@@ -63,8 +63,8 @@ export default function PrivacyPolicy() {
                 </p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
                   <li>When required by law or legal process</li>
-                  <li>To service providers or agents of JKKN College of Nursing & Research who are working on our behalf</li>
-                  <li>To protect the rights or property of JKKN College of Nursing & Research or our website users</li>
+                  <li>To service providers or agents of Sresakthimayeil Institute of Nursing and Research & Research who are working on our behalf</li>
+                  <li>To protect the rights or property of Sresakthimayeil Institute of Nursing and Research & Research or our website users</li>
                   <li>To contractors or service providers who assist us in the operation of our website or in the provision of our programs, services, or events</li>
                 </ul>
               </div>
@@ -118,12 +118,12 @@ export default function PrivacyPolicy() {
                   If you have any questions or concerns about this Privacy Policy, or if you wish to exercise your rights or contact us for any other reason, you can reach us at:
                 </p>
                 <div className="space-y-1 ml-4">
-                  <p>JKKN College of Nursing & Research</p>
+                  <p>Sresakthimayeil Institute of Nursing and Research & Research</p>
                   <p>Call: +919345855001</p>
                   <p>
                     Email: <a href="mailto:info@jkkn.ac.in" className="text-[#0b7845] hover:underline">info@jkkn.ac.in</a>
                   </p>
-                  <p>Address: JKKN College of Nursing & Research,</p>
+                  <p>Address: Sresakthimayeil Institute of Nursing and Research & Research,</p>
                   <p>Natarajapuram, NH-544 (Salem To Coimbatore National Highway),</p>
                   <p>Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.</p>
                 </div>

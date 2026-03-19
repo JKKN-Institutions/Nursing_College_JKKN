@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -7,9 +8,102 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase, FaClipboardCheck, FaFileAlt } from "react-icons/fa";
 
+export const metadata: Metadata = {
+  title: "M.Sc Nursing Course — 2-Year INC-Approved Program | Sresakthimayeil Institute of Nursing and Research",
+  description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 5 specializations: Medical-Surgical, Child Health, OBG, Psychiatric, Community Health. Apply for 2026-27.",
+  keywords: "M.Sc Nursing, MSc Nursing Tamil Nadu, post graduate nursing, JKKN nursing, nursing specialization",
+  openGraph: {
+    title: "M.Sc Nursing — Sresakthimayeil Institute of Nursing and Research, Tamil Nadu",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations and 500+ bed hospital training.",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    type: "website",
+  },
+  alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
+  robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
+};
+
 export default function MScNursing() {
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Master of Science in Nursing (M.Sc Nursing)",
+    "description": "A 2-year postgraduate nursing program approved by the Indian Nursing Council (INC) with 5 specializations, affiliated to Tamil Nadu Dr. MGR Medical University.",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+    },
+    "timeRequired": "P2Y",
+    "educationalCredentialAwarded": "M.Sc Nursing Degree",
+    "coursePrerequisites": "B.Sc Nursing with minimum 55% marks"
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the duration of M.Sc Nursing program?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The M.Sc Nursing program is a 2-year (4 semesters) full-time postgraduate degree program approved by the Indian Nursing Council (INC). It includes theoretical coursework, clinical practicum, and research dissertation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the eligibility criteria for admission?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Candidates must have B.Sc Nursing with minimum 55% marks, valid RN & RM registration with State Nursing Council, and at least 1 year of clinical experience after B.Sc Nursing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What specializations are available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JKKN offers five M.Sc Nursing specializations: Medical Surgical Nursing, Child Health Nursing, Community Health Nursing, Obstetrics & Gynecology Nursing, and Mental Health Nursing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the career opportunities after M.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Graduates can pursue careers as Nursing Educators, Clinical Nurse Specialists, Nursing Administrators, Nurse Researchers, Public Health Officers, and can pursue Ph.D. in Nursing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is hostel accommodation available?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, JKKN provides separate hostel facilities with modern amenities, nutritious dining, 24/7 security, and a conducive environment for academic success."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I pursue Ph.D. after M.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, M.Sc Nursing is the gateway to doctoral studies in nursing. Graduates can pursue Ph.D. in Nursing to become professors, researchers, and healthcare policy experts."
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
@@ -30,13 +124,20 @@ export default function MScNursing() {
 
                 {/* Heading */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                  Master of Science in <br />
-                  <span className="text-[#7cb983]">Nursing</span>
+                  M.Sc Nursing at{" "}
+                  <span className="text-[#7cb983]">Sresakthimayeil Institute of Nursing and Research</span>
                 </h1>
+
+                <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved M.Sc Nursing program with 5 specializations, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Advanced clinical training at the 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators.</p>
+                </div>
 
                 {/* Description */}
                 <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
-                  Elevate your nursing career with our INC-approved postgraduate program.
+                  Elevate your nursing career with the INC-approved postgraduate program.
                   Develop advanced clinical expertise, leadership skills, and research
                   competencies across 5 specialized domains of nursing practice.
                 </p>
@@ -81,7 +182,7 @@ export default function MScNursing() {
                 {/* Hero Image */}
                 <div className="relative">
                   <Image
-                    src="/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png"
+                    src="/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp"
                     alt="M.Sc Nursing program"
                     width={600}
                     height={500}
@@ -91,8 +192,8 @@ export default function MScNursing() {
                 {/* Badges below image */}
                 <div className="flex flex-wrap gap-3 sm:gap-4 mt-4 sm:mt-6">
                   <div className="bg-white text-[#006837] p-3 sm:p-4 lg:p-6 rounded-xl shadow-2xl flex-1 min-w-[140px]">
-                    <div className="text-xs sm:text-sm font-medium text-gray-600 mb-1 sm:mb-2">INC APPROVED</div>
-                    <div className="text-lg sm:text-xl lg:text-2xl font-bold">TNMGRMU Affiliated</div>
+                    <div className="text-xs sm:text-sm font-medium text-gray-600 mb-1 sm:mb-2"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">INC</a> APPROVED</div>
+                    <div className="text-lg sm:text-xl lg:text-2xl font-bold"><a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">TNMGRMU</a> Affiliated</div>
                   </div>
                   <div className="bg-white text-[#006837] p-3 sm:p-4 lg:p-6 rounded-xl shadow-2xl flex-1 min-w-[140px]">
                     <div className="text-xs sm:text-sm font-medium text-gray-600 mb-1 sm:mb-2">ANNUAL INTAKE</div>
@@ -127,7 +228,7 @@ export default function MScNursing() {
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
                   <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
-                  <span className="font-semibold text-gray-800">NAAC Accredited</span>
+                  <span className="font-semibold text-gray-800"><a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">NAAC</a> Accredited</span>
                 </div>
               </div>
             </div>
@@ -190,7 +291,7 @@ export default function MScNursing() {
                 <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#006837]/10 rounded-3xl"></div>
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.png"
+                    src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.webp"
                     alt="M.Sc Nursing clinical training"
                     width={600}
                     height={400}
@@ -208,7 +309,7 @@ export default function MScNursing() {
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  Our program integrates evidence-based practice with hands-on clinical
+                  The program integrates evidence-based practice with hands-on clinical
                   training across premier healthcare facilities. Learners engage with
                   experienced Learning Facilitators who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
@@ -281,7 +382,7 @@ export default function MScNursing() {
                   1
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/Simulation-lab-image.png" alt="Medical Surgical Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Simulation-lab-image.webp" alt="Medical Surgical Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Medical Surgical Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -302,7 +403,7 @@ export default function MScNursing() {
                   2
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/Child-Health-Nursing-Hero-Banner-image.png" alt="Child Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Child-Health-Nursing-Hero-Banner-image.webp" alt="Child Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Child Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -323,7 +424,7 @@ export default function MScNursing() {
                   3
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/Community-Health-Nursing-Hero-Banner-Image.png" alt="Community Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Community-Health-Nursing-Hero-Banner-Image.webp" alt="Community Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Community Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -344,7 +445,7 @@ export default function MScNursing() {
                   4
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.png" alt="Obstetrics & Gynecology Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.webp" alt="Obstetrics & Gynecology Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Obstetrics & Gynecology Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -365,7 +466,7 @@ export default function MScNursing() {
                   5
                 </div>
                 <div className="mb-6">
-                  <Image src="/images/Mental-Health-Nursing-Hero-Banner-Image.png" alt="Mental Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
+                  <Image src="/images/Mental-Health-Nursing-Hero-Banner-Image.webp" alt="Mental Health Nursing" width={400} height={250} className="w-full h-48 object-cover rounded-xl" />
                 </div>
                 <h3 className="text-2xl font-bold text-[#006837] mb-4">Mental Health Nursing</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
@@ -389,14 +490,14 @@ export default function MScNursing() {
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">Eligibility Criteria</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Meet these requirements to pursue your M.Sc Nursing degree at JKKN College of Nursing.
+                Meet these requirements to pursue your M.Sc Nursing degree at Sresakthimayeil Institute of Nursing and Research.
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
               <div className="flex gap-6">
                 <div className="relative">
-                  <Image src="/images/Master-of-Science-in-Nursing-Eligibility-Criteria-Image.png" alt="M.Sc Nursing eligibility" width={400} height={500} className="w-full h-auto object-cover rounded-2xl shadow-lg" />
+                  <Image src="/images/Master-of-Science-in-Nursing-Eligibility-Criteria-Image.webp" alt="M.Sc Nursing eligibility" width={400} height={500} className="w-full h-auto object-cover rounded-2xl shadow-lg" />
                 </div>
               </div>
 
@@ -460,10 +561,10 @@ export default function MScNursing() {
                 ACADEMIC STRUCTURE
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                Comprehensive Curriculum
+                M.Sc Nursing Curriculum and Syllabus
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Our INC-aligned curriculum balances theoretical foundations with extensive clinical
+                The INC-aligned curriculum balances theoretical foundations with extensive clinical
                 practice, preparing you for excellence in specialized nursing domains.
               </p>
             </div>
@@ -535,7 +636,7 @@ export default function MScNursing() {
                 CAREER PROSPECTS
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Unlock Diverse Career Pathways
+                Career Options After M.Sc Nursing
               </h2>
               <p className="text-lg text-white/90 max-w-3xl mx-auto">
                 M.Sc Nursing graduates command diverse roles across clinical practice, education,
@@ -725,7 +826,7 @@ export default function MScNursing() {
                 HOW TO APPLY
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                Admission Process
+                How to Apply for M.Sc Nursing Admission
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Your journey to advanced nursing education begins with these simple steps.
@@ -841,7 +942,7 @@ export default function MScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Find answers to common questions about our M.Sc Nursing program.
+                Find answers to common questions about the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research.
               </p>
             </div>
 
@@ -984,6 +1085,18 @@ export default function MScNursing() {
             </div>
           </div>
         </section>
+
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
+
       </main>
       <Footer hideLifeAtJKKN />
       <FloatingButtons />

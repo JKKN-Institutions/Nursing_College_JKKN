@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 import { useState } from "react";
 import {
@@ -44,6 +45,82 @@ export default function MScMentalHealthNursing() {
   return (
     <>
       <Header />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+          { name: "M.Sc Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
+          { name: "Psychiatric (Mental Health) Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Sc Psychiatric (Mental Health) Nursing",
+              "description": "A 2-year postgraduate nursing specialization in Psychiatric and Mental Health Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers therapeutic interventions, community mental health, psychiatric rehabilitation, and de-addiction nursing.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+              },
+              "timeRequired": "P2Y",
+              "educationalCredentialAwarded": "M.Sc Nursing (Mental Health Nursing)",
+              "coursePrerequisites": "B.Sc Nursing or Post Basic B.Sc Nursing with minimum 55% marks and 1 year clinical experience",
+              "availableLanguage": "English",
+              "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the scope of M.Sc Nursing in Mental Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "M.Sc Nursing in Mental Health Nursing offers excellent career scope given India's growing mental health needs. Graduates can work as psychiatric nursing educators in nursing colleges, clinical nurse specialists in psychiatric hospitals, community mental health nurses under DMHP, de-addiction center coordinators, mental health researchers, and psychiatric nursing administrators. The National Mental Health Policy and Mental Healthcare Act 2017 have created numerous opportunities in both government and private sectors."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is prior experience in psychiatry required for admission?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No, prior experience specifically in psychiatry is not mandatory for admission. Candidates need minimum 1 year of clinical nursing experience in any area after completing B.Sc Nursing. However, candidates with interest or experience in mental health settings may have an advantage during the selection process. The program provides comprehensive psychiatric nursing training from fundamentals to advanced practice."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What types of psychiatric facilities are available for clinical training?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sresakthimayeil Institute of Nursing and Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I pursue Ph.D. after completing M.Sc in Mental Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, M.Sc Nursing in Mental Health Nursing graduates are eligible for Ph.D. programs in Nursing. This opens opportunities for advanced research careers, senior academic positions as Professors, Principal, or Dean positions in nursing colleges. Several universities in India offer Ph.D. in Nursing with research focus on psychiatric and mental health nursing areas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What therapeutic skills are taught in the M.Sc Mental Health Nursing program?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The program covers therapeutic communication techniques, individual psychotherapy, group therapy facilitation, family therapy principles, cognitive behavioral therapy basics, crisis intervention, suicide prevention, motivational interviewing for substance abuse, relaxation techniques, art and music therapy basics, and psychiatric rehabilitation techniques. Learners practice these skills through simulation exercises and supervised clinical practice."
+                  }
+                }
+              ]
+            }
+          ])
+        }}
+      />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-16 md:py-24">
@@ -57,12 +134,20 @@ export default function MScMentalHealthNursing() {
                     Mental Health Nursing
                   </span>
                 </h1>
+
+                <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Mental Health (Psychiatric) Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates develop expertise in psychiatric assessment, therapeutic counseling, community mental health promotion, and psychiatric rehabilitation at the 500+ bed teaching hospital.</p>
+                </div>
+
                 <p className="text-xl md:text-2xl text-gray-200 mb-6">
                   Postgraduate Program in Psychiatric Nursing Specialization
                 </p>
                 <p className="text-base md:text-lg mb-8 text-gray-100 leading-relaxed">
                   Shape the future of mental healthcare with specialized expertise in
-                  psychiatric nursing. Our INC-approved program combines advanced
+                  psychiatric nursing. This INC-approved program combines advanced
                   theoretical knowledge with comprehensive clinical training in therapeutic
                   interventions, community mental health, and psychiatric rehabilitation.
                 </p>
@@ -108,7 +193,7 @@ export default function MScMentalHealthNursing() {
               <div className="relative">
                 <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Mental-Health-Nursing-Hero-Banner-Image.png"
+                    src="/images/Mental-Health-Nursing-Hero-Banner-Image.webp"
                     alt="Mental Health Nursing Training"
                     fill
                     className="object-cover"
@@ -175,7 +260,7 @@ export default function MScMentalHealthNursing() {
               <div className="lg:col-span-2 space-y-6 text-gray-700 leading-relaxed">
                 <p>
                   The Master of Science in Nursing with specialization in Mental Health Nursing
-                  at JKKN College of Nursing is a two-year, full-time postgraduate program
+                  at Sresakthimayeil Institute of Nursing and Research is a two-year, full-time postgraduate program
                   designed to prepare registered nurses for advanced roles in psychiatric
                   nursing practice, education, research, and mental health administration.
                 </p>
@@ -862,7 +947,7 @@ export default function MScMentalHealthNursing() {
               {/* Left - Video/Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video">
                 <Image
-                  src="/images/Mental-Health-Nursing-Psychiatric-Clinical-Training-Image.png"
+                  src="/images/Mental-Health-Nursing-Psychiatric-Clinical-Training-Image.webp"
                   alt="Psychiatric Clinical Training"
                   fill
                   className="object-cover"
@@ -1413,7 +1498,7 @@ export default function MScMentalHealthNursing() {
                 {openFaq === 2 && (
                   <div className="px-6 pb-6">
                     <p className="text-gray-600 leading-relaxed">
-                      JKKN College of Nursing has affiliations with government psychiatric hospitals, private mental health
+                      Sresakthimayeil Institute of Nursing and Research has affiliations with government psychiatric hospitals, private mental health
                       centers, de-addiction centers, and community mental health programs. Clinical rotations include acute
                       psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry,
                       forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities. This diverse
@@ -1534,6 +1619,17 @@ export default function MScMentalHealthNursing() {
          
           </div>
         </section>
+
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
 
       </main>
       <Footer hideLifeAtJKKN />

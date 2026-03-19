@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   description:
-    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at JKKN College of Nursing, Komarapalayam. INC approved, NAAC accredited, 98%+ placement.",
+    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
   keywords:
     "nursing admission 2026, bsc nursing admission tamil nadu, msc nursing admission, nursing college admission komarapalayam, JKKN nursing admission, nursing entrance exam",
   openGraph: {
     title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
     description:
-      "Apply for nursing programs at JKKN College of Nursing. INC approved, 98%+ placement, international opportunities.",
+      "Apply for nursing programs at Sresakthimayeil Institute of Nursing and Research. INC approved, 97% placement, international opportunities.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
     description:
-      "Apply for nursing programs at JKKN College of Nursing. INC approved, 98%+ placement.",
+      "Apply for nursing programs at Sresakthimayeil Institute of Nursing and Research. INC approved, 97% placement.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
@@ -35,12 +35,28 @@ export const metadata: Metadata = {
   },
 };
 
+const admissionsWebPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".admission-overview", ".key-facts"]
+  }
+};
+
 const admissionHowToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
   name: "How to Apply for Nursing Admission at JKKN College",
   description:
-    "Step-by-step guide to apply for B.Sc, M.Sc, or Post Basic B.Sc Nursing at JKKN College of Nursing, Komarapalayam.",
+    "Step-by-step guide to apply for B.Sc, M.Sc, or Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam.",
   step: [
     {
       "@type": "HowToStep",
@@ -106,7 +122,7 @@ const admissionFaqSchema = {
       name: "What is the fee for nursing courses at JKKN?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The annual tuition fee for B.Sc Nursing is ₹95,000, for M.Sc Nursing is ₹1,25,000, and for Post Basic B.Sc Nursing is ₹85,000. Fees are subject to revision.",
+        text: "The annual tuition fee for B.Sc Nursing is ₹95,000, for M.Sc Nursing is ₹1,25,000, and for Post Basic B.Sc Nursing is ₹85,000. Fees are reviewed annually.",
       },
     },
     {
@@ -143,6 +159,10 @@ export default function AdmissionsLayout({
 }) {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(admissionsWebPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(admissionHowToSchema) }}

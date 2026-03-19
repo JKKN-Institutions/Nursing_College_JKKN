@@ -1,7 +1,13 @@
 import Image from 'next/image';
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function InternalComplaintsCommittee() {
   return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Internal Complaints Committee", url: "https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee" }
+      ]} />
     <div className="container mx-auto px-4 py-8">
       <div className="flex justify-center">
         <iframe
