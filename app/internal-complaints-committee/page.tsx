@@ -9,6 +9,7 @@ export default function InternalComplaintsCommittee() {
         { name: "Internal Complaints Committee", url: "https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee" }
       ]} />
     <div className="container mx-auto px-4 py-8">
+      <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-6">Internal Complaints Committee — JKKN College of Nursing</h1>
       <div className="flex justify-center">
         <iframe
           src="/pdf/INTERNAL-COMPLAINTS-COMMITTEE.pdf"
