@@ -24,15 +24,6 @@ export default function Admissions() {
           ]}
         />
 
-        {/* ── TIMESTAMP & TL;DR ──────────────────────────────────── */}
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 pt-6">
-          <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
-          <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
-            <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
-            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at admission.jkkn.ac.in or contact +91 93458 55001.</p>
-          </div>
-        </div>
-
         {/* ── 1. HERO BANNER ─────────────────────────────────────── */}
         <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white py-16 md:py-24">
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
@@ -74,6 +65,15 @@ export default function Admissions() {
             </div>
           </div>
         </section>
+
+        {/* ── TIMESTAMP & TL;DR ──────────────────────────────────── */}
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 pt-6">
+          <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
+          <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
+            <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at admission.jkkn.ac.in or contact +91 93458 55001.</p>
+          </div>
+        </div>
 
         {/* ── 2. WHY CHOOSE JKKN NURSING ─────────────────────────── */}
         <section className="bg-white py-14 md:py-20">
