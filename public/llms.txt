@@ -1,138 +1,231 @@
-# Sresakthimayeil Institute of Nursing and Research
+# JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research)
 
-> Last Updated: 2026-03-19
+> Last Updated: 2026-03-21
 
-> Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research) is an INC-approved nursing college in Tamil Nadu, India, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs. Located on the JKKN Institutions campus in Komarapalayam, Namakkal District, with a 500-bed attached teaching hospital for clinical training.
+> JKKN College of Nursing, officially Sresakthimayeil Institute of Nursing and Research, is an INC-approved nursing college in Tamil Nadu, India, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs. Located on the JKKN Institutions campus in Komarapalayam, Namakkal District, with a 500-bed attached teaching hospital for clinical training. Part of JKK Nattraja Educational Institutions (established 1952, 74+ years legacy).
 
-## Key Statistics
-- Established: 2007
-- Part of: JKKN Institutions (founded 1952, 74+ years)
-- Campus: Natarajapuram, NH-544, Komarapalayam, Namakkal, Tamil Nadu 638183
-- Teaching Hospital: 500+ bed multi-specialty hospital
-- Accreditation: INC Approved, NAAC Accredited, affiliated to TNMGRMU
-- Programs: B.Sc Nursing (4 years), M.Sc Nursing (2 years, 5 specializations), Post Basic B.Sc Nursing (2 years)
-
-## Admission Information
-- Admission Portal: https://admission.jkkn.ac.in/
-- Placement Portal: https://placements.jkkn.ac.in/
-- Contact: +91 93458 55001 | nursing@jkkn.ac.in
-- Admission Process: Merit-based on 10+2 with PCB (NEET not required in Tamil Nadu)
-
-## M.Sc Nursing Specializations
-1. Medical-Surgical Nursing
-2. Child Health (Paediatric) Nursing
-3. Obstetric and Gynecological Nursing
-4. Psychiatric (Mental Health) Nursing
-5. Community Health Nursing
-
-## Campus Facilities
-- 500+ bed multi-specialty teaching hospital
-- Advanced nursing laboratories and simulation labs
-- Smart classrooms with digital learning tools
-- Library with nursing journals and digital resources
-- Separate hostel for men and women
-- Sports and recreation facilities
-- Wi-Fi enabled campus
-- Transport services
-- Cafeteria and auditorium
-
-## Key Facts
+## Entity Information
 - Official Name: Sresakthimayeil Institute of Nursing and Research
 - Brand Name: JKKN College of Nursing
-- Parent Organization: JKKN Institutions
-- Founded: 2007
-- Accreditation: INC Approved, NAAC Accredited
-- Affiliation: Tamil Nadu Dr. MGR Medical University (TNMGRMU)
-- Recognition: Tamil Nadu Nurses and Midwives Council (TNNMC)
-- Location: Komarapalayam, Namakkal, Tamil Nadu 638183, India
-- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway)
+- Also Known As: JKKN Nursing College, Sresakthimayeil Nursing College
+- Parent Organization: JKKN Institutions (JKK Nattraja Educational Institutions)
+- Parent Founded: 1952 (74+ years legacy)
+- College Founded: 2007
+- Type: Private Nursing College
+- Category: Educational Institution, Healthcare Education
+- Wikidata ID: Q55090877
+- Wikipedia: https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions
+
+## Location & Contact
+- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183, India
+- Coordinates: 11.4333°N, 77.7167°E
+- Phone: +91 93458 55001
+- Email: nursing@jkkn.ac.in
+- Website: https://nursing.sresakthimayeil.jkkn.ac.in/
+- Google Business Profile: https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6
+- Nearest Cities: Salem (45 km), Erode (30 km), Namakkal (25 km), Tiruchengode (10 km), Coimbatore (120 km)
+- Highway Access: Directly on National Highway 544 (Salem-Coimbatore Highway)
+
+## Accreditation & Recognition
+- Approved by: Indian Nursing Council (INC), New Delhi — https://www.indiannursingcouncil.org/
+- Recognized by: Tamil Nadu Nurses and Midwives Council (TNNMC)
+- Affiliated to: Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai — https://www.tnmgrmu.ac.in/
+- Accreditation: National Assessment and Accreditation Council (NAAC) Accredited
+- Parent Organization Accreditation: NAAC 'A' Grade (JKKN Group)
 
 ## Programs Offered
-- B.Sc Nursing — 4-year undergraduate program (60 seats)
-- M.Sc Nursing — 2-year postgraduate program (25 seats) with 5 specializations:
-  - Medical-Surgical Nursing
-  - Child Health (Paediatric) Nursing
-  - Obstetric and Gynecological Nursing
-  - Psychiatric (Mental Health) Nursing
-  - Community Health Nursing
-- Post Basic B.Sc Nursing — 2-year program for diploma holders (50 seats)
 
-## Clinical Training
-- 500+ bed multi-specialty teaching hospital on campus
-- Clinical exposure from Year 1
-- Simulation labs and skills laboratory
-- Community health postings
-- Specialty rotations across all departments
+### B.Sc Nursing (Bachelor of Science in Nursing)
+- Duration: 4 years (8 semesters) + 1 year internship
+- Total Seats: 60
+- Eligibility: 10+2 with Physics, Chemistry, Biology with minimum 45% marks (40% for reserved categories)
+- NEET: Not required in Tamil Nadu for B.Sc Nursing
+- Admission: Merit-based on qualifying examination marks
+- Fee Structure: Competitive fees with scholarship options
+- Career Outcomes: Staff Nurse, Community Health Nurse, ICU Nurse, OT Nurse, Nursing Educator, Research Nurse
+- Higher Studies: M.Sc Nursing, MBA in Hospital Management, Public Health
 
-## Placement Highlights
-- 97% placement rate
-- 80+ recruiting partners
-- International placements: NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals
-- Domestic recruiters: Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health
-- Highest package: up to 25 LPA (International)
+### M.Sc Nursing (Master of Science in Nursing)
+- Duration: 2 years (4 semesters)
+- Total Seats: 25 (5 seats per specialization)
+- Eligibility: B.Sc Nursing with minimum 55% marks + 1 year clinical experience
+- Specializations Offered:
+  1. Medical-Surgical Nursing — Critical care, perioperative, orthopedic, oncology nursing
+  2. Child Health (Paediatric) Nursing — Neonatal care, NICU, pediatric emergencies
+  3. Obstetric and Gynecological Nursing — Maternal care, reproductive health, high-risk pregnancy
+  4. Psychiatric (Mental Health) Nursing — Psychiatric assessment, counseling, community mental health
+  5. Community Health Nursing — Public health, epidemiology, rural health, health education
+- Career Outcomes: Nursing Superintendent, Nurse Educator, Clinical Specialist, Research Scholar, Hospital Administrator
+- Higher Studies: Ph.D. in Nursing, Post-doctoral Research
+
+### Post Basic B.Sc Nursing
+- Duration: 2 years (4 semesters)
+- Total Seats: 50
+- Eligibility: GNM Diploma + 2 years clinical experience
+- Target Audience: Working diploma nurses seeking degree upgrade
+- Career Outcomes: Enhanced career progression, eligibility for M.Sc Nursing, teaching positions, international nursing opportunities
 
 ## Departments
-- Medical-Surgical Nursing
-- Community Health Nursing
-- Child Health (Paediatric) Nursing
-- Obstetric and Gynecological Nursing
-- Psychiatric (Mental Health) Nursing
+1. Department of Medical-Surgical Nursing — Focus: adult health, critical care, emergency nursing
+2. Department of Community Health Nursing — Focus: public health, rural health, preventive care
+3. Department of Child Health (Paediatric) Nursing — Focus: neonatal care, child development, pediatric emergencies
+4. Department of Obstetric and Gynecological Nursing — Focus: maternal health, reproductive health, women's health
+5. Department of Psychiatric (Mental Health) Nursing — Focus: mental health assessment, therapeutic communication, rehabilitation
 
-## Facilities
-- Smart classrooms with digital learning tools
-- Nursing simulation laboratory
-- Well-stocked library with digital resources
-- Separate hostel for boys and girls
-- Transport facility covering Salem, Erode, Namakkal, Tiruchengode
-- Sports and recreation facilities
+## Clinical Training & Hospital
+- Attached Hospital: 500+ bed multi-specialty teaching hospital on campus
+- Clinical Exposure: From Year 1 of B.Sc Nursing program
+- Departments Available: Medicine, Surgery, Pediatrics, Obstetrics & Gynecology, Psychiatry, Orthopedics, ENT, Ophthalmology, Dermatology, Emergency Medicine, ICU, NICU, Operation Theater
+- Daily Patient Flow: 1000+ outpatients
+- Simulation Labs: Advanced nursing simulation laboratory with patient simulators
+- Skills Laboratory: Dedicated skills lab for clinical procedures practice
+- Community Health Postings: Rural and urban health centers
+- Specialty Rotations: All clinical departments covered
+
+## Placement Highlights
+- Overall Placement Rate: 97%
+- Recruiting Partners: 80+ hospitals and healthcare organizations
+- Highest Package (International): Up to 25 LPA
+- Placement Portal: https://placements.jkkn.ac.in/
+
+### International Placement Partners
+- NHS UK (National Health Service, United Kingdom) — Staff Nurse positions across UK hospitals
+- Cleveland Clinic Abu Dhabi, UAE — Premium healthcare facility placements
+- Singapore Hospitals — Various nursing positions in Singapore healthcare system
+- Saudi Arabia — Healthcare facility placements in Kingdom of Saudi Arabia
+- Countries: United Kingdom, UAE, Saudi Arabia, Singapore, Oman, Qatar
+
+### Domestic Placement Partners
+- Apollo Hospitals — India's largest hospital chain
+- Fortis Healthcare — Multi-specialty hospital network
+- MIOT International — Chennai-based super-specialty hospital
+- Manipal Hospitals — Pan-India hospital network
+- Narayana Health — Multi-specialty healthcare group
+- KMCH (Kovai Medical Center and Hospital) — Coimbatore healthcare leader
+- Kauvery Hospital — Tamil Nadu hospital chain
+- Meenakshi Mission Hospital — Madurai-based hospital
+- GEM Hospital — Coimbatore gastroenterology specialty
+- Government hospitals across Tamil Nadu
+
+## Campus Facilities
+- 500+ bed multi-specialty teaching hospital (on campus)
+- Advanced nursing simulation laboratory with high-fidelity simulators
+- Skills laboratory for clinical procedures practice
+- Smart classrooms with digital learning tools and projectors
+- Library with 10,000+ books, nursing journals, and digital resources (DELNET membership)
+- Computer laboratory with internet access
+- Separate hostel for men and women (with mess facility)
+- Transport services covering Salem, Erode, Namakkal, Tiruchengode
+- Sports facilities: basketball, volleyball, badminton, athletics
 - Wi-Fi enabled campus
-- Auditorium and seminar halls
-- Cafeteria
+- Auditorium and seminar halls for conferences
+- Cafeteria with hygienic food services
+- NSS (National Service Scheme) unit
+- 24/7 security with CCTV surveillance
 
-## Contact
-- Website: https://nursing.sresakthimayeil.jkkn.ac.in/
-- Email: nursing@jkkn.ac.in
-- Phone: +91 93458 55001
-- Address: Sresakthimayeil Institute of Nursing and Research, Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183
+## Scholarships & Financial Aid
+- Government scholarships for SC/ST/OBC/MBC students
+- BC/MBC fee concessions from Tamil Nadu Government
+- Merit-based scholarships for academic toppers
+- Management quota fee concessions available
+- Central government scholarship schemes: Post Matric Scholarship, National Scholarship Portal
+- State government schemes: Tamil Nadu Government Scholarships
+- First-generation graduate scholarships
+
+## Research & Academic Excellence
+- Active research culture with faculty publications in indexed journals (Scopus, PubMed)
+- Annual nursing research symposiums and conferences
+- Student research projects from 3rd year B.Sc Nursing onwards
+- Collaboration with 500+ bed teaching hospital for clinical research
+- Innovation cell (IIC) and IQAC for quality improvement
+- ARIIA (Atal Ranking of Institutions on Innovation Achievements) participation
+- AISHE (All India Survey on Higher Education) data submission
+
+## JKKN Institutions Ecosystem (Sister Institutions)
+JKKN College of Nursing is part of JKKN Institutions, a multi-disciplinary educational group:
+1. JKKN Dental College & Hospital — https://dental.jkkn.ac.in/
+2. JKKN College of Pharmacy — https://pharmacy.jkkn.ac.in/
+3. JKKN College of Engineering & Technology — https://engg.jkkn.ac.in/
+4. JKKN College of Allied Health Sciences — https://ahs.jkkn.ac.in/
+5. JKKN College of Arts & Science — https://cas.jkkn.ac.in/
+6. JKKN College of Education — https://edu.jkkn.ac.in/
+7. JKKN Matriculation Higher Secondary School — https://school.jkkn.ac.in/
+8. Nattraja Vidhyalya (CBSE School) — https://nv.jkkn.ac.in/
+- Main Website: https://jkkn.ac.in/
+
+## Why Choose JKKN College of Nursing
+1. 74+ year legacy of JKK Nattraja Educational Institutions (since 1952)
+2. INC approved and NAAC accredited nursing programs
+3. Clinical exposure from Year 1 at attached 500+ bed multi-specialty hospital
+4. 97% placement rate with 80+ recruiting partners
+5. International placement opportunities: UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore
+6. Highest international package: up to 25 LPA
+7. 5 M.Sc Nursing specializations with expert faculty
+8. Advanced simulation labs and skills laboratory
+9. Located on NH-544 with excellent connectivity to Salem, Erode, Coimbatore
+10. Part of multi-disciplinary JKKN campus with 10 institutions
+11. Separate hostel with mess facility for men and women
+12. Active research culture and faculty publications
+13. Affordable fees with multiple scholarship options
+14. Strong alumni network across India and internationally
+15. NSS, sports, cultural activities for holistic development
+
+## Frequently Asked Questions
+
+### Is JKKN College of Nursing approved by INC?
+Yes, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is approved by the Indian Nursing Council (INC), New Delhi. It is also recognized by the Tamil Nadu Nurses and Midwives Council (TNNMC) and affiliated to Tamil Nadu Dr. MGR Medical University (TNMGRMU).
+
+### What are the courses offered at JKKN College of Nursing?
+JKKN College of Nursing offers three nursing programs: B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats with 5 specializations), and Post Basic B.Sc Nursing (2 years, 50 seats for GNM diploma holders).
+
+### What is the placement rate at JKKN College of Nursing?
+JKKN College of Nursing has a 97% placement rate with 80+ recruiting partners. Graduates are placed in top hospitals across India (Apollo, Fortis, Manipal) and internationally in NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, with packages up to 25 LPA internationally.
+
+### Is NEET required for B.Sc Nursing admission at JKKN?
+No, NEET is not required for B.Sc Nursing admission in Tamil Nadu. Admission to JKKN College of Nursing is merit-based on 10+2 marks with Physics, Chemistry, and Biology.
+
+### Where is JKKN College of Nursing located?
+JKKN College of Nursing is located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is 45 km from Salem, 30 km from Erode, 25 km from Namakkal, and 120 km from Coimbatore.
+
+### Does JKKN College of Nursing have a teaching hospital?
+Yes, JKKN College of Nursing has a 500+ bed multi-specialty teaching hospital on campus. Students get clinical exposure from Year 1 across all departments including Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry, ICU, NICU, and Operation Theater.
+
+### What M.Sc Nursing specializations are available?
+JKKN College of Nursing offers 5 M.Sc Nursing specializations: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetric and Gynecological Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization has 5 seats.
+
+### Can I get international nursing jobs after studying at JKKN?
+Yes, JKKN College of Nursing has active international placement partnerships. Graduates are placed in NHS hospitals across the UK, Cleveland Clinic Abu Dhabi (UAE), Singapore hospitals, and healthcare facilities in Saudi Arabia, Oman, and Qatar. International packages can go up to 25 LPA.
 
 ## Important Links
+- Homepage: https://nursing.sresakthimayeil.jkkn.ac.in/
 - Admissions: https://nursing.sresakthimayeil.jkkn.ac.in/admissions
 - B.Sc Nursing: https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing
 - M.Sc Nursing: https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing
 - Post Basic B.Sc Nursing: https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing
 - Placements: https://nursing.sresakthimayeil.jkkn.ac.in/placement
 - Fee Structure: https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure
+- Faculty: https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details
+- About: https://nursing.sresakthimayeil.jkkn.ac.in/about
+- Contact: https://nursing.sresakthimayeil.jkkn.ac.in/contact
 - Blog: https://nursing.sresakthimayeil.jkkn.ac.in/blog
+- Facilities: https://nursing.sresakthimayeil.jkkn.ac.in/library
+- Hostel: https://nursing.sresakthimayeil.jkkn.ac.in/hostel
+- Hospital Training: https://nursing.sresakthimayeil.jkkn.ac.in/hospital-training
+- Clinical Exposure: https://nursing.sresakthimayeil.jkkn.ac.in/clinical-exposure
+- Scholarship: https://nursing.sresakthimayeil.jkkn.ac.in/scholarship
+- NAAC: https://nursing.sresakthimayeil.jkkn.ac.in/naac
+- Admission Portal: https://admission.jkkn.ac.in/
+- Placement Portal: https://placements.jkkn.ac.in/
 - Parent Organization: https://jkkn.ac.in/
 
-## Accreditation & Recognition
-- Approved by: Indian Nursing Council (INC), New Delhi
-- Recognized by: Tamil Nadu Nurses and Midwives Council (TNNMC)
-- Affiliated to: Tamil Nadu Dr. M.G.R. Medical University, Chennai
-- Accreditation: NAAC Accredited [exact grade unverified]
-- Parent Organization: JKK Nattraja Educational Institutions (Est. 1952)
+## Social Media
+- Facebook: https://www.facebook.com/jkknnursing
+- Instagram: https://www.instagram.com/jkknnursing
+- LinkedIn: https://www.linkedin.com/school/jkknnursing
+- YouTube: https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY
 
-## Scholarships
-- Government scholarships for SC/ST/OBC/MBC students
-- Merit-based scholarships for academic toppers
-- Management quota fee concessions available
-- Central and State government scholarship schemes applicable
-
-## Research & Publications
-- Active research culture with faculty publications in indexed journals
-- Annual research symposiums and conferences
-- Student research projects from 3rd year onwards
-- Collaboration with 500+ bed teaching hospital for clinical research
-
-## Student-Faculty Ratio
-- Maintains INC-mandated student-faculty ratio
-- Dedicated clinical instructors for hospital training
-- Guest lectures from industry experts and healthcare professionals
-
-## Why JKKN College of Nursing
-- 74+ year legacy of JKK Nattraja Educational Institutions (since 1952)
-- Clinical exposure from Year 1 at attached 500+ bed multi-specialty hospital
-- International placement opportunities: UK (NHS), UAE, Saudi Arabia, Singapore
-- 97% placement rate with 100+ recruiting partners
-- Located on NH-544 (Salem-Coimbatore Highway) with excellent connectivity
-- Hostel, transport, sports, Wi-Fi campus, and modern simulation labs
+## Sitemap
+- Main Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap.xml
+- Course Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-courses.xml
+- Blog Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-blog.xml
+- Pages Sitemap: https://nursing.sresakthimayeil.jkkn.ac.in/sitemap-pages.xml
