@@ -42,7 +42,7 @@ export default function HeroSection() {
 
           {/* Main Title */}
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 md:mb-8 text-[#FFD700] drop-shadow-2xl leading-tight px-4 max-w-6xl mx-auto">
-            Sresakthimayeil Institute of Nursing and Research
+            JKKN College of Nursing <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl mt-2">Sresakthimayeil Institute of Nursing and Research</span>
           </h1>
 
           {/* Buttons */}

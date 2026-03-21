@@ -397,9 +397,9 @@ export default async function Home() {
 
                 {/* Heading */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6">
-                  Begin Your Journey at
+                  JKKN College of Nursing
                   <br />
-                  <span className="text-[#7cb983]">Sresakthimayeil Institute of Nursing and Research</span>
+                  <span className="text-[#7cb983] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Sresakthimayeil Institute of Nursing and Research</span>
                 </h1>
 
                 {/* Description */}
