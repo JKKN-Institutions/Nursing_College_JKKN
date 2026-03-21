@@ -246,7 +246,65 @@ const educationalOrgSchema = {
     "https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions",
     "https://www.wikidata.org/wiki/Q55090877",
     "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Placement Rate",
+      "value": "97%",
+      "description": "Overall placement rate for nursing graduates including domestic and international placements"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Highest Package (International)",
+      "value": "25 LPA",
+      "description": "Highest international placement package offered to nursing graduates"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Recruiting Partners",
+      "value": "80+",
+      "description": "Number of active recruiting partners including hospitals, healthcare chains, and international employers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "International Placement Partners",
+      "value": "NHS UK, Cleveland Clinic Abu Dhabi, Singapore Hospitals",
+      "description": "Key international healthcare organizations that recruit JKKN nursing graduates"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Domestic Placement Partners",
+      "value": "Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health",
+      "description": "Top domestic hospital chains that actively recruit from JKKN College of Nursing"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Teaching Hospital Beds",
+      "value": "500+",
+      "description": "Number of beds in the attached multi-specialty teaching hospital for clinical training"
+    }
   ]
+};
+
+const videoObjectSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "JKKN College of Nursing — Campus Tour, Facilities & Student Life",
+  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 97% placement rate.",
+  "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "uploadDate": "2025-01-01",
+  "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+  "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization"
+  },
+  "inLanguage": "en",
+  "about": {
+    "@type": "EducationalOrganization",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization"
+  }
 };
 
 export default function RootLayout({
@@ -272,6 +330,10 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrgSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoObjectSchema) }}
         />
       </head>
       <body className={`${poppins.className} antialiased bg-[#FBFBEE]`} suppressHydrationWarning>
