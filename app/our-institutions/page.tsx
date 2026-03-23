@@ -2,10 +2,15 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Image from "next/image";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function OurInstitutions() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Our Institutions", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions" }
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] pt-20 sm:pt-24 lg:pt-28">
         {/* Main Title */}

@@ -1,5 +1,12 @@
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+
 export default function MedicalSurgicalNursing() {
   return (
+    <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Medical-Surgical Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-medical-surgical" }
+      ]} />
     <div className="container mx-auto px-4 sm:px-6 lg:px-16 py-8">
       <h1 className="text-4xl font-bold text-primary mb-6">Medical-Surgical Nursing</h1>
       <div className="prose max-w-none">
@@ -62,5 +69,6 @@ export default function MedicalSurgicalNursing() {
         </section>
       </div>
     </div>
+    </>
   );
 }

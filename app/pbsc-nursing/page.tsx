@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -27,8 +28,102 @@ export default function PBScNursing() {
   const [activeYear, setActiveYear] = useState<"first" | "second">("first");
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": "Post Basic Bachelor of Science in Nursing (Post Basic B.Sc Nursing)",
+    "description": "A 2-year undergraduate nursing program for GNM holders, approved by the Indian Nursing Council (INC), affiliated to Tamil Nadu Dr. MGR Medical University.",
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+    },
+    "timeRequired": "P2Y",
+    "educationalCredentialAwarded": "B.Sc Nursing Degree",
+    "coursePrerequisites": "GNM Diploma with minimum 50% marks"
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the duration of the Post Basic B.Sc Nursing course?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Post Basic B.Sc Nursing programme is a 2-year full-time undergraduate course designed specifically for registered nurses who hold a GNM diploma. This accelerated programme allows working nurses to upgrade their qualification while building on their existing clinical experience."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the eligibility criteria for Post Basic B.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Candidates must have passed GNM (General Nursing and Midwifery) from a recognised institution with minimum 50% aggregate marks. They must be registered with the State Nursing Council and have completed minimum 2 years of clinical experience after GNM. No upper age limit, but candidates above 45 may require special approval."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is NEET required for Post Basic B.Sc Nursing admission?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, NEET is not required for Post Basic B.Sc Nursing admission. Admission is based on merit in the GNM qualifying examination and an entrance test/interview conducted by the institution or state counselling authority."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between B.Sc Nursing and Post Basic B.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "B.Sc Nursing is a 4-year undergraduate programme for 10+2 students, while Post Basic B.Sc Nursing is a 2-year programme exclusively for GNM diploma holders with clinical experience. Both degrees have equal value for career advancement, higher studies, and international opportunities."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I pursue M.Sc Nursing after Post Basic B.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, after completing Post Basic B.Sc Nursing and one year of clinical experience, you are eligible to pursue M.Sc Nursing in various specialities such as Medical-Surgical Nursing, Paediatric Nursing, Psychiatric Nursing, Community Health Nursing, OBG Nursing, and more."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the Post Basic B.Sc Nursing degree recognised internationally?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Post Basic B.Sc Nursing from INC-approved colleges is recognised internationally. Graduates can apply for nursing positions in UK, USA, Australia, Canada, and Gulf countries after clearing their respective licensing examinations like NCLEX-RN, CBT, etc."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the college provide hostel accommodation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female students with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I continue working while pursuing Post Basic B.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While Post Basic B.Sc Nursing is a full-time programme, the schedule is designed considering that most candidates are working nurses. However, regular attendance is mandatory as per INC norms. Many employers support nurses pursuing higher education with flexible duty arrangements."
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
@@ -45,7 +140,7 @@ export default function PBScNursing() {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-gray-700/50 text-white px-4 py-2 rounded-full mb-6">
                   <CheckCircleIcon className="w-5 h-5 text-[#7cb983]" />
-                  <span className="text-sm font-medium">INC Approved | TNMGRMU Affiliated | NAAC Accredited</span>
+                  <span className="text-sm font-medium"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved | <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Affiliated | <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited</span>
                 </div>
 
                 {/* Main Heading */}
@@ -55,9 +150,16 @@ export default function PBScNursing() {
                   (P.B. B.Sc Nursing)
                 </h1>
 
+                <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for GNM/ANM graduates, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the 500+ bed hospital.</p>
+                </div>
+
                 {/* Description */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-                  Elevate your nursing career from diploma to degree. Our 2-year Post Basic B.Sc Nursing programme is specially designed for registered GNM nurses to upgrade their qualification, expand career opportunities, and pursue higher education in nursing.
+                  Elevate your nursing career from diploma to degree. The 2-year Post Basic B.Sc Nursing programme at JKKN is specially designed for registered GNM nurses to upgrade their qualification, expand career opportunities, and pursue higher education in nursing.
                 </p>
 
                 {/* Buttons */}
@@ -87,7 +189,7 @@ export default function PBScNursing() {
                     <div className="text-xs sm:text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">98%</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">97%</div>
                     <div className="text-xs sm:text-sm text-gray-300">Success Rate</div>
                   </div>
                   <div>
@@ -100,7 +202,7 @@ export default function PBScNursing() {
               {/* Right Content - Post Basic Nursing Learners */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"
+                  src="/images/P.B.B.Sc-Nursing-Hero-Banner-Image.webp"
                   alt="Post Basic Nursing Learners"
                   fill
                   className="object-cover"
@@ -119,7 +221,7 @@ export default function PBScNursing() {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
-                    src="/images/P.B.B.Sc-Nursing-Advanced-Nursing-Practice-Image.png"
+                    src="/images/P.B.B.Sc-Nursing-Advanced-Nursing-Practice-Image.webp"
                     alt="Advanced Nursing Practice"
                     fill
                     className="object-cover"
@@ -130,13 +232,13 @@ export default function PBScNursing() {
               {/* Right - Content */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-6">
-                  Programme Overview
+                  What is Post Basic B.Sc Nursing?
                 </h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
                   The Post Basic Bachelor of Science in Nursing (P.B. B.Sc Nursing) is a 2-year undergraduate degree programme exclusively designed for registered nurses who have completed their GNM (General Nursing and Midwifery) diploma. This bridge programme enables working nurses to upgrade their qualification to a bachelor's degree level.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  At JKKN College of Nursing, we recognise the valuable clinical experience that GNM nurses bring. Our curriculum builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
+                  At Sresakthimayeil Institute of Nursing and Research, the valuable clinical experience that GNM nurses bring is fully recognised. The curriculum builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
                 </p>
 
                 {/* Features List */}
@@ -245,7 +347,7 @@ export default function PBScNursing() {
                 Programme Information at a Glance
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Essential details about our Post Basic B.Sc Nursing programme to help you make an informed decision.
+                Essential details about the Post Basic B.Sc Nursing programme to help you make an informed decision.
               </p>
             </div>
 
@@ -489,10 +591,10 @@ export default function PBScNursing() {
                 WHAT YOU'LL LEARN
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Programme Curriculum
+                Post Basic B.Sc Nursing Curriculum and Syllabus
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Our INC-approved curriculum builds upon your GNM foundation with advanced nursing concepts and specialised skills.
+                The INC-approved curriculum builds upon your GNM foundation with advanced nursing concepts and specialised skills.
               </p>
             </div>
 
@@ -561,7 +663,9 @@ export default function PBScNursing() {
                     <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                       02
                     </div>
-                    <h3 className="text-xl font-bold text-[#006837]">Medical Nursing</h3>
+                    <h3 className="text-xl font-bold text-[#006837]">
+                      <Link href="/dept-medical-surgical" className="hover:underline">Medical Nursing</Link>
+                    </h3>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
@@ -647,7 +751,9 @@ export default function PBScNursing() {
                     <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                       02
                     </div>
-                    <h3 className="text-xl font-bold text-[#006837]">Community & Management</h3>
+                    <h3 className="text-xl font-bold text-[#006837]">
+                      <Link href="/dept-community-health" className="hover:underline">Community &amp; Management</Link>
+                    </h3>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
@@ -708,7 +814,7 @@ export default function PBScNursing() {
                 WORLD-CLASS INFRASTRUCTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Our Facilities
+                Facilities at Sresakthimayeil Institute of Nursing and Research
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
@@ -781,7 +887,7 @@ export default function PBScNursing() {
                 YOUR FUTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Career Opportunities
+                Career Options After Post Basic B.Sc Nursing
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 A Post Basic B.Sc Nursing degree opens doors to enhanced career paths and leadership positions in healthcare.
@@ -792,7 +898,7 @@ export default function PBScNursing() {
               {/* Left - Nursing Career Advancement */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/P.B.B.Sc-Nursing-Career-Advancement-Image.png"
+                  src="/images/P.B.B.Sc-Nursing-Career-Advancement-Image.webp"
                   alt="Nursing Career Advancement"
                   fill
                   className="object-cover"
@@ -859,7 +965,9 @@ export default function PBScNursing() {
                     <BookOpenIcon className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="text-xl font-bold text-[#006837] mb-2">M.Sc Nursing & PhD</h4>
+                    <h4 className="text-xl font-bold text-[#006837] mb-2">
+                      <Link href="/msc-nursing" className="hover:underline">M.Sc Nursing</Link> &amp; PhD
+                    </h4>
                     <p className="text-gray-700">
                       Pursue higher studies in nursing specialities and research after completing B.Sc.
                     </p>
@@ -881,13 +989,13 @@ export default function PBScNursing() {
                 Career Advancement Statistics
               </h2>
               <p className="text-gray-200 text-lg max-w-3xl mx-auto">
-                Our Post Basic B.Sc Nursing graduates achieve significant career advancement in the healthcare sector.
+                Post Basic B.Sc Nursing graduates from JKKN achieve significant career advancement in the healthcare sector. View our <Link href="/placement" className="text-[#7cb983] hover:underline font-semibold">placement records</Link>.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">98%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">97%</div>
                 <div className="text-xl font-semibold mb-2">Completion Rate</div>
               </div>
 
@@ -917,7 +1025,7 @@ export default function PBScNursing() {
                 GET STARTED
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Admission Process
+                How to Apply for Post Basic B.Sc Nursing Admission
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Follow these simple steps to apply for the Post Basic B.Sc Nursing programme.
@@ -933,7 +1041,7 @@ export default function PBScNursing() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#006837] mb-3">Online Registration</h3>
                   <p className="text-gray-700 text-lg">
-                    Visit our official website and complete the online application form with accurate details including GNM certificate and work experience.
+                    Visit the official JKKN admissions website and complete the online application form with accurate details including GNM certificate and work experience.
                   </p>
                 </div>
               </div>
@@ -1004,7 +1112,7 @@ export default function PBScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Find answers to common questions about our Post Basic B.Sc Nursing programme.
+                Find answers to common questions about the Post Basic B.Sc Nursing programme at Sresakthimayeil Institute of Nursing and Research.
               </p>
             </div>
 
@@ -1171,7 +1279,7 @@ export default function PBScNursing() {
                 {openFaq === 7 && (
                   <div className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
-                      Yes, JKKN College of Nursing provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
+                      Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
                     </p>
                   </div>
                 )}
@@ -1227,7 +1335,17 @@ export default function PBScNursing() {
           </div>
         </section>
 
-     
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
+
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

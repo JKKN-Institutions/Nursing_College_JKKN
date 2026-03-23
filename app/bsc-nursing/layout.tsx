@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
-  description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
+  title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
+  description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
   keywords: "best bsc nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, bsc nursing best colleges in tamilnadu, bsc nursing courses in tamilnadu, top bsc nursing colleges in tamilnadu, top 10 bsc nursing colleges in tamilnadu, bsc nursing male colleges in tamilnadu, bsc male nursing colleges in tamilnadu, bsc nursing course colleges in tamilnadu, bsc nursing private colleges in tamilnadu, bsc nursing colleges in erode",
   openGraph: {
-    title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
-    description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
+    title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
+    description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
-        url: "/images/B.Sc-Nursing-Hero-Banner_image.png",
+        url: "/images/B.Sc-Nursing-Hero-Banner_image.webp",
         width: 1200,
         height: 630,
         alt: "BSc Nursing at JKKN College",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "B.Sc Nursing Course — Fees, Eligibility | JKKN Nursing",
-    description: "Apply for 4-year B.Sc Nursing at Sresakthimayeil Institute, Komarapalayam. INC approved, 60 seats. Eligibility, fees, curriculum, placements details.",
-    images: ["/images/B.Sc-Nursing-Hero-Banner_image.png"],
+    title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
+    description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
+    images: ["/images/B.Sc-Nursing-Hero-Banner_image.webp"],
   },
   robots: {
     index: true,
@@ -46,25 +46,15 @@ const bscFaqSchema = {
   ]
 };
 
-const bscBreadcrumbSchema = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "JKKN Institutions", "item": "https://jkkn.ac.in/" },
-    { "@type": "ListItem", "position": 2, "name": "College of Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/" },
-    { "@type": "ListItem", "position": 3, "name": "B.Sc Nursing", "item": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" }
-  ]
-};
-
 const bscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
-  "description": "4-year INC-approved undergraduate nursing program at JKKN College of Nursing, Komarapalayam. Clinical training at 500+ bed teaching hospital. NAAC accredited.",
+  "description": "4-year INC-approved undergraduate nursing program at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Clinical training at 500+ bed teaching hospital. NAAC accredited.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "JKKN College of Nursing",
+    "name": "Sresakthimayeil Institute of Nursing and Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
     "address": {
       "@type": "PostalAddress",
@@ -78,7 +68,7 @@ const bscNursingSchema = {
   "educationalCredentialAwarded": "B.Sc Nursing",
   "timeRequired": "P4Y",
   "occupationalCategory": "Registered Nurse",
-  "coursePrerequisites": "10+2 with Physics, Chemistry, Biology (PCB) with minimum 45% aggregate. NEET-UG qualification required.",
+  "coursePrerequisites": "10+2 with Physics, Chemistry, Biology (PCB) with minimum 45% aggregate (40% for SC/ST). Admission through Tamil Nadu merit-based counselling.",
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "Full-time",
@@ -89,6 +79,10 @@ const bscNursingSchema = {
     "availability": "https://schema.org/InStock",
     "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
     "category": "Government Quota / Management Quota"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".course-overview", ".key-facts"]
   }
 };
 
@@ -106,10 +100,6 @@ export default function BScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(bscFaqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscBreadcrumbSchema) }}
       />
       {children}
     </>

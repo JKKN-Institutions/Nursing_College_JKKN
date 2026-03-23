@@ -17,7 +17,7 @@ export default function FeeStructure() {
               Fee Structure 2026-27
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
-              Transparent and affordable nursing education at JKKN College of Nursing
+              Transparent and affordable nursing education at Sresakthimayeil Institute of Nursing and Research
             </p>
           </div>
         </section>
@@ -34,7 +34,7 @@ export default function FeeStructure() {
             <h2 className="text-2xl sm:text-3xl font-bold text-[#0b7845] mb-2">
               Program Tuition Fees
             </h2>
-            <p className="text-gray-600 mb-8">Annual and total course fee for each nursing program offered at JKKN College of Nursing.</p>
+            <p className="text-gray-600 mb-8">Annual and total course fee for each nursing program offered at Sresakthimayeil Institute of Nursing and Research.</p>
             <div className="overflow-x-auto rounded-lg shadow-sm border border-gray-200">
               <table className="min-w-full text-sm sm:text-base">
                 <thead>
@@ -68,7 +68,7 @@ export default function FeeStructure() {
               </table>
             </div>
             <p className="mt-4 text-sm text-gray-500 italic">
-              * Fees are as per university/government norms and subject to revision. Additional examination fees as per Tamil Nadu Dr. MGR Medical University.
+              * Fees are as per university/government norms and reviewed annually. Additional examination fees as per Tamil Nadu Dr. MGR Medical University.
             </p>
           </div>
         </section>
@@ -105,7 +105,7 @@ export default function FeeStructure() {
               </table>
             </div>
             <p className="mt-4 text-sm text-gray-500 italic">
-              Hostel fee includes food, accommodation, and basic amenities. Separate charges may apply for AC rooms where available.
+              Hostel fee includes food, accommodation, and basic amenities. Separate charges apply for AC rooms where available.
             </p>
           </div>
         </section>

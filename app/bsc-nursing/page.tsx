@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -32,6 +33,100 @@ export default function BScNursing() {
         { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
         { name: 'B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/' },
       ]} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
+              "description": "A 4-year undergraduate nursing program approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Natarajapuram, NH-544 (Salem-Coimbatore Highway)",
+                  "addressLocality": "Komarapalayam",
+                  "addressRegion": "Tamil Nadu",
+                  "postalCode": "638183",
+                  "addressCountry": "IN"
+                }
+              },
+              "timeRequired": "P4Y",
+              "educationalCredentialAwarded": "B.Sc Nursing Degree",
+              "occupationalCategory": "Registered Nurse",
+              "coursePrerequisites": "10+2 with Physics, Chemistry, Biology with minimum 45% marks and valid NEET-UG score",
+              "availableLanguage": "English",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT4Y",
+                "instructor": {
+                  "@type": "Organization",
+                  "name": "Sresakthimayeil Institute of Nursing and Research"
+                }
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the duration of the B.Sc Nursing course?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What are the eligibility criteria for B.Sc Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age should be between 17-35 years. A valid NEET-UG score is required."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is Sresakthimayeil Institute of Nursing and Research approved by INC?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Sresakthimayeil Institute of Nursing and Research is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What career opportunities are available after B.Sc Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Graduates can work as Staff Nurses, Community Health Nurses, ICU/Critical Care Nurses, Nursing Educators (after M.Sc), Defence Services Nursing, or pursue international nursing opportunities."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Does the college provide hostel accommodation?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I pursue higher studies after B.Sc Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing in various specialities or PhD in Nursing."
+                  }
+                }
+              ]
+            }
+          ])
+        }}
+      />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
         <section className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-16 md:py-24">
@@ -42,19 +137,25 @@ export default function BScNursing() {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-gray-700/50 text-white px-4 py-2 rounded-full mb-6">
                   <CheckCircleIcon className="w-5 h-5 text-[#7cb983]" />
-                  <span className="text-sm font-medium">INC Approved | TNMGRMU Recognized | NAAC Accredited</span>
+                  <span className="text-sm font-medium"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved | <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Recognized | <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited</span>
                 </div>
 
                 {/* Main Heading */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                  Bachelor of Science in{" "}
-                  <span className="text-[#7cb983]">Nursing</span>{" "}
-                  (B.Sc Nursing)
+                  B.Sc Nursing at{" "}
+                  <span className="text-[#7cb983]">Sresakthimayeil Institute of Nursing and Research</span>
                 </h1>
+
+                <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 4-year INC-approved B.Sc Nursing program affiliated to Tamil Nadu Dr. M.G.R. Medical University. Students receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. Placement rate: 92%+ with international opportunities in NHS UK, UAE, and Singapore.</p>
+                </div>
 
                 {/* Description */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-                  Transform your passion for healthcare into a rewarding career. Our 4-year undergraduate nursing program prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
+                  Transform your passion for healthcare into a rewarding career. The 4-year undergraduate nursing program at Sresakthimayeil Institute of Nursing and Research prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
                 </p>
 
                 {/* Buttons */}
@@ -84,7 +185,7 @@ export default function BScNursing() {
                     <div className="text-xs sm:text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">95%</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">97%</div>
                     <div className="text-xs sm:text-sm text-gray-300">Placement Rate</div>
                   </div>
                   <div>
@@ -97,7 +198,7 @@ export default function BScNursing() {
               {/* Right Content - Nursing Learners */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/B.Sc-Nursing-Hero-Banner_image.png"
+                  src="/images/B.Sc-Nursing-Hero-Banner_image.webp"
                   alt="Nursing Learners"
                   fill
                   className="object-cover"
@@ -116,7 +217,7 @@ export default function BScNursing() {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
-                    src="/images/B.Sc-Nursing-PatientCare-Training.png"
+                    src="/images/B.Sc-Nursing-PatientCare-Training.webp"
                     alt="Patient Care Training"
                     fill
                     className="object-cover"
@@ -127,13 +228,13 @@ export default function BScNursing() {
               {/* Right - Content */}
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-6">
-                  Programme Overview
+                  What is B.Sc Nursing?
                 </h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  The Bachelor of Science in Nursing (B.Sc Nursing) is a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. Our curriculum integrates theoretical knowledge with extensive clinical practice.
+                  The Bachelor of Science in Nursing (B.Sc Nursing) is a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The curriculum integrates theoretical knowledge with extensive clinical practice.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  At JKKN College of Nursing, we believe in progressive education that goes beyond textbook learning. Our Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
+                  Sresakthimayeil Institute of Nursing and Research follows a progressive education approach that goes beyond textbook learning. Students gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
                 </p>
 
                 {/* Features List */}
@@ -179,7 +280,7 @@ export default function BScNursing() {
                 Programme Information at a Glance
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Essential details about our B.Sc Nursing programme to help you make an informed decision.
+                Essential details about the B.Sc Nursing programme at Sresakthimayeil Institute of Nursing and Research to help you make an informed decision.
               </p>
             </div>
 
@@ -243,7 +344,7 @@ export default function BScNursing() {
                 WHO CAN APPLY
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Eligibility Criteria
+                B.Sc Nursing Eligibility Criteria
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Review the requirements to ensure you meet the eligibility criteria for admission.
@@ -364,10 +465,10 @@ export default function BScNursing() {
                 WHAT YOU'LL LEARN
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Programme Curriculum
+                B.Sc Nursing Syllabus and Curriculum
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Our INC-approved curriculum provides comprehensive theoretical knowledge and practical clinical skills.
+                The INC-approved B.Sc Nursing curriculum provides comprehensive theoretical knowledge and practical clinical skills.
               </p>
             </div>
 
@@ -511,7 +612,9 @@ export default function BScNursing() {
                     <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                       01
                     </div>
-                    <h3 className="text-xl font-bold text-[#006837]">Medical-Surgical Nursing</h3>
+                    <h3 className="text-xl font-bold text-[#006837]">
+                      <Link href="/dept-medical-surgical" className="hover:underline">Medical-Surgical Nursing</Link>
+                    </h3>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
@@ -538,7 +641,9 @@ export default function BScNursing() {
                     <div className="bg-[#7cb983] text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                       02
                     </div>
-                    <h3 className="text-xl font-bold text-[#006837]">Community Health</h3>
+                    <h3 className="text-xl font-bold text-[#006837]">
+                      <Link href="/dept-community-health" className="hover:underline">Community Health</Link>
+                    </h3>
                   </div>
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
@@ -769,7 +874,7 @@ export default function BScNursing() {
                 WORLD-CLASS INFRASTRUCTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Our Facilities
+                Campus Facilities at Sresakthimayeil Institute of Nursing and Research
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
@@ -842,7 +947,7 @@ export default function BScNursing() {
                 YOUR FUTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Career Opportunities
+                Career Options After B.Sc Nursing
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 A B.Sc Nursing degree opens doors to diverse and rewarding career paths in healthcare.
@@ -853,7 +958,7 @@ export default function BScNursing() {
               {/* Left - Nursing Careers Image */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/B.Sc-Nursing-Careers-image.png"
+                  src="/images/B.Sc-Nursing-Careers-image.webp"
                   alt="Nursing Careers"
                   fill
                   className="object-cover"
@@ -942,13 +1047,13 @@ export default function BScNursing() {
                 Placement Statistics
               </h2>
               <p className="text-gray-200 text-lg max-w-3xl mx-auto">
-                Our dedicated placement cell ensures excellent career opportunities for all graduating Learners.
+                The dedicated <Link href="/placement" className="text-[#7cb983] hover:underline font-semibold">placement cell</Link> at Sresakthimayeil Institute of Nursing and Research ensures excellent career opportunities for all graduating Learners.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">95%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">97%</div>
                 <div className="text-xl font-semibold mb-2">Placement Rate</div>
               </div>
 
@@ -994,7 +1099,7 @@ export default function BScNursing() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#006837] mb-3">Online Registration</h3>
                   <p className="text-gray-700 text-lg">
-                    Visit our official website and complete the online application form with accurate details.
+                    Visit the official Sresakthimayeil Institute of Nursing and Research website and complete the online application form with accurate details.
                   </p>
                 </div>
               </div>
@@ -1065,7 +1170,7 @@ export default function BScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Find answers to common questions about our B.Sc Nursing programme.
+                Find answers to common questions about the B.Sc Nursing programme at Sresakthimayeil Institute of Nursing and Research.
               </p>
             </div>
 
@@ -1108,7 +1213,7 @@ export default function BScNursing() {
               <details className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
                 <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
                   <h3 className="text-lg md:text-xl font-bold text-[#006837]">
-                    Is JKKN College of Nursing approved by INC?
+                    Is Sresakthimayeil Institute of Nursing and Research approved by INC?
                   </h3>
                   <svg className="w-6 h-6 text-[#7cb983] transform group-open:rotate-180 transition-transform flex-shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -1116,7 +1221,7 @@ export default function BScNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, JKKN College of Nursing is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                    Yes, Sresakthimayeil Institute of Nursing and Research is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
                   </p>
                 </div>
               </details>
@@ -1150,7 +1255,7 @@ export default function BScNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, JKKN College of Nursing provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas.
+                    Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas.
                   </p>
                 </div>
               </details>
@@ -1196,7 +1301,17 @@ export default function BScNursing() {
           </div>
         </section>
 
-     
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
+
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

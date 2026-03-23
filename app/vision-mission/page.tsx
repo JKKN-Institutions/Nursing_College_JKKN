@@ -1,14 +1,20 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function VisionMission() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Vision & Mission", url: "https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission" }
+      ]} />
       <Header />
       <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Content Section */}
         <div className="container-custom py-8 md:py-12">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Vision &amp; Mission — Sresakthimayeil Institute of Nursing and Research</h1>
           {/* Vision Section */}
           <div className="mb-12 md:mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">

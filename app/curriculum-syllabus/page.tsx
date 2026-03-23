@@ -11,6 +11,7 @@ export default function CurriculumSyllabus() {
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-4">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Curriculum &amp; Syllabus Feedback — Sresakthimayeil Institute of Nursing and Research</h1>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-12">
               FEEDBACK ON Curriculum/Syllabus
             </h2>

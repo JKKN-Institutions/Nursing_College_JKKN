@@ -1,18 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Placements — 98%+ Rate, NHS UK, Apollo | JKKN Nursing",
+  title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
   description:
-    "JKKN College of Nursing placement cell: 98%+ placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary ₹3.5-25 LPA.",
+    "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary ₹3.5-25 LPA.",
   keywords:
     "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, NHS UK nursing jobs, nursing salary india, best nursing college placement",
   openGraph: {
-    title: "Placements — 98%+ Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "JKKN College of Nursing placement cell: 98%+ placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
+      "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
-    siteName: "JKKN College of Nursing",
+    siteName: "Sresakthimayeil Institute of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Placements — 98%+ Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "JKKN College of Nursing: 98%+ placement rate, 80+ recruiters, international placements.",
+      "Sresakthimayeil Institute of Nursing and Research: 97% placement rate, 80+ recruiters, international placements.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
@@ -35,21 +35,37 @@ export const metadata: Metadata = {
   },
 };
 
+const placementWebPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
+  "description": "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".placement-stats", ".key-facts"]
+  }
+};
+
 const placementFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is the placement rate at JKKN College of Nursing?",
+      name: "What is the placement rate at Sresakthimayeil Institute of Nursing and Research?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "JKKN College of Nursing maintains a 98%+ placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
+        text: "Sresakthimayeil Institute of Nursing and Research maintains a 97% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
       },
     },
     {
       "@type": "Question",
-      name: "Which companies recruit from JKKN College of Nursing?",
+      name: "Which companies recruit from Sresakthimayeil Institute of Nursing and Research?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Major recruiters include Apollo Hospitals, Fortis Healthcare, Manipal Hospitals, Kauvery Hospital, MIOT Hospitals, KMCH, and Meenakshi Mission Hospital in India, and internationally NHS UK, Cleveland Clinic Abu Dhabi, Saudi German Hospital, Aster DM Healthcare (UAE), and Singapore General Hospital.",
@@ -65,7 +81,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does JKKN College of Nursing provide international placement support?",
+      name: "Does Sresakthimayeil Institute of Nursing and Research provide international placement support?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. JKKN has active international placement partnerships with organisations in the UK (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides visa guidance, documentation support, and licensing exam preparation for all international destinations.",
@@ -73,7 +89,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does JKKN College of Nursing help with NCLEX and IELTS preparation?",
+      name: "Does Sresakthimayeil Institute of Nursing and Research help with NCLEX and IELTS preparation?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. JKKN operates a dedicated training centre that prepares students for NCLEX-RN (USA nursing licence), OET and IELTS (required for UK and Australia), DHA and HAAD exams (UAE), and PROMETRIC exams (Saudi Arabia). Coaching is provided as part of the placement programme.",
@@ -81,7 +97,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "When do placement drives happen at JKKN College of Nursing?",
+      name: "When do placement drives happen at Sresakthimayeil Institute of Nursing and Research?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Placement activities at JKKN are conducted year-round as an integral part of the curriculum. Major campus recruitment drives are held from August to February, coinciding with the end of the academic year and peak hiring cycles for hospitals in India and abroad.",
@@ -97,6 +113,10 @@ export default function PlacementLayout({
 }) {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(placementWebPageSchema) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(placementFaqSchema) }}

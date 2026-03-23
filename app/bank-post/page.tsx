@@ -2,10 +2,16 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import Image from "next/image";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export default function BankPost() {
   return (
     <>
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Facilities", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+        { name: "Bank & Post Office", url: "https://nursing.sresakthimayeil.jkkn.ac.in/bank-post" },
+      ]} />
       <Header />
       <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
         {/* Main Title */}

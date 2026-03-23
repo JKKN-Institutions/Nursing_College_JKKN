@@ -3,6 +3,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
 import { useState } from "react";
 import {
@@ -46,7 +47,91 @@ export default function MScCommunityHealthNursing() {
   return (
     <>
       <Header />
-      <main className="bg-white"> 
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+          { name: "M.Sc Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
+          { name: "Community Health Nursing", url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Sc Community Health Nursing",
+              "description": "A 2-year postgraduate nursing specialization in Community Health Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers public health, epidemiology, primary healthcare, disease prevention, health promotion, and community-based nursing practice.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+              },
+              "timeRequired": "P2Y",
+              "educationalCredentialAwarded": "M.Sc Nursing (Community Health Nursing)",
+              "coursePrerequisites": "B.Sc Nursing or Post Basic B.Sc Nursing with minimum 55% marks and 1 year clinical experience",
+              "availableLanguage": "English",
+              "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is the scope of M.Sc Nursing in Community Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "M.Sc Nursing in Community Health Nursing offers excellent career prospects in nursing education, public health administration, community health practice, research, and international organizations. Graduates can work as nursing educators in colleges, public health nurses in government departments, community health officers at PHCs/CHCs, program managers in NGOs, or research associates. The growing emphasis on primary healthcare and preventive medicine creates strong demand for community health nursing specialists both in India and abroad."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What is the difference between Community Health Nursing and other M.Sc Nursing specializations?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Community Health Nursing focuses on population-level health, disease prevention, health promotion, and primary healthcare delivery in community settings such as PHCs, CHCs, schools, and workplaces. Unlike clinical specializations that focus on hospital-based patient care, Community Health Nursing emphasizes epidemiology, biostatistics, health education, national health programs, and community-based interventions."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Is work experience mandatory for M.Sc Nursing admission?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, as per Indian Nursing Council (INC) guidelines, candidates must have minimum 1 year of clinical work experience after completing B.Sc Nursing or Post Basic B.Sc Nursing. The experience can be in any healthcare setting including hospitals, community health centers, or other recognized healthcare facilities."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I pursue Ph.D. after M.Sc Community Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. M.Sc Nursing in Community Health Nursing is an excellent foundation for pursuing Ph.D. in Nursing or related fields like Public Health, Epidemiology, or Health Policy. Many universities in India and abroad offer doctoral programs that value the research training and community health expertise gained during M.Sc Nursing."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What kind of field exposure will learners receive during the program?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Learners receive over 1000 hours of supervised field practice in diverse community health settings. Field rotations include Primary Health Centers (PHCs), Community Health Centers (CHCs), urban health posts, rural community outreach programs, school health services, occupational health units, ICDS centers, and NGO-run health projects."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are there job opportunities in international organizations after M.Sc Community Health Nursing?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, M.Sc Nursing in Community Health Nursing opens doors to positions in international organizations like World Health Organization (WHO), UNICEF, UNDP, and various international health NGOs. These organizations actively recruit public health nursing specialists for global health programs, disaster response teams, and health development initiatives."
+                  }
+                }
+              ]
+            }
+          ])
+        }}
+      />
+      <main className="bg-white">
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-[#006837] to-[#002309] text-white py-16 md:py-24">
           <div className="container-custom">
@@ -58,12 +143,20 @@ export default function MScCommunityHealthNursing() {
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#7cb983] mb-6">
                   Community Health Nursing
                 </h2>
+
+                <p className="text-sm text-cyan-200 mb-4">Last updated: March 19, 2026</p>
+
+                <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
+                  <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
+                  <p className="text-cyan-100 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Community Health Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates lead public health initiatives, design epidemiological interventions, and deliver community-based primary healthcare across urban and rural settings in Tamil Nadu and beyond.</p>
+                </div>
+
                 <p className="text-lg md:text-xl text-cyan-100 mb-6">
                   Postgraduate Nursing Program | Public Health Specialization
                 </p>
 
                 <p className="text-base md:text-lg mb-8 leading-relaxed">
-                  Transform communities through advanced public health nursing expertise. Our INC-approved M.Sc Nursing program in Community Health Nursing prepares you to become a leader in primary healthcare, disease prevention, health promotion, and community-based nursing practice across urban and rural settings.
+                  Transform communities through advanced public health nursing expertise. This INC-approved M.Sc Nursing program in Community Health Nursing prepares graduates to become leaders in primary healthcare, disease prevention, health promotion, and community-based nursing practice across urban and rural settings.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-8">
@@ -104,7 +197,7 @@ export default function MScCommunityHealthNursing() {
                 <div className="relative">
                   <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
                     <Image
-                      src="/images/Community-Health-Nursing-Hero-Banner-Image.png"
+                      src="/images/Community-Health-Nursing-Hero-Banner-Image.webp"
                       alt="Community Health Nursing"
                       fill
                       className="object-cover"
@@ -138,7 +231,7 @@ export default function MScCommunityHealthNursing() {
                 <div className="text-gray-700 font-medium">PHCs & CHCs Affiliated</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">98%</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">97%</div>
                 <div className="text-gray-700 font-medium">Placement Rate</div>
               </div>
             </div>
@@ -162,7 +255,7 @@ export default function MScCommunityHealthNursing() {
               <div className="md:col-span-2">
                 <div className="bg-[#FBFBEE] rounded-lg p-8 shadow-md">
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    M.Sc Nursing in Community Health Nursing at JKKN College of Nursing is a rigorous 2-year postgraduate program designed to develop advanced competencies in public health nursing, epidemiology, health education, and community-based healthcare delivery. This INC-approved program prepares Learners to become leaders in primary healthcare and public health management.
+                    M.Sc Nursing in Community Health Nursing at Sresakthimayeil Institute of Nursing and Research is a rigorous 2-year postgraduate program designed to develop advanced competencies in public health nursing, epidemiology, health education, and community-based healthcare delivery. This INC-approved program prepares Learners to become leaders in primary healthcare and public health management.
                   </p>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
@@ -764,7 +857,7 @@ export default function MScCommunityHealthNursing() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[400px]">
                 <Image
-                  src="/images/Community-Health-Nursing-Field-Training.png"
+                  src="/images/Community-Health-Nursing-Field-Training.webp"
                   alt="Community Health Field Training"
                   fill
                   className="object-cover"
@@ -1209,7 +1302,7 @@ export default function MScCommunityHealthNursing() {
 
               <div className="mt-8 bg-[#7cb983]/10 border-l-4 border-[#7cb983] p-6 rounded-r-lg">
                 <p className="text-gray-700 leading-relaxed">
-                  <span className="font-bold text-[#006837]">Note:</span> Fee structure is indicative and subject to change as per university and regulatory guidelines. Hostel and mess charges are additional. Scholarships and financial assistance available for eligible candidates. Contact admission office for detailed fee breakup and payment options.
+                  <span className="font-bold text-[#006837]">Note:</span> Fee structure is reviewed annually as per university and regulatory guidelines. Hostel and mess charges are additional. Scholarships and financial assistance available for eligible candidates. Contact admission office for detailed fee breakup and payment options.
                 </p>
               </div>
             </div>
@@ -1401,6 +1494,17 @@ export default function MScCommunityHealthNursing() {
             </div>
           </div>
         </section>
+
+        {/* Institutional Authority Block */}
+        <div className="container-custom">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
 
       </main>
       <Footer hideLifeAtJKKN />

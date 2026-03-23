@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="w-full lg:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-lg">
               <Image
-                src="/images/Simulation-lab-image.png"
+                src="/images/Simulation-lab-image.webp"
                 alt="JKKN Campus"
                 width={500}
                 height={250}

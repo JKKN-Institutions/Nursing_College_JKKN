@@ -1,9 +1,15 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
 import Image from "next/image";
+
+export const metadata: Metadata = {
+  title: "Placements at Sresakthimayeil Institute of Nursing and Research | 97% Success Rate",
+  description: "Sresakthimayeil Institute of Nursing and Research placement record with 97% success rate. 100+ recruiters including NHS UK, Apollo, and Fortis. International opportunities available.",
+};
 
 export default function Placement() {
   return (
@@ -15,7 +21,7 @@ export default function Placement() {
         <section className="bg-gradient-to-r from-[#006837] to-[#7cb983] py-16 sm:py-20 lg:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px] text-center">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 leading-tight">
-              Placements at JKKN College of Nursing
+              Placements at Sresakthimayeil Institute of Nursing and Research
             </h1>
             <p className="text-white/90 text-base sm:text-lg lg:text-xl max-w-2xl mx-auto mb-10">
               Launching nursing careers across India and the world — with
@@ -26,7 +32,7 @@ export default function Placement() {
             {/* Stat boxes */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-3xl mx-auto">
               <div className="bg-white/20 backdrop-blur-sm rounded-xl px-6 py-6 text-white">
-                <p className="text-3xl sm:text-4xl font-extrabold">98%+</p>
+                <p className="text-3xl sm:text-4xl font-extrabold">97%</p>
                 <p className="text-sm sm:text-base mt-1 font-medium">Placement Rate</p>
               </div>
               <div className="bg-white/20 backdrop-blur-sm rounded-xl px-6 py-6 text-white">
@@ -55,6 +61,15 @@ export default function Placement() {
           ]}
         />
 
+        {/* ── TIMESTAMP & TL;DR ──────────────────────────────────────── */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px] pt-6">
+          <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
+          <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
+            <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing placement cell connects graduates with 60+ recruiters including NHS UK, Apollo Hospitals, and Cleveland Clinic Abu Dhabi. International placement support includes NCLEX preparation, IELTS coaching, and visa assistance for UK, UAE, Singapore, and Saudi Arabia.</p>
+          </div>
+        </div>
+
         {/* ── Placement Overview ──────────────────────────────────────── */}
         <section className="bg-white py-12 sm:py-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
@@ -62,14 +77,7 @@ export default function Placement() {
               Our Placement Philosophy
             </h2>
             <p className="text-gray-700 text-base sm:text-lg leading-relaxed max-w-4xl">
-              At JKKN College of Nursing, placements are not a terminal
-              activity — they are woven into the academic fabric from day one.
-              Our dedicated Placement Cell works year-round to bridge the gap
-              between education and employability, conducting resume-building
-              workshops, mock interviews, soft skills training, and industry
-              interaction programmes. We partner with over 80 leading hospitals
-              and healthcare organisations in India and abroad to ensure every
-              graduate steps into a fulfilling nursing career.
+              JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) operates a dedicated Placement Cell that works year-round to connect graduates with leading healthcare employers across India and internationally. The cell conducts resume-building workshops, mock interviews, soft skills training, and industry interaction programmes, partnering with over 80 hospitals and healthcare organisations — including NHS UK, Apollo Hospitals, and Cleveland Clinic Abu Dhabi — to ensure every graduate steps into a fulfilling nursing career.
             </p>
           </div>
         </section>
@@ -284,7 +292,7 @@ export default function Placement() {
               International Placement Destinations
             </h2>
             <p className="text-gray-600 text-sm sm:text-base mb-8 max-w-3xl">
-              JKKN College of Nursing has established partnerships with healthcare
+              Sresakthimayeil Institute of Nursing and Research has established partnerships with healthcare
               systems across six countries. Our placement cell provides end-to-end
               support — from licensing exam coaching to visa documentation — so
               graduates can confidently pursue global opportunities.
@@ -513,7 +521,7 @@ export default function Placement() {
               Ready to Launch Your Nursing Career?
             </h2>
             <p className="text-white/90 text-base sm:text-lg mb-8 max-w-xl mx-auto">
-              Join JKKN College of Nursing and gain access to India and global
+              Join Sresakthimayeil Institute of Nursing and Research and gain access to India and global
               healthcare placements with dedicated career support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -534,6 +542,17 @@ export default function Placement() {
             </div>
           </div>
         </section>
+
+        {/* ── INSTITUTIONAL AUTHORITY BLOCK ──────────────────────────── */}
+        <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px] py-8">
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+          </div>
+        </div>
 
       </main>
       <Footer hideLifeAtJKKN={true} />
