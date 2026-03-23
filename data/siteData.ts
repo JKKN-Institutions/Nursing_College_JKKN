@@ -45,6 +45,17 @@ export const navigationMenu = [
       { label: "ARIIA", href: "/ariia" },
       { label: "AISHE", href: "/aishe" },
       { label: "IIC", href: "/iic" },
+      {
+        label: "WHY STUDENTS CHOOSE JKKN?",
+        href: "#",
+        submenu: [
+          { label: "Why Erode Students?", href: "/erode" },
+          { label: "Why Salem Students?", href: "/salem" },
+          { label: "Why Tirupur Students?", href: "/tiruppur" },
+          { label: "Why Namakkal Students?", href: "/namakkal" },
+          { label: "Why Coimbatore Students?", href: "/coimbatore" },
+        ],
+      },
     ],
   },
   {
