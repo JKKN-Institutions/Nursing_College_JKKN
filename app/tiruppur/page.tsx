@@ -194,10 +194,10 @@ const facilities = [
 ];
 
 const cities = [
-  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "40-50 km" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km" },
+  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km", href: "/namakkal" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "40-50 km", href: "/salem" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km", href: "/coimbatore" },
 ];
 
 const quickLinks = [
@@ -221,19 +221,6 @@ const jkknInstitutions = [
 
 export default function TiruppurPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-  const [form, setForm] = useState({
-    name: "",
-    phone: "",
-    city: "Tiruppur",
-    programme: "",
-    questions: "",
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    window.open("https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8", "_blank");
-  };
-
   return (
     <div className="min-h-screen font-sans bg-[#FBFBEE]">
       <Header />
@@ -698,110 +685,6 @@ export default function TiruppurPage() {
           </div>
         </section>
 
-        {/* ── Interested? Let's Talk! ───────────────────────────────── */}
-        <section className="bg-[#006837] py-12 sm:py-16 px-4">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">
-                Interested? Let&apos;s Talk!
-              </h2>
-              <p className="text-white/70 text-sm sm:text-base">
-                Fill in your details and our admission team will contact you within 24 hours
-              </p>
-              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
-            </div>
-
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-white text-sm font-medium mb-1.5">
-                    Your Name
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Enter your full name"
-                    value={form.name}
-                    onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    className="w-full bg-white/10 border border-white/20 text-white placeholder-white/40 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
-                  />
-                </div>
-                <div>
-                  <label className="block text-white text-sm font-medium mb-1.5">
-                    Mobile Number
-                  </label>
-                  <input
-                    type="tel"
-                    placeholder="+91 XXXXX XXXXX"
-                    value={form.phone}
-                    onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                    className="w-full bg-white/10 border border-white/20 text-white placeholder-white/40 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
-                  />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-white text-sm font-medium mb-1.5">
-                    Your City
-                  </label>
-                  <input
-                    type="text"
-                    value={form.city}
-                    onChange={(e) => setForm({ ...form, city: e.target.value })}
-                    className="w-full bg-white/10 border border-white/20 text-white placeholder-white/40 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors"
-                  />
-                </div>
-                <div>
-                  <label className="block text-white text-sm font-medium mb-1.5">
-                    Programme Interested In
-                  </label>
-                  <select
-                    value={form.programme}
-                    onChange={(e) => setForm({ ...form, programme: e.target.value })}
-                    className="w-full bg-white/10 border border-white/20 text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors appearance-none"
-                  >
-                    <option value="" className="text-gray-800 bg-white">Select a Programme</option>
-                    <option value="B.Sc Nursing" className="text-gray-800 bg-white">B.Sc Nursing</option>
-                    <option value="GNM" className="text-gray-800 bg-white">GNM (General Nursing and Midwifery)</option>
-                    <option value="M.Sc Nursing" className="text-gray-800 bg-white">M.Sc Nursing</option>
-                    <option value="Post Basic B.Sc Nursing" className="text-gray-800 bg-white">Post Basic B.Sc Nursing</option>
-                  </select>
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-white text-sm font-medium mb-1.5">
-                  Any Questions?
-                </label>
-                <textarea
-                  rows={3}
-                  placeholder="e.g., What is the fee for B.Sc Nursing?"
-                  value={form.questions}
-                  onChange={(e) => setForm({ ...form, questions: e.target.value })}
-                  className="w-full bg-white/10 border border-white/20 text-white placeholder-white/40 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-white/50 focus:bg-white/15 transition-colors resize-none"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
-              >
-                Submit Enquiry — Get a Call Back
-              </button>
-
-              <p className="text-center text-white/60 text-xs sm:text-sm">
-                Or call us directly:{" "}
-                <a
-                  href="tel:+919345855001"
-                  className="text-white underline underline-offset-2 hover:text-white/80"
-                >
-                  +91-9345855001
-                </a>
-              </p>
-            </form>
-          </div>
-        </section>
-
         {/* ── Explore More Cities ───────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
@@ -817,8 +700,9 @@ export default function TiruppurPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
               {cities.slice(0, 3).map((city) => (
-                <div
+                <a
                   key={city.name}
+                  href={city.href}
                   className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3"
                 >
                   <span className="text-2xl flex-shrink-0">{city.icon}</span>
@@ -828,14 +712,15 @@ export default function TiruppurPage() {
                   <span className="text-gray-400 text-xs sm:text-sm whitespace-nowrap">
                     {city.distance}
                   </span>
-                </div>
+                </a>
               ))}
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
               {cities.slice(3).map((city) => (
-                <div
+                <a
                   key={city.name}
+                  href={city.href}
                   className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3"
                 >
                   <span className="text-2xl flex-shrink-0">{city.icon}</span>
@@ -845,13 +730,14 @@ export default function TiruppurPage() {
                   <span className="text-gray-400 text-xs sm:text-sm whitespace-nowrap">
                     {city.distance}
                   </span>
-                </div>
+                </a>
               ))}
             </div>
 
             <div className="text-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="/"
+                onClick={() => sessionStorage.setItem('scrollTo', 'programs')}
                 className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 View All Programmes
