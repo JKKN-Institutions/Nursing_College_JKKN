@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { createClient } from '@/lib/supabase/server';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
@@ -6,6 +7,51 @@ import { ScrollToTop } from '@/components/ScrollToTop';
 import CampusBlogContent from './CampusBlogContent';
 
 export const revalidate = 300;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const supabase = await createClient();
+  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
+  const { data: post } = await supabase
+    .from('blogs')
+    .select('title, excerpt, meta_description, cover_image_url, published_at, created_at')
+    .eq('slug', slug)
+    .eq('college_id', collegeId)
+    .eq('is_published', true)
+    .single();
+
+  if (!post) return {};
+
+  const description = post.meta_description || post.excerpt || '';
+  const canonicalUrl = `https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/${slug}`;
+  const ogImage = post.cover_image_url || '/images/nursing_logo.png';
+
+  return {
+    title: `${post.title} — JKKN College of Nursing`,
+    description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: post.title,
+      description,
+      type: 'article',
+      url: canonicalUrl,
+      siteName: 'JKKN College of Nursing',
+      images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+      publishedTime: post.published_at || post.created_at,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description,
+      images: [ogImage],
+    },
+    robots: { index: true, follow: true },
+  };
+}
 
 /** Extract h2/h3 headings from HTML and inject id attributes for TOC */
 function processContent(

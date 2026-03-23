@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Code of Conduct — JKKN Nursing College",
+  title: "Code of Conduct — JKKN College of Nursing",
   description: "Professional code of conduct and ethical standards for nursing students at Sresakthimayeil Institute of Nursing.",
   openGraph: {
-    title: "Code of Conduct — JKKN Nursing College",
+    title: "Code of Conduct — JKKN College of Nursing",
     description: "Professional code of conduct and ethical standards for nursing students at Sresakthimayeil Institute of Nursing.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/code-of-conduct",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Code of Conduct — JKKN Nursing College",
+    title: "Code of Conduct — JKKN College of Nursing",
     description: "Professional code of conduct and ethical standards for nursing students at Sresakthimayeil Institute of Nursing.",
   },
   robots: {

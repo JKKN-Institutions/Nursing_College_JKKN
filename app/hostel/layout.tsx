@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hostel Facilities — JKKN Nursing College",
+  title: "Hostel Facilities — JKKN College of Nursing",
   description: "Safe and comfortable hostel accommodation for nursing students at JKKN, Komarapalayam. Modern amenities and 24/7 security.",
   openGraph: {
-    title: "Hostel Facilities — JKKN Nursing College",
+    title: "Hostel Facilities — JKKN College of Nursing",
     description: "Safe and comfortable hostel accommodation for nursing students at JKKN, Komarapalayam. Modern amenities and 24/7 security.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/hostel",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hostel Facilities — JKKN Nursing College",
+    title: "Hostel Facilities — JKKN College of Nursing",
     description: "Safe and comfortable hostel accommodation for nursing students at JKKN, Komarapalayam. Modern amenities and 24/7 security.",
     images: ["/images/nursing_logo.png"],
   },

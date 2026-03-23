@@ -78,10 +78,7 @@ Disallow: /search/            # Internal search with trailing slash
 Disallow: /*?q=               # Search query parameters
 Disallow: /*?s=               # Alternative search parameters
 Disallow: /*?ref=             # Referral tracking parameters
-Disallow: /*?utm_             # UTM campaign parameters (duplicates clean URLs)
-Disallow: /*?utm_source=      # Explicit UTM source
-Disallow: /*?utm_medium=      # Explicit UTM medium
-Disallow: /*?utm_campaign=    # Explicit UTM campaign
+Disallow: /*?utm_             # UTM campaign parameters — catches all utm_* variants
 Disallow: /*?fbclid=          # Facebook click ID (auto-appended by FB)
 Disallow: /*?gclid=           # Google Ads click ID
 Disallow: /*?gad_source=      # Google Ads source parameter

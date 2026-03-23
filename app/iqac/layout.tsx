@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "IQAC — Internal Quality Assurance | JKKN Nursing",
-  description: "Internal Quality Assurance Cell (IQAC) at JKKN Nursing College. Quality enhancement and accreditation initiatives.",
+  description: "Internal Quality Assurance Cell (IQAC) at JKKN College of Nursing. Quality enhancement and accreditation initiatives.",
   openGraph: {
     title: "IQAC — Internal Quality Assurance | JKKN Nursing",
-    description: "Internal Quality Assurance Cell (IQAC) at JKKN Nursing College. Quality enhancement and accreditation initiatives.",
+    description: "Internal Quality Assurance Cell (IQAC) at JKKN College of Nursing. Quality enhancement and accreditation initiatives.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac",
     siteName: "JKKN College of Nursing",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "IQAC — Internal Quality Assurance | JKKN Nursing",
-    description: "Internal Quality Assurance Cell (IQAC) at JKKN Nursing College. Quality enhancement and accreditation initiatives.",
+    description: "Internal Quality Assurance Cell (IQAC) at JKKN College of Nursing. Quality enhancement and accreditation initiatives.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

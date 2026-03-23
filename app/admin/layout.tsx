@@ -1,4 +1,9 @@
+import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
+
+export const metadata: Metadata = {
+  robots: { index: false, follow: false },
+};
 import { headers } from 'next/headers';
 import { createClient } from '@/lib/supabase/server';
 import { getAdminCollegeId } from '@/lib/get-admin-college';

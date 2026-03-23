@@ -1,14 +1,30 @@
 "use client";
 
 import { useState } from "react";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { ScrollToTop } from "@/components/ScrollToTop";
+import {
+  CheckCircleIcon,
+  HeartIcon,
+  GlobeAltIcon,
+  HomeModernIcon,
+  HomeIcon,
+  ClipboardDocumentListIcon,
+  TruckIcon,
+  AcademicCapIcon,
+  MapIcon,
+  MapPinIcon,
+  PaperAirplaneIcon,
+  BeakerIcon,
+  BookOpenIcon,
+  TrophyIcon,
+  WifiIcon,
+  StarIcon,
+  BuildingOffice2Icon,
+  PhoneIcon,
+} from "@heroicons/react/24/outline";
 
-function WhatsAppIcon({ className = "w-5 h-5" }: { className?: string }) {
-  return (
-    <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-    </svg>
-  );
-}
 
 const faqs = [
   {
@@ -43,32 +59,32 @@ const faqs = [
 
 const whyChooseItems = [
   {
-    icon: "✅",
+    icon: <CheckCircleIcon className="w-10 h-10 text-[#006837]" />,
     title: "INC Approved",
     desc: "INC-approved nursing institute with hospital-based clinical training",
   },
   {
-    icon: "🏥",
+    icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
     title: "Hospital Training",
     desc: "Attached to JKKN group hospitals — direct patient care exposure",
   },
   {
-    icon: "🌍",
+    icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
     title: "Global Careers",
     desc: "Strong demand for nursing professionals in India and abroad (Gulf, UK, US, Australia)",
   },
   {
-    icon: "🏠",
+    icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
     title: "Secure Hostels",
     desc: "Hostel facilities with secure environment for women students",
   },
   {
-    icon: "📋",
+    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
     title: "Govt Job Prep",
     desc: "Government nursing job preparation support",
   },
   {
-    icon: "🚌",
+    icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
     title: "Easy Commute",
     desc: "Just 40-50 km from Salem. Daily commute or comfortable hostel — your choice.",
   },
@@ -76,7 +92,7 @@ const whyChooseItems = [
 
 const programmes = [
   {
-    icon: "🎓",
+    icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
     title: "B.Sc Nursing",
     duration: "4 years",
     level: "UG",
@@ -84,7 +100,7 @@ const programmes = [
     eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
   },
   {
-    icon: "📋",
+    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
     title: "GNM (General Nursing and Midwifery)",
     duration: "3.5 years",
     level: "Diploma",
@@ -92,7 +108,7 @@ const programmes = [
     eligibility: "10+2 with Science",
   },
   {
-    icon: "🎓",
+    icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
     title: "M.Sc Nursing",
     duration: "2 years",
     level: "PG",
@@ -100,7 +116,7 @@ const programmes = [
     eligibility: "B.Sc Nursing degree",
   },
   {
-    icon: "📋",
+    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
     title: "Post Basic B.Sc Nursing",
     duration: "2 years",
     level: "UG",
@@ -118,27 +134,27 @@ const placementStats = [
 
 const reachItems = [
   {
-    emoji: "🗺️",
+    emoji: <MapIcon className="w-5 h-5 text-[#006837]" />,
     label: "ROUTE",
     text: "NH-544 (Salem-Coimbatore Highway) — direct route",
   },
   {
-    emoji: "🚌",
+    emoji: <TruckIcon className="w-5 h-5 text-[#006837]" />,
     label: "BY BUS",
     text: "TN State Transport buses from Salem New Bus Stand to Komarapalayam run every 15-20 minutes throughout the day",
   },
   {
-    emoji: "🚂",
+    emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST RAILWAY STATION",
     text: "Salem Junction (~45 km from campus)",
   },
   {
-    emoji: "✈️",
+    emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST AIRPORT",
     text: "Salem Airport (limited flights) / Coimbatore International Airport (~15 km / ~110 km)",
   },
   {
-    emoji: "🏢",
+    emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
     label: "CAMPUS ADDRESS",
     text: "JKKN Institutions, Natarajapuram, NH-544, Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183",
   },
@@ -146,42 +162,42 @@ const reachItems = [
 
 const facilities = [
   {
-    icon: "🔬",
+    icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
     title: "Modern Labs",
     desc: "State-of-the-art laboratories and smart classrooms",
   },
   {
-    icon: "📚",
+    icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
     title: "Digital Library",
     desc: "Well-stocked library with digital access and journals",
   },
   {
-    icon: "🏠",
+    icon: <HomeModernIcon className="w-6 h-6 text-[#006837]" />,
     title: "Hostel",
     desc: "Separate hostels for boys and girls with mess facility",
   },
   {
-    icon: "🚌",
+    icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
     desc: "College buses connecting to Salem and surrounding areas",
   },
   {
-    icon: "⚽",
+    icon: <TrophyIcon className="w-6 h-6 text-[#006837]" />,
     title: "Sports",
     desc: "Playground, indoor games, gym, and annual sports events",
   },
   {
-    icon: "📶",
+    icon: <WifiIcon className="w-6 h-6 text-[#006837]" />,
     title: "WiFi Campus",
     desc: "High-speed internet across the entire campus",
   },
 ];
 
 const cities = [
-  { icon: "🏡", name: "Namakkal", distance: "5-10 km" },
-  { icon: "🏞️", name: "Erode", distance: "30-40 km" },
-  { icon: "🎯", name: "Tiruppur", distance: "80-90 km" },
-  { icon: "✨", name: "Coimbatore", distance: "100-110 km" },
+  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "80-90 km" },
+  { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km" },
 ];
 
 const quickLinks = [
@@ -215,43 +231,19 @@ export default function SalemPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const msg = `Name: ${form.name}%0APhone: ${form.phone}%0ACity: ${form.city}%0AProgramme: ${form.programme}%0AQuestions: ${form.questions}`;
-    window.open(`https://wa.me/919345855001?text=${msg}`, "_blank");
+    window.open("https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8", "_blank");
   };
 
   return (
-    <div className="min-h-screen font-sans bg-white">
-      {/* ── Sticky Announcement Bar ───────────────────────────────── */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-[#6B1040] py-2 sm:py-2.5 px-3 sm:px-4">
-        <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-4 flex-wrap">
-          <div className="flex items-center gap-1.5 sm:gap-2">
-            <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-green-400 animate-pulse flex-shrink-0"></span>
-            <span className="text-white text-xs sm:text-sm font-medium whitespace-nowrap">
-              Admissions Open 2026-27
-            </span>
-          </div>
-          <a
-            href="tel:+919345855001"
-            className="bg-[#2D2D2D] hover:bg-[#1a1a1a] text-white text-xs sm:text-sm font-medium px-3 sm:px-4 py-1 sm:py-1.5 rounded-full transition-colors whitespace-nowrap"
-          >
-            Call Now
-          </a>
-          <a
-            href="https://wa.me/919345855001"
-            className="bg-green-500 hover:bg-green-600 text-white text-xs sm:text-sm font-semibold px-3 sm:px-4 py-1 sm:py-1.5 rounded-full transition-colors whitespace-nowrap"
-          >
-            WhatsApp
-          </a>
-        </div>
-      </div>
-
-      <main className="!pt-9 sm:!pt-10">
+    <div className="min-h-screen font-sans bg-[#FBFBEE]">
+      <Header />
+      <main>
         {/* ── Hero Section ─────────────────────────────────────────── */}
-        <section className="bg-gradient-to-br from-[#8B1A45] via-[#5C1030] to-[#1A0010] py-12 sm:py-16 md:py-20 px-4 text-center">
+        <section className="bg-gradient-to-br from-[#006837] via-[#002309] to-[#002309] py-12 sm:py-16 md:py-20 px-4 text-center">
           <div className="max-w-3xl mx-auto">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
-              <span>🎓</span>
+              <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
                 INC, NAAC Approved • Admissions Open
               </span>
@@ -260,7 +252,7 @@ export default function SalemPage() {
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 leading-tight">
               Best Nursing College Near{" "}
-              <span className="text-orange-400">Salem</span>
+              <span className="text-[#FBFBEE]">Salem</span>
             </h1>
 
             {/* Description */}
@@ -297,29 +289,29 @@ export default function SalemPage() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
+                className="w-full sm:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 Apply Now — 2026-27
               </a>
               <a
-                href="https://wa.me/919345855001"
-                className="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                href="tel:+919345855001"
+                className="w-full sm:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                <WhatsAppIcon />
-                WhatsApp Us
+                <PhoneIcon className="w-5 h-5" />
+                Call Us: +91 93458 55001
               </a>
             </div>
           </div>
         </section>
 
         {/* ── Trust Badges Bar ──────────────────────────────────────── */}
-        <section className="bg-white py-3 sm:py-4 px-4 border-b border-gray-100">
+        <section className="bg-[#FBFBEE] py-3 sm:py-4 px-4 border-b border-gray-100">
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2.5">
-              <span className="bg-pink-100 text-pink-700 font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
+              <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
                 ✓ INC
               </span>
-              <span className="bg-pink-100 text-pink-700 font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
+              <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
                 ✓ NAAC
               </span>
             </div>
@@ -331,13 +323,13 @@ export default function SalemPage() {
         </section>
 
         {/* ── Distance Card ─────────────────────────────────────────── */}
-        <section className="bg-gray-50 py-8 sm:py-12 px-4">
+        <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="bg-white rounded-2xl shadow-md overflow-hidden">
               <div className="flex flex-col sm:flex-row items-center">
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
-                    <div className="text-5xl sm:text-6xl font-bold text-[#8B1A45] leading-none flex-shrink-0">
+                    <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
                       45<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
@@ -355,9 +347,9 @@ export default function SalemPage() {
                     href="https://maps.google.com/?q=JKKN+Institutions+Natarajapuram+Komarapalayam+Namakkal+Tamil+Nadu"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#8B1A45] hover:bg-[#6B1030] text-white font-semibold px-6 py-4 rounded-xl transition-colors flex flex-col items-center gap-1.5 min-w-[120px] text-center"
+                    className="bg-[#006837] hover:bg-[#6ba872] text-white font-semibold px-6 py-4 rounded-xl transition-colors flex flex-col items-center gap-1.5 min-w-[120px] text-center"
                   >
-                    <span className="text-xl">📍</span>
+                    <MapPinIcon className="w-5 h-5 text-white" />
                     <span className="text-sm">View on Map</span>
                   </a>
                 </div>
@@ -367,7 +359,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Why Choose Section ────────────────────────────────────── */}
-        <section className="bg-white py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
@@ -379,7 +371,7 @@ export default function SalemPage() {
                 commute a practical option. Students from Salem get access to quality
                 professional education without the high costs of metro city colleges.
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
@@ -400,7 +392,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Programmes Offered ────────────────────────────────────── */}
-        <section className="bg-gray-50 py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -409,7 +401,7 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
@@ -446,7 +438,7 @@ export default function SalemPage() {
 
                   <a
                     href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                    className="block w-full text-center border-2 border-pink-200 text-[#8B1A45] font-semibold px-3 py-2.5 rounded-xl hover:bg-pink-50 transition-colors text-xs sm:text-sm"
+                    className="block w-full text-center border-2 border-[#7cb983]/50 text-[#006837] font-semibold px-3 py-2.5 rounded-xl hover:bg-[#7cb983]/10 transition-colors text-xs sm:text-sm"
                   >
                     Enquire About This Course
                   </a>
@@ -457,7 +449,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Placement Highlights ──────────────────────────────────── */}
-        <section className="bg-white py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -466,7 +458,7 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Our placement cell connects you with India&apos;s top employers
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-10">
@@ -475,7 +467,7 @@ export default function SalemPage() {
                   key={stat.label}
                   className="border border-gray-100 rounded-2xl p-4 sm:p-6 text-center"
                 >
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#8B1A45] mb-2 leading-tight">
+                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-2 leading-tight">
                     {stat.value}
                   </div>
                   <div className="text-gray-400 text-[10px] sm:text-xs font-medium tracking-wide">
@@ -510,7 +502,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── How to Reach ──────────────────────────────────────────── */}
-        <section className="bg-gray-50 py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -519,13 +511,13 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Multiple transport options to get to campus easily
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm">
-              <div className="bg-[#8B1A45] p-5 sm:p-6">
+              <div className="bg-[#006837] p-5 sm:p-6">
                 <div className="flex items-center gap-3">
-                  <span className="text-2xl flex-shrink-0">📍</span>
+                  <MapPinIcon className="w-6 h-6 text-white flex-shrink-0" />
                   <div>
                     <h3 className="text-white font-bold text-base sm:text-lg md:text-xl">
                       Salem → JKKN Nursing Campus
@@ -540,7 +532,7 @@ export default function SalemPage() {
               <div className="divide-y divide-gray-50">
                 {reachItems.map((item) => (
                   <div key={item.label} className="flex items-start gap-4 p-4 sm:p-5 md:p-6">
-                    <div className="w-9 h-9 sm:w-11 sm:h-11 bg-pink-50 rounded-xl flex items-center justify-center flex-shrink-0 text-lg sm:text-xl">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 bg-[#7cb983]/10 rounded-xl flex items-center justify-center flex-shrink-0 text-lg sm:text-xl">
                       {item.emoji}
                     </div>
                     <div>
@@ -559,7 +551,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Campus & Facilities ───────────────────────────────────── */}
-        <section className="bg-white py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -568,7 +560,7 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Everything you need for a world-class education experience
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
@@ -577,7 +569,7 @@ export default function SalemPage() {
                   key={item.title}
                   className="flex items-start gap-3 p-4 sm:p-5 bg-gray-50 rounded-2xl hover:shadow-sm transition-all duration-200"
                 >
-                  <div className="w-10 h-10 sm:w-11 sm:h-11 bg-pink-50 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">
+                  <div className="w-10 h-10 sm:w-11 sm:h-11 bg-[#7cb983]/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">
                     {item.icon}
                   </div>
                   <div>
@@ -593,7 +585,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Testimonials ─────────────────────────────────────────── */}
-        <section className="bg-gray-50 py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -602,12 +594,12 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Hear from students who made the right choice
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm">
-                <div className="text-4xl sm:text-5xl text-pink-200 font-serif leading-none mb-3">
+                <div className="text-4xl sm:text-5xl text-[#7cb983] font-serif leading-none mb-3">
                   &ldquo;
                 </div>
                 <p className="text-gray-500 text-sm sm:text-base italic leading-relaxed mb-5">
@@ -622,7 +614,7 @@ export default function SalemPage() {
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm">
-                <div className="text-4xl sm:text-5xl text-pink-200 font-serif leading-none mb-3">
+                <div className="text-4xl sm:text-5xl text-[#7cb983] font-serif leading-none mb-3">
                   &ldquo;
                 </div>
                 <p className="text-gray-500 text-sm sm:text-base italic leading-relaxed mb-5">
@@ -633,8 +625,8 @@ export default function SalemPage() {
                 <div className="text-gray-400 text-xs mt-0.5">[Course], Batch of [Year]</div>
               </div>
 
-              <div className="border-2 border-dashed border-orange-300 bg-orange-50/30 rounded-2xl p-5 sm:p-6 flex items-center justify-center">
-                <p className="text-orange-500 font-semibold text-sm text-center leading-relaxed">
+              <div className="border-2 border-dashed border-[#7cb983] bg-[#7cb983]/10 rounded-2xl p-5 sm:p-6 flex items-center justify-center">
+                <p className="text-[#7cb983] font-semibold text-sm text-center leading-relaxed">
                   Add 2-3 real student testimonials from Salem or nearby areas before
                   deployment.
                 </p>
@@ -644,16 +636,16 @@ export default function SalemPage() {
         </section>
 
         {/* ── FAQ Section ───────────────────────────────────────────── */}
-        <section className="bg-white py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
                 Frequently Asked Questions
               </h2>
-              <p className="text-[#8B1A45] text-sm sm:text-base font-medium">
+              <p className="text-[#006837] text-sm sm:text-base font-medium">
                 Nursing College in Salem — Your Questions Answered
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="space-y-3">
@@ -662,7 +654,7 @@ export default function SalemPage() {
                   key={i}
                   className={`rounded-2xl border transition-all duration-200 ${
                     openFaq === i
-                      ? "border-pink-200 bg-white"
+                      ? "border-[#7cb983]/50 bg-white"
                       : "border-gray-100 bg-white hover:border-gray-200"
                   }`}
                 >
@@ -675,7 +667,7 @@ export default function SalemPage() {
                     </span>
                     <span
                       className={`transition-transform duration-200 flex-shrink-0 ${
-                        openFaq === i ? "text-[#8B1A45] rotate-180" : "text-gray-400"
+                        openFaq === i ? "text-[#006837] rotate-180" : "text-gray-400"
                       }`}
                     >
                       <svg
@@ -707,7 +699,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Interested? Let's Talk! ───────────────────────────────── */}
-        <section className="bg-[#8B1A45] py-12 sm:py-16 px-4">
+        <section className="bg-[#006837] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2">
@@ -716,7 +708,7 @@ export default function SalemPage() {
               <p className="text-white/70 text-sm sm:text-base">
                 Fill in your details and our admission team will contact you within 24 hours
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -792,7 +784,7 @@ export default function SalemPage() {
 
               <button
                 type="submit"
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
+                className="w-full bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 Submit Enquiry — Get a Call Back
               </button>
@@ -804,13 +796,6 @@ export default function SalemPage() {
                   className="text-white underline underline-offset-2 hover:text-white/80"
                 >
                   +91-9345855001
-                </a>{" "}
-                •{" "}
-                <a
-                  href="https://wa.me/919345855001"
-                  className="text-white underline underline-offset-2 hover:text-white/80"
-                >
-                  WhatsApp
                 </a>
               </p>
             </form>
@@ -818,7 +803,7 @@ export default function SalemPage() {
         </section>
 
         {/* ── Explore More Cities ───────────────────────────────────── */}
-        <section className="bg-gray-100 py-12 sm:py-16 px-4">
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8 sm:mb-10">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
@@ -827,7 +812,7 @@ export default function SalemPage() {
               <p className="text-gray-500 text-sm sm:text-base">
                 Find the best nursing college near your city
               </p>
-              <div className="w-12 h-1 bg-orange-400 rounded mx-auto mt-4"></div>
+              <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
@@ -867,7 +852,7 @@ export default function SalemPage() {
             <div className="text-center">
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
+                className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 View All Programmes
               </a>
@@ -876,85 +861,9 @@ export default function SalemPage() {
         </section>
       </main>
 
-      {/* ── Footer ───────────────────────────────────────────────────── */}
-      <footer className="bg-[#8B1A45] px-4 pt-10 sm:pt-14 pb-6">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 mb-8 sm:mb-10">
-            {/* Column 1 */}
-            <div>
-              <h3 className="text-white font-bold text-base sm:text-lg mb-4 leading-snug">
-                Sresakthimayeil Institute of Nursing and Research
-              </h3>
-              <div className="space-y-2 text-white/70 text-xs sm:text-sm leading-relaxed">
-                <p>Part of JKKN Institutions</p>
-                <p>
-                  Natarajapuram, NH-544 (Salem To Coimbatore National Highway),
-                  Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183, India
-                </p>
-                <p>Phone: +91-9345855001</p>
-                <p>WhatsApp: +91-9345855001</p>
-                <p>Email: admissions@nursing.sresakthimayeil.jkkn.ac.in</p>
-              </div>
-            </div>
+      <Footer hideLifeAtJKKN />
 
-            {/* Column 2 */}
-            <div>
-              <h3 className="text-white font-bold text-base sm:text-lg mb-4">Quick Links</h3>
-              <ul className="space-y-2">
-                {quickLinks.map((link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
-                      className="text-white/70 hover:text-white text-xs sm:text-sm transition-colors"
-                    >
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Column 3 */}
-            <div>
-              <h3 className="text-white font-bold text-base sm:text-lg mb-4">
-                JKKN Institutions
-              </h3>
-              <ul className="space-y-2">
-                {jkknInstitutions.map((inst) => (
-                  <li key={inst}>
-                    <a
-                      href="#"
-                      className="text-white/70 hover:text-white text-xs sm:text-sm transition-colors"
-                    >
-                      {inst}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Bottom Bar */}
-          <div className="border-t border-white/20 pt-5">
-            <p className="text-white/50 text-[10px] sm:text-xs text-center leading-relaxed">
-              © 2026 Sresakthimayeil Institute of Nursing and Research | Part of JKKN
-              Institutions | All institution names follow the JKKN Official Name Registry |
-              Page optimised for SEO, AEO, and GEO
-            </p>
-          </div>
-        </div>
-      </footer>
-
-      {/* ── Floating WhatsApp Chat Button ─────────────────────────── */}
-      <a
-        href="https://wa.me/919345855001"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fixed bottom-6 right-4 sm:right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-xl flex items-center gap-2 font-semibold transition-colors text-sm"
-      >
-        <WhatsAppIcon />
-        Chat with Us
-      </a>
+      <ScrollToTop />
     </div>
   );
 }

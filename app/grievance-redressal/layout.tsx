@@ -1,19 +1,19 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Grievance Redressal — JKKN Nursing College",
-  description: "Student grievance redressal mechanism and complaint handling at JKKN Nursing College, Komarapalayam.",
+  title: "Grievance Redressal — JKKN College of Nursing",
+  description: "Student grievance redressal mechanism and complaint handling at JKKN College of Nursing, Komarapalayam.",
   openGraph: {
-    title: "Grievance Redressal — JKKN Nursing College",
-    description: "Student grievance redressal mechanism and complaint handling at JKKN Nursing College, Komarapalayam.",
+    title: "Grievance Redressal — JKKN College of Nursing",
+    description: "Student grievance redressal mechanism and complaint handling at JKKN College of Nursing, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/grievance-redressal",
     siteName: "JKKN College of Nursing",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Grievance Redressal — JKKN Nursing College",
-    description: "Student grievance redressal mechanism and complaint handling at JKKN Nursing College, Komarapalayam.",
+    title: "Grievance Redressal — JKKN College of Nursing",
+    description: "Student grievance redressal mechanism and complaint handling at JKKN College of Nursing, Komarapalayam.",
   },
   robots: {
     index: true,

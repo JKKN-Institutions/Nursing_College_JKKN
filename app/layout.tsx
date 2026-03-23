@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import { ClientLayout } from "@/components/ClientLayout";
@@ -59,7 +59,7 @@ const educationalOrganizationSchema = {
   "name": "JKKN College of Nursing",
   "alternateName": [
     "Sresakthimayeil Institute of Nursing and Research",
-    "JKKN Nursing College",
+    "JKKN College of Nursing",
     "JKKN College of Nursing Komarapalayam"
   ],
   "description": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
@@ -156,8 +156,8 @@ const educationalOrgSchema = {
   "name": "JKKN College of Nursing",
   "alternateName": [
     "Sresakthimayeil Institute of Nursing and Research",
-    "JKKN Nursing College",
-    "Sresakthimayeil Nursing College"
+    "JKKN College of Nursing",
+    "JKKN College of Nursing"
   ],
   "description": "INC-approved nursing college offering B.Sc, M.Sc, and Post Basic B.Sc Nursing programs. NAAC accredited and affiliated to Tamil Nadu Dr. MGR Medical University.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",

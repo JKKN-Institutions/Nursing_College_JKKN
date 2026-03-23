@@ -1,4 +1,4 @@
-import Header from "@/components/Header";
+﻿import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
@@ -613,7 +613,7 @@ export default async function Home() {
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
                     src="/images/Simulation-lab-image.png"
-                    alt="JKKN Nursing College Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
+                    alt="JKKN College of Nursing Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
                     className="w-full h-auto object-cover"

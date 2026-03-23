@@ -84,6 +84,10 @@ export const navigationMenu = [
     href: "/gallery",
   },
   {
+    label: "BLOG",
+    href: "/blog",
+  },
+  {
     label: "FACILITIES",
     href: "#",
     submenu: [

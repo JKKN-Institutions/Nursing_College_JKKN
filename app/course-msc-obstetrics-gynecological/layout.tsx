@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "M.Sc OBG Nursing — JKKN Nursing College",
+  title: "M.Sc OBG Nursing — JKKN College of Nursing",
   description: "M.Sc Nursing in Obstetrics & Gynecological Nursing at JKKN. Specialization in maternal health, midwifery, and women's healthcare.",
   keywords: "msc obg nursing, msc obstetrics gynecology nursing, midwifery nursing course tamilnadu, maternal health nursing, msc nursing obg colleges",
   openGraph: {
-    title: "M.Sc OBG Nursing — JKKN Nursing College",
+    title: "M.Sc OBG Nursing — JKKN College of Nursing",
     description: "M.Sc Nursing in Obstetrics & Gynecological Nursing at JKKN. Specialization in maternal health, midwifery, and women's healthcare.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "M.Sc OBG Nursing — JKKN Nursing College",
+    title: "M.Sc OBG Nursing — JKKN College of Nursing",
     description: "M.Sc Nursing in Obstetrics & Gynecological Nursing at JKKN. Specialization in maternal health, midwifery, and women's healthcare.",
     images: ["/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png"],
   },

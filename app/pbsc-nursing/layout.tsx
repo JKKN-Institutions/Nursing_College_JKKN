@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+  title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
   description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
   keywords: "post bsc nursing colleges in tamilnadu, post bsc nursing correspondence course in tamilnadu, list of post bsc nursing colleges in tamilnadu, post basic bsc nursing distance education in tamilnadu, post bsc nursing distance education in tamilnadu, post bsc nursing in tamilnadu",
   openGraph: {
-    title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+    title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
     description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Post Basic B.Sc Nursing — JKKN Nursing College",
+    title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
     description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     images: ["/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"],
   },

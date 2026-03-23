@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Library — JKKN Nursing College",
-  description: "Well-stocked library with nursing books, journals, and digital resources at JKKN Nursing College, Komarapalayam.",
+  title: "Library — JKKN College of Nursing",
+  description: "Well-stocked library with nursing books, journals, and digital resources at JKKN College of Nursing, Komarapalayam.",
   openGraph: {
-    title: "Library — JKKN Nursing College",
-    description: "Well-stocked library with nursing books, journals, and digital resources at JKKN Nursing College, Komarapalayam.",
+    title: "Library — JKKN College of Nursing",
+    description: "Well-stocked library with nursing books, journals, and digital resources at JKKN College of Nursing, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/library",
     siteName: "JKKN College of Nursing",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Library — JKKN Nursing College",
-    description: "Well-stocked library with nursing books, journals, and digital resources at JKKN Nursing College, Komarapalayam.",
+    title: "Library — JKKN College of Nursing",
+    description: "Well-stocked library with nursing books, journals, and digital resources at JKKN College of Nursing, Komarapalayam.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

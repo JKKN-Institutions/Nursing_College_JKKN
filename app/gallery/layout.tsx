@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Campus Gallery — Sresakthimayeil Nursing College",
-  description: "Explore JKKN Nursing College campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
+  title: "Campus Gallery — JKKN College of Nursing",
+  description: "Explore JKKN College of Nursing campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
   openGraph: {
-    title: "Campus Gallery — Sresakthimayeil Nursing College",
-    description: "Explore JKKN Nursing College campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
+    title: "Campus Gallery — JKKN College of Nursing",
+    description: "Explore JKKN College of Nursing campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/gallery",
     siteName: "JKKN College of Nursing",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Campus Gallery — Sresakthimayeil Nursing College",
-    description: "Explore JKKN Nursing College campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
+    title: "Campus Gallery — JKKN College of Nursing",
+    description: "Explore JKKN College of Nursing campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

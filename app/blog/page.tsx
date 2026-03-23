@@ -34,14 +34,29 @@ export default async function BlogPage() {
       {/* ── Page Title ── */}
       <div className="bg-[#FBFBEE] px-4 sm:px-6 lg:px-8 pt-28 pb-6">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309]">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309]">
             Latest Articles
-          </h2>
+          </h1>
           <p className="text-gray-500 text-sm mt-1.5">
             Expert insights on teacher education and careers
           </p>
         </div>
       </div>
+
+      {/* ── Coming Soon — shown when no posts exist ── */}
+      {!hasCampusPosts && (
+        <section className="bg-[#FBFBEE] px-4 sm:px-6 lg:px-8 py-20 flex flex-col items-center text-center">
+          <div className="max-w-md mx-auto">
+            <div className="w-16 h-16 rounded-full bg-[#d1e8da] flex items-center justify-center mx-auto mb-6">
+              <Clock className="w-8 h-8 text-[#0b7845]" />
+            </div>
+            <h2 className="text-2xl font-bold text-[#002309] mb-3">Coming Soon</h2>
+            <p className="text-gray-500 text-base">
+              We&apos;re working on some great articles for you. Stay tuned!
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* ── Campus News (Admin Posts) Section — shown only when posts exist ── */}
       {hasCampusPosts && (

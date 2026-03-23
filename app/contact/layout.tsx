@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us — JKKN Nursing College, Komarapalayam",
+  title: "Contact Us — JKKN College of Nursing, Komarapalayam",
   description: "Contact Sresakthimayeil Institute of Nursing, Natarajapuram, Komarapalayam. Phone, email, map directions, and admission enquiry details.",
   openGraph: {
-    title: "Contact Us — JKKN Nursing College, Komarapalayam",
+    title: "Contact Us — JKKN College of Nursing, Komarapalayam",
     description: "Contact Sresakthimayeil Institute of Nursing, Natarajapuram, Komarapalayam. Phone, email, map directions, and admission enquiry details.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/contact",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us — JKKN Nursing College, Komarapalayam",
+    title: "Contact Us — JKKN College of Nursing, Komarapalayam",
     description: "Contact Sresakthimayeil Institute of Nursing, Natarajapuram, Komarapalayam. Phone, email, map directions, and admission enquiry details.",
     images: ["/images/nursing_logo.png"],
   },

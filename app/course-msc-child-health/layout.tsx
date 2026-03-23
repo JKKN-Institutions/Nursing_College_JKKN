@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "M.Sc Child Health Nursing — JKKN Nursing College",
+  title: "M.Sc Child Health Nursing — JKKN College of Nursing",
   description: "M.Sc Nursing in Child Health (Pediatric Nursing) at JKKN. 2-year specialization in pediatric care, neonatal nursing, and child development.",
   keywords: "msc child health nursing, pediatric nursing msc, msc nursing child health tamilnadu, neonatal nursing course, pediatric nursing colleges tamilnadu",
   openGraph: {
-    title: "M.Sc Child Health Nursing — JKKN Nursing College",
+    title: "M.Sc Child Health Nursing — JKKN College of Nursing",
     description: "M.Sc Nursing in Child Health (Pediatric Nursing) at JKKN. 2-year specialization in pediatric care, neonatal nursing, and child development.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "M.Sc Child Health Nursing — JKKN Nursing College",
+    title: "M.Sc Child Health Nursing — JKKN College of Nursing",
     description: "M.Sc Nursing in Child Health (Pediatric Nursing) at JKKN. 2-year specialization in pediatric care, neonatal nursing, and child development.",
     images: ["/images/Master-of-Science-in-Nursing-Hero-Banner-Image.png"],
   },
