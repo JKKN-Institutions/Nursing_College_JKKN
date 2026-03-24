@@ -823,6 +823,92 @@ export default async function Home() {
           </div>
         </section>
 
+        {/* Best Nursing Colleges Proof Section */}
+        <section className="py-12 sm:py-16 md:py-20 bg-gradient-to-b from-white to-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
+            <div className="text-center mb-10 sm:mb-14">
+              <p className="text-[#7cb983] text-xs sm:text-sm font-bold uppercase tracking-wide mb-2 sm:mb-4">
+                WHAT SETS US APART
+              </p>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4 sm:mb-6">
+                Why JKKN Ranks Among the Best Nursing Colleges in Tamil Nadu
+              </h2>
+              <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto">
+                When choosing the best nursing college in Tamil Nadu, accreditation, placement record, clinical infrastructure, and international opportunities matter most. Here is how JKKN College of Nursing compares.
+              </p>
+            </div>
+
+            {/* 4-Column Proof Grid */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-10 sm:mb-14">
+              {[
+                { stat: "INC Approved", label: "NAAC Accredited & TNNMC Registered", desc: "Fully recognized by all regulatory bodies" },
+                { stat: "98%+", label: "Placement Rate", desc: "Including NHS UK, UAE & Singapore" },
+                { stat: "500+", label: "Bed Teaching Hospital", desc: "Clinical training from Year 1" },
+                { stat: "19+ Years", label: "Of Nursing Excellence", desc: "Established 2007, part of JKKN since 1952" },
+              ].map((item, index) => (
+                <div key={index} className="bg-white rounded-2xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow text-center">
+                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-1 sm:mb-2">{item.stat}</div>
+                  <div className="text-sm sm:text-base font-semibold text-gray-800 mb-1">{item.label}</div>
+                  <div className="text-xs sm:text-sm text-gray-500">{item.desc}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Comparison Table */}
+            <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+              <div className="bg-[#006837] text-white text-center py-4 px-4">
+                <h3 className="text-lg sm:text-xl font-bold">JKKN vs Average Nursing College in Tamil Nadu</h3>
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm sm:text-base">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th className="text-left py-3 px-4 sm:px-6 font-semibold text-gray-700">Factor</th>
+                      <th className="text-center py-3 px-4 sm:px-6 font-semibold text-[#006837]">JKKN College of Nursing</th>
+                      <th className="text-center py-3 px-4 sm:px-6 font-semibold text-gray-500">Average TN Nursing College</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-100">
+                    {[
+                      ["Placement Rate", "98%+", "65-75%"],
+                      ["Teaching Hospital Beds", "500+", "100-200"],
+                      ["International Placements", "Yes (NHS UK, UAE, Singapore)", "Rare"],
+                      ["Simulation Labs", "Advanced (High-Fidelity Mannequins)", "Basic"],
+                      ["M.Sc Specializations", "5 Specializations", "2-3"],
+                      ["INC Approval", "Yes", "Yes (Most)"],
+                      ["NCLEX & IELTS Support", "Integrated Preparation", "Not Available"],
+                    ].map(([factor, jkkn, avg], index) => (
+                      <tr key={index} className="hover:bg-gray-50">
+                        <td className="py-3 px-4 sm:px-6 font-medium text-gray-700">{factor}</td>
+                        <td className="py-3 px-4 sm:px-6 text-center text-[#006837] font-semibold">{jkkn}</td>
+                        <td className="py-3 px-4 sm:px-6 text-center text-gray-500">{avg}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Internal Links */}
+            <p className="text-sm text-gray-600 mt-6 text-center">
+              Learn more about our{' '}
+              <Link href="/placement" className="text-[#006837] hover:underline font-medium">placement record</Link>,{' '}
+              <Link href="/bsc-nursing" className="text-[#006837] hover:underline font-medium">B.Sc Nursing program</Link>, and{' '}
+              <Link href="/naac" className="text-[#006837] hover:underline font-medium">accreditation details</Link>.
+            </p>
+
+            {/* CTA */}
+            <div className="text-center mt-8 sm:mt-10">
+              <a
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                className="inline-block bg-[#006837] hover:bg-[#005530] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-sm sm:text-base"
+              >
+                Apply to One of Tamil Nadu&apos;s Best Nursing Colleges →
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* Placement Section */}
         <section className="py-10 sm:py-14 md:py-20 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
@@ -1145,6 +1231,39 @@ export default async function Home() {
                   </Link>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Nursing Education Near You — City Landing Pages */}
+        <section className="py-12 sm:py-16 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
+            <div className="text-center mb-8 sm:mb-10">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-3">
+                Best Nursing Education Near You
+              </h2>
+              <p className="text-sm sm:text-base text-gray-600">
+                JKKN College of Nursing serves students from across Tamil Nadu. Find nursing programs near your city.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+              {[
+                { city: "Coimbatore", href: "/coimbatore", distance: "90 km" },
+                { city: "Erode", href: "/erode", distance: "35 km" },
+                { city: "Salem", href: "/salem", distance: "45 km" },
+                { city: "Namakkal", href: "/namakkal", distance: "25 km" },
+                { city: "Tiruppur", href: "/tiruppur", distance: "65 km" },
+              ].map((item) => (
+                <Link
+                  key={item.city}
+                  href={item.href}
+                  className="bg-white rounded-xl p-4 sm:p-5 text-center shadow-sm hover:shadow-md transition-shadow group"
+                >
+                  <MapPinIcon className="w-6 h-6 text-[#7cb983] mx-auto mb-2" />
+                  <div className="font-semibold text-gray-800 group-hover:text-[#006837] transition-colors">{item.city}</div>
+                  <div className="text-xs text-gray-500 mt-1">{item.distance} from campus</div>
+                </Link>
+              ))}
             </div>
           </div>
         </section>
