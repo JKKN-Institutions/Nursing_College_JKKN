@@ -28,15 +28,49 @@ export default function MScNursing() {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "Master of Science in Nursing (M.Sc Nursing)",
-    "description": "A 2-year postgraduate nursing program approved by the Indian Nursing Council (INC) with 5 specializations, affiliated to Tamil Nadu Dr. MGR Medical University.",
+    "description": "2-year postgraduate M.Sc Nursing program with 5 specializations and clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     "provider": {
       "@type": "EducationalOrganization",
-      "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+      "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+      "name": "JKKN College of Nursing",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
     },
     "timeRequired": "P2Y",
-    "educationalCredentialAwarded": "M.Sc Nursing Degree",
-    "coursePrerequisites": "B.Sc Nursing with minimum 55% marks"
+    "educationalCredentialAwarded": "Master of Science in Nursing (M.Sc Nursing)",
+    "occupationalCredentialAwarded": "Clinical Nurse Specialist / Nursing Educator",
+    "coursePrerequisites": "B.Sc Nursing with minimum 55% aggregate marks, 1 year clinical experience, TNNMC registration",
+    "numberOfCredits": "5 Specializations available",
+    "inLanguage": "en",
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "price": "125000",
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-03-01",
+      "validThrough": "2026-08-31",
+      "url": "https://admission.jkkn.ac.in/"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "Onsite",
+      "courseWorkload": "PT40H",
+      "startDate": "2026-08-01",
+      "endDate": "2028-06-30",
+      "location": {
+        "@type": "Place",
+        "name": "JKKN College of Nursing Campus",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Natarajapuram, NH-544",
+          "addressLocality": "Komarapalayam",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "638183",
+          "addressCountry": "IN"
+        }
+      }
+    }
   };
 
   const faqSchema = {

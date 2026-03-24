@@ -32,15 +32,48 @@ export default function PBScNursing() {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "Post Basic Bachelor of Science in Nursing (Post Basic B.Sc Nursing)",
-    "description": "A 2-year undergraduate nursing program for GNM holders, approved by the Indian Nursing Council (INC), affiliated to Tamil Nadu Dr. MGR Medical University.",
+    "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
     "provider": {
       "@type": "EducationalOrganization",
-      "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+      "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+      "name": "JKKN College of Nursing",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
     },
     "timeRequired": "P2Y",
-    "educationalCredentialAwarded": "B.Sc Nursing Degree",
-    "coursePrerequisites": "GNM Diploma with minimum 50% marks"
+    "educationalCredentialAwarded": "Post Basic B.Sc Nursing Degree",
+    "occupationalCredentialAwarded": "Registered Nurse (RN)",
+    "coursePrerequisites": "GNM Diploma with minimum 50% marks, valid TNNMC registration",
+    "inLanguage": "en",
+    "isAccessibleForFree": false,
+    "offers": {
+      "@type": "Offer",
+      "price": "85000",
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-03-01",
+      "validThrough": "2026-08-31",
+      "url": "https://admission.jkkn.ac.in/"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": "Onsite",
+      "courseWorkload": "PT40H",
+      "startDate": "2026-08-01",
+      "endDate": "2028-06-30",
+      "location": {
+        "@type": "Place",
+        "name": "JKKN College of Nursing Campus",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Natarajapuram, NH-544",
+          "addressLocality": "Komarapalayam",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "638183",
+          "addressCountry": "IN"
+        }
+      }
+    }
   };
 
   const faqSchema = {

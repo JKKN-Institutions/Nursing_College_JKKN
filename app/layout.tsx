@@ -22,10 +22,10 @@ export const metadata: Metadata = {
     siteName: "JKKN College of Nursing",
     images: [
       {
-        url: "/images/nursing_logo.png",
+        url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing — Best Nursing Colleges in Tamil Nadu",
       },
     ],
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JKKN College of Nursing | Best Nursing Colleges in Tamil Nadu",
     description: "JKKN College of Nursing — among the best nursing colleges in Tamil Nadu. INC-approved B.Sc, M.Sc & Post Basic Nursing. 98%+ placements, 500-bed hospital training.",
-    images: ["/images/nursing_logo.png"],
+    images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
   icons: {
     icon: "/images/nursing_logo.png",
@@ -213,6 +213,13 @@ const educationalOrgSchema = {
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": ["h1", ".speakable", "[data-speakable]"]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "ratingCount": "127",
+    "reviewCount": "45"
   },
   "areaServed": [
     { "@type": "City", "name": "Erode" },
