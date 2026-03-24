@@ -97,7 +97,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has a 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -400,12 +400,15 @@ export default async function Home() {
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6">
                   Begin Your Journey in
                   <br />
-                  <span className="text-[#7cb983]">Nursing Excellence</span>
+                  <span className="text-[#7cb983] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">One of the Best Nursing Colleges in Tamil Nadu</span>
                 </h1>
+                <p className="text-white/70 text-sm sm:text-base mb-2">
+                  Sresakthimayeil Institute of Nursing and Research
+                </p>
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
+                  Join one of the best nursing colleges in Tamil Nadu and become a compassionate healthcare professional. JKKN College of Nursing offers B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -563,7 +566,7 @@ export default async function Home() {
                   Nurturing Compassionate Healthcare Leaders Since 2007
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
+                  JKKN College of Nursing, recognized as one of the best nursing colleges in Tamil Nadu, is part of JKKN Institutions celebrating #JKKN100. We are committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
                   Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced Learning Facilitators combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
@@ -1124,7 +1127,7 @@ export default async function Home() {
                   Start Your Application
                 </h3>
                 <p className="text-white/90 mb-8">
-                  Limited seats available. Apply early to secure your place in Tamil Nadu's premier nursing institution.
+                  Limited seats available. Apply early to secure your place at one of the best nursing colleges in Tamil Nadu.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
@@ -1245,7 +1248,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has a 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",
@@ -1288,6 +1291,45 @@ export default async function Home() {
             </div>
           </div>
         </section>
+
+        {/* Institutional Authority Block */}
+        <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 py-8">
+          <div className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+            <p className="font-bold text-dark text-lg mb-1">Published by JKKN College of Nursing</p>
+            <p className="text-sm text-gray-500 mb-5">Sresakthimayeil Institute of Nursing and Research</p>
+
+            <div className="flex flex-wrap gap-2 sm:gap-3 mb-5">
+              <span className="inline-flex items-center gap-1.5 bg-[#006837]/10 text-[#006837] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full">
+                <CheckCircleIcon className="w-4 h-4" />
+                INC Approved
+              </span>
+              <span className="inline-flex items-center gap-1.5 bg-[#006837]/10 text-[#006837] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full">
+                <CheckCircleIcon className="w-4 h-4" />
+                NAAC Accredited
+              </span>
+              <span className="inline-flex items-center gap-1.5 bg-[#006837]/10 text-[#006837] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full">
+                <AcademicCapIcon className="w-4 h-4" />
+                TNMGRMU Affiliated
+              </span>
+              <span className="inline-flex items-center gap-1.5 bg-[#FFD700]/15 text-[#8B6914] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full">
+                <StarIcon className="w-4 h-4" />
+                Best Nursing Colleges in Tamil Nadu
+              </span>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500">
+              <span className="inline-flex items-center gap-1.5">
+                <MapPinIcon className="w-4 h-4 text-gray-400" />
+                Komarapalayam, Namakkal, Tamil Nadu 638183
+              </span>
+              <span className="inline-flex items-center gap-1.5">
+                <PhoneIcon className="w-4 h-4 text-gray-400" />
+                +91 93458 55001
+              </span>
+            </div>
+          </div>
+        </div>
+
 
         {/* Final CTA Section */}
         <section className="py-20 bg-[#7cb983]">
