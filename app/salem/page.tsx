@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "What nursing courses are available near Salem?",
-    a: "JKKN College of Nursing near Salem offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), GNM — General Nursing and Midwifery (3.5 years, 60 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing near Salem offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for nursing courses near Salem?",
@@ -112,15 +112,6 @@ const programmes = [
     intake: "100 seats",
     eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
     href: "/bsc-nursing",
-  },
-  {
-    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
-    title: "GNM (General Nursing and Midwifery)",
-    duration: "3.5 years",
-    level: "Diploma",
-    intake: "60 seats",
-    eligibility: "10+2 with Science",
-    href: "/admissions",
   },
   {
     icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
@@ -226,7 +217,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
   description:
-    "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, GNM, Post Basic B.Sc programmes. 90%+ placements.",
+    "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 90%+ placements.",
   keywords:
     "nursing college in salem, bsc nursing colleges in salem, best nursing colleges in salem, salem nursing college list, nursing course in salem",
   alternates: {
@@ -326,7 +317,7 @@ export default function SalemPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, GNM, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 90%+ placement support.
+              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 90%+ placement support.
             </p>
 
             {/* Stats Grid */}

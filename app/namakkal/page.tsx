@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "What nursing courses are offered at JKKN Nursing in Namakkal?",
-    a: "JKKN College of Nursing in Namakkal offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), GNM — General Nursing and Midwifery (3.5 years, 60 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing in Namakkal offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for nursing courses in Namakkal?",
@@ -112,15 +112,6 @@ const programmes = [
     intake: "100 seats",
     eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
     href: "/bsc-nursing",
-  },
-  {
-    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
-    title: "GNM (General Nursing and Midwifery)",
-    duration: "3.5 years",
-    level: "Diploma",
-    intake: "60 seats",
-    eligibility: "10+2 with Science",
-    href: "/admissions",
   },
   {
     icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
@@ -226,7 +217,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing College in Namakkal | B.Sc Nursing in Namakkal — JKKN",
   description:
-    "Looking for the best nursing college in Namakkal? JKKN College of Nursing is located in Komarapalayam, just 5-10 km from Namakkal. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, GNM, Post Basic B.Sc programmes.",
+    "Looking for the best nursing college in Namakkal? JKKN College of Nursing is located in Komarapalayam, just 5-10 km from Namakkal. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes.",
   keywords:
     "nursing college in namakkal, namakkal nursing college, namakkal nursing college list, best nursing college in namakkal, bsc nursing in namakkal",
   alternates: {
@@ -326,7 +317,7 @@ export default function NamakkalPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Namakkal? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) is located right in Komarapalayam, Namakkal district — offering INC-approved B.Sc Nursing, M.Sc Nursing, GNM, and Post Basic B.Sc programmes with 90%+ placement support.
+              Searching for the best nursing college in Namakkal? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) is located right in Komarapalayam, Namakkal district — offering INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with 90%+ placement support.
             </p>
 
             {/* Stats Grid */}

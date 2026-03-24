@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     q: "What B.Sc nursing courses are available near Tiruppur?",
-    a: "JKKN College of Nursing near Tiruppur offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), GNM — General Nursing and Midwifery (3.5 years, 60 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing near Tiruppur offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for nursing courses near Tiruppur?",
@@ -112,15 +112,6 @@ const programmes = [
     intake: "100 seats",
     eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
     href: "/bsc-nursing",
-  },
-  {
-    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
-    title: "GNM (General Nursing and Midwifery)",
-    duration: "3.5 years",
-    level: "Diploma",
-    intake: "60 seats",
-    eligibility: "10+2 with Science",
-    href: "/admissions",
   },
   {
     icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
@@ -226,7 +217,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Best Nursing College in Tiruppur | B.Sc Nursing Near Tiruppur — JKKN",
   description:
-    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing is 80-90 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, GNM, Post Basic B.Sc programmes. 90%+ placements.",
+    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing is 80-90 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 90%+ placements.",
   keywords:
     "best nursing college in tiruppur, bsc nursing colleges in tiruppur, best nursing colleges in tiruppur, tiruppur nursing college list, nursing course in tiruppur",
   alternates: {
@@ -324,7 +315,7 @@ export default function TiruppurPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, GNM, and Post Basic B.Sc programmes — 80-90 km from Tiruppur with 90%+ placement support and hostel facilities.
+              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — 80-90 km from Tiruppur with 90%+ placement support and hostel facilities.
             </p>
 
             {/* Stats Grid */}
