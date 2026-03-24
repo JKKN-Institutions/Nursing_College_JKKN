@@ -324,7 +324,7 @@ export default function TiruppurPage() {
                 { value: "90%+", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "85km", label: "FROM TIRUPPUR" },
-                { value: "4", label: "PROGRAMMES" },
+                { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
                 <div
                   key={stat.label}
@@ -515,7 +515,7 @@ export default function TiruppurPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
               {programmes.map((prog) => (
                 <div
                   key={prog.title}
@@ -688,7 +688,7 @@ export default function TiruppurPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
               {facilities.map((item) => (
                 <a
                   key={item.title}
@@ -786,26 +786,8 @@ export default function TiruppurPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
-              {cities.slice(0, 3).map((city) => (
-                <a
-                  key={city.name}
-                  href={city.href}
-                  className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3"
-                >
-                  <span className="text-2xl flex-shrink-0">{city.icon}</span>
-                  <span className="font-bold text-gray-900 text-sm sm:text-base flex-1">
-                    {city.name}
-                  </span>
-                  <span className="text-gray-400 text-xs sm:text-sm whitespace-nowrap">
-                    {city.distance}
-                  </span>
-                </a>
-              ))}
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
-              {cities.slice(3).map((city) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-8">
+              {cities.map((city) => (
                 <a
                   key={city.name}
                   href={city.href}
