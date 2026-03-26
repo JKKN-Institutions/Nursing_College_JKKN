@@ -88,7 +88,7 @@ export const navigationMenu = [
   },
   {
     label: "PLACEMENT",
-    href: "/placements",
+    href: "/placement",
   },
   {
     label: "GALLERY",

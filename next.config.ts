@@ -17,6 +17,11 @@ const nextConfig: NextConfig = {
         permanent: true, // 301 redirect
       },
 // Add ALL old WordPress URLs here
+      {
+        source: '/placements',
+        destination: '/placement',
+        permanent: true, // 301 redirect
+      },
     ]
   },
   async headers() {
