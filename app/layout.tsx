@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "JKKN College of Nursing",
     images: [
       {
-        url: "https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.webp",
+        url: "https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png",
         width: 1200,
         height: 630,
         alt: "JKKN College of Nursing — Best Nursing Colleges in Tamil Nadu",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
     description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
-    images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.webp"],
+    images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png"],
   },
   icons: {
     icon: "/images/nursing_logo.png",
