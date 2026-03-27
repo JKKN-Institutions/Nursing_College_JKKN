@@ -877,7 +877,7 @@ export default function PlacementsPage() {
                 Sector-Wise Placement Breakdown
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                JKKN nursing graduates are placed across diverse healthcare
+                As one of the <Link href="/" className="text-[#0b7845] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, JKKN nursing graduates are placed across diverse healthcare
                 sectors — from leading private hospitals to international
                 healthcare systems.
               </p>

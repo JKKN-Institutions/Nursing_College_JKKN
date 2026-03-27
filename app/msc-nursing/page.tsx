@@ -344,8 +344,7 @@ export default function MScNursing() {
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The program integrates evidence-based practice with hands-on clinical
-                  training across premier healthcare facilities. Learners engage with
-                  experienced Learning Facilitators who bring decades of clinical and
+                  training across premier healthcare facilities. As one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, JKKN provides access to experienced Learning Facilitators who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
                 </p>
 

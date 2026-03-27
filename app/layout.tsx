@@ -11,18 +11,18 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JKKN College of Nursing | Best Nursing Colleges in Tamil Nadu",
-  description: "JKKN College of Nursing — among the best nursing colleges in Tamil Nadu. INC-approved B.Sc, M.Sc & Post Basic Nursing. 98%+ placements, 500-bed hospital training.",
+  title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+  description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
-    title: "JKKN College of Nursing | Best Nursing Colleges in Tamil Nadu",
-    description: "JKKN College of Nursing — among the best nursing colleges in Tamil Nadu. INC-approved B.Sc, M.Sc & Post Basic Nursing. 98%+ placements, 500-bed hospital training.",
+    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
     images: [
       {
-        url: "/images/Homepage-Hero_Banner-image.webp",
+        url: "https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
         alt: "JKKN College of Nursing — Best Nursing Colleges in Tamil Nadu",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "JKKN College of Nursing | Best Nursing Colleges in Tamil Nadu",
-    description: "JKKN College of Nursing — among the best nursing colleges in Tamil Nadu. INC-approved B.Sc, M.Sc & Post Basic Nursing. 98%+ placements, 500-bed hospital training.",
-    images: ["/images/Homepage-Hero_Banner-image.webp"],
+    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
+    images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.webp"],
   },
   icons: {
     icon: "/images/nursing_logo.png",
@@ -43,6 +43,8 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    "max-snippet": -1,
+    "max-image-preview": "large",
   },
   alternates: {
     canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/",
@@ -213,13 +215,6 @@ const educationalOrgSchema = {
   "speakable": {
     "@type": "SpeakableSpecification",
     "cssSelector": ["h1", ".speakable", "[data-speakable]"]
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "bestRating": "5",
-    "ratingCount": "127",
-    "reviewCount": "45"
   },
   "areaServed": [
     { "@type": "City", "name": "Erode" },
