@@ -438,7 +438,7 @@ export default async function Home() {
                   {/* Image with curved edges */}
                   <div className="relative rounded-[30px] sm:rounded-[35px] lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-white/20">
                     <Image
-                      src="/images/Homepage-Hero_Banner-image.webp"
+                      src="/images/Homepage-Hero_Banner-image.png"
                       alt="JKKN College of Nursing"
                       width={450}
                       height={450}
@@ -614,7 +614,7 @@ export default async function Home() {
                 </div>
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Simulation-lab-image.webp"
+                    src="/images/Simulation-lab-image.png"
                     alt="JKKN College of Nursing Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
