@@ -41,10 +41,12 @@ export default function BScNursing() {
               "@context": "https://schema.org",
               "@type": "Course",
               "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
-              "description": "A 4-year undergraduate nursing program approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University.",
+              "description": "4-year undergraduate Bachelor of Science in Nursing program with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+              "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+                "name": "JKKN College of Nursing",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
                 "address": {
                   "@type": "PostalAddress",
@@ -56,17 +58,38 @@ export default function BScNursing() {
                 }
               },
               "timeRequired": "P4Y",
-              "educationalCredentialAwarded": "B.Sc Nursing Degree",
+              "educationalCredentialAwarded": "Bachelor of Science in Nursing (B.Sc Nursing)",
+              "occupationalCredentialAwarded": "Registered Nurse (RN)",
               "occupationalCategory": "Registered Nurse",
-              "coursePrerequisites": "10+2 with Physics, Chemistry, Biology with minimum 45% marks and valid NEET-UG score",
-              "availableLanguage": "English",
+              "coursePrerequisites": "10+2 with Physics, Chemistry, Biology — minimum 45% aggregate",
+              "inLanguage": "en",
+              "isAccessibleForFree": false,
+              "offers": {
+                "@type": "Offer",
+                "price": "95000",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock",
+                "validFrom": "2026-03-01",
+                "validThrough": "2026-08-31",
+                "url": "https://admission.jkkn.ac.in/"
+              },
               "hasCourseInstance": {
                 "@type": "CourseInstance",
-                "courseMode": "Full-time",
-                "courseWorkload": "PT4Y",
-                "instructor": {
-                  "@type": "Organization",
-                  "name": "Sresakthimayeil Institute of Nursing and Research"
+                "courseMode": "Onsite",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08-01",
+                "endDate": "2030-06-30",
+                "location": {
+                  "@type": "Place",
+                  "name": "JKKN College of Nursing Campus",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Natarajapuram, NH-544",
+                    "addressLocality": "Komarapalayam",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "638183",
+                    "addressCountry": "IN"
+                  }
                 }
               }
             },
@@ -231,7 +254,7 @@ export default function BScNursing() {
                   What is B.Sc Nursing?
                 </h2>
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  The Bachelor of Science in Nursing (B.Sc Nursing) is a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The curriculum integrates theoretical knowledge with extensive clinical practice.
+                  The Bachelor of Science in Nursing (B.Sc Nursing) is a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The curriculum integrates theoretical knowledge with extensive clinical practice. JKKN College of Nursing, one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, offers this program with a 92%+ placement rate.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
                   Sresakthimayeil Institute of Nursing and Research follows a progressive education approach that goes beyond textbook learning. Students gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.

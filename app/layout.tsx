@@ -11,29 +11,29 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-  description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing programs. 98%+ placements, 500-bed hospital training. NAAC accredited, TNMGRMU affiliated.",
+  title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+  description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
-    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
+    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
     images: [
       {
-        url: "/images/nursing_logo.png",
+        url: "https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing — Best Nursing Colleges in Tamil Nadu",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "JKKN College of Nursing — Top BSc Nursing College in Tamil Nadu | INC Approved",
-    description: "JKKN College of Nursing (Sresakthimayeil Institute), Komarapalayam — INC-approved B.Sc, M.Sc & Post Basic B.Sc Nursing. 98%+ placements, 500-bed hospital training.",
-    images: ["/images/nursing_logo.png"],
+    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
+    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
+    images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png"],
   },
   icons: {
     icon: "/images/nursing_logo.png",
@@ -43,6 +43,8 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+    "max-snippet": -1,
+    "max-image-preview": "large",
   },
   alternates: {
     canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/",
@@ -229,9 +231,71 @@ const educationalOrgSchema = {
     "https://www.instagram.com/jkknnursing",
     "https://www.linkedin.com/school/jkknnursing",
     "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
-    "https://www.indiannursingcouncil.org/"
+    "https://www.indiannursingcouncil.org/",
+    "https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions",
+    "https://www.wikidata.org/wiki/Q55090877",
+    "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Placement Rate",
+      "value": "98%+",
+      "description": "Overall placement rate for nursing graduates including domestic and international placements"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Highest Package (International)",
+      "value": "25 LPA",
+      "description": "Highest international placement package offered to nursing graduates"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Recruiting Partners",
+      "value": "80+",
+      "description": "Number of active recruiting partners including hospitals, healthcare chains, and international employers"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "International Placement Partners",
+      "value": "NHS UK, Cleveland Clinic Abu Dhabi, Singapore Hospitals",
+      "description": "Key international healthcare organizations that recruit JKKN nursing graduates"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Domestic Placement Partners",
+      "value": "Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health",
+      "description": "Top domestic hospital chains that actively recruit from JKKN College of Nursing"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Teaching Hospital Beds",
+      "value": "500+",
+      "description": "Number of beds in the attached multi-specialty teaching hospital for clinical training"
+    }
   ]
 };
+
+const videoObjectSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "JKKN College of Nursing — Campus Tour, Facilities & Student Life",
+  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
+  "uploadDate": "2025-01-01",
+  "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+  "embedUrl": "https://www.youtube.com/embed/videoseries?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+  "publisher": {
+    "@type": "EducationalOrganization",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization"
+  },
+  "inLanguage": "en",
+  "about": {
+    "@type": "EducationalOrganization",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization"
+  }
+};
+
 
 export default function RootLayout({
   children,

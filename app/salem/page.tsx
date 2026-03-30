@@ -1,9 +1,10 @@
-"use client";
-
-import { useState } from "react";
+import type { Metadata } from "next";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { CityFaqAccordion } from "@/components/CityFaqAccordion";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import {
   CheckCircleIcon,
   HeartIcon,
@@ -55,6 +56,18 @@ const faqs = [
     q: "How can I apply for admission at JKKN Nursing?",
     a: "You can apply online through the official website at https://nursing.sresakthimayeil.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.",
   },
+  {
+    q: "Which are the best B.Sc nursing colleges in Salem?",
+    a: "Salem has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in nearby Komarapalayam is one of the most reputed options — just 40-50 km from Salem via NH-544. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+  },
+  {
+    q: "What nursing courses are available near Salem?",
+    a: "JKKN College of Nursing near Salem offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+  },
+  {
+    q: "What is the fee structure for nursing courses near Salem?",
+    a: "Fee structures for nursing courses at JKKN College of Nursing are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+  },
 ];
 
 const whyChooseItems = [
@@ -98,14 +111,7 @@ const programmes = [
     level: "UG",
     intake: "100 seats",
     eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
-  },
-  {
-    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
-    title: "GNM (General Nursing and Midwifery)",
-    duration: "3.5 years",
-    level: "Diploma",
-    intake: "60 seats",
-    eligibility: "10+2 with Science",
+    href: "/bsc-nursing",
   },
   {
     icon: <AcademicCapIcon className="w-10 h-10 text-[#006837]" />,
@@ -114,6 +120,7 @@ const programmes = [
     level: "PG",
     intake: "30 seats",
     eligibility: "B.Sc Nursing degree",
+    href: "/msc-nursing",
   },
   {
     icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
@@ -122,6 +129,7 @@ const programmes = [
     level: "UG",
     intake: "50 seats",
     eligibility: "GNM diploma + experience",
+    href: "/pbsc-nursing",
   },
 ];
 
@@ -165,31 +173,37 @@ const facilities = [
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
     title: "Modern Labs",
     desc: "State-of-the-art laboratories and smart classrooms",
+    href: "/laboratories",
   },
   {
     icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
     title: "Digital Library",
     desc: "Well-stocked library with digital access and journals",
+    href: "/library",
   },
   {
     icon: <HomeModernIcon className="w-6 h-6 text-[#006837]" />,
     title: "Hostel",
     desc: "Separate hostels for boys and girls with mess facility",
+    href: "/hostel",
   },
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
     desc: "College buses connecting to Salem and surrounding areas",
+    href: "/transport",
   },
   {
     icon: <TrophyIcon className="w-6 h-6 text-[#006837]" />,
     title: "Sports",
     desc: "Playground, indoor games, gym, and annual sports events",
+    href: "/sports",
   },
   {
     icon: <WifiIcon className="w-6 h-6 text-[#006837]" />,
     title: "WiFi Campus",
     desc: "High-speed internet across the entire campus",
+    href: "/wifi",
   },
 ];
 
@@ -200,30 +214,89 @@ const cities = [
   { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km", href: "/coimbatore" },
 ];
 
-const quickLinks = [
-  "All Programmes",
-  "Admissions",
-  "Placements",
-  "Campus Life",
-  "Fee Structure",
-  "Contact Us",
-];
-
-const jkknInstitutions = [
-  "JKKN Group",
-  "Dental",
-  "Pharmacy",
-  "Nursing",
-  "Engineering",
-  "Arts & Science",
-  "Allied Health Sciences",
-];
+export const metadata: Metadata = {
+  title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
+  description:
+    "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 90%+ placements.",
+  keywords:
+    "nursing college in salem, bsc nursing colleges in salem, best nursing colleges in salem, salem nursing college list, nursing course in salem",
+  alternates: {
+    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/salem",
+  },
+  openGraph: {
+    title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
+    description:
+      "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. 90%+ placements.",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/salem",
+    siteName: "JKKN College of Nursing",
+    type: "website",
+  },
+};
 
 export default function SalemPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
   return (
     <div className="min-h-screen font-sans bg-[#FBFBEE]">
       <Header />
+
+      {/* Schema Markup */}
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+          { name: "Nursing Colleges in Salem", url: "https://nursing.sresakthimayeil.jkkn.ac.in/salem" },
+        ]}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: faqs.map((faq) => ({
+              "@type": "Question",
+              name: faq.q,
+              acceptedAnswer: { "@type": "Answer", text: faq.a },
+            })),
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "EducationalOrganization",
+            name: "JKKN College of Nursing",
+            alternateName: "Sresakthimayeil Institute of Nursing and Research",
+            url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
+            telephone: "+919345855001",
+            email: "nursing@jkkn.ac.in",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "Natarajapuram, NH-544, Komarapalayam",
+              addressLocality: "Namakkal",
+              addressRegion: "Tamil Nadu",
+              postalCode: "638183",
+              addressCountry: "IN",
+            },
+            geo: {
+              "@type": "GeoCoordinates",
+              latitude: 11.4333,
+              longitude: 77.7167,
+            },
+            areaServed: {
+              "@type": "City",
+              name: "Salem",
+              sameAs: "https://en.wikipedia.org/wiki/Salem,_Tamil_Nadu",
+            },
+            parentOrganization: {
+              "@type": "Organization",
+              name: "JKKN Institutions",
+              url: "https://jkkn.ac.in/",
+            },
+          }),
+        }}
+      />
+
       <main>
         {/* ── Hero Section ─────────────────────────────────────────── */}
         <section className="bg-gradient-to-br from-[#006837] via-[#002309] to-[#002309] py-12 sm:py-16 md:py-20 px-4 text-center">
@@ -238,16 +311,13 @@ export default function SalemPage() {
 
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 leading-tight">
-              Best Nursing College Near{" "}
+              Best Nursing Colleges in{" "}
               <span className="text-[#FBFBEE]">Salem</span>
             </h1>
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Under 1 hour from Salem — closer than you think. Sresakthimayeil
-              Institute of Nursing and Research offers top-tier nursing
-              programmes with 90%+ placement support — just under 1 hour from
-              Salem via NH-544.
+              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 90%+ placement support.
             </p>
 
             {/* Stats Grid */}
@@ -256,7 +326,7 @@ export default function SalemPage() {
                 { value: "90%+", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "45km", label: "FROM SALEM" },
-                { value: "4", label: "PROGRAMMES" },
+                { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
                 <div
                   key={stat.label}
@@ -275,7 +345,7 @@ export default function SalemPage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8?utm_source=website&utm_medium=city_page&utm_campaign=salem"
                 className="w-full sm:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 Apply Now — 2026-27
@@ -306,6 +376,22 @@ export default function SalemPage() {
             <p className="text-gray-500 text-xs sm:text-sm text-center sm:text-left">
               Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai
             </p>
+          </div>
+        </section>
+
+        {/* ── Campus Image ──────────────────────────────────────────── */}
+        <section className="bg-[#FBFBEE] pt-8 sm:pt-12 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src="/images/jkkn_campus.webp"
+                alt="JKKN College of Nursing campus — best nursing colleges in Salem"
+                width={1200}
+                height={500}
+                className="w-full h-48 sm:h-64 md:h-80 object-cover"
+                priority
+              />
+            </div>
           </div>
         </section>
 
@@ -345,18 +431,58 @@ export default function SalemPage() {
           </div>
         </section>
 
+        {/* ── Nursing Education in Salem ───────────────────────────── */}
+        <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight text-center">
+              Nursing Education Landscape in Salem
+            </h2>
+            <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
+              <p>
+                Salem, the fifth-largest city in Tamil Nadu, is a major educational and healthcare hub with a thriving steel industry. Known for its medical infrastructure, Salem has several healthcare facilities but a limited number of INC-approved <strong>nursing colleges in Salem</strong> that offer both quality education and strong placement outcomes.
+              </p>
+              <p>
+                Students searching for <strong>B.Sc nursing colleges in Salem</strong> often discover that the most reputed options lie within a comfortable commute radius. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
+              </p>
+              <p>
+                Among the <strong>best nursing colleges in Salem</strong> region, JKKN stands out with its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem students benefit from a campus that combines academic excellence with practical training at a scale rarely available in the Salem nursing college list.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 mt-6">
+                <div className="flex-1 rounded-xl overflow-hidden">
+                  <Image
+                    src="/images/Clinical_HospitalFacilities-1.webp"
+                    alt="500-bed teaching hospital for nursing students near Salem"
+                    width={600}
+                    height={300}
+                    className="w-full h-40 sm:h-48 object-cover rounded-xl"
+                  />
+                </div>
+                <div className="flex-1 rounded-xl overflow-hidden">
+                  <Image
+                    src="/images/Simulation-lab-image.webp"
+                    alt="Nursing simulation lab at JKKN College of Nursing near Salem"
+                    width={600}
+                    height={300}
+                    className="w-full h-40 sm:h-48 object-cover rounded-xl"
+                  />
+                </div>
+              </div>
+              <p>
+                With 90%+ placement support including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem students who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── Why Choose Section ────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Salem Students Choose JKKN Nursing
+                Why Salem Students Choose JKKN — Top Nursing College Near Salem
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Salem is one of the largest cities in central Tamil Nadu with excellent
-                connectivity to JKKN via NH-544. The journey takes under 1 hour, making daily
-                commute a practical option. Students from Salem get access to quality
-                professional education without the high costs of metro city colleges.
+                Among nursing colleges accessible from Salem, JKKN stands out with INC approval, NAAC accreditation, and 90%+ placement support. Located just 40-50 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -383,7 +509,7 @@ export default function SalemPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Programmes Offered
+                Nursing Courses Available for Salem Students
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
@@ -391,7 +517,7 @@ export default function SalemPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
               {programmes.map((prog) => (
                 <div
                   key={prog.title}
@@ -423,12 +549,20 @@ export default function SalemPage() {
                     {prog.eligibility}
                   </p>
 
-                  <a
-                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                    className="block w-full text-center border-2 border-[#7cb983]/50 text-[#006837] font-semibold px-3 py-2.5 rounded-xl hover:bg-[#7cb983]/10 transition-colors text-xs sm:text-sm"
-                  >
-                    Enquire About This Course
-                  </a>
+                  <div className="space-y-2">
+                    <a
+                      href={prog.href}
+                      className="block w-full text-center bg-[#006837] text-white font-semibold px-3 py-2.5 rounded-xl hover:bg-[#095d36] transition-colors text-xs sm:text-sm"
+                    >
+                      Learn More →
+                    </a>
+                    <a
+                      href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8?utm_source=website&utm_medium=city_page&utm_campaign=salem"
+                      className="block w-full text-center border-2 border-[#7cb983]/50 text-[#006837] font-semibold px-3 py-2.5 rounded-xl hover:bg-[#7cb983]/10 transition-colors text-xs sm:text-sm"
+                    >
+                      Enquire Now
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>
@@ -468,7 +602,7 @@ export default function SalemPage() {
               <p className="text-gray-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-4">
                 COMPANIES THAT HIRE FROM US
               </p>
-              <div className="flex flex-wrap gap-2 sm:gap-3 justify-center">
+              <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mb-6">
                 {[
                   "Apollo Hospitals",
                   "Fortis",
@@ -484,6 +618,12 @@ export default function SalemPage() {
                   </span>
                 ))}
               </div>
+              <a
+                href="/placement"
+                className="inline-block text-[#006837] font-semibold text-sm hover:underline"
+              >
+                View All Placement Details →
+              </a>
             </div>
           </div>
         </section>
@@ -550,10 +690,11 @@ export default function SalemPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
               {facilities.map((item) => (
-                <div
+                <a
                   key={item.title}
+                  href={item.href}
                   className="flex items-start gap-3 p-4 sm:p-5 bg-gray-50 rounded-2xl hover:shadow-sm transition-all duration-200"
                 >
                   <div className="w-10 h-10 sm:w-11 sm:h-11 bg-[#7cb983]/10 rounded-xl flex items-center justify-center flex-shrink-0 text-xl">
@@ -565,58 +706,53 @@ export default function SalemPage() {
                       {item.desc}
                     </p>
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
         </section>
 
-        {/* ── Testimonials ─────────────────────────────────────────── */}
+        {/* ── Student Success & Alumni ────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Students from Salem Love JKKN Nursing
+                JKKN Nursing Graduate Success
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
-                Hear from students who made the right choice
+                Our track record speaks for itself
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-              <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm">
-                <div className="text-4xl sm:text-5xl text-[#7cb983] font-serif leading-none mb-3">
-                  &ldquo;
-                </div>
-                <p className="text-gray-500 text-sm sm:text-base italic leading-relaxed mb-5">
-                  [Student testimonial from Salem to be added here. Include their
-                  experience at JKKN Nursing, what they liked about the campus, and their
-                  career outcomes.]
-                </p>
-                <div className="font-bold text-gray-900 text-sm">[Student Name]</div>
-                <div className="text-gray-400 text-xs mt-0.5">
-                  [Course], Batch of [Year] • Now at [Company]
-                </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+              <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">90%+</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
+                <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>
 
-              <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm">
-                <div className="text-4xl sm:text-5xl text-[#7cb983] font-serif leading-none mb-3">
-                  &ldquo;
-                </div>
-                <p className="text-gray-500 text-sm sm:text-base italic leading-relaxed mb-5">
-                  [Second student testimonial from Salem to be added here. Focus on
-                  the ease of commute/hostel life and the quality of education.]
-                </p>
-                <div className="font-bold text-gray-900 text-sm">[Student Name]</div>
-                <div className="text-gray-400 text-xs mt-0.5">[Course], Batch of [Year]</div>
+              <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">60+</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Recruiting Partners</div>
+                <p className="text-gray-400 text-xs mt-2">Apollo, Sun Pharma, NHS UK, and more top healthcare employers</p>
               </div>
 
-              <div className="border-2 border-dashed border-[#7cb983] bg-[#7cb983]/10 rounded-2xl p-5 sm:p-6 flex items-center justify-center">
-                <p className="text-[#7cb983] font-semibold text-sm text-center leading-relaxed">
-                  Add 2-3 real student testimonials from Salem or nearby areas before
-                  deployment.
-                </p>
+              <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">25 LPA</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Highest Package</div>
+                <p className="text-gray-400 text-xs mt-2">International nursing placements in UK, UAE, and Singapore</p>
+              </div>
+
+              <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
+                <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing students from Salem</p>
+                <a
+                  href="/contact"
+                  className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"
+                >
+                  Share Your Story
+                </a>
               </div>
             </div>
           </div>
@@ -630,58 +766,12 @@ export default function SalemPage() {
                 Frequently Asked Questions
               </h2>
               <p className="text-[#006837] text-sm sm:text-base font-medium">
-                Nursing College in Salem — Your Questions Answered
+                Nursing Colleges in Salem — Your Questions Answered
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="space-y-3">
-              {faqs.map((faq, i) => (
-                <div
-                  key={i}
-                  className={`rounded-2xl border transition-all duration-200 ${
-                    openFaq === i
-                      ? "border-[#7cb983]/50 bg-white"
-                      : "border-gray-100 bg-white hover:border-gray-200"
-                  }`}
-                >
-                  <button
-                    className="w-full flex items-center justify-between p-4 sm:p-5 md:p-6 text-left gap-3"
-                    onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  >
-                    <span className="font-semibold text-gray-900 text-sm sm:text-base leading-snug">
-                      {faq.q}
-                    </span>
-                    <span
-                      className={`transition-transform duration-200 flex-shrink-0 ${
-                        openFaq === i ? "text-[#006837] rotate-180" : "text-gray-400"
-                      }`}
-                    >
-                      <svg
-                        className="w-4 h-4 sm:w-5 sm:h-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M19 9l-7 7-7-7"
-                        />
-                      </svg>
-                    </span>
-                  </button>
-                  {openFaq === i && (
-                    <div className="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 md:pb-6">
-                      <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
-                        {faq.a}
-                      </p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+            <CityFaqAccordion faqs={faqs} />
           </div>
         </section>
 
@@ -698,26 +788,8 @@ export default function SalemPage() {
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
-              {cities.slice(0, 3).map((city) => (
-                <a
-                  key={city.name}
-                  href={city.href}
-                  className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3"
-                >
-                  <span className="text-2xl flex-shrink-0">{city.icon}</span>
-                  <span className="font-bold text-gray-900 text-sm sm:text-base flex-1">
-                    {city.name}
-                  </span>
-                  <span className="text-gray-400 text-xs sm:text-sm whitespace-nowrap">
-                    {city.distance}
-                  </span>
-                </a>
-              ))}
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-8">
-              {cities.slice(3).map((city) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-8">
+              {cities.map((city) => (
                 <a
                   key={city.name}
                   href={city.href}
@@ -736,8 +808,7 @@ export default function SalemPage() {
 
             <div className="text-center">
               <a
-                href="/"
-                onClick={() => sessionStorage.setItem('scrollTo', 'programs')}
+                href="/#programs"
                 className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 View All Programmes
