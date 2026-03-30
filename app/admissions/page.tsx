@@ -14,7 +14,7 @@ export default function Admissions() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] min-h-screen pt-20">
 
         {/* Breadcrumb Schema */}
         <BreadcrumbSchema

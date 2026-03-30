@@ -196,6 +196,8 @@ export default function MScNursing() {
                 <div className="flex flex-wrap gap-4">
                   <a
                     href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
                     Apply Now
@@ -1102,6 +1104,8 @@ export default function MScNursing() {
             <div className="flex flex-wrap gap-4 justify-center">
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Apply Now

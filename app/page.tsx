@@ -418,6 +418,8 @@ export default async function Home() {
                   </ScrollButton>
                   <a
                     href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base"
                   >
                     Apply for 2026-27
@@ -1129,6 +1131,8 @@ export default async function Home() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
                     href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg"
                   >
                     Apply Online →
@@ -1301,6 +1305,8 @@ export default async function Home() {
             <div className="flex flex-wrap gap-4 justify-center">
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 Apply Online Now →

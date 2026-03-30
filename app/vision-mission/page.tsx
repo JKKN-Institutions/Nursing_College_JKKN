@@ -11,7 +11,7 @@ export default function VisionMission() {
         { name: "Vision & Mission", url: "https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission" }
       ]} />
       <Header />
-      <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-cream min-h-screen pt-20">
         {/* Content Section */}
         <div className="container-custom py-8 md:py-12">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Vision &amp; Mission — Sresakthimayeil Institute of Nursing and Research</h1>

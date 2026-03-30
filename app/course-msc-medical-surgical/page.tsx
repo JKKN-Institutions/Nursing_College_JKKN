@@ -167,7 +167,7 @@ export default function MScMedicalSurgicalNursing() {
 
                 {/* CTA Buttons */}
                 <div className="flex flex-wrap gap-4">
-                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="hover:bg-[#6ba872] text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center gap-2" style={{backgroundColor: '#7cb983'}}>
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="hover:bg-[#6ba872] text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center gap-2" style={{backgroundColor: '#7cb983'}}>
                     Apply Now
                     <span className="text-xl">→</span>
                   </a>
@@ -1751,7 +1751,7 @@ export default function MScMedicalSurgicalNursing() {
             </p>
 
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#7cb983] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-colors flex items-center gap-2">
+              <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#7cb983] hover:bg-gray-100 px-8 py-4 rounded-full font-semibold text-lg transition-colors flex items-center gap-2">
                 Apply Online
                 <span className="text-xl">→</span>
               </a>

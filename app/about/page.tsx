@@ -77,7 +77,7 @@ export default function About() {
           <strong>Address:</strong> Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183<br />
           <strong>Phone:</strong> +91 93458 55001<br />
           <strong>Email:</strong> nursing@jkkn.ac.in<br />
-          <strong>Website:</strong> <a href="https://nursing.sresakthimayeil.jkkn.ac.in/" className="text-primary hover:underline">nursing.sresakthimayeil.jkkn.ac.in</a>
+          <strong>Website:</strong> <a href="https://nursing.sresakthimayeil.jkkn.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">nursing.sresakthimayeil.jkkn.ac.in</a>
         </p>
       </section>
 

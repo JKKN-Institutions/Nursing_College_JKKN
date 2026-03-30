@@ -12,7 +12,7 @@ export default function OurInstitutions() {
         { name: "Our Institutions", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions" }
       ]} />
       <Header />
-      <main className="bg-[#FBFBEE] pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] pt-20">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

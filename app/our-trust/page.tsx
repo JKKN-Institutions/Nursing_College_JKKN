@@ -12,7 +12,7 @@ export default function OurTrust() {
         { name: "Our Trust", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-trust" }
       ]} />
       <Header />
-      <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-cream min-h-screen pt-20">
         <div className="container-custom py-12 md:py-16">
           {/* Founder Section */}
           <div className="max-w-5xl mx-auto">

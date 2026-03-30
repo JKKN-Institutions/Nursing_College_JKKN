@@ -12,7 +12,7 @@ export default function IQAC() {
         { name: "IQAC", url: "https://nursing.sresakthimayeil.jkkn.ac.in/iqac" }
       ]} />
       <Header />
-      <main className="bg-[#FBFBEE] pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] pt-20">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">
           <h1 className="text-3xl lg:text-4xl font-bold text-black mb-8">
             IQAC

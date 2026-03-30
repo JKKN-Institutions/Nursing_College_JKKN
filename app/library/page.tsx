@@ -12,7 +12,7 @@ export default function Library() {
         { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
         { name: "Library", url: "https://nursing.sresakthimayeil.jkkn.ac.in/library" }
       ]} />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] min-h-screen pt-20">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

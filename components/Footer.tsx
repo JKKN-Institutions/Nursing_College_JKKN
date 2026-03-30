@@ -53,7 +53,7 @@ export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
             <ul className="space-y-2 sm:space-y-3">
               {otherInstitutions.map((inst, index) => (
                 <li key={index}>
-                  <a href={inst.url} className="text-white hover:text-gray-200 transition-colors text-sm sm:text-base block py-1">
+                  <a href={inst.url} target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-200 transition-colors text-sm sm:text-base block py-1">
                     {inst.name}
                   </a>
                 </li>

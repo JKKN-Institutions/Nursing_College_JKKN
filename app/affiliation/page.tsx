@@ -6,7 +6,7 @@ export default function Affiliation() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-[60vh] pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] min-h-[60vh] pt-20">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

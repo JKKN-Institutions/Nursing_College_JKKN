@@ -81,7 +81,7 @@ export const navigationMenu = [
     label: "ADMISSIONS",
     href: "#",
     submenu: [
-      { label: "How to Apply", href: "/admissions" },
+      { label: "Admission", href: "/admissions" },
       { label: "Fee Structure", href: "/fee-structure" },
       { label: "Fees Refund Policy", href: "/fees-refund-policy" },
     ],

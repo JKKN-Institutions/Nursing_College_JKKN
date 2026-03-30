@@ -17,7 +17,7 @@ export default function ResearchCommittee() {
         { name: "Research Committee", url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee" }
       ]} />
       <Header />
-      <div className="pt-20 sm:pt-24 lg:pt-28">
+      <div className="pt-20">
         <Breadcrumb items={breadcrumbItems} />
       </div>
 

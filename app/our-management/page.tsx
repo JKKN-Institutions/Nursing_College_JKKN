@@ -12,7 +12,7 @@ export default function OurManagement() {
         { name: "Our Management", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-management" }
       ]} />
       <Header />
-      <main className="bg-cream min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-cream min-h-screen pt-20">
         <div className="container-custom py-12 md:py-16">
           <div className="max-w-7xl mx-auto">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Our Management — Sresakthimayeil Institute of Nursing and Research</h1>

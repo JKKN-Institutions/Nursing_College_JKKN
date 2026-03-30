@@ -161,7 +161,7 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4">
-                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-3 rounded-full flex items-center gap-2 transition-all">
+                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-3 rounded-full flex items-center gap-2 transition-all">
                     Apply Now
                     <span>→</span>
                   </a>
@@ -1546,7 +1546,7 @@ export default function MScObstetricsGynecologicalNursing() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-12">
-                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#7cb983] hover:bg-gray-100 font-semibold px-8 py-4 rounded-full text-lg flex items-center gap-2 transition-all shadow-lg">
+                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#7cb983] hover:bg-gray-100 font-semibold px-8 py-4 rounded-full text-lg flex items-center gap-2 transition-all shadow-lg">
                   Apply Online
                   <span>→</span>
                 </a>

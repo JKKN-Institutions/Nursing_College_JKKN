@@ -346,6 +346,8 @@ export default function NamakkalPage() {
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8?utm_source=website&utm_medium=city_page&utm_campaign=namakkal"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 Apply Now — 2026-27
@@ -558,6 +560,8 @@ export default function NamakkalPage() {
                     </a>
                     <a
                       href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8?utm_source=website&utm_medium=city_page&utm_campaign=namakkal"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="block w-full text-center border-2 border-[#7cb983]/50 text-[#006837] font-semibold px-3 py-2.5 rounded-xl hover:bg-[#7cb983]/10 transition-colors text-xs sm:text-sm"
                     >
                       Enquire Now

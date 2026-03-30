@@ -58,7 +58,7 @@ export default function FacultyDetails() {
         { name: "Faculty", url: "https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details" }
       ]} />
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] min-h-screen pt-20">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] py-6 sm:py-8 lg:py-12">
           <div className="container mx-auto px-3 sm:px-6 lg:px-16 max-w-[1400px]">

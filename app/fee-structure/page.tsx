@@ -8,7 +8,7 @@ export default function FeeStructure() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20 sm:pt-24 lg:pt-28">
+      <main className="bg-[#FBFBEE] min-h-screen pt-20">
 
         {/* Hero Banner */}
         <section className="bg-gradient-to-r from-[#006837] to-[#7cb983] py-14 sm:py-20">
