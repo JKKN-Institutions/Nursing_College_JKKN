@@ -25,11 +25,12 @@ export default function AdminLogin() {
       } else {
         const { data: profile } = await supabase
           .from('staff_profiles')
-          .select('college_id')
+          .select('college_id, role')
           .eq('id', authData.user.id)
           .single();
 
-        if (profile?.college_id !== process.env.NEXT_PUBLIC_COLLEGE_ID) {
+        const isGlobalRole = profile?.role === 'seo' || profile?.role === 'super_admin';
+        if (!isGlobalRole && profile?.college_id !== process.env.NEXT_PUBLIC_COLLEGE_ID) {
           await supabase.auth.signOut();
           setError('You are not authorized to access this portal.');
         } else {

@@ -397,7 +397,7 @@ export default async function Home() {
                 </div>
 
                 {/* Heading */}
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6">
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 sm:mb-6">
                   Begin Your Journey in
                   <br />
                   <span className="text-[#7cb983]">Nursing Excellence</span>
@@ -436,7 +436,7 @@ export default async function Home() {
                   {/* Image with curved edges */}
                   <div className="relative rounded-[30px] sm:rounded-[35px] lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-white/20">
                     <Image
-                      src="/images/Homepage-Hero_Banner-image.png"
+                      src="/images/Homepage-Hero_Banner-image.webp"
                       alt="JKKN College of Nursing"
                       width={450}
                       height={450}
@@ -559,7 +559,7 @@ export default async function Home() {
                 <p className="text-[#7cb983] text-xs sm:text-sm font-bold uppercase tracking-wide mb-2 sm:mb-4">
                   ABOUT JKKN COLLEGE OF NURSING
                 </p>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4 sm:mb-6">
+                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4 sm:mb-6">
                   Nurturing Compassionate Healthcare Leaders Since 2007
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
@@ -612,7 +612,7 @@ export default async function Home() {
                 </div>
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Simulation-lab-image.png"
+                    src="/images/Simulation-lab-image.webp"
                     alt="JKKN College of Nursing Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
