@@ -103,7 +103,7 @@ export default function Contact() {
               {/* Click Here Button */}
               <div className="mt-4 sm:mt-6">
                 <a
-                  href="https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.443322,77.7289915,17z"
+                  href="https://maps.app.goo.gl/3YCrnhwy2vmTY5PcA"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-md transition-colors text-sm sm:text-base"
