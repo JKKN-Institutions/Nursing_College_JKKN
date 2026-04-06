@@ -14,7 +14,7 @@ export default function Admissions() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20">
+      <main className="bg-[#FBFBEE] min-h-screen pt-28">
 
         {/* Breadcrumb Schema */}
         <BreadcrumbSchema
@@ -54,7 +54,8 @@ export default function Admissions() {
                 Apply Online Now
               </a>
               <a
-                href="#programs"
+                href="/pdf/brochure.pdf"
+                download
                 className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white font-bold px-8 py-3.5 rounded-lg hover:bg-white/10 transition-colors text-base"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -517,7 +518,7 @@ export default function Admissions() {
                     Apply Online Now
                   </a>
                   <a
-                    href="https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.443322,77.7289915,17z"
+                    href="https://maps.app.goo.gl/MxwMXKSfVURFoidp8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-white border-2 border-[#006837] text-[#006837] hover:bg-[#e8f5e9] font-bold px-6 py-3 rounded-lg transition-colors text-sm"

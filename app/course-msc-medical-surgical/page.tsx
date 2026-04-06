@@ -1755,9 +1755,9 @@ export default function MScMedicalSurgicalNursing() {
                 Apply Online
                 <span className="text-xl">→</span>
               </a>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] px-8 py-4 rounded-full font-semibold text-lg transition-colors">
+              <a href="/pdf/brochure.pdf" download className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] px-8 py-4 rounded-full font-semibold text-lg transition-colors">
                 Download Brochure
-              </button>
+              </a>
             </div>
 
          

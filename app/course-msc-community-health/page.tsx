@@ -193,20 +193,20 @@ export default function MScCommunityHealthNursing() {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center">
-                <div className="relative">
-                  <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative">
+                <div className="bg-[#006837]/30 backdrop-blur-sm rounded-2xl p-8 border border-[#7cb983]/30">
+                  <div className="rounded-xl aspect-video overflow-hidden mb-6">
                     <Image
-                      src="/images/Community-Health-Nursing-Hero-Banner-Image.webp"
+                      src="/images/Medical-Surgical-Nursing-Hero-Banner-Image.webp"
                       alt="Community Health Nursing"
-                      fill
-                      className="object-cover"
+                      width={600}
+                      height={338}
+                      className="w-full h-full object-cover"
                     />
                   </div>
-                  {/* Placement Badge */}
-                  <div className="absolute bottom-2 right-2 md:-bottom-6 md:-right-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
-                    <div className="text-2xl md:text-4xl font-bold">100%</div>
-                    <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
+                  <div className="text-white px-6 py-4 rounded-xl inline-block" style={{backgroundColor: '#7cb983'}}>
+                    <p className="text-4xl font-bold mb-1">100%</p>
+                    <p className="text-sm">Placement Assistance</p>
                   </div>
                 </div>
               </div>
@@ -1485,9 +1485,9 @@ export default function MScCommunityHealthNursing() {
                 <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
                   Apply Online <FaArrowRight />
                 </a>
-                <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-lg">
+                <a href="/pdf/brochure.pdf" download className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-lg">
                   Download Brochure
-                </button>
+                </a>
               </div>
 
             

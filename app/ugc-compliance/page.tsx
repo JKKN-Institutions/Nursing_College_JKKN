@@ -7,35 +7,13 @@ export default function UGCCompliance() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20">
+      <main className="bg-[#FBFBEE] min-h-screen pt-28">
         {/* Main Title */}
         <div className="bg-[#FBFBEE] py-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <h1 className="text-3xl lg:text-5xl font-bold text-[#002309] mb-8">
               UGC PUBLIC DISCLOSURE COMPLIANCE
             </h1>
-          </div>
-        </div>
-
-        {/* Social Share Buttons */}
-        <div className="bg-[#FBFBEE] pb-8">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <button className="bg-[#3b5998] text-white py-3 px-6 flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
-                <span className="text-xl">f</span>
-                <span>Share on Facebook</span>
-              </button>
-              <button className="bg-black text-white py-3 px-6 flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
-                <span className="text-xl">𝕏</span>
-                <span>Share on Twitter</span>
-              </button>
-              <button className="bg-[#bd081c] text-white py-3 px-6 flex items-center justify-center gap-2 hover:opacity-90 transition-opacity">
-                <span className="text-xl">P</span>
-              </button>
-              <button className="bg-gray-300 text-gray-700 py-3 px-6 flex items-center justify-center hover:opacity-90 transition-opacity">
-                <span className="text-xl">↗</span>
-              </button>
-            </div>
           </div>
         </div>
 

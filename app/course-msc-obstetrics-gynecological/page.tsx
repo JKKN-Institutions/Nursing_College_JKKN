@@ -1550,9 +1550,9 @@ export default function MScObstetricsGynecologicalNursing() {
                   Apply Online
                   <span>→</span>
                 </a>
-                <button className="bg-transparent border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all">
+                <a href="/pdf/brochure.pdf" download className="bg-transparent border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all">
                   Download Brochure
-                </button>
+                </a>
               </div>
 
           

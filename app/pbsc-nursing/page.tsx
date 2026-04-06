@@ -1360,9 +1360,9 @@ export default function PBScNursing() {
                   Apply Now
                   <span>→</span>
                 </a>
-                <button className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
+                <a href="/pdf/brochure.pdf" download className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
                   Download Brochure
-                </button>
+                </a>
               </div>
             </div>
           </div>

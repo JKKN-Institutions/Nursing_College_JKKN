@@ -12,64 +12,20 @@ export default function OurTrust() {
         { name: "Our Trust", url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-trust" }
       ]} />
       <Header />
-      <main className="bg-cream min-h-screen pt-20">
+      <main className="bg-cream min-h-screen pt-28">
         <div className="container-custom py-12 md:py-16">
           {/* Founder Section */}
           <div className="max-w-5xl mx-auto">
             {/* Decorative Frame with Photo */}
             <div className="flex justify-center mb-8">
-              <div className="relative w-64 h-64 md:w-80 md:h-80">
-                {/* Ornate Frame SVG */}
-                <svg
-                  viewBox="0 0 400 400"
-                  className="w-full h-full"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  {/* Outer ornate frame */}
-                  <path
-                    d="M200 40 C180 40, 160 42, 140 46 L120 50 C100 56, 85 65, 75 75 C65 85, 56 100, 50 120 L46 140 C42 160, 40 180, 40 200 C40 220, 42 240, 46 260 L50 280 C56 300, 65 315, 75 325 C85 335, 100 344, 120 350 L140 354 C160 358, 180 360, 200 360 C220 360, 240 358, 260 354 L280 350 C300 344, 315 335, 325 325 C335 315, 344 300, 350 280 L354 260 C358 240, 360 220, 360 200 C360 180, 358 160, 354 140 L350 120 C344 100, 335 85, 325 75 C315 65, 300 56, 280 50 L260 46 C240 42, 220 40, 200 40 Z"
-                    fill="#C9A961"
-                    stroke="#B8964E"
-                    strokeWidth="2"
-                  />
-
-                  {/* Decorative elements around frame */}
-                  {[0, 45, 90, 135, 180, 225, 270, 315].map((angle) => (
-                    <g key={angle} transform={`rotate(${angle} 200 200)`}>
-                      <circle cx="200" cy="45" r="8" fill="#B8964E" />
-                      <path
-                        d="M200 50 Q195 60, 190 65 Q185 70, 190 75 Q195 70, 200 75 Q205 70, 210 75 Q215 70, 210 65 Q205 60, 200 50 Z"
-                        fill="#D4AF6A"
-                      />
-                    </g>
-                  ))}
-
-                  {/* Inner ornate details */}
-                  <circle cx="200" cy="200" r="115" fill="none" stroke="#B8964E" strokeWidth="3" />
-                  <circle cx="200" cy="200" r="108" fill="none" stroke="#D4AF6A" strokeWidth="2" />
-
-                  {/* Green circular background for photo */}
-                  <circle cx="200" cy="200" r="100" fill="#0b7845" />
-
-                  {/* Photo placeholder/mask */}
-                  <defs>
-                    <clipPath id="photoCircle">
-                      <circle cx="200" cy="200" r="95" />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                {/* Photo - positioned absolutely in center */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-white">
-                  <Image
-                    src="/images/Our_Trust.webp"
-                    alt="Shri. J.K.K. Natarajah - Founder J.K.K. Rangammal Charitable Trust"
-                    width={240}
-                    height={240}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+              <div className="w-48 h-48 md:w-60 md:h-60 rounded-full overflow-hidden border-4 border-white">
+                <Image
+                  src="/images/Our_Trust.webp"
+                  alt="Shri. J.K.K. Natarajah - Founder J.K.K. Rangammal Charitable Trust"
+                  width={240}
+                  height={240}
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 

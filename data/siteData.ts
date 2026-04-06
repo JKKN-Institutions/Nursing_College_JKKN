@@ -1,6 +1,7 @@
 export interface SubmenuItem {
   label: string;
   href: string;
+  target?: string;
   submenu?: SubmenuItem[];
 }
 
@@ -42,9 +43,9 @@ export const navigationMenu = [
       { label: "Our Management", href: "/our-management" },
       { label: "Our Institutions", href: "/our-institutions" },
       { label: "Affiliation", href: "/affiliation" },
-      { label: "ARIIA", href: "/ariia" },
-      { label: "AISHE", href: "/aishe" },
-      { label: "IIC", href: "/iic" },
+      { label: "ARIIA", href: "/pdf/ARIIA.pdf", target: "_blank" },
+      { label: "AISHE", href: "/pdf/AISHE.pdf", target: "_blank" },
+      { label: "IIC", href: "/pdf/IIC.pdf", target: "_blank" },
       {
         label: "WHY STUDENTS CHOOSE JKKN?",
         href: "#",
@@ -120,8 +121,8 @@ export const navigationMenu = [
     href: "#",
     submenu: [
       { label: "UGC PUBLIC DISCLOSURE COMPLIANCE", href: "/ugc-compliance" },
-      { label: "Public Self disclosure", href: "/public-self-disclosure" },
-      { label: "LETTER OF UNDERTAKING", href: "/letter-of-undertaking" },
+      { label: "Public Self disclosure", href: "/pdf/public-self-disclosure.pdf", target: "_blank" },
+      { label: "LETTER OF UNDERTAKING", href: "/pdf/LETTER-OF-UNDERTAKING.pdf", target: "_blank" },
     ],
   },
   {
@@ -130,18 +131,15 @@ export const navigationMenu = [
     submenu: [
       { label: "Blog", href: "/blog" },
       { label: "NIRF", href: "/nirf-others" },
-      { label: "Digital Campus", href: "https://jkkn.ac.in/digital-campus" },
-      { label: "Academic Calendar", href: "/academic-calendar" },
-      { label: "Best practice", href: "/best-practice" },
+      { label: "Best practice", href: "/pdf/Best-practice.pdf", target: "_blank" },
       { label: "CODE OF CONDUCT", href: "/code-of-conduct" },
       { label: "IQAC", href: "/iqac" },
-      { label: "Institutional Distinctiveness", href: "/institutional-distinctiveness" },
+      { label: "Institutional Distinctiveness", href: "/pdf/Institutional-Distinctiveness.pdf", target: "_blank" },
       { label: "NAAC", href: "/naac" },
-      { label: "Curriculum/Syllabus", href: "/curriculum-syllabus" },
-      { label: "Add On Course", href: "/add-on-course" },
-      { label: "Value Added Course Website Link", href: "/value-added-course" },
-      { label: "YRC", href: "/yrc" },
-      { label: "NSS", href: "/nss" },
+      { label: "Add On Course", href: "/pdf/ADD-ON-COURSE.pdf", target: "_blank" },
+      { label: "Value Added Course Website Link", href: "/pdf/VALUE-ADDED-COURSE-WEBSITE-LINK.pdf", target: "_blank" },
+      { label: "YRC", href: "/pdf/YRC.pdf", target: "_blank" },
+      { label: "NSS", href: "/pdf/nss.pdf", target: "_blank" },
       {
         label: "Discipline",
         href: "#",
@@ -153,30 +151,29 @@ export const navigationMenu = [
         ]
       },
       { label: "Activities", href: "/activities" },
-      { label: "Committee", href: "/committee-page" },
-      { label: "Antiragging", href: "/antiragging" },
+      { label: "Committee", href: "/pdf/committee.pdf", target: "_blank" },
+      { label: "Antiragging", href: "/pdf/antiragging.pdf", target: "_blank" },
       { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Alumni", href: "https://alumni.jkkn.ac.in/login" },
       { label: "Faculty Details", href: "/faculty-details" },
-      { label: "E- CONTENT", href: "/e-content" },
-      { label: "Feedback Analysis and Action Taken", href: "/feedback-analysis" },
+      { label: "E- CONTENT", href: "/pdf/E-content.pdf", target: "_blank" },
+      { label: "Feedback Analysis and Action Taken", href: "/pdf/feedback-analysis-and-action-taken.pdf", target: "_blank" },
     ],
   },
   {
     label: "COMMITTEE",
     href: "#",
     submenu: [
-      { label: "Anti Ragging Committee", href: "/anti-ragging-committee" },
-      { label: "Student Grievance Redressal Committee (SGRC)", href: "/sgrc" },
-      { label: "INTERNAL COMPLAINTS COMMITTEE", href: "/internal-complaints-committee" },
+      { label: "Anti Ragging Committee", href: "/pdf/antiragging-comittee.pdf", target: "_blank" },
+      { label: "Student Grievance Redressal Committee (SGRC)", href: "/pdf/Student Grievance Redressal Committee.pdf", target: "_blank" },
+      { label: "INTERNAL COMPLAINTS COMMITTEE", href: "/pdf/INTERNAL-COMPLAINTS-COMMITTEE.pdf", target: "_blank" },
     ],
   },
   {
     label: "RESEARCH",
     href: "#",
     submenu: [
-      { label: "Research Proposal", href: "/research-proposal" },
-      { label: "JOURNAL PUBLICATION", href: "/journal-publication" },
+      { label: "Research Proposal", href: "/pdf/Research-proposal.pdf", target: "_blank" },
+      { label: "JOURNAL PUBLICATION", href: "/pdf/Journal_Publication.pdf", target: "_blank" },
       { label: "Research Committee", href: "/research-committee" },
     ],
   },

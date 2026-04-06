@@ -1611,9 +1611,9 @@ export default function MScMentalHealthNursing() {
                 Apply Online
                 <ArrowRight className="w-5 h-5" />
               </a>
-              <button className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white px-8 py-3 rounded-full font-semibold transition-colors">
+              <a href="/pdf/brochure.pdf" download className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white px-8 py-3 rounded-full font-semibold transition-colors">
                 Download Brochure
-              </button>
+              </a>
             </div>
 
          

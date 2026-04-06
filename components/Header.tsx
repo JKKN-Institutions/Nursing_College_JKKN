@@ -97,6 +97,10 @@ export default function Header() {
                                 <span>{subitem.label}</span>
                                 <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'rotate-180' : ''}`} viewBox="0 0 12 12"><path d="M4 1l5 5-5 5z" /></svg>
                               </Link>
+                            ) : subitem.target === "_blank" ? (
+                              <a href={subitem.href} target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between">
+                                <span>{subitem.label}</span>
+                              </a>
                             ) : (
                               <Link href={subitem.href} className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between">
                                 <span>{subitem.label}</span>
@@ -157,6 +161,10 @@ export default function Header() {
                                 <span>{subitem.label}</span>
                                 <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'rotate-180' : ''}`} viewBox="0 0 12 12"><path d="M4 1l5 5-5 5z" /></svg>
                               </Link>
+                            ) : subitem.target === "_blank" ? (
+                              <a href={subitem.href} target="_blank" rel="noopener noreferrer" className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between">
+                                <span>{subitem.label}</span>
+                              </a>
                             ) : (
                               <Link href={subitem.href} className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between">
                                 <span>{subitem.label}</span>

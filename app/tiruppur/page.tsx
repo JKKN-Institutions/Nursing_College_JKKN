@@ -417,7 +417,7 @@ export default function TiruppurPage() {
                 </div>
                 <div className="p-4 sm:p-6 sm:border-l border-t sm:border-t-0 border-gray-100 w-full sm:w-auto flex justify-center">
                   <a
-                    href="https://maps.google.com/?q=JKKN+Institutions+Natarajapuram+Komarapalayam+Namakkal+Tamil+Nadu"
+                    href="https://maps.app.goo.gl/MxwMXKSfVURFoidp8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#006837] hover:bg-[#6ba872] text-white font-semibold px-6 py-4 rounded-xl transition-colors flex flex-col items-center gap-1.5 min-w-[120px] text-center"
@@ -810,7 +810,7 @@ export default function TiruppurPage() {
 
             <div className="text-center">
               <a
-                href="/#programs"
+                href="/?section=programs"
                 className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
               >
                 View All Programmes

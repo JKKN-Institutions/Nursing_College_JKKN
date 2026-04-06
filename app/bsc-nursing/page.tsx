@@ -1317,9 +1317,9 @@ export default function BScNursing() {
                 Apply Now
                 <span>→</span>
               </a>
-              <button className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300">
+              <a href="/pdf/brochure.pdf" download className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300">
                 Download Brochure
-              </button>
+              </a>
             </div>
           </div>
         </section>

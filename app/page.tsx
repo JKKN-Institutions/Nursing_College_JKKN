@@ -22,6 +22,8 @@ import {
   MapPinIcon,
 } from "@heroicons/react/24/outline";
 import { createClient } from "@/lib/supabase/server";
+import { Suspense } from "react";
+import ScrollToSection from "@/components/ScrollToSection";
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -337,6 +339,9 @@ export default async function Home() {
 
   return (
     <>
+      <Suspense fallback={null}>
+        <ScrollToSection />
+      </Suspense>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -1311,12 +1316,13 @@ export default async function Home() {
               >
                 Apply Online Now →
               </a>
-              <Link
-                href="#"
+              <a
+                href="/pdf/brochure.pdf"
+                download
                 className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-bold px-8 py-4 rounded-full transition-all duration-300"
               >
                 Download Brochure
-              </Link>
+              </a>
             </div>
           </div>
         </section>

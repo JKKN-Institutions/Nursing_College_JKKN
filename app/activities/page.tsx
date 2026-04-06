@@ -17,7 +17,7 @@ export default function Activities() {
         { name: "Activities", url: "https://nursing.sresakthimayeil.jkkn.ac.in/activities" },
       ]} />
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20">
+      <main className="bg-[#FBFBEE] pt-28">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] pb-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

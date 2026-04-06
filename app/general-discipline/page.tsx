@@ -8,7 +8,7 @@ export default function GeneralDiscipline() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-20">
+      <main className="bg-[#FBFBEE] min-h-screen pt-28">
         {/* Main Content */}
         <div className="bg-[#FBFBEE] py-8 lg:py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">

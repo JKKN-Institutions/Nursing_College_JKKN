@@ -17,12 +17,9 @@ export default function ResearchCommittee() {
         { name: "Research Committee", url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee" }
       ]} />
       <Header />
-      <div className="pt-20">
+      <main className="bg-[#FBFBEE] pt-24">
         <Breadcrumb items={breadcrumbItems} />
-      </div>
-
-      <main className="bg-[#FBFBEE]">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8 lg:py-12">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 pt-4 pb-8 lg:pb-12">
           <h1 className="text-3xl lg:text-4xl font-bold text-black mb-8">
             Research Committee
           </h1>
