@@ -53,7 +53,7 @@ export default function PBScNursing() {
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
       "validThrough": "2026-08-31",
-      "url": "https://admission.jkkn.ac.in/"
+      "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -197,7 +197,7 @@ export default function PBScNursing() {
 
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4 mb-12">
-                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                  <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                     Apply Now
                     <span>→</span>
                   </a>
@@ -1356,7 +1356,7 @@ export default function PBScNursing() {
                 Take the next step in your professional journey. Transform your GNM diploma into a B.Sc degree and unlock new opportunities in healthcare.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] hover:bg-gray-100 font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
+                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] hover:bg-gray-100 font-semibold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2">
                   Apply Now
                   <span>→</span>
                 </a>

@@ -34,7 +34,7 @@ export default function AdminLogin() {
           await supabase.auth.signOut();
           setError('You are not authorized to access this portal.');
         } else {
-          window.location.href = '/admin/dashboard';
+          window.location.href = profile?.role === 'staff' ? '/admin/events' : '/admin/dashboard';
         }
       }
     } catch {

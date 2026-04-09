@@ -8,6 +8,7 @@ import TextAlign from '@tiptap/extension-text-align';
 import Link from '@tiptap/extension-link';
 import Image from '@tiptap/extension-image';
 import Placeholder from '@tiptap/extension-placeholder';
+import { Table, TableRow, TableCell, TableHeader } from '@tiptap/extension-table';
 import { useEffect, useRef, useCallback } from 'react';
 
 interface RichTextEditorProps {
@@ -66,6 +67,10 @@ export default function RichTextEditor({
       TextAlign.configure({ types: ['heading', 'paragraph'] }),
       Link.configure({ openOnClick: false, HTMLAttributes: { class: 'text-blue-600 underline' } }),
       Image.configure({ inline: false, HTMLAttributes: { class: 'max-w-full rounded-lg my-3' } }),
+      Table.configure({ resizable: true }),
+      TableRow,
+      TableHeader,
+      TableCell,
       Placeholder.configure({ placeholder }),
     ],
     immediatelyRender: false,
@@ -250,6 +255,13 @@ if (!editor) return null;
           </svg>
         </ToolbarBtn>
 
+        {/* Table */}
+        <ToolbarBtn onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()} title="Insert Table">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <rect x="3" y="3" width="18" height="18" rx="1"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/>
+          </svg>
+        </ToolbarBtn>
+
         {/* HR */}
         <ToolbarBtn onClick={() => editor.chain().focus().setHorizontalRule().run()} title="Horizontal Rule">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -306,6 +318,12 @@ if (!editor) return null;
         .ProseMirror hr { border: none; border-top: 2px solid #e5e7eb; margin: 1rem 0; }
 .ProseMirror mark { background: #fef08a; border-radius: 2px; }
         .ProseMirror a { color: #2563eb; text-decoration: underline; }
+        .ProseMirror table { border-collapse: collapse; width: 100%; margin: 1rem 0; overflow: hidden; }
+        .ProseMirror table td, .ProseMirror table th { border: 1px solid #d1d5db; padding: 0.5rem 0.75rem; vertical-align: top; min-width: 60px; position: relative; }
+        .ProseMirror table th { background: #f3f4f6; font-weight: 600; text-align: left; }
+        .ProseMirror table .selectedCell:after { content: ''; position: absolute; inset: 0; background: rgba(0,104,55,0.1); pointer-events: none; }
+        .ProseMirror table .column-resize-handle { position: absolute; right: -2px; top: 0; bottom: 0; width: 4px; background: #006837; pointer-events: none; }
+        .tableWrapper { overflow-x: auto; }
       `}</style>
     </div>
   );

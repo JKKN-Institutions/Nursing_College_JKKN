@@ -65,7 +65,7 @@ const mscMentalHealthSchema = {
   "offers": {
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
-    "url": "https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8",
+    "url": "https://www.jkkn.ai/apply/jkkn-admission-2026",
     "category": "Government Quota / Management Quota"
   }
 };

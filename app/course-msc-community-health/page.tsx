@@ -179,7 +179,7 @@ export default function MScCommunityHealthNursing() {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                  <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg flex items-center gap-2">
+                  <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-lg flex items-center gap-2">
                     Apply Now →
                   </a>
                   <button
@@ -1482,7 +1482,7 @@ export default function MScCommunityHealthNursing() {
               </p>
 
               <div className="flex flex-wrap justify-center gap-4 mb-12 mt-8">
-                <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
+                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] hover:bg-[#FBFBEE] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg flex items-center gap-2 text-lg">
                   Apply Online <FaArrowRight />
                 </a>
                 <a href="/pdf/brochure.pdf" download className="bg-transparent border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 text-lg">

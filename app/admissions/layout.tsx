@@ -68,7 +68,7 @@ const admissionHowToSchema = {
       "@type": "HowToStep",
       position: 2,
       name: "Apply Online",
-      text: "Fill out the online application form at admission.jkkn.ac.in with your personal and academic details.",
+      text: "Fill out the online application form at www.jkkn.ai/apply/jkkn-admission-2026 with your personal and academic details.",
     },
     {
       "@type": "HowToStep",
@@ -106,7 +106,7 @@ const admissionFaqSchema = {
       name: "How to apply for nursing admission at JKKN?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Apply online at admission.jkkn.ac.in, submit required documents for verification, and attend the counselling session for seat allotment under Government Quota or Management Quota.",
+        text: "Apply online at www.jkkn.ai/apply/jkkn-admission-2026, submit required documents for verification, and attend the counselling session for seat allotment under Government Quota or Management Quota.",
       },
     },
     {

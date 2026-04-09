@@ -210,7 +210,7 @@ const specialAnnouncementSchema = {
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
     "name": "JKKN College of Nursing"
   },
-  "url": "https://admission.jkkn.ac.in/"
+  "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
 };
 
 const howToSchema = {
@@ -221,11 +221,11 @@ const howToSchema = {
   "totalTime": "PT30M",
   "estimatedCost": { "@type": "MonetaryAmount", "currency": "INR", "value": "0" },
   "step": [
-    { "@type": "HowToStep", "position": 1, "name": "Online Registration", "text": "Visit admission.jkkn.ac.in and fill the online application form with personal details, academic information, and program preference.", "url": "https://admission.jkkn.ac.in/" },
+    { "@type": "HowToStep", "position": 1, "name": "Online Registration", "text": "Visit www.jkkn.ai/apply/jkkn-admission-2026 and fill the online application form with personal details, academic information, and program preference.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" },
     { "@type": "HowToStep", "position": 2, "name": "Upload Documents", "text": "Upload: 10+2 or B.Sc marksheets, Transfer Certificate, Community/Caste Certificate, Medical Fitness Certificate, Aadhaar Card, and passport photos." },
     { "@type": "HowToStep", "position": 3, "name": "Merit-Based Selection", "text": "Candidates evaluated based on academic merit. Shortlisted candidates invited for counseling at JKKN campus." },
     { "@type": "HowToStep", "position": 4, "name": "Counseling & Seat Allotment", "text": "Attend counseling at JKKN campus. Seats allotted based on merit rank, category, and specialization preference." },
-    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay fee (B.Sc: ₹95,000/yr, M.Sc: ₹1,25,000/yr, Post Basic: ₹85,000/yr) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://admission.jkkn.ac.in/" }
+    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay fee (B.Sc: ₹95,000/yr, M.Sc: ₹1,25,000/yr, Post Basic: ₹85,000/yr) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
   ]
 };
 
@@ -318,7 +318,7 @@ const scholarshipOfferSchema = {
   "availability": "https://schema.org/InStock",
   "validFrom": "2026-03-01",
   "validThrough": "2026-08-31",
-  "url": "https://admission.jkkn.ac.in/"
+  "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
 };
 
 export default async function Home() {
@@ -422,7 +422,7 @@ export default async function Home() {
                     Explore Programs →
                   </ScrollButton>
                   <a
-                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base"
@@ -443,7 +443,7 @@ export default async function Home() {
                   {/* Image with curved edges */}
                   <div className="relative rounded-[30px] sm:rounded-[35px] lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-white/20">
                     <Image
-                      src="/images/Homepage-Hero_Banner-image.png"
+                      src="/images/Homepage-Hero_Banner-image.jpg"
                       alt="JKKN College of Nursing"
                       width={450}
                       height={450}
@@ -619,7 +619,7 @@ export default async function Home() {
                 </div>
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/Simulation-lab-image.png"
+                    src="/images/Simulation-lab-image.JPG"
                     alt="JKKN College of Nursing Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
@@ -1135,7 +1135,7 @@ export default async function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg"
@@ -1309,7 +1309,7 @@ export default async function Home() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"

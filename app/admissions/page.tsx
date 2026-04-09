@@ -43,7 +43,7 @@ export default function Admissions() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-bold px-8 py-3.5 rounded-lg hover:bg-gray-100 transition-colors text-base shadow-lg"
@@ -72,7 +72,7 @@ export default function Admissions() {
           <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
           <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
             <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
-            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at admission.jkkn.ac.in or contact +91 93458 55001.</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
           </div>
         </div>
 
@@ -182,7 +182,7 @@ export default function Admissions() {
                 {
                   step: 2,
                   title: "Apply Online",
-                  desc: "Fill out the online application form at admission.jkkn.ac.in with accurate personal and academic details.",
+                  desc: "Fill out the online application form at www.jkkn.ai/apply/jkkn-admission-2026 with accurate personal and academic details.",
                 },
                 {
                   step: 3,
@@ -222,7 +222,7 @@ export default function Admissions() {
 
             <div className="mt-10 text-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#004d28] text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-base shadow"
@@ -510,7 +510,7 @@ export default function Admissions() {
 
                 <div className="mt-7 pt-5 border-t border-[#d4eadb] flex flex-col sm:flex-row gap-3">
                   <a
-                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-[#006837] hover:bg-[#004d28] text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm"
@@ -542,7 +542,7 @@ export default function Admissions() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-bold px-8 py-3.5 rounded-lg hover:bg-gray-100 transition-colors text-base shadow-lg"

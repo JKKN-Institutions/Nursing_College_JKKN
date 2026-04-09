@@ -562,7 +562,7 @@ export default function PlacementsPage() {
               {/* Hero CTAs */}
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <Link
-                  href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-[#FFD700] hover:bg-[#e6c200] text-[#002309] font-semibold px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-base sm:text-lg transition-colors"
@@ -804,7 +804,7 @@ export default function PlacementsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#FFD700] hover:bg-[#e6c200] text-[#002309] font-semibold px-6 py-3 rounded-lg text-base transition-colors"
@@ -1161,7 +1161,7 @@ export default function PlacementsPage() {
 
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-[#FFD700] hover:bg-[#e6c200] text-[#002309] font-semibold px-8 py-4 rounded-lg text-lg transition-colors"

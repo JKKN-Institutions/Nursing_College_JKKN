@@ -186,7 +186,7 @@ export default function MScChildHealthNursing() {
               {/* CTA Buttons */}
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-3 rounded-full font-semibold transition-all transform hover:scale-105"
@@ -1144,7 +1144,7 @@ export default function MScChildHealthNursing() {
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <a
-              href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white hover:bg-gray-100 text-[#7cb983] px-8 py-4 rounded-full font-semibold text-lg transition-all transform hover:scale-105"

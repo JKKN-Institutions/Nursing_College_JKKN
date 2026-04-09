@@ -117,12 +117,11 @@ Production website for JKKN College of Nursing — 85-page institutional site wi
 
 ### Color Palette (Tailwind Config)
 ```
-Primary Green:    #0b7845 (buttons, highlights)     → primary / primary-dark (#095d36)
-Secondary Gold:   #FFD700 (accents)                  → secondary / secondary-dark (#e6c54f)
-Brand Teal:       #0b5d6f (teal variants)            → brand-teal / brand-teal-dark / brand-teal-light
-Brand Orange:     #ff5722 (orange variants)           → brand-orange / brand-orange-dark / brand-orange-light
-Cream Background: #fbfbee                             → cream
-Dark Text:        #002309                             → dark
+Primary Green:    #7cb983 (medium green, buttons, highlights)  → primary
+Hover State:      #6ba872 (darker green, button hover state)   → primary-dark
+Dark Green:       #006837 (text, headings)                     → brand-teal
+Dark Text:        #002309 (headings, dark text)                → dark
+Background:       #FBFBEE (cream/beige)                        → cream
 ```
 
 ### Component Naming

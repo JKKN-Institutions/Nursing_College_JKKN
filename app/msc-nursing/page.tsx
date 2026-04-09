@@ -50,7 +50,7 @@ export default function MScNursing() {
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
       "validThrough": "2026-08-31",
-      "url": "https://admission.jkkn.ac.in/"
+      "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
     },
     "hasCourseInstance": {
       "@type": "CourseInstance",
@@ -195,7 +195,7 @@ export default function MScNursing() {
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-4">
                   <a
-                    href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -1103,7 +1103,7 @@ export default function MScNursing() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
