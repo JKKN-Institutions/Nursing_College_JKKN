@@ -1,8 +1,8 @@
 # llms.txt v1.0
 # Institution: Sresakthimayeil Institute of Nursing and Research
 # Also known as: JKKN College of Nursing
-# Last-Updated: 2026-03-20
-# Key-Topics: B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing, INC Approved, NAAC Accredited, 98%+ Placement
+# Last-Updated: 2026-04-11
+# Key-Topics: B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing, INC Approved, NAAC Accredited, 97%+ Placement
 # Location: Komarapalayam, Namakkal, Tamil Nadu 638183, India
 # Website: https://nursing.sresakthimayeil.jkkn.ac.in/
 # Contact: nursing@jkkn.ac.in | +91 93458 55001
@@ -27,7 +27,7 @@
 - Accreditation: NAAC Accredited
 - Courses: B.Sc Nursing (4 yrs, 60 seats), M.Sc Nursing (2 yrs, 25 seats), Post Basic B.Sc Nursing (2 yrs, 50 seats)
 - Hospital: 500+ bed multi-specialty teaching hospital (on-campus, Komarapalayam)
-- Placement Rate: 98%+
+- Placement Rate: 97%+
 - International Placements: NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals
 - Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183
 
@@ -60,7 +60,7 @@
 - Specialty rotations across all departments
 
 ## Placement Highlights
-- 98%+ placement rate
+- 97%+ placement rate
 - 80+ recruiting partners
 - International placements: NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals
 - Domestic recruiters: Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health
@@ -87,7 +87,7 @@
 - Cafeteria
 
 ## Admissions
-- B.Sc Nursing: 10+2 with PCB, NEET-UG qualified, minimum 45% marks (40% for SC/ST)
+- B.Sc Nursing: 10+2 with PCB, minimum 45% marks (40% for SC/ST). NEET is NOT required — admission is merit-based on 10+2 marks.
 - M.Sc Nursing: B.Sc Nursing with 55% marks, 1 year clinical experience, TNNMC registration
 - Post Basic B.Sc Nursing: GNM diploma with 55% marks, TNNMC registration
 - Apply online: https://admission.jkkn.ac.in/
@@ -120,13 +120,13 @@ JKKN College of Nursing is part of JKKN Institutions, a multi-disciplinary educa
 - Main Website: https://jkkn.ac.in/
 
 ## Recognition and Rankings
-JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is recognized as one of the best nursing colleges in Tamil Nadu. With INC approval, NAAC accreditation, 98%+ placement rate, and international placement partnerships with NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, JKKN stands out among the top nursing institutions in the state. The college is affiliated to Tamil Nadu Dr. MGR Medical University (TNMGRMU) and recognized by the Tamil Nadu Nurses and Midwives Council (TNNMC). Its 500+ bed multi-specialty teaching hospital, advanced simulation labs, and 80+ recruiting partners make it a preferred choice for students seeking the best nursing education in Tamil Nadu.
+JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is recognized as one of the best nursing colleges in Tamil Nadu. With INC approval, NAAC accreditation, 97%+ placement rate, and international placement partnerships with NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, JKKN stands out among the top nursing institutions in the state. The college is affiliated to Tamil Nadu Dr. MGR Medical University (TNMGRMU) and recognized by the Tamil Nadu Nurses and Midwives Council (TNNMC). Its 500+ bed multi-specialty teaching hospital, advanced simulation labs, and 80+ recruiting partners make it a preferred choice for students seeking the best nursing education in Tamil Nadu.
 
 ## Why Choose JKKN College of Nursing
 1. 74+ year legacy of JKK Nattraja Educational Institutions (since 1952)
 2. INC approved and NAAC accredited nursing programs
 3. Clinical exposure from Year 1 at attached 500+ bed multi-specialty hospital
-4. 98%+ placement rate with 80+ recruiting partners
+4. 97%+ placement rate with 80+ recruiting partners
 5. International placement opportunities: UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore
 6. Highest international package: up to 25 LPA
 7. 5 M.Sc Nursing specializations with expert faculty
@@ -148,7 +148,7 @@ Yes, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research)
 JKKN College of Nursing offers three nursing programs: B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats with 5 specializations), and Post Basic B.Sc Nursing (2 years, 50 seats for GNM diploma holders).
 
 ### What is the placement rate at JKKN College of Nursing?
-JKKN College of Nursing has a 98%+ placement rate with 80+ recruiting partners. Graduates are placed in top hospitals across India (Apollo, Fortis, Manipal) and internationally in NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, with packages up to 25 LPA internationally.
+JKKN College of Nursing has a 97%+ placement rate with 80+ recruiting partners. Graduates are placed in top hospitals across India (Apollo, Fortis, Manipal) and internationally in NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, with packages up to 25 LPA internationally.
 
 ### Is NEET required for B.Sc Nursing admission at JKKN?
 No, NEET is not required for B.Sc Nursing admission in Tamil Nadu. Admission to JKKN College of Nursing is merit-based on 10+2 marks with Physics, Chemistry, and Biology.
