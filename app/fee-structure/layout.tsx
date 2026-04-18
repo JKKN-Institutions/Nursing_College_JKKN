@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Fee Structure 2026-27 — B.Sc, M.Sc Nursing Fees | JKKN",
-  description: "Sresakthimayeil Institute of Nursing and Research fee structure: B.Sc Nursing ₹95,000/year, M.Sc Nursing ₹1,25,000/year, Post Basic B.Sc ₹85,000/year. Hostel, scholarships, loan info.",
+  description: "Sresakthimayeil Institute of Nursing and Research fee structure: B.Sc Nursing MQ ₹1,50,000 (Female) / ₹1,75,000 (Male), M.Sc Nursing MQ ₹75,000–₹1,00,000, Post Basic B.Sc ₹65,000. GQ as per govt norms. Hostel, scholarships, loan info.",
   keywords: "nursing college fees tamil nadu, bsc nursing fees, msc nursing fees, JKKN nursing fees, nursing college fee structure, affordable nursing college",
   openGraph: {
     title: "Fee Structure 2026-27 — B.Sc, M.Sc Nursing Fees | JKKN",
@@ -31,7 +31,7 @@ const feeFaqSchema = {
       "name": "What is the fee for B.Sc Nursing at JKKN College?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The annual tuition fee for B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research is ₹95,000 per year. The total course fee for the 4-year program is ₹3,80,000.",
+        "text": "The annual fee for B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research under Management Quota (MQ) is ₹1,50,000 for female students and ₹1,75,000 for male students. Government Quota (GQ) fees are as per Govt norms.",
       },
     },
     {
@@ -55,7 +55,7 @@ const feeFaqSchema = {
       "name": "What is the fee for M.Sc Nursing at JKKN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The annual tuition fee for M.Sc Nursing is ₹1,25,000 per year. The total course fee for the 2-year program is ₹2,50,000.",
+        "text": "The annual fee for M.Sc Nursing under Management Quota (MQ) ranges from ₹75,000 to ₹1,00,000 depending on the specialization: Medical Surgical ₹1,00,000, OBG & GYN ₹80,000, Psychiatric / Paediatric / Community Health ₹75,000 each. Government Quota (GQ) fees are as per Govt norms.",
       },
     },
     {

@@ -39,9 +39,9 @@ const mscFaqSchema = {
   "@type": "FAQPage",
   "mainEntity": [
     { "@type": "Question", "name": "What M.Sc Nursing specializations does JKKN offer?", "acceptedAnswer": { "@type": "Answer", "text": "5 specializations: 1) Medical-Surgical Nursing (most popular), 2) OBG Nursing, 3) Pediatric Nursing, 4) Psychiatric Nursing, 5) Community Health Nursing." } },
-    { "@type": "Question", "name": "What is the eligibility for M.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "B.Sc Nursing or Post Basic B.Sc with 55% marks, 1 year clinical experience, valid TNNMC registration. 2 years full-time, 25 seats, ₹1,25,000/year." } },
+    { "@type": "Question", "name": "What is the eligibility for M.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "B.Sc Nursing or Post Basic B.Sc with 55% marks, 1 year clinical experience, valid TNNMC registration. 2 years full-time, 25 seats. MQ fees from ₹75,000–₹1,00,000/year by specialization." } },
     { "@type": "Question", "name": "What careers after M.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Nursing Educator, Clinical Nurse Specialist, Nurse Manager, Research Associate, Advanced Practice Nurse in specialized departments." } },
-    { "@type": "Question", "name": "What is the M.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "₹1,25,000 per year for the 2-year program. Includes tuition, lab, clinical training, exam fees. Hostel: ₹60,000-75,000/year. Merit scholarships available." } }
+    { "@type": "Question", "name": "What is the M.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Management Quota (MQ) annual fees by specialization: Medical Surgical ₹1,00,000, OBG & GYN ₹80,000, Psychiatric / Paediatric / Community Health ₹75,000 each. Government Quota (GQ) fees are as per Govt norms. Hostel available separately. Scholarships and education loans available." } }
   ]
 };
 

@@ -91,7 +91,7 @@ const faqSchema = {
       "name": "What is the fee structure for nursing programs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000, GNM - ₹75,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners."
+        "text": "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male, incl. uniform, hospital training & nursing kit), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 depending on specialization. Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible students."
       }
     },
     {
@@ -148,7 +148,7 @@ const medicalBusinessSchema = {
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
-  "priceRange": "₹75,000 - ₹1,25,000 per year",
+  "priceRange": "₹65,000 - ₹1,75,000 per year (Management Quota)",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
@@ -190,9 +190,9 @@ const itemListSchema = {
   "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing, Komarapalayam",
   "numberOfItems": 4,
   "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing", "description": "4-year undergraduate – 60 seats – ₹95,000/year" },
-    { "@type": "ListItem", "position": 2, "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing", "description": "2-year postgraduate with 5 specializations – 25 seats – ₹1,25,000/year" },
-    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – ₹85,000/year" },
+    { "@type": "ListItem", "position": 1, "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing", "description": "4-year undergraduate – 60 seats – MQ ₹1,50,000 (Female) / ₹1,75,000 (Male)" },
+    { "@type": "ListItem", "position": 2, "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing", "description": "2-year postgraduate with 5 specializations – 25 seats – MQ ₹75,000–₹1,00,000" },
+    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – MQ ₹65,000" },
     { "@type": "ListItem", "position": 4, "name": "GNM", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/gnm", "description": "Diploma in General Nursing and Midwifery – ₹75,000/year" }
   ]
 };
@@ -225,7 +225,7 @@ const howToSchema = {
     { "@type": "HowToStep", "position": 2, "name": "Upload Documents", "text": "Upload: 10+2 or B.Sc marksheets, Transfer Certificate, Community/Caste Certificate, Medical Fitness Certificate, Aadhaar Card, and passport photos." },
     { "@type": "HowToStep", "position": 3, "name": "Merit-Based Selection", "text": "Candidates evaluated based on academic merit. Shortlisted candidates invited for counseling at JKKN campus." },
     { "@type": "HowToStep", "position": 4, "name": "Counseling & Seat Allotment", "text": "Attend counseling at JKKN campus. Seats allotted based on merit rank, category, and specialization preference." },
-    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay fee (B.Sc: ₹95,000/yr, M.Sc: ₹1,25,000/yr, Post Basic: ₹85,000/yr) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
+    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay the prescribed fee (MQ: B.Sc ₹1,50,000 Female / ₹1,75,000 Male, M.Sc ₹75,000–₹1,00,000, Post Basic ₹65,000; GQ as per Govt norms) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
   ]
 };
 
@@ -1249,7 +1249,7 @@ export default async function Home() {
                 {
                   question: "What is the fee structure for nursing programs?",
                   answer:
-                    "Our annual fee structure: B.Sc Nursing - ₹95,000, M.Sc Nursing - ₹1,25,000, Post Basic B.Sc Nursing - ₹85,000, GNM - ₹75,000. This includes tuition, laboratory, clinical training, and examination fees. Hostel accommodation is approximately ₹60,000-75,000 per year. Merit scholarships covering up to 75% of tuition fees are available for deserving Learners.",
+                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible students.",
                 },
                 {
                   question: "What are the placement opportunities after nursing?",

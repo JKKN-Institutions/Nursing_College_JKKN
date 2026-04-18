@@ -257,7 +257,7 @@ export default function Admissions() {
                     <th className="px-5 py-4 font-semibold whitespace-nowrap">Duration</th>
                     <th className="px-5 py-4 font-semibold whitespace-nowrap">Seats</th>
                     <th className="px-5 py-4 font-semibold">Eligibility</th>
-                    <th className="px-5 py-4 font-semibold whitespace-nowrap">Annual Fee</th>
+                    <th className="px-5 py-4 font-semibold whitespace-nowrap">MQ Annual Fee</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-[#e8f5e9]">
@@ -266,21 +266,21 @@ export default function Admissions() {
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">4 Years</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">60</td>
                     <td className="px-5 py-4 text-gray-700">10+2 with PCB, min 45%, NEET-UG qualified</td>
-                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹95,000</td>
+                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹1,50,000 (F) / ₹1,75,000 (M)</td>
                   </tr>
                   <tr className="bg-[#f9fef9] hover:bg-[#f0faf3] transition-colors">
                     <td className="px-5 py-4 font-bold text-[#0b7845] whitespace-nowrap">M.Sc Nursing</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">2 Years</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">25</td>
                     <td className="px-5 py-4 text-gray-700">B.Sc Nursing with min 55%, 1 year experience</td>
-                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹1,25,000</td>
+                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹75,000 – ₹1,00,000</td>
                   </tr>
                   <tr className="bg-white hover:bg-[#f0faf3] transition-colors">
                     <td className="px-5 py-4 font-bold text-[#0b7845]">Post Basic B.Sc Nursing</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">2 Years</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">30</td>
                     <td className="px-5 py-4 text-gray-700">GNM Diploma + RN registration, min 1 year experience</td>
-                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹85,000</td>
+                    <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹65,000</td>
                   </tr>
                 </tbody>
               </table>
@@ -290,7 +290,7 @@ export default function Admissions() {
               <svg className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
-              Fees are reviewed annually. See{" "}
+              MQ fees shown above. Government Quota (GQ) fees are as per Govt norms. Fees are reviewed annually. See{" "}
               <Link href="/fee-structure" className="text-[#006837] underline hover:text-[#004d28]">
                 Fee Structure
               </Link>{" "}

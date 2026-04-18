@@ -122,7 +122,7 @@ const admissionFaqSchema = {
       name: "What is the fee for nursing courses at JKKN?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The annual tuition fee for B.Sc Nursing is ₹95,000, for M.Sc Nursing is ₹1,25,000, and for Post Basic B.Sc Nursing is ₹85,000. Fees are reviewed annually.",
+        text: "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization), Post Basic B.Sc Nursing ₹65,000. Government Quota (GQ) fees are as per Govt norms. Fees are reviewed annually.",
       },
     },
     {

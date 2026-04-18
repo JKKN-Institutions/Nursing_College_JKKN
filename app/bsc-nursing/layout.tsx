@@ -38,7 +38,7 @@ const bscFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "What is the B.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "The annual fee is ₹95,000 per year for the 4-year program. Includes tuition, lab, clinical training, and exam fees. Hostel: ₹60,000-75,000/year. Merit scholarships up to 75% available." } },
+    { "@type": "Question", "name": "What is the B.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Management Quota (MQ) annual fee: ₹1,50,000 for female students and ₹1,75,000 for male students. Includes uniform, hospital training, and nursing kit. Government Quota (GQ) fees are as per Govt norms. Hostel available separately. Scholarships and education loans available." } },
     { "@type": "Question", "name": "Is NEET required for B.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "No, NEET is not required. Admission is merit-based on 10+2 with PCB. Minimum 45% marks (40% for SC/ST). Apply online at www.jkkn.ai/apply/jkkn-admission-2026." } },
     { "@type": "Question", "name": "What is the B.Sc Nursing duration at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "4-year full-time program including mandatory clinical internship at the attached 500+ bed teaching hospital. Hands-on training from Year 1." } },
     { "@type": "Question", "name": "What careers after B.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Staff Nurse, ICU Specialist, Community Health Nurse, Nursing Supervisor, International Nursing (NHS UK, UAE, Singapore). NCLEX prep, IELTS coaching, visa support provided. Domestic: ₹3.8-4.2 LPA. International: ₹15-25 LPA." } },
