@@ -11,7 +11,15 @@
       "Bash(find:*)",
       "mcp__ide__getDiagnostics",
       "Bash(git -C \"d:/Deepakkumar/college_websites/Nursing_College\" ls-files)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "mcp__seo-search-console__list_verified_sites",
+      "mcp__seo-search-console__search_analytics",
+      "mcp__website-auditor__check_pagespeed",
+      "mcp__website-auditor__check_meta_tags",
+      "mcp__website-auditor__check_headings",
+      "mcp__website-auditor__check_schema_markup",
+      "mcp__website-auditor__check_links",
+      "mcp__tavily__tavily_search"
     ]
   }
 }

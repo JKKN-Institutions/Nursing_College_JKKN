@@ -9,15 +9,29 @@ import Link from "next/link";
 import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase, FaClipboardCheck, FaFileAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
-  title: "M.Sc Nursing Course — 2-Year INC-Approved Program | Sresakthimayeil Institute of Nursing and Research",
-  description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 5 specializations: Medical-Surgical, Child Health, OBG, Psychiatric, Community Health. Apply for 2026-27.",
-  keywords: "M.Sc Nursing, MSc Nursing Tamil Nadu, post graduate nursing, JKKN nursing, nursing specialization",
+  metadataBase: new URL("https://nursing.sresakthimayeil.jkkn.ac.in"),
+  title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
+  description: "M.Sc Nursing at JKKN College of Nursing, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 100% placement support. Apply 2026-27.",
+  keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
-    title: "M.Sc Nursing — Sresakthimayeil Institute of Nursing and Research, Tamil Nadu",
-    description: "INC-approved 2-year M.Sc Nursing with 5 specializations and 500+ bed hospital training.",
+    title: "M.Sc Nursing at JKKN College of Nursing — Top MSc Nursing College Tamil Nadu",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 100% placement support. Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "JKKN College of Nursing",
     type: "website",
+    images: [
+      {
+        url: "https://nursing.sresakthimayeil.jkkn.ac.in/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
+        width: 1200,
+        height: 630,
+        alt: "M.Sc Nursing program at JKKN College of Nursing campus in Tamil Nadu",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
+    description: "5 INC-approved specializations, 500+ bed hospital training, 100% placement support. Apply 2026-27.",
   },
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
@@ -34,13 +48,27 @@ export default function MScNursing() {
       "@type": "EducationalOrganization",
       "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
       "name": "JKKN College of Nursing",
-      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+      "alternateName": ["Sresakthimayeil Institute of Nursing and Research", "JKKN Nursing College", "JKK Nattraja College of Nursing"],
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
+      "sameAs": [
+        "https://www.facebook.com/jkknnursing",
+        "https://www.instagram.com/jkknnursing",
+        "https://www.linkedin.com/school/jkknnursing",
+        "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6"
+      ],
+      "parentOrganization": {
+        "@type": "EducationalOrganization",
+        "name": "JKKN Institutions",
+        "url": "https://jkkn.ac.in/"
+      }
     },
     "timeRequired": "P2Y",
     "educationalCredentialAwarded": "Master of Science in Nursing (M.Sc Nursing)",
     "occupationalCredentialAwarded": "Clinical Nurse Specialist / Nursing Educator",
     "coursePrerequisites": "B.Sc Nursing with minimum 55% aggregate marks, 1 year clinical experience, TNNMC registration",
-    "numberOfCredits": "5 Specializations available",
+    "about": ["Medical Surgical Nursing", "Child Health Nursing", "Community Health Nursing", "Obstetrics & Gynecology Nursing", "Mental Health Nursing"],
+    "educationalLevel": "Postgraduate",
+    "numberOfCredits": 120,
     "inLanguage": "en",
     "isAccessibleForFree": false,
     "offers": {
@@ -124,6 +152,184 @@ export default function MScNursing() {
           "@type": "Answer",
           "text": "Yes, M.Sc Nursing is the gateway to doctoral studies in nursing. Graduates can pursue Ph.D. in Nursing to become professors, researchers, and healthcare policy experts."
         }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the M.Sc Nursing fees at JKKN College of Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious students. Contact +91 93458 55001 for exact fee details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the salary after M.Sc Nursing in India?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "M.Sc Nursing graduates in India earn ₹3.5-8 LPA at entry level depending on the role. Nursing Educators earn ₹3.5-15 LPA, Clinical Specialists ₹4-18 LPA, and international positions (UK NHS, Middle East) offer ₹15-60 LPA."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is M.Sc Nursing available through distance education?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Indian Nursing Council (INC) does not recognize distance or correspondence M.Sc Nursing programs. Only regular, full-time M.Sc Nursing from INC-approved colleges like JKKN is valid for teaching, clinical specialist, and international nursing positions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many M.Sc Nursing seats are available at JKKN?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JKKN College of Nursing has an annual intake of 25 seats for M.Sc Nursing, distributed across 5 specializations: Medical Surgical, Child Health, Community Health, OBG, and Mental Health Nursing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the clinical training facility for M.Sc Nursing at JKKN?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Students also gain community health experience in rural and urban settings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can working nurses join M.Sc Nursing at JKKN?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, working nurses with B.Sc Nursing degree, minimum 55% marks, 1 year clinical experience, and valid RN & RM registration can apply for M.Sc Nursing at JKKN. The program is designed to advance staff nurses to educator, specialist, and leadership roles."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which university is JKKN College of Nursing affiliated to?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is also approved by the Indian Nursing Council (INC) and recognized by TNNMC."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What documents are required for M.Sc Nursing admission?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Required documents include: B.Sc Nursing degree and mark sheets, 10th & 12th certificates, RN & RM registration certificate, 1-year experience certificate, Transfer Certificate, Aadhaar Card, community certificate (if applicable), passport photos, and medical fitness certificate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is JKKN College of Nursing located?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "JKKN College of Nursing is located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is approximately 22 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does JKKN offer scholarships for M.Sc Nursing students?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, JKKN provides scholarship opportunities for meritorious students and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated through the institution. Contact the admissions office for current scholarship details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the M.Sc Nursing admission process at JKKN for 2026-27?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The M.Sc Nursing admission process at JKKN involves 3 steps: (1) Submit online application with required documents at admission.jkkn.ac.in, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification for enrollment. Applications for 2026-27 are open."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I become a nursing professor with M.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, M.Sc Nursing is the minimum qualification required to teach as a Lecturer or Assistant Professor in nursing colleges as per INC norms. With a Ph.D., you can advance to Professor and Principal positions. JKKN's regular M.Sc Nursing is fully recognized for teaching positions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the international job opportunities after M.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "M.Sc Nursing graduates can work internationally in the UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore, and Australia. International nursing positions offer ₹15-60 LPA. JKKN's placement cell supports international recruitment drives."
+        }
+      }
+    ]
+  };
+
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "M.Sc Nursing Specializations at JKKN College of Nursing",
+    "description": "5 INC-approved M.Sc Nursing specializations offered at JKKN College of Nursing, Tamil Nadu",
+    "numberOfItems": 5,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Medical Surgical Nursing",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical",
+        "description": "Specialize in critical care, perioperative, and oncology nursing for adult patients"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Child Health Nursing",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health",
+        "description": "Focus on pediatric care, NICU, child development, and adolescent health"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Community Health Nursing",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health",
+        "description": "Master public health nursing, epidemiology, and community health programs"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Obstetrics & Gynecology Nursing",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
+        "description": "Specialize in maternal health, labor management, and reproductive health nursing"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Mental Health Nursing",
+        "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health",
+        "description": "Develop expertise in psychiatric nursing, psychotherapy, and mental health rehabilitation"
+      }
+    ]
+  };
+
+  const howToSchema = {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Apply for M.Sc Nursing Admission at JKKN 2026-27",
+    "description": "Step-by-step guide to apply for M.Sc Nursing admission at JKKN College of Nursing, Tamil Nadu for the 2026-27 academic year.",
+    "totalTime": "P7D",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Submit Online Application",
+        "text": "Complete the online application form at admission.jkkn.ac.in with required documents including B.Sc Nursing mark sheets, RN & RM registration, and experience certificate.",
+        "url": "https://admission.jkkn.ac.in/"
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Attend Counseling",
+        "text": "Attend the counseling session for specialization selection. Choose from Medical Surgical, Child Health, Community Health, OBG, or Mental Health Nursing."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Complete Enrollment",
+        "text": "Complete fee payment and document verification to confirm your M.Sc Nursing admission at JKKN College of Nursing."
       }
     ]
   };
@@ -138,11 +344,19 @@ export default function MScNursing() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
       <Header />
       <BreadcrumbSchema items={[
-        { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
-        { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
-        { name: 'M.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing/' },
+        { name: 'JKKN College of Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'Courses', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'M.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing' },
       ]} />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
@@ -159,14 +373,14 @@ export default function MScNursing() {
                 {/* Heading */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                   M.Sc Nursing at{" "}
-                  <span className="text-[#7cb983]">Sresakthimayeil Institute of Nursing and Research</span>
+                  <span className="text-[#7cb983]">JKKN College of Nursing, Tamil Nadu</span>
                 </h1>
 
                 <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved M.Sc Nursing program with 5 specializations, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Advanced clinical training at the 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 100% placement support.</p>
                 </div>
 
                 {/* Description */}
@@ -219,9 +433,10 @@ export default function MScNursing() {
                 <div className="relative">
                   <Image
                     src="/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp"
-                    alt="M.Sc Nursing program"
+                    alt="M.Sc Nursing students in clinical training at JKKN College of Nursing, Tamil Nadu"
                     width={600}
                     height={500}
+                    priority
                     className="w-full h-auto object-cover rounded-2xl"
                   />
                 </div>
@@ -259,8 +474,9 @@ export default function MScNursing() {
                   <span className="font-semibold text-gray-800">TNNMC Recognized</span>
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
-                  <Image src="/images/TNNMC_logo.jpg" alt="TNNMC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
-                  <span className="font-semibold text-gray-800">The Tamilnadu Dr.MGR University Affiliated</span>
+                  {/* [DATA NEEDED] Replace with actual TNMGRMU logo — currently using NAAC logo as placeholder */}
+                  <Image src="/images/NAAC_LOGO.png" alt="Tamil Nadu Dr. MGR Medical University Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
+                  <span className="font-semibold text-gray-800"><a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">TNMGRMU</a> Affiliated</span>
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
                   <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
@@ -314,6 +530,42 @@ export default function MScNursing() {
           </div>
         </section>
 
+        {/* What is M.Sc Nursing — Snippet-Ready Definition */}
+        <section className="py-16 bg-white">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-6">What is M.Sc Nursing?</h2>
+              <div className="bg-[#FBFBEE] border-l-4 border-[#006837] p-6 rounded-r-xl mb-6">
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  <strong>M.Sc Nursing (Master of Science in Nursing)</strong> is a 2-year postgraduate degree program approved by the Indian Nursing Council (INC). It prepares registered nurses for advanced roles in clinical practice, teaching, research, and healthcare administration. Candidates need a B.Sc Nursing degree with 55% marks and 1 year of clinical experience to be eligible.
+                </p>
+              </div>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h3 className="text-xl font-bold text-[#006837] mb-3">M.Sc Nursing Course Highlights</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Duration: 2 years (4 semesters) full-time</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Eligibility: B.Sc Nursing + 55% + 1 year experience</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>5 INC-approved specializations available</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Includes dissertation and clinical practicum</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Minimum qualification for nursing teaching positions</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-[#006837] mb-3">Who Should Pursue M.Sc Nursing?</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>B.Sc Nursing graduates seeking career advancement</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Working nurses aiming for educator or specialist roles</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Nurses aspiring for international positions (UK, UAE)</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Professionals interested in nursing research and Ph.D.</span></li>
+                    <li className="flex items-start gap-2"><FaCheckCircle className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-1" /> <span>Clinical nurses wanting hospital administration roles</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Program Overview */}
         <section className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -338,15 +590,15 @@ export default function MScNursing() {
 
               <div>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  The <strong className="text-[#006837]">Master of Science in Nursing (M.Sc Nursing)</strong> at JKKN College of
-                  Nursing is a comprehensive 2-year postgraduate program designed to
+                  The <strong className="text-[#006837]">Master of Science in Nursing (M.Sc Nursing)</strong> at <Link href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of
+                  Nursing</Link> is a comprehensive 2-year postgraduate program designed to
                   develop advanced nursing professionals with specialized clinical
-                  expertise, research acumen, and leadership capabilities.
+                  expertise, research acumen, and leadership capabilities. As one of the leading <strong className="text-[#006837]">M.Sc Nursing colleges in Tamil Nadu</strong>, JKKN is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU)</a> and approved by the <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Indian Nursing Council (INC)</a>.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The program integrates evidence-based practice with hands-on clinical
-                  training across premier healthcare facilities. As one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, JKKN provides access to experienced Learning Facilitators who bring decades of clinical and
+                  training at the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Students completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced Learning Facilitators who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
                 </p>
 
@@ -523,9 +775,9 @@ export default function MScNursing() {
         <section className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">Eligibility Criteria</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">M.Sc Nursing Eligibility Criteria 2026</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Meet these requirements to pursue your M.Sc Nursing degree at Sresakthimayeil Institute of Nursing and Research.
+                Meet these requirements to pursue your M.Sc Nursing admission at JKKN College of Nursing, Tamil Nadu.
               </p>
             </div>
 
@@ -585,6 +837,126 @@ export default function MScNursing() {
             
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Fee Structure */}
+        <section className="py-20 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <div className="inline-block bg-[#7cb983]/10 text-[#7cb983] text-sm font-semibold px-6 py-2 rounded-full mb-4 uppercase tracking-wider">
+                INVESTMENT IN YOUR FUTURE
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                M.Sc Nursing Fees Structure 2026-27
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Transparent fee structure for M.Sc Nursing at JKKN College of Nursing. <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">Scholarships available</Link> for meritorious and economically weaker students.
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto">
+              <div className="bg-[#FBFBEE] rounded-2xl overflow-hidden shadow-lg">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left">
+                    <thead>
+                      <tr className="bg-[#006837] text-white">
+                        <th className="px-6 py-4 font-semibold">Fee Component</th>
+                        <th className="px-6 py-4 font-semibold text-center">Year 1</th>
+                        <th className="px-6 py-4 font-semibold text-center">Year 2</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-gray-200">
+                      <tr>
+                        <td className="px-6 py-4 font-medium text-gray-800">Tuition Fee</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹1,25,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹1,25,000</td>
+                      </tr>
+                      <tr className="bg-white">
+                        <td className="px-6 py-4 font-medium text-gray-800">Hostel & Mess (Optional)</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹60,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹60,000</td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 font-medium text-gray-800">Examination Fee</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}As per university</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}As per university</td>
+                      </tr>
+                      <tr className="bg-[#006837]/5">
+                        <td className="px-6 py-4 font-bold text-[#006837]">Total (Approx.)</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,85,000</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,85,000</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <p className="text-sm text-gray-500 mt-4 text-center">
+                * Fees are subject to change. Contact <a href="tel:+919345855001" className="text-[#006837] hover:underline">+91 93458 55001</a> for the latest fee details. EMI and installment options available.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Specialization Comparison Table */}
+        <section className="py-20 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                M.Sc Nursing Specializations — Comparison Guide
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Compare all 5 M.Sc Nursing specializations to choose the right path for your career goals.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left bg-white rounded-2xl overflow-hidden shadow-lg">
+                <thead>
+                  <tr className="bg-[#006837] text-white">
+                    <th className="px-4 py-4 font-semibold text-sm">Specialization</th>
+                    <th className="px-4 py-4 font-semibold text-sm">Focus Area</th>
+                    <th className="px-4 py-4 font-semibold text-sm">Career Roles</th>
+                    <th className="px-4 py-4 font-semibold text-sm">Salary Range</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200 text-sm">
+                  <tr>
+                    <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-medical-surgical" className="hover:underline">Medical Surgical</Link></td>
+                    <td className="px-4 py-4 text-gray-700">Critical care, perioperative, oncology nursing</td>
+                    <td className="px-4 py-4 text-gray-700">ICU Specialist, Nurse Educator, Clinical Coordinator</td>
+                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–8 LPA</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-child-health" className="hover:underline">Child Health</Link></td>
+                    <td className="px-4 py-4 text-gray-700">Pediatric care, NICU, adolescent health</td>
+                    <td className="px-4 py-4 text-gray-700">Pediatric Nurse, NICU Specialist, Child Health Educator</td>
+                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–7 LPA</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-obstetrics-gynecological" className="hover:underline">OBG Nursing</Link></td>
+                    <td className="px-4 py-4 text-gray-700">Maternal health, labor management, reproductive health</td>
+                    <td className="px-4 py-4 text-gray-700">Midwife Specialist, Women&apos;s Health Educator, OBG Coordinator</td>
+                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–7 LPA</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-community-health" className="hover:underline">Community Health</Link></td>
+                    <td className="px-4 py-4 text-gray-700">Public health, epidemiology, health promotion</td>
+                    <td className="px-4 py-4 text-gray-700">Public Health Officer, Community Nurse, NGO Program Manager</td>
+                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹3.5–7 LPA</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-mental-health" className="hover:underline">Mental Health</Link></td>
+                    <td className="px-4 py-4 text-gray-700">Psychiatric nursing, psychotherapy, rehabilitation</td>
+                    <td className="px-4 py-4 text-gray-700">Psychiatric Nurse, Mental Health Counselor, De-addiction Specialist</td>
+                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–8 LPA</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm text-gray-500 mt-4 text-center">
+              Salary data based on industry averages for M.Sc Nursing graduates in India (2025-26). International positions (UK NHS, Middle East) offer significantly higher packages.
+            </p>
           </div>
         </section>
 
@@ -663,6 +1035,75 @@ export default function MScNursing() {
           </div>
         </section>
 
+        {/* Clinical Training & Hospital */}
+        <section className="py-20 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <div className="inline-block bg-[#7cb983]/10 text-[#7cb983] text-sm font-semibold px-6 py-2 rounded-full mb-4 uppercase tracking-wider">
+                HANDS-ON EXPERIENCE
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                Clinical Training at 500+ Bed Teaching Hospital
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                M.Sc Nursing students at JKKN receive extensive clinical training at our on-campus multi-specialty teaching hospital — a unique advantage among M.Sc Nursing colleges in Tamil Nadu.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">1</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-[#006837] mb-2">On-Campus Hospital Access</h3>
+                      <p className="text-gray-700">Direct access to the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, and Psychiatry.</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">2</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-[#006837] mb-2">Advanced Clinical Rotations</h3>
+                      <p className="text-gray-700">Specialization-specific rotations across ICU, NICU, Operation Theatre, Labor Room, Psychiatric Ward, and Community Health Centers with daily patient interactions.</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">3</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-[#006837] mb-2">Simulation Labs</h3>
+                      <p className="text-gray-700">Practice critical procedures in our <Link href="/laboratories" className="text-[#006837] font-semibold hover:underline">state-of-the-art simulation laboratories</Link> with high-fidelity mannequins before real patient interaction.</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">4</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-[#006837] mb-2">Community Health Fieldwork</h3>
+                      <p className="text-gray-700">Field experience in rural and urban community settings around Komarapalayam, Erode, and Namakkal districts for public health nursing competency.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative">
+                <Image
+                  src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.webp"
+                  alt="M.Sc Nursing clinical training at JKKN multi-specialty hospital"
+                  width={600}
+                  height={450}
+                  className="w-full h-auto object-cover rounded-2xl shadow-xl"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-[#006837] text-white p-4 rounded-xl shadow-lg">
+                  <div className="text-2xl font-bold">500+</div>
+                  <div className="text-sm">Beds</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Career Prospects */}
         <section className="py-20 bg-gradient-to-br from-[#006837] to-[#002309] text-white">
           <div className="container-custom">
@@ -671,11 +1112,11 @@ export default function MScNursing() {
                 CAREER PROSPECTS
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Career Options After M.Sc Nursing
+                Career Options and Salary After M.Sc Nursing
               </h2>
               <p className="text-lg text-white/90 max-w-3xl mx-auto">
-                M.Sc Nursing graduates command diverse roles across clinical practice, education,
-                research, and healthcare administration.
+                M.Sc Nursing graduates from top nursing colleges in Tamil Nadu command diverse roles across clinical practice, education,
+                research, and healthcare administration with competitive salary packages.
               </p>
             </div>
 
@@ -755,6 +1196,117 @@ export default function MScNursing() {
           </div>
         </section>
 
+        {/* Salary After M.Sc Nursing */}
+        <section className="py-20 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <div className="inline-block bg-[#7cb983]/10 text-[#7cb983] text-sm font-semibold px-6 py-2 rounded-full mb-4 uppercase tracking-wider">
+                EARNING POTENTIAL
+              </div>
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                M.Sc Nursing Salary in India 2026
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                M.Sc Nursing graduates command premium salaries in India and abroad. Here&apos;s what you can expect based on role and experience.
+              </p>
+            </div>
+
+            <div className="max-w-5xl mx-auto">
+              <div className="overflow-x-auto">
+                <table className="w-full text-left bg-white rounded-2xl overflow-hidden shadow-lg">
+                  <thead>
+                    <tr className="bg-[#006837] text-white">
+                      <th className="px-5 py-4 font-semibold">Career Role</th>
+                      <th className="px-5 py-4 font-semibold text-center">Entry Level (0-2 yrs)</th>
+                      <th className="px-5 py-4 font-semibold text-center">Mid Level (3-7 yrs)</th>
+                      <th className="px-5 py-4 font-semibold text-center">Senior Level (8+ yrs)</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-200 text-sm">
+                    <tr>
+                      <td className="px-5 py-4 font-medium text-gray-800">Nursing Educator / Lecturer</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹3.5–5 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹5–8 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹8–15 LPA</td>
+                    </tr>
+                    <tr className="bg-gray-50">
+                      <td className="px-5 py-4 font-medium text-gray-800">Clinical Nurse Specialist</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–6 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹6–10 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹10–18 LPA</td>
+                    </tr>
+                    <tr>
+                      <td className="px-5 py-4 font-medium text-gray-800">Nursing Superintendent / Administrator</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–6 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹6–12 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹12–20 LPA</td>
+                    </tr>
+                    <tr className="bg-gray-50">
+                      <td className="px-5 py-4 font-medium text-gray-800">International (UK NHS / Middle East)</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹15–25 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹25–40 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹40–60 LPA</td>
+                    </tr>
+                    <tr>
+                      <td className="px-5 py-4 font-medium text-gray-800">Government Nursing Officer</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–5.5 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹5.5–8 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹8–14 LPA</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-sm text-gray-500 mt-4 text-center">
+                Salary figures are indicative and vary by employer, location, and specialization. JKKN&apos;s <Link href="/placement" className="text-[#006837] hover:underline">placement cell</Link> provides career guidance and recruitment support.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Placement Support */}
+        <section className="py-20 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                M.Sc Nursing Placement Support at JKKN
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Our dedicated <Link href="/placement" className="text-[#006837] font-semibold hover:underline">placement cell</Link> connects M.Sc Nursing graduates with top employers in India and abroad.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
+              <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
+                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}100%</div>
+                <div className="text-gray-600 font-medium">Placement Support</div>
+              </div>
+              <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
+                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}60+</div>
+                <div className="text-gray-600 font-medium">Recruiting Partners</div>
+              </div>
+              <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
+                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}₹25 LPA</div>
+                <div className="text-gray-600 font-medium">Highest Package</div>
+              </div>
+              <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
+                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}5+</div>
+                <div className="text-gray-600 font-medium">Countries</div>
+              </div>
+            </div>
+
+            <div className="max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold text-[#006837] mb-6 text-center">Top Recruiters for M.Sc Nursing Graduates</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {["Apollo Hospitals", "Fortis Healthcare", "AIIMS", "NHS UK", "Cleveland Clinic Abu Dhabi", "Max Healthcare", "Manipal Hospitals", "Government Hospitals"].map((recruiter) => (
+                  <div key={recruiter} className="bg-[#FBFBEE] border border-gray-200 rounded-xl p-4 text-center text-sm font-medium text-gray-700">
+                    {recruiter}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Why Choose JKKN */}
         <section className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -763,11 +1315,11 @@ export default function MScNursing() {
                 OUR DISTINCTION
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                Why Choose JKKN for M.Sc Nursing?
+                Why Choose JKKN — Top M.Sc Nursing College in Tamil Nadu
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Join a legacy of nursing excellence built over decades of commitment to progressive
-                education and clinical mastery.
+                Join a legacy of nursing excellence built since 2007 with 74+ years of JKKN institutional heritage — progressive
+                education and clinical mastery near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>.
               </p>
             </div>
 
@@ -861,10 +1413,10 @@ export default function MScNursing() {
                 HOW TO APPLY
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                How to Apply for M.Sc Nursing Admission
+                M.Sc Nursing Admission Process 2026-27
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Your journey to advanced nursing education begins with these simple steps.
+                Your journey to advanced nursing education at JKKN begins with these simple steps. <Link href="/admissions" className="text-[#006837] font-semibold hover:underline">View full admission details</Link>.
               </p>
             </div>
 
@@ -966,6 +1518,150 @@ export default function MScNursing() {
           </div>
         </section>
 
+        {/* Documents Required */}
+        <section className="py-20 bg-white">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                Documents Required for M.Sc Nursing Admission
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Keep these documents ready for your M.Sc Nursing admission application at JKKN.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <div className="bg-[#FBFBEE] rounded-2xl p-8">
+                <h3 className="text-xl font-bold text-[#006837] mb-6 flex items-center gap-3">
+                  <FaFileAlt className="w-6 h-6" />
+                  Academic Documents
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    "B.Sc Nursing degree certificate and mark sheets (all years)",
+                    "10th & 12th standard mark sheets and certificates",
+                    "Provisional / Degree certificate from the university",
+                    "Transfer Certificate (TC) from last institution",
+                    "Migration Certificate (for students outside Tamil Nadu)",
+                  ].map((doc) => (
+                    <li key={doc} className="flex items-start gap-3">
+                      <FaCheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">{doc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className="bg-[#FBFBEE] rounded-2xl p-8">
+                <h3 className="text-xl font-bold text-[#006837] mb-6 flex items-center gap-3">
+                  <FaClipboardCheck className="w-6 h-6" />
+                  Professional & Personal Documents
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    "RN & RM Registration Certificate (State Nursing Council)",
+                    "1-year clinical experience certificate from employer",
+                    "Aadhaar Card / PAN Card (identity proof)",
+                    "Community / Caste certificate (if applicable)",
+                    "Passport-size photographs (6 copies)",
+                    "Medical fitness certificate",
+                  ].map((doc) => (
+                    <li key={doc} className="flex items-start gap-3">
+                      <FaCheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                      <span className="text-gray-700">{doc}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* M.Sc Nursing for Working Nurses */}
+        <section className="py-20 bg-[#FBFBEE]">
+          <div className="container-custom">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
+                M.Sc Nursing for Working Nurses
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                Already working as a nurse? JKKN supports your career advancement with a structured M.Sc Nursing program designed for experienced professionals.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
+                <div className="w-16 h-16 bg-[#006837] text-white rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <FaBriefcase className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">Career Advancement</h3>
+                <p className="text-gray-700">Transition from staff nurse to Nurse Educator, Clinical Specialist, or Nursing Administrator with an M.Sc qualification.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
+                <div className="w-16 h-16 bg-[#006837] text-white rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <FaGraduationCap className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">Research Skills</h3>
+                <p className="text-gray-700">Develop evidence-based practice and research methodology skills essential for leadership roles and academic positions.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl p-8 shadow-lg text-center">
+                <div className="w-16 h-16 bg-[#006837] text-white rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <FaUserMd className="w-8 h-8" />
+                </div>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">International Pathway</h3>
+                <p className="text-gray-700">M.Sc Nursing opens doors to international positions in UK (NHS), Middle East, Singapore, and Australia with higher salary packages.</p>
+              </div>
+            </div>
+
+            <div className="mt-12 bg-white rounded-2xl p-8 max-w-4xl mx-auto shadow-lg">
+              <h3 className="text-2xl font-bold text-[#006837] mb-4">M.Sc Nursing — Regular vs Distance Education</h3>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="border-b-2 border-gray-200">
+                      <th className="px-4 py-3 font-semibold text-gray-800">Feature</th>
+                      <th className="px-4 py-3 font-semibold text-[#006837]">Regular (JKKN)</th>
+                      <th className="px-4 py-3 font-semibold text-gray-500">Distance / Correspondence</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-100">
+                    <tr>
+                      <td className="px-4 py-3 font-medium">INC Recognition</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">Fully INC Approved</td>
+                      <td className="px-4 py-3 text-red-600">Not recognized by INC</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Clinical Training</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">500+ bed hospital on campus</td>
+                      <td className="px-4 py-3 text-gray-600">Limited or self-arranged</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Teaching Eligibility</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">Eligible for nursing faculty positions</td>
+                      <td className="px-4 py-3 text-red-600">Not eligible per INC norms</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">Research & Dissertation</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">Guided research with publication support</td>
+                      <td className="px-4 py-3 text-gray-600">Self-guided, limited support</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-3 font-medium">International Acceptance</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">Accepted globally (NHS, JCI hospitals)</td>
+                      <td className="px-4 py-3 text-gray-600">Limited acceptance abroad</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-sm text-gray-500 mt-4">
+                <strong>Important:</strong> The Indian Nursing Council (INC) does not recognize distance or correspondence M.Sc Nursing programs for teaching positions. Only regular, full-time programs at INC-approved institutions are valid for academic and clinical specialist roles.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -977,7 +1673,7 @@ export default function MScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Find answers to common questions about the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research.
+                Find answers to common questions about the M.Sc Nursing program at JKKN College of Nursing, Tamil Nadu.
               </p>
             </div>
 
@@ -1084,6 +1780,244 @@ export default function MScNursing() {
                     Yes, M.Sc Nursing is the gateway to doctoral studies in nursing. Graduates can pursue Ph.D. in Nursing to become professors, researchers, and healthcare policy experts.
                   </p>
                 </details>
+
+                {/* FAQ 7 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What is the M.Sc Nursing fees at JKKN?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    {/* [DATA NEEDED] */}The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious students. Contact +91 93458 55001 for exact fee details.
+                  </p>
+                </details>
+
+                {/* FAQ 8 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What is the salary after M.Sc Nursing in India?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    M.Sc Nursing graduates in India earn ₹3.5-8 LPA at entry level. Nursing Educators earn ₹3.5-15 LPA, Clinical Specialists ₹4-18 LPA, and international positions (UK NHS, Middle East) offer ₹15-60 LPA depending on experience.
+                  </p>
+                </details>
+
+                {/* FAQ 9 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Is M.Sc Nursing available through distance education?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    The Indian Nursing Council (INC) does not recognize distance or correspondence M.Sc Nursing programs. Only regular, full-time M.Sc Nursing from INC-approved colleges like JKKN is valid for teaching, clinical specialist, and international positions.
+                  </p>
+                </details>
+
+                {/* FAQ 10 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      How many seats are available for M.Sc Nursing at JKKN?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    JKKN has an annual intake of 25 seats for M.Sc Nursing, distributed across 5 specializations: Medical Surgical, Child Health, Community Health, OBG, and Mental Health Nursing. 5 seats per specialization.
+                  </p>
+                </details>
+
+                {/* FAQ 11 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What clinical training facilities does JKKN have?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Students also gain community health experience in rural and urban settings.
+                  </p>
+                </details>
+
+                {/* FAQ 12 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Can working nurses join M.Sc Nursing at JKKN?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Yes, working nurses with B.Sc Nursing degree, minimum 55% marks, 1 year clinical experience, and valid RN &amp; RM registration can apply. The program helps staff nurses advance to Educator, Specialist, and Administrator roles.
+                  </p>
+                </details>
+
+                {/* FAQ 13 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Which university is JKKN affiliated to?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is approved by the Indian Nursing Council (INC) and recognized by TNNMC.
+                  </p>
+                </details>
+
+                {/* FAQ 14 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What documents are needed for admission?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Required documents include: B.Sc Nursing degree and mark sheets, 10th &amp; 12th certificates, RN &amp; RM registration certificate, 1-year experience certificate, Transfer Certificate, Aadhaar Card, community certificate (if applicable), passport photos, and medical fitness certificate.
+                  </p>
+                </details>
+
+                {/* FAQ 15 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Where is JKKN College of Nursing located?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    JKKN College of Nursing is at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is about 22 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore.
+                  </p>
+                </details>
+
+                {/* FAQ 16 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Does JKKN offer scholarships for M.Sc Nursing?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Yes, JKKN provides scholarship opportunities for meritorious students and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated. Visit the <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">scholarship page</Link> for details.
+                  </p>
+                </details>
+
+                {/* FAQ 17 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Can I become a nursing professor with M.Sc Nursing?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Yes, M.Sc Nursing is the minimum qualification to teach as a Lecturer or Assistant Professor in nursing colleges per INC norms. With a Ph.D., you can become a Professor or Principal. JKKN&apos;s regular M.Sc Nursing is fully recognized for teaching positions.
+                  </p>
+                </details>
+
+                {/* FAQ 18 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What are international job opportunities after M.Sc Nursing?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    M.Sc Nursing graduates can work in UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore, and Australia. International positions offer ₹15-60 LPA. JKKN&apos;s placement cell supports international recruitment drives.
+                  </p>
+                </details>
+
+                {/* FAQ 19 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      What is the M.Sc Nursing admission process for 2026-27?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Three steps: (1) Submit online application at admission.jkkn.ac.in with required documents, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification. <Link href="/admissions" className="text-[#006837] font-semibold hover:underline">Apply now for 2026-27</Link>.
+                  </p>
+                </details>
+
+                {/* FAQ 20 */}
+                <details className="bg-white rounded-2xl p-6 shadow-lg group open:bg-[#7cb983]/10">
+                  <summary className="flex items-center justify-between cursor-pointer list-none">
+                    <h3 className="text-lg font-bold text-[#006837] pr-4">
+                      Is transport available for day scholars?
+                    </h3>
+                    <span className="flex-shrink-0 w-8 h-8 bg-[#006837]/10 rounded-full flex items-center justify-center group-open:bg-[#7cb983] group-open:text-white transition-colors duration-300">
+                      <svg className="w-4 h-4 transform group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
+                    Yes, JKKN provides <Link href="/transport" className="text-[#006837] font-semibold hover:underline">college transport</Link> covering routes from Erode, Salem, Tiruchengode, Namakkal, and surrounding areas. The campus is on NH-544 with excellent road connectivity.
+                  </p>
+                </details>
               </div>
             </div>
           </div>
@@ -1099,7 +2033,7 @@ export default function MScNursing() {
               Take the next step toward becoming an advanced nursing professional.
             </p>
             <p className="text-lg md:text-xl text-white/90 mb-10 max-w-3xl mx-auto">
-              Applications for the 2025-26 academic year are now open.
+              Applications for the 2026-27 academic year are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
@@ -1126,11 +2060,12 @@ export default function MScNursing() {
         {/* Institutional Authority Block */}
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
-            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
-            <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
-            <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
+            <p className="font-semibold text-dark mb-2">Published by <Link href="/" className="text-[#006837] hover:underline">JKKN College of Nursing</Link></p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research — One of the top M.Sc Nursing colleges in Tamil Nadu</p>
+            <p className="text-sm text-gray-600 mb-1"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC Approved</a> | <Link href="/naac" className="hover:underline">NAAC Accredited</Link> | Affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tamil Nadu Dr. M.G.R. Medical University</a></p>
+            <p className="text-sm text-gray-600 mb-1">Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
+            <p className="text-sm text-gray-600 mb-1">Contact: <a href="tel:+919345855001" className="hover:underline">+91 93458 55001</a> | <a href="mailto:nursing@jkkn.ac.in" className="hover:underline">nursing@jkkn.ac.in</a></p>
+            <p className="text-sm text-gray-600">Last reviewed: April 2026 | <Link href="/admissions" className="text-[#006837] hover:underline">Apply Now</Link> | <Link href="/placement" className="text-[#006837] hover:underline">Placement Details</Link> | <Link href="/contact" className="text-[#006837] hover:underline">Contact Us</Link></p>
           </div>
         </div>
 

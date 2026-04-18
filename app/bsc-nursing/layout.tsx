@@ -1,28 +1,32 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
-  description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
-  keywords: "best bsc nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, bsc nursing best colleges in tamilnadu, bsc nursing courses in tamilnadu, top bsc nursing colleges in tamilnadu, top 10 bsc nursing colleges in tamilnadu, bsc nursing male colleges in tamilnadu, bsc male nursing colleges in tamilnadu, bsc nursing course colleges in tamilnadu, bsc nursing private colleges in tamilnadu, bsc nursing colleges in erode",
+  title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
+  description:
+    "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
+  keywords:
+    "best bsc nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, bsc nursing best colleges in tamilnadu, bsc nursing courses in tamilnadu, top bsc nursing colleges in tamilnadu, top 10 bsc nursing colleges in tamilnadu, bsc nursing male colleges in tamilnadu, bsc male nursing colleges in tamilnadu, bsc nursing course colleges in tamilnadu, bsc nursing private colleges in tamilnadu, bsc nursing colleges in erode, bsc nursing colleges near coimbatore, bsc nursing fees in tamilnadu, bsc nursing salary, bsc nursing scope",
   openGraph: {
-    title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
-    description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
+    title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
+    description:
+      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "JKKN College of Nursing",
     images: [
       {
         url: "/images/B.Sc-Nursing-Hero-Banner_image.webp",
         width: 1200,
         height: 630,
-        alt: "BSc Nursing at JKKN College",
+        alt: "BSc Nursing at JKKN College of Nursing, Tamil Nadu — INC Approved 4-Year Program",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 4-Year INC Approved Program",
-    description: "B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. 4-year INC-approved program affiliated to TNMGRMU. Clinical training at 500+ bed hospital. Apply now.",
+    title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
+    description:
+      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
     images: ["/images/B.Sc-Nursing-Hero-Banner_image.webp"],
   },
   robots: {
@@ -49,41 +53,153 @@ const bscFaqSchema = {
 const bscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
-  "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
-  "description": "4-year INC-approved undergraduate nursing program at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Clinical training at 500+ bed teaching hospital. NAAC accredited.",
-  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/",
-  "provider": {
+  name: "Bachelor of Science in Nursing (B.Sc Nursing)",
+  description:
+    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 97% placement rate.",
+  url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
+  dateModified: "2026-04-11",
+  provider: {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
-    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
-    "address": {
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
+    name: "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research)",
+    url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
+    sameAs: [
+      "https://www.facebook.com/jkknnursing",
+      "https://www.instagram.com/jkknnursing",
+      "https://www.linkedin.com/school/jkknnursing",
+      "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+      "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+    ],
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
-      "addressLocality": "Komarapalayam",
-      "addressRegion": "Tamil Nadu",
-      "postalCode": "638183",
-      "addressCountry": "IN"
-    }
+      streetAddress: "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+      addressLocality: "Komarapalayam",
+      addressRegion: "Tamil Nadu",
+      postalCode: "638183",
+      addressCountry: "IN",
+    },
   },
-  "educationalCredentialAwarded": "B.Sc Nursing",
-  "timeRequired": "P4Y",
-  "occupationalCategory": "Registered Nurse",
-  "coursePrerequisites": "10+2 with Physics, Chemistry, Biology (PCB) with minimum 45% aggregate (40% for SC/ST). Admission through Tamil Nadu merit-based counselling.",
-  "hasCourseInstance": {
+  educationalCredentialAwarded: "Bachelor of Science in Nursing (B.Sc Nursing)",
+  occupationalCredentialAwarded: "Registered Nurse (RN)",
+  timeRequired: "P4Y",
+  occupationalCategory: "Registered Nurse",
+  coursePrerequisites:
+    "10+2 with Physics, Chemistry, Biology — minimum 45% aggregate (40% for SC/ST). Age 17–35 years.",
+  inLanguage: "en",
+  isAccessibleForFree: false,
+  hasCourseInstance: {
     "@type": "CourseInstance",
-    "courseMode": "Full-time",
-    "startDate": "2026-09"
+    courseMode: "Onsite",
+    courseWorkload: "PT40H",
+    startDate: "2026-08-01",
+    endDate: "2030-06-30",
+    location: {
+      "@type": "Place",
+      name: "JKKN College of Nursing Campus",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Natarajapuram, NH-544",
+        addressLocality: "Komarapalayam",
+        addressRegion: "Tamil Nadu",
+        postalCode: "638183",
+        addressCountry: "IN",
+      },
+    },
   },
-  "offers": {
+  offers: {
     "@type": "Offer",
     "availability": "https://schema.org/InStock",
     "url": "https://www.jkkn.ai/apply/jkkn-admission-2026",
     "category": "Government Quota / Management Quota"
   },
-  "speakable": {
+  speakable: {
     "@type": "SpeakableSpecification",
-    "cssSelector": ["h1", ".course-overview", ".key-facts"]
-  }
+    cssSelector: ["h1", ".course-overview", ".key-facts"],
+  },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  name: "JKKN College of Nursing",
+  alternateName: "Sresakthimayeil Institute of Nursing and Research",
+  image: "https://nursing.sresakthimayeil.jkkn.ac.in/images/logo.png",
+  telephone: "+919345855001",
+  email: "nursing@jkkn.ac.in",
+  url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+    addressLocality: "Komarapalayam",
+    addressRegion: "Tamil Nadu",
+    postalCode: "638183",
+    addressCountry: "IN",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: "11.4333",
+    longitude: "77.7167",
+  },
+  sameAs: [
+    "https://www.facebook.com/jkknnursing",
+    "https://www.instagram.com/jkknnursing",
+    "https://www.linkedin.com/school/jkknnursing",
+    "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
+    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+  ],
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ],
+    opens: "08:00",
+    closes: "17:00",
+  },
+  parentOrganization: {
+    "@type": "Organization",
+    name: "JKKN Institutions",
+    url: "https://jkkn.ac.in/",
+  },
+};
+
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Apply for BSc Nursing at JKKN College",
+  description:
+    "Step-by-step admission process for B.Sc Nursing at JKKN College of Nursing, Komarapalayam, Tamil Nadu.",
+  step: [
+    {
+      "@type": "HowToStep",
+      name: "Online Registration",
+      text: "Visit admission.jkkn.ac.in and complete the online application form with accurate personal and academic details.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Document Submission",
+      text: "Upload required documents including 10+2 mark sheets, ID proof, community certificate, and passport-size photographs.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Merit List & Counselling",
+      text: "Selection is based on 10+2 merit. Attend the counselling session for seat allotment at the college campus.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Fee Payment",
+      text: "Pay the prescribed admission fee of ₹95,000 per year to confirm your seat. Education loan assistance is available from partner banks.",
+    },
+    {
+      "@type": "HowToStep",
+      name: "Admission Confirmation",
+      text: "Receive your admission letter and join the orientation programme to begin your nursing journey at JKKN.",
+    },
+  ],
 };
 
 export default function BScNursingLayout({
@@ -100,6 +216,16 @@ export default function BScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(bscFaqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
       {children}
     </>

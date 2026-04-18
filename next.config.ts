@@ -22,6 +22,11 @@ const nextConfig: NextConfig = {
         destination: '/placement',
         permanent: true, // 301 redirect
       },
+      {
+        source: '/master-of-science-in-nursing',
+        destination: '/msc-nursing',
+        permanent: true, // 301 redirect — old URL still indexed
+      },
     ]
   },
   async headers() {
