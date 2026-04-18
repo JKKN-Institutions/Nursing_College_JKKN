@@ -19,7 +19,9 @@
       "mcp__website-auditor__check_headings",
       "mcp__website-auditor__check_schema_markup",
       "mcp__website-auditor__check_links",
-      "mcp__tavily__tavily_search"
+      "mcp__tavily__tavily_search",
+      "mcp__website-auditor__audit_page",
+      "mcp__website-auditor__check_content"
     ]
   }
 }
