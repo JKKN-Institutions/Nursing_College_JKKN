@@ -14,7 +14,7 @@ export default function Admissions() {
   return (
     <>
       <Header />
-      <main className="bg-[#FBFBEE] min-h-screen pt-28">
+      <main className="bg-[#FBFBEE] min-h-screen">
 
         {/* Breadcrumb Schema */}
         <BreadcrumbSchema
@@ -25,7 +25,7 @@ export default function Admissions() {
         />
 
         {/* ── 1. HERO BANNER ─────────────────────────────────────── */}
-        <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white py-16 md:py-24">
+        <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white pt-44 pb-16 md:pt-48 md:pb-24">
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
             <div className="inline-flex items-center gap-2 bg-white/20 text-white px-4 py-2 rounded-full mb-6 text-sm font-medium">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

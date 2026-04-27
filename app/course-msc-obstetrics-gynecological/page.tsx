@@ -180,8 +180,8 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="flex justify-center lg:justify-end">
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
-                    src="/images/Obstetrics-Hero-Banner-Image.webp"
-                    alt="OBG Nursing Excellence"
+                    src="/images/NURSING%20COLLEGE/DSC_0357.JPG"
+                    alt="M.Sc Obstetric Gynecological Nursing students in classroom at JKKN College of Nursing"
                     width={500}
                     height={400}
                     className="w-full h-full object-cover"
@@ -870,8 +870,8 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="flex justify-center">
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
-                    src="/images/Obstetrics-OBG-Clinical-Training-image.webp"
-                    alt="OBG Clinical Training"
+                    src="/images/NURSING%20COLLEGE/DSC_0387.JPG"
+                    alt="M.Sc Obstetric Gynecological Nursing students in practical training session at JKKN College of Nursing"
                     width={500}
                     height={400}
                     className="w-full h-full object-cover"

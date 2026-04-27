@@ -29,7 +29,7 @@ export default function ClinicalHospital() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
-                  src="/images/Clinical_HospitalFacilities-1.webp"
+                  src="/images/NURSING COLLEGE/IMG_1550.JPG"
                   alt="Hospital Corridor"
                   width={450}
                   height={350}

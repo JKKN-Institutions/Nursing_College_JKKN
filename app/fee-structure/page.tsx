@@ -343,53 +343,7 @@ export default function FeeStructure() {
           </div>
         </section>
 
-        {/* Fee Refund Policy */}
-        <section className="bg-white py-12 sm:py-16">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
-            <h2 className="text-2xl sm:text-3xl font-bold text-[#0b7845] mb-2">
-              Fee Refund Policy
-            </h2>
-            <p className="text-gray-600 mb-8">Refund eligibility based on the date of withdrawal from the program.</p>
-            <div className="overflow-x-auto rounded-lg shadow-sm border border-gray-200">
-              <table className="min-w-full text-sm sm:text-base">
-                <thead>
-                  <tr className="bg-[#006837] text-white">
-                    <th className="px-5 py-4 text-left font-semibold">Withdrawal Timeline</th>
-                    <th className="px-5 py-4 text-left font-semibold">Refund Percentage</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
-                    <td className="px-5 py-4 text-gray-800">Before commencement of classes</td>
-                    <td className="px-5 py-4 font-semibold text-green-700">Full refund minus processing fee</td>
-                  </tr>
-                  <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
-                    <td className="px-5 py-4 text-gray-800">Within 15 days of admission</td>
-                    <td className="px-5 py-4 font-semibold text-yellow-700">75% refund</td>
-                  </tr>
-                  <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
-                    <td className="px-5 py-4 text-gray-800">After 15 days but before 30 days</td>
-                    <td className="px-5 py-4 font-semibold text-orange-600">50% refund</td>
-                  </tr>
-                  <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
-                    <td className="px-5 py-4 text-gray-800">After 30 days</td>
-                    <td className="px-5 py-4 font-semibold text-red-600">No refund</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="mt-5 text-sm text-gray-600">
-              For the complete refund policy,{" "}
-              <Link
-                href="/fees-refund-policy"
-                className="text-[#006837] underline underline-offset-2 hover:text-[#0b7845] font-medium transition-colors"
-              >
-                see the Fees Refund Policy
-              </Link>
-              .
-            </p>
-          </div>
-        </section>
+        {/* Fee Refund Policy — hidden */}
 
         {/* CTA Section */}
         <section className="bg-gradient-to-r from-[#006837] to-[#7cb983] py-14 sm:py-20">

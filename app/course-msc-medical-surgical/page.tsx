@@ -185,8 +185,8 @@ export default function MScMedicalSurgicalNursing() {
                 <div className="bg-[#006837]/30 backdrop-blur-sm rounded-2xl p-8 border border-[#7cb983]/30">
                   <div className="rounded-xl aspect-video overflow-hidden mb-6">
                     <Image
-                      src="/images/Medical-Surgical-Nursing-Hero-Banner-Image.webp"
-                      alt="M.Sc Nursing Clinical Training"
+                      src="/images/NURSING%20COLLEGE/DSC_0346.JPG"
+                      alt="M.Sc Medical Surgical Nursing students in clinical skills training at JKKN College of Nursing"
                       width={600}
                       height={338}
                       className="w-full h-full object-cover"
@@ -922,8 +922,8 @@ export default function MScMedicalSurgicalNursing() {
               {/* Clinical Training Facilities Image */}
               <div className="bg-gradient-to-br from-[#7cb983] to-[#7cb983] rounded-2xl aspect-video overflow-hidden">
                 <Image
-                  src="/images/Medical-Surgical-Nursing-Clinical-Training-Facilities-Image.webp"
-                  alt="Clinical Training Facilities"
+                  src="/images/NURSING%20COLLEGE/DSC_0381.JPG"
+                  alt="M.Sc Medical Surgical Nursing students in practical lab training at JKKN College of Nursing"
                   width={600}
                   height={338}
                   className="w-full h-full object-cover"

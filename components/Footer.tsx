@@ -6,20 +6,9 @@ interface FooterProps {
   hideLifeAtJKKN?: boolean;
 }
 
-export default function Footer({ hideLifeAtJKKN = false }: FooterProps) {
+export default function Footer({ hideLifeAtJKKN: _unused }: FooterProps = {}) {
   return (
     <footer className="bg-[#006633] text-white">
-      {/* Life @ JKKN Description */}
-      {!hideLifeAtJKKN && (
-        <div className="bg-cream text-dark-text py-8">
-          <div className="container-custom">
-            <p className="text-center max-w-4xl mx-auto leading-relaxed">
-              JKKN Educational Institutions is a vibrant residential campus that allows students to flourish both personally and professionally. Campus life at JKKN is not just about classrooms, libraries and labs. There are several opportunities for students to pursue their favorite activities, refine their skills and discover new talents and interests. The campus is a constant buzz of varied activities and events – academic, co-curricular and extracurricular.
-            </p>
-          </div>
-        </div>
-      )}
-
       {/* Main Footer */}
       <div className="py-8 sm:py-10 lg:py-12 px-4 sm:px-6 lg:px-12">
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-16">
