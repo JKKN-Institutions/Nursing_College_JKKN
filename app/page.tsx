@@ -24,6 +24,7 @@ import {
 import { createClient } from "@/lib/supabase/server";
 import { Suspense } from "react";
 import ScrollToSection from "@/components/ScrollToSection";
+import HomepagePopup from "@/components/HomepagePopup";
 
 const localBusinessSchema = {
   "@context": "https://schema.org",
@@ -339,6 +340,7 @@ export default async function Home() {
 
   return (
     <>
+      <HomepagePopup />
       <Suspense fallback={null}>
         <ScrollToSection />
       </Suspense>
