@@ -142,7 +142,7 @@ export default function Footer({ hideLifeAtJKKN: _unused }: FooterProps = {}) {
       {/* Copyright */}
       <div className="py-4 px-4">
         <div className="text-center text-xs sm:text-sm">
-          <p>&copy; 2025 Sresakthimayeil Institute of Nursing and Research. All rights reserved.</p>
+          <p>&copy; 2026 Sresakthimayeil Institute of Nursing and Research. All rights reserved.</p>
         </div>
       </div>
 
