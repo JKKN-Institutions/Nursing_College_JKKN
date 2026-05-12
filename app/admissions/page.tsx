@@ -531,7 +531,129 @@ export default function Admissions() {
           </div>
         </section>
 
-        {/* ── 9. CTA SECTION ─────────────────────────────────────── */}
+        {/* ── 9. FREQUENTLY ASKED QUESTIONS ─────────────────────── */}
+        <section id="faq" className="bg-[#FBFBEE] py-14 md:py-20">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
+            <div className="text-center mb-10">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0b7845] mb-3">
+                Frequently Asked Questions
+              </h2>
+              <div className="w-16 h-1 bg-[#7cb983] mx-auto mb-4"></div>
+              <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
+                Quick answers to the most common admission questions for B.Sc, M.Sc, and Post Basic B.Sc Nursing
+              </p>
+            </div>
+
+            <div className="max-w-4xl mx-auto space-y-4">
+              {[
+                {
+                  q: "What is the eligibility criteria for B.Sc Nursing at JKKN?",
+                  a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year.",
+                },
+                {
+                  q: "Is NEET mandatory for B.Sc Nursing admission?",
+                  a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards.",
+                },
+                {
+                  q: "What is the eligibility for M.Sc Nursing?",
+                  a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration.",
+                },
+                {
+                  q: "What are the fees for B.Sc Nursing under Management Quota?",
+                  a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately.",
+                },
+                {
+                  q: "How can I apply for admission to JKKN College of Nursing?",
+                  a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance.",
+                },
+                {
+                  q: "What is the admission process — Government Quota vs Management Quota?",
+                  a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances.",
+                },
+                {
+                  q: "Are scholarships available for nursing students?",
+                  a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible students with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available.",
+                },
+                {
+                  q: "Is hostel accommodation provided?",
+                  a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis.",
+                },
+                {
+                  q: "What documents are required at the time of admission?",
+                  a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration.",
+                },
+                {
+                  q: "What is the placement rate at JKKN College of Nursing?",
+                  a: "JKKN consistently achieves a 97% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
+                },
+                {
+                  q: "When do classes begin for the 2026-27 academic year?",
+                  a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications.",
+                },
+                {
+                  q: "Does JKKN have its own teaching hospital for clinical training?",
+                  a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where students get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
+                },
+              ].map(({ q, a }, idx) => (
+                <details
+                  key={idx}
+                  className="group bg-white border border-[#d4eadb] rounded-xl overflow-hidden hover:shadow-md transition-shadow"
+                >
+                  <summary className="flex items-start justify-between gap-4 cursor-pointer list-none p-5 sm:p-6">
+                    <h3 className="font-semibold text-[#0b7845] text-base sm:text-lg pr-2">
+                      {q}
+                    </h3>
+                    <svg
+                      className="w-5 h-5 text-[#006837] flex-shrink-0 mt-1 transition-transform duration-200 group-open:rotate-180"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+                  <div className="px-5 sm:px-6 pb-5 sm:pb-6 -mt-1">
+                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed border-t border-[#e8f5e9] pt-4">
+                      {a}
+                    </p>
+                  </div>
+                </details>
+              ))}
+            </div>
+
+          </div>
+
+          {/* FAQ JSON-LD Schema for SEO */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                  { q: "What is the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year." },
+                  { q: "Is NEET mandatory for B.Sc Nursing admission?", a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards." },
+                  { q: "What is the eligibility for M.Sc Nursing?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
+                  { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately." },
+                  { q: "How can I apply for admission to JKKN College of Nursing?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
+                  { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances." },
+                  { q: "Are scholarships available for nursing students?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible students with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
+                  { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
+                  { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
+                  { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 97% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
+                  { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
+                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where students get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
+                ].map(({ q, a }) => ({
+                  "@type": "Question",
+                  "name": q,
+                  "acceptedAnswer": { "@type": "Answer", "text": a },
+                })),
+              }),
+            }}
+          />
+        </section>
+
+        {/* ── 10. CTA SECTION ────────────────────────────────────── */}
         <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] py-16 md:py-20">
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
