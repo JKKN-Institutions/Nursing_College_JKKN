@@ -7,24 +7,24 @@ import { UserCircle2 } from 'lucide-react';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Faculty | JKKN Dental College & Hospital',
+  title: 'Faculty | JKKN College of Nursing',
   description:
-    'Meet the experienced faculty of JKKN Dental College & Hospital, Komarapalayam. Qualified professors and specialists in BDS and MDS programmes.',
-  alternates: { canonical: '/faculty/' },
+    'Meet the experienced faculty of JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
+  alternates: { canonical: '/faculty' },
   openGraph: {
-    title: 'Faculty | JKKN Dental College & Hospital',
+    title: 'Faculty | JKKN College of Nursing',
     description:
-      'Meet the experienced faculty of JKKN Dental College & Hospital, Komarapalayam.',
-    url: 'https://dental.jkkn.ac.in/faculty/',
-    siteName: 'JKKN Dental College & Hospital',
+      'Meet the experienced faculty of JKKN College of Nursing, Komarapalayam. Qualified professors and specialists in nursing education and research.',
+    url: 'https://nursing.sresakthimayeil.jkkn.ac.in/faculty',
+    siteName: 'JKKN College of Nursing',
     type: 'website',
     locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Faculty | JKKN Dental College & Hospital',
+    title: 'Faculty | JKKN College of Nursing',
     description:
-      'Meet the experienced faculty of JKKN Dental College & Hospital, Komarapalayam.',
+      'Meet the experienced faculty of JKKN College of Nursing, Komarapalayam.',
   },
 };
 
@@ -54,7 +54,7 @@ export default async function FacultyPage() {
             </p>
             <h1 className="text-3xl sm:text-4xl font-bold text-white">Our Faculty</h1>
             <p className="text-green-200 mt-3 text-sm sm:text-base max-w-xl mx-auto">
-              Experienced specialists guiding the next generation of dental professionals.
+              Experienced specialists guiding the next generation of nursing professionals.
             </p>
           </div>
         </section>

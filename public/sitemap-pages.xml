@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in</loc>
-    <lastmod>2026-03-19</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/</loc>
+    <lastmod>2026-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -216,6 +216,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2026</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/nirf-others</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
@@ -277,18 +283,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-discipline</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/antiragging</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/anti-sexual-harassment</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
@@ -314,12 +308,6 @@
   </url>
   <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/sgrc</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/committee-page</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -434,5 +422,30 @@
     <lastmod>2026-03-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
+  </url>
+  <!-- Key Conversion + Trust Pages -->
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/faq</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/scholarships</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/testimonials</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/faculty</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

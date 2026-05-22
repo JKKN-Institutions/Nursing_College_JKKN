@@ -70,6 +70,8 @@ const nextConfig: NextConfig = {
 
       // Committee pages
       { source: '/anti-ragging-cell', destination: '/anti-ragging-committee', permanent: true },
+      { source: '/anti-ragging-discipline', destination: '/anti-ragging-committee', permanent: true },
+      { source: '/antiragging', destination: '/anti-ragging-committee', permanent: true },
       { source: '/anti-sexual-harassment-cell', destination: '/internal-complaints-committee', permanent: true },
 
       // Facility / gallery pages

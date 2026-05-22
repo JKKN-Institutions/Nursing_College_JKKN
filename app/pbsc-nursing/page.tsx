@@ -161,7 +161,7 @@ export default function PBScNursing() {
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
         { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
-        { name: 'Post Basic B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing/' },
+        { name: 'Post Basic B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing' },
       ]} />
       <main className="bg-[#FBFBEE]">
         {/* Hero Section */}
