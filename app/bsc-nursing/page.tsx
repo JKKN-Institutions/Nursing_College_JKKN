@@ -31,7 +31,7 @@ export default function BScNursing() {
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
         { name: 'Nursing College', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
-        { name: 'B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing/' },
+        { name: 'B.Sc Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing' },
       ]} />
       <script
         type="application/ld+json"

@@ -50,7 +50,7 @@ const mscNursingSchema = {
   "@type": "Course",
   "name": "Master of Science in Nursing (M.Sc Nursing)",
   "description": "2-year INC-approved postgraduate nursing program at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
-  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing/",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
   "provider": {
     "@type": "CollegeOrUniversity",
     "name": "Sresakthimayeil Institute of Nursing and Research",

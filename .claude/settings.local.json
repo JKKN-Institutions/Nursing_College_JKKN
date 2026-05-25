@@ -21,7 +21,9 @@
       "mcp__website-auditor__check_links",
       "mcp__tavily__tavily_search",
       "mcp__website-auditor__audit_page",
-      "mcp__website-auditor__check_content"
+      "mcp__website-auditor__check_content",
+      "mcp__seo-search-console__top_queries",
+      "mcp__seo-search-console__top_pages"
     ]
   }
 }

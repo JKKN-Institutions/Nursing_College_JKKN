@@ -36,16 +36,16 @@ export async function generateMetadata({
     .eq('college_id', process.env.NEXT_PUBLIC_COLLEGE_ID)
     .single();
 
-  if (!data) return { title: 'Faculty | JKKN Dental College & Hospital' };
+  if (!data) return { title: 'Faculty | JKKN College of Nursing' };
 
-  const title = `${data.name} — ${data.designation} | JKKN Dental College & Hospital`;
-  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN Dental College & Hospital, Komarapalayam.`;
+  const title = `${data.name} — ${data.designation} | JKKN College of Nursing`;
+  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam.`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/faculty/${slug}/` },
-    openGraph: { title, description, url: `https://dental.jkkn.ac.in/faculty/${slug}/`, siteName: 'JKKN Dental College & Hospital', type: 'website', locale: 'en_IN' },
+    alternates: { canonical: `/faculty/${slug}` },
+    openGraph: { title, description, url: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}`, siteName: 'JKKN College of Nursing', type: 'website', locale: 'en_IN' },
     twitter: { card: 'summary_large_image', title, description },
   };
 }
