@@ -10,17 +10,19 @@ export const dynamic = 'force-dynamic';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
-type AcademicQualification = { degree: string; specialisation: string; university: string; year: string };
-type ExperienceEntry = { type: string; period_start: string; period_end: string; role: string; institution: string; description: string };
+type AcademicQualification = { degree: string; specialisation?: string; specialization?: string; university?: string; institution?: string; year: string | number };
+type ExperienceEntry = { type?: string; period_start?: string; period_end?: string; from?: string; to?: string; role: string; institution?: string; organisation?: string; description: string };
 type Publication = { title: string; authors: string; journal: string; year: string; doi_url: string; pubmed_url: string };
 type FundedResearch = { project: string; agency: string; amount: string; period: string; status: string };
-type Certification = { name: string; organisation: string; year: string };
+type Certification = { name: string; organisation?: string; issuer?: string; year: string; credential_url?: string };
 type Award = { award: string; body: string; year: string };
 type Membership = { organisation: string; type: string; since: string };
 type PhdScholar = { scholar: string; research_topic: string; status: string };
 type FAQ = { question: string; answer: string };
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────
+
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 export async function generateMetadata({
   params,
@@ -29,10 +31,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const supabase = await createClient();
+  const filter = UUID_RE.test(slug) ? `slug.eq.${slug},id.eq.${slug}` : `slug.eq.${slug}`;
   const { data } = await supabase
     .from('faculty')
     .select('name, designation, department')
-    .or(`slug.eq.${slug},id.eq.${slug}`)
+    .or(filter)
     .eq('college_id', process.env.NEXT_PUBLIC_COLLEGE_ID)
     .single();
 
@@ -61,6 +64,7 @@ export default async function FacultyProfilePage({
   const supabase = await createClient();
   const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID;
 
+  const filter = UUID_RE.test(slug) ? `slug.eq.${slug},id.eq.${slug}` : `slug.eq.${slug}`;
   const { data: m } = await supabase
     .from('faculty')
     .select(`
@@ -73,7 +77,7 @@ export default async function FacultyProfilePage({
       experience, research_focus, publications, funded_research,
       certifications, awards, memberships, phd_scholars, faqs
     `)
-    .or(`slug.eq.${slug},id.eq.${slug}`)
+    .or(filter)
     .eq('college_id', collegeId)
     .eq('is_active', true)
     .single();
@@ -83,9 +87,9 @@ export default async function FacultyProfilePage({
   // Typed casts for JSONB fields
   const badges = (m.badges as string[]) ?? [];
   const academicQualifications = (m.academic_qualifications as AcademicQualification[]) ?? [];
-  const areasOfSpecialisation = (m.areas_of_specialisation as string[]) ?? [];
+  const areasOfSpecialisation = ((m.areas_of_specialisation as Array<string | { name: string }>) ?? []).map((v) => typeof v === 'string' ? v : v.name);
   const experienceEntries = (m.experience as ExperienceEntry[]) ?? [];
-  const researchFocus = (m.research_focus as string[]) ?? [];
+  const researchFocus = ((m.research_focus as Array<string | { area: string }>) ?? []).map((v) => typeof v === 'string' ? v : v.area);
   const publications = (m.publications as Publication[]) ?? [];
   const fundedResearch = (m.funded_research as FundedResearch[]) ?? [];
   const certifications = (m.certifications as Certification[]) ?? [];
@@ -101,27 +105,33 @@ export default async function FacultyProfilePage({
     .map((w: string) => w[0].toUpperCase())
     .join('');
 
-  // Group experience by type
-  const teachingExp = experienceEntries.filter((e) => e.type === 'Teaching');
-  const clinicalExp = experienceEntries.filter((e) => e.type === 'Clinical');
+  // Normalise experience entries — DB may use from/to/organisation or period_start/period_end/institution
+  const normalisedExp = experienceEntries.map((e) => ({
+    ...e,
+    period_start: e.period_start || e.from || '',
+    period_end: e.period_end || e.to || '',
+    institution: e.institution || e.organisation || '',
+    type: e.type || '',
+  }));
 
-  const teachingYears = teachingExp.reduce((acc, e) => {
-    const start = parseInt(e.period_start) || 0;
-    const end = e.period_end?.toLowerCase() === 'present' ? new Date().getFullYear() : parseInt(e.period_end) || start;
-    return acc + (end - start);
-  }, 0);
+  const teachingExp = normalisedExp.filter((e) => e.type === 'Teaching');
+  const clinicalExp = normalisedExp.filter((e) => e.type === 'Clinical');
+  const otherExp = normalisedExp.filter((e) => e.type !== 'Teaching' && e.type !== 'Clinical');
 
-  const clinicalYears = clinicalExp.reduce((acc, e) => {
-    const start = parseInt(e.period_start) || 0;
-    const end = e.period_end?.toLowerCase() === 'present' ? new Date().getFullYear() : parseInt(e.period_end) || start;
-    return acc + (end - start);
-  }, 0);
+  const calcYears = (entries: typeof normalisedExp) =>
+    entries.reduce((acc, e) => {
+      const start = parseInt(e.period_start) || 0;
+      const end = e.period_end?.toLowerCase() === 'present' ? new Date().getFullYear() : parseInt(e.period_end) || start;
+      return acc + (end - start);
+    }, 0);
+
+  const teachingYears = calcYears(teachingExp);
+  const clinicalYears = calcYears(clinicalExp);
 
   // ── Shared styles
-  const sectionCard = 'bg-white rounded-2xl border border-gray-100 shadow-sm p-6 mb-4';
+  const sectionCard = 'bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-6 mb-4';
   const sectionTitle = 'text-xl font-bold text-gray-900 flex items-center gap-3 mb-4';
   const iconBox = 'w-10 h-10 rounded-xl flex items-center justify-center text-lg flex-shrink-0';
-  const tableHead = 'text-xs font-semibold text-[#1B5E20] uppercase tracking-wide';
   const chip = 'px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-700';
 
   return (
@@ -231,26 +241,22 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-yellow-50`}>🎓</span>
                 Academic Qualifications
               </h2>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-gray-100">
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Degree</th>
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Specialisation</th>
-                    <th className={`${tableHead} text-left py-2 pr-4`}>University</th>
-                    <th className={`${tableHead} text-right py-2`}>Year</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {academicQualifications.map((q, i) => (
-                    <tr key={i} className="border-b border-gray-50 last:border-0">
-                      <td className="py-3 pr-4 font-semibold text-gray-900">{q.degree}</td>
-                      <td className="py-3 pr-4 text-gray-600">{q.specialisation}</td>
-                      <td className="py-3 pr-4 text-gray-600">{q.university}</td>
-                      <td className="py-3 text-right font-bold text-[#1B5E20]">{q.year}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div className="space-y-3">
+                {academicQualifications.map((q, i) => (
+                  <div key={i} className="bg-gray-50 rounded-xl p-4">
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="font-semibold text-gray-900 text-sm">{q.degree}</p>
+                      <span className="text-xs font-bold text-[#1B5E20] whitespace-nowrap">{q.year}</span>
+                    </div>
+                    {(q.specialisation || q.specialization) && (
+                      <p className="text-xs text-gray-600 mt-1">{q.specialisation || q.specialization}</p>
+                    )}
+                    {(q.university || q.institution) && (
+                      <p className="text-xs text-gray-500 mt-0.5">{q.university || q.institution}</p>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
@@ -270,7 +276,7 @@ export default async function FacultyProfilePage({
           )}
 
           {/* Experience */}
-          {experienceEntries.length > 0 && (
+          {normalisedExp.length > 0 && (
             <div className={sectionCard}>
               <h2 className={sectionTitle}>
                 <span className={`${iconBox} bg-red-50`}>💼</span>
@@ -304,13 +310,35 @@ export default async function FacultyProfilePage({
               )}
 
               {clinicalExp.length > 0 && (
-                <div>
+                <div className="mb-6">
                   <p className="text-xs font-semibold text-gray-400 tracking-widest uppercase mb-3 flex items-center gap-2">
                     <span className="w-4 h-px bg-[#1B5E20] inline-block" />
                     CLINICAL{clinicalYears > 0 ? ` · ${clinicalYears} YEARS` : ''}
                   </p>
                   <div className="relative pl-5 border-l-2 border-gray-200 space-y-5">
                     {clinicalExp.map((entry, i) => (
+                      <div key={i} className="relative">
+                        {i === 0 && (
+                          <span className="absolute -left-[1.4rem] top-1 w-3 h-3 rounded-full bg-[#1B5E20] border-2 border-white shadow" />
+                        )}
+                        <p className="text-xs font-semibold text-[#1B5E20] uppercase tracking-wide mb-0.5">
+                          {entry.period_start}{entry.period_end ? ` – ${entry.period_end.toUpperCase()}` : ''}
+                        </p>
+                        <p className="font-semibold text-gray-900 text-sm">{entry.role}</p>
+                        <p className="text-sm text-gray-500">{entry.institution}</p>
+                        {entry.description && (
+                          <p className="text-xs text-gray-400 mt-0.5">{entry.description}</p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {otherExp.length > 0 && (
+                <div>
+                  <div className="relative pl-5 border-l-2 border-gray-200 space-y-5">
+                    {otherExp.map((entry, i) => (
                       <div key={i} className="relative">
                         {i === 0 && (
                           <span className="absolute -left-[1.4rem] top-1 w-3 h-3 rounded-full bg-[#1B5E20] border-2 border-white shadow" />
@@ -398,36 +426,24 @@ export default async function FacultyProfilePage({
                     <span className="w-4 h-px bg-[#1B5E20] inline-block" />
                     FUNDED RESEARCH
                   </p>
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="border-b border-gray-100">
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Project</th>
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Agency</th>
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Amount</th>
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Period</th>
-                        <th className={`${tableHead} text-left py-2`}>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {fundedResearch.map((fr, i) => (
-                        <tr key={i} className="border-b border-gray-50 last:border-0">
-                          <td className="py-3 pr-4 text-gray-900">{fr.project}</td>
-                          <td className="py-3 pr-4 text-gray-600">{fr.agency}</td>
-                          <td className="py-3 pr-4 text-gray-600">{fr.amount}</td>
-                          <td className="py-3 pr-4 text-gray-600">{fr.period}</td>
-                          <td className="py-3">
-                            <span className={`text-xs font-medium px-2.5 py-1 rounded-full ${
-                              fr.status === 'Completed'
-                                ? 'bg-green-50 text-green-700 border border-green-200'
-                                : 'bg-yellow-50 text-yellow-700 border border-yellow-200'
-                            }`}>
-                              {fr.status}
-                            </span>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                  <div className="space-y-3">
+                    {fundedResearch.map((fr, i) => (
+                      <div key={i} className="bg-gray-50 rounded-xl p-4">
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="font-semibold text-gray-900 text-sm">{fr.project}</p>
+                          <span className={`text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap ${
+                            fr.status === 'Completed'
+                              ? 'bg-green-50 text-green-700 border border-green-200'
+                              : 'bg-yellow-50 text-yellow-700 border border-yellow-200'
+                          }`}>
+                            {fr.status}
+                          </span>
+                        </div>
+                        <p className="text-xs text-gray-600 mt-1">{fr.agency}{fr.amount ? ` · ${fr.amount}` : ''}</p>
+                        {fr.period && <p className="text-xs text-gray-500 mt-0.5">{fr.period}</p>}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
@@ -476,7 +492,7 @@ export default async function FacultyProfilePage({
                     <span className="w-2 h-2 rounded-full bg-[#1B5E20] mt-1.5 flex-shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-gray-900">{cert.name}</p>
-                      <p className="text-xs text-gray-500">{cert.organisation}{cert.year ? ` · ${cert.year}` : ''}</p>
+                      <p className="text-xs text-gray-500">{cert.organisation || cert.issuer}{cert.year ? ` · ${cert.year}` : ''}</p>
                     </div>
                   </div>
                 ))}
@@ -491,24 +507,20 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-yellow-50`}>🏆</span>
                 Awards &amp; Recognitions
               </h2>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-gray-100">
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Award</th>
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Body</th>
-                    <th className={`${tableHead} text-right py-2`}>Year</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {awards.map((award, i) => (
-                    <tr key={i} className="border-b border-gray-50 last:border-0">
-                      <td className="py-3 pr-4 font-semibold text-gray-900">{award.award}</td>
-                      <td className="py-3 pr-4 text-gray-600">{award.body}</td>
-                      <td className="py-3 text-right font-bold text-[#1B5E20]">{award.year}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div className="space-y-3">
+                {awards.map((award, i) => (
+                  <div key={i} className="flex items-start gap-2 bg-gray-50 rounded-xl p-3">
+                    <span className="w-2 h-2 rounded-full bg-[#FFC107] mt-1.5 flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-start justify-between gap-2">
+                        <p className="text-sm font-medium text-gray-900">{award.award}</p>
+                        {award.year && <span className="text-xs font-bold text-[#1B5E20] whitespace-nowrap">{award.year}</span>}
+                      </div>
+                      {award.body && <p className="text-xs text-gray-500 mt-0.5">{award.body}</p>}
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
@@ -519,24 +531,17 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-purple-50`}>👥</span>
                 Professional Memberships
               </h2>
-              <table className="w-full text-sm">
-                <thead>
-                  <tr className="border-b border-gray-100">
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Organisation</th>
-                    <th className={`${tableHead} text-left py-2 pr-4`}>Type</th>
-                    <th className={`${tableHead} text-right py-2`}>Since</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {memberships.map((mem, i) => (
-                    <tr key={i} className="border-b border-gray-50 last:border-0">
-                      <td className="py-3 pr-4 font-semibold text-gray-900">{mem.organisation}</td>
-                      <td className="py-3 pr-4 text-gray-600">{mem.type}</td>
-                      <td className="py-3 text-right font-bold text-[#1B5E20]">{mem.since}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <div className="space-y-3">
+                {memberships.map((mem, i) => (
+                  <div key={i} className="flex items-start gap-2 bg-gray-50 rounded-xl p-3">
+                    <span className="w-2 h-2 rounded-full bg-[#1B5E20] mt-1.5 flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-medium text-gray-900">{mem.organisation}</p>
+                      <p className="text-xs text-gray-500 mt-0.5">{mem.type}{mem.since ? ` · Since ${mem.since}` : ''}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 
@@ -558,32 +563,25 @@ export default async function FacultyProfilePage({
                     <span className="w-4 h-px bg-[#1B5E20] inline-block" />
                     PHD SCHOLARS
                   </p>
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="border-b border-gray-100">
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Scholar</th>
-                        <th className={`${tableHead} text-left py-2 pr-4`}>Research Topic</th>
-                        <th className={`${tableHead} text-right py-2`}>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {phdScholars.map((scholar, i) => (
-                        <tr key={i} className="border-b border-gray-50 last:border-0">
-                          <td className="py-3 pr-4 font-semibold text-gray-900">{scholar.scholar}</td>
-                          <td className="py-3 pr-4 text-gray-600">{scholar.research_topic}</td>
-                          <td className="py-3 text-right">
-                            <span className={`text-xs font-medium px-2.5 py-1 rounded-full ${
-                              scholar.status?.toLowerCase() === 'ongoing'
-                                ? 'bg-yellow-50 text-yellow-700 border border-yellow-200'
-                                : 'bg-green-50 text-green-700 border border-green-200'
-                            }`}>
-                              {scholar.status}
-                            </span>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                  <div className="space-y-3">
+                    {phdScholars.map((scholar, i) => (
+                      <div key={i} className="bg-gray-50 rounded-xl p-4">
+                        <div className="flex items-start justify-between gap-2">
+                          <p className="font-semibold text-gray-900 text-sm">{scholar.scholar}</p>
+                          <span className={`text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap ${
+                            scholar.status?.toLowerCase() === 'ongoing'
+                              ? 'bg-yellow-50 text-yellow-700 border border-yellow-200'
+                              : 'bg-green-50 text-green-700 border border-green-200'
+                          }`}>
+                            {scholar.status}
+                          </span>
+                        </div>
+                        {scholar.research_topic && (
+                          <p className="text-xs text-gray-600 mt-1">{scholar.research_topic}</p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 

@@ -4,6 +4,12 @@
   "installCommand": "npm install",
   "framework": "nextjs",
   "outputDirectory": ".next",
+  "crons": [
+    {
+      "path": "/api/admin/sync-faculty",
+      "schedule": "0 2 * * *"
+    }
+  ],
   "headers": [
     {
       "source": "/images/(.*)",
