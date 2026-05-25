@@ -27,14 +27,15 @@ export default function Hostel() {
           </div>
         </div>
 
-        {/* Hostel Images */}
+        {/* Boys Hostel Images */}
         <div className="bg-[#FBFBEE] pb-6 sm:pb-8">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <h2 className="text-xl sm:text-2xl font-semibold text-[#002309] mb-4">Boys Hostel</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               <div className="w-full">
                 <Image
-                  src="/images/hostel-1.webp"
-                  alt="Hostel Room 1"
+                  src="/images/boys-hostel-1.jpg"
+                  alt="Boys Hostel 1"
                   width={450}
                   height={350}
                   className="w-full h-auto object-cover"
@@ -42,8 +43,8 @@ export default function Hostel() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/hostel-2.webp"
-                  alt="Hostel Room 2"
+                  src="/images/boys-hostel-2.jpg"
+                  alt="Boys Hostel 2"
                   width={450}
                   height={350}
                   className="w-full h-auto object-cover"
@@ -51,8 +52,44 @@ export default function Hostel() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/hostel-3.webp"
-                  alt="Hostel Room 3"
+                  src="/images/boys-hostel-3.jpg"
+                  alt="Boys Hostel 3"
+                  width={450}
+                  height={350}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Girls Hostel Images */}
+        <div className="bg-[#FBFBEE] pb-6 sm:pb-8">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
+            <h2 className="text-xl sm:text-2xl font-semibold text-[#002309] mb-4">Girls Hostel</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+              <div className="w-full">
+                <Image
+                  src="/images/girls-hostel-1.jpg"
+                  alt="Girls Hostel 1"
+                  width={450}
+                  height={350}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="w-full">
+                <Image
+                  src="/images/girls-hostel-2.jpg"
+                  alt="Girls Hostel 2"
+                  width={450}
+                  height={350}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <div className="w-full">
+                <Image
+                  src="/images/girls-hostel-3.jpg"
+                  alt="Girls Hostel 3"
                   width={450}
                   height={350}
                   className="w-full h-auto object-cover"

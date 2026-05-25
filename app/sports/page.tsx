@@ -28,7 +28,7 @@ export default function Sports() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
-                  src="/images/sports-1.webp"
+                  src="/images/sports-1.avif"
                   alt="Student in Sports Uniform"
                   width={450}
                   height={350}
@@ -37,7 +37,7 @@ export default function Sports() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/sports-2.webp"
+                  src="/images/sports-2.avif"
                   alt="Indoor Sports Hall"
                   width={450}
                   height={350}
@@ -46,7 +46,7 @@ export default function Sports() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/sports-3.webp"
+                  src="/images/sports-3.avif"
                   alt="Student with Mobile Device"
                   width={450}
                   height={350}
