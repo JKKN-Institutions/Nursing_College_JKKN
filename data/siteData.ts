@@ -130,6 +130,7 @@ export const navigationMenu = [
     href: "#",
     submenu: [
       { label: "Blog", href: "/blog" },
+      { label: "Careers", href: "https://jobs.cvviz.com/jkkn_institutions", target: "_blank" },
       { label: "NIRF", href: "/nirf-others" },
       { label: "Best practice", href: "/pdf/Best-practice.pdf", target: "_blank" },
       { label: "CODE OF CONDUCT", href: "/code-of-conduct" },
