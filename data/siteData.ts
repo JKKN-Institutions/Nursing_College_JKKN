@@ -155,7 +155,7 @@ export const navigationMenu = [
       { label: "Committee", href: "/pdf/committee.pdf", target: "_blank" },
       { label: "Antiragging", href: "/pdf/antiragging.pdf", target: "_blank" },
       { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Faculty Details", href: "/faculty-details" },
+      { label: "Faculty", href: "/faculty" },
       { label: "E- CONTENT", href: "/pdf/E-content.pdf", target: "_blank" },
       { label: "Feedback Analysis and Action Taken", href: "/pdf/feedback-analysis-and-action-taken.pdf", target: "_blank" },
     ],
