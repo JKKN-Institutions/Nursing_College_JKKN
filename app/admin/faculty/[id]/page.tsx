@@ -32,10 +32,10 @@ export default async function EditFaculty({ params }: { params: Promise<{ id: st
         className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gray-800 mb-6 transition"
       >
         <ArrowLeft className="w-4 h-4" />
-        Back to Faculty
+        Back to Senior Learners
       </Link>
 
-      <h1 className="text-2xl font-bold text-gray-900 mb-6">Edit Faculty Member</h1>
+      <h1 className="text-2xl font-bold text-gray-900 mb-6">Edit Senior Learner</h1>
 
       <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-6">
         <FacultyForm member={member} />

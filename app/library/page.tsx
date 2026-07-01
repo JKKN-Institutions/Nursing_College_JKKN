@@ -62,7 +62,7 @@ export default function Library() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Text */}
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Library is equipped with adequate books,latest National and International Journals.
+              The learning commons is equipped with adequate books,latest National and International Journals.
             </p>
 
             {/* Library Rules Section */}
@@ -74,21 +74,21 @@ export default function Library() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Strict silence must be maintained in the Library.
+                  Strict silence must be maintained in the learning commons.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Reference books may be referred only within the premises of the library. It cannot be taken bythe students from the library at any time.
+                  Reference books may be referred only within the premises of the learning commons. It cannot be taken bythe learners from the learning commons at any time.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The library will be kept open on all working days from 9.00 am to 6.00 pm. It will remain closed on Sundays and other recognized holidays.
+                  The learning commons will be kept open on all working days from 9.00 am to 6.00 pm. It will remain closed on Sundays and other recognized holidays.
                 </p>
               </li>
 
@@ -102,7 +102,7 @@ export default function Library() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Each student will be supplied with two library tickets. Books will be issued against these ticketsonly. As soon as the book is returned the respective ticket will be returned to the student.Loss of library tickets should be brought to the notice of librarian immediately. Therespective student is responsible for all the books borrowed against her ticket.
+                  Each learner will be supplied with two library tickets. Books will be issued against these ticketsonly. As soon as the book is returned the respective ticket will be returned to the learner.Loss of library tickets should be brought to the notice of librarian immediately. Therespective learner is responsible for all the books borrowed against her ticket.
                 </p>
               </li>
 
@@ -116,7 +116,7 @@ export default function Library() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The student must satisfy herself,whether the book issued to her is in sound condition and if the matteris not brought to the notice of the librarian, the borrower will beheld responsible for all damages to books noticed at the time of their return and they have to pay for its replacement.
+                  The learner must satisfy herself,whether the book issued to her is in sound condition and if the matteris not brought to the notice of the librarian, the borrower will beheld responsible for all damages to books noticed at the time of their return and they have to pay for its replacement.
                 </p>
               </li>
             </ul>

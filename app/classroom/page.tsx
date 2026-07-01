@@ -65,28 +65,28 @@ export default function Classroom() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Well ventilated classrooms with comfortable seating arrangements & equipped with Black Boards and LCDs.
+                  Well ventilated learning studios with comfortable seating arrangements & equipped with Black Boards and LCDs.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The classroom at JKKN is equipped with modern facilities that cater to the needs of nursing students.
+                  The learning studio at JKKN is equipped with modern facilities that cater to the needs of nursing learners.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Simulated medical equipment: The classroom at JKKN is equipped with simulated medical equipment, which allows nursing students to practice hands-on skills and procedures in a safe and controlled environment.
+                  Simulated medical equipment: The learning studio at JKKN is equipped with simulated medical equipment, which allows nursing learners to practice hands-on skills and procedures in a safe and controlled environment.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The classroom is designed to provide a conducive learning environment, with appropriate lighting and temperature control to ensure comfort for students during lectures and study sessions.
+                  The learning studio is designed to provide a conducive learning environment, with appropriate lighting and temperature control to ensure comfort for learners during learning sessions and study sessions.
                 </p>
               </li>
             </ul>

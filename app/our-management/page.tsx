@@ -99,7 +99,7 @@ export default function OurManagement() {
                     Happy to hold the monumental responsibility as Chairperson of "JKKN Educational Institutions," I am proud to say that we have made exceptional progress and have achieved the status of one of the most prestigious nursing colleges.
                   </p>
                   <p className="mt-4">
-                    The institution provides the necessary infrastructure and a team of qualified and motivated faculty, all under one roof for the student community. Besides providing world-class nursing education, we also inculcate a progressive attitude blended with innovation toward the betterment of society.Our hearty welcome to our lush green campus!
+                    The institution provides the necessary infrastructure and a team of qualified and motivated senior learners, all under one roof for the learner community. Besides providing world-class nursing education, we also inculcate a progressive attitude blended with innovation toward the betterment of society.Our hearty welcome to our lush green campus!
                   </p>
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default function OurManagement() {
                 {/* Description */}
                 <div className="text-gray-700 text-base leading-relaxed text-justify px-4">
                   <p>
-                    I heartily congratulate the college for taking an ardent and intense interest in molding smart future of students. We are committed to the mission of implementing new education methodologies to enable quality learning that encourages independent thinking and helps students develop a wholesome personality so that they can contribute their best to society and the country. Together, we work to make JKKN the best temple of learning, guiding and encouraging students in their way. JKKN aims to produce top-notch professionals with their colorful flag flying high in the air of success in this pulsating world of competition.
+                    I heartily congratulate the college for taking an ardent and intense interest in molding smart future of learners. We are committed to the mission of implementing new education methodologies to enable quality learning that encourages independent thinking and helps learners develop a wholesome personality so that they can contribute their best to society and the country. Together, we work to make JKKN the best temple of learning, guiding and encouraging learners in their way. JKKN aims to produce top-notch professionals with their colorful flag flying high in the air of success in this pulsating world of competition.
                   </p>
                 </div>
               </div>

@@ -1,13 +1,13 @@
 export const lifeAtJKKN = [
   {
     id: 1,
-    title: "HAPPY CLASSROOM",
+    title: "HAPPY LEARNING STUDIO",
     image: "/images/facilities/classroom.jpg",
-    description: "Modern, well-equipped classrooms with interactive learning facilities",
+    description: "Modern, well-equipped learning studios with interactive learning facilities",
   },
   {
     id: 2,
-    title: "DIGITAL LIBRARY",
+    title: "DIGITAL LEARNING COMMONS",
     image: "/images/facilities/library.jpg",
     description: "Extensive collection of books, journals, and digital resources",
   },
@@ -29,13 +29,13 @@ export const facilities = [
   {
     id: 1,
     title: "Library",
-    description: "Well-stocked library with latest nursing books, journals, and digital resources",
+    description: "Well-stocked learning commons with latest nursing books, journals, and digital resources",
     icon: "📚",
   },
   {
     id: 2,
     title: "Laboratories",
-    description: "State-of-the-art nursing labs with modern equipment for practical training",
+    description: "State-of-the-art nursing learning labs with modern equipment for practical training",
     icon: "🔬",
   },
   {

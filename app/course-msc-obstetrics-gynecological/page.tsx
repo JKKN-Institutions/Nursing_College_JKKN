@@ -250,8 +250,8 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 <p>
                   At Sresakthimayeil Institute of Nursing and Research, our M.Sc OBG Nursing program is delivered by
-                  experienced Learning Facilitators who are experts in maternal-child health nursing.
-                  The curriculum integrates contemporary obstetric practices, advanced gynecological
+                  experienced Senior Learners who are experts in maternal-child health nursing.
+                  The learning framework integrates contemporary obstetric practices, advanced gynecological
                   nursing concepts, and cutting-edge research methodologies to prepare graduates
                   who can contribute meaningfully to improving maternal and newborn health
                   outcomes.
@@ -415,7 +415,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Access well-stocked library with maternal health journals, e-books, e-library (koha software and delnet software), simulation
+                  Access well-stocked learning commons with maternal health journals, e-books, e-library (koha software and delnet software), simulation learning
                   labs, and latest textbooks for academic excellence.
                 </p>
               </div>
@@ -426,7 +426,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   <FaPeopleCarry className="text-white text-2xl" />
                 </div>
                 <h3 className="text-xl font-bold text-[#006837] mb-3">
-                  Expert Learning Facilitators
+                  Expert Senior Learners
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
                   Learn from experienced OBG nursing specialists with extensive clinical and
@@ -579,7 +579,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 Curriculum Structure
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                A comprehensive 4-semester curriculum designed as per INC guidelines for advanced
+                A comprehensive 4-semester learning framework designed as per INC guidelines for advanced
                 OBG nursing education
               </p>
             </div>

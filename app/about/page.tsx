@@ -26,7 +26,7 @@ export default function About() {
 
       <div className="bg-green-50 border-l-4 border-primary p-4 mb-8 rounded-r-lg">
         <p className="font-semibold text-primary mb-1">Quick Summary</p>
-        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ faculty members and clinical training at a 500+ bed teaching hospital.</p>
+        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at a 500+ bed teaching hospital.</p>
       </div>
 
       <section className="prose prose-lg max-w-none">
@@ -50,7 +50,7 @@ export default function About() {
           Infrastructure and Facilities
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          Sresakthimayeil Institute of Nursing and Research is part of the JKKN Institutions campus, which includes a 500+ bed multi-specialty teaching hospital providing students with clinical exposure from the first year. The campus features advanced nursing laboratories, a well-stocked library, smart classrooms, separate hostel facilities for men and women, sports facilities, Wi-Fi enabled campus, cafeteria, auditorium, and dedicated transport services.
+          Sresakthimayeil Institute of Nursing and Research is part of the JKKN Institutions campus, which includes a 500+ bed multi-specialty teaching hospital providing learners with clinical exposure from the first year. The campus features advanced nursing learning labs, a well-stocked learning commons, smart learning studios, separate hostel facilities for men and women, sports facilities, Wi-Fi enabled campus, cafeteria, learning auditorium, and dedicated transport services.
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">

@@ -89,7 +89,7 @@ const whyChooseItems = [
   {
     icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
     title: "Secure Hostels",
-    desc: "Hostel facilities with secure environment for women students",
+    desc: "Hostel facilities with secure environment for women learners",
   },
   {
     icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
@@ -171,14 +171,14 @@ const reachItems = [
 const facilities = [
   {
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Modern Labs",
-    desc: "State-of-the-art laboratories and smart classrooms",
+    title: "Modern Learning Labs",
+    desc: "State-of-the-art learning labs and smart learning studios",
     href: "/laboratories",
   },
   {
     icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Digital Library",
-    desc: "Well-stocked library with digital access and journals",
+    title: "Digital Learning Commons",
+    desc: "Well-stocked learning commons with digital access and journals",
     href: "/library",
   },
   {
@@ -444,10 +444,10 @@ export default function SalemPage() {
                 Salem, the fifth-largest city in Tamil Nadu, is a major educational and healthcare hub with a thriving steel industry. Known for its medical infrastructure, Salem has several healthcare facilities but a limited number of INC-approved <strong>nursing colleges in Salem</strong> that offer both quality education and strong placement outcomes.
               </p>
               <p>
-                Students searching for <strong>B.Sc nursing colleges in Salem</strong> often discover that the most reputed options lie within a comfortable commute radius. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
+                Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often discover that the most reputed options lie within a comfortable commute radius. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
               </p>
               <p>
-                Among the <strong>best nursing colleges in Salem</strong> region, JKKN stands out with its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem students benefit from a campus that combines academic excellence with practical training at a scale rarely available in the Salem nursing college list.
+                Among the <strong>best nursing colleges in Salem</strong> region, JKKN stands out with its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners benefit from a campus that combines academic excellence with practical training at a scale rarely available in the Salem nursing college list.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -470,7 +470,7 @@ export default function SalemPage() {
                 </div>
               </div>
               <p>
-                With 90%+ placement support including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem students who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+                With 90%+ placement support including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
               </p>
             </div>
           </div>
@@ -481,7 +481,7 @@ export default function SalemPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Salem Students Choose JKKN — Top Nursing College Near Salem
+                Why Salem Learners Choose JKKN — Top Nursing College Near Salem
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 Among nursing colleges accessible from Salem, JKKN stands out with INC approval, NAAC accreditation, and 90%+ placement support. Located just 40-50 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
@@ -511,7 +511,7 @@ export default function SalemPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Nursing Courses Available for Salem Students
+                Nursing Courses Available for Salem Learners
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
@@ -750,7 +750,7 @@ export default function SalemPage() {
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
                 <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
-                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing students from Salem</p>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing learners from Salem</p>
                 <a
                   href="/contact"
                   className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"

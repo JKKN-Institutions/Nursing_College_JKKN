@@ -39,7 +39,7 @@ export default function CommunityHealthNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Field Practice</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Students participate in extensive field visits to rural and urban communities, primary health centers, and community health centers. They conduct health surveys, organize health camps, implement health education programs, and participate in national health initiatives.
+            Learners participate in extensive field visits to rural and urban communities, primary health centers, and community health centers. They conduct health surveys, organize health camps, implement health education programs, and participate in national health initiatives.
           </p>
         </section>
 

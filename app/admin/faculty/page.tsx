@@ -40,7 +40,7 @@ export default async function AdminFaculty() {
       {/* Header */}
       <div className="flex items-center justify-between mb-6 flex-wrap gap-3">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Faculty</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Senior Learners</h1>
           <p className="text-gray-500 text-sm mt-0.5">
             {total} total · {active} active
           </p>
@@ -58,7 +58,7 @@ export default async function AdminFaculty() {
               <thead className="bg-gray-50 text-gray-600">
                 <tr className="text-left">
                   <th className="px-4 py-3 font-semibold w-14">#</th>
-                  <th className="px-4 py-3 font-semibold">Faculty</th>
+                  <th className="px-4 py-3 font-semibold">Senior Learner</th>
                   <th className="px-4 py-3 font-semibold">Role</th>
                   <th className="px-4 py-3 font-semibold">Designation</th>
                   <th className="px-4 py-3 font-semibold">Department</th>
@@ -174,7 +174,7 @@ export default async function AdminFaculty() {
           <div className="w-14 h-14 bg-rose-50 rounded-2xl flex items-center justify-center mb-4">
             <UserCircle2 className="w-7 h-7 text-rose-400" />
           </div>
-          <p className="font-semibold text-gray-700 mb-1">No faculty synced yet</p>
+          <p className="font-semibold text-gray-700 mb-1">No senior learners synced yet</p>
           <p className="text-sm text-gray-400 mb-5">
             Click <span className="font-medium">Sync from MyJKKN</span> to pull principals, HODs and facilitators from MyJKKN.
           </p>

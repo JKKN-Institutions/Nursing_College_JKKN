@@ -63,7 +63,7 @@ export default function ClinicalHospital() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Text */}
             <p className="text-gray-700 mb-8 leading-relaxed">
-              The institution is affiliated to different hospital which provides rich clinical experience to all students
+              The institution is affiliated to different hospital which provides rich clinical experience to all learners
             </p>
 
             {/* Affiliated Hospital Section */}

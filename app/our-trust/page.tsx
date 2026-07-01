@@ -50,7 +50,7 @@ export default function OurTrust() {
               </p>
 
               <p>
-                The trust involves itself in many social service activities inclusive of health-oriented services such as free dental camps, free treatments, and surgeries, blood donation camps, and motivational and entrepreneurship awareness camps. The trust also extends its charitable hands; medical support to the impoverished, helping the destitute, natural calamities support, education, and scholarship support to poor students, and cultural support. A pioneering establishment of the zone, since its inception, its grandeur service to society not only in terms of education but also community welfare activities is still immense.
+                The trust involves itself in many social service activities inclusive of health-oriented services such as free dental camps, free treatments, and surgeries, blood donation camps, and motivational and entrepreneurship awareness camps. The trust also extends its charitable hands; medical support to the impoverished, helping the destitute, natural calamities support, education, and scholarship support to poor learners, and cultural support. A pioneering establishment of the zone, since its inception, its grandeur service to society not only in terms of education but also community welfare activities is still immense.
               </p>
             </div>
           </div>

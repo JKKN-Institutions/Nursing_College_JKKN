@@ -433,7 +433,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
     if (error) {
       toast.error('Save failed: ' + error.message);
     } else {
-      toast.success(isEdit ? 'Faculty member updated!' : 'Faculty member added!');
+      toast.success(isEdit ? 'Senior learner updated!' : 'Senior learner added!');
       router.push('/admin/faculty');
       router.refresh();
     }
@@ -481,7 +481,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
               )}
             </div>
             <div className="text-sm text-gray-500 pt-2">
-              <p className="font-medium text-gray-700 mb-1">Upload faculty photo</p>
+              <p className="font-medium text-gray-700 mb-1">Upload senior learner photo</p>
               <p>Click the box to select an image.</p>
               <p className="text-xs text-gray-400 mt-1">
                 JPG, PNG up to 5MB. Square photos work best.
@@ -700,7 +700,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
           </button>
           <span className="text-sm font-medium text-gray-700">
             {isActive
-              ? 'Active (visible on faculty page)'
+              ? 'Active (visible on senior learners page)'
               : 'Inactive (hidden from site)'}
           </span>
         </div>
@@ -720,7 +720,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
             value={summary}
             onChange={(e) => { setSummary(e.target.value); clearError('summary'); }}
             rows={5}
-            placeholder="Write a professional summary paragraph about this faculty member..."
+            placeholder="Write a professional summary paragraph about this senior learner..."
             className={(errors.summary ? IE : I) + ' resize-none'}
           />
           {errors.summary && <p className="text-xs text-red-500 mt-1">{errors.summary}</p>}
@@ -1591,7 +1591,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
             Frequently Asked Questions
           </label>
           <p className="text-xs text-gray-400 mb-3">
-            These appear as an accordion section at the bottom of the faculty profile
+            These appear as an accordion section at the bottom of the senior learner profile
             page.
           </p>
           <div className="space-y-2">
@@ -1698,7 +1698,7 @@ export default function FacultyForm({ member }: FacultyFormProps) {
             className="flex items-center gap-2 bg-[#006837] text-white text-sm font-semibold px-6 py-2.5 rounded-xl hover:bg-[#005a2e] transition disabled:opacity-50"
           >
             {(saving || uploading) && <Loader2 className="w-4 h-4 animate-spin" />}
-            {isEdit ? 'Update Member' : 'Add Faculty Member'}
+            {isEdit ? 'Update Member' : 'Add Senior Learner'}
           </button>
         )}
       </div>

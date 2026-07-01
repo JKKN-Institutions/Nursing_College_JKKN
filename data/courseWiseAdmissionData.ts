@@ -106,7 +106,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "What is the eligibility for B.Sc Nursing?", a: "Candidates must have passed 10+2 with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year." },
       { q: "How many B.Sc Nursing seats are available at JKKN?", a: "60 seats are available for B.Sc Nursing — split across Government Quota (filled via TN state counselling) and Management Quota (filled directly by the institution based on NEET merit)." },
       { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling based on NEET merit, with fees as per Govt norms. Management Quota (MQ) seats are filled directly by JKKN based on NEET score and academic merit, with institutional fee structure." },
-      { q: "Does JKKN offer hostel for B.Sc Nursing students?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
+      { q: "Does JKKN offer hostel for B.Sc Nursing learners?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
       { q: "What career options are available after B.Sc Nursing?", a: "Graduates can work as Staff Nurses in corporate hospitals, Government Staff Nurses via TN MRB/AIIMS/ESIC, ICU/Critical Care specialists, pursue M.Sc Nursing, or take international roles in UK (NHS), UAE, Saudi Arabia, Singapore, Australia after the relevant licensure exam." },
       { q: "When do B.Sc Nursing classes begin?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July–August 2026. Exact dates are subject to TNMGRMU and government notifications." },
     ],
@@ -189,7 +189,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "Higher studies — M.Phil, Ph.D in Nursing, Hospital Administration",
     ],
     whyThis: [
-      { title: "5 Specializations Under One Roof", desc: "Choose from Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health — all with dedicated faculty." },
+      { title: "5 Specializations Under One Roof", desc: "Choose from Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health — all with dedicated senior learners." },
       { title: "Research & Thesis Mentorship", desc: "Guided dissertation with publication support and ethical clearance via JKKN Research Committee." },
       { title: "Clinical Practice + Teaching Exposure", desc: "Dual training — clinical postings in JKKN Hospital plus teaching experience in undergraduate programs." },
     ],
@@ -200,7 +200,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "What is the M.Sc Nursing fee structure?", a: "Management Quota tuition fees range from ₹75,000 to ₹1,00,000 per year. Government Quota fees are as per TN Govt norms. Hostel, examination, thesis, and clinical kit are billed separately." },
       { q: "Can working nurses join M.Sc Nursing?", a: "Yes. Work experience is actually a prerequisite — minimum 1 year of clinical experience after RN registration is required. In-service quota seats are reserved for nurses working in Tamil Nadu government healthcare." },
       { q: "What is the career scope after M.Sc Nursing?", a: "M.Sc Nursing opens roles such as Nursing Tutor/Lecturer/Professor, Nurse Manager, Specialty Nurse (ICU/NICU/Oncology), Nurse Researcher, international clinical/teaching roles, and pathways to M.Phil and Ph.D in Nursing." },
-      { q: "How long is the M.Sc Nursing course?", a: "M.Sc Nursing is a 2-year full-time program (4 semesters) including clinical postings, classroom teaching, and a research dissertation in the chosen specialization." },
+      { q: "How long is the M.Sc Nursing course?", a: "M.Sc Nursing is a 2-year full-time program (4 semesters) including clinical postings, learning studio teaching, and a research dissertation in the chosen specialization." },
     ],
   },
 
@@ -274,7 +274,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     whyThis: [
       { title: "Diploma to Degree Upgrade", desc: "Recognized B.Sc Nursing degree from TNMGRMU — opens doors to higher studies and senior roles." },
-      { title: "Working-Nurse Friendly", desc: "Curriculum designed for those with practical experience — bridging theory and clinical practice." },
+      { title: "Working-Nurse Friendly", desc: "Learning framework designed for those with practical experience — bridging theory and clinical practice." },
       { title: "Pathway to M.Sc Nursing", desc: "After P.B.B.Sc, you become eligible for M.Sc Nursing with all its 5 specializations." },
     ],
     faqs: [

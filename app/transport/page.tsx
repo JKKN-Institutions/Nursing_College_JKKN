@@ -64,7 +64,7 @@ export default function Transport() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Our college transport facility is convenient for students who live off-campus and do not have access to public transportation.
+                  Our college transport facility is convenient for learners who live off-campus and do not have access to public transportation.
                 </p>
               </li>
 
@@ -78,7 +78,7 @@ export default function Transport() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Safety: Our college transport facility provides a safe and secure mode of transportation for students. This service ensures that students do not have to walk or travel alone, especially during late hours when the campus is less crowded.
+                  Safety: Our college transport facility provides a safe and secure mode of transportation for learners. This service ensures that learners do not have to walk or travel alone, especially during late hours when the campus is less crowded.
                 </p>
               </li>
             </ul>

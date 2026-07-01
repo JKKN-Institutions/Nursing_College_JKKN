@@ -38,18 +38,18 @@ export default function MedicalSurgicalNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Clinical Training</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Students receive extensive hands-on training in reputed hospitals including JKKN Dental College & Hospital and other affiliated medical institutions. Clinical rotations cover various specialties including general surgery, orthopedics, cardiology, neurology, and critical care units.
+            Learners receive extensive hands-on training in reputed hospitals including JKKN Dental College & Hospital and other affiliated medical institutions. Clinical rotations cover various specialties including general surgery, orthopedics, cardiology, neurology, and critical care units.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Department Facilities</h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
-            <li>Well-equipped demonstration room with modern equipment</li>
-            <li>Simulation lab for practicing advanced nursing procedures</li>
+            <li>Well-equipped demonstration learning studio with modern equipment</li>
+            <li>Simulation learning lab for practicing advanced nursing procedures</li>
             <li>Audio-visual aids for enhanced learning</li>
-            <li>Departmental library with reference books and journals</li>
-            <li>Research facilities and faculty support</li>
+            <li>Departmental learning commons with reference books and journals</li>
+            <li>Research facilities and senior learner support</li>
           </ul>
         </section>
 

@@ -40,7 +40,7 @@ export default function MentalHealthNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Clinical Training</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Students receive clinical training in psychiatric hospitals, mental health clinics, de-addiction centers, and community mental health programs. They learn to conduct mental status examinations, implement therapeutic interventions, and provide counseling under supervision.
+            Learners receive clinical training in psychiatric hospitals, mental health clinics, de-addiction centers, and community mental health programs. They learn to conduct mental status examinations, implement therapeutic interventions, and provide counseling under supervision.
           </p>
         </section>
 

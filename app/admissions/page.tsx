@@ -397,17 +397,17 @@ export default function Admissions() {
                 {
                   icon: "🏦",
                   title: "Government Scholarships",
-                  desc: "Scholarships available for BC, MBC, SC, and ST students through Tamil Nadu government welfare schemes.",
+                  desc: "Scholarships available for BC, MBC, SC, and ST learners through Tamil Nadu government welfare schemes.",
                 },
                 {
                   icon: "🥇",
                   title: "Merit-Based Concessions",
-                  desc: "Fee concessions awarded to academically outstanding students based on 10+2 and NEET performance.",
+                  desc: "Fee concessions awarded to academically outstanding learners based on 10+2 and NEET performance.",
                 },
                 {
                   icon: "💳",
                   title: "Education Loan Assistance",
-                  desc: "Tie-ups with major nationalized and private banks to help students avail hassle-free education loans.",
+                  desc: "Tie-ups with major nationalized and private banks to help learners avail hassle-free education loans.",
                 },
                 {
                   icon: "🎖️",

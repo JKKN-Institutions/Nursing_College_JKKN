@@ -89,7 +89,7 @@ const whyChooseItems = [
   {
     icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
     title: "Secure Hostels",
-    desc: "Hostel facilities with secure environment for women students",
+    desc: "Hostel facilities with secure environment for women learners",
   },
   {
     icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
@@ -171,14 +171,14 @@ const reachItems = [
 const facilities = [
   {
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Modern Labs",
-    desc: "State-of-the-art laboratories and smart classrooms",
+    title: "Modern Learning Labs",
+    desc: "State-of-the-art learning labs and smart learning studios",
     href: "/laboratories",
   },
   {
     icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Digital Library",
-    desc: "Well-stocked library with digital access and journals",
+    title: "Digital Learning Commons",
+    desc: "Well-stocked learning commons with digital access and journals",
     href: "/library",
   },
   {
@@ -439,10 +439,10 @@ export default function TiruppurPage() {
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
               <p>
-                Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting students to look beyond city limits for quality nursing education.
+                Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting learners to look beyond city limits for quality nursing education.
               </p>
               <p>
-                For students searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam offers a compelling choice. Located 80-90 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
+                For learners searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam offers a compelling choice. Located 80-90 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
               </p>
               <p>
                 JKKN&apos;s integrated campus features a 500+ bed multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that place it among the <strong>best nursing colleges in Tiruppur</strong> region.
@@ -468,7 +468,7 @@ export default function TiruppurPage() {
                 </div>
               </div>
               <p>
-                Tiruppur students at JKKN enjoy secure hostel facilities designed for outstation students, with 90%+ placement support including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA). For Tiruppur families seeking a <strong>nursing course in Tiruppur</strong> region with proven career outcomes, JKKN delivers both academic excellence and professional readiness.
+                Tiruppur learners at JKKN enjoy secure hostel facilities designed for outstation learners, with 90%+ placement support including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA). For Tiruppur families seeking a <strong>nursing course in Tiruppur</strong> region with proven career outcomes, JKKN delivers both academic excellence and professional readiness.
               </p>
             </div>
           </div>
@@ -479,10 +479,10 @@ export default function TiruppurPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Tiruppur Students Choose JKKN — Best Nursing College Near Tiruppur
+                Why Tiruppur Learners Choose JKKN — Best Nursing College Near Tiruppur
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among the best nursing colleges in Tiruppur region, JKKN stands out with INC approval, NAAC accreditation, and 90%+ placement support. Students from Tiruppur benefit from secure hostel facilities and a campus known for clinical excellence — making it a top choice in the Tiruppur nursing college list.
+                Among the best nursing colleges in Tiruppur region, JKKN stands out with INC approval, NAAC accreditation, and 90%+ placement support. Learners from Tiruppur benefit from secure hostel facilities and a campus known for clinical excellence — making it a top choice in the Tiruppur nursing college list.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -509,7 +509,7 @@ export default function TiruppurPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Nursing Courses Available for Tiruppur Students
+                Nursing Courses Available for Tiruppur Learners
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
@@ -748,7 +748,7 @@ export default function TiruppurPage() {
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
                 <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
-                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing students from Tiruppur</p>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing learners from Tiruppur</p>
                 <a
                   href="/contact"
                   className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"

@@ -60,28 +60,28 @@ export default function Laboratories() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  All the laboratories are equipped with Mannequins, Simulators, and Necessary Articles for Procedure Demonstrations.
+                  All the learning labs are equipped with Mannequins, Simulators, and Necessary Articles for Procedure Demonstrations.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Laboratories are utilized for demonstrations and student practice of procedures under supervision.
+                  Learning labs are utilized for demonstrations and learner practice of procedures under supervision.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The laboratories at JKKN are regularly updated with the latest equipment and technology to ensure that students are prepared for the latest developments in the nursing field.
+                  The learning labs at JKKN are regularly updated with the latest equipment and technology to ensure that learners are prepared for the latest developments in the nursing field.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  The instructors at JKKN are highly trained and experienced in utilizing the laboratories to provide hands-on learning opportunities for their students.
+                  The senior learners at JKKN are highly trained and experienced in utilizing the learning labs to provide hands-on learning opportunities for their learners.
                 </p>
               </li>
             </ul>

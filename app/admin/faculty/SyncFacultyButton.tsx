@@ -31,7 +31,7 @@ export default function SyncFacultyButton() {
     if (running) return;
     setRunning(true);
 
-    const toastId = toast.loading('Syncing faculty from MyJKKN…');
+    const toastId = toast.loading('Syncing senior learners from MyJKKN…');
     try {
       const res = await fetch('/api/admin/sync-faculty', {
         method: 'POST',
@@ -93,7 +93,7 @@ export default function SyncFacultyButton() {
       onClick={handleSync}
       disabled={busy}
       className="flex items-center gap-2 bg-white text-[#006837] border border-[#006837] text-sm font-semibold px-4 py-2.5 rounded-xl hover:bg-[#006837]/5 transition disabled:opacity-60 disabled:cursor-not-allowed"
-      title="Pull the latest faculty records from MyJKKN"
+      title="Pull the latest senior learner records from MyJKKN"
     >
       <RefreshCw className={`w-4 h-4 ${busy ? 'animate-spin' : ''}`} />
       {busy ? 'Syncing…' : 'Sync from MyJKKN'}

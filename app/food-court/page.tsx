@@ -64,14 +64,14 @@ export default function FoodCourt() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  As a student, our canteen is the perfect place for you to refuel and recharge between classes. We understand that being a student can be stressful, and we want to provide you with a comfortable and welcoming environment where you can relax and enjoy good food.
+                  As a learner, our canteen is the perfect place for you to refuel and recharge between classes. We understand that being a learner can be stressful, and we want to provide you with a comfortable and welcoming environment where you can relax and enjoy good food.
                 </p>
               </li>
 
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Our menu is designed with students in mind, offering a range of options to cater to different tastes and dietary needs. Whether you're looking for a quick snack or a full meal, we've got you covered. Our diverse menu includes fresh salads and sandwiches, hearty hot meals, and a variety of snacks and drinks.
+                  Our menu is designed with learners in mind, offering a range of options to cater to different tastes and dietary needs. Whether you're looking for a quick snack or a full meal, we've got you covered. Our diverse menu includes fresh salads and sandwiches, hearty hot meals, and a variety of snacks and drinks.
                 </p>
               </li>
 
@@ -85,7 +85,7 @@ export default function FoodCourt() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  Affordability is another important factor for us, and we want to ensure that our canteen is accessible to all students. That's why we offer various meal deals and specials, making it easy for you to get a satisfying meal without breaking the bank.
+                  Affordability is another important factor for us, and we want to ensure that our canteen is accessible to all learners. That's why we offer various meal deals and specials, making it easy for you to get a satisfying meal without breaking the bank.
                 </p>
               </li>
             </ul>

@@ -89,7 +89,7 @@ const whyChooseItems = [
   {
     icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
     title: "Secure Hostels",
-    desc: "Hostel facilities with secure environment for women students",
+    desc: "Hostel facilities with secure environment for women learners",
   },
   {
     icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
@@ -171,14 +171,14 @@ const reachItems = [
 const facilities = [
   {
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Modern Labs",
-    desc: "State-of-the-art laboratories and smart classrooms",
+    title: "Modern Learning Labs",
+    desc: "State-of-the-art learning labs and smart learning studios",
     href: "/laboratories",
   },
   {
     icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Digital Library",
-    desc: "Well-stocked library with digital access and journals",
+    title: "Digital Learning Commons",
+    desc: "Well-stocked learning commons with digital access and journals",
     href: "/library",
   },
   {
@@ -441,10 +441,10 @@ export default function NamakkalPage() {
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
               <p>
-                Namakkal district, known for its poultry industry, transport sector, and the iconic Namakkal Fort, is rapidly growing as an educational destination in Tamil Nadu. With JKKN Institutions headquartered in Komarapalayam — just 5-10 km from Namakkal city — students have direct access to one of the region&apos;s most comprehensive educational campuses.
+                Namakkal district, known for its poultry industry, transport sector, and the iconic Namakkal Fort, is rapidly growing as an educational destination in Tamil Nadu. With JKKN Institutions headquartered in Komarapalayam — just 5-10 km from Namakkal city — learners have direct access to one of the region&apos;s most comprehensive educational campuses.
               </p>
               <p>
-                For students looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is the closest INC-approved institution in the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
+                For learners looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is the closest INC-approved institution in the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
               </p>
               <p>
                 What makes JKKN the top choice in the <strong>Namakkal nursing college list</strong> is its integrated campus with a 500+ bed multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
@@ -470,7 +470,7 @@ export default function NamakkalPage() {
                 </div>
               </div>
               <p>
-                Namakkal students at JKKN enjoy the shortest commute among all JKKN city catchments — just 5-10 km from Namakkal city centre. With 90%+ placement support including international opportunities in the UK, Gulf, and Australia, JKKN offers Namakkal students a world-class nursing education right at their doorstep.
+                Namakkal learners at JKKN enjoy the shortest commute among all JKKN city catchments — just 5-10 km from Namakkal city centre. With 90%+ placement support including international opportunities in the UK, Gulf, and Australia, JKKN offers Namakkal learners a world-class nursing education right at their doorstep.
               </p>
             </div>
           </div>
@@ -481,10 +481,10 @@ export default function NamakkalPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Namakkal Students Choose JKKN — Best Nursing College in Namakkal
+                Why Namakkal Learners Choose JKKN — Best Nursing College in Namakkal
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                As the leading nursing college in Namakkal district, JKKN offers INC approval, NAAC accreditation, and 90%+ placement support. Located in Komarapalayam — just 5-10 km from Namakkal city — students from Namakkal enjoy the shortest commute among all JKKN city catchments.
+                As the leading nursing college in Namakkal district, JKKN offers INC approval, NAAC accreditation, and 90%+ placement support. Located in Komarapalayam — just 5-10 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -750,7 +750,7 @@ export default function NamakkalPage() {
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
                 <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
-                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing students from Namakkal</p>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing learners from Namakkal</p>
                 <a
                   href="/contact"
                   className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"

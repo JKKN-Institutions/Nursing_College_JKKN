@@ -89,7 +89,7 @@ const whyChooseItems = [
   {
     icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
     title: "Secure Hostels",
-    desc: "Hostel facilities with secure environment for women students",
+    desc: "Hostel facilities with secure environment for women learners",
   },
   {
     icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
@@ -171,14 +171,14 @@ const reachItems = [
 const facilities = [
   {
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Modern Labs",
-    desc: "State-of-the-art laboratories and smart classrooms",
+    title: "Modern Learning Labs",
+    desc: "State-of-the-art learning labs and smart learning studios",
     href: "/laboratories",
   },
   {
     icon: <BookOpenIcon className="w-6 h-6 text-[#006837]" />,
-    title: "Digital Library",
-    desc: "Well-stocked library with digital access and journals",
+    title: "Digital Learning Commons",
+    desc: "Well-stocked learning commons with digital access and journals",
     href: "/library",
   },
   {
@@ -443,13 +443,13 @@ export default function CoimbatorePage() {
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
               <p>
-                Coimbatore, Tamil Nadu&apos;s second-largest city and a major industrial and healthcare hub, is home to numerous medical institutions and hospitals. The city has a competitive landscape for nursing education, with several <strong>nursing colleges in Coimbatore</strong> offering various programmes. However, not all institutions in the <strong>Coimbatore nursing college list</strong> match the clinical infrastructure and placement outcomes that students and parents expect.
+                Coimbatore, Tamil Nadu&apos;s second-largest city and a major industrial and healthcare hub, is home to numerous medical institutions and hospitals. The city has a competitive landscape for nursing education, with several <strong>nursing colleges in Coimbatore</strong> offering various programmes. However, not all institutions in the <strong>Coimbatore nursing college list</strong> match the clinical infrastructure and placement outcomes that learners and learning partners expect.
               </p>
               <p>
-                For students looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) offers a distinctive advantage. Located 100-110 km from Coimbatore in Komarapalayam, JKKN provides what many Coimbatore colleges cannot — a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
+                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) offers a distinctive advantage. Located 100-110 km from Coimbatore in Komarapalayam, JKKN provides what many Coimbatore colleges cannot — a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
               </p>
               <p>
-                What sets JKKN apart in the <strong>best nursing colleges in Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore students a global career pathway that few local institutions can match.
+                What sets JKKN apart in the <strong>best nursing colleges in Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -472,7 +472,7 @@ export default function CoimbatorePage() {
                 </div>
               </div>
               <p>
-                Coimbatore students at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 90%+ placement support and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is a top choice for Coimbatore families seeking the <strong>best nursing college in Coimbatore</strong> region.
+                Coimbatore learners at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 90%+ placement support and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is a top choice for Coimbatore families seeking the <strong>best nursing college in Coimbatore</strong> region.
               </p>
             </div>
           </div>
@@ -483,14 +483,14 @@ export default function CoimbatorePage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Coimbatore Students Choose JKKN — Best Nursing College Near Coimbatore
+                Why Coimbatore Learners Choose JKKN — Best Nursing College Near Coimbatore
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 Among the best nursing colleges in Coimbatore region, JKKN stands out with
                 INC approval, NAAC accreditation, and 90%+ placement support. Coimbatore
                 nursing college seekers find JKKN ideal for its attached teaching hospital,
                 international placement record, and secure hostel facilities for outstation
-                students.
+                learners.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -517,7 +517,7 @@ export default function CoimbatorePage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Nursing Courses Available for Coimbatore Students
+                Nursing Courses Available for Coimbatore Learners
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
@@ -756,7 +756,7 @@ export default function CoimbatorePage() {
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
                 <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
-                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing students from Coimbatore</p>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing learners from Coimbatore</p>
                 <a
                   href="/contact"
                   className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"

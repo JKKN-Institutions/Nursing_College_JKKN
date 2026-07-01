@@ -274,7 +274,7 @@ export default function MScChildHealthNursing() {
                 This program provides comprehensive knowledge of child growth and development, pediatric pathophysiology, neonatal nursing, advanced pediatric assessment skills, and evidence-based pediatric nursing practice. Learners develop expertise in caring for neonates, infants, children, and adolescents across various clinical settings including NICUs, PICUs, pediatric wards, and community health centers.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Our curriculum emphasizes family-centered care, developmental care principles, and child advocacy. Through integration of theoretical instruction, simulation-based learning, and extensive clinical rotations in pediatric specialty units, learners develop the competencies required to become pediatric nurse educators, clinical specialists, and healthcare leaders.
+                Our learning framework emphasizes family-centered care, developmental care principles, and child advocacy. Through integration of theoretical instruction, simulation-based learning, and extensive clinical rotations in pediatric specialty units, learners develop the competencies required to become pediatric nurse educators, clinical specialists, and healthcare leaders.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 The program aligns with Indian Nursing Council (INC) guidelines and is continuously updated to reflect current best practices in pediatric nursing education and child healthcare delivery. Graduates are well-prepared for careers in nursing colleges, children's hospitals, research institutions, and pediatric healthcare organizations.
@@ -412,7 +412,7 @@ export default function MScChildHealthNursing() {
                   <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-[#006837] mb-3">Expert Learning Facilitators</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-3">Expert Senior Learners</h3>
               <p className="text-gray-600 leading-relaxed">
                 Learn from experienced pediatric nurse educators and clinical specialists with extensive neonatal and child health nursing backgrounds.
               </p>
@@ -454,7 +454,7 @@ export default function MScChildHealthNursing() {
               </div>
               <h3 className="text-xl font-bold text-[#006837] mb-3">Research Opportunities</h3>
               <p className="text-gray-600 leading-relaxed">
-                Engage in pediatric nursing research with faculty guidance and access to contemporary child health journals and databases.
+                Engage in pediatric nursing research with senior learner guidance and access to contemporary child health journals and databases.
               </p>
             </div>
           </div>

@@ -256,7 +256,7 @@ export default function FeeStructure() {
             <h2 className="text-2xl sm:text-3xl font-bold text-[#0b7845] mb-2">
               Scholarships & Financial Aid
             </h2>
-            <p className="text-gray-600 mb-8">Multiple avenues to make nursing education accessible and affordable for every student.</p>
+            <p className="text-gray-600 mb-8">Multiple avenues to make nursing education accessible and affordable for every learner.</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="bg-[#FBFBEE] rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-12 h-12 rounded-full bg-[#006837] flex items-center justify-center mb-4">
@@ -266,7 +266,7 @@ export default function FeeStructure() {
                 </div>
                 <h3 className="text-base font-semibold text-[#006837] mb-2">Government Scholarships</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  BC/MBC/SC/ST/Differently Abled students eligible for state government fee reimbursement
+                  BC/MBC/SC/ST/Differently Abled learners eligible for state government fee reimbursement
                 </p>
               </div>
               <div className="bg-[#FBFBEE] rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -329,7 +329,7 @@ export default function FeeStructure() {
                 <li className="flex items-start gap-3">
                   <span className="w-2.5 h-2.5 rounded-full bg-[#006837] mt-2 flex-shrink-0"></span>
                   <p className="text-gray-700 text-sm sm:text-base">
-                    Interest subsidy available for eligible students under government schemes
+                    Interest subsidy available for eligible learners under government schemes
                   </p>
                 </li>
                 <li className="flex items-start gap-3">

@@ -37,7 +37,7 @@ export default function Activities() {
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
               >
-                Staff
+                Team Members
               </button>
               <button
                 onClick={() => setActiveTab("student")}
@@ -47,7 +47,7 @@ export default function Activities() {
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                 }`}
               >
-                Student
+                Learners
               </button>
             </div>
 
@@ -59,7 +59,7 @@ export default function Activities() {
                     CNE- Continuing Nursing Education
                   </h3>
                   <p className="text-gray-700 text-base leading-relaxed">
-                    We organize one workshop every year. The workshop is mainly conducted with eminent speakers as resource persons from well-known institutions. Journal presentation: It's done monthly once by nursing staff members.
+                    We organize one workshop every year. The workshop is mainly conducted with eminent speakers as resource persons from well-known institutions. Journal presentation: It's done monthly once by nursing team members.
                   </p>
                 </div>
               )}

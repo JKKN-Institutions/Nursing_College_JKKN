@@ -9,7 +9,7 @@ export const educationStories = [
     id: 2,
     title: "Innovation competition 2024",
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500",
-    description: "Students showcasing innovative healthcare solutions",
+    description: "Learners showcasing innovative healthcare solutions",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export const collegeNews = [
     title: "Industrial Visit to Aavin Milk Dairy, Chithodu – 2025",
     date: "SEPTEMBER 23, 2025",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800",
-    description: "Students visited Aavin Milk Dairy to understand dairy operations and quality control",
+    description: "Learners visited Aavin Milk Dairy to understand dairy operations and quality control",
   },
   {
     id: 2,
@@ -107,7 +107,7 @@ export const latestBuzz = [
     title: "Lamp Lighting Ceremony – 2025",
     date: "DECEMBER 18, 2025",
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=600",
-    description: "Traditional ceremony with faculty and students",
+    description: "Traditional ceremony with senior learners and learners",
   },
   {
     id: 3,

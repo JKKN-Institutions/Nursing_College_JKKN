@@ -263,11 +263,11 @@ export default function MScCommunityHealthNursing() {
                   </p>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    Our Learning Facilitators bring extensive experience in community health practice, research, and education. With affiliations to multiple PHCs, CHCs, and community health projects, Learners receive hands-on training in real-world community settings while contributing to meaningful public health interventions.
+                    Our Senior Learners bring extensive experience in community health practice, research, and education. With affiliations to multiple PHCs, CHCs, and community health projects, Learners receive hands-on training in real-world community settings while contributing to meaningful public health interventions.
                   </p>
 
                   <p className="text-gray-700 leading-relaxed">
-                    The curriculum emphasizes evidence-based practice, health policy, biostatistics, and epidemiological methods. Learners engage in community health research projects and complete a dissertation contributing to the body of knowledge in community health nursing. The program prepares graduates for roles in nursing education, public health administration, community health practice, and research.
+                    The learning framework emphasizes evidence-based practice, health policy, biostatistics, and epidemiological methods. Learners engage in community health research projects and complete a dissertation contributing to the body of knowledge in community health nursing. The program prepares graduates for roles in nursing education, public health administration, community health practice, and research.
                   </p>
                 </div>
               </div>
@@ -415,7 +415,7 @@ export default function MScCommunityHealthNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-700 leading-relaxed">
-                  Access well-stocked library with public health journals, epidemiology resources, e-books, e-library (koha software and delnet software), and digital learning platforms.
+                  Access well-stocked learning commons with public health journals, epidemiology resources, e-books, e-library (koha software and delnet software), and digital learning platforms.
                 </p>
               </div>
             </div>
@@ -574,7 +574,7 @@ export default function MScCommunityHealthNursing() {
               </h2>
               <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
               <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                A comprehensive 4-semester curriculum designed as per INC guidelines for advanced community health nursing education
+                A comprehensive 4-semester learning framework designed as per INC guidelines for advanced community health nursing education
               </p>
             </div>
 
@@ -1056,7 +1056,7 @@ export default function MScCommunityHealthNursing() {
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-8 shadow-xl text-white">
                 <h3 className="text-xl md:text-2xl font-bold mb-4">Community Health Laboratory</h3>
                 <p className="text-green-100 leading-relaxed">
-                  Fully equipped laboratory for practicing community health assessment and nursing procedures.
+                  Fully equipped learning lab for practicing community health assessment and nursing procedures.
                 </p>
               </div>
 

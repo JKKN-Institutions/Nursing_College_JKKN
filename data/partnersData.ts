@@ -107,13 +107,13 @@ export const alumniTestimonials = [
     name: "Abdu Samad .C",
     role: "Aster Mims",
     image: "/images/alumni/abdu-samad.jpg",
-    testimonial: "Excellent faculty and modern facilities made my learning experience at JKKN truly remarkable.",
+    testimonial: "Excellent senior learners and modern facilities made my learning experience at JKKN truly remarkable.",
   },
   {
     id: 5,
     name: "Richard Jayarex",
     role: "Kaveri Hospital",
     image: "/images/alumni/richard.jpg",
-    testimonial: "JKKN's comprehensive curriculum and hands-on training prepared me for real-world healthcare challenges.",
+    testimonial: "JKKN's comprehensive learning framework and hands-on training prepared me for real-world healthcare challenges.",
   },
 ];

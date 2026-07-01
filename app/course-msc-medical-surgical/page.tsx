@@ -270,13 +270,13 @@ export default function MScMedicalSurgicalNursing() {
                   Our program emphasizes the development of clinical reasoning,
                   critical thinking, and leadership abilities essential for
                   contemporary nursing practice. Through a combination of
-                  theoretical instruction, laboratory practice, and extensive
+                  theoretical instruction, learning lab practice, and extensive
                   clinical rotations, learners gain the competencies needed to
                   excel as nurse educators, clinical specialists, and healthcare
                   administrators.
                 </p>
                 <p>
-                  The curriculum is aligned with Indian Nursing Council (INC)
+                  The learning framework is aligned with Indian Nursing Council (INC)
                   guidelines and is continuously updated to reflect current best
                   practices in nursing education and healthcare delivery.
                   Graduates are well-prepared for careers in academic
@@ -421,7 +421,7 @@ export default function MScMedicalSurgicalNursing() {
                   <GraduationCap className="w-8 h-8 text-[#7cb983]" />
                 </div>
                 <h3 className="text-xl font-bold text-[#7cb983] mb-3">
-                  Expert Learning Facilitators
+                  Expert Senior Learners
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Learn from experienced nurse educators and clinical
@@ -467,7 +467,7 @@ export default function MScMedicalSurgicalNursing() {
                   Comprehensive Resources
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Access well-stocked library with nursing journals, e-books, e-library (koha software and delnet software),
+                  Access well-stocked learning commons with nursing journals, e-books, e-library (koha software and delnet software),
                   and latest textbooks for academic excellence.
                 </p>
               </div>
@@ -635,7 +635,7 @@ export default function MScMedicalSurgicalNursing() {
               </h2>
               <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                A comprehensive 4-semester curriculum designed as per INC
+                A comprehensive 4-semester learning framework designed as per INC
                 guidelines for advanced nursing education
               </p>
             </div>

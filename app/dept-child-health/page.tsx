@@ -39,14 +39,14 @@ export default function ChildHealthNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Clinical Training</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Students gain practical experience in pediatric wards, neonatal intensive care units (NICU), pediatric outpatient departments, and community health centers. Training includes handling premature infants, managing childhood emergencies, and conducting immunization programs.
+            Learners gain practical experience in pediatric wards, neonatal intensive care units (NICU), pediatric outpatient departments, and community health centers. Training includes handling premature infants, managing childhood emergencies, and conducting immunization programs.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Department Facilities</h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2">
-            <li>Pediatric nursing demonstration room with infant models</li>
+            <li>Pediatric nursing demonstration learning studio with infant models</li>
             <li>Equipment for neonatal and pediatric care practice</li>
             <li>Play therapy and developmental assessment tools</li>
             <li>Multimedia resources for child health education</li>

@@ -87,7 +87,7 @@ const faqCategories = [
     faqs: [
       {
         q: "What facilities are available on campus?",
-        a: "The campus offers a Digital Library, State-of-the-Art Nursing Laboratories, Clinical Training at partner hospitals, Hostel accommodation, College Transport, Cafeteria, Sports facilities, and high-speed WiFi across campus.",
+        a: "The campus offers a Digital Learning Commons, State-of-the-Art Nursing Learning Labs, Clinical Training at partner hospitals, Hostel accommodation, College Transport, Cafeteria, Sports facilities, and high-speed WiFi across campus.",
       },
       {
         q: "Is hostel accommodation available?",
@@ -95,11 +95,11 @@ const faqCategories = [
       },
       {
         q: "Does the college provide transport?",
-        a: "Yes, a college bus facility is available for safe and convenient commute for students.",
+        a: "Yes, a college bus facility is available for safe and convenient commute for learners.",
       },
       {
         q: "What clinical training opportunities are provided?",
-        a: "Students receive hands-on clinical training at partner hospitals as part of the curriculum, covering real-world nursing scenarios across all departments.",
+        a: "Learners receive hands-on clinical training at partner hospitals as part of the learning framework, covering real-world nursing scenarios across all departments.",
       },
       {
         q: "Is WiFi available on campus?",

@@ -91,7 +91,7 @@ export default function ScholarshipsPage() {
               Scholarships for Nursing Students
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
-              JKKN College of Nursing students are eligible for multiple state and central government scholarship schemes based on community and merit.
+              JKKN College of Nursing learners are eligible for multiple state and central government scholarship schemes based on community and merit.
             </p>
           </div>
         </section>

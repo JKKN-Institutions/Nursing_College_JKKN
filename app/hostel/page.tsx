@@ -136,19 +136,19 @@ export default function Hostel() {
                 <p>Our objective of establishing Hostel within the Campus is to provide</p>
 
                 <p>
-                  students "a Home away from Home", wherein they can feel at ease and put in their best efforts for acquiring 'A'ttitude, 'S'kill sets and 'K'nowledge, towards life.
+                  learners "a Home away from Home", wherein they can feel at ease and put in their best efforts for acquiring 'A'ttitude, 'S'kill sets and 'K'nowledge, towards life.
                 </p>
 
                 <p>
-                  We strongly believe in this formula for life viz., "ASK". The Hostel Environment certainly provides self-confidence, instills discipline in the minds of students and also provides scope for developing their ideals for harmonious and communal living without Nostalgia; these attributes enable them to share the joys of camaraderie, friendship/ fellowship and professional fraternity; senior students have been trained to be more responsible and thus set good examples for the juniors.
+                  We strongly believe in this formula for life viz., "ASK". The Hostel Environment certainly provides self-confidence, instills discipline in the minds of learners and also provides scope for developing their ideals for harmonious and communal living without Nostalgia; these attributes enable them to share the joys of camaraderie, friendship/ fellowship and professional fraternity; senior learners have been trained to be more responsible and thus set good examples for the juniors.
                 </p>
 
                 <p>
-                  Every one should uphold dignity, self respect and reputation of every other student and of the Alma-Mater. 'Self-help', 'Accommodating Intelligence' and 'Team spirit' for the common good are the virtues expected from senior students as well as the freshers.
+                  Every one should uphold dignity, self respect and reputation of every other learner and of the Alma-Mater. 'Self-help', 'Accommodating Intelligence' and 'Team spirit' for the common good are the virtues expected from senior learners as well as the freshers.
                 </p>
 
                 <p>
-                  Computer terminals are available in each hostel for the students. Each room is provided with a telephone.
+                  Computer terminals are available in each hostel for the learners. Each room is provided with a telephone.
                 </p>
 
                 <p>
@@ -184,14 +184,14 @@ export default function Hostel() {
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                   <p className="text-gray-700">
-                    Exclusive uninterrupted study room for students after college hours
+                    Exclusive uninterrupted learning commons for learners after college hours
                   </p>
                 </li>
 
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                   <p className="text-gray-700">
-                    Uninterrupted power supply, Separate Generator for Students
+                    Uninterrupted power supply, Separate Generator for Learners
                   </p>
                 </li>
 
@@ -240,7 +240,7 @@ export default function Hostel() {
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-gray-600 rounded-full mt-2 mr-4 flex-shrink-0"></span>
                   <p className="text-gray-700">
-                    Separate food for all Other-state's students
+                    Separate food for all Other-state's learners
                   </p>
                 </li>
 

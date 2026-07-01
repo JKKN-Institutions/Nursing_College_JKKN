@@ -276,12 +276,12 @@ export default function MScMentalHealthNursing() {
                   Our program emphasizes the development of therapeutic relationships, crisis
                   intervention skills, and community mental health competencies essential for
                   contemporary psychiatric nursing practice. Through a combination of theoretical
-                  instruction, simulation laboratory practice, and extensive clinical rotations in
+                  instruction, simulation learning lab practice, and extensive clinical rotations in
                   psychiatric facilities, learners gain the competencies needed to excel as nurse
                   educators, clinical specialists, and mental health administrators.
                 </p>
                 <p>
-                  The curriculum is aligned with Indian Nursing Council (INC) guidelines and Mental
+                  The learning framework is aligned with Indian Nursing Council (INC) guidelines and Mental
                   Healthcare Act 2017 provisions, ensuring graduates are well-prepared to address
                   India&apos;s growing mental health needs. Graduates are equipped for careers in
                   psychiatric hospitals, community mental health centers, academic institutions, de-addiction centers, and healthcare organizations.
@@ -420,7 +420,7 @@ export default function MScMentalHealthNursing() {
                   <GraduationCap className="w-8 h-8 text-[#006837]" />
                 </div>
                 <h3 className="text-xl font-bold text-[#006837] mb-3">
-                  Expert Learning Facilitators
+                  Expert Senior Learners
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   Learn from experienced psychiatric nursing specialists with extensive clinical
@@ -648,7 +648,7 @@ export default function MScMentalHealthNursing() {
               </h2>
               <div className="w-24 h-1 bg-[#7cb983] mx-auto mb-6"></div>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                A comprehensive 2-year curriculum aligned with INC guidelines and contemporary
+                A comprehensive 2-year learning framework aligned with INC guidelines and contemporary
                 mental health practice standards
               </p>
             </div>

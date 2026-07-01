@@ -271,7 +271,7 @@ export default function PBScNursing() {
                   The Post Basic Bachelor of Science in Nursing (P.B. B.Sc Nursing) is a 2-year undergraduate degree programme exclusively designed for registered nurses who have completed their GNM (General Nursing and Midwifery) diploma. This bridge programme enables working nurses to upgrade their qualification to a bachelor's degree level.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  At Sresakthimayeil Institute of Nursing and Research, the valuable clinical experience that GNM nurses bring is fully recognised. The curriculum builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
+                  At Sresakthimayeil Institute of Nursing and Research, the valuable clinical experience that GNM nurses bring is fully recognised. The learning framework builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
                 </p>
 
                 {/* Features List */}
@@ -282,7 +282,7 @@ export default function PBScNursing() {
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Experienced Learning Facilitators</span>
+                    <span className="text-gray-700">Experienced Senior Learners</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />

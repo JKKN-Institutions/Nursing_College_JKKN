@@ -381,13 +381,13 @@ const placementProcess = [
   {
     step: 1,
     title: "Registration",
-    desc: "Students register with the Placement Cell in their final year and complete a comprehensive career profile including clinical interests and location preferences.",
+    desc: "Learners register with the Placement Cell in their final year and complete a comprehensive career profile including clinical interests and location preferences.",
     icon: ClipboardDocumentCheckIcon,
   },
   {
     step: 2,
     title: "Resume Building",
-    desc: "Professional CV and personal statement prepared with guidance from faculty mentors. Portfolios include clinical experience, certifications, and achievements.",
+    desc: "Professional CV and personal statement prepared with guidance from senior learner mentors. Portfolios include clinical experience, certifications, and achievements.",
     icon: DocumentTextIcon,
   },
   {
@@ -399,7 +399,7 @@ const placementProcess = [
   {
     step: 4,
     title: "Mock Interviews",
-    desc: "Simulated interviews with clinical and HR panels. Students receive detailed feedback to improve performance before actual recruitment drives.",
+    desc: "Simulated interviews with clinical and HR panels. Learners receive detailed feedback to improve performance before actual recruitment drives.",
     icon: UserGroupIcon,
   },
   {
@@ -419,7 +419,7 @@ const placementProcess = [
 const testimonials = [
   {
     quote:
-      "Getting placed at NHS UK with a ₹22 LPA package was a dream I thought was out of reach. JKKN's OET coaching and visa guidance made it possible. The faculty prepared us not just clinically but for international standards.",
+      "Getting placed at NHS UK with a ₹22 LPA package was a dream I thought was out of reach. JKKN's OET coaching and visa guidance made it possible. The senior learners prepared us not just clinically but for international standards.",
     name: "[UPDATE — Student Name]",
     batch: "B.Sc Nursing — 2023 Batch",
     company: "NHS UK — ₹22 LPA",
@@ -453,7 +453,7 @@ const licensingExams = [
     country: "USA & Canada",
     desc: "National Council Licensure Examination for Registered Nurses — required for nursing practice in the United States and Canada.",
     support:
-      "Comprehensive study materials, mock tests, expert faculty sessions, and NCSBN registration guidance.",
+      "Comprehensive study materials, mock tests, expert senior learner sessions, and NCSBN registration guidance.",
   },
   {
     exam: "OET / IELTS",
@@ -605,7 +605,7 @@ export default function PlacementsPage() {
                       Academic Year
                     </th>
                     <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Students Placed
+                      Learners Placed
                     </th>
                     <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
                       Placement Rate
@@ -650,7 +650,7 @@ export default function PlacementsPage() {
             </div>
 
             <p className="text-xs text-gray-500 mt-4 text-center">
-              * Statistics are based on eligible students who registered
+              * Statistics are based on eligible learners who registered
               with the Placement Cell. International packages converted at
               prevailing exchange rates. [UPDATE — Verify exact numbers with
               Placement Cell]
@@ -938,7 +938,7 @@ export default function PlacementsPage() {
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Dedicated coaching programs for global nursing licensure exams
-                — preparing students for careers in the USA, UK, UAE, Saudi
+                — preparing learners for careers in the USA, UK, UAE, Saudi
                 Arabia, Australia, and Canada.
               </p>
             </div>
@@ -980,7 +980,7 @@ export default function PlacementsPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3">
-                Student Success Stories
+                Learner Success Stories
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Hear from our graduates who have built successful nursing
@@ -1030,7 +1030,7 @@ export default function PlacementsPage() {
                 Our 6-Step Placement Process
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                A structured, step-by-step process that prepares every student
+                A structured, step-by-step process that prepares every learner
                 for career success — from registration to offer letter.
               </p>
             </div>

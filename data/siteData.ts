@@ -47,14 +47,14 @@ export const navigationMenu = [
       { label: "AISHE", href: "/pdf/AISHE.pdf", target: "_blank" },
       { label: "IIC", href: "/pdf/IIC.pdf", target: "_blank" },
       {
-        label: "WHY STUDENTS CHOOSE JKKN?",
+        label: "WHY LEARNERS CHOOSE JKKN?",
         href: "#",
         submenu: [
-          { label: "Why Erode Students?", href: "/erode" },
-          { label: "Why Salem Students?", href: "/salem" },
-          { label: "Why Tirupur Students?", href: "/tiruppur" },
-          { label: "Why Namakkal Students?", href: "/namakkal" },
-          { label: "Why Coimbatore Students?", href: "/coimbatore" },
+          { label: "Why Erode Learners?", href: "/erode" },
+          { label: "Why Salem Learners?", href: "/salem" },
+          { label: "Why Tirupur Learners?", href: "/tiruppur" },
+          { label: "Why Namakkal Learners?", href: "/namakkal" },
+          { label: "Why Coimbatore Learners?", href: "/coimbatore" },
         ],
       },
     ],
@@ -219,7 +219,7 @@ export const announcements = [
   },
   {
     id: 2,
-    title: "Orientation Program for New Students - 2025 Batch",
+    title: "Orientation Program for New Learners - 2025 Batch",
     date: "August 1, 2025",
   },
   {
@@ -259,7 +259,7 @@ export const courses = [
 export const admissionInfo = [
   {
     id: 1,
-    text: "UG and PG 1st year Nursing orientation program reporting of the students in the respective hostel's on/oct 13,2022.",
+    text: "UG and PG 1st year Nursing orientation program reporting of the learners in the respective hostel's on/oct 13,2022.",
   },
   {
     id: 2,

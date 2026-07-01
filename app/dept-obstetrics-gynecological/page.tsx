@@ -17,7 +17,7 @@ export default function ObstetricsGynecologicalNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Department Overview</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            This department focuses on maternal and women's health, encompassing prenatal care, labor and delivery management, postnatal care, and gynecological nursing. Our curriculum emphasizes evidence-based practice, patient safety, and culturally sensitive care.
+            This department focuses on maternal and women's health, encompassing prenatal care, labor and delivery management, postnatal care, and gynecological nursing. Our learning framework emphasizes evidence-based practice, patient safety, and culturally sensitive care.
           </p>
         </section>
 
@@ -39,7 +39,7 @@ export default function ObstetricsGynecologicalNursing() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-primary mb-4">Clinical Training</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Students receive hands-on training in labor rooms, maternity wards, gynecology departments, and antenatal clinics. They learn to conduct deliveries, manage complications, provide prenatal and postnatal care, and assist in gynecological procedures under expert supervision.
+            Learners receive hands-on training in labor rooms, maternity wards, gynecology departments, and antenatal clinics. They learn to conduct deliveries, manage complications, provide prenatal and postnatal care, and assist in gynecological procedures under expert supervision.
           </p>
         </section>
 

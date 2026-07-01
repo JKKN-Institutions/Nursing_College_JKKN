@@ -598,7 +598,7 @@ export default function MScNursing() {
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The program integrates evidence-based practice with hands-on clinical
-                  training at the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Students completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced Learning Facilitators who bring decades of clinical and
+                  training at the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Learners completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced senior learners who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
                 </p>
 
@@ -798,7 +798,7 @@ export default function MScNursing() {
                     <div>
                       <h3 className="text-xl font-bold text-[#006837] mb-3">Educational Qualification</h3>
                       <p className="text-gray-700 leading-relaxed">
-                        B.Sc Nursing (Basic) or B.Sc Nursing (Post-Basic) degree from an INC-recognized institution with minimum 55% aggregate marks and NRI students get migration certificates from the concerned university.
+                        B.Sc Nursing (Basic) or B.Sc Nursing (Post-Basic) degree from an INC-recognized institution with minimum 55% aggregate marks and NRI learners get migration certificates from the concerned university.
                       </p>
                     </div>
                   </div>
@@ -851,7 +851,7 @@ export default function MScNursing() {
                 M.Sc Nursing Fees Structure 2026-27
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Transparent fee structure for M.Sc Nursing at JKKN College of Nursing. <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">Scholarships available</Link> for meritorious and economically weaker students.
+                Transparent fee structure for M.Sc Nursing at JKKN College of Nursing. <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">Scholarships available</Link> for meritorious and economically weaker learners.
               </p>
             </div>
 
@@ -1046,7 +1046,7 @@ export default function MScNursing() {
                 Clinical Training at 500+ Bed Teaching Hospital
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                M.Sc Nursing students at JKKN receive extensive clinical training at our on-campus multi-specialty teaching hospital — a unique advantage among M.Sc Nursing colleges in Tamil Nadu.
+                M.Sc Nursing learners at JKKN receive extensive clinical training at our on-campus multi-specialty teaching hospital — a unique advantage among M.Sc Nursing colleges in Tamil Nadu.
               </p>
             </div>
 
@@ -1073,7 +1073,7 @@ export default function MScNursing() {
                     <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">3</div>
                     <div>
                       <h3 className="text-xl font-bold text-[#006837] mb-2">Simulation Labs</h3>
-                      <p className="text-gray-700">Practice critical procedures in our <Link href="/laboratories" className="text-[#006837] font-semibold hover:underline">state-of-the-art simulation laboratories</Link> with high-fidelity mannequins before real patient interaction.</p>
+                      <p className="text-gray-700">Practice critical procedures in our <Link href="/laboratories" className="text-[#006837] font-semibold hover:underline">state-of-the-art simulation learning labs</Link> with high-fidelity mannequins before real patient interaction.</p>
                     </div>
                   </div>
 
@@ -1324,16 +1324,16 @@ export default function MScNursing() {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Expert Learning Facilitators */}
+              {/* Expert Senior Learners */}
               <div className="bg-white rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-16 h-16 bg-[#006837] text-white rounded-2xl flex items-center justify-center font-bold text-2xl flex-shrink-0">
                     1
                   </div>
-                  <h3 className="text-xl font-bold text-[#006837]">Expert Learning Facilitators</h3>
+                  <h3 className="text-xl font-bold text-[#006837]">Expert Senior Learners</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Learn from highly qualified Learning Facilitators with doctoral degrees, extensive clinical experience, and active research portfolios.
+                  Learn from highly qualified senior learners with doctoral degrees, extensive clinical experience, and active research portfolios.
                 </p>
               </div>
 
@@ -1346,7 +1346,7 @@ export default function MScNursing() {
                   <h3 className="text-xl font-bold text-[#006837]">State-of-the-Art Facilities</h3>
                 </div>
                 <p className="text-gray-700 leading-relaxed">
-                  Access advanced nursing simulation labs, digital learning studios, and comprehensive library resources supporting evidence-based learning.
+                  Access advanced nursing simulation learning labs, digital learning studios, and comprehensive learning commons resources supporting evidence-based learning.
                 </p>
               </div>
 
@@ -1542,7 +1542,7 @@ export default function MScNursing() {
                     "10th & 12th standard mark sheets and certificates",
                     "Provisional / Degree certificate from the university",
                     "Transfer Certificate (TC) from last institution",
-                    "Migration Certificate (for students outside Tamil Nadu)",
+                    "Migration Certificate (for learners outside Tamil Nadu)",
                   ].map((doc) => (
                     <li key={doc} className="flex items-start gap-3">
                       <FaCheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
@@ -1794,7 +1794,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    {/* [DATA NEEDED] */}The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious students. Contact +91 93458 55001 for exact fee details.
+                    {/* [DATA NEEDED] */}The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious learners. Contact +91 93458 55001 for exact fee details.
                   </p>
                 </details>
 
@@ -1862,7 +1862,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Students also gain community health experience in rural and urban settings.
+                    JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Learners also gain community health experience in rural and urban settings.
                   </p>
                 </details>
 
@@ -1947,7 +1947,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    Yes, JKKN provides scholarship opportunities for meritorious students and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated. Visit the <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">scholarship page</Link> for details.
+                    Yes, JKKN provides scholarship opportunities for meritorious learners and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated. Visit the <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">scholarship page</Link> for details.
                   </p>
                 </details>
 

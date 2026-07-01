@@ -550,7 +550,7 @@ export default async function FacultyProfilePage({
             <div className={sectionCard}>
               <h2 className={sectionTitle}>
                 <span className={`${iconBox} bg-indigo-50`}>🎓</span>
-                Student Mentoring &amp; Guidance
+                Learner Mentoring &amp; Guidance
               </h2>
 
               {m.mentoring_description && (

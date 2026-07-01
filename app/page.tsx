@@ -575,7 +575,7 @@ export default async function Home() {
                   JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced Learning Facilitators combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
+                  Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced senior learners combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
                 </p>
 
                 {/* Features */}
@@ -819,10 +819,10 @@ export default async function Home() {
                   <AcademicCapIcon className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-4">
-                  Expert Learning Facilitators
+                  Expert Senior Learners
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Learn from experienced nursing professionals with clinical and academic expertise. Our Learning Facilitators bring real-world healthcare knowledge to every Learning Studio.
+                  Learn from experienced nursing professionals with clinical and academic expertise. Our senior learners bring real-world healthcare knowledge to every Learning Studio.
                 </p>
               </div>
             </div>
@@ -1251,7 +1251,7 @@ export default async function Home() {
                 {
                   question: "What is the fee structure for nursing programs?",
                   answer:
-                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible students.",
+                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible learners.",
                 },
                 {
                   question: "What are the placement opportunities after nursing?",
