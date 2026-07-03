@@ -109,7 +109,7 @@ export default function PBScNursing() {
         "name": "What is the difference between B.Sc Nursing and Post Basic B.Sc Nursing?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "B.Sc Nursing is a 4-year undergraduate programme for 10+2 students, while Post Basic B.Sc Nursing is a 2-year programme exclusively for GNM diploma holders with clinical experience. Both degrees have equal value for career advancement, higher studies, and international opportunities."
+          "text": "B.Sc Nursing is a 4-year undergraduate programme for 10+2 learners, while Post Basic B.Sc Nursing is a 2-year programme exclusively for GNM diploma holders with clinical experience. Both degrees have equal value for career advancement, higher studies, and international opportunities."
         }
       },
       {
@@ -133,7 +133,7 @@ export default function PBScNursing() {
         "name": "Does the college provide hostel accommodation?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female students with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
+          "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
         }
       },
       {

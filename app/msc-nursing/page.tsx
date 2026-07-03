@@ -158,7 +158,7 @@ export default function MScNursing() {
         "name": "What is the M.Sc Nursing fees at JKKN College of Nursing?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious students. Contact +91 93458 55001 for exact fee details."
+          "text": "The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious learners. Contact +91 93458 55001 for exact fee details."
         }
       },
       {
@@ -190,7 +190,7 @@ export default function MScNursing() {
         "name": "What is the clinical training facility for M.Sc Nursing at JKKN?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Students also gain community health experience in rural and urban settings."
+          "text": "JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Learners also gain community health experience in rural and urban settings."
         }
       },
       {
@@ -227,10 +227,10 @@ export default function MScNursing() {
       },
       {
         "@type": "Question",
-        "name": "Does JKKN offer scholarships for M.Sc Nursing students?",
+        "name": "Does JKKN offer scholarships for M.Sc Nursing learners?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, JKKN provides scholarship opportunities for meritorious students and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated through the institution. Contact the admissions office for current scholarship details."
+          "text": "Yes, JKKN provides scholarship opportunities for meritorious learners and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated through the institution. Contact the admissions office for current scholarship details."
         }
       },
       {

@@ -571,8 +571,8 @@ export default function Admissions() {
                   a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances.",
                 },
                 {
-                  q: "Are scholarships available for nursing students?",
-                  a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible students with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available.",
+                  q: "Are scholarships available for nursing learners?",
+                  a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available.",
                 },
                 {
                   q: "Is hostel accommodation provided?",
@@ -592,7 +592,7 @@ export default function Admissions() {
                 },
                 {
                   q: "Does JKKN have its own teaching hospital for clinical training?",
-                  a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where students get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
+                  a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
                 },
               ].map(({ q, a }, idx) => (
                 <details
@@ -637,12 +637,12 @@ export default function Admissions() {
                   { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately." },
                   { q: "How can I apply for admission to JKKN College of Nursing?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
                   { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances." },
-                  { q: "Are scholarships available for nursing students?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible students with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
+                  { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
                   { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 97% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
-                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where students get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
+                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
                 ].map(({ q, a }) => ({
                   "@type": "Question",
                   "name": q,

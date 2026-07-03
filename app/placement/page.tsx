@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "What is the placement rate at JKKN College of Nursing?",
-    a: "JKKN College of Nursing has a consistent placement rate of 97%, with graduates placed in top hospitals across India and internationally. In 2024–25, 55 out of 58 eligible students were placed successfully.",
+    a: "JKKN College of Nursing has a consistent placement rate of 97%, with graduates placed in top hospitals across India and internationally. In 2024–25, 55 out of 58 eligible learners were placed successfully.",
   },
   {
     q: "Which companies and hospitals recruit from JKKN College of Nursing?",
@@ -96,7 +96,7 @@ const faqData = [
     a: "Yes. JKKN has a dedicated International Placement Cell that facilitates placements in 6 countries: United Kingdom (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides OET/IELTS coaching, NCLEX-RN preparation, DHA/HAAD/PROMETRIC exam coaching, visa documentation support, and licensing registration guidance.",
   },
   {
-    q: "What placement support does JKKN provide to nursing students?",
+    q: "What placement support does JKKN provide to nursing learners?",
     a: "JKKN provides comprehensive placement support including: dedicated placement cell, professional resume building with faculty guidance, soft skills and communication training, mock interviews with clinical and HR panels, campus recruitment drives, international exam preparation (NCLEX, OET, IELTS, DHA, HAAD, PROMETRIC), visa documentation assistance, and post-placement follow-up.",
   },
   {

@@ -46,11 +46,11 @@ const faqs = [
   },
   {
     q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women students with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for students from all cities.",
+    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
   },
   {
-    q: "Does JKKN Nursing provide hostel for Erode students?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Students from Erode can also opt for daily commute as the campus is just 40-50 minutes away via NH-544. College transport services are available.",
+    q: "Does JKKN Nursing provide hostel for Erode learners?",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Erode can also opt for daily commute as the campus is just 40-50 minutes away via NH-544. College transport services are available.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "Which are the top nursing colleges in Erode district?",
-    a: "Erode district has limited INC-approved nursing colleges. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in nearby Komarapalayam is one of the most accessible and reputed options for Erode students — just 35 km via NH-544. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "Erode district has limited INC-approved nursing colleges. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in nearby Komarapalayam is one of the most accessible and reputed options for Erode learners — just 35 km via NH-544. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What nursing courses are available near Erode?",

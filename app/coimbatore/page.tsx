@@ -46,11 +46,11 @@ const faqs = [
   },
   {
     q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women students with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for students from all cities.",
+    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
   },
   {
-    q: "Does JKKN Nursing provide hostel for Coimbatore students?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Students from Coimbatore can also opt for daily commute as the campus is just 2-2.5 hours away. College transport services are available.",
+    q: "Does JKKN Nursing provide hostel for Coimbatore learners?",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Coimbatore can also opt for daily commute as the campus is just 2-2.5 hours away. College transport services are available.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
