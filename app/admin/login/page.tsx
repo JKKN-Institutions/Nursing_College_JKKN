@@ -121,7 +121,7 @@ export default function AdminLogin() {
           </form>
 
           <p className="text-center text-xs text-gray-400 mt-6">
-            Access restricted to authorized staff only.
+            Access restricted to authorized team members only.
           </p>
         </div>
       </div>
