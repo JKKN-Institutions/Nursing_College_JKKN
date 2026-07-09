@@ -165,6 +165,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/karur</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/dharmapuri</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/krishnagiri</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Facilities -->
   <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/hostel</loc>
