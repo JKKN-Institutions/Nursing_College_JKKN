@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
@@ -10,7 +9,6 @@ import {
   HeartIcon,
   GlobeAltIcon,
   HomeModernIcon,
-  HomeIcon,
   ClipboardDocumentListIcon,
   TruckIcon,
   AcademicCapIcon,
@@ -21,87 +19,51 @@ import {
   BookOpenIcon,
   TrophyIcon,
   WifiIcon,
-  StarIcon,
   BuildingOffice2Icon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
+export interface CityFaq {
+  q: string;
+  a: string;
+}
 
-const faqs = [
-  {
-    q: "What is the best nursing college in Erode?",
-    a: "Sresakthimayeil Institute of Nursing and Research, located just 30-40 km from Erode on NH-544, is widely regarded as one of the top nursing colleges accessible from Erode. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
-  },
-  {
-    q: "How far is JKKN Nursing from Erode?",
-    a: "JKKN Nursing is approximately 30-40 km from Erode city centre, which takes about 40-50 minutes by road via NH-544 — direct highway connectivity. Regular bus services are available from Erode Central Bus Stand.",
-  },
-  {
-    q: "Is NEET required for B.Sc Nursing?",
-    a: "B.Sc Nursing admissions in Tamil Nadu are typically through NEET counselling. Contact the admission office for the latest admission requirements for the current academic year.",
-  },
-  {
-    q: "Can I get a nursing job abroad after studying here?",
-    a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
-  },
-  {
-    q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
-  },
-  {
-    q: "Does JKKN Nursing provide hostel for Erode learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Erode can also opt for daily commute as the campus is just 40-50 minutes away via NH-544. College transport services are available.",
-  },
-  {
-    q: "How can I apply for admission at JKKN Nursing?",
-    a: "You can apply online through the official website at https://nursing.sresakthimayeil.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.",
-  },
-  {
-    q: "Which are the top nursing colleges in Erode district?",
-    a: "Erode district has limited INC-approved nursing colleges. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in nearby Komarapalayam is one of the most accessible and reputed options for Erode learners — just 35 km via NH-544. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
-  },
-  {
-    q: "What nursing courses are available near Erode?",
-    a: "JKKN College of Nursing near Erode offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
-  },
-  {
-    q: "What is the fee structure for B.Sc Nursing near Erode?",
-    a: "Fee structures for B.Sc Nursing at JKKN College of Nursing are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
-  },
-];
+export interface CityPageConfig {
+  /** URL slug, e.g. "bhavani" — used for canonical, breadcrumb, UTM */
+  slug: string;
+  /** Display name, e.g. "Bhavani" */
+  cityName: string;
+  /** Full H1, split into plain prefix + highlighted city name */
+  heroTitlePrefix: string;
+  heroDescription: string;
+  /** 4 hero stat tiles */
+  heroStats: { value: string; label: string }[];
+  /** Big number on the distance card, e.g. "5" (km suffix added) */
+  distanceKm: string;
+  distanceHeading: string;
+  distanceSub: string;
+  landscapeHeading: string;
+  landscapeParagraphs: React.ReactNode[];
+  whyHeading: string;
+  whyIntro: string;
+  /** Commute card copy (the one why-choose item that differs per city) */
+  commuteDesc: string;
+  programmesHeading: string;
+  reachHeading: string;
+  reachRouteSummary: string;
+  reachRoute: string;
+  reachBus: string;
+  reachRail: string;
+  faqSubtitle: string;
+  faqs: CityFaq[];
+  /** Cross-links to other city pages */
+  cities: { name: string; distance: string; href: string }[];
+  successCityText: string;
+  /** Optional Wikipedia URL for areaServed sameAs */
+  areaServedSameAs?: string;
+}
 
-const whyChooseItems = [
-  {
-    icon: <CheckCircleIcon className="w-10 h-10 text-[#006837]" />,
-    title: "INC Approved",
-    desc: "INC-approved nursing institute with hospital-based clinical training",
-  },
-  {
-    icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
-    title: "Hospital Training",
-    desc: "Attached to JKKN group hospitals — direct patient care exposure",
-  },
-  {
-    icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
-    title: "Global Careers",
-    desc: "Strong demand for nursing professionals in India and abroad (Gulf, UK, US, Australia)",
-  },
-  {
-    icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
-    title: "Secure Hostels",
-    desc: "Hostel facilities with secure environment for women learners",
-  },
-  {
-    icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
-    title: "Govt Job Prep",
-    desc: "Government nursing job preparation support",
-  },
-  {
-    icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
-    title: "Easy Commute",
-    desc: "Just 30-40 km from Erode. Daily commute or comfortable hostel — your choice.",
-  },
-];
+const SITE_URL = "https://nursing.sresakthimayeil.jkkn.ac.in";
 
 const programmes = [
   {
@@ -140,34 +102,6 @@ const placementStats = [
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
-const reachItems = [
-  {
-    emoji: <MapIcon className="w-5 h-5 text-[#006837]" />,
-    label: "ROUTE",
-    text: "NH-544 — direct highway connectivity",
-  },
-  {
-    emoji: <TruckIcon className="w-5 h-5 text-[#006837]" />,
-    label: "BY BUS",
-    text: "Regular government and private buses from Erode Central Bus Stand to Komarapalayam available throughout the day",
-  },
-  {
-    emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
-    label: "NEAREST RAILWAY STATION",
-    text: "Erode Junction (~35 km from campus)",
-  },
-  {
-    emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
-    label: "NEAREST AIRPORT",
-    text: "Coimbatore International Airport (Code: CJB) (~80 km)",
-  },
-  {
-    emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
-    label: "CAMPUS ADDRESS",
-    text: "JKKN Institutions, Natarajapuram, NH-544, Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183",
-  },
-];
-
 const facilities = [
   {
     icon: <BeakerIcon className="w-6 h-6 text-[#006837]" />,
@@ -190,7 +124,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Erode and surrounding areas",
+    desc: "College buses connecting nearby towns and surrounding areas",
     href: "/transport",
   },
   {
@@ -207,37 +141,71 @@ const facilities = [
   },
 ];
 
-const cities = [
-  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km", href: "/namakkal" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "40-50 km", href: "/salem" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "80-90 km", href: "/tiruppur" },
-  { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km", href: "/coimbatore" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Komarapalayam", distance: "In-town", href: "/komarapalayam" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Bhavani", distance: "~5 km", href: "/bhavani" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruchengode", distance: "15-20 km", href: "/tiruchengode" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Sankagiri", distance: "20-25 km", href: "/sankagiri" },
-];
+export default function CityLandingPage({ config }: { config: CityPageConfig }) {
+  const pageUrl = `${SITE_URL}/${config.slug}`;
+  const applyUrl = `https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=website&utm_medium=city_page&utm_campaign=${config.slug}`;
 
-export const metadata: Metadata = {
-  title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
-  description:
-    "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 90%+ placements.",
-  keywords:
-    "nursing colleges in erode, erode nursing college, erode nursing college list, nursing college in erode district, best nursing college near erode, bsc nursing in erode",
-  alternates: {
-    canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/erode",
-  },
-  openGraph: {
-    title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
-    description:
-      "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. 90%+ placements.",
-    url: "https://nursing.sresakthimayeil.jkkn.ac.in/erode",
-    siteName: "JKKN College of Nursing",
-    type: "website",
-  },
-};
+  const whyChooseItems = [
+    {
+      icon: <CheckCircleIcon className="w-10 h-10 text-[#006837]" />,
+      title: "INC Approved",
+      desc: "INC-approved nursing institute with hospital-based clinical training",
+    },
+    {
+      icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
+      title: "Hospital Training",
+      desc: "Attached to JKKN group hospitals — direct patient care exposure",
+    },
+    {
+      icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
+      title: "Global Careers",
+      desc: "Strong demand for nursing professionals in India and abroad (Gulf, UK, US, Australia)",
+    },
+    {
+      icon: <HomeModernIcon className="w-10 h-10 text-[#006837]" />,
+      title: "Secure Hostels",
+      desc: "Hostel facilities with secure environment for women learners",
+    },
+    {
+      icon: <ClipboardDocumentListIcon className="w-10 h-10 text-[#006837]" />,
+      title: "Govt Job Prep",
+      desc: "Government nursing job preparation support",
+    },
+    {
+      icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
+      title: "Easy Commute",
+      desc: config.commuteDesc,
+    },
+  ];
 
-export default function ErodePage() {
+  const reachItems = [
+    {
+      emoji: <MapIcon className="w-5 h-5 text-[#006837]" />,
+      label: "ROUTE",
+      text: config.reachRoute,
+    },
+    {
+      emoji: <TruckIcon className="w-5 h-5 text-[#006837]" />,
+      label: "BY BUS",
+      text: config.reachBus,
+    },
+    {
+      emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
+      label: "NEAREST RAILWAY STATION",
+      text: config.reachRail,
+    },
+    {
+      emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
+      label: "NEAREST AIRPORT",
+      text: "Coimbatore International Airport (Code: CJB) (~80 km)",
+    },
+    {
+      emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
+      label: "CAMPUS ADDRESS",
+      text: "JKKN Institutions, Natarajapuram, NH-544, Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183",
+    },
+  ];
+
   return (
     <div className="min-h-screen font-sans bg-[#FBFBEE]">
       <Header />
@@ -245,8 +213,8 @@ export default function ErodePage() {
       {/* Schema Markup */}
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
-          { name: "Nursing Colleges in Erode", url: "https://nursing.sresakthimayeil.jkkn.ac.in/erode" },
+          { name: "Home", url: `${SITE_URL}/` },
+          { name: `Nursing College in ${config.cityName}`, url: pageUrl },
         ]}
       />
       <script
@@ -255,7 +223,7 @@ export default function ErodePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            mainEntity: faqs.map((faq) => ({
+            mainEntity: config.faqs.map((faq) => ({
               "@type": "Question",
               name: faq.q,
               acceptedAnswer: { "@type": "Answer", text: faq.a },
@@ -271,7 +239,7 @@ export default function ErodePage() {
             "@type": "EducationalOrganization",
             name: "JKKN College of Nursing",
             alternateName: "Sresakthimayeil Institute of Nursing and Research",
-            url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
+            url: `${SITE_URL}/`,
             telephone: "+919345855001",
             email: "nursing@jkkn.ac.in",
             address: {
@@ -289,8 +257,10 @@ export default function ErodePage() {
             },
             areaServed: {
               "@type": "City",
-              name: "Erode",
-              sameAs: "https://en.wikipedia.org/wiki/Erode",
+              name: config.cityName,
+              ...(config.areaServedSameAs
+                ? { sameAs: config.areaServedSameAs }
+                : {}),
             },
             parentOrganization: {
               "@type": "Organization",
@@ -315,26 +285,18 @@ export default function ErodePage() {
 
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 leading-tight">
-              Best Nursing Colleges in{" "}
-              <span className="text-[#FBFBEE]">Erode</span>
+              {config.heroTitlePrefix}{" "}
+              <span className="text-[#FBFBEE]">{config.cityName}</span>
             </h1>
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Erode? Sresakthimayeil
-              Institute of Nursing and Research (JKKN College of Nursing) offers
-              INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
-              programmes — just 35 km from Erode via NH-544 with 90%+ placement support.
+              {config.heroDescription}
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
-              {[
-                { value: "90%+", label: "PLACEMENTS" },
-                { value: "6-8", label: "LPA HIGHEST" },
-                { value: "35km", label: "FROM ERODE" },
-                { value: "3", label: "PROGRAMMES" },
-              ].map((stat) => (
+              {config.heroStats.map((stat) => (
                 <div
                   key={stat.label}
                   className="bg-white/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 sm:p-3 md:p-4 text-center"
@@ -352,7 +314,7 @@ export default function ErodePage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=website&utm_medium=city_page&utm_campaign=erode"
+                href={applyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
@@ -394,7 +356,7 @@ export default function ErodePage() {
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt="JKKN College of Nursing campus — best nursing colleges in Erode"
+                alt={`JKKN College of Nursing campus — nursing college near ${config.cityName}`}
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -412,14 +374,15 @@ export default function ErodePage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      35<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      {config.distanceKm}
+                      <span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">
-                        From Erode to JKKN Nursing
+                        {config.distanceHeading}
                       </h2>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        40-50 minutes via NH-544 — direct highway connectivity
+                        {config.distanceSub}
                       </p>
                     </div>
                   </div>
@@ -440,27 +403,21 @@ export default function ErodePage() {
           </div>
         </section>
 
-        {/* ── Nursing Education in Erode ─────────────────────────────── */}
+        {/* ── Nursing Education Landscape ────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight text-center">
-              Nursing Education Landscape in Erode District
+              {config.landscapeHeading}
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
-              <p>
-                Erode is a major industrial and educational hub in western Tamil Nadu, known for its textile, turmeric, and manufacturing industries. While Erode has a growing number of educational institutions, the availability of INC-approved nursing colleges in Erode district remains limited compared to cities like Coimbatore or Chennai.
-              </p>
-              <p>
-                Learners searching for <strong>nursing colleges in Erode</strong> often find that the best options lie within a short commute. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam is just 35 km from Erode via the well-connected NH-544 highway — making it one of the most accessible choices in the <strong>Erode nursing college list</strong>.
-              </p>
-              <p>
-                What sets JKKN apart from other <strong>nursing colleges in Erode district</strong> is its integrated campus with a 500+ bed multi-specialty teaching hospital, providing clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
-              </p>
+              {config.landscapeParagraphs.slice(0, -1).map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="500-bed teaching hospital for nursing students near Erode"
+                    alt={`Teaching hospital for nursing learners near ${config.cityName}`}
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -469,16 +426,14 @@ export default function ErodePage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Simulation-lab-image.webp"
-                    alt="Nursing simulation lab at JKKN College of Nursing near Erode"
+                    alt={`Nursing simulation lab at JKKN College of Nursing near ${config.cityName}`}
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
                   />
                 </div>
               </div>
-              <p>
-                With 90%+ placement support including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA), Erode learners at JKKN gain a significant career advantage. The campus also offers secure hostel facilities for learners who prefer not to commute daily, along with regular college transport services from Erode.
-              </p>
+              <p>{config.landscapeParagraphs[config.landscapeParagraphs.length - 1]}</p>
             </div>
           </div>
         </section>
@@ -488,14 +443,10 @@ export default function ErodePage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Erode Learners Choose JKKN — Top Nursing College in Erode District
+                {config.whyHeading}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges in Erode district, JKKN stands out with
-                INC approval, NAAC accreditation, and 90%+ placement support.
-                Located just 35 km from Erode on NH-544, it is closer than many
-                Erode nursing colleges in the city itself — making daily commute
-                comfortable and quick for Erode learners.
+                {config.whyIntro}
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -522,7 +473,7 @@ export default function ErodePage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Nursing Courses Available for Erode Learners
+                {config.programmesHeading}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Choose the right programme for your career goals
@@ -570,7 +521,7 @@ export default function ErodePage() {
                       Learn More →
                     </a>
                     <a
-                      href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=website&utm_medium=city_page&utm_campaign=erode"
+                      href={applyUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full text-center border-2 border-[#7cb983]/50 text-[#006837] font-semibold px-3 py-2.5 rounded-xl hover:bg-[#7cb983]/10 transition-colors text-xs sm:text-sm"
@@ -648,7 +599,7 @@ export default function ErodePage() {
           <div className="max-w-3xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                How to Reach from Erode
+                {config.reachHeading}
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
                 Multiple transport options to get to campus easily
@@ -662,10 +613,10 @@ export default function ErodePage() {
                   <MapPinIcon className="w-6 h-6 text-white flex-shrink-0" />
                   <div>
                     <h3 className="text-white font-bold text-base sm:text-lg md:text-xl">
-                      Erode → JKKN Nursing Campus
+                      {config.cityName} → JKKN Nursing Campus
                     </h3>
                     <p className="text-white/70 text-xs sm:text-sm mt-0.5">
-                      30-40 km • 40-50 minutes
+                      {config.reachRouteSummary}
                     </p>
                   </div>
                 </div>
@@ -727,7 +678,7 @@ export default function ErodePage() {
           </div>
         </section>
 
-        {/* ── Student Success & Alumni ────────────────────────────── */}
+        {/* ── Learner Success & Alumni ────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
@@ -761,7 +712,7 @@ export default function ErodePage() {
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
                 <div className="text-white font-bold text-base sm:text-lg mb-2">Are You a JKKN Alumni?</div>
-                <p className="text-white/70 text-xs sm:text-sm mb-4">Share your experience and inspire future nursing learners from Erode</p>
+                <p className="text-white/70 text-xs sm:text-sm mb-4">{config.successCityText}</p>
                 <a
                   href="/contact"
                   className="inline-block bg-white text-[#006837] font-semibold px-5 py-2.5 rounded-full text-sm hover:bg-gray-100 transition-colors"
@@ -781,12 +732,12 @@ export default function ErodePage() {
                 Frequently Asked Questions
               </h2>
               <p className="text-[#006837] text-sm sm:text-base font-medium">
-                Nursing Colleges in Erode — Your Questions Answered
+                {config.faqSubtitle}
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
 
-            <CityFaqAccordion faqs={faqs} />
+            <CityFaqAccordion faqs={config.faqs} />
           </div>
         </section>
 
@@ -804,13 +755,15 @@ export default function ErodePage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-8">
-              {cities.map((city) => (
+              {config.cities.map((city) => (
                 <a
                   key={city.name}
                   href={city.href}
                   className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-200 flex items-center gap-3"
                 >
-                  <span className="text-2xl flex-shrink-0">{city.icon}</span>
+                  <span className="text-2xl flex-shrink-0">
+                    <MapPinIcon className="w-6 h-6 text-[#006837]" />
+                  </span>
                   <span className="font-bold text-gray-900 text-sm sm:text-base flex-1">
                     {city.name}
                   </span>
