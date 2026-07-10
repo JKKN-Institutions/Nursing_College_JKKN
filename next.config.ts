@@ -89,7 +89,10 @@ const nextConfig: NextConfig = {
       { source: '/my-account', destination: '/', permanent: true },
       { source: '/ivbp', destination: '/', permanent: true },
       { source: '/camu', destination: '/', permanent: true },
-      { source: '/rie', destination: '/', permanent: true },
+      // '/rie' redirect removed 2026-07-10: old hacked URL carried Indonesian
+      // gambling spam ("libra168") backlinks; redirecting it to '/' passed that
+      // spam equity to the homepage (GSC: homepage ranked for libra168 in IDN).
+      // Must return 404 so the spam signals die with the URL.
       { source: '/tle', destination: '/', permanent: true },
       { source: '/ilr', destination: '/', permanent: true },
     ]
