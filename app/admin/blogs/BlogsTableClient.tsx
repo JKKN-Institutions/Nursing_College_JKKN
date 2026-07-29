@@ -16,6 +16,7 @@ import {
   Pencil,
   Trash2,
   ExternalLink,
+  Link2,
   Loader2,
 } from 'lucide-react';
 import ConfirmModal from '../ConfirmModal';
@@ -31,6 +32,7 @@ interface Blog {
   published_at: string | null;
   view_count: number | null;
   read_time: string | null;
+  preview_token?: string | null;
 }
 
 interface Category {
@@ -119,6 +121,20 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
       router.refresh();
     }
     setDeletingId(null);
+  }
+
+  async function copyPreviewLink(blog: Blog) {
+    if (!blog.preview_token) {
+      toast.error('Preview token missing — run the preview_token migration first.');
+      return;
+    }
+    const url = `${window.location.origin}/blog/preview/${blog.id}?token=${blog.preview_token}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success('Public preview link copied.');
+    } catch {
+      toast.error('Could not copy. Link: ' + url);
+    }
   }
 
   function toggleSelect(id: string) {
@@ -331,6 +347,22 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                                 <Pencil className="w-3.5 h-3.5" />
                                 Edit
                               </Link>
+                              <Link
+                                href={`/blog/preview/${blog.id}`}
+                                target="_blank"
+                                className="flex items-center gap-2.5 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                                onClick={() => setOpenMenu(null)}
+                              >
+                                <Eye className="w-3.5 h-3.5" />
+                                Preview
+                              </Link>
+                              <button
+                                onClick={() => { setOpenMenu(null); copyPreviewLink(blog); }}
+                                className="w-full flex items-center gap-2.5 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                              >
+                                <Link2 className="w-3.5 h-3.5" />
+                                Copy Share Link
+                              </button>
                               {blog.is_published && blog.slug && (
                                 <Link
                                   href={`/blog/campus/${blog.slug}`}

@@ -296,7 +296,7 @@ export default function NewPostForm({ userEmail, userName, userAvatar, categorie
     toast.success(`Estimated read time: ${mins} min`);
   }
 
-  async function handleSubmit(publish: boolean) {
+  async function handleSubmit(forceDraft: boolean) {
     if (!title.trim()) return toast.error('Title is required.');
     if (!slug.trim()) return toast.error('Slug is required.');
 
@@ -304,7 +304,8 @@ export default function NewPostForm({ userEmail, userName, userAvatar, categorie
     const coverUrl = await uploadCoverImage();
     if (coverImageFile && !coverUrl) { setSaving(false); return; }
 
-    const status = publish ? 'published' : postStatus === 'published' ? 'draft' : postStatus;
+    // "Create Post" respects the Status dropdown; "Save as Draft" always saves a draft.
+    const status = forceDraft ? 'draft' : postStatus;
 
     const payload = {
       college_id: collegeId,
@@ -558,10 +559,10 @@ export default function NewPostForm({ userEmail, userName, userAvatar, categorie
                 Content: {contentSizeMB}MB / 2.5MB
               </p>
 
-              <div className="flex gap-2 pt-1">
+              <div className="flex flex-col gap-2 pt-1">
                 <button
                   type="button"
-                  onClick={() => handleSubmit(true)}
+                  onClick={() => handleSubmit(false)}
                   disabled={saving}
                   className="flex-1 flex items-center justify-center gap-2 bg-[#006837] text-white text-sm font-semibold py-2.5 rounded-xl hover:bg-[#005a2e] transition disabled:opacity-50"
                 >
@@ -571,12 +572,11 @@ export default function NewPostForm({ userEmail, userName, userAvatar, categorie
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleSubmit(false)}
+                  onClick={() => handleSubmit(true)}
                   disabled={saving}
-                  className="flex items-center justify-center gap-1.5 border border-gray-200 text-sm font-medium text-gray-600 px-3 py-2.5 rounded-xl hover:bg-gray-50 transition disabled:opacity-50"
+                  className="flex items-center justify-center gap-1.5 border border-gray-200 text-sm font-medium text-gray-600 px-3 py-2.5 rounded-xl hover:bg-gray-50 transition disabled:opacity-50 whitespace-nowrap"
                 >
-                  <Eye className="w-3.5 h-3.5" />
-                  Save
+                  Save as Draft
                 </button>
               </div>
             </div>
