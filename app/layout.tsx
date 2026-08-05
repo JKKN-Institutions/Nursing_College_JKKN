@@ -236,7 +236,6 @@ const educationalOrgSchema = {
     "https://www.linkedin.com/school/jkknnursing",
     "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
     "https://www.indiannursingcouncil.org/",
-    "https://en.wikipedia.org/wiki/J._K._K._Nattraja_Educational_Institutions",
     "https://www.wikidata.org/wiki/Q55090877",
     "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
   ],
