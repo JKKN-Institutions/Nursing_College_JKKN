@@ -451,7 +451,7 @@ export default function BScNursing() {
                   <tr className="bg-white"><td className="border border-gray-300 p-3 font-medium">Male Candidates</td><td className="border border-gray-300 p-3">10% of intake (6 seats) per INC guidelines</td></tr>
                 </tbody>
               </table>
-              <p className="text-center mt-4"><Link href="/eligibility-criteria" className="text-[#006837] font-semibold hover:underline">View detailed eligibility criteria →</Link></p>
+              <p className="text-center mt-4"><Link href="/admissions/bsc-nursing" className="text-[#006837] font-semibold hover:underline">View detailed eligibility criteria →</Link></p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
