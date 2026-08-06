@@ -197,7 +197,7 @@ export default function MScCommunityHealthNursing() {
                 <div className="bg-[#006837]/30 backdrop-blur-sm rounded-2xl p-8 border border-[#7cb983]/30">
                   <div className="rounded-xl aspect-video overflow-hidden mb-6">
                     <Image
-                      src="/images/NURSING%20COLLEGE/DSC_0383.JPG"
+                      src="/images/NURSING%20COLLEGE/DSC_0383.webp"
                       alt="M.Sc Community Health Nursing students in practical field training at JKKN College of Nursing"
                       width={600}
                       height={338}
@@ -857,7 +857,7 @@ export default function MScCommunityHealthNursing() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl min-h-[400px]">
                 <Image
-                  src="/images/NURSING%20COLLEGE/DSC_0386.JPG"
+                  src="/images/NURSING%20COLLEGE/DSC_0386.webp"
                   alt="M.Sc Community Health Nursing students in field training session at JKKN College of Nursing"
                   fill
                   className="object-cover"

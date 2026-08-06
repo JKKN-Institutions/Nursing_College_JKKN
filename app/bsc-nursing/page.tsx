@@ -221,7 +221,7 @@ export default function BScNursing() {
               {/* Right Content - Nursing Learners */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/NURSING%20COLLEGE/DSC_0345.JPG"
+                  src="/images/NURSING%20COLLEGE/DSC_0345.webp"
                   alt="BSc Nursing students practising clinical skills at JKKN College of Nursing, Tamil Nadu"
                   fill
                   className="object-cover"
@@ -240,7 +240,7 @@ export default function BScNursing() {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
-                    src="/images/NURSING%20COLLEGE/DSC_0359.JPG"
+                    src="/images/NURSING%20COLLEGE/DSC_0359.webp"
                     alt="BSc Nursing students in classroom learning anatomy at JKKN College of Nursing, Komarapalayam"
                     fill
                     className="object-cover"

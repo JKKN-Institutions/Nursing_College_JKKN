@@ -235,7 +235,7 @@ export default function PBScNursing() {
               {/* Right Content - Post Basic Nursing Learners */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/NURSING%20COLLEGE/DSC_0380.JPG"
+                  src="/images/NURSING%20COLLEGE/DSC_0380.webp"
                   alt="Post Basic BSc Nursing students in practical lab session at JKKN College of Nursing"
                   fill
                   className="object-cover"
@@ -254,7 +254,7 @@ export default function PBScNursing() {
               <div className="relative">
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
-                    src="/images/NURSING%20COLLEGE/IMG_1550.JPG"
+                    src="/images/NURSING%20COLLEGE/IMG_1550.webp"
                     alt="Post Basic BSc Nursing students in clinical skills demonstration at JKKN College of Nursing"
                     fill
                     className="object-cover"
@@ -931,7 +931,7 @@ export default function PBScNursing() {
               {/* Left - Nursing Career Advancement */}
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
-                  src="/images/NURSING%20COLLEGE/IMG_1572.JPG"
+                  src="/images/NURSING%20COLLEGE/IMG_1572.webp"
                   alt="Post Basic BSc Nursing students studying in library at JKKN College of Nursing"
                   fill
                   className="object-cover"

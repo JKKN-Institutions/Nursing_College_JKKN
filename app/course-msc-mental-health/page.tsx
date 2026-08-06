@@ -193,7 +193,7 @@ export default function MScMentalHealthNursing() {
               <div className="relative">
                 <div className="relative w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-[220px] sm:h-[300px] md:h-[350px] rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/NURSING COLLEGE/DSC_0355.JPG"
+                    src="/images/NURSING COLLEGE/DSC_0355.webp"
                     alt="Mental Health Nursing Training"
                     fill
                     className="object-cover"
@@ -947,7 +947,7 @@ export default function MScMentalHealthNursing() {
               {/* Left - Video/Image */}
               <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video">
                 <Image
-                  src="/images/NURSING COLLEGE/DSC_0345.JPG"
+                  src="/images/NURSING COLLEGE/DSC_0345.webp"
                   alt="Psychiatric Clinical Training"
                   fill
                   className="object-cover"

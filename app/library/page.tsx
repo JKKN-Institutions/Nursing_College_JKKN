@@ -28,7 +28,7 @@ export default function Library() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full">
                 <Image
-                  src="/images/library-1.jpg"
+                  src="/images/library-1.webp"
                   alt="Library Interior View 1"
                   width={450}
                   height={350}
@@ -37,7 +37,7 @@ export default function Library() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/library-2.jpg"
+                  src="/images/library-2.webp"
                   alt="Library Interior View 2"
                   width={450}
                   height={350}
@@ -46,7 +46,7 @@ export default function Library() {
               </div>
               <div className="w-full">
                 <Image
-                  src="/images/library-3.jpg"
+                  src="/images/library-3.webp"
                   alt="Library Interior View 3"
                   width={450}
                   height={350}
