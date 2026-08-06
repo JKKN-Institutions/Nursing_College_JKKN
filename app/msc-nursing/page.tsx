@@ -598,7 +598,7 @@ export default function MScNursing() {
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The program integrates evidence-based practice with hands-on clinical
-                  training at the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Learners completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced senior learners who bring decades of clinical and
+                  training at the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Learners completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced senior learners who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
                 </p>
 
@@ -851,7 +851,7 @@ export default function MScNursing() {
                 M.Sc Nursing Fees Structure 2026-27
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Transparent fee structure for M.Sc Nursing at JKKN College of Nursing. <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">Scholarships available</Link> for meritorious and economically weaker learners.
+                Transparent fee structure for M.Sc Nursing at JKKN College of Nursing. <Link href="/scholarships" className="text-[#006837] font-semibold hover:underline">Scholarships available</Link> for meritorious and economically weaker learners.
               </p>
             </div>
 
@@ -1057,7 +1057,7 @@ export default function MScNursing() {
                     <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">1</div>
                     <div>
                       <h3 className="text-xl font-bold text-[#006837] mb-2">On-Campus Hospital Access</h3>
-                      <p className="text-gray-700">Direct access to the <Link href="/hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, and Psychiatry.</p>
+                      <p className="text-gray-700">Direct access to the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, and Psychiatry.</p>
                     </div>
                   </div>
 
@@ -1947,7 +1947,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    Yes, JKKN provides scholarship opportunities for meritorious learners and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated. Visit the <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">scholarship page</Link> for details.
+                    Yes, JKKN provides scholarship opportunities for meritorious learners and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated. Visit the <Link href="/scholarships" className="text-[#006837] font-semibold hover:underline">scholarship page</Link> for details.
                   </p>
                 </details>
 

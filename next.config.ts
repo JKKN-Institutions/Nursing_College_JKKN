@@ -78,7 +78,7 @@ const nextConfig: NextConfig = {
       { source: '/library-gallery', destination: '/library', permanent: true },
       { source: '/classroom-gallery', destination: '/gallery', permanent: true },
       { source: '/digital-campus', destination: '/smart-classroom', permanent: true },
-      { source: '/clinical-hospital-facilities', destination: '/hospital', permanent: true },
+      { source: '/clinical-hospital-facilities', destination: '/clinical-hospital', permanent: true },
 
       // Other specific pages
       { source: '/placements', destination: '/placement', permanent: true },

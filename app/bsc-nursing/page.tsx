@@ -1387,7 +1387,7 @@ export default function BScNursing() {
                 <div className="flex-1">
                   <h3 className="text-2xl font-bold text-[#006837] mb-3">Fee Payment</h3>
                   <p className="text-gray-700 text-lg">
-                    Pay the prescribed admission fee to confirm your seat. <Link href="/fee-structure" className="text-[#006837] font-semibold hover:underline">View fee structure</Link>. Education loan and <Link href="/scholarship" className="text-[#006837] font-semibold hover:underline">scholarship</Link> assistance available.
+                    Pay the prescribed admission fee to confirm your seat. <Link href="/fee-structure" className="text-[#006837] font-semibold hover:underline">View fee structure</Link>. Education loan and <Link href="/scholarships" className="text-[#006837] font-semibold hover:underline">scholarship</Link> assistance available.
                   </p>
                 </div>
               </div>
