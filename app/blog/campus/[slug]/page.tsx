@@ -18,15 +18,17 @@ export async function generateMetadata({
   const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
   const { data: post } = await supabase
     .from('blogs')
-    .select('title, excerpt, meta_description, cover_image_url, published_at, created_at')
+    .select('title, excerpt, cover_image_url, published_at, created_at')
     .eq('slug', slug)
     .eq('college_id', collegeId)
     .eq('is_published', true)
     .single();
 
-  if (!post) return {};
+  // Returning {} here silently inherits the /blog listing's title and canonical, which is how
+  // this fault stayed invisible: the post rendered fine while its head claimed to be the listing.
+  if (!post) return { title: 'Blog Post Not Found — JKKN College of Nursing' };
 
-  const description = post.meta_description || post.excerpt || '';
+  const description = post.excerpt || '';
   const canonicalUrl = `https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/${slug}`;
   const ogImage = post.cover_image_url || '/images/nursing_logo.png';
 
