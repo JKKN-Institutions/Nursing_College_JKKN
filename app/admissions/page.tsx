@@ -10,10 +10,86 @@ export const metadata: Metadata = {
   description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research. NEET-based admission. INC approved. Scholarships available.",
 };
 
+// DEP-12, 2026-08-07: moved here from app/admissions/layout.tsx. In the layout these
+// rendered on every admissions child route as well, so three course pages each declared
+// themselves to be /admissions. They belong to this page.
+const admissionsWebPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
+  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": ["h1", ".admission-overview", ".key-facts"]
+  }
+};
+const admissionHowToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Apply for Nursing Admission at JKKN College",
+  description:
+    "Step-by-step guide to apply for B.Sc, M.Sc, or Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam.",
+  step: [
+    {
+      "@type": "HowToStep",
+      position: 1,
+      name: "Check Eligibility",
+      text: "Verify you meet the minimum eligibility criteria for your chosen nursing program (B.Sc, M.Sc, or Post Basic B.Sc Nursing).",
+    },
+    {
+      "@type": "HowToStep",
+      position: 2,
+      name: "Apply Online",
+      text: "Fill out the online application form at www.jkkn.ai/apply/jkkn-admission-2026 with your personal and academic details.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 3,
+      name: "Document Verification",
+      text: "Submit original documents including mark sheets, NEET score card, certificates for verification.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 4,
+      name: "Counselling",
+      text: "Attend counselling session for seat allotment through Government Quota or Management Quota.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 5,
+      name: "Fee Payment",
+      text: "Pay the prescribed admission and tuition fees to confirm your seat.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 6,
+      name: "Admission Confirmed",
+      text: "Receive your admission letter and join on the specified date to begin your nursing education.",
+    },
+  ],
+};
+// DEP-12: the FAQPage that came across from the layout is NOT kept. This page already
+// carries its own further down - 9 questions against that one's 6, and properly mapped
+// into Question nodes. Two FAQPage blocks on one URL leave Google choosing between
+// them, which is the same fault being fixed on the pharmacy pages in this commit.
+
 export default function Admissions() {
   return (
     <>
-      <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(admissionsWebPageSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(admissionHowToSchema) }}
+      />
+<Header />
       <main className="bg-[#FBFBEE] min-h-screen">
 
         {/* Breadcrumb Schema */}
