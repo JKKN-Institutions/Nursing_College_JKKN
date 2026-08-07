@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Perundurai | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Perundurai: JKKN College of Nursing in Komarapalayam is ~40-50 km via Erode on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "JKKN College of Nursing at Komarapalayam is 40-50 km from Perundurai on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near perundurai, nursing colleges perundurai, bsc nursing perundurai, nursing college erode district, jkkn nursing perundurai",
   alternates: {

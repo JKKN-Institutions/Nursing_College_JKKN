@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Karur | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Karur: JKKN College of Nursing in Komarapalayam is ~75-85 km via Namakkal or Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "JKKN College of Nursing at Komarapalayam is 75-85 km from Karur via Namakkal or Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near karur, nursing colleges in karur, bsc nursing karur, nursing college karur district, jkkn nursing karur",
   alternates: {

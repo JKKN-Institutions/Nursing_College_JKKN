@@ -1,9 +1,9 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nursing College Near Coimbatore — JKKN College of Nursing",
+  title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
   description:
-    "JKKN College of Nursing, 100 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98%+ placement, 500-bed hospital.",
+    "JKKN College of Nursing, 100-110 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   openGraph: {
     title: "Nursing College Near Coimbatore — JKKN College of Nursing",
     description:

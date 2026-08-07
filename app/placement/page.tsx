@@ -30,9 +30,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Placements at JKKN College of Nursing — 97% Success Rate | Top Recruiters & International Opportunities",
+    "Placements at JKKN College of Nursing | Recruiters",
   description:
-    "JKKN College of Nursing placement record: 97% success rate, 80+ recruiters including NHS UK, Apollo, Fortis, and Cleveland Clinic Abu Dhabi. Salary packages from ₹3.5 LPA to ₹25 LPA (international). Dedicated placement cell with NCLEX, OET, IELTS coaching and visa support.",
+    "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
   alternates: {
     canonical:
       "https://nursing.sresakthimayeil.jkkn.ac.in/placement",

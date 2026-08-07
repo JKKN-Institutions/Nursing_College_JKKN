@@ -217,7 +217,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
   description:
-    "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 90%+ placements.",
+    "JKKN College of Nursing is 40-50 km from Salem on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   keywords:
     "nursing college in salem, bsc nursing colleges in salem, best nursing colleges in salem, salem nursing college list, nursing course in salem",
   alternates: {

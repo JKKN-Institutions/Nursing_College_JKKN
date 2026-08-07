@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
+  title: "Placements at JKKN College of Nursing | Recruiters",
   description:
-    "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary ₹3.5-25 LPA.",
+    "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
   keywords:
     "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, NHS UK nursing jobs, nursing salary india, best nursing college placement",
   openGraph: {

@@ -9,9 +9,9 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 const course = coursesAdmission.bsc;
 
 export const metadata: Metadata = {
-  title: "B.Sc Nursing Admission 2026-27 | Eligibility, Fees, NEET, Process — JKKN",
+  title: "B.Sc Nursing Admission 2026-27 — NEET, Fees, Seats | JKKN",
   description:
-    "B.Sc Nursing admission 2026-27 at JKKN College of Nursing. NEET-UG mandatory. 60 seats. ₹1,50,000/yr (F) / ₹1,75,000/yr (M) MQ. Eligibility, documents, dates, application process — apply online.",
+    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited, NEET-UG required. Eligibility, fees and dates — apply online.",
   keywords:
     "B.Sc Nursing admission 2026, BSc Nursing JKKN, NEET nursing admission, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
   alternates: { canonical: `${SITE_URL}/admissions/bsc-nursing` },

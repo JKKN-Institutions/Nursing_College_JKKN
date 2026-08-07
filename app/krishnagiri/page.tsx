@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Krishnagiri | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Krishnagiri: JKKN College of Nursing in Komarapalayam is ~150 km via Salem (NH-44/NH-544). Tamil Nadu counselling, TNMGRMU affiliation, INC approved, secure hostels. Admissions 2026-27 open.",
+    "JKKN College of Nursing at Komarapalayam is about 150 km from Krishnagiri via Salem. TNMGRMU affiliated, INC approved. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near krishnagiri, nursing colleges in krishnagiri, bsc nursing krishnagiri, nursing college hosur, nursing college krishnagiri district, jkkn nursing krishnagiri",
   alternates: {

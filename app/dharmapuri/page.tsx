@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Dharmapuri | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Dharmapuri: JKKN College of Nursing in Komarapalayam is ~100 km via Salem. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "JKKN College of Nursing at Komarapalayam is about 100 km from Dharmapuri via Salem. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near dharmapuri, nursing colleges in dharmapuri, bsc nursing dharmapuri, nursing college dharmapuri district, jkkn nursing dharmapuri",
   alternates: {

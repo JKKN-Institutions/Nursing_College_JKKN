@@ -215,9 +215,9 @@ const cities = [
 ];
 
 export const metadata: Metadata = {
-  title: "Best Nursing College in Coimbatore | B.Sc Nursing Near Coimbatore — JKKN",
+  title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
   description:
-    "Looking for the best nursing college in Coimbatore? JKKN College of Nursing offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes. 100-110 km from Coimbatore. NAAC accredited. 90%+ placements.",
+    "JKKN College of Nursing, 100-110 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   keywords:
     "best nursing college in coimbatore, bsc nursing colleges in coimbatore, best nursing colleges in coimbatore, coimbatore nursing college list, nursing course in coimbatore, coimbatore nursing college",
   alternates: {
