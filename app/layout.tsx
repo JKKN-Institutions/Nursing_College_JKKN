@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ClientLayout } from "@/components/ClientLayout";
+import { ConversionTracking } from "@/components/analytics/ConversionTracking";
 
 const GA_MEASUREMENT_ID = "G-Q72FWCD9PN";
 const META_PIXEL_ID = "167167189256935";
@@ -358,6 +359,7 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+        <ConversionTracking />
         <ClientLayout>
           {children}
         </ClientLayout>
