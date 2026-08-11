@@ -11,6 +11,18 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // ── Course-mismatch removal 2026-08-11 (DEP-45) ───────────────────────
+      // This college does not run GNM or ANM. Offered list read live off this site
+      // 2026-08-11: B.Sc Nursing, P.B.B.Sc Nursing, M.Sc Nursing (5 specialisations).
+      // The blog post at this slug was deleted from the CMS the same day. It carried 68 GSC
+      // impressions at best position 2.6, so it is redirected rather than left to 404 — to the
+      // Post Basic B.Sc guide, which is the real upgrade route for a GNM holder and a course
+      // this college does offer. Target verified HTTP 200 on 2026-08-11.
+      // Both slash forms are listed: unlike pharmacy and dental, this site does not normalise
+      // to a trailing slash, so neither form can be assumed to reach the other.
+      { source: '/blog/campus/diploma-nursing-gnm-anm-pay-and-who-it-suits', destination: '/blog/campus/post-basic-bsc-nursing-guide-for-gnm-holders', permanent: true },
+      { source: '/blog/campus/diploma-nursing-gnm-anm-pay-and-who-it-suits/', destination: '/blog/campus/post-basic-bsc-nursing-guide-for-gnm-holders', permanent: true },
+
       // Pattern redirects — WordPress URL structures
       { source: '/tag/:path*', destination: '/blog', permanent: true },
       { source: '/category/:path*', destination: '/blog', permanent: true },
