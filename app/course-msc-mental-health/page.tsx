@@ -63,7 +63,7 @@ export default function MScMentalHealthNursing() {
               "description": "A 2-year postgraduate nursing specialization in Psychiatric and Mental Health Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers therapeutic interventions, community mental health, psychiatric rehabilitation, and de-addiction nursing.",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "name": "Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research)",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
               },
               "timeRequired": "P2Y",
@@ -97,7 +97,7 @@ export default function MScMentalHealthNursing() {
                   "name": "What types of psychiatric facilities are available for clinical training?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Sresakthimayeil Institute of Nursing and Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
+                    "text": "Sresakthimayeil Institute Of Nursing And Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
                   }
                 },
                 {
@@ -260,7 +260,7 @@ export default function MScMentalHealthNursing() {
               <div className="lg:col-span-2 space-y-6 text-gray-700 leading-relaxed">
                 <p>
                   The Master of Science in Nursing with specialization in Mental Health Nursing
-                  at Sresakthimayeil Institute of Nursing and Research is a two-year, full-time postgraduate program
+                  at Sresakthimayeil Institute Of Nursing And Research is a two-year, full-time postgraduate program
                   designed to prepare registered nurses for advanced roles in psychiatric
                   nursing practice, education, research, and mental health administration.
                 </p>
@@ -1498,7 +1498,7 @@ export default function MScMentalHealthNursing() {
                 {openFaq === 2 && (
                   <div className="px-6 pb-6">
                     <p className="text-gray-600 leading-relaxed">
-                      Sresakthimayeil Institute of Nursing and Research has affiliations with government psychiatric hospitals, private mental health
+                      Sresakthimayeil Institute Of Nursing And Research has affiliations with government psychiatric hospitals, private mental health
                       centers, de-addiction centers, and community mental health programs. Clinical rotations include acute
                       psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry,
                       forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities. This diverse
@@ -1624,7 +1624,7 @@ export default function MScMentalHealthNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

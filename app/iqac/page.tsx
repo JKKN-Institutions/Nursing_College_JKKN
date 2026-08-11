@@ -26,7 +26,7 @@ export default function IQAC() {
 
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p>
-              Sresakthimayeil institute of nursing and research College , has Internal quality assurance mechanism with the well organised IQAC committee, with the IQAC chairperson ,managing director, committee members, external experts, coordinator, management nominee, stakeholders nominee, students nominee and alumni nominee.The Internal Quality Assurance Cell (IQAC) in Sresakthimayeil institute of nursing and research plays a pivotal role in ensuring and enhancing the quality of education and research in our esteemed institution. With a firm commitment to continuous improvement, the IQAC diligently works towards maintaining the highest standards of excellence in nursing education.
+              Sresakthimayeil Institute Of Nursing And Research College , has Internal quality assurance mechanism with the well organised IQAC committee, with the IQAC chairperson ,managing director, committee members, external experts, coordinator, management nominee, stakeholders nominee, students nominee and alumni nominee.The Internal Quality Assurance Cell (IQAC) in Sresakthimayeil Institute Of Nursing And Research plays a pivotal role in ensuring and enhancing the quality of education and research in our esteemed institution. With a firm commitment to continuous improvement, the IQAC diligently works towards maintaining the highest standards of excellence in nursing education.
             </p>
 
             <p>

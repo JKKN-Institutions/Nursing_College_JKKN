@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "M.Sc Nursing in Mental Health (Psychiatric Nursing) at JKKN. Specialization in psychiatric care, counseling, and mental health promotion.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
@@ -38,11 +38,11 @@ const mscMentalHealthSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "M.Sc Nursing in Mental Health (Psychiatric Nursing)",
-  "description": "2-year M.Sc Nursing specialization in Mental Health at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Focus on psychiatric care, counseling, and mental health promotion. INC approved, affiliated to TNMGRMU.",
+  "description": "2-year M.Sc Nursing specialization in Mental Health at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Focus on psychiatric care, counseling, and mental health promotion. INC approved, affiliated to TNMGRMU.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
+    "name": "Sresakthimayeil Institute Of Nursing And Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
     "address": {
       "@type": "PostalAddress",
@@ -95,7 +95,7 @@ const mscMentalHealthFaqSchema = {
       "name": "What types of psychiatric facilities are available for clinical training?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sresakthimayeil Institute of Nursing and Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
+        "text": "Sresakthimayeil Institute Of Nursing And Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
       }
     },
     {

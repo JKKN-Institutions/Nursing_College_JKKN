@@ -65,7 +65,7 @@ export default function MScCommunityHealthNursing() {
               "description": "A 2-year postgraduate nursing specialization in Community Health Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers public health, epidemiology, primary healthcare, disease prevention, health promotion, and community-based nursing practice.",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "name": "Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research)",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
               },
               "timeRequired": "P2Y",
@@ -255,7 +255,7 @@ export default function MScCommunityHealthNursing() {
               <div className="md:col-span-2">
                 <div className="bg-[#FBFBEE] rounded-lg p-8 shadow-md">
                   <p className="text-gray-700 leading-relaxed mb-6">
-                    M.Sc Nursing in Community Health Nursing at Sresakthimayeil Institute of Nursing and Research is a rigorous 2-year postgraduate program designed to develop advanced competencies in public health nursing, epidemiology, health education, and community-based healthcare delivery. This INC-approved program prepares Learners to become leaders in primary healthcare and public health management.
+                    M.Sc Nursing in Community Health Nursing at Sresakthimayeil Institute Of Nursing And Research is a rigorous 2-year postgraduate program designed to develop advanced competencies in public health nursing, epidemiology, health education, and community-based healthcare delivery. This INC-approved program prepares Learners to become leaders in primary healthcare and public health management.
                   </p>
 
                   <p className="text-gray-700 leading-relaxed mb-6">
@@ -1499,7 +1499,7 @@ export default function MScCommunityHealthNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

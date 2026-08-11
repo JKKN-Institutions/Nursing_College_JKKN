@@ -1192,7 +1192,7 @@ export default function PlacementsPage() {
                 Published by JKKN College of Nursing — Placement Cell
               </p>
               <p className="text-sm text-gray-600 mb-1">
-                Sresakthimayeil Institute of Nursing and Research
+                Sresakthimayeil Institute Of Nursing And Research
               </p>
               <p className="text-sm text-gray-600 mb-1">
                 Natarajapuram, NH-544 (Salem-Coimbatore Highway),

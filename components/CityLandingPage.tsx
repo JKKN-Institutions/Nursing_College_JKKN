@@ -238,7 +238,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             name: "JKKN College of Nursing",
-            alternateName: "Sresakthimayeil Institute of Nursing and Research",
+            alternateName: "Sresakthimayeil Institute Of Nursing And Research",
             url: `${SITE_URL}/`,
             telephone: "+919345855001",
             email: "nursing@jkkn.ac.in",

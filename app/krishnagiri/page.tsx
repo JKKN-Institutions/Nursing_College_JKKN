@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Krishnagiri",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Krishnagiri? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) in Komarapalayam is around 150 km away via Salem on the NH-44/NH-544 corridor — a Tamil Nadu option under The Tamil Nadu Dr. M.G.R. Medical University, with INC-approved programmes and secure hostels.",
+    "Searching for a nursing college near Krishnagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 150 km away via Salem on the NH-44/NH-544 corridor — a Tamil Nadu option under The Tamil Nadu Dr. M.G.R. Medical University, with INC-approved programmes and secure hostels.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Krishnagiri Learners",
   landscapeParagraphs: [
     "Krishnagiri district, in the north-western corner of Tamil Nadu, is famous as the state's mango capital and for the fast-growing Hosur industrial belt. Because the district borders Karnataka, many learners from Krishnagiri, Hosur and Denkanikottai look towards Bangalore for higher education.",
-    "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) at Komarapalayam offers exactly that, around 150 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
+    "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam offers exactly that, around 150 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners work with real patients from the first year of the programme.",
     "Krishnagiri learners stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with direct Salem-route buses making trips home easy during holidays. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Krishnagiri district can build a global nursing career while studying in their home state.",
   ],
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Krishnagiri?",
-      a: "Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 150 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 150 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Krishnagiri?",
@@ -66,7 +66,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "What is the fee structure for B.Sc Nursing for Krishnagiri learners?",

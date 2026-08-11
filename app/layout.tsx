@@ -65,11 +65,11 @@ const educationalOrganizationSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
   "name": "JKKN College of Nursing",
   "alternateName": [
-    "Sresakthimayeil Institute of Nursing and Research",
+    "Sresakthimayeil Institute Of Nursing And Research",
     "JKKN College of Nursing",
     "JKKN College of Nursing Komarapalayam"
   ],
-  "description": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
+  "description": "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
@@ -147,7 +147,7 @@ const websiteSchema = {
   "@type": "WebSite",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#website",
   "name": "JKKN College of Nursing",
-  "alternateName": "Sresakthimayeil Institute of Nursing and Research",
+  "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "publisher": {
     "@type": "EducationalOrganization",
@@ -162,7 +162,7 @@ const educationalOrgSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
   "name": "JKKN College of Nursing",
   "alternateName": [
-    "Sresakthimayeil Institute of Nursing and Research",
+    "Sresakthimayeil Institute Of Nursing And Research",
     "JKKN College of Nursing",
     "JKKN College of Nursing"
   ],
@@ -284,7 +284,7 @@ const videoObjectSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "JKKN College of Nursing — Campus Tour, Facilities & Student Life",
-  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate.",
   "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "uploadDate": "2025-01-01",
   "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",

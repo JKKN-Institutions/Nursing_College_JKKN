@@ -15,7 +15,7 @@ export default function OurManagement() {
       <main className="bg-cream min-h-screen pt-28">
         <div className="container-custom py-12 md:py-16">
           <div className="max-w-7xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Our Management — Sresakthimayeil Institute of Nursing and Research</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Our Management — Sresakthimayeil Institute Of Nursing And Research</h1>
             {/* Two Column Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
               {/* Left Column - Chairperson */}

@@ -47,7 +47,7 @@ export default function MScObstetricsGynecologicalNursing() {
               "description": "A 2-year postgraduate nursing specialization in Obstetric and Gynecological Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers antenatal care, intrapartum nursing, high-risk pregnancy, neonatal nursing, gynecological nursing, and women's health.",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "name": "Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research)",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
               },
               "timeRequired": "P2Y",
@@ -89,7 +89,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   "name": "Is the M.Sc OBG Nursing program at JKKN approved by INC?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
+                    "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
                   }
                 },
                 {
@@ -249,7 +249,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </p>
 
                 <p>
-                  At Sresakthimayeil Institute of Nursing and Research, our M.Sc OBG Nursing program is delivered by
+                  At Sresakthimayeil Institute Of Nursing And Research, our M.Sc OBG Nursing program is delivered by
                   experienced Senior Learners who are experts in maternal-child health nursing.
                   The learning framework integrates contemporary obstetric practices, advanced gynecological
                   nursing concepts, and cutting-edge research methodologies to prepare graduates
@@ -1439,7 +1439,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, the M.Sc Nursing program in Obstetrics & Gynecology at Sresakthimayeil Institute of Nursing and Research is approved by the
+                    Yes, the M.Sc Nursing program in Obstetrics & Gynecology at Sresakthimayeil Institute Of Nursing And Research is approved by the
                     Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The
                     college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid
                     for employment and higher education across India.
@@ -1501,7 +1501,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, Sresakthimayeil Institute of Nursing and Research offers various scholarship opportunities for deserving learners based on
+                    Yes, Sresakthimayeil Institute Of Nursing And Research offers various scholarship opportunities for deserving learners based on
                     academic merit, financial need, and other criteria. Additionally, learners are eligible for government
                     scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office
                     provides guidance on available financial assistance options.
@@ -1564,7 +1564,7 @@ export default function MScObstetricsGynecologicalNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

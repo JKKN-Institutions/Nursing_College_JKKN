@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "M.Sc Nursing in Medical-Surgical Nursing at JKKN. Advanced training in critical care, surgical nursing, and patient management.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
@@ -38,11 +38,11 @@ const mscMedicalSurgicalSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "M.Sc Nursing in Medical-Surgical Nursing",
-  "description": "2-year M.Sc Nursing specialization in Medical-Surgical Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Advanced training in critical care, surgical nursing, and patient management. INC approved, affiliated to TNMGRMU.",
+  "description": "2-year M.Sc Nursing specialization in Medical-Surgical Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Advanced training in critical care, surgical nursing, and patient management. INC approved, affiliated to TNMGRMU.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
+    "name": "Sresakthimayeil Institute Of Nursing And Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
     "address": {
       "@type": "PostalAddress",
@@ -103,7 +103,7 @@ const mscMedicalSurgicalFaqSchema = {
       "name": "Is the M.Sc Nursing program at JKKN approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
+        "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
       }
     },
     {

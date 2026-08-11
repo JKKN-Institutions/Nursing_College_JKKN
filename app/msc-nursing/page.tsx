@@ -48,7 +48,7 @@ export default function MScNursing() {
       "@type": "EducationalOrganization",
       "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
       "name": "JKKN College of Nursing",
-      "alternateName": ["Sresakthimayeil Institute of Nursing and Research", "JKKN Nursing College", "JKK Nattraja College of Nursing"],
+      "alternateName": ["Sresakthimayeil Institute Of Nursing And Research", "JKKN Nursing College", "JKK Nattraja College of Nursing"],
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
       "sameAs": [
         "https://www.facebook.com/jkknnursing",
@@ -206,7 +206,7 @@ export default function MScNursing() {
         "name": "Which university is JKKN College of Nursing affiliated to?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is also approved by the Indian Nursing Council (INC) and recognized by TNNMC."
+          "text": "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is also approved by the Indian Nursing Council (INC) and recognized by TNNMC."
         }
       },
       {
@@ -1896,7 +1896,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is approved by the Indian Nursing Council (INC) and recognized by TNNMC.
+                    JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is approved by the Indian Nursing Council (INC) and recognized by TNNMC.
                   </p>
                 </details>
 
@@ -2061,7 +2061,7 @@ export default function MScNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by <Link href="/" className="text-[#006837] hover:underline">JKKN College of Nursing</Link></p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research — One of the top M.Sc Nursing colleges in Tamil Nadu</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research — One of the top M.Sc Nursing colleges in Tamil Nadu</p>
             <p className="text-sm text-gray-600 mb-1"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC Approved</a> | <Link href="/naac" className="hover:underline">NAAC Accredited</Link> | Affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tamil Nadu Dr. M.G.R. Medical University</a></p>
             <p className="text-sm text-gray-600 mb-1">Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600 mb-1">Contact: <a href="tel:+919345855001" className="hover:underline">+91 93458 55001</a> | <a href="mailto:nursing@jkkn.ac.in" className="hover:underline">nursing@jkkn.ac.in</a></p>

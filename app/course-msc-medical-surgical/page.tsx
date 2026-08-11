@@ -55,7 +55,7 @@ export default function MScMedicalSurgicalNursing() {
               "description": "A 2-year postgraduate nursing specialization in Medical-Surgical Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers critical care, emergency, perioperative, cardiac, neurological, oncology, and nephrology nursing.",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "name": "Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research)",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
               },
               "timeRequired": "P2Y",
@@ -97,7 +97,7 @@ export default function MScMedicalSurgicalNursing() {
                   "name": "Is the M.Sc Nursing program at JKKN approved by INC?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
+                    "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
                   }
                 },
                 {
@@ -253,7 +253,7 @@ export default function MScMedicalSurgicalNursing() {
               <div className="lg:col-span-2 space-y-6 text-gray-700 leading-relaxed">
                 <p>
                   The Master of Science in Nursing with specialization in
-                  Medical Surgical Nursing at Sresakthimayeil Institute of Nursing and Research is a
+                  Medical Surgical Nursing at Sresakthimayeil Institute Of Nursing And Research is a
                   two-year, full-time postgraduate program designed to prepare
                   registered nurses for advanced roles in clinical practice,
                   education, research, and administration.
@@ -1580,7 +1580,7 @@ export default function MScMedicalSurgicalNursing() {
                 </summary>
                 <div className="px-6 pb-5">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is
+                    Yes, the M.Sc Nursing program at Sresakthimayeil Institute Of Nursing And Research is
                     approved by the Indian Nursing Council (INC) and is
                     affiliated to The Tamil Nadu Dr. M.G.R. Medical University,
                     Chennai. The college is also recognized by the Tamil Nadu
@@ -1687,7 +1687,7 @@ export default function MScMedicalSurgicalNursing() {
                 </summary>
                 <div className="px-6 pb-5">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, Sresakthimayeil Institute of Nursing and Research offers various scholarship
+                    Yes, Sresakthimayeil Institute Of Nursing And Research offers various scholarship
                     opportunities for deserving learners based on academic
                     merit, financial need, and other criteria. Additionally,
                     learners are eligible for government scholarships, SC/ST
@@ -1769,7 +1769,7 @@ export default function MScMedicalSurgicalNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

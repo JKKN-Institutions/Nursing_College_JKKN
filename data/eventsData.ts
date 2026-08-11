@@ -53,7 +53,7 @@ export const collegeNews = [
   },
   {
     id: 2,
-    title: "Pongal Celebration 2025 at Sresakthimayeil Institute of Nursing and Research",
+    title: "Pongal Celebration 2025 at Sresakthimayeil Institute Of Nursing And Research",
     date: "FEBRUARY 21, 2025",
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
     description: "Traditional Pongal festival celebrated with enthusiasm",
@@ -76,7 +76,7 @@ export const pastEvents = [
   },
   {
     id: 2,
-    title: "Sresakthimayeil Institute of Nursing and Research",
+    title: "Sresakthimayeil Institute Of Nursing And Research",
     date: "JULY 25, 2024",
     image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600",
   },
@@ -128,14 +128,14 @@ export const latestBuzz = [
 export const educationVideos = [
   {
     id: 1,
-    title: "The Lamp Lighting Ceremony 2023 - Sresakthimayeil Institute of Nursing and Research & Research",
+    title: "The Lamp Lighting Ceremony 2023 - Sresakthimayeil Institute Of Nursing And Research & Research",
     youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube video ID
     thumbnail: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400",
     duration: "01:22:28",
   },
   {
     id: 2,
-    title: "Graduation Day 2023 - Sresakthimayeil Institute of Nursing and Research & Research",
+    title: "Graduation Day 2023 - Sresakthimayeil Institute Of Nursing And Research & Research",
     youtubeId: "dQw4w9WgXcQ", // Replace with actual YouTube video ID
     thumbnail: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=400",
     duration: "01:22:28",

@@ -9,7 +9,7 @@ export default function YRC() {
         { name: "Activities", url: "https://nursing.sresakthimayeil.jkkn.ac.in/activities" },
         { name: "YRC", url: "https://nursing.sresakthimayeil.jkkn.ac.in/yrc" },
       ]} />
-      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Youth Red Cross (YRC) — Sresakthimayeil Institute of Nursing and Research</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Youth Red Cross (YRC) — Sresakthimayeil Institute Of Nursing And Research</h1>
       <div className="flex justify-center">
         <iframe
           src="/pdf/YRC.pdf"

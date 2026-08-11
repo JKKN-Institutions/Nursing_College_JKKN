@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "M.Sc Nursing in Obstetrics & Gynecological Nursing at JKKN. Specialization in maternal health, midwifery, and women's healthcare.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
@@ -38,11 +38,11 @@ const mscObstetricsGynecologicalSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "M.Sc Nursing in Obstetrics & Gynecological Nursing",
-  "description": "2-year M.Sc Nursing specialization in OBG Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Focus on maternal health, midwifery, and women's healthcare. INC approved, affiliated to TNMGRMU.",
+  "description": "2-year M.Sc Nursing specialization in OBG Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Focus on maternal health, midwifery, and women's healthcare. INC approved, affiliated to TNMGRMU.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
+    "name": "Sresakthimayeil Institute Of Nursing And Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
     "address": {
       "@type": "PostalAddress",
@@ -103,7 +103,7 @@ const mscObstetricsGynecologicalFaqSchema = {
       "name": "Is the M.Sc OBG Nursing program at JKKN approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
+        "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
       }
     },
     {

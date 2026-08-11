@@ -9,7 +9,7 @@ export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: 'Faculty | JKKN College of Nursing',
   description:
-    'Meet the experienced faculty of JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
+    'Meet the experienced faculty of JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
   alternates: { canonical: '/faculty' },
   openGraph: {
     title: 'Faculty | JKKN College of Nursing',
@@ -50,7 +50,7 @@ export default async function FacultyPage() {
         <section className="bg-[#1B5E20] py-12 px-4">
           <div className="max-w-6xl mx-auto text-center">
             <p className="text-[#FFC107] text-xs font-semibold tracking-widest uppercase mb-2">
-            Sresakthimayeil Institute of Nursing and Research
+            Sresakthimayeil Institute Of Nursing And Research
             </p>
             <h1 className="text-3xl sm:text-4xl font-bold text-white">Our Faculty</h1>
             <p className="text-green-200 mt-3 text-sm sm:text-base max-w-xl mx-auto">

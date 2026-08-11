@@ -12,12 +12,12 @@ export interface NavItem {
 }
 
 export const siteData = {
-  institutionName: "Sresakthimayeil Institute of Nursing and Research",
+  institutionName: "Sresakthimayeil Institute Of Nursing And Research",
   tagline: "Best Innovation Focused Multi-Disciplinary Campus",
   contact: {
     phone: "+91 93458 55001",
     email: "nursing@jkkn.ac.in",
-    address: "Sresakthimayeil Institute of Nursing and Research, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
+    address: "Sresakthimayeil Institute Of Nursing And Research, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.",
   },
   socialMedia: {
     facebook: "https://www.facebook.com/jkknnursing",
@@ -203,7 +203,7 @@ export const heroSlides = [
   {
     id: 1,
     image: "/images/hero/slide1.jpg",
-    title: "Sresakthimayeil Institute of Nursing and Research",
+    title: "Sresakthimayeil Institute Of Nursing And Research",
     subtitle: "JKKN Educational Institutions",
     buttonText: "Online Admissions 2025-2026",
     buttonLink: "/admissions",
@@ -279,7 +279,7 @@ export const admissionInfo = [
   },
   {
     id: 2,
-    text: "To be eligible for admission to Sresakthimayeil Institute of Nursing and Research & Research, candidates must have completed 10+2 or equivalent with a minimum of 45% marks in the science stream (Physics, Chemistry, and Biology).",
+    text: "To be eligible for admission to Sresakthimayeil Institute Of Nursing And Research & Research, candidates must have completed 10+2 or equivalent with a minimum of 45% marks in the science stream (Physics, Chemistry, and Biology).",
   },
   {
     id: 3,

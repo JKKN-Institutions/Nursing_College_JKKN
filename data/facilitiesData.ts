@@ -108,7 +108,7 @@ export const otherInstitutions = [
   { name: "JKKN Dental College and Hospital", url: "https://dental.jkkn.ac.in/" },
   { name: "JKKN College Of Allied Health Science", url: "https://ahs.jkkn.ac.in/" },
   { name: "JKKN College of Pharmacy", url: "https://pharmacy.jkkn.ac.in/" },
-  { name: "Sresakthimayeil Institute of Nursing and Research", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
+  { name: "Sresakthimayeil Institute Of Nursing And Research", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
   { name: "JKKN College of Engineering and Technology", url: "https://engg.jkkn.ac.in/" },
   { name: "JKKN College of Arts and Science (Autonomous)", url: "https://cas.jkkn.ac.in/" },
   { name: "JKKN College of Education", url: "https://edu.jkkn.ac.in/" },

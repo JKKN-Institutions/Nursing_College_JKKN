@@ -55,13 +55,13 @@ const bscNursingSchema = {
   "@type": "Course",
   name: "Bachelor of Science in Nursing (B.Sc Nursing)",
   description:
-    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 97% placement rate.",
+    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 97% placement rate.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
   dateModified: "2026-04-11",
   provider: {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-    name: "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research)",
+    name: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research)",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     sameAs: [
       "https://www.facebook.com/jkknnursing",
@@ -122,7 +122,7 @@ const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
   name: "JKKN College of Nursing",
-  alternateName: "Sresakthimayeil Institute of Nursing and Research",
+  alternateName: "Sresakthimayeil Institute Of Nursing And Research",
   image: "https://nursing.sresakthimayeil.jkkn.ac.in/images/logo.png",
   telephone: "+919345855001",
   email: "nursing@jkkn.ac.in",

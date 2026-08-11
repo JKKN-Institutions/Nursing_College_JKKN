@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Sankagiri",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Looking for a nursing college near Sankagiri? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) in Komarapalayam is just 20-25 km straight down NH-544 — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training.",
+    "Looking for a nursing college near Sankagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is just 20-25 km straight down NH-544 — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Sankagiri Learners",
   landscapeParagraphs: [
     "Sankagiri is a fast-growing town in Salem district, known for the historic Sankagiri Fort and its position on NH-544, the Salem-Coimbatore national highway. Its location between Salem and Erode gives learners easy access to institutions on the highway corridor.",
-    "For nursing aspirants from Sankagiri, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is one of the most convenient INC-approved options — about 20-25 km down NH-544 at Komarapalayam, a straight 30-minute drive with no route changes. Every highway bus between Salem and Erode passes both towns.",
+    "For nursing aspirants from Sankagiri, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is one of the most convenient INC-approved options — about 20-25 km down NH-544 at Komarapalayam, a straight 30-minute drive with no route changes. Every highway bus between Salem and Erode passes both towns.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital — learners work with real patients from the first year.",
     "The direct highway connection makes daily commuting practical for Sankagiri learners, and secure separate hostels for boys and girls are available for those who prefer campus stay. With 90%+ placement support and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sankagiri learners can build a global nursing career just half an hour from home.",
   ],
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Sankagiri?",
-      a: "Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) at Komarapalayam is one of the nearest INC-approved nursing colleges to Sankagiri — about 20-25 km straight along NH-544. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is one of the nearest INC-approved nursing colleges to Sankagiri — about 20-25 km straight along NH-544. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Sankagiri?",
@@ -65,7 +65,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "What is the fee structure for B.Sc Nursing near Sankagiri?",

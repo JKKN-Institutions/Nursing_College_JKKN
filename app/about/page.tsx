@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "About Sresakthimayeil Institute of Nursing and Research — Sresakthimayeil Institute of Nursing and Research",
-  description: "About Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research), Komarapalayam, Tamil Nadu. Established 2007, INC-approved, affiliated to TNMGRMU.",
+  title: "About Sresakthimayeil Institute Of Nursing And Research — Sresakthimayeil Institute Of Nursing And Research",
+  description: "About Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Established 2007, INC-approved, affiliated to TNMGRMU.",
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/about" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
 };
@@ -19,22 +19,22 @@ export default function About() {
       />
 
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-6">
-        About Sresakthimayeil Institute of Nursing and Research
+        About Sresakthimayeil Institute Of Nursing And Research
       </h1>
 
       <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
 
       <div className="bg-green-50 border-l-4 border-primary p-4 mb-8 rounded-r-lg">
         <p className="font-semibold text-primary mb-1">Quick Summary</p>
-        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at a 500+ bed teaching hospital.</p>
+        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2007, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at a 500+ bed teaching hospital.</p>
       </div>
 
       <section className="prose prose-lg max-w-none">
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">
-          What is Sresakthimayeil Institute of Nursing and Research?
+          What is Sresakthimayeil Institute Of Nursing And Research?
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), established in 2007 at Komarapalayam, Namakkal District, Tamil Nadu, is an <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Indian Nursing Council (INC)</a> approved nursing institution located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Tamil Nadu 638183. Part of JKKN Institutions, the college is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tamil Nadu Dr. MGR Medical University (TNMGRMU)</a> and offers undergraduate and postgraduate nursing programs.
+          JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2007 at Komarapalayam, Namakkal District, Tamil Nadu, is an <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Indian Nursing Council (INC)</a> approved nursing institution located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Tamil Nadu 638183. Part of JKKN Institutions, the college is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tamil Nadu Dr. MGR Medical University (TNMGRMU)</a> and offers undergraduate and postgraduate nursing programs.
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">
@@ -50,7 +50,7 @@ export default function About() {
           Infrastructure and Facilities
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          Sresakthimayeil Institute of Nursing and Research is part of the JKKN Institutions campus, which includes a 500+ bed multi-specialty teaching hospital providing learners with clinical exposure from the first year. The campus features advanced nursing learning labs, a well-stocked learning commons, smart learning studios, separate hostel facilities for men and women, sports facilities, Wi-Fi enabled campus, cafeteria, learning auditorium, and dedicated transport services.
+          Sresakthimayeil Institute Of Nursing And Research is part of the JKKN Institutions campus, which includes a 500+ bed multi-specialty teaching hospital providing learners with clinical exposure from the first year. The campus features advanced nursing learning labs, a well-stocked learning commons, smart learning studios, separate hostel facilities for men and women, sports facilities, Wi-Fi enabled campus, cafeteria, learning auditorium, and dedicated transport services.
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">
@@ -83,7 +83,7 @@ export default function About() {
 
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
         <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-        <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+        <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
         <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
         <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
         <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

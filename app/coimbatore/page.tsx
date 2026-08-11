@@ -30,7 +30,7 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college in Coimbatore?",
-    a: "Sresakthimayeil Institute of Nursing and Research, located just 100-110 km from Coimbatore on NH-544, is widely regarded as one of the top nursing colleges accessible from Coimbatore. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located just 100-110 km from Coimbatore on NH-544, is widely regarded as one of the top nursing colleges accessible from Coimbatore. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Coimbatore?",
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
-    a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+    a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
   },
   {
     q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
+    a: "Yes, Sresakthimayeil Institute Of Nursing And Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
   },
   {
     q: "Does JKKN Nursing provide hostel for Coimbatore learners?",
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     q: "Which are the best nursing colleges in Coimbatore?",
-    a: "Coimbatore has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) in Komarapalayam is one of the most reputed options in the region — INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. It is 100-110 km from Coimbatore with excellent hostel facilities.",
+    a: "Coimbatore has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is one of the most reputed options in the region — INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. It is 100-110 km from Coimbatore with excellent hostel facilities.",
   },
   {
     q: "What B.Sc nursing courses are available near Coimbatore?",
@@ -265,7 +265,7 @@ export default function CoimbatorePage() {
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             name: "JKKN College of Nursing",
-            alternateName: "Sresakthimayeil Institute of Nursing and Research",
+            alternateName: "Sresakthimayeil Institute Of Nursing And Research",
             url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
             telephone: "+919345855001",
             email: "nursing@jkkn.ac.in",
@@ -315,8 +315,7 @@ export default function CoimbatorePage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Coimbatore? Sresakthimayeil
-              Institute of Nursing and Research (JKKN College of Nursing) offers
+              Searching for the best nursing college in Coimbatore? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
               programmes — 100-110 km from Coimbatore with 90%+ placement support and
               hostel facilities.
@@ -446,7 +445,7 @@ export default function CoimbatorePage() {
                 Coimbatore, Tamil Nadu&apos;s second-largest city and a major industrial and healthcare hub, is home to numerous medical institutions and hospitals. The city has a competitive landscape for nursing education, with several <strong>nursing colleges in Coimbatore</strong> offering various programmes. However, not all institutions in the <strong>Coimbatore nursing college list</strong> match the clinical infrastructure and placement outcomes that learners and learning partners expect.
               </p>
               <p>
-                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) offers a distinctive advantage. Located 100-110 km from Coimbatore in Komarapalayam, JKKN provides what many Coimbatore colleges cannot — a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
+                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) offers a distinctive advantage. Located 100-110 km from Coimbatore in Komarapalayam, JKKN provides what many Coimbatore colleges cannot — a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
               </p>
               <p>
                 What sets JKKN apart in the <strong>best nursing colleges in Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.

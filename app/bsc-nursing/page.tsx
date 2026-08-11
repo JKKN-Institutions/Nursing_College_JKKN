@@ -115,10 +115,10 @@ export default function BScNursing() {
                 },
                 {
                   "@type": "Question",
-                  "name": "Is Sresakthimayeil Institute of Nursing and Research approved by INC?",
+                  "name": "Is Sresakthimayeil Institute Of Nursing And Research approved by INC?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Sresakthimayeil Institute of Nursing and Research is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai."
+                    "text": "Yes, Sresakthimayeil Institute Of Nursing And Research is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai."
                   }
                 },
                 {
@@ -134,7 +134,7 @@ export default function BScNursing() {
                   "name": "Does the college provide hostel accommodation?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas."
+                    "text": "Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas."
                   }
                 },
                 {
@@ -178,7 +178,7 @@ export default function BScNursing() {
 
                 {/* Description */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
-                  Transform your passion for healthcare into a rewarding career. The 4-year undergraduate nursing program at Sresakthimayeil Institute of Nursing and Research prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
+                  Transform your passion for healthcare into a rewarding career. The 4-year undergraduate nursing program at Sresakthimayeil Institute Of Nursing And Research prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
                 </p>
 
                 {/* Buttons */}
@@ -263,7 +263,7 @@ export default function BScNursing() {
                   JKKN College of Nursing is one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, offering a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 97% placement rate including international opportunities, JKKN provides the strongest foundation for a nursing career.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  Sresakthimayeil Institute of Nursing and Research follows a progressive education approach that goes beyond textbook learning. Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
+                  Sresakthimayeil Institute Of Nursing And Research follows a progressive education approach that goes beyond textbook learning. Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
                 </p>
 
                 {/* Features List */}
@@ -361,7 +361,7 @@ export default function BScNursing() {
                 Programme Information at a Glance
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Essential details about the B.Sc Nursing programme at Sresakthimayeil Institute of Nursing and Research to help you make an informed decision.
+                Essential details about the B.Sc Nursing programme at Sresakthimayeil Institute Of Nursing And Research to help you make an informed decision.
               </p>
             </div>
 
@@ -977,7 +977,7 @@ export default function BScNursing() {
                 WORLD-CLASS INFRASTRUCTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Campus Facilities at Sresakthimayeil Institute of Nursing and Research
+                Campus Facilities at Sresakthimayeil Institute Of Nursing And Research
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
@@ -1296,7 +1296,7 @@ export default function BScNursing() {
                 Placement Statistics
               </h2>
               <p className="text-gray-200 text-lg max-w-3xl mx-auto">
-                The dedicated <Link href="/placement" className="text-[#7cb983] hover:underline font-semibold">placement cell</Link> at Sresakthimayeil Institute of Nursing and Research ensures excellent career opportunities for all graduating Learners.
+                The dedicated <Link href="/placement" className="text-[#7cb983] hover:underline font-semibold">placement cell</Link> at Sresakthimayeil Institute Of Nursing And Research ensures excellent career opportunities for all graduating Learners.
               </p>
             </div>
 
@@ -1431,7 +1431,7 @@ export default function BScNursing() {
                 { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. Domestic salary starts at ₹3.5–4.5 LPA, while international positions offer ₹15–25 LPA." },
                 { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached 500+ bed multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
                 { q: "What are the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age must be between 17–35 years. English as compulsory subject in 10+2. NEET is not required. Indian nationals and NRI/PIO candidates are eligible." },
-                { q: "Is JKKN College of Nursing approved by INC?", a: "Yes, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
+                { q: "Is JKKN College of Nursing approved by INC?", a: "Yes, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
                 { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
                 { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
                 { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
@@ -1519,7 +1519,7 @@ export default function BScNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

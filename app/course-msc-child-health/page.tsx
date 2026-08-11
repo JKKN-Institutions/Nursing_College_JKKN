@@ -62,7 +62,7 @@ export default function MScChildHealthNursing() {
               "description": "A 2-year postgraduate nursing specialization in Child Health (Paediatric) Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers NICU, PICU, pediatric emergency, pediatric specialty units, and community child health nursing.",
               "provider": {
                 "@type": "EducationalOrganization",
-                "name": "Sresakthimayeil Institute of Nursing and Research (Sresakthimayeil Institute of Nursing and Research)",
+                "name": "Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research)",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
               },
               "timeRequired": "P2Y",
@@ -104,7 +104,7 @@ export default function MScChildHealthNursing() {
                   "name": "Is the M.Sc Nursing program at JKKN approved by INC?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
+                    "text": "Yes, the M.Sc Nursing program at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
                   }
                 },
                 {
@@ -268,7 +268,7 @@ export default function MScChildHealthNursing() {
             {/* Main Content */}
             <div className="lg:col-span-2 space-y-6">
               <p className="text-gray-700 leading-relaxed">
-                The Master of Science in Nursing with specialization in Child Health Nursing (Pediatric Nursing) at Sresakthimayeil Institute of Nursing and Research is a two-year, full-time postgraduate program designed to prepare registered nurses for advanced roles in pediatric clinical practice, nursing education, research, and administration.
+                The Master of Science in Nursing with specialization in Child Health Nursing (Pediatric Nursing) at Sresakthimayeil Institute Of Nursing And Research is a two-year, full-time postgraduate program designed to prepare registered nurses for advanced roles in pediatric clinical practice, nursing education, research, and administration.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 This program provides comprehensive knowledge of child growth and development, pediatric pathophysiology, neonatal nursing, advanced pediatric assessment skills, and evidence-based pediatric nursing practice. Learners develop expertise in caring for neonates, infants, children, and adolescents across various clinical settings including NICUs, PICUs, pediatric wards, and community health centers.
@@ -1105,7 +1105,7 @@ export default function MScChildHealthNursing() {
 
             <FAQItem
               question="Is the M.Sc Nursing program at JKKN approved by INC?"
-              answer="Yes, the M.Sc Nursing program at Sresakthimayeil Institute of Nursing and Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
+              answer="Yes, the M.Sc Nursing program at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India and recognized internationally."
             />
 
             <FAQItem
@@ -1120,7 +1120,7 @@ export default function MScChildHealthNursing() {
 
             <FAQItem
               question="Are scholarships available for M.Sc Nursing learners?"
-              answer="Yes, Sresakthimayeil Institute of Nursing and Research offers various scholarship opportunities for deserving learners based on academic merit, financial need, and other criteria. Additionally, learners are eligible for government scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office provides guidance on available financial assistance options for postgraduate nursing education."
+              answer="Yes, Sresakthimayeil Institute Of Nursing And Research offers various scholarship opportunities for deserving learners based on academic merit, financial need, and other criteria. Additionally, learners are eligible for government scholarships, SC/ST scholarships, and educational loans from nationalized banks. Our admission office provides guidance on available financial assistance options for postgraduate nursing education."
             />
 
             <FAQItem
@@ -1167,7 +1167,7 @@ export default function MScChildHealthNursing() {
       <div className="container-custom">
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
           <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-          <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+          <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
           <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
           <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
           <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

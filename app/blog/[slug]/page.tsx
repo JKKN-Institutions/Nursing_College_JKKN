@@ -126,12 +126,12 @@ export default async function BlogPost({
     "dateModified": post.updated_at || post.published_at || post.created_at,
     "author": {
       "@type": "Organization",
-      "name": "Sresakthimayeil Institute of Nursing and Research",
+      "name": "Sresakthimayeil Institute Of Nursing And Research",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Sresakthimayeil Institute of Nursing and Research",
+      "name": "Sresakthimayeil Institute Of Nursing And Research",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
       "logo": {
         "@type": "ImageObject",

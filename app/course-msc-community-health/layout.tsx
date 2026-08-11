@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "M.Sc Nursing in Community Health at JKKN. Specialization in public health, epidemiology, community-based care, and health promotion.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
@@ -38,11 +38,11 @@ const mscCommunityHealthSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "M.Sc Nursing in Community Health",
-  "description": "2-year M.Sc Nursing specialization in Community Health at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Focus on public health, epidemiology, and community-based care. INC approved, affiliated to TNMGRMU.",
+  "description": "2-year M.Sc Nursing specialization in Community Health at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Focus on public health, epidemiology, and community-based care. INC approved, affiliated to TNMGRMU.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
+    "name": "Sresakthimayeil Institute Of Nursing And Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
     "address": {
       "@type": "PostalAddress",

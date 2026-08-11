@@ -34,7 +34,7 @@ export default async function BlogPage() {
       {/* ── Hero Banner ── */}
       <div className="bg-[#0b7845] px-4 sm:px-6 lg:px-8 pt-36 pb-14 text-center">
         <p className="text-[#FFD700] text-xs sm:text-sm font-semibold uppercase tracking-widest mb-3">
-        Sresakthimayeil Institute of Nursing and Research
+        Sresakthimayeil Institute Of Nursing And Research
         </p>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
           Our Blog

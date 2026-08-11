@@ -42,7 +42,7 @@ export async function generateMetadata({
   if (!data) return { title: 'Faculty | JKKN College of Nursing' };
 
   const title = `${data.name} — ${data.designation} | JKKN College of Nursing`;
-  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research), Komarapalayam.`;
+  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam.`;
 
   return {
     title,
@@ -161,7 +161,7 @@ export default async function FacultyProfilePage({
 
               <div className="flex-1">
                 <p className="text-[#FFC107] text-xs font-semibold tracking-widest uppercase mb-1">
-                Sresakthimayeil Institute of Nursing and Research
+                Sresakthimayeil Institute Of Nursing And Research
                 </p>
                 <h1 className="text-3xl sm:text-4xl font-bold text-white">{m.name}</h1>
                 <p className="text-green-200 mt-1">

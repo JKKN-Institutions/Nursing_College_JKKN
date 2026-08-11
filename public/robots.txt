@@ -1,5 +1,5 @@
 # =============================================================================
-# robots.txt — Sresakthimayeil Institute of Nursing and Research
+# robots.txt — Sresakthimayeil Institute Of Nursing And Research
 # Website: https://nursing.sresakthimayeil.jkkn.ac.in
 # Framework: Next.js (App Router)
 # Last Updated: 2026-05-22

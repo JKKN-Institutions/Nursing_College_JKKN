@@ -6,8 +6,8 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Admissions 2026 | Sresakthimayeil Institute of Nursing and Research, Tamil Nadu",
-  description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research. NEET-based admission. INC approved. Scholarships available.",
+  title: "Admissions 2026 | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
+  description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research. NEET-based admission. INC approved. Scholarships available.",
 };
 
 // DEP-12, 2026-08-07: moved here from app/admissions/layout.tsx. In the layout these
@@ -18,7 +18,7 @@ const admissionsWebPageSchema = {
   "@type": "WebPage",
   "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
-  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -33,7 +33,7 @@ const admissionHowToSchema = {
   "@type": "HowTo",
   name: "How to Apply for Nursing Admission at JKKN College",
   description:
-    "Step-by-step guide to apply for B.Sc, M.Sc, or Post Basic B.Sc Nursing at Sresakthimayeil Institute of Nursing and Research, Komarapalayam.",
+    "Step-by-step guide to apply for B.Sc, M.Sc, or Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam.",
   step: [
     {
       "@type": "HowToStep",
@@ -157,7 +157,7 @@ export default function Admissions() {
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
             <div className="text-center mb-10">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0b7845] mb-3">
-                Why Choose Sresakthimayeil Institute of Nursing and Research?
+                Why Choose Sresakthimayeil Institute Of Nursing And Research?
               </h2>
               <div className="w-16 h-1 bg-[#7cb983] mx-auto mb-4"></div>
               <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
@@ -244,7 +244,7 @@ export default function Admissions() {
               </h2>
               <div className="w-16 h-1 bg-[#7cb983] mx-auto mb-4"></div>
               <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">
-                Follow these 6 simple steps to secure your seat at Sresakthimayeil Institute of Nursing and Research
+                Follow these 6 simple steps to secure your seat at Sresakthimayeil Institute Of Nursing And Research
               </p>
             </div>
 
@@ -764,7 +764,7 @@ export default function Admissions() {
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

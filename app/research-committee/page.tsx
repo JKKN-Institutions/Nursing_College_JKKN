@@ -26,11 +26,11 @@ export default function ResearchCommittee() {
 
           <div className="space-y-6 text-gray-700">
             <p className="leading-relaxed">
-              The research committee of the sresakthimayeil Institute of Nursing and Research comprises highly qualified senior staff members with considerable research experience. The Research Committee advises on matters relating to the quality and standard of research being conducted at the Institution. It also encourages staff and students to come up with quality scientific publications.
+              The research committee of the Sresakthimayeil Institute Of Nursing And Research comprises highly qualified senior staff members with considerable research experience. The Research Committee advises on matters relating to the quality and standard of research being conducted at the Institution. It also encourages staff and students to come up with quality scientific publications.
             </p>
 
             <p className="leading-relaxed">
-              To monitor and ensure the smooth conduct of research activities and ethical regulations at the Sresakthimayeil Institute of Nursing and Research, the following Research Committee has been formulated
+              To monitor and ensure the smooth conduct of research activities and ethical regulations at the Sresakthimayeil Institute Of Nursing And Research, the following Research Committee has been formulated
             </p>
 
             <div className="mt-8 mb-6">
@@ -98,7 +98,7 @@ export default function ResearchCommittee() {
 
             <div className="mt-8">
               <p className="leading-relaxed">
-                To monitor and ensure the smooth conduct of research activities and ethical regulations at the Sresakthimayeil Institute of Nursing and Research, the following Research Committee has been formulated:
+                To monitor and ensure the smooth conduct of research activities and ethical regulations at the Sresakthimayeil Institute Of Nursing And Research, the following Research Committee has been formulated:
               </p>
             </div>
 

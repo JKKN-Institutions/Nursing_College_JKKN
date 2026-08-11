@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Explore JKKN College of Nursing campus through photos. View our modern facilities, classrooms, laboratories, library, hostel, and campus life.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/gallery",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "Sresakthimayeil Institute of Nursing and Research",
+        alt: "Sresakthimayeil Institute Of Nursing And Research",
       },
     ],
   },

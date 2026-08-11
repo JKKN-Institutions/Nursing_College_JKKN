@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Rasipuram",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Rasipuram? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) in Komarapalayam is about 40-45 km away — in the same Namakkal district. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostels.",
+    "Searching for a nursing college near Rasipuram? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 40-45 km away — in the same Namakkal district. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostels.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Rasipuram Learners",
   landscapeParagraphs: [
     "Rasipuram is a well-known town in Namakkal district, famous for its traditional silk saree weaving and its strong schooling culture. Learners from Rasipuram taluk regularly pursue professional courses across the district and neighbouring Salem, and healthcare careers are a growing preference.",
-    "For nursing aspirants, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) at Komarapalayam is a same-district option — about 40-45 km away via Tiruchengode, roughly an hour by road. Learners get an INC-approved institute without leaving Namakkal district.",
+    "For nursing aspirants, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a same-district option — about 40-45 km away via Tiruchengode, roughly an hour by road. Learners get an INC-approved institute without leaving Namakkal district.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year.",
     "Most Rasipuram learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), with the one-hour distance making weekend trips home easy. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Rasipuram learners can launch a global career from within their own district.",
   ],
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Rasipuram?",
-      a: "Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) at Komarapalayam is a convenient INC-approved nursing college for Rasipuram learners — about 40-45 km away in the same Namakkal district. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is a convenient INC-approved nursing college for Rasipuram learners — about 40-45 km away in the same Namakkal district. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Rasipuram?",
@@ -49,7 +49,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Are there nursing colleges in Namakkal district for Rasipuram learners?",
-      a: "Yes. JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) at Komarapalayam is an INC-approved, NAAC-accredited nursing college within Namakkal district, offering B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc Nursing — a same-district option for Rasipuram learners.",
+      a: "Yes. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an INC-approved, NAAC-accredited nursing college within Namakkal district, offering B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc Nursing — a same-district option for Rasipuram learners.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Rasipuram learners?",
@@ -65,7 +65,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "What is the fee structure for B.Sc Nursing near Rasipuram?",

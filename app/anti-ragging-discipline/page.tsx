@@ -59,7 +59,7 @@ export default function AntiRagging() {
                   Objective:
                 </h3>
                 <p className="text-justify">
-                  The Revised Anti-Ragging Policy of Sresakthimayeil Institute of Nursing and Research aims to create a safe and supportive environment that is free from any form of ragging. This policy is committed to preventing,prohibiting, and addressing incidents of ragging to ensure the physical and mental well-being of all students. Additionally, the policy promotes awareness through the display of contact information for the Nodal Officer of Anti-Ragging and encourages the use of online procedures for filing the Anti-Ragging Affidavit and accessing guidance in case of ragging.
+                  The Revised Anti-Ragging Policy of Sresakthimayeil Institute Of Nursing And Research aims to create a safe and supportive environment that is free from any form of ragging. This policy is committed to preventing,prohibiting, and addressing incidents of ragging to ensure the physical and mental well-being of all students. Additionally, the policy promotes awareness through the display of contact information for the Nodal Officer of Anti-Ragging and encourages the use of online procedures for filing the Anti-Ragging Affidavit and accessing guidance in case of ragging.
                 </p>
               </div>
 
@@ -69,7 +69,7 @@ export default function AntiRagging() {
                   Scope:
                 </h3>
                 <p className="text-justify">
-                  This policy applies to all students, faculty members, staff, and stakeholders of Sresakthimayeil Institute of Nursing and Research. It covers all areas and activities within the institution & premises, including classrooms, hostels ,common areas, transportation, and off-campus events or activities associated with the institution.
+                  This policy applies to all students, faculty members, staff, and stakeholders of Sresakthimayeil Institute Of Nursing And Research. It covers all areas and activities within the institution & premises, including classrooms, hostels ,common areas, transportation, and off-campus events or activities associated with the institution.
                 </p>
               </div>
 
@@ -118,7 +118,7 @@ export default function AntiRagging() {
                     Prohibition of Ragging:
                   </h4>
                   <p className="text-justify">
-                    Sresakthimayeil Institute of Nursing and Research maintains a strict zero-tolerance policy towards ragging in any form. Ragging is strictly prohibited and individuals found involved in ragging activities will face disciplinary action.
+                    Sresakthimayeil Institute Of Nursing And Research maintains a strict zero-tolerance policy towards ragging in any form. Ragging is strictly prohibited and individuals found involved in ragging activities will face disciplinary action.
                   </p>
                   <p className="text-justify">
                     All members of the institution & community are expected to comply with this policy and report any incidents of ragging promptly.
@@ -193,7 +193,7 @@ export default function AntiRagging() {
                     Compliance and Review:
                   </h4>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Sresakthimayeil Institute of Nursing and Research will ensure compliance with all applicable laws and regulations related to ragging prevention.</li>
+                    <li>Sresakthimayeil Institute Of Nursing And Research will ensure compliance with all applicable laws and regulations related to ragging prevention.</li>
                     <li>The policy will be periodically reviewed and updated to align with best practices and address emerging challenges.</li>
                   </ul>
                 </div>
@@ -202,10 +202,10 @@ export default function AntiRagging() {
               {/* Note */}
               <div className="space-y-4 mt-8">
                 <p className="text-justify">
-                  <strong>Note:</strong> The policy guidelines above provide an overview of the key components of Sresakthimayeil Institute of Nursing and Research RevisedAnti-Ragging Policy. The contact information for the Nodal Officer of Anti-Ragging will be displayed on the institution & website and in various campus areas to create awareness, and online resources will be provided to students
+                  <strong>Note:</strong> The policy guidelines above provide an overview of the key components of Sresakthimayeil Institute Of Nursing And Research RevisedAnti-Ragging Policy. The contact information for the Nodal Officer of Anti-Ragging will be displayed on the institution & website and in various campus areas to create awareness, and online resources will be provided to students
                 </p>
                 <p className="text-justify">
-                  to access information regarding ragging guidelines. The policy can be further expanded and tailored to align with the institution & specific requirement of  Sresakthimayeil Institute of Nursing and Research.
+                  to access information regarding ragging guidelines. The policy can be further expanded and tailored to align with the institution & specific requirement of  Sresakthimayeil Institute Of Nursing And Research.
                 </p>
               </div>
 

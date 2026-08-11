@@ -133,7 +133,7 @@ export default function PBScNursing() {
         "name": "Does the college provide hostel accommodation?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
+          "text": "Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
         }
       },
       {
@@ -271,7 +271,7 @@ export default function PBScNursing() {
                   The Post Basic Bachelor of Science in Nursing (P.B. B.Sc Nursing) is a 2-year undergraduate degree programme exclusively designed for registered nurses who have completed their GNM (General Nursing and Midwifery) diploma. This bridge programme enables working nurses to upgrade their qualification to a bachelor's degree level.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  At Sresakthimayeil Institute of Nursing and Research, the valuable clinical experience that GNM nurses bring is fully recognised. The learning framework builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
+                  At Sresakthimayeil Institute Of Nursing And Research, the valuable clinical experience that GNM nurses bring is fully recognised. The learning framework builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
                 </p>
 
                 {/* Features List */}
@@ -847,7 +847,7 @@ export default function PBScNursing() {
                 WORLD-CLASS INFRASTRUCTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Facilities at Sresakthimayeil Institute of Nursing and Research
+                Facilities at Sresakthimayeil Institute Of Nursing And Research
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
@@ -1145,7 +1145,7 @@ export default function PBScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Find answers to common questions about the Post Basic B.Sc Nursing programme at Sresakthimayeil Institute of Nursing and Research.
+                Find answers to common questions about the Post Basic B.Sc Nursing programme at Sresakthimayeil Institute Of Nursing And Research.
               </p>
             </div>
 
@@ -1312,7 +1312,7 @@ export default function PBScNursing() {
                 {openFaq === 7 && (
                   <div className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
-                      Yes, Sresakthimayeil Institute of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
+                      Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
                     </p>
                   </div>
                 )}
@@ -1372,7 +1372,7 @@ export default function PBScNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute of Nursing and Research</p>
+            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>

@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Bhavani",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Bhavani? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) is just across the Cauvery bridge in Komarapalayam — around 5 km from Bhavani town. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes, minutes from home.",
+    "Searching for a nursing college near Bhavani? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is just across the Cauvery bridge in Komarapalayam — around 5 km from Bhavani town. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes, minutes from home.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Bhavani Learners",
   landscapeParagraphs: [
     "Bhavani is a historic temple town in Erode district, famous for the Sangameshwarar Temple at the confluence of the Cauvery and Bhavani rivers, and for its traditional jamakkalam (carpet) weaving industry. It is directly connected to Komarapalayam by the Cauvery bridge, making the two towns everyday neighbours.",
-    "That connection matters for nursing aspirants: JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) sits just across the river in Komarapalayam on NH-544 — roughly 5 km from Bhavani town. For learners looking for a nursing college near Bhavani, this is effectively a home-town campus with a 10-15 minute commute.",
+    "That connection matters for nursing aspirants: JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) sits just across the river in Komarapalayam on NH-544 — roughly 5 km from Bhavani town. For learners looking for a nursing college near Bhavani, this is effectively a home-town campus with a 10-15 minute commute.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year of the programme.",
     "Because the campus is so close, most Bhavani learners study as day scholars and save the full cost of hostel and mess fees — though secure separate hostels for boys and girls are available for those who prefer to stay on campus. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Bhavani learners can start a global nursing career from right next door.",
   ],
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Bhavani?",
-      a: "Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) in Komarapalayam is the nearest INC-approved nursing college to Bhavani — about 5 km away, just across the Cauvery bridge. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is the nearest INC-approved nursing college to Bhavani — about 5 km away, just across the Cauvery bridge. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Bhavani?",
@@ -61,7 +61,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "What is the fee structure for B.Sc Nursing near Bhavani?",

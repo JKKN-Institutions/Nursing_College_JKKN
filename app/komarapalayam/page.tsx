@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Komarapalayam",
   heroTitlePrefix: "Nursing College in",
   heroDescription:
-    "Looking for a nursing college in Komarapalayam? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) is located right here in Komarapalayam at Natarajapuram on NH-544 — the only INC-approved nursing institute in the town, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes.",
+    "Looking for a nursing college in Komarapalayam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is located right here in Komarapalayam at Natarajapuram on NH-544 — the only INC-approved nursing institute in the town, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education in Komarapalayam (Kumarapalayam)",
   landscapeParagraphs: [
     "Komarapalayam (also spelled Kumarapalayam) is a busy textile town in Namakkal district on the banks of the river Cauvery, directly opposite Bhavani. The town is well known for its handloom and powerloom industry, and it sits on NH-544 — the Salem-Coimbatore national highway — giving it excellent road connectivity in every direction.",
-    "For learners from Komarapalayam and surrounding villages, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is the home-town option: the campus is located at Natarajapuram, right on NH-544 within Komarapalayam itself. Learners searching for a nursing college in Komarapalayam do not need to relocate to Erode, Salem or Coimbatore — an INC-approved institute is available in their own town.",
+    "For learners from Komarapalayam and surrounding villages, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is the home-town option: the campus is located at Natarajapuram, right on NH-544 within Komarapalayam itself. Learners searching for a nursing college in Komarapalayam do not need to relocate to Erode, Salem or Coimbatore — an INC-approved institute is available in their own town.",
     "The institute is part of JKKN Institutions, an educational group that has served this region for decades, and is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, so learners get hands-on patient care exposure from the first year.",
     "Local learners can walk in for campus visits any working day, and day-scholar study is the natural choice here — with hostel facilities also available for learners from farther villages. With 90%+ placement support including international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Komarapalayam learners can build a global career from their home town.",
   ],
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Is there a nursing college in Komarapalayam?",
-      a: "Yes. Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) is located at Natarajapuram, NH-544, within Komarapalayam town, Namakkal district. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Yes. Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is located at Natarajapuram, NH-544, within Komarapalayam town, Namakkal district. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "What is the fee structure at JKKN College of Nursing, Komarapalayam?",
@@ -65,7 +65,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying at JKKN?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "How can I apply for admission at JKKN Nursing, Komarapalayam?",
@@ -86,7 +86,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College in Komarapalayam | JKKN College of Nursing",
   description:
-    "JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) is located in Komarapalayam itself, at Natarajapuram on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing. Admissions 2026-27 open.",
+    "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is located in Komarapalayam itself, at Natarajapuram on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing. Admissions 2026-27 open.",
   keywords:
     "nursing college in komarapalayam, jkkn college komarapalayam, nursing college kumarapalayam, jkkn nursing komarapalayam, bsc nursing komarapalayam, jkkn college komarapalayam fees structure",
   alternates: {

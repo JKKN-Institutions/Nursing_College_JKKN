@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Edappadi",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Edappadi? Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) in Komarapalayam is about 25-35 km away via Sankagiri. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training, day-travel-friendly distance, and secure hostels.",
+    "Searching for a nursing college near Edappadi? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 25-35 km away via Sankagiri. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training, day-travel-friendly distance, and secure hostels.",
   heroStats: [
     { value: "90%+", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Edappadi Learners",
   landscapeParagraphs: [
     "Edappadi is a well-known weaving town in western Salem district, with a strong powerloom and handloom tradition and busy agricultural trade. Learners from Edappadi, Poolampatti and nearby blocks often travel to Salem or Erode for professional education — but a closer option sits right on NH-544.",
-    "For nursing aspirants from Edappadi, JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) at Komarapalayam is among the closest INC-approved nursing colleges — about 25-35 km away via Sankagiri, roughly 45 minutes to an hour. That makes both day travel and hostel stay genuinely practical choices.",
+    "For nursing aspirants from Edappadi, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is among the closest INC-approved nursing colleges — about 25-35 km away via Sankagiri, roughly 45 minutes to an hour. That makes both day travel and hostel stay genuinely practical choices.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Edappadi learners can commute daily via Sankagiri or choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts under an hour from home.",
   ],
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is close to Edappadi?",
-      a: "Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing) at Komarapalayam is among the closest INC-approved nursing colleges for Edappadi learners — about 25-35 km away via Sankagiri. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is among the closest INC-approved nursing colleges for Edappadi learners — about 25-35 km away via Sankagiri. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Edappadi?",
@@ -62,7 +62,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
-      a: "Yes, graduates from Sresakthimayeil Institute of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+      a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
     },
     {
       q: "What is the fee structure for B.Sc Nursing for Edappadi learners?",

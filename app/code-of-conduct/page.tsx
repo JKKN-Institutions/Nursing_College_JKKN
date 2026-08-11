@@ -27,7 +27,7 @@ export default function CodeOfConduct() {
             </h2>
 
             <p className="text-gray-700 mb-8 leading-relaxed">
-              Sresakthimayeil Institute of Nursing and Research has framed a committee for code of conduct in order to maintain discipline, dignity and smooth conduction of Institutional work.
+              Sresakthimayeil Institute Of Nursing And Research has framed a committee for code of conduct in order to maintain discipline, dignity and smooth conduction of Institutional work.
             </p>
 
             {/* Three Columns for Committee Composition */}

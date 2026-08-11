@@ -22,7 +22,7 @@ export default function Activities() {
         <div className="bg-[#FBFBEE] pb-16">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Title */}
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Activities — Sresakthimayeil Institute of Nursing and Research</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Activities — Sresakthimayeil Institute Of Nursing And Research</h1>
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0b7845] mb-8">
               Activities
             </h2>

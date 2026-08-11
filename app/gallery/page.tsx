@@ -86,7 +86,7 @@ export default async function Gallery() {
 
       <main className="bg-cream pt-24 sm:pt-28 lg:pt-32 pb-8 sm:pb-12 lg:pb-20">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Photo Gallery — Sresakthimayeil Institute of Nursing and Research</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Photo Gallery — Sresakthimayeil Institute Of Nursing And Research</h1>
           {displayAlbums.map((album) =>
             album.images.length > 0 ? (
               <section key={album.name} className="mb-10 sm:mb-14 lg:mb-20">

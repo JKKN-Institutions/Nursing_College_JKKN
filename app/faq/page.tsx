@@ -12,7 +12,7 @@ const faqCategories = [
     faqs: [
       {
         q: "What is the full name of the institution?",
-        a: "The full name is Sresakthimayeil Institute of Nursing and Research, also known as JKKN College of Nursing. It is part of the J.K.K. Nattraja Group of Educational Institutions.",
+        a: "The full name is Sresakthimayeil Institute Of Nursing And Research, also known as JKKN College of Nursing. It is part of the J.K.K. Nattraja Group of Educational Institutions.",
       },
       {
         q: "How many years of experience does JKKN have in education?",
@@ -28,7 +28,7 @@ const faqCategories = [
       },
       {
         q: "Where is the college located?",
-        a: "Sresakthimayeil Institute of Nursing and Research, Natarajapuram, NH-544 (Salem to Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT), Tamil Nadu – 638183.",
+        a: "Sresakthimayeil Institute Of Nursing And Research, Natarajapuram, NH-544 (Salem to Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT), Tamil Nadu – 638183.",
       },
     ],
   },
@@ -112,7 +112,7 @@ const faqCategories = [
     faqs: [
       {
         q: "How can I contact the college?",
-        a: "Phone: +91 93458 55001 | Email: nursing@jkkn.ac.in | Address: Sresakthimayeil Institute of Nursing and Research, Natarajapuram, NH-544, Komarapalayam, Namakkal, Tamil Nadu 638183.",
+        a: "Phone: +91 93458 55001 | Email: nursing@jkkn.ac.in | Address: Sresakthimayeil Institute Of Nursing And Research, Natarajapuram, NH-544, Komarapalayam, Namakkal, Tamil Nadu 638183.",
       },
       {
         q: "What are the social media handles of the college?",
@@ -184,7 +184,7 @@ export default function FaqPage() {
               FAQs — JKKN College of Nursing
             </h1>
             <p className="text-lg text-white/90 max-w-2xl mx-auto">
-              Common questions about Sresakthimayeil Institute of Nursing and Research — courses, admissions, facilities, and more.
+              Common questions about Sresakthimayeil Institute Of Nursing And Research — courses, admissions, facilities, and more.
             </p>
           </div>
         </section>

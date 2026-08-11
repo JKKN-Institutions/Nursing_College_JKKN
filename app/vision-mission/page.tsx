@@ -14,7 +14,7 @@ export default function VisionMission() {
       <main className="bg-cream min-h-screen pt-28">
         {/* Content Section */}
         <div className="container-custom py-8 md:py-12">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Vision &amp; Mission — Sresakthimayeil Institute of Nursing and Research</h1>
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">Vision &amp; Mission — Sresakthimayeil Institute Of Nursing And Research</h1>
           {/* Vision Section */}
           <div className="mb-12 md:mb-20">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">

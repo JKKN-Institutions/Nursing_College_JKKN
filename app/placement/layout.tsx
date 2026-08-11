@@ -9,10 +9,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
+      "Sresakthimayeil Institute Of Nursing And Research placement cell: 97% placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/nursing_logo.png",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute of Nursing and Research: 97% placement rate, 80+ recruiters, international placements.",
+      "Sresakthimayeil Institute Of Nursing And Research: 97% placement rate, 80+ recruiters, international placements.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
@@ -40,7 +40,7 @@ const placementWebPageSchema = {
   "@type": "WebPage",
   "name": "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
-  "description": "Sresakthimayeil Institute of Nursing and Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
+  "description": "Sresakthimayeil Institute Of Nursing And Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -57,15 +57,15 @@ const placementFaqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is the placement rate at Sresakthimayeil Institute of Nursing and Research?",
+      name: "What is the placement rate at Sresakthimayeil Institute Of Nursing And Research?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sresakthimayeil Institute of Nursing and Research maintains a 97% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
+        text: "Sresakthimayeil Institute Of Nursing And Research maintains a 97% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
       },
     },
     {
       "@type": "Question",
-      name: "Which companies recruit from Sresakthimayeil Institute of Nursing and Research?",
+      name: "Which companies recruit from Sresakthimayeil Institute Of Nursing And Research?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Major recruiters include Apollo Hospitals, Fortis Healthcare, Manipal Hospitals, Kauvery Hospital, MIOT Hospitals, KMCH, and Meenakshi Mission Hospital in India, and internationally NHS UK, Cleveland Clinic Abu Dhabi, Saudi German Hospital, Aster DM Healthcare (UAE), and Singapore General Hospital.",
@@ -81,7 +81,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does Sresakthimayeil Institute of Nursing and Research provide international placement support?",
+      name: "Does Sresakthimayeil Institute Of Nursing And Research provide international placement support?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. JKKN has active international placement partnerships with organisations in the UK (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides visa guidance, documentation support, and licensing exam preparation for all international destinations.",
@@ -89,7 +89,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does Sresakthimayeil Institute of Nursing and Research help with NCLEX and IELTS preparation?",
+      name: "Does Sresakthimayeil Institute Of Nursing And Research help with NCLEX and IELTS preparation?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Yes. JKKN operates a dedicated training centre that prepares students for NCLEX-RN (USA nursing licence), OET and IELTS (required for UK and Australia), DHA and HAAD exams (UAE), and PROMETRIC exams (Saudi Arabia). Coaching is provided as part of the placement programme.",
@@ -97,7 +97,7 @@ const placementFaqSchema = {
     },
     {
       "@type": "Question",
-      name: "When do placement drives happen at Sresakthimayeil Institute of Nursing and Research?",
+      name: "When do placement drives happen at Sresakthimayeil Institute Of Nursing And Research?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Placement activities at JKKN are conducted year-round as an integral part of the curriculum. Major campus recruitment drives are held from August to February, coinciding with the end of the academic year and peak hiring cycles for hospitals in India and abroad.",

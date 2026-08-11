@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
-  description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
+  title: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research | 5 Specializations",
+  description: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
   keywords: "msc nursing colleges in tamilnadu, msc nursing distance education in tamilnadu, best msc nursing colleges in tamilnadu, msc nursing private colleges in tamilnadu",
   openGraph: {
-    title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
-    description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
+    title: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research | 5 Specializations",
+    description: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
-    siteName: "Sresakthimayeil Institute of Nursing and Research",
+    siteName: "Sresakthimayeil Institute Of Nursing And Research",
     images: [
       {
         url: "/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp",
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research | 5 Specializations",
-    description: "M.Sc Nursing at Sresakthimayeil Institute of Nursing and Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
+    title: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research | 5 Specializations",
+    description: "M.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research with 5 specializations. 2-year postgraduate program affiliated to TNMGRMU. Research-focused curriculum. Apply now.",
     images: ["/images/Master-of-Science-in-Nursing-Hero-Banner-Image.webp"],
   },
   robots: {
@@ -49,11 +49,11 @@ const mscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Master of Science in Nursing (M.Sc Nursing)",
-  "description": "2-year INC-approved postgraduate nursing program at Sresakthimayeil Institute of Nursing and Research, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
+  "description": "2-year INC-approved postgraduate nursing program at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "Sresakthimayeil Institute of Nursing and Research",
+    "name": "Sresakthimayeil Institute Of Nursing And Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
   },
   "educationalCredentialAwarded": "M.Sc Nursing",

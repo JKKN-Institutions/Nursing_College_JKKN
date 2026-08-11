@@ -66,7 +66,7 @@ export default function GrievanceRedressal() {
 
               {/* Note */}
               <p className="text-justify mb-8">
-                <strong>Note:</strong> The index includes the key sections and subsections of the Grievance Redressal Policy for Sresakthimayeil Institute of Nursing and Research, with a specific focus on the incorporation of a Google form for grievance submission. The policy can be further expanded and organized based on the institution's requirements and preferences.
+                <strong>Note:</strong> The index includes the key sections and subsections of the Grievance Redressal Policy for Sresakthimayeil Institute Of Nursing And Research, with a specific focus on the incorporation of a Google form for grievance submission. The policy can be further expanded and organized based on the institution's requirements and preferences.
               </p>
 
               {/* Objective */}
@@ -75,7 +75,7 @@ export default function GrievanceRedressal() {
                   Objective:
                 </h2>
                 <p className="text-justify">
-                  The Grievance Redressal Policy of Sresakthimayeil Institute of Nursing and Research aims to provide a fair, transparent, and efficient mechanism for addressing and resolving grievances raised by students, parents, staff, or any other stakeholders of the institution. The policy ensures that grievances are collected through a Google form, handled promptly, impartially and with utmost confidentiality, thereby promoting a harmonious and conducive learning environment.
+                  The Grievance Redressal Policy of Sresakthimayeil Institute Of Nursing And Research aims to provide a fair, transparent, and efficient mechanism for addressing and resolving grievances raised by students, parents, staff, or any other stakeholders of the institution. The policy ensures that grievances are collected through a Google form, handled promptly, impartially and with utmost confidentiality, thereby promoting a harmonious and conducive learning environment.
                 </p>
               </div>
 
@@ -85,7 +85,7 @@ export default function GrievanceRedressal() {
                   Scope:
                 </h2>
                 <p className="text-justify">
-                  This policy applies to all students, parents, staff members and stakeholders of Sresakthimayeil Institute of Nursing and Research.
+                  This policy applies to all students, parents, staff members and stakeholders of Sresakthimayeil Institute Of Nursing And Research.
                 </p>
               </div>
 
@@ -158,7 +158,7 @@ export default function GrievanceRedressal() {
                   Confidentiality:
                 </h3>
                 <p className="text-justify">
-                  Sresakthimayeil Institute of Nursing and Research will ensure that all grievances submitted through the Google form are treated with strict confidentiality. Only authorized personnel involved in the grievance resolution process will have access to the information provided.
+                  Sresakthimayeil Institute Of Nursing And Research will ensure that all grievances submitted through the Google form are treated with strict confidentiality. Only authorized personnel involved in the grievance resolution process will have access to the information provided.
                 </p>
               </div>
 
@@ -198,7 +198,7 @@ export default function GrievanceRedressal() {
                   Communication:
                 </h3>
                 <p className="text-justify">
-                  Sresakthimayeil Institute of Nursing and Research will ensure effective communication channels are in place to inform all stakeholders about the availability and usage of the Google form for submitting grievances. This includes displaying information on the institution's website, notice boards, or any other appropriate means.
+                  Sresakthimayeil Institute Of Nursing And Research will ensure effective communication channels are in place to inform all stakeholders about the availability and usage of the Google form for submitting grievances. This includes displaying information on the institution's website, notice boards, or any other appropriate means.
                 </p>
               </div>
 
@@ -208,14 +208,14 @@ export default function GrievanceRedressal() {
                   Review and Monitoring:
                 </h3>
                 <p className="text-justify">
-                  The Grievance Redressal Policy, including the Google form submission process, will be periodically reviewed by the management of Sresakthimayeil Institute of Nursing and Research to ensure its effectiveness and make any necessary updates. Regular monitoring will be conducted to assess the implementation of the policy and identify areas for improvement.
+                  The Grievance Redressal Policy, including the Google form submission process, will be periodically reviewed by the management of Sresakthimayeil Institute Of Nursing And Research to ensure its effectiveness and make any necessary updates. Regular monitoring will be conducted to assess the implementation of the policy and identify areas for improvement.
                 </p>
               </div>
 
               {/* Final Note */}
               <div className="space-y-4">
                 <p className="text-justify">
-                  <strong>Note:</strong> The usage of a Google form for grievance collection is an additional feature of the grievance redressal policy and can be incorporated into the existing policy framework of Sresakthimayeil Institute of Nursing and Research.
+                  <strong>Note:</strong> The usage of a Google form for grievance collection is an additional feature of the grievance redressal policy and can be incorporated into the existing policy framework of Sresakthimayeil Institute Of Nursing And Research.
                 </p>
               </div>
 

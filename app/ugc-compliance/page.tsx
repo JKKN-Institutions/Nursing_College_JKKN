@@ -22,7 +22,7 @@ export default function UGCCompliance() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             {/* Introduction Paragraph 1 */}
             <p className="text-gray-700 mb-6 leading-relaxed">
-              This is to certify that Sresakthimayeil Institute of Nursing and Research has duly complied with the <strong>UGC Guidelines on Public Self-Disclosure by Higher Education Institutions</strong> in accordance with the provisions of the <strong>National Education Policy (NEP) 2020</strong> and the <strong>UGC (Conferment of Autonomous Status Upon Colleges and Measures for Maintenance of Standards in Autonomous Colleges) Regulations, 2023.</strong>
+              This is to certify that Sresakthimayeil Institute Of Nursing And Research has duly complied with the <strong>UGC Guidelines on Public Self-Disclosure by Higher Education Institutions</strong> in accordance with the provisions of the <strong>National Education Policy (NEP) 2020</strong> and the <strong>UGC (Conferment of Autonomous Status Upon Colleges and Measures for Maintenance of Standards in Autonomous Colleges) Regulations, 2023.</strong>
             </p>
 
             {/* Introduction Paragraph 2 */}
