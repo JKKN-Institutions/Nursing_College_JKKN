@@ -3,7 +3,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "About Sresakthimayeil Institute Of Nursing And Research — Sresakthimayeil Institute Of Nursing And Research",
-  description: "About Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Established 2007, INC-approved, affiliated to TNMGRMU.",
+  description: "About Sresakthimayeil Institute Of Nursing And Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Established 2006, INC-approved, affiliated to TNMGRMU.",
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/about" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
 };
@@ -26,7 +26,7 @@ export default function About() {
 
       <div className="bg-green-50 border-l-4 border-primary p-4 mb-8 rounded-r-lg">
         <p className="font-semibold text-primary mb-1">Quick Summary</p>
-        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2007, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at a 500+ bed teaching hospital.</p>
+        <p className="text-gray-700 text-sm">JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at a 500+ bed teaching hospital.</p>
       </div>
 
       <section className="prose prose-lg max-w-none">
@@ -34,7 +34,7 @@ export default function About() {
           What is Sresakthimayeil Institute Of Nursing And Research?
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2007 at Komarapalayam, Namakkal District, Tamil Nadu, is an <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Indian Nursing Council (INC)</a> approved nursing institution located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Tamil Nadu 638183. Part of JKKN Institutions, the college is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tamil Nadu Dr. MGR Medical University (TNMGRMU)</a> and offers undergraduate and postgraduate nursing programs.
+          JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2006 at Komarapalayam, Namakkal District, Tamil Nadu, is an <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Indian Nursing Council (INC)</a> approved nursing institution located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Tamil Nadu 638183. Part of JKKN Institutions, the college is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tamil Nadu Dr. MGR Medical University (TNMGRMU)</a> and offers undergraduate and postgraduate nursing programs.
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">

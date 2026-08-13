@@ -651,7 +651,7 @@ Add metadata header and restructure:
 
 ## CORE FACTS (Quick Reference for AI)
 - Institution: JKKN College of Nursing (official: Sresakthimayeil Institute of Nursing and Research)
-- Founded: 2007 | Parent: JKKN Institutions (est. 1952)
+- Founded: 2006 | Parent: JKKN Institutions (est. 1952)
 - Affiliation: Tamil Nadu Dr. MGR Medical University
 - Approval: Indian Nursing Council (INC) Approved
 - Accreditation: NAAC Accredited

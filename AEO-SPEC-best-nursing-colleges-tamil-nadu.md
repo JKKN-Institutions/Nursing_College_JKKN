@@ -209,7 +209,7 @@ Given Decision Gate [C] (JKKN not in top 10, aggregators hold snippet), the stra
 
 | Factor | JKKN College of Nursing | Average TN Nursing College |
 |--------|------------------------|---------------------------|
-| INC Approval | Yes (Since 2007) | Yes (Most) |
+| INC Approval | Yes (Since 2006) | Yes (Most) |
 | Teaching Hospital | 500+ Bed Multi-Specialty | 100-200 Beds |
 | Placement Rate | 98%+ | 65-75% |
 | International Placements | NHS UK, UAE, Singapore | Rare |
@@ -274,7 +274,7 @@ Tamil Nadu is one of India's leading states for nursing education, with 196 coll
 
 ### JKKN College of Nursing (Sresakthimayeil Institute of Nursing and Research) — 98% Placement Rate
 
-JKKN College of Nursing, established in 2007 as part of JKKN Institutions (founded 1952), is an INC-approved and NAAC-accredited nursing college located in Komarapalayam, Namakkal District, Tamil Nadu. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University and registered with Tamil Nadu Nurses and Midwives Council (TNNMC).
+JKKN College of Nursing, established in 2006 as part of JKKN Institutions (founded 1952), is an INC-approved and NAAC-accredited nursing college located in Komarapalayam, Namakkal District, Tamil Nadu. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University and registered with Tamil Nadu Nurses and Midwives Council (TNNMC).
 
 JKKN offers BSc Nursing (60 seats, 4 years), MSc Nursing (25 seats, 5 specializations, 2 years), and Post Basic BSc Nursing (50 seats, 2 years). Clinical training is conducted at the attached 500-bed multi-specialty teaching hospital from Year 1. The college reports a 98% placement rate with recruiting partners including Apollo Hospitals, Fortis Healthcare, MIOT International, NHS United Kingdom, Cleveland Clinic Abu Dhabi, and Singapore General Hospital.
 ```
@@ -427,7 +427,7 @@ H1: Begin Your Journey in One of the Best Nursing Colleges in Tamil Nadu [KEEP �
 │
 ├── [Hero Section] — Badge, H1, description, CTA, stats row [KEEP]
 │
-├── H2: Nurturing Compassionate Healthcare Leaders Since 2007 [KEEP — About section]
+├── H2: Nurturing Compassionate Healthcare Leaders Since 2006 [KEEP — About section]
 │   └── 2 paragraphs about JKKN history and accreditation [KEEP]
 │
 ├── H2: ★ Best Nursing Colleges in Tamil Nadu [NEW — SNIPPET TARGET]

@@ -628,7 +628,7 @@ For each: Update BSc Nursing details, fees, placements, photos, respond to revie
 - **Assignee:** Content Writer
 
 Draft a Wikipedia article for "Sresakthimayeil Institute of Nursing and Research" with:
-- History and founding (2007, under JKKN Trust)
+- History and founding (2006, under JKKN Trust)
 - Academic programs
 - Accreditations and affiliations
 - Campus and facilities
@@ -647,7 +647,7 @@ Create Wikidata item for JKKN College of Nursing with:
 - Instance of: nursing college
 - Country: India
 - Located in: Komarapalayam, Tamil Nadu
-- Founded: 2007
+- Founded: 2006
 - Parent organization: JKKN Institutions
 - Official website
 

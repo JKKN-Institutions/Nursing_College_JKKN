@@ -163,7 +163,7 @@ New section after "What is B.Sc Nursing?" — the money section for #1 ranking.
 
 **Content Blueprint:**
 - H2: "Why JKKN is Among the Best BSc Nursing Colleges in Tamil Nadu"
-- Opening paragraph (snippet-optimized, 50 words): "JKKN College of Nursing (Sresakthimayeil Institute) is one of the top BSc Nursing colleges in Tamil Nadu, offering INC-approved programs since 2007. With a 500+ bed teaching hospital, 97% placement rate, and international career pathways to NHS UK and UAE, JKKN provides clinical excellence from Year 1."
+- Opening paragraph (snippet-optimized, 50 words): "JKKN College of Nursing (Sresakthimayeil Institute) is one of the top BSc Nursing colleges in Tamil Nadu, offering INC-approved programs since 2006. With a 500+ bed teaching hospital, 97% placement rate, and international career pathways to NHS UK and UAE, JKKN provides clinical excellence from Year 1."
 - Comparison table: JKKN vs 5 competitors (rows: Hospital Beds, Placement Rate, International Placements, Annual Fee, Accreditations, Clinical Hours, Campus Size)
 - "What Makes JKKN Different" — 5-6 bullet points with data
 - USP callout boxes: Hospital Training, International Placements, Affordable Fees

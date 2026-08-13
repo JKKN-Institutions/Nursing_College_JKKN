@@ -263,7 +263,7 @@
 | INC approved + TNMGRMU affiliated | Badge shown | All competitors have similar |
 | International placement (NHS UK, UAE) | NOT on MSc page | Most competitors don't mention |
 | 25 seats (5 per specialization) | Total only — no per-spec breakdown | PSG shows per-spec |
-| Since 2007 (19 years legacy) | NOT mentioned | Some competitors established 1960s-80s |
+| Since 2006 (20 years legacy) | NOT mentioned | Some competitors established 1960s-80s |
 | Part of JKKN group (1952, 74+ years) | NOT on this page | Unique multi-institution group |
 
 ---

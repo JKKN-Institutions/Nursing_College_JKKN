@@ -285,14 +285,14 @@ const profilePageSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#profilepage",
   "name": "JKKN College of Nursing – Official Profile",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
-  "dateCreated": "2007-01-01",
+  "dateCreated": "2006-01-01",
   "dateModified": "2026-03-10",
   "mainEntity": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
     "name": "JKKN College of Nursing",
     "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-    "foundingDate": "2007",
+    "foundingDate": "2006",
     "knowsAbout": [
       "B.Sc Nursing", "M.Sc Nursing", "Post Basic B.Sc Nursing", "GNM",
       "Medical-Surgical Nursing", "OBG Nursing", "Pediatric Nursing",
@@ -460,7 +460,7 @@ export default async function Home() {
                       <AcademicCapIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#006837]" />
                       <div>
                         <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">INC Approved</p>
-                        <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Since 2007</p>
+                        <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Since 2006</p>
                       </div>
                     </div>
                   </div>
@@ -569,7 +569,7 @@ export default async function Home() {
                   ABOUT JKKN COLLEGE OF NURSING
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4 sm:mb-6">
-                  Nurturing Compassionate Healthcare Leaders Since 2007
+                  Nurturing Compassionate Healthcare Leaders Since 2006
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
                   JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.

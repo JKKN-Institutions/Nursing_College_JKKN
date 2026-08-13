@@ -115,7 +115,7 @@
 
 **Phase 2: Expand Parent Article**
 - Add comprehensive section: "Sresakthimayeil Institute of Nursing and Research"
-- Include: founding year (2007), INC approval, TNMGRMU affiliation, courses, placements, facilities
+- Include: founding year (2006), INC approval, TNMGRMU affiliation, courses, placements, facilities
 
 **Phase 3: Create Dedicated Page** (if meets notability criteria)
 - Requires 3+ independent reliable sources (press articles)
@@ -157,7 +157,7 @@
 - Go to: www.wikidata.org
 - Search for "Sresakthimayeil Institute of Nursing"
 - If not found → create new entry with:
-  - Full name, alternative names, founding year (2007)
+  - Full name, alternative names, founding year (2006)
   - Country, state, city, coordinates
   - Official website URL
   - Affiliation (TNMGRMU)

@@ -1318,7 +1318,7 @@ export default function MScNursing() {
                 Why Choose JKKN — Top M.Sc Nursing College in Tamil Nadu
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                Join a legacy of nursing excellence built since 2007 with 74+ years of JKKN institutional heritage — progressive
+                Join a legacy of nursing excellence built since 2006 with 74+ years of JKKN institutional heritage — progressive
                 education and clinical mastery near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>.
               </p>
             </div>

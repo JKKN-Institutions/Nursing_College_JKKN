@@ -611,7 +611,7 @@ Add conversational answer blocks for voice queries:
 **Dependency:** None | **Blocks:** C-02
 
 Draft article for "Sresakthimayeil Institute of Nursing and Research":
-- Founded 2007, part of JKK Nattraja Group (est. 1952)
+- Founded 2006, part of JKK Nattraja Group (est. 1952)
 - Location: Komarapalayam, Namakkal, Tamil Nadu
 - Affiliation: Tamil Nadu Dr. MGR Medical University
 - Approval: Indian Nursing Council (INC), TNNMC
@@ -637,7 +637,7 @@ Create Wikidata item for JKKN College of Nursing:
 - Instance of: nursing school, college
 - Country: India
 - Located in: Tamil Nadu, Namakkal district
-- Founded: 2007
+- Founded: 2006
 - Part of: JKKN Institutions
 - Official website: nursing.sresakthimayeil.jkkn.ac.in
 - Coordinates: 11.4333°N, 77.7167°E
@@ -1023,7 +1023,7 @@ Enhance "International Opportunities" card:
 **Dependency:** None | **Blocks:** None
 
 Add data-backed proof points:
-- "19+ Years of Nursing Education Excellence (est. 2007)"
+- "20+ Years of Nursing Education Excellence (est. 2006)"
 - "Part of JKKN Institutions — 74-Year Legacy (est. 1952)"
 - "500+ Bed Multi-Specialty Teaching Hospital — On-Campus Clinical Training"
 - "25 MSc Nursing Seats with 5:1 Student-Faculty Ratio"

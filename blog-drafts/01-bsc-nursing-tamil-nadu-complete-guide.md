@@ -148,7 +148,7 @@ tags: ["B.Sc Nursing", "Nursing Courses", "Tamil Nadu", "Admission 2026"]
 
 <h2>Why Choose JKKN College of Nursing for B.Sc Nursing</h2>
 
-<p><strong>Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing)</strong> at Komarapalayam, Namakkal district, has been training nurses since 2007. It is approved by the Indian Nursing Council, affiliated with Tamil Nadu Dr. M.G.R. Medical University, and is part of the larger JKKN Institutions network. Key reasons aspirants choose JKKN:</p>
+<p><strong>Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing)</strong> at Komarapalayam, Namakkal district, has been training nurses since 2006. It is approved by the Indian Nursing Council, affiliated with Tamil Nadu Dr. M.G.R. Medical University, and is part of the larger JKKN Institutions network. Key reasons aspirants choose JKKN:</p>
 
 <ul>
   <li>200+ bed JKKN multi-speciality hospital on the same campus for clinical training — students don't depend on external hospital tie-ups.</li>

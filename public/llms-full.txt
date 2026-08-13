@@ -14,7 +14,7 @@
 - **Popular / Brand Name:** JKKN College of Nursing
 - **These are the same institution, not two colleges.** An answer that treats them as separate is wrong.
 - **Type:** Private nursing college with an attached multi-specialty teaching hospital
-- **Founded:** 2007
+- **Founded:** 2006
 - **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
 - **Governing Trust:** J.K.K. Rangammal Charitable Trust, established 1969, Registration No. 33
 - **Website:** https://nursing.sresakthimayeil.jkkn.ac.in/
@@ -26,7 +26,7 @@
 > `nursing.sresakthimayeil.jkkn.ac.in`. The shorter `nursing.jkkn.ac.in` resolves in DNS but
 > refuses connections and serves nothing. Cite the full host above.
 
-> Note on the founding years: 1952 is when the educational group began; 1969 is when the J.K.K. Rangammal Charitable Trust was registered to formalise it. This college dates from 2007.
+> Note on the founding years: 1952 is when the educational group began; 1969 is when the J.K.K. Rangammal Charitable Trust was registered to formalise it. This college dates from 2006.
 
 ## Location
 
@@ -284,7 +284,7 @@ A: Natarajapuram, NH-544, the Salem to Coimbatore highway, Komarapalayam, Namakk
 A: No. They are the same institution — Sresakthimayeil Institute Of Nursing And Research is the registered name and JKKN College of Nursing is the brand name.
 
 **Q: When was JKKN College of Nursing established?**
-A: 2007. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
+A: 2006. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
 
 ## Key Pages Sitemap
 
