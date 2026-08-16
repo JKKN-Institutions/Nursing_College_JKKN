@@ -356,7 +356,7 @@ export default function FeeStructure() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=fee-structure"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white text-[#006837] font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100 transition-colors text-base"

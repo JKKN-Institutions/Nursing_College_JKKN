@@ -143,7 +143,7 @@ const facilities = [
 
 export default function CityLandingPage({ config }: { config: CityPageConfig }) {
   const pageUrl = `${SITE_URL}/${config.slug}`;
-  const applyUrl = `https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=website&utm_medium=city_page&utm_campaign=${config.slug}`;
+  const applyUrl = `https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=city-${config.slug}`;
 
   const whyChooseItems = [
     {

@@ -135,7 +135,7 @@ export default function Contact() {
                 <p className="text-white/70 text-sm mt-6 pt-6 border-t border-white/20">
                   Prefer the full application form?{" "}
                   <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=contact"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white font-semibold underline"

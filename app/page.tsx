@@ -424,7 +424,7 @@ export default async function Home() {
                     Explore Programs →
                   </ScrollButton>
                   <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base"
@@ -1137,7 +1137,7 @@ export default async function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg"
@@ -1311,7 +1311,7 @@ export default async function Home() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"

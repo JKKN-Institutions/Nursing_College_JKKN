@@ -25,7 +25,7 @@ export interface CourseAdmission {
   faqs: { q: string; a: string }[];
 }
 
-export const APPLY_URL = "https://www.jkkn.ai/apply/jkkn-admission-2026";
+export const APPLY_URL = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=site";
 export const SITE_URL = "https://nursing.sresakthimayeil.jkkn.ac.in";
 
 export const coursesAdmission: Record<CourseKey, CourseAdmission> = {

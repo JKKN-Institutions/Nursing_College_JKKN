@@ -32,7 +32,7 @@ export default function Header() {
               />
             </Link>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
               target="_blank"
               rel="noopener noreferrer"
               className="ml-auto bg-primary hover:bg-primary-dark text-white font-semibold px-4 py-2 rounded transition-colors whitespace-nowrap text-sm"
@@ -192,7 +192,7 @@ export default function Header() {
             {/* Apply Now - spans both rows */}
             <div className="flex items-center flex-shrink-0">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded transition-colors whitespace-nowrap"

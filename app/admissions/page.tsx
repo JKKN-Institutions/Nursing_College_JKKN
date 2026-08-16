@@ -119,7 +119,7 @@ export default function Admissions() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-bold px-8 py-3.5 rounded-lg hover:bg-gray-100 transition-colors text-base shadow-lg"
@@ -298,7 +298,7 @@ export default function Admissions() {
 
             <div className="mt-10 text-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#004d28] text-white font-bold px-8 py-3.5 rounded-lg transition-colors text-base shadow"
@@ -586,7 +586,7 @@ export default function Admissions() {
 
                 <div className="mt-7 pt-5 border-t border-[#d4eadb] flex flex-col sm:flex-row gap-3">
                   <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-[#006837] hover:bg-[#004d28] text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm"
@@ -740,7 +740,7 @@ export default function Admissions() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-bold px-8 py-3.5 rounded-lg hover:bg-gray-100 transition-colors text-base shadow-lg"
