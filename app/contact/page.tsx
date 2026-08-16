@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
 
 export const metadata: Metadata = {
   title: "Contact Sresakthimayeil Institute Of Nursing And Research | Phone, Email, Location",
@@ -122,18 +123,27 @@ export default function Contact() {
               <div className="w-12 sm:w-16 h-1 bg-[#FFD700] mb-4 sm:mb-6"></div>
 
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-                Your email address will not be published. Required fields are marked.
+                Leave your details and our admission team will call you within 24 hours.
+                Required fields are marked.
               </p>
 
-              {/* Online Admissions Button */}
-              <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#6ba85c] hover:bg-[#5a9149] text-white font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-md transition-colors text-sm sm:text-base"
-              >
-                Online Admissions 2026 - 2027
-              </a>
+              {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser cannot POST
+                  there directly because the endpoint sends no Access-Control-Allow-Origin. */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-xl p-6 sm:p-8">
+                <NursingEnquiryForm sourcePage="contact" />
+
+                <p className="text-white/70 text-sm mt-6 pt-6 border-t border-white/20">
+                  Prefer the full application form?{" "}
+                  <a
+                    href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white font-semibold underline"
+                  >
+                    Online Admissions 2026 - 2027
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

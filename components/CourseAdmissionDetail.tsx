@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { APPLY_URL, type CourseAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
+import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
+import { DEFAULT_PROGRAMME_BY_COURSE_KEY } from "@/lib/nursing-programmes";
 
 interface Props {
   course: CourseAdmission;
@@ -329,19 +331,29 @@ export default function CourseAdmissionDetail({ course }: Props) {
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">Ready to Apply for {course.short}?</h2>
           <p className="text-white/90 text-base sm:text-lg max-w-xl mx-auto mb-8">
-            Seats are limited. Apply early to secure your spot in the 2026-27 batch at JKKN College of Nursing.
+            Seats are limited. Leave your details and our admission team will call you within 24 hours.
           </p>
-          <a
-            href={APPLY_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-bold px-8 py-3.5 rounded-lg hover:bg-gray-100 transition-colors text-base shadow-lg"
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z" />
-            </svg>
-            Apply Now
-          </a>
+
+          {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser cannot POST there
+              directly because the endpoint sends no Access-Control-Allow-Origin. */}
+          <div className="max-w-2xl mx-auto text-left">
+            <NursingEnquiryForm
+              sourcePage={course.slug}
+              defaultProgrammeId={DEFAULT_PROGRAMME_BY_COURSE_KEY[course.key]}
+            />
+          </div>
+
+          <p className="text-white/70 text-sm mt-8 pt-8 border-t border-white/20 max-w-2xl mx-auto">
+            Prefer the full application form?{" "}
+            <a
+              href={APPLY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-semibold underline"
+            >
+              Apply Now
+            </a>
+          </p>
         </div>
       </section>
 
