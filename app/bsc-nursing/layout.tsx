@@ -177,7 +177,7 @@ const howToSchema = {
     {
       "@type": "HowToStep",
       name: "Online Registration",
-      text: "Visit admission.jkkn.ac.in and complete the online application form with accurate personal and academic details.",
+      text: "Visit jkkn.ai/apply/jkkn-admission-2026 and complete the online application form with accurate personal and academic details.",
     },
     {
       "@type": "HowToStep",

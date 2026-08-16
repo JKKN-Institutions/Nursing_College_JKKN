@@ -238,7 +238,7 @@ export default function MScNursing() {
         "name": "What is the M.Sc Nursing admission process at JKKN for 2026-27?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The M.Sc Nursing admission process at JKKN involves 3 steps: (1) Submit online application with required documents at admission.jkkn.ac.in, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification for enrollment. Applications for 2026-27 are open."
+          "text": "The M.Sc Nursing admission process at JKKN involves 3 steps: (1) Submit online application with required documents at jkkn.ai/apply/jkkn-admission-2026, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification for enrollment. Applications for 2026-27 are open."
         }
       },
       {
@@ -316,8 +316,8 @@ export default function MScNursing() {
         "@type": "HowToStep",
         "position": 1,
         "name": "Submit Online Application",
-        "text": "Complete the online application form at admission.jkkn.ac.in with required documents including B.Sc Nursing mark sheets, RN & RM registration, and experience certificate.",
-        "url": "https://admission.jkkn.ac.in/"
+        "text": "Complete the online application form at jkkn.ai/apply/jkkn-admission-2026 with required documents including B.Sc Nursing mark sheets, RN & RM registration, and experience certificate.",
+        "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
       },
       {
         "@type": "HowToStep",
@@ -1998,7 +1998,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    Three steps: (1) Submit online application at admission.jkkn.ac.in with required documents, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification. <Link href="/admissions" className="text-[#006837] font-semibold hover:underline">Apply now for 2026-27</Link>.
+                    Three steps: (1) Submit online application at jkkn.ai/apply/jkkn-admission-2026 with required documents, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification. <Link href="/admissions" className="text-[#006837] font-semibold hover:underline">Apply now for 2026-27</Link>.
                   </p>
                 </details>
 
