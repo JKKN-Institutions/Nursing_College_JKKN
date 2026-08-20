@@ -16,12 +16,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
-  description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
+  title: "JKKN College of Nursing and Research, Komarapalayam",
+  description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
-    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
-    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
+    title: "JKKN College of Nursing and Research, Komarapalayam",
+    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "JKKN College of Nursing | Best Nursing College Tamil Nadu 2026",
-    description: "JKKN College of Nursing, Komarapalayam — INC approved, NAAC accredited. B.Sc, M.Sc & Post Basic Nursing. 98% placement rate. 500-bed hospital. Apply 2026-27.",
+    title: "JKKN College of Nursing and Research, Komarapalayam",
+    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
     images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png"],
   },
   icons: {

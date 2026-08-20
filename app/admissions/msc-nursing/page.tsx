@@ -9,9 +9,9 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 const course = coursesAdmission.msc;
 
 export const metadata: Metadata = {
-  title: "M.Sc Nursing Admission 2026-27 | 5 Specializations, Fees, Entrance — JKKN",
+  title: "MSc Nursing Admission 2026 Tamil Nadu - Counselling Dates",
   description:
-    "M.Sc Nursing admission 2026-27 at JKKN. 2-year postgraduate program with 5 specializations — Medical-Surgical, Child Health, OBG, Psychiatric, Community Health. 25 seats. ₹75,000–1,00,000/yr MQ.",
+    "M.Sc Nursing admission 2026-27 at JKKN, Tamil Nadu — 5 specialisations, 25 seats, eligibility, counselling process and how to apply. INC approved.",
   keywords:
     "M.Sc Nursing admission 2026, MSc Nursing JKKN, MSc Nursing specializations, TN MSc Nursing entrance, MSc Nursing eligibility, MSc Nursing fees",
   alternates: { canonical: `${SITE_URL}/admissions/msc-nursing` },

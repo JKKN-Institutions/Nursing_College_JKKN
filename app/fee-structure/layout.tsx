@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fee Structure 2026-27 — B.Sc, M.Sc Nursing Fees | JKKN",
-  description: "Sresakthimayeil Institute Of Nursing And Research fee structure: B.Sc Nursing MQ ₹1,50,000 (Female) / ₹1,75,000 (Male), M.Sc Nursing MQ ₹75,000–₹1,00,000, Post Basic B.Sc ₹65,000. GQ as per govt norms. Hostel, scholarships, loan info.",
+  title: "JKKN College of Nursing Fees Structure 2026-27",
+  description: "JKKN College of Nursing and Research fee structure 2026-27 — B.Sc, M.Sc and Post Basic B.Sc Nursing fees, government and management quota, hostel and loans.",
   keywords: "nursing college fees tamil nadu, bsc nursing fees, msc nursing fees, JKKN nursing fees, nursing college fee structure, affordable nursing college",
   openGraph: {
-    title: "Fee Structure 2026-27 — B.Sc, M.Sc Nursing Fees | JKKN",
+    title: "JKKN College of Nursing Fees Structure 2026-27",
     description: "Complete fee structure for nursing programs at JKKN. Affordable fees, scholarships, education loan assistance.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fee Structure 2026-27 — B.Sc, M.Sc Nursing Fees | JKKN",
+    title: "JKKN College of Nursing Fees Structure 2026-27",
     description: "Complete fee structure for nursing programs at Sresakthimayeil Institute Of Nursing And Research.",
     images: ["/images/nursing_logo.png"],
   },
