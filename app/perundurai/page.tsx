@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Perundurai? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 40-50 km away via Erode on the NH-544 corridor. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~45km", label: "FROM PERUNDURAI" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Perundurai is a fast-growing industrial and educational town in Erode district, known for its SIPCOT industrial estate, textile units and engineering campuses along NH-544. Healthcare education is a natural next step for learners here — Perundurai families already see medical institutions and industry side by side.",
     "For nursing aspirants from Perundurai, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a convenient option on the same NH-544 corridor — about 40-50 km away via Erode, roughly an hour by road. Day travel via Erode is possible, and hostels make it fully residential for those who prefer.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Perundurai learners can choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with home barely an hour away. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts on your own highway.",
+    "Perundurai learners can choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with home barely an hour away. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts on your own highway.",
   ],
   whyHeading: "Why Perundurai Learners Choose JKKN",
   whyIntro:

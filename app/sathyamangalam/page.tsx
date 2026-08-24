@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Sathyamangalam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 60-70 km away via Gobichettipalayam and Bhavani. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~65km", label: "FROM SATHY" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Sathyamangalam sits at the foothills of the Western Ghats in Erode district, an agricultural town on the Coimbatore-Mysuru corridor known for its farm produce and the forest belt beyond. For learners from Sathy, Puliampatti and the surrounding blocks, professional education usually means travelling towards Erode or Coimbatore.",
     "For nursing aspirants from Sathyamangalam, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 60-70 km away, roughly 1.5 to 2 hours via Gobichettipalayam and Bhavani. Close enough for weekend trips home, far enough for a focused residential campus life.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Most Sathyamangalam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sathy learners can take a global nursing career from the foothills to the world.",
+    "Most Sathyamangalam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sathy learners can take a global nursing career from the foothills to the world.",
   ],
   whyHeading: "Why Sathyamangalam Learners Choose JKKN",
   whyIntro:

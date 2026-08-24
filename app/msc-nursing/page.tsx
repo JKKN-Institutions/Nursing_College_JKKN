@@ -11,11 +11,11 @@ import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase,
 export const metadata: Metadata = {
   metadataBase: new URL("https://nursing.sresakthimayeil.jkkn.ac.in"),
   title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-  description: "M.Sc Nursing at JKKN College of Nursing, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 100% placement support. Apply 2026-27.",
+  description: "M.Sc Nursing at JKKN College of Nursing, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 95% placement rate. Apply 2026-27.",
   keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
     title: "M.Sc Nursing at JKKN College of Nursing — Top MSc Nursing College Tamil Nadu",
-    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 100% placement support. Admissions open 2026-27.",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 95% placement rate. Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-    description: "5 INC-approved specializations, 500+ bed hospital training, 100% placement support. Apply 2026-27.",
+    description: "5 INC-approved specializations, 500+ bed hospital training, 95% placement rate. Apply 2026-27.",
   },
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
@@ -380,7 +380,7 @@ export default function MScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 100% placement support.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 95% placement rate.</p>
                 </div>
 
                 {/* Description */}

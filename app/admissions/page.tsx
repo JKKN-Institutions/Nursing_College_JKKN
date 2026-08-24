@@ -18,7 +18,7 @@ const admissionsWebPageSchema = {
   "@type": "WebPage",
   "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
-  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 95% placement.",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -194,7 +194,7 @@ export default function Admissions() {
                   📈
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">97% Placement Rate</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">95% Placement Rate</h3>
                   <p className="text-gray-600 text-sm">Consistently high placement record with graduates placed in leading hospitals across India and abroad.</p>
                 </div>
               </div>
@@ -660,7 +660,7 @@ export default function Admissions() {
                 },
                 {
                   q: "What is the placement rate at JKKN College of Nursing?",
-                  a: "JKKN consistently achieves a 97% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
+                  a: "JKKN consistently achieves a 95% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
                 },
                 {
                   q: "When do classes begin for the 2026-27 academic year?",
@@ -716,7 +716,7 @@ export default function Admissions() {
                   { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
-                  { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 97% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
+                  { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 95% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
                   { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
                 ].map(({ q, a }) => ({

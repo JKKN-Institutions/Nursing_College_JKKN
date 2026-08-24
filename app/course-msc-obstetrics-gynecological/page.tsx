@@ -205,7 +205,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="text-gray-700 font-medium">Affiliated Hospitals</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">97%</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">95%</div>
                 <div className="text-gray-700 font-medium">Placement Success Rate</div>
               </div>
               <div className="text-center">

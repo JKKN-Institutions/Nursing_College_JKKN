@@ -31,7 +31,7 @@ const localBusinessSchema = {
   "@type": "EducationalOrganization",
   "name": "JKKN College of Nursing",
   "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 95% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "info@jkkn.ac.in",
@@ -100,7 +100,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has 95% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -144,7 +144,7 @@ const medicalBusinessSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#localbusiness",
   "name": "JKKN College of Nursing",
   "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 98%+ placement rate.",
+  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 95% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
@@ -412,7 +412,7 @@ export default async function Home() {
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98%+ placement success.
+                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 95% placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -470,7 +470,7 @@ export default async function Home() {
                     <div className="flex items-center gap-1.5 sm:gap-2">
                       <StarIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#f59e0b]" />
                       <div>
-                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98%+ Placement</p>
+                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">95% Placement</p>
                         <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Success Rate</p>
                       </div>
                     </div>
@@ -489,7 +489,7 @@ export default async function Home() {
             <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-8 sm:mt-10 md:mt-12">
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
-                { number: "98%+", label: "PLACEMENT RATE" },
+                { number: "95%", label: "PLACEMENT RATE" },
                 { number: "500+", label: "BED HOSPITAL\nTRAINING" },
                 { number: "500+", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
@@ -847,7 +847,7 @@ export default async function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
               {[
-                { number: "98%+", label: "Placement Rate" },
+                { number: "95%", label: "Placement Rate" },
                 { number: "₹4.2L", label: "Avg. Package" },
                 { number: "₹25L", label: "Highest (International)" },
                 { number: "80+", label: "Recruiting Partners" },
@@ -1256,7 +1256,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98%+ placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has 95% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",

@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Krishnagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 150 km away via Salem on the NH-44/NH-544 corridor — a Tamil Nadu option under The Tamil Nadu Dr. M.G.R. Medical University, with INC-approved programmes and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~150km", label: "FROM KRISHNAGIRI" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Krishnagiri district, in the north-western corner of Tamil Nadu, is famous as the state's mango capital and for the fast-growing Hosur industrial belt. Because the district borders Karnataka, many learners from Krishnagiri, Hosur and Denkanikottai look towards Bangalore for higher education.",
     "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam offers exactly that, around 150 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners work with real patients from the first year of the programme.",
-    "Krishnagiri learners stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with direct Salem-route buses making trips home easy during holidays. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Krishnagiri district can build a global nursing career while studying in their home state.",
+    "Krishnagiri learners stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with direct Salem-route buses making trips home easy during holidays. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Krishnagiri district can build a global nursing career while studying in their home state.",
   ],
   whyHeading: "Why Krishnagiri Learners Choose JKKN",
   whyIntro:

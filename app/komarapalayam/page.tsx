@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Looking for a nursing college in Komarapalayam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is located right here in Komarapalayam at Natarajapuram on NH-544 — the only INC-approved nursing institute in the town, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "In-Town", label: "CAMPUS" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Komarapalayam (also spelled Kumarapalayam) is a busy textile town in Namakkal district on the banks of the river Cauvery, directly opposite Bhavani. The town is well known for its handloom and powerloom industry, and it sits on NH-544 — the Salem-Coimbatore national highway — giving it excellent road connectivity in every direction.",
     "For learners from Komarapalayam and surrounding villages, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is the home-town option: the campus is located at Natarajapuram, right on NH-544 within Komarapalayam itself. Learners searching for a nursing college in Komarapalayam do not need to relocate to Erode, Salem or Coimbatore — an INC-approved institute is available in their own town.",
     "The institute is part of JKKN Institutions, an educational group that has served this region for decades, and is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, so learners get hands-on patient care exposure from the first year.",
-    "Local learners can walk in for campus visits any working day, and day-scholar study is the natural choice here — with hostel facilities also available for learners from farther villages. With 90%+ placement support including international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Komarapalayam learners can build a global career from their home town.",
+    "Local learners can walk in for campus visits any working day, and day-scholar study is the natural choice here — with hostel facilities also available for learners from farther villages. With 95% placement rate including international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Komarapalayam learners can build a global career from their home town.",
   ],
   whyHeading: "Why Komarapalayam Learners Choose JKKN — Their Home-Town Nursing College",
   whyIntro:

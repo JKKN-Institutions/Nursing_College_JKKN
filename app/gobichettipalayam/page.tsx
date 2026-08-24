@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Gobichettipalayam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 45-50 km away via Bhavani — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostel facilities.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~45km", label: "FROM GOBI" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Gobichettipalayam (Gobi) is a major town in the western part of Erode district, known for its agriculture, coconut and turmeric trade, and as a scenic location frequently featured in Tamil cinema. Learners from Gobi taluk looking for professional healthcare education usually have to consider colleges in Erode, Coimbatore or beyond.",
     "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers Gobi learners an accessible alternative — about 45-50 km via the Gobi-Bhavani road, roughly an hour's journey. For a hostel-based nursing education, that proximity means easy weekend trips home, a real advantage over colleges in distant cities.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year onwards.",
-    "Most Gobichettipalayam learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), while some commute via Bhavani. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Gobi learners get a global career launchpad within an hour of home.",
+    "Most Gobichettipalayam learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), while some commute via Bhavani. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Gobi learners get a global career launchpad within an hour of home.",
   ],
   whyHeading: "Why Gobichettipalayam Learners Choose JKKN",
   whyIntro:

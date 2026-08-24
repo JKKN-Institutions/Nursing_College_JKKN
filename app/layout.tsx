@@ -17,11 +17,11 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "JKKN College of Nursing and Research, Komarapalayam",
-  description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
+  description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 95% placement.",
   keywords: "best nursing colleges in tamilnadu, top nursing colleges in tamilnadu, nursing colleges in tamilnadu, top 10 nursing colleges in tamilnadu, list of nursing colleges in tamilnadu, private nursing colleges in tamilnadu, nursing college, JKKN, nursing education, Tamil Nadu",
   openGraph: {
     title: "JKKN College of Nursing and Research, Komarapalayam",
-    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
+    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 95% placement.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     siteName: "JKKN College of Nursing",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "JKKN College of Nursing and Research, Komarapalayam",
-    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 98% placement.",
+    description: "JKKN College of Nursing and Research, Komarapalayam — INC approved, TNNMC registered, NAAC accredited. B.Sc 60, M.Sc 25, Post Basic 50 seats. 95% placement.",
     images: ["https://nursing.sresakthimayeil.jkkn.ac.in/images/Homepage-Hero_Banner-image.png"],
   },
   icons: {
@@ -69,7 +69,7 @@ const educationalOrganizationSchema = {
     "JKKN College of Nursing",
     "JKKN College of Nursing Komarapalayam"
   ],
-  "description": "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
+  "description": "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 95% placement rate and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
@@ -244,7 +244,7 @@ const educationalOrgSchema = {
     {
       "@type": "PropertyValue",
       "name": "Placement Rate",
-      "value": "98%+",
+      "value": "95%",
       "description": "Overall placement rate for nursing graduates including domestic and international placements"
     },
     {
@@ -284,7 +284,7 @@ const videoObjectSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "JKKN College of Nursing — Campus Tour, Facilities & Student Life",
-  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98%+ placement rate.",
+  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 95% placement rate.",
   "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "uploadDate": "2025-01-01",
   "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",

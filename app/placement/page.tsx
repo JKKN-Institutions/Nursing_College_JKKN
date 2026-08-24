@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Placements at JKKN College of Nursing — 97% Success Rate | NHS UK, Apollo, Fortis",
+      "Placements at JKKN College of Nursing — 95% Success Rate | NHS UK, Apollo, Fortis",
     description:
-      "97% placement rate with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
+      "95% placement rate with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     type: "website",
     siteName: "JKKN College of Nursing",
@@ -56,16 +56,16 @@ export const metadata: Metadata = {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing Placements — 97% Success Rate",
+        alt: "JKKN College of Nursing Placements — 95% Success Rate",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Placements at JKKN College of Nursing — 97% Success Rate",
+      "Placements at JKKN College of Nursing — 95% Success Rate",
     description:
-      "97% placement rate, 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
+      "95% placement rate, 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
 };
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "What is the placement rate at JKKN College of Nursing?",
-    a: "JKKN College of Nursing has a consistent placement rate of 97%, with graduates placed in top hospitals across India and internationally. In 2024–25, 55 out of 58 eligible learners were placed successfully.",
+    a: "JKKN College of Nursing has a consistent placement rate of 95%, with graduates placed in top hospitals across India and internationally. In 2024–25, 55 out of 58 eligible learners were placed successfully.",
   },
   {
     q: "Which companies and hospitals recruit from JKKN College of Nursing?",
@@ -136,7 +136,7 @@ const placementPageSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/placement#webpage",
   name: "Placements at JKKN College of Nursing",
   description:
-    "Comprehensive placement record of JKKN College of Nursing with 97% success rate, 80+ recruiters, and international opportunities in 6 countries.",
+    "Comprehensive placement record of JKKN College of Nursing with 95% success rate, 80+ recruiters, and international opportunities in 6 countries.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
   isPartOf: {
     "@type": "WebSite",
@@ -522,7 +522,7 @@ export default function PlacementsPage() {
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight"
                 data-speakable="true"
               >
-                97% Placement Success Rate — Your Nursing Career Starts Here
+                95% Placement Success Rate — Your Nursing Career Starts Here
               </h1>
               <p className="text-green-100 text-base sm:text-lg lg:text-xl mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
                 80+ recruiters including NHS UK, Apollo, Fortis, and Cleveland
@@ -535,7 +535,7 @@ export default function PlacementsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-10">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 sm:p-6 border border-white/20">
                   <p className="text-3xl sm:text-4xl font-bold text-[#FFD700]">
-                    97%
+                    95%
                   </p>
                   <p className="text-green-100 text-sm mt-1">
                     Placement Success Rate
@@ -1130,7 +1130,7 @@ export default function PlacementsPage() {
               Build Your Healthcare Career with JKKN
             </h2>
             <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-              97% placement rate. 80+ recruiters. International opportunities in
+              95% placement rate. 80+ recruiters. International opportunities in
               6 countries. Dedicated placement cell with complete career support
               — from exam coaching to visa assistance.
             </p>

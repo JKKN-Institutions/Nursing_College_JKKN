@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College Near Salem — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 60 km from Salem on NH-544. INC-approved B.Sc & M.Sc Nursing. 98%+ placement.",
+      "JKKN College of Nursing, 60 km from Salem on NH-544. INC-approved B.Sc & M.Sc Nursing. 95% placement.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/salem",
     siteName: "JKKN College of Nursing",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nursing College Near Salem — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 60 km from Salem on NH-544. INC-approved B.Sc & M.Sc Nursing. 98%+ placement.",
+      "JKKN College of Nursing, 60 km from Salem on NH-544. INC-approved B.Sc & M.Sc Nursing. 95% placement.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Mettur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 40-50 km away via Bhavani along the Cauvery. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~45km", label: "FROM METTUR" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Mettur is best known for the Mettur Dam (Stanley Reservoir) on the Cauvery, its hydro and thermal power stations, and its chemical industrial belt. Families here value stable, professional careers — and healthcare is one of the strongest options for learners from Mettur, Kolathur and the surrounding blocks.",
     "For nursing aspirants from Mettur, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is one of the closest INC-approved options — about 40-50 km away, roughly 1 to 1.5 hours via Bhavani along the river route. Learners can choose the hostel or, from nearby blocks, even consider day travel.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Many Mettur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — and go home on weekends, barely an hour and a half away. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
+    "Many Mettur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — and go home on weekends, barely an hour and a half away. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
   whyHeading: "Why Mettur Learners Choose JKKN",
   whyIntro:

@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
   description:
-    "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
+    "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 95% placement. Apply for 2026.",
   keywords:
     "best bsc nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, bsc nursing best colleges in tamilnadu, bsc nursing courses in tamilnadu, top bsc nursing colleges in tamilnadu, top 10 bsc nursing colleges in tamilnadu, bsc nursing male colleges in tamilnadu, bsc male nursing colleges in tamilnadu, bsc nursing course colleges in tamilnadu, bsc nursing private colleges in tamilnadu, bsc nursing colleges in erode, bsc nursing colleges near coimbatore, bsc nursing fees in tamilnadu, bsc nursing salary, bsc nursing scope",
   openGraph: {
     title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
     description:
-      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
+      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 95% placement. Apply for 2026.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
     siteName: "JKKN College of Nursing",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BSc Nursing in Tamil Nadu — JKKN College | INC Approved 2026",
     description:
-      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 97% placement. Apply for 2026.",
+      "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 95% placement. Apply for 2026.",
     images: ["/images/B.Sc-Nursing-Hero-Banner_image.webp"],
   },
   robots: {
@@ -55,7 +55,7 @@ const bscNursingSchema = {
   "@type": "Course",
   name: "Bachelor of Science in Nursing (B.Sc Nursing)",
   description:
-    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 97% placement rate.",
+    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 95% placement rate.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
   dateModified: "2026-04-11",
   provider: {

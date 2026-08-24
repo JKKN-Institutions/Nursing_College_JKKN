@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Looking for a nursing college near Tiruchengode? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is just 15-20 km away — in the same Namakkal district. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "15-20km", label: "FROM T'GODE" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Tiruchengode is one of the major towns of Namakkal district, famous for the hilltop Ardhanareeswarar Temple and as a national hub for the borewell rig industry. The town has a strong educational ecosystem, and healthcare careers — especially nursing — are a popular choice for learners from Tiruchengode taluk.",
     "For nursing aspirants here, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is one of the closest INC-approved options — about 15-20 km away by the direct Tiruchengode-Komarapalayam road, within the same Namakkal district. No relocation to Salem, Erode or Coimbatore is needed.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Learners train at the JKKN group's multi-specialty teaching hospital, getting real patient-care exposure from the first year — a key advantage over theory-only colleges.",
-    "Tiruchengode learners can commute daily (about 25-35 minutes by bus or two-wheeler) or choose the secure on-campus hostels with separate blocks for boys and girls. With 90%+ placement support and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
+    "Tiruchengode learners can commute daily (about 25-35 minutes by bus or two-wheeler) or choose the secure on-campus hostels with separate blocks for boys and girls. With 95% placement rate and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
   whyHeading: "Why Tiruchengode Learners Choose JKKN — Same-District Nursing College",
   whyIntro:

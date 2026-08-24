@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   keywords:
     "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, NHS UK nursing jobs, nursing salary india, best nursing college placement",
   openGraph: {
-    title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 95% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute Of Nursing And Research placement cell: 97% placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
+      "Sresakthimayeil Institute Of Nursing And Research placement cell: 95% placement rate, 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 95% Rate, NHS UK, Apollo | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute Of Nursing And Research: 97% placement rate, 80+ recruiters, international placements.",
+      "Sresakthimayeil Institute Of Nursing And Research: 95% placement rate, 80+ recruiters, international placements.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
 const placementWebPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Placements — 97% Rate, NHS UK, Apollo | JKKN Nursing",
+  "name": "Placements — 95% Rate, NHS UK, Apollo | JKKN Nursing",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
-  "description": "Sresakthimayeil Institute Of Nursing And Research placement cell: 97% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
+  "description": "Sresakthimayeil Institute Of Nursing And Research placement cell: 95% placement rate, 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -60,7 +60,7 @@ const placementFaqSchema = {
       name: "What is the placement rate at Sresakthimayeil Institute Of Nursing And Research?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sresakthimayeil Institute Of Nursing And Research maintains a 97% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
+        text: "Sresakthimayeil Institute Of Nursing And Research maintains a 95% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
       },
     },
     {

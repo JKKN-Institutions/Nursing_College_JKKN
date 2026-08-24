@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Kangeyam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 50-60 km away via Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~55km", label: "FROM KANGEYAM" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Kangeyam, in Tiruppur district, is famous for the hardy Kangayam cattle breed, its coconut and copra trade, and its powerloom units. Families here run farms and businesses across the Kongu belt — and increasingly send their learners into professional healthcare careers.",
     "For nursing aspirants from Kangeyam, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 50-60 km away, roughly 1.5 hours via Erode. Weekend trips home stay easy while learners get a full residential campus experience.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Most Kangeyam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Kangeyam learners can launch a global nursing career about ninety minutes from home.",
+    "Most Kangeyam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Kangeyam learners can launch a global nursing career about ninety minutes from home.",
   ],
   whyHeading: "Why Kangeyam Learners Choose JKKN",
   whyIntro:

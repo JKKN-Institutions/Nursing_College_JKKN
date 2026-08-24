@@ -173,7 +173,7 @@ export default function BScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg course-overview">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing is one of the best BSc Nursing colleges in Tamil Nadu, offering a 4-year INC-approved program affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. 97% placement rate with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹95,000.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing is one of the best BSc Nursing colleges in Tamil Nadu, offering a 4-year INC-approved program affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. 95% placement rate with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹95,000.</p>
                 </div>
 
                 {/* Description */}
@@ -208,7 +208,7 @@ export default function BScNursing() {
                     <div className="text-xs sm:text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">97%</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">95%</div>
                     <div className="text-xs sm:text-sm text-gray-300">Placement Rate</div>
                   </div>
                   <div>
@@ -260,7 +260,7 @@ export default function BScNursing() {
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  JKKN College of Nursing is one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, offering a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 97% placement rate including international opportunities, JKKN provides the strongest foundation for a nursing career.
+                  JKKN College of Nursing is one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, offering a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 95% placement rate including international opportunities, JKKN provides the strongest foundation for a nursing career.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
                   Sresakthimayeil Institute Of Nursing And Research follows a progressive education approach that goes beyond textbook learning. Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
@@ -321,7 +321,7 @@ export default function BScNursing() {
                 <p className="text-gray-200 text-sm">Hands-on <Link href="/clinical-hospital" className="text-[#7cb983] hover:underline">clinical training</Link> from Year 1 across Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
-                <div className="text-3xl font-bold text-[#7cb983] mb-2">97%</div>
+                <div className="text-3xl font-bold text-[#7cb983] mb-2">95%</div>
                 <h3 className="text-lg font-bold mb-2">Placement Rate</h3>
                 <p className="text-gray-200 text-sm">50+ recruiters including Apollo, Fortis, KIMS. Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
               </div>
@@ -1302,7 +1302,7 @@ export default function BScNursing() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">97%</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">95%</div>
                 <div className="text-xl font-semibold mb-2">Placement Rate</div>
               </div>
 
@@ -1437,14 +1437,14 @@ export default function BScNursing() {
                 { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
                 { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
                 { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
-                { q: "What are the placement statistics at JKKN College of Nursing?", a: "JKKN College of Nursing has a 97% placement rate with 50+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Average CTC is ₹4.5 LPA." },
+                { q: "What are the placement statistics at JKKN College of Nursing?", a: "JKKN College of Nursing has a 95% placement rate with 50+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Average CTC is ₹4.5 LPA." },
                 { q: "Which university is JKKN College of Nursing affiliated to?", a: "JKKN College of Nursing is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
                 { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance. Alumni currently work at NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals." },
                 { q: "What facilities are available at JKKN College of Nursing?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, a 500+ bed teaching hospital, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
                 { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based scholarships with up to 75% fee waiver for academically outstanding learners. Government scholarships for SC/ST/OBC and minority learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
                 { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
                 { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
-                { q: "What makes JKKN one of the best BSc Nursing colleges in Tamil Nadu?", a: "JKKN stands out with its 500+ bed teaching hospital providing Year 1 clinical training, 97% placement rate, affordable ₹95,000 annual fees, international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
+                { q: "What makes JKKN one of the best BSc Nursing colleges in Tamil Nadu?", a: "JKKN stands out with its 500+ bed teaching hospital providing Year 1 clinical training, 95% placement rate, affordable ₹95,000 annual fees, international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
               ].map((faq, index) => (
                 <details key={index} className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
                   <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">

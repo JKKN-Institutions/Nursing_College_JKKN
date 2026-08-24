@@ -98,7 +98,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     whyThis: [
       { title: "INC-Approved Curriculum", desc: "Follows the Indian Nursing Council's revised B.Sc Nursing curriculum with TNMGRMU university framework." },
       { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached 500+ bed JKKN Multi-Specialty Teaching Hospital." },
-      { title: "97% Placement Track Record", desc: "Consistent placements at top corporate hospitals across India and abroad." },
+      { title: "95% Placement Track Record", desc: "Consistent placements at top corporate hospitals across India and abroad." },
     ],
     faqs: [
       { q: "Is NEET mandatory for B.Sc Nursing admission?", a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards." },

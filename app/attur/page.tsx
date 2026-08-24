@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Attur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 90-100 km away via Salem and NH-544. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~95km", label: "FROM ATTUR" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Attur is a busy agricultural market town in eastern Salem district, on the Salem-Chennai road, known for its sago (tapioca) processing belt and weekly trade. Learners from Attur and surrounding blocks usually look towards Salem city for professional education — but seats and hostel options there fill up fast every admission season.",
     "For nursing aspirants from Attur, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 90-100 km away, roughly 2.5 hours via Salem and NH-544. The distance makes it a residential-campus choice, with trips home comfortably possible on longer weekends and holidays.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Most Attur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Attur learners can build a global nursing career while staying rooted in the Salem belt.",
+    "Most Attur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Attur learners can build a global nursing career while staying rooted in the Salem belt.",
   ],
   whyHeading: "Why Attur Learners Choose JKKN",
   whyIntro:

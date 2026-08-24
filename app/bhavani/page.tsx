@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Bhavani? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is just across the Cauvery bridge in Komarapalayam — around 5 km from Bhavani town. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes, minutes from home.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~5km", label: "FROM BHAVANI" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,11 +22,11 @@ const config: CityPageConfig = {
     "Bhavani is a historic temple town in Erode district, famous for the Sangameshwarar Temple at the confluence of the Cauvery and Bhavani rivers, and for its traditional jamakkalam (carpet) weaving industry. It is directly connected to Komarapalayam by the Cauvery bridge, making the two towns everyday neighbours.",
     "That connection matters for nursing aspirants: JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) sits just across the river in Komarapalayam on NH-544 — roughly 5 km from Bhavani town. For learners looking for a nursing college near Bhavani, this is effectively a home-town campus with a 10-15 minute commute.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year of the programme.",
-    "Because the campus is so close, most Bhavani learners study as day scholars and save the full cost of hostel and mess fees — though secure separate hostels for boys and girls are available for those who prefer to stay on campus. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Bhavani learners can start a global nursing career from right next door.",
+    "Because the campus is so close, most Bhavani learners study as day scholars and save the full cost of hostel and mess fees — though secure separate hostels for boys and girls are available for those who prefer to stay on campus. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Bhavani learners can start a global nursing career from right next door.",
   ],
   whyHeading: "Why Bhavani Learners Choose JKKN — The Closest Nursing College",
   whyIntro:
-    "For Bhavani learners, JKKN College of Nursing is the nearest INC-approved, NAAC-accredited nursing institute — just across the Cauvery bridge in Komarapalayam, about 5 km away. Day-scholar friendly, hospital-attached, with 90%+ placement support.",
+    "For Bhavani learners, JKKN College of Nursing is the nearest INC-approved, NAAC-accredited nursing institute — just across the Cauvery bridge in Komarapalayam, about 5 km away. Day-scholar friendly, hospital-attached, with 95% placement rate.",
   commuteDesc:
     "Just ~5 km from Bhavani across the Cauvery bridge — a 10-15 minute commute makes day-scholar study easy.",
   programmesHeading: "Nursing Courses Available for Bhavani Learners",

@@ -3,11 +3,11 @@
 export const metadata: Metadata = {
   title: "Nursing College in Namakkal — JKKN College of Nursing",
   description:
-    "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 98%+ placement.",
+    "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 95% placement.",
   openGraph: {
     title: "Nursing College in Namakkal — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 98%+ placement.",
+      "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 95% placement.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/namakkal",
     siteName: "JKKN College of Nursing",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nursing College in Namakkal — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 98%+ placement.",
+      "JKKN College of Nursing in Komarapalayam, Namakkal district. INC-approved B.Sc & M.Sc Nursing. 95% placement.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

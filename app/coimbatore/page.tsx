@@ -134,7 +134,7 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "90%+", label: "PLACEMENT RATE" },
+  { value: "95%", label: "PLACEMENT RATE" },
   { value: "6-8", label: "LPA HIGHEST" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
@@ -226,7 +226,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Nursing College in Coimbatore | B.Sc Nursing Near Coimbatore — JKKN",
     description:
-      "Looking for the best nursing college in Coimbatore? JKKN College of Nursing offers INC approved, NAAC accredited nursing programmes. 90%+ placements.",
+      "Looking for the best nursing college in Coimbatore? JKKN College of Nursing offers INC approved, NAAC accredited nursing programmes. 95% placements.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -317,14 +317,14 @@ export default function CoimbatorePage() {
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
               Searching for the best nursing college in Coimbatore? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
-              programmes — 100-110 km from Coimbatore with 90%+ placement support and
+              programmes — 100-110 km from Coimbatore with 95% placement rate and
               hostel facilities.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "90%+", label: "PLACEMENTS" },
+                { value: "95%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "105km", label: "FROM COIMBATORE" },
                 { value: "3", label: "PROGRAMMES" },
@@ -471,7 +471,7 @@ export default function CoimbatorePage() {
                 </div>
               </div>
               <p>
-                Coimbatore learners at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 90%+ placement support and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is a top choice for Coimbatore families seeking the <strong>best nursing college in Coimbatore</strong> region.
+                Coimbatore learners at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 95% placement rate and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is a top choice for Coimbatore families seeking the <strong>best nursing college in Coimbatore</strong> region.
               </p>
             </div>
           </div>
@@ -486,7 +486,7 @@ export default function CoimbatorePage() {
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 Among the best nursing colleges in Coimbatore region, JKKN stands out with
-                INC approval, NAAC accreditation, and 90%+ placement support. Coimbatore
+                INC approval, NAAC accreditation, and 95% placement rate. Coimbatore
                 nursing college seekers find JKKN ideal for its attached teaching hospital,
                 international placement record, and secure hostel facilities for outstation
                 learners.
@@ -736,7 +736,7 @@ export default function CoimbatorePage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">90%+</div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">95%</div>
                 <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>

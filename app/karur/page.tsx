@@ -8,7 +8,7 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Karur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 75-85 km away via Namakkal or Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
-    { value: "90%+", label: "PLACEMENTS" },
+    { value: "95%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
     { value: "~80km", label: "FROM KARUR" },
     { value: "3", label: "PROGRAMMES" },
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Karur is a well-known commercial town on the banks of the Amaravathi river, famous for its home-textile export industry, bus-body building works, and as the birthplace of major banking institutions. Learners from Karur district regularly pursue professional healthcare education in Trichy, Erode and Salem belts.",
     "For nursing aspirants from Karur, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an accessible hostel-based option — about 75-85 km away, roughly 2 hours via the Namakkal-Tiruchengode route or via Erode. That distance keeps weekend trips home practical while giving learners a residential campus experience.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Most Karur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 90%+ placement support and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Karur learners can launch a global nursing career about two hours from home.",
+    "Most Karur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 95% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Karur learners can launch a global nursing career about two hours from home.",
   ],
   whyHeading: "Why Karur Learners Choose JKKN",
   whyIntro:

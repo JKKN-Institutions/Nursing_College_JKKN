@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   description:
-    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 97% placement.",
+    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 95% placement.",
   keywords:
     "nursing admission 2026, bsc nursing admission tamil nadu, msc nursing admission, nursing college admission komarapalayam, JKKN nursing admission, nursing entrance exam",
   openGraph: {
     title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
     description:
-      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 97% placement, international opportunities.",
+      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 95% placement, international opportunities.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
     description:
-      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 97% placement.",
+      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 95% placement.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
