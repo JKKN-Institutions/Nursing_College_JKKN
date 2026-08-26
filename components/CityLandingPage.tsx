@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
@@ -71,8 +72,8 @@ const programmes = [
     title: "B.Sc Nursing",
     duration: "4 years",
     level: "UG",
-    intake: "100 seats",
-    eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
+    intake: "60 seats",
+    eligibility: "10+2 with Physics, Chemistry, Biology; no NEET required",
     href: "/bsc-nursing",
   },
   {
@@ -80,7 +81,7 @@ const programmes = [
     title: "M.Sc Nursing",
     duration: "2 years",
     level: "PG",
-    intake: "30 seats",
+    intake: "25 seats",
     eligibility: "B.Sc Nursing degree",
     href: "/msc-nursing",
   },
@@ -534,6 +535,8 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
             </div>
           </div>
         </section>
+
+        <CityFeesEligibility cityName={config.cityName} />
 
         {/* ── Placement Highlights ──────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">

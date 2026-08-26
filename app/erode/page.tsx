@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
@@ -38,7 +39,7 @@ const faqs = [
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
-    a: "B.Sc Nursing admissions in Tamil Nadu are typically through NEET counselling. Contact the admission office for the latest admission requirements for the current academic year.",
+    a: "No, NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee. Contact the admission office for the current year's dates.",
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
@@ -62,7 +63,7 @@ const faqs = [
   },
   {
     q: "What nursing courses are available near Erode?",
-    a: "JKKN College of Nursing near Erode offers B.Sc Nursing (4 years, 100 seats), M.Sc Nursing (2 years, 30 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing near Erode offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for B.Sc Nursing near Erode?",
@@ -109,8 +110,8 @@ const programmes = [
     title: "B.Sc Nursing",
     duration: "4 years",
     level: "UG",
-    intake: "100 seats",
-    eligibility: "10+2 with Physics, Chemistry, Biology; NEET qualified",
+    intake: "60 seats",
+    eligibility: "10+2 with Physics, Chemistry, Biology; no NEET required",
     href: "/bsc-nursing",
   },
   {
@@ -118,7 +119,7 @@ const programmes = [
     title: "M.Sc Nursing",
     duration: "2 years",
     level: "PG",
-    intake: "30 seats",
+    intake: "25 seats",
     eligibility: "B.Sc Nursing degree",
     href: "/msc-nursing",
   },
@@ -582,6 +583,8 @@ export default function ErodePage() {
             </div>
           </div>
         </section>
+
+        <CityFeesEligibility cityName="Erode" />
 
         {/* ── Placement Highlights ──────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">

@@ -51,19 +51,19 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ageLimit: "Minimum 17 years as on 31st December 2026 · Upper limit 35 years",
     eligibility: [
       "Passed 10+2 (HSC) with Physics, Chemistry, Biology and English",
-      "Minimum 45% aggregate in PCB (40% for SC/ST/OBC categories)",
-      "NEET-UG qualified (mandatory as per INC & TNMGRMU regulations)",
+      "Minimum 45% aggregate in PCB (40% for BC/BCM/MBC & DNC and SC/SCA/ST)",
+      "No NEET requirement — merit is built from the 10+2 marks",
       "Medical fitness — physically fit and free from communicable diseases",
       "Indian National (NRI / Foreign nationals via supernumerary quota)",
     ],
     entranceExam:
-      "NEET-UG 2026 (National Eligibility cum Entrance Test – Undergraduate). Conducted by NTA in May 2026.",
+      "None. There is no entrance exam for B.Sc Nursing in Tamil Nadu - the merit list is built from the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200.",
     reservation:
       "As per Tamil Nadu government reservation policy — BC, MBC, SC, ST, and other categories.",
     process: [
-      { title: "Check Eligibility", desc: "Verify your 10+2 PCB marks and NEET-UG qualification status." },
+      { title: "Check Eligibility", desc: "Verify your 10+2 PCB marks against the minimum aggregate for your category." },
       { title: "Apply Online", desc: "Fill the application form at jkkn.ai/apply/jkkn-admission-2026 with academic and personal details." },
-      { title: "Submit Documents", desc: "Upload scanned copies of marksheets, NEET scorecard, photo and ID proof." },
+      { title: "Submit Documents", desc: "Upload scanned copies of marksheets, photo and ID proof." },
       { title: "Counselling Call", desc: "Attend the counselling session — Government Quota (state merit) or Management Quota (institutional)." },
       { title: "Document Verification", desc: "Carry originals for verification at the JKKN admissions office on the allotted date." },
       { title: "Fee Payment & Joining", desc: "Pay the prescribed fee, receive your admission letter, and report on the joining date." },
@@ -71,7 +71,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     documents: [
       "10th Standard (SSLC) Mark Sheet — Original + 3 copies",
       "12th Standard (HSC) Mark Sheet — Original + 3 copies",
-      "NEET-UG 2026 Score Card & Admit Card",
+      
       "Transfer Certificate (TC) from last institution",
       "Migration Certificate (if applicable)",
       "Community Certificate (BC/MBC/SC/ST — if applicable)",
@@ -83,7 +83,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     dates: [
       { label: "Application Opens", date: "March 2026" },
-      { label: "NEET-UG Exam", date: "May 2026" },
+      
       { label: "Application Deadline", date: "July 2026 (tentative)" },
       { label: "Counselling Begins", date: "July – August 2026" },
       { label: "Classes Commence", date: "September 2026" },
@@ -101,11 +101,11 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { title: "95% Placement Track Record", desc: "Consistent placements at top corporate hospitals across India and abroad." },
     ],
     faqs: [
-      { q: "Is NEET mandatory for B.Sc Nursing admission?", a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards." },
+      { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },
       { q: "What is the B.Sc Nursing fee structure at JKKN?", a: "Management Quota annual tuition is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, examination, and uniform charges are billed separately." },
-      { q: "What is the eligibility for B.Sc Nursing?", a: "Candidates must have passed 10+2 with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year." },
-      { q: "How many B.Sc Nursing seats are available at JKKN?", a: "60 seats are available for B.Sc Nursing — split across Government Quota (filled via TN state counselling) and Management Quota (filled directly by the institution based on NEET merit)." },
-      { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling based on NEET merit, with fees as per Govt norms. Management Quota (MQ) seats are filled directly by JKKN based on NEET score and academic merit, with institutional fee structure." },
+      { q: "What is the eligibility for B.Sc Nursing?", a: "Candidates must have passed 10+2 with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for BC/BCM/MBC & DNC and SC/SCA/ST). NEET is NOT required. Applicants must have completed 17 years of age as on 31st December of the admission year." },
+      { q: "How many B.Sc Nursing seats are available at JKKN?", a: "60 seats are available for B.Sc Nursing — split across Government Quota (filled via TN state counselling) and Management Quota (filled directly by the institution on academic merit)." },
+      { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling on a merit list built from 10+2 marks, with fees as per Govt norms. Management Quota (MQ) seats are filled directly by JKKN on academic merit, with institutional fee structure." },
       { q: "Does JKKN offer hostel for B.Sc Nursing learners?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
       { q: "What career options are available after B.Sc Nursing?", a: "Graduates can work as Staff Nurses in corporate hospitals, Government Staff Nurses via TN MRB/AIIMS/ESIC, ICU/Critical Care specialists, pursue M.Sc Nursing, or take international roles in UK (NHS), UAE, Saudi Arabia, Singapore, Australia after the relevant licensure exam." },
       { q: "When do B.Sc Nursing classes begin?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July–August 2026. Exact dates are subject to TNMGRMU and government notifications." },

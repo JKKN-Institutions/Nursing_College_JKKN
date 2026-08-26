@@ -110,7 +110,7 @@ export default function BScNursing() {
                   "name": "What are the eligibility criteria for B.Sc Nursing?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age should be between 17-35 years. A valid NEET-UG score is required."
+                    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Candidates must have completed 17 years of age as on 31st December of the admission year. NEET is NOT required - Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200."
                   }
                 },
                 {

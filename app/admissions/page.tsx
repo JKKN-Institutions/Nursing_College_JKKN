@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Admissions 2026 | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
-  description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research. NEET-based admission. INC approved. Scholarships available.",
+  description: "Apply for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research. Merit-based admission. INC approved. Scholarships available.",
 };
 
 // DEP-12, 2026-08-07: moved here from app/admissions/layout.tsx. In the layout these
@@ -51,7 +51,7 @@ const admissionHowToSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "Document Verification",
-      text: "Submit original documents including mark sheets, NEET score card, certificates for verification.",
+      text: "Submit original documents including mark sheets and certificates for verification.",
     },
     {
       "@type": "HowToStep",
@@ -263,7 +263,7 @@ export default function Admissions() {
                 {
                   step: 3,
                   title: "Document Verification",
-                  desc: "Submit original mark sheets, NEET score card, transfer certificate, and other required documents for verification.",
+                  desc: "Submit original mark sheets, transfer certificate, and other required documents for verification.",
                 },
                 {
                   step: 4,
@@ -341,7 +341,7 @@ export default function Admissions() {
                     <td className="px-5 py-4 font-bold text-[#0b7845] whitespace-nowrap">B.Sc Nursing</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">4 Years</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">60</td>
-                    <td className="px-5 py-4 text-gray-700">10+2 with PCB, min 45%, NEET-UG qualified</td>
+                    <td className="px-5 py-4 text-gray-700">10+2 with PCB, min 45% (40% BC/MBC/SC/ST)</td>
                     <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹1,50,000 (F) / ₹1,75,000 (M)</td>
                   </tr>
                   <tr className="bg-[#f9fef9] hover:bg-[#f0faf3] transition-colors">
@@ -392,7 +392,7 @@ export default function Admissions() {
               <ul className="space-y-3">
                 {[
                   { doc: "10th & 12th Mark Sheets", note: "Original + 3 attested copies" },
-                  { doc: "NEET-UG Score Card", note: "For B.Sc Nursing applicants" },
+                  
                   { doc: "Transfer Certificate & Migration Certificate", note: "" },
                   { doc: "Community Certificate", note: "If applicable (BC/MBC/SC/ST)" },
                   { doc: "Aadhaar Card", note: "Self-attested photocopy" },
@@ -434,7 +434,7 @@ export default function Admissions() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
               {[
                 { icon: "📋", label: "Application Opens", date: "March 2026", color: "bg-[#e8f5e9]", border: "border-[#7cb983]" },
-                { icon: "📝", label: "NEET-UG Exam", date: "May 2026", color: "bg-[#fff8e1]", border: "border-yellow-400" },
+                
                 { icon: "🏛️", label: "Counselling Begins", date: "July 2026", color: "bg-[#e3f2fd]", border: "border-blue-300" },
                 { icon: "🎓", label: "Classes Commence", date: "September 2026", color: "bg-[#fce4ec]", border: "border-pink-300" },
               ].map(({ icon, label, date, color, border }) => (
@@ -478,7 +478,7 @@ export default function Admissions() {
                 {
                   icon: "🥇",
                   title: "Merit-Based Concessions",
-                  desc: "Fee concessions awarded to academically outstanding learners based on 10+2 and NEET performance.",
+                  desc: "Fee concessions awarded to academically outstanding learners based on 10+2 performance.",
                 },
                 {
                   icon: "💳",
@@ -624,11 +624,11 @@ export default function Admissions() {
               {[
                 {
                   q: "What is the eligibility criteria for B.Sc Nursing at JKKN?",
-                  a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year.",
+                  a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for BC/BCM/MBC & DNC and SC/SCA/ST). NEET is NOT required. Applicants must have completed 17 years of age as on 31st December of the admission year.",
                 },
                 {
-                  q: "Is NEET mandatory for B.Sc Nursing admission?",
-                  a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards.",
+                  q: "Is NEET required for B.Sc Nursing admission?",
+                  a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session.",
                 },
                 {
                   q: "What is the eligibility for M.Sc Nursing?",
@@ -644,7 +644,7 @@ export default function Admissions() {
                 },
                 {
                   q: "What is the admission process — Government Quota vs Management Quota?",
-                  a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances.",
+                  a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling on a merit list built from 10+2 marks. Management Quota (MQ) seats are filled directly by the institution on academic merit. Apply through both routes to maximize your chances.",
                 },
                 {
                   q: "Are scholarships available for nursing learners?",
@@ -656,7 +656,7 @@ export default function Admissions() {
                 },
                 {
                   q: "What documents are required at the time of admission?",
-                  a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration.",
+                  a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration.",
                 },
                 {
                   q: "What is the placement rate at JKKN College of Nursing?",
@@ -707,15 +707,15 @@ export default function Admissions() {
                 "@context": "https://schema.org",
                 "@type": "FAQPage",
                 "mainEntity": [
-                  { q: "What is the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for SC/ST/OBC). Applicants must also be NEET-UG qualified and at least 17 years old as on 31st December of the admission year." },
-                  { q: "Is NEET mandatory for B.Sc Nursing admission?", a: "Yes. As per Indian Nursing Council (INC) and Tamil Nadu Dr. M.G.R. Medical University regulations, NEET-UG qualification is mandatory for admission to B.Sc Nursing in Tamil Nadu from the 2025-26 academic year onwards." },
+                  { q: "What is the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for BC/BCM/MBC & DNC and SC/SCA/ST). NEET is NOT required. Applicants must have completed 17 years of age as on 31st December of the admission year." },
+                  { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },
                   { q: "What is the eligibility for M.Sc Nursing?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
                   { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately." },
                   { q: "How can I apply for admission to JKKN College of Nursing?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
-                  { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling based on NEET merit. Management Quota (MQ) seats are filled directly by the institution based on NEET score and academic merit. Apply through both routes to maximize your chances." },
+                  { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling on a merit list built from 10+2 marks. Management Quota (MQ) seats are filled directly by the institution on academic merit. Apply through both routes to maximize your chances." },
                   { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
-                  { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, NEET-UG score card, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
+                  { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
                   { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 95% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
                   { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },

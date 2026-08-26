@@ -9,16 +9,16 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 const course = coursesAdmission.bsc;
 
 export const metadata: Metadata = {
-  title: "B.Sc Nursing Admission 2026-27 — NEET, Fees, Seats | JKKN",
+  title: "B.Sc Nursing Admission 2026-27 — Fees, Seats, Eligibility | JKKN",
   description:
-    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited, NEET-UG required. Eligibility, fees and dates — apply online.",
+    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited, no NEET required. Eligibility, fees and dates — apply online.",
   keywords:
-    "B.Sc Nursing admission 2026, BSc Nursing JKKN, NEET nursing admission, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
+    "B.Sc Nursing admission 2026, BSc Nursing JKKN, BSc nursing without NEET, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
   alternates: { canonical: `${SITE_URL}/admissions/bsc-nursing` },
   openGraph: {
     title: "B.Sc Nursing Admission 2026-27 — JKKN College of Nursing",
     description:
-      "4-year B.Sc Nursing program. NEET-UG required. Complete admission details — eligibility, fees, seats, documents, dates, and process.",
+      "4-year B.Sc Nursing program. No NEET required. Complete admission details — eligibility, fees, seats, documents, dates, and process.",
     url: `${SITE_URL}/admissions/bsc-nursing`,
     type: "website",
   },
