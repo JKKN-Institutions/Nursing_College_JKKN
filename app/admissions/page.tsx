@@ -354,7 +354,11 @@ export default function Admissions() {
                   <tr className="bg-white hover:bg-[#f0faf3] transition-colors">
                     <td className="px-5 py-4 font-bold text-[#0b7845]">Post Basic B.Sc Nursing</td>
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">2 Years</td>
-                    <td className="px-5 py-4 text-gray-700 whitespace-nowrap">30</td>
+                    {/* 50, not 30. config/facts-master.csv, Verified=Y. This cell survived the
+                        N-06 seat sweep because that pass matched explicit strings like
+                        "30 seats", and a bare <td>30</td> carries no unit to match on. It was
+                        the last one left in the repo. */}
+                    <td className="px-5 py-4 text-gray-700 whitespace-nowrap">50</td>
                     <td className="px-5 py-4 text-gray-700">GNM Diploma + RN registration, min 1 year experience</td>
                     <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹65,000</td>
                   </tr>
@@ -372,6 +376,62 @@ export default function Admissions() {
               </Link>{" "}
               for complete details.
             </p>
+
+            {/* N-07, 2026-08-26. This hub had NO link to any of its three course pages - the one
+                job a hub exists to do. Measured that day: /admissions has ZERO GSC impressions
+                in 90 days while its children carry 136,037, 48,674 and 29,072. The cause is
+                known and already fixed: from the page's creation on 2026-03-16 until commit
+                7b88e7a on 2026-08-07, app/admissions/layout.tsx carried a WebPage JSON-LD
+                declaring url=/admissions, and a Next.js layout renders on every child route, so
+                all three course pages spent five months telling Google they WERE the parent.
+                The task as written said to build a new hub. That would have been the wrong move:
+                the hub exists, is crawlable, self-canonical, index/follow, 1,370 words, and only
+                17% shingle-overlapped with its strongest child. It was suppressed, not absent.
+                Routing down to the children is what makes it a hub rather than a second
+                how-to-apply page - and it is the recrawl signal that recovery needs. */}
+            <div className="mt-10">
+              <h3 className="text-lg sm:text-xl font-bold text-[#0b7845] mb-2 text-center">
+                Which programme is right for you?
+              </h3>
+              <p className="text-gray-600 text-sm text-center mb-6 max-w-2xl mx-auto">
+                Your last qualification decides which one you can enter
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {[
+                  {
+                    href: "/admissions/bsc-nursing",
+                    title: "B.Sc Nursing",
+                    when: "You have finished 10+2 with Physics, Chemistry and Biology",
+                    meta: "4 years · 60 seats · no entrance exam",
+                  },
+                  {
+                    href: "/admissions/pbsc-nursing",
+                    title: "Post Basic B.Sc Nursing",
+                    when: "You already hold a GNM diploma and RN registration",
+                    meta: "2 years · 50 seats · degree completion",
+                  },
+                  {
+                    href: "/admissions/msc-nursing",
+                    title: "M.Sc Nursing",
+                    when: "You already hold a B.Sc Nursing degree",
+                    meta: "2 years · 25 seats · five specialisations",
+                  },
+                ].map((c) => (
+                  <Link
+                    key={c.href}
+                    href={c.href}
+                    className="block rounded-xl border border-[#d4eadb] bg-white p-5 hover:border-[#006837] hover:shadow-md transition-all"
+                  >
+                    <div className="font-bold text-[#0b7845] mb-2">{c.title}</div>
+                    <p className="text-sm text-gray-600 mb-3">{c.when}</p>
+                    <div className="text-xs text-gray-500">{c.meta}</div>
+                    <div className="mt-3 text-sm font-semibold text-[#006837]">
+                      Admission details &rarr;
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         </section>
 
