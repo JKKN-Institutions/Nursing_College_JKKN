@@ -158,7 +158,7 @@ export default function MScNursing() {
         "name": "What is the M.Sc Nursing fees at JKKN College of Nursing?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious learners. Contact +91 93458 55001 for exact fee details."
+          "text": "M.Sc Nursing fees at JKKN depend on the specialisation, per year: Medical-Surgical Nursing ₹1,00,000, Obstetrics & Gynaecological Nursing ₹80,000, and Psychiatric / Mental Health, Child Health (Paediatric) and Community Health Nursing ₹75,000 each. Government Quota and Management Quota are charged at the same rate. Hostel, mess and exam fees are additional. Call +91 93458 55001 to confirm before you apply."
         }
       },
       {
@@ -869,8 +869,8 @@ export default function MScNursing() {
                     <tbody className="divide-y divide-gray-200">
                       <tr>
                         <td className="px-6 py-4 font-medium text-gray-800">Tuition Fee</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹1,25,000</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹1,25,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">₹75,000 – ₹1,00,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">₹75,000 – ₹1,00,000</td>
                       </tr>
                       <tr className="bg-white">
                         <td className="px-6 py-4 font-medium text-gray-800">Hostel & Mess (Optional)</td>
@@ -884,8 +884,8 @@ export default function MScNursing() {
                       </tr>
                       <tr className="bg-[#006837]/5">
                         <td className="px-6 py-4 font-bold text-[#006837]">Total (Approx.)</td>
-                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,85,000</td>
-                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,85,000</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,35,000 – ₹1,60,000</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,35,000 – ₹1,60,000</td>
                       </tr>
                     </tbody>
                   </table>
@@ -1794,7 +1794,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    {/* [DATA NEEDED] */}The approximate M.Sc Nursing tuition fee at JKKN is ₹1,25,000 per year. Hostel, mess, and exam fees are additional. Scholarships are available for meritorious learners. Contact +91 93458 55001 for exact fee details.
+                    M.Sc Nursing fees at JKKN depend on the specialisation, per year: Medical-Surgical Nursing ₹1,00,000, Obstetrics & Gynaecological Nursing ₹80,000, and Psychiatric / Mental Health, Child Health (Paediatric) and Community Health Nursing ₹75,000 each. Government Quota and Management Quota are charged at the same rate. Hostel, mess and exam fees are additional. Call +91 93458 55001 to confirm before you apply.
                   </p>
                 </details>
 

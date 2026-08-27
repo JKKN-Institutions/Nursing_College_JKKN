@@ -192,7 +192,7 @@ const howToSchema = {
     {
       "@type": "HowToStep",
       name: "Fee Payment",
-      text: "Pay the prescribed admission fee of ₹95,000 per year to confirm your seat. Education loan assistance is available from partner banks.",
+      text: "Pay the prescribed annual fee to confirm your seat - ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate. Education loan assistance is available from partner banks.",
     },
     {
       "@type": "HowToStep",

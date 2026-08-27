@@ -1034,33 +1034,13 @@ export default function MScChildHealthNursing() {
                     <th className="px-6 py-4 text-right text-lg font-semibold">Year 2</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 text-gray-700">Tuition Fee</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹1,00,000</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹1,00,000</td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 text-gray-700">Laboratory Fee</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹15,000</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹15,000</td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 text-gray-700">Library & E-Resources</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹10,000</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹10,000</td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 text-gray-700">Development Fee</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹5,000</td>
-                    <td className="px-6 py-4 text-right font-semibold text-[#002309]">₹5,000</td>
-                  </tr>
-                  <tr className="bg-gray-100 font-bold">
-                    <td className="px-6 py-4 text-[#002309] text-lg">Total Annual Fee</td>
-                    <td className="px-6 py-4 text-right text-[#7cb983] text-lg">₹1,30,000</td>
-                    <td className="px-6 py-4 text-right text-[#7cb983] text-lg">₹1,30,000</td>
-                  </tr>
-                </tbody>
+                <tbody>
+                    <tr className="bg-[#7cb983]/10 border-b-2 border-[#7cb983]">
+                      <td className="px-6 py-4 text-[#002309] text-lg">Annual Fee (Government &amp; Management Quota)</td>
+                      <td className="px-6 py-4 text-right text-[#7cb983] text-lg">₹75,000</td>
+                      <td className="px-6 py-4 text-right text-[#7cb983] text-lg">₹75,000</td>
+                    </tr>
+                  </tbody>
               </table>
             </div>
 

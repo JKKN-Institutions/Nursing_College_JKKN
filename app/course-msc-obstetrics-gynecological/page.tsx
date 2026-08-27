@@ -1303,40 +1303,10 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 {/* Table Rows */}
                 <div className="divide-y divide-gray-200">
-                  <div className="grid grid-cols-3 gap-4 p-6 hover:bg-gray-50 transition-colors">
-                    <div className="text-gray-700">Tuition Fee</div>
-                    <div className="text-[#006837] font-semibold text-center">₹85,000</div>
-                    <div className="text-[#006837] font-semibold text-center">₹85,000</div>
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-4 p-6 hover:bg-gray-50 transition-colors">
-                    <div className="text-gray-700">University Fee</div>
-                    <div className="text-[#006837] font-semibold text-center">₹15,000</div>
-                    <div className="text-[#006837] font-semibold text-center">₹15,000</div>
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-4 p-6 hover:bg-gray-50 transition-colors">
-                    <div className="text-gray-700">Laboratory & Library Fee</div>
-                    <div className="text-[#006837] font-semibold text-center">₹10,000</div>
-                    <div className="text-[#006837] font-semibold text-center">₹10,000</div>
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-4 p-6 hover:bg-gray-50 transition-colors">
-                    <div className="text-gray-700">Clinical Training Fee</div>
-                    <div className="text-[#006837] font-semibold text-center">₹15,000</div>
-                    <div className="text-[#006837] font-semibold text-center">₹15,000</div>
-                  </div>
-
-                  <div className="grid grid-cols-3 gap-4 p-6 hover:bg-gray-50 transition-colors">
-                    <div className="text-gray-700">Development Fee</div>
-                    <div className="text-[#006837] font-semibold text-center">₹5,000</div>
-                    <div className="text-[#006837] font-semibold text-center">₹5,000</div>
-                  </div>
-
                   <div className="grid grid-cols-3 gap-4 p-6 bg-gray-100">
-                    <div className="text-gray-900 font-bold">Total Annual Fee</div>
-                    <div className="text-[#006837] font-bold text-center">₹1,30,000</div>
-                    <div className="text-[#006837] font-bold text-center">₹1,30,000</div>
+                    <div className="text-gray-900 font-bold">Annual Fee (Government &amp; Management Quota)</div>
+                    <div className="text-[#006837] font-bold text-center">₹80,000</div>
+                    <div className="text-[#006837] font-bold text-center">₹80,000</div>
                   </div>
                 </div>
               </div>

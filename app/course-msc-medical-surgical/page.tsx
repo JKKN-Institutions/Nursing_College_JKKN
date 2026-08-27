@@ -1354,69 +1354,10 @@ export default function MScMedicalSurgicalNursing() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b border-gray-200">
-                      <td className="px-6 py-4 text-gray-700">Tuition Fee</td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹85,000
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹85,000
-                      </td>
-                    </tr>
-                    <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                      <td className="px-6 py-4 text-gray-700">
-                        University Fee
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹15,000
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹15,000
-                      </td>
-                    </tr>
-                    <tr className="border-b border-gray-200">
-                      <td className="px-6 py-4 text-gray-700">
-                        Laboratory & Library Fee
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹10,000
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹10,000
-                      </td>
-                    </tr>
-                    <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                      <td className="px-6 py-4 text-gray-700">
-                        Clinical Training Fee
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹15,000
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹15,000
-                      </td>
-                    </tr>
-                    <tr className="border-b border-gray-200">
-                      <td className="px-6 py-4 text-gray-700">
-                        Development Fee
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹5,000
-                      </td>
-                      <td className="px-6 py-4 font-semibold text-[#7cb983]">
-                        ₹5,000
-                      </td>
-                    </tr>
                     <tr className="bg-[#7cb983]/10 border-b-2 border-[#7cb983]">
-                      <td className="px-6 py-4 font-bold text-[#002309]">
-                        Total Annual Fee
-                      </td>
-                      <td className="px-6 py-4 font-bold text-[#7cb983] text-lg">
-                        ₹1,30,000
-                      </td>
-                      <td className="px-6 py-4 font-bold text-[#7cb983] text-lg">
-                        ₹1,30,000
-                      </td>
+                      <td className="px-6 py-4 font-bold text-[#002309]">Annual Fee (Government &amp; Management Quota)</td>
+                      <td className="px-6 py-4 font-bold text-[#7cb983] text-lg">₹1,00,000</td>
+                      <td className="px-6 py-4 font-bold text-[#7cb983] text-lg">₹1,00,000</td>
                     </tr>
                   </tbody>
                 </table>
