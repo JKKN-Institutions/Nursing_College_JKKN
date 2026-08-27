@@ -1,110 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Rebuilt 2026-08-27. The previous file listed 18 URLs; 17 returned 404 and the 18th was
+     /blog itself, so it advertised ZERO real posts. Every URL below was fetched live and
+     returned 200 on 2026-08-27, and lastmod is the datePublished each post declares in its
+     own JSON-LD. This file is STATIC and hand-maintained - there is no generator - so it
+     goes stale silently every time a post is added or removed. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/national-vaccination-day-2</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/post-basic-bsc-nursing-application-form-2026</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/blood-donation-camp</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/post-basic-bsc-nursing-entrance-exam-2026</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/onam-celebration</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/post-basic-bsc-nursing-last-date-and-notification-2026</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/technology-business-incubator-iic</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/rank-list-merit-and-seat-allotment-in-nursing-counselling</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/international-nurses-day-celebration</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/registering-as-a-nurse-the-council-step-after-your-degree</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/mental-health-day-celebration</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/staff-nurse-salary-tamil-nadu-government-private-abroad</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/cpr-training-program-2025</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/the-last-dates-in-the-bsc-nursing-admission-chain</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/pongal-celebration-2025-at-sresakthimayeil-institute-of-nursing-and-research</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/what-a-nursing-tutor-earns-the-teaching-route</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/staff-development-program-on-sciatica</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/lions-club-6th-annual-speech-competition</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/inauguration-ceremony-batch-aruvi-2k25-%E0%AE%85%E0%AE%B0%E0%AF%81%E0%AE%B5%E0%AE%BF</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/workshop-on-business-model-canvas-bmc</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/sresakthimayeil-institute-of-nursing-and-research</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/the-quality-of-education-and-facilities-at-jkkn-college</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/our-distinguished-faculty-members-are-experts-in-their-fields</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/celebrating-the-success-of-world-blood-donor-day-blood-donation-camp</loc>
-    <lastmod>2026-02-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/a-bright-future-in-nursing-the-impact-of-a-degree-from-jkkn-college-of-nursing-and-research</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/when-bsc-nursing-classes-start-the-academic-year</loc>
+    <lastmod>2026-08-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

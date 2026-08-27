@@ -340,7 +340,12 @@ export default async function Home() {
       .select("id, slug, title, description, event_date, event_time, venue, image_url")
       .eq("college_id", collegeId)
       .eq("is_published", true)
-      .order("event_date", { ascending: true });
+      // N-10. Was ascending with NO limit, so the homepage listed every published event
+      // OLDEST FIRST - 14 of them, measured live 2026-08-27, against 24 unique internal
+      // links in total. Newest four instead: the section is headed "Upcoming & Recent
+      // Events", and descending puts genuine future dates at the top as well.
+      .order("event_date", { ascending: false })
+      .limit(4);
     events = dbEvents ?? [];
   } catch {
     // Supabase not configured — proceed with empty events
@@ -692,6 +697,12 @@ export default async function Home() {
                 >
                   Learn More →
                 </Link>
+                <Link
+                  href="/admissions/bsc-nursing"
+                  className="inline-block mt-4 ml-2 border border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 text-sm"
+                >
+                  B.Sc Nursing Admission 2026 →
+                </Link>
               </div>
 
               {/* M.Sc Nursing */}
@@ -728,6 +739,12 @@ export default async function Home() {
                   className="inline-block mt-4 bg-[#006837] hover:bg-[#005028] text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 text-sm"
                 >
                   Learn More →
+                </Link>
+                <Link
+                  href="/admissions/msc-nursing"
+                  className="inline-block mt-4 ml-2 border border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 text-sm"
+                >
+                  M.Sc Nursing Admission 2026 →
                 </Link>
               </div>
 
@@ -766,9 +783,36 @@ export default async function Home() {
                 >
                   Learn More →
                 </Link>
+                <Link
+                  href="/admissions/pbsc-nursing"
+                  className="inline-block mt-4 ml-2 border border-[#006837] text-[#006837] hover:bg-[#006837] hover:text-white font-semibold px-6 py-2 rounded-full transition-all duration-300 text-sm"
+                >
+                  Post Basic B.Sc Admission →
+                </Link>
               </div>
 
 
+            </div>
+
+            {/* N-10. Crawler-visible links to the admission hub and the fee page. Measured
+                2026-08-27: the homepage linked to 24 internal URLs, FOURTEEN of them events,
+                and to none of /admissions, /admissions/*, /fee-structure or any city page.
+                Honest note: inbound-link COUNT does not predict impressions on this site -
+                /admissions/bsc-nursing carries 138,462 impressions on 4 inbound links - so
+                this is added because a homepage should link to its own admission pages, NOT
+                on a measured expectation that it moves rank. */}
+            <div className="mt-10 text-center">
+              <p className="text-gray-700 text-sm mb-4">
+                Applying for 2026-27? Start with the{" "}
+                <Link href="/admissions" className="text-[#006837] font-semibold hover:underline">
+                  nursing admission process
+                </Link>{" "}
+                and the{" "}
+                <Link href="/fee-structure" className="text-[#006837] font-semibold hover:underline">
+                  nursing college fee structure
+                </Link>
+                .
+              </p>
             </div>
           </div>
         </section>
