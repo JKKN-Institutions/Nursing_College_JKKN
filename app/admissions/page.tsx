@@ -796,7 +796,7 @@ export default function Admissions() {
               Secure Your Seat for 2026-27
             </h2>
             <p className="text-white/90 text-base sm:text-lg max-w-xl mx-auto mb-8">
-              Seats are limited. Apply early to ensure your spot at one of Tamil Nadu&apos;s most trusted nursing colleges.
+              Seats are limited. Apply early to ensure your spot at an INC-approved, TNNMC-registered nursing college.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a

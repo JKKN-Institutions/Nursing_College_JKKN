@@ -173,7 +173,7 @@ export default function BScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg course-overview">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing is one of the best BSc Nursing colleges in Tamil Nadu, offering a 4-year INC-approved program affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. 95% placement rate with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹95,000.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 4-year INC-approved BSc Nursing program in Tamil Nadu, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. 95% placement rate with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹95,000.</p>
                 </div>
 
                 {/* Description */}
@@ -260,7 +260,7 @@ export default function BScNursing() {
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  JKKN College of Nursing is one of the <Link href="/" className="text-[#006837] font-semibold hover:underline">best nursing colleges in Tamil Nadu</Link>, offering a comprehensive 4-year undergraduate programme designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 95% placement rate including international opportunities, JKKN provides the strongest foundation for a nursing career.
+                  JKKN College of Nursing runs a comprehensive 4-year undergraduate <Link href="/" className="text-[#006837] font-semibold hover:underline">nursing programme in Tamil Nadu</Link> designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 95% placement rate including international opportunities, JKKN provides a clinical foundation for a nursing career.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
                   Sresakthimayeil Institute Of Nursing And Research follows a progressive education approach that goes beyond textbook learning. Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
@@ -309,7 +309,7 @@ export default function BScNursing() {
                 Why JKKN is Among the Best BSc Nursing Colleges in Tamil Nadu
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                JKKN College of Nursing combines clinical excellence, affordable education, and international career pathways — making it a top choice for BSc Nursing in Tamil Nadu.
+                JKKN College of Nursing combines clinical training in a 500+ bedded teaching hospital, published fees, and international career pathways for BSc Nursing in Tamil Nadu.
               </p>
             </div>
 
@@ -1444,7 +1444,7 @@ export default function BScNursing() {
                 { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based scholarships with up to 75% fee waiver for academically outstanding learners. Government scholarships for SC/ST/OBC and minority learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
                 { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
                 { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
-                { q: "What makes JKKN one of the best BSc Nursing colleges in Tamil Nadu?", a: "JKKN stands out with its 500+ bed teaching hospital providing Year 1 clinical training, 95% placement rate, affordable ₹95,000 annual fees, international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
+                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers a 500+ bed teaching hospital providing Year 1 clinical training, 95% placement rate, affordable ₹95,000 annual fees, international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
               ].map((faq, index) => (
                 <details key={index} className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
                   <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
