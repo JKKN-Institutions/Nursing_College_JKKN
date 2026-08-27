@@ -109,6 +109,14 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "Does JKKN offer hostel for B.Sc Nursing learners?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
       { q: "What career options are available after B.Sc Nursing?", a: "Graduates can work as Staff Nurses in corporate hospitals, Government Staff Nurses via TN MRB/AIIMS/ESIC, ICU/Critical Care specialists, pursue M.Sc Nursing, or take international roles in UK (NHS), UAE, Saudi Arabia, Singapore, Australia after the relevant licensure exam." },
       { q: "When do B.Sc Nursing classes begin?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July–August 2026. Exact dates are subject to TNMGRMU and government notifications." },
+      // N-08, 2026-08-26. People genuinely ask this, and the page had a measurable blind spot:
+      // it wrote "B.Sc" 23 times in visible copy and "BSc" zero times, while GSC shows the
+      // register's searchers overwhelmingly type BSc - 357 keywords carrying 9,087 mobile
+      // impressions, against 26 keywords and 551 impressions for the dotted spelling. The task
+      // had assumed the opposite: that the page targets B.Sc and the variants have nothing to
+      // match. It targets the MINORITY spelling. One honest FAQ carries every form a reader
+      // might type without stuffing them into headings.
+      { q: "Is BSc Nursing the same as B.Sc Nursing?", a: "Yes. BSc Nursing, B.Sc Nursing, B Sc Nursing and BS Nursing all refer to the same four-year Bachelor of Science in Nursing degree. The spelling varies between websites and application forms; the course, the eligibility and the Tamil Nadu Dr. M.G.R. Medical University affiliation are identical. At JKKN it is a four-year programme with 60 seats and no entrance exam." },
     ],
   },
 
@@ -201,6 +209,11 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "Can working nurses join M.Sc Nursing?", a: "Yes. Work experience is actually a prerequisite — minimum 1 year of clinical experience after RN registration is required. In-service quota seats are reserved for nurses working in Tamil Nadu government healthcare." },
       { q: "What is the career scope after M.Sc Nursing?", a: "M.Sc Nursing opens roles such as Nursing Tutor/Lecturer/Professor, Nurse Manager, Specialty Nurse (ICU/NICU/Oncology), Nurse Researcher, international clinical/teaching roles, and pathways to M.Phil and Ph.D in Nursing." },
       { q: "How long is the M.Sc Nursing course?", a: "M.Sc Nursing is a 2-year full-time program (4 semesters) including clinical postings, learning studio teaching, and a research dissertation in the chosen specialization." },
+      // N-08, 2026-08-26. The same spelling inversion measured on the B.Sc page holds here, at
+      // smaller scale: MSc carries 61 register keywords and 1,415 mobile impressions against 4
+      // keywords and 101 impressions for M.Sc. Fixing one course and leaving the other would
+      // have left a known defect live for no reason.
+      { q: "Is MSc Nursing the same as M.Sc Nursing?", a: "Yes. MSc Nursing, M.Sc Nursing and M Sc Nursing all refer to the same two-year Master of Science in Nursing degree. Only the spelling differs between websites and forms. At JKKN it is a two-year postgraduate programme with 25 seats across five specialisations, affiliated to The Tamil Nadu Dr. M.G.R. Medical University." },
     ],
   },
 
