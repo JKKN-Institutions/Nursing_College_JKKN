@@ -200,7 +200,11 @@ export default function CourseAdmissionDetail({ course }: Props) {
                   </div>
                 ))}
               </div>
-              <p className="mt-4 text-xs text-gray-500 italic">Dates are tentative — subject to TNMGRMU & TN Govt notifications.</p>
+              {/* N-11. Was "Dates are tentative" for a table that now carries government-published,
+                  firm dates - the notification, the closing time and the rank list are facts, not
+                  guesses, and calling them tentative told a reader to distrust the one accurate
+                  thing on the page. The volatile rows carry their own observation date instead. */}
+              <p className="mt-4 text-xs text-gray-500 italic">Government-quota dates are set by the Selection Committee, Directorate of Medical Education and Research, Tamil Nadu, and published at tnmedicalselection.net. Management-quota admission at JKKN runs separately.</p>
             </div>
           </div>
         </div>
@@ -298,6 +302,29 @@ export default function CourseAdmissionDetail({ course }: Props) {
             <p className="text-gray-600 max-w-xl mx-auto text-sm sm:text-base">Explore admission details for other courses</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-4xl mx-auto">
+            {/* N-11. The pair link back to this course's OWN course page. Measured 2026-08-27:
+                of the six possible directions between the three admission pages and their three
+                course pages, only ONE existed (/bsc-nursing -> /admissions/bsc-nursing). This
+                single card supplies three of the five missing directions at once, because slug
+                is already "bsc-nursing" / "msc-nursing" / "pbsc-nursing".
+                The two pages serve different intents and MUST NOT be merged: this admission page
+                owns 2,112 GSC queries to the course page's 14, and only 15 in-market queries see
+                both. Honest note - N-10 measured that inbound-link COUNT does not predict
+                impressions on this site, so this is here to serve a reader who wants syllabus
+                and career after reading dates and fees, NOT as a ranking lever. */}
+            <Link
+              href={`/${course.slug}`}
+              className="bg-[#FBFBEE] border border-[#d4eadb] rounded-xl p-6 hover:border-[#7cb983] hover:shadow-md transition-all"
+            >
+              <h3 className="font-bold text-[#0b7845] text-lg mb-2">{course.short} Course, Syllabus and Career</h3>
+              <p className="text-gray-600 text-sm mb-3">What you study, year by year, and where the degree leads →</p>
+              <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-[#006837]">
+                View the course page
+                <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </span>
+            </Link>
             {(["bsc", "msc", "pbsc"] as const)
               .filter((k) => k !== course.key)
               .map((k) => {

@@ -55,6 +55,10 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "No NEET requirement — merit is built from the 10+2 marks",
       "Medical fitness — physically fit and free from communicable diseases",
       "Indian National (NRI / Foreign nationals via supernumerary quota)",
+      // N-05. From the TN DME prospectus G.O. (D) No.657, 03.06.2026. Both matter to a real
+      // applicant and neither was anywhere on the page.
+      "Candidates from boards other than the TN State Board or CBSE need an Eligibility Certificate from The Tamil Nadu Dr. M.G.R. Medical University, Chennai, before joining",
+      "Government application fee Rs 500, which also covers B.Pharm, B.ASLP, B.P.O and the Allied and Healthcare UG courses",
     ],
     entranceExam:
       "None. There is no entrance exam for B.Sc Nursing in Tamil Nadu - the merit list is built from the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200.",
@@ -81,12 +85,26 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "8 Passport-size Photographs (recent, white background)",
       "Medical Fitness Certificate from a registered medical officer",
     ],
+    // N-05 + N-11. EVERY ROW IS FROM A PRIMARY SOURCE, re-checked live 2026-08-27. What was
+    // here was wrong in every row: "March 2026" when the notification was 21 June, "July 2026
+    // (tentative)" for a deadline the government had fixed AND closed, and "Counselling Begins
+    // July - August" when no B.Sc Nursing counselling schedule has been announced at all - the
+    // counselling notices on tnmedicalselection.net today are MBBS/BDS, MDS and DNB only.
+    // Sources: TN DME prospectus G.O. (D) No.657 dated 03.06.2026; tnmedicalselection.net read
+    // live 2026-08-27. NO 2027-28 DATE APPEARS - none has been announced.
+    // A STATUS WITHOUT A DATE GOES FALSE ON ITS OWN. "Published", "Open" and "Not announced"
+    // are all true on 27 Aug 2026 and all become wrong the moment the Selection Committee
+    // moves - which is exactly how the block this replaced ("July 2026 (tentative)") went
+    // wrong. Every volatile row now carries the date it was observed, so it ages into an
+    // old-but-honest reading instead of a false claim.
     dates: [
-      { label: "Application Opens", date: "March 2026" },
-      
-      { label: "Application Deadline", date: "July 2026 (tentative)" },
-      { label: "Counselling Begins", date: "July – August 2026" },
-      { label: "Classes Commence", date: "September 2026" },
+      { label: "Government notification issued", date: "21 June 2026  -  done" },
+      { label: "Online application opened", date: "21 June 2026, 12.01 PM  -  done" },
+      { label: "Last date to upload the application", date: "12 July 2026, 5.00 PM  -  closed (extended from 03 July)" },
+      { label: "Provisional rank list", date: "Published as of 27 Aug 2026 - check your rank at tnmedicalselection.net" },
+      { label: "Missing documents upload", date: "Open as of 27 Aug 2026 - act if your application was flagged" },
+      { label: "Government-quota counselling", date: "Not announced as of 27 Aug 2026 - watch tnmedicalselection.net" },
+      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
     ],
     career: [
       "Staff Nurse — Multi-specialty / Super-specialty hospitals (Apollo, Fortis, Manipal, CMC)",
@@ -174,12 +192,17 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "Medical Fitness Certificate",
       "No-Objection Certificate (NOC) — if currently employed",
     ],
+    // N-11. These are the TYPICAL cycle months, not a confirmed 2026-27 schedule. The official
+    // site publishes no M.Sc Nursing timeline today (checked live 2026-08-27, Courses.aspx?cid=13
+    // returns navigation only), so labelling them as confirmed dates would be inventing them.
+    // They are marked "typical" and the reader is sent to the source instead.
     dates: [
-      { label: "Application Opens", date: "April 2026" },
-      { label: "Entrance Exam", date: "June 2026" },
-      { label: "Results Declaration", date: "July 2026" },
-      { label: "Counselling", date: "August 2026" },
-      { label: "Classes Commence", date: "September – October 2026" },
+      { label: "Application opens", date: "April (typical cycle)" },
+      { label: "Entrance exam", date: "June (typical cycle)" },
+      { label: "Results", date: "July (typical cycle)" },
+      { label: "Counselling", date: "August (typical cycle)" },
+      { label: "Confirmed 2026-27 schedule", date: "Published at tnmedicalselection.net  -  confirm there before you plan" },
+      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
     ],
     specializations: [
       "Medical-Surgical Nursing",
@@ -278,12 +301,16 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "Medical Fitness Certificate",
       "NOC from employer (if currently working)",
     ],
+    // N-11. Same rule as M.Sc above - typical cycle months, not a confirmed schedule. No Post
+    // Basic B.Sc Nursing timeline is published on the official site today (checked live
+    // 2026-08-27, Courses.aspx?cid=9 returns navigation only).
     dates: [
-      { label: "Application Opens", date: "April 2026" },
-      { label: "Application Deadline", date: "July 2026 (tentative)" },
-      { label: "Merit List Published", date: "August 2026" },
-      { label: "Counselling", date: "August 2026" },
-      { label: "Classes Commence", date: "September 2026" },
+      { label: "Application opens", date: "April (typical cycle)" },
+      { label: "Application deadline", date: "July (typical cycle)" },
+      { label: "Merit list", date: "August (typical cycle)" },
+      { label: "Counselling", date: "August (typical cycle)" },
+      { label: "Confirmed 2026-27 schedule", date: "Published at tnmedicalselection.net  -  confirm there before you plan" },
+      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
     ],
     career: [
       "Promotion to senior staff nurse / ward in-charge in current employment",

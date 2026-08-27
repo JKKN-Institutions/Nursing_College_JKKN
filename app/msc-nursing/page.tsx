@@ -527,6 +527,16 @@ export default function MScNursing() {
                 <div className="text-2xl font-bold text-[#006837]">M.Sc Nursing</div>
               </div>
             </div>
+            {/* N-11. The missing half of the pair. Measured 2026-08-27: of the six directions
+                between the three course pages and their three admission pages, only ONE existed.
+                This page is the COURSE page - syllabus, specialisations, career - and the reader
+                who has finished it next wants dates, fees and how to apply. Not a ranking lever;
+                N-10 measured that inbound-link count does not predict impressions here. */}
+            <p className="text-center mt-8">
+              <Link href="/admissions/msc-nursing" className="text-[#006837] font-semibold hover:underline">
+                M.Sc Nursing Admission 2026-27 &mdash; dates, fees, eligibility and how to apply &rarr;
+              </Link>
+            </p>
           </div>
         </section>
 

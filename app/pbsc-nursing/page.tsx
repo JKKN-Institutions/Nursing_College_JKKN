@@ -498,6 +498,16 @@ export default function PBScNursing() {
                   </tr>
                 </tbody>
               </table>
+              {/* N-11. The missing half of the pair. Measured 2026-08-27: of the six directions
+                  between the three course pages and their three admission pages, only ONE
+                  existed. This is the COURSE page; the reader who has compared the two routes
+                  next wants dates, fees and how to apply. Not a ranking lever - N-10 measured
+                  that inbound-link count does not predict impressions on this site. */}
+              <p className="text-center mt-6">
+                <Link href="/admissions/pbsc-nursing" className="text-[#006837] font-semibold hover:underline">
+                  Post Basic B.Sc Nursing Admission 2026-27 &mdash; dates, fees, eligibility and how to apply &rarr;
+                </Link>
+              </p>
             </div>
           </div>
         </section>
