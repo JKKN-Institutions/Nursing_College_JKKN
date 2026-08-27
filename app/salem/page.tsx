@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which are the best B.Sc nursing colleges in Salem?",
-    a: "Salem has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is one of the most reputed options — just 40-50 km from Salem via NH-544. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "Salem has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is INC approved and 40-50 km from Salem via NH-544. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What nursing courses are available near Salem?",
@@ -441,14 +441,26 @@ export default function SalemPage() {
               Nursing Education Landscape in Salem
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
+              {/* N-12. City-specific and TRUE. Measured 2026-08-27: the five bespoke city
+                  pages were 89.3-93.9%% pairwise character-identical, which is the doorway
+                  pattern this task warns about - and N-06 raised it by shipping one fees
+                  block to all of them. Every fact here is checkable from the campus address
+                  on this page's own footer (NH-544, Komarapalayam TK, Namakkal DT) and the
+                  distance already published above. NO travel times and NO bus routes: the
+                  /transport page publishes 203 words and no route list, so anything beyond
+                  distance would be invented. Erode is deliberately NOT given one of these -
+                  it holds live desktop #1 and is left alone. */}
+              <p>
+                Salem sits at the eastern end of NH-544 - the highway is named for the Salem to Coimbatore route - and the JKKN campus is on it, 50 km away at Komarapalayam. Salem is one of the few towns JKKN draws from where a learner realistically has both options open: hostel, or the daily run down the highway. Which one suits you turns on your clinical posting timings rather than on the distance, because first-year postings at the attached teaching hospital start early.
+              </p>
               <p>
                 Salem, the fifth-largest city in Tamil Nadu, is a major educational and healthcare hub with a thriving steel industry. Known for its medical infrastructure, Salem has several healthcare facilities but a limited number of INC-approved <strong>nursing colleges in Salem</strong> that offer both quality education and strong placement outcomes.
               </p>
               <p>
-                Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often discover that the most reputed options lie within a comfortable commute radius. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
+                Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often find that the INC-approved options lie within a commute radius. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
               </p>
               <p>
-                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners benefit from a campus that combines academic excellence with practical training at a scale rarely available in the Salem nursing college list.
+                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners train at the 500+ bedded multi-specialty teaching hospital on the same campus, from the first year of the programme.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">

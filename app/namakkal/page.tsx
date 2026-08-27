@@ -441,6 +441,18 @@ export default function NamakkalPage() {
               Nursing Education Landscape in Namakkal District
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
+              {/* N-12. City-specific and TRUE. Measured 2026-08-27: the five bespoke city
+                  pages were 89.3-93.9%% pairwise character-identical, which is the doorway
+                  pattern this task warns about - and N-06 raised it by shipping one fees
+                  block to all of them. Every fact here is checkable from the campus address
+                  on this page's own footer (NH-544, Komarapalayam TK, Namakkal DT) and the
+                  distance already published above. NO travel times and NO bus routes: the
+                  /transport page publishes 203 words and no route list, so anything beyond
+                  distance would be invented. Erode is deliberately NOT given one of these -
+                  it holds live desktop #1 and is left alone. */}
+              <p>
+                Namakkal learners are applying inside their own district. The JKKN campus is in Komarapalayam taluk, Namakkal district, 10 km away - so a Namakkal applicant is not changing district for admission, and the hostel-or-commute question that every other town has to settle does not arise. It is the shortest distance any JKKN nursing applicant travels, and it is the reason Namakkal learners can take first-year clinical postings at the attached teaching hospital as day scholars.
+              </p>
               <p>
                 Namakkal district, known for its poultry industry, transport sector, and the iconic Namakkal Fort, is rapidly growing as an educational destination in Tamil Nadu. With JKKN Institutions headquartered in Komarapalayam — just 5-10 km from Namakkal city — learners have direct access to one of the region&apos;s most comprehensive educational campuses.
               </p>

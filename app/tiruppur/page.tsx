@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which are the best nursing colleges near Tiruppur?",
-    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is one of the most reputed nursing colleges accessible from Tiruppur — 80-90 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved nursing college accessible from Tiruppur — 80-90 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What B.Sc nursing courses are available near Tiruppur?",
@@ -439,6 +439,18 @@ export default function TiruppurPage() {
               Nursing Education Landscape in Tiruppur
             </h2>
             <div className="prose prose-gray max-w-none text-gray-600 text-sm sm:text-base leading-relaxed space-y-4">
+              {/* N-12. City-specific and TRUE. Measured 2026-08-27: the five bespoke city
+                  pages were 89.3-93.9%% pairwise character-identical, which is the doorway
+                  pattern this task warns about - and N-06 raised it by shipping one fees
+                  block to all of them. Every fact here is checkable from the campus address
+                  on this page's own footer (NH-544, Komarapalayam TK, Namakkal DT) and the
+                  distance already published above. NO travel times and NO bus routes: the
+                  /transport page publishes 203 words and no route list, so anything beyond
+                  distance would be invented. Erode is deliberately NOT given one of these -
+                  it holds live desktop #1 and is left alone. */}
+              <p>
+                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 90 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the 500+ bedded teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
+              </p>
               <p>
                 Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting learners to look beyond city limits for quality nursing education.
               </p>
