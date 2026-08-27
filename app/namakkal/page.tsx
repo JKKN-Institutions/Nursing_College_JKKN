@@ -31,7 +31,7 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college in Namakkal?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 5-10 km from Namakkal on NH-544, is widely regarded as one of the top nursing colleges accessible from Namakkal. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located just 5-10 km from Namakkal on NH-544, is an INC-approved nursing college accessible from Namakkal. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Namakkal?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which is the best nursing college in Namakkal district?",
-    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is one of the top nursing colleges in Namakkal district. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The campus is just 5-10 km from Namakkal city centre.",
+    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved nursing college in Namakkal district. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The campus is just 5-10 km from Namakkal city centre.",
   },
   {
     q: "What nursing courses are offered at JKKN Nursing in Namakkal?",
@@ -448,7 +448,7 @@ export default function NamakkalPage() {
                 For learners looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is the closest INC-approved institution in the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
               </p>
               <p>
-                What makes JKKN the top choice in the <strong>Namakkal nursing college list</strong> is its integrated campus with a 500+ bed multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                What JKKN brings to the <strong>Namakkal nursing college list</strong> is its integrated campus with a 500+ bed multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -482,10 +482,10 @@ export default function NamakkalPage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Namakkal Learners Choose JKKN — Best Nursing College in Namakkal
+                Why Namakkal Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                As the leading nursing college in Namakkal district, JKKN offers INC approval, NAAC accreditation, and 95% placement rate. Located in Komarapalayam — just 5-10 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
+                JKKN offers INC approval, NAAC accreditation, and 95% placement rate. Located in Komarapalayam — just 5-10 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

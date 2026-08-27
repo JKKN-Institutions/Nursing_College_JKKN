@@ -214,6 +214,14 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       // keywords and 101 impressions for M.Sc. Fixing one course and leaving the other would
       // have left a known defect live for no reason.
       { q: "Is MSc Nursing the same as M.Sc Nursing?", a: "Yes. MSc Nursing, M.Sc Nursing and M Sc Nursing all refer to the same two-year Master of Science in Nursing degree. Only the spelling differs between websites and forms. At JKKN it is a two-year postgraduate programme with 25 seats across five specialisations, affiliated to The Tamil Nadu Dr. M.G.R. Medical University." },
+      // N-09. GOAL 6, NOT A LIST PAGE. Five register keywords ask which M.Sc specialisation to
+      // pick - "which subject is best for msc nursing", "msc nursing which course is best",
+      // "which msc nursing is best", "in msc nursing which course is best" - and they sit at GSC
+      // mobile 1.5-2.0, the only distance from #1 that a content edit can actually close. The
+      // honest answer is that there is no single best one, so that is what this says. Naming a
+      // winner would be a claim we cannot source, and it would be wrong for the reader.
+      { q: "Which M.Sc Nursing specialisation is best?", a: "There is no single best specialisation - the right one is the one that matches where you want to work, and all five carry the same M.Sc Nursing degree from The Tamil Nadu Dr. M.G.R. Medical University. Medical-Surgical Nursing is the broadest and leads to ICU, ward and operation-theatre roles. Child Health (Paediatric) Nursing leads to NICU and paediatric wards. Obstetrics & Gynaecological Nursing leads to labour-room and maternity roles. Psychiatric / Mental Health Nursing leads to psychiatric units and counselling roles. Community Health Nursing leads to public-health, government and NGO field roles. JKKN offers all five, with 5 seats in each." },
+      { q: "After M.Sc Nursing, which course is best?", a: "The usual next step after M.Sc Nursing is M.Phil Nursing or a Ph.D in Nursing - that is the qualification most nursing college faculty hold, and a master's degree is the entry requirement for both. Nurses who want to stay clinical instead take specialty certifications such as critical care, oncology or neonatal nursing. Which is better depends on whether you want to teach and research or to practise; the M.Sc degree itself qualifies you for either route." },
     ],
   },
 
@@ -298,6 +306,9 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "After Post Basic B.Sc Nursing, can I do M.Sc Nursing?", a: "Yes. After completing Post Basic B.Sc Nursing, you become eligible for M.Sc Nursing (with the standard 55% + 1 year experience requirement). All 5 M.Sc Nursing specializations are open to P.B.B.Sc graduates." },
       { q: "Can I work and study Post Basic B.Sc Nursing?", a: "Post Basic B.Sc Nursing at JKKN is a regular full-time program with mandatory clinical postings — it is not offered as a part-time/distance course. Working nurses typically take leave or NOC from their employer to attend." },
       { q: "What is the career benefit of Post Basic B.Sc Nursing?", a: "Upgrading from GNM diploma to a B.Sc Nursing degree opens senior staff nurse and ward in-charge promotions, eligibility for government nursing posts requiring graduate qualification, international nursing roles in UK/Australia, and the pathway to M.Sc Nursing." },
+      // N-09. Register keyword "after gnm nursing which course is best", GSC mobile 2.0. Same
+      // rule as the M.Sc one above - answer the question honestly, do not crown a winner.
+      { q: "After GNM, which nursing course is best?", a: "For a GNM diploma holder the standard next step is Post Basic B.Sc Nursing. It is a two-year, four-semester degree that upgrades the diploma to a graduate qualification, and it is the degree that government nursing posts requiring a graduate ask for. Nurses who then want a teaching, research or specialist career continue to M.Sc Nursing, for which Post Basic B.Sc graduates are eligible. At JKKN, Post Basic B.Sc Nursing has 50 seats and needs a GNM from an INC-recognised institution with valid RN and RM registration." },
     ],
   },
 };

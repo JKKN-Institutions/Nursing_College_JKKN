@@ -134,6 +134,14 @@ const faqSchema = {
         "@type": "Answer",
         "text": "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Admission is based on entrance exam and B.Sc Nursing percentage."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose the best nursing college in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
+      }
     }
   ]
 };
@@ -399,7 +407,7 @@ export default async function Home() {
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6 md:mb-8">
                   <BuildingOffice2Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                   <span className="text-white text-xs sm:text-sm md:text-base font-medium">
-                    INC Approved | TNNMC Recognized | Tamil Nadu's Premier Nursing College
+                    INC Approved | TNNMC Recognized | 500+ Bedded Teaching Hospital
                   </span>
                 </div>
 
@@ -1277,6 +1285,11 @@ export default async function Home() {
                   question: "What are the M.Sc Nursing specializations available?",
                   answer:
                     "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Admission is based on entrance exam and B.Sc Nursing percentage.",
+                },
+                {
+                  question: "How do I choose the best nursing college in Tamil Nadu?",
+                  answer:
+                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
                 },
               ].map((faq, index) => (
                 <details

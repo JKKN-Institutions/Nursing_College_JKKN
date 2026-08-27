@@ -31,7 +31,7 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college in Erode?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 30-40 km from Erode on NH-544, is widely regarded as one of the top nursing colleges accessible from Erode. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located just 30-40 km from Erode on NH-544, is an INC-approved nursing college accessible from Erode. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Erode?",
@@ -488,10 +488,10 @@ export default function ErodePage() {
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                Why Erode Learners Choose JKKN — Top Nursing College in Erode District
+                Why Erode Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges in Erode district, JKKN stands out with
+                Among nursing colleges in Erode district, JKKN offers
                 INC approval, NAAC accreditation, and 95% placement rate.
                 Located just 35 km from Erode on NH-544, it is closer than many
                 Erode nursing colleges in the city itself — making daily commute
