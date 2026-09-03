@@ -23,9 +23,7 @@
 # create duplicate content, or leak sensitive files.
 
 User-agent: *
-
 # --- ALLOW: Important SEO pages (explicit positive signals) ---
-Allow: /
 Allow: /about/
 Allow: /admissions/
 Allow: /contact/
@@ -43,14 +41,12 @@ Allow: /sitemap.xml
 Allow: /sitemap-pages.xml
 Allow: /sitemap-courses.xml
 Allow: /sitemap-blog.xml
-
 # --- DISALLOW: Next.js internal/build paths (zero SEO value) ---
 Disallow: /_next/             # Build assets — JS chunks, CSS, webpack output
 Disallow: /api/               # API routes — server-side only, not indexable
 Disallow: /*.json$            # Next.js data routes — _next/data/*.json files
 Disallow: /_error             # Next.js error boundary page
 Disallow: /_not-found         # Next.js 404 catch-all (App Router)
-
 # --- DISALLOW: Admin, CMS & internal paths ---
 Disallow: /admin/             # Admin panel
 Disallow: /admin              # Admin without trailing slash
@@ -74,7 +70,6 @@ Disallow: /internal/          # Internal pages
 Disallow: /staff/             # Staff-only portal
 Disallow: /student-portal/    # Student login area (not for crawlers)
 Disallow: /faculty-portal/    # Faculty login area
-
 # --- DISALLOW: Duplicate content & parameter pollution ---
 Disallow: /search             # Internal site search results (thin/duplicate content)
 Disallow: /search/            # Internal search with trailing slash
@@ -99,12 +94,11 @@ Disallow: /*?sid=             # Short session ID parameter
 Disallow: /*?preview=         # Preview mode parameter
 Disallow: /*?draft=           # Draft mode parameter
 Disallow: /*&                 # Catch URLs with multiple query parameters
-
 # --- DISALLOW: Print, feed & utility pages ---
 Disallow: /print/             # Print-friendly versions (duplicate content)
 Disallow: /*?print=           # Print parameter versions
 Disallow: /feed/              # RSS/Atom feeds (not for indexing)
-Disallow: /feed               # Feed without trailing slash
+Disallow: /feed$              # exact /feed only - never /feedback-analysis
 Disallow: /rss/               # RSS feed path
 Disallow: /atom/              # Atom feed path
 Disallow: /trackback/         # Trackback URLs (legacy)
@@ -117,7 +111,6 @@ Disallow: /unsubscribe        # Email unsubscribe pages
 Disallow: /redirect/          # Redirect handler pages
 Disallow: /go/                # URL shortener/redirect paths
 Disallow: /out/               # External redirect tracker
-
 # --- DISALLOW: Error & status pages ---
 Disallow: /404                # 404 error page
 Disallow: /500                # 500 server error page
@@ -125,7 +118,6 @@ Disallow: /403                # 403 forbidden page
 Disallow: /error/             # Error directory
 Disallow: /maintenance        # Maintenance mode page
 Disallow: /offline            # Offline fallback page (PWA)
-
 # --- DISALLOW: Source code & sensitive files (security hardening) ---
 Disallow: /.git/              # Git repository (if accidentally exposed)
 Disallow: /.git               # Git without trailing slash
@@ -148,7 +140,6 @@ Disallow: /web.config         # IIS config (if any)
 Disallow: /server.js          # Server entry file
 Disallow: /Dockerfile         # Docker config
 Disallow: /docker-compose.yml # Docker Compose config
-
 # --- DISALLOW: Legacy CMS paths (defensive — in case old URLs still resolve) ---
 Disallow: /wp-admin/          # WordPress admin
 Disallow: /wp-login.php       # WordPress login
@@ -158,7 +149,9 @@ Disallow: /wp-json/           # WordPress REST API
 Disallow: /xmlrpc.php         # WordPress XML-RPC (security risk if exposed)
 Disallow: /cgi-bin/           # Legacy CGI scripts
 Disallow: /phpmyadmin/        # phpMyAdmin (if exposed)
-
+# Blanket allow LAST, so the Disallows above it survive a
+# first-match parser. Google uses longest-match either way.
+Allow: /
 
 # ---------------------------------------------------------------------------
 # 2. GOOGLEBOT (Primary Search Engine — #1 Traffic Source)
@@ -166,9 +159,7 @@ Disallow: /phpmyadmin/        # phpMyAdmin (if exposed)
 # Google is the dominant traffic source for Indian education websites.
 # Full access. No crawl-delay — Google self-manages crawl rate.
 # Specific Disallow for internal paths to focus Google's crawl budget.
-
 User-agent: Googlebot
-Allow: /
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
@@ -176,6 +167,9 @@ Disallow: /preview/
 Disallow: /draft/
 Disallow: /search
 Disallow: /print/
+# Blanket allow LAST, so the Disallows above it survive a
+# first-match parser. Google uses longest-match either way.
+Allow: /
 
 User-agent: Googlebot-Image
 Allow: /
@@ -196,13 +190,14 @@ Allow: /events/
 # Yahoo Search (partially). Critical for AEO and GEO visibility.
 
 User-agent: Bingbot
-Allow: /
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
 Disallow: /search
 Crawl-delay: 2
-
+# Blanket allow LAST, so the Disallows above it survive a
+# first-match parser. Google uses longest-match either way.
+Allow: /
 
 # ---------------------------------------------------------------------------
 # 4. AI CRAWLERS — ALLOW ALL (AEO + GEO + LLMO + AAO Strategy)
@@ -223,167 +218,442 @@ Crawl-delay: 2
 # For a nursing institute competing for student admissions, AI visibility
 # is now as critical as Google page 1 ranking.
 # =======================================================================
-
 # --- Google AI (Gemini, AI Overviews, SGE, Vertex AI, Project Mariner) ---
 User-agent: Google-Extended
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Google-CloudVertexBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Gemini-Deep-Research
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: GoogleAgent-Mariner
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- OpenAI (ChatGPT, ChatGPT Search, GPT-4, Operator, DALL-E) ---
 User-agent: GPTBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: OAI-SearchBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: ChatGPT-User
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Anthropic (Claude AI, Claude Search, Claude Web) ---
 User-agent: ClaudeBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: anthropic-ai
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Claude-User
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Claude-SearchBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: claude-web
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Perplexity AI (Perplexity Search, Perplexity Browsing) ---
 User-agent: PerplexityBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Perplexity-User
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- xAI / Grok (Grok AI, Grok Search, Grok DeepSearch) ---
 User-agent: GrokBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: xAI-Grok
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Grok-DeepSearch
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Meta AI (Llama, Meta AI Assistant, WhatsApp AI, Instagram AI) ---
 User-agent: FacebookBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: meta-externalagent
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: meta-externalfetcher
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Meta-WebIndexer
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Microsoft / Bing AI ---
 User-agent: DuckAssistBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Apple (Siri, Safari Suggestions, Apple Intelligence, Spotlight) ---
 User-agent: Applebot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: Applebot-Extended
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Amazon (Alexa, Amazon Q, voice search) ---
 User-agent: Amazonbot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Mistral AI ---
 User-agent: MistralAI-User
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Cohere AI ---
 User-agent: cohere-ai
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- You.com (YouChat AI search) ---
 User-agent: YouBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Allen Institute for AI (AI2 — academic/research AI) ---
 User-agent: AI2Bot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: AI2Bot-Dolma
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Common Crawl (open dataset — trains many AI models) ---
 User-agent: CCBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- ByteDance (TikTok search, Doubao AI) ---
 User-agent: Bytespider
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 User-agent: TikTokSpider
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Diffbot (AI-powered web data extraction — feeds many AI systems) ---
 User-agent: Diffbot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Yandex (Russian search + YandexGPT AI) ---
 User-agent: YandexBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 Crawl-delay: 5
 
-# --- Baidu (Chinese search + Ernie AI — small but growing globally) ---
 User-agent: Baiduspider
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 Crawl-delay: 5
 
-# --- Naver (Korean search + HyperCLOVA AI) ---
 User-agent: Yeti
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 Crawl-delay: 5
 
-# --- Huawei (Petal Search) ---
 User-agent: PetalBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 Crawl-delay: 3
 
-# --- Webz.io (Data feeds used by AI platforms) ---
 User-agent: webzio-extended
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- ICC Crawler (International Computing Centre — research AI) ---
 User-agent: ICC-Crawler
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Timpi (Decentralised search engine) ---
 User-agent: Timpibot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- Omgili (Blog/forum indexer — feeds AI aggregators) ---
 User-agent: omgili
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
-# --- ImagesiftBot (AI image indexing) ---
 User-agent: ImagesiftBot
+Disallow: /api/
+Disallow: /admin/
+Disallow: /admin
+Disallow: /login
+Disallow: /dashboard/
+Disallow: /student-portal/
+Disallow: /faculty-portal/
 Allow: /
 
 
-# ---------------------------------------------------------------------------
 # 5. SOCIAL MEDIA CRAWLERS (Link Previews & Sharing)
 # ---------------------------------------------------------------------------
 # These bots generate link previews (title + image + description) when
@@ -447,6 +717,17 @@ User-agent: Moz
 Allow: /
 Crawl-delay: 3
 
+# --- Our own paid audit crawlers - unblocked 2026-09-03 ---
+# These are NOT scrapers: JKKN owns the DataForSEO and Ahrefs subscriptions
+# and uses them to audit this site. Crawl-delay keeps the load polite.
+User-agent: DataForSeoBot
+Allow: /
+Crawl-delay: 3
+
+User-agent: AhrefsSiteAudit
+Allow: /
+Crawl-delay: 3
+
 
 # ---------------------------------------------------------------------------
 # 7. BLOCK KNOWN SPAM / SCRAPER / LOW-VALUE BOTS
@@ -469,13 +750,7 @@ Disallow: /
 User-agent: BLEXBot
 Disallow: /
 
-User-agent: DataForSeoBot
-Disallow: /
-
 User-agent: magpie-crawler
-Disallow: /
-
-User-agent: AhrefsSiteAudit
 Disallow: /
 
 User-agent: Sogou
