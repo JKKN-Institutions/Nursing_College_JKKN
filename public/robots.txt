@@ -160,6 +160,11 @@ Allow: /
 # Full access. No crawl-delay — Google self-manages crawl rate.
 # Specific Disallow for internal paths to focus Google's crawl budget.
 User-agent: Googlebot
+# /_next/static/ carries the JS, CSS and fonts; /_next/image is the optimizer.
+# Google resolves by LONGEST match, so these two beat the /_next/ Disallow below
+# and only the build paths stay closed. Same pattern as dental and cas.
+Allow: /_next/static/
+Allow: /_next/image
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
@@ -190,6 +195,9 @@ Allow: /events/
 # Yahoo Search (partially). Critical for AEO and GEO visibility.
 
 User-agent: Bingbot
+# Same carve-out as the Googlebot group above - Bing renders pages too.
+Allow: /_next/static/
+Allow: /_next/image
 Disallow: /_next/
 Disallow: /api/
 Disallow: /admin/
