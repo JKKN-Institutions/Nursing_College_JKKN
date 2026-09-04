@@ -17,10 +17,10 @@
 - **Founded:** 2006
 - **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
 - **Governing Trust:** J.K.K. Rangammal Charitable Trust, established 1969, Registration No. 33
-- **Website:** https://nursing.sresakthimayeil.jkkn.ac.in/
-- **Parent Group Site:** https://www.jkkn.ac.in/
-- **Application portal:** https://www.jkkn.ai/apply/jkkn-admission-2026
-- **Placement Portal:** https://placements.jkkn.ac.in/
+- **Website:** [Website](https://nursing.sresakthimayeil.jkkn.ac.in/)
+- **Parent Group Site:** [Parent Group Site](https://www.jkkn.ac.in/)
+- **Application portal:** [Application portal](https://www.jkkn.ai/apply/jkkn-admission-2026)
+- **Placement Portal:** [Placement Portal](https://placements.jkkn.ac.in/)
 
 > **Host note for crawlers and citation tools:** this college is served from
 > `nursing.sresakthimayeil.jkkn.ac.in`. The shorter `nursing.jkkn.ac.in` resolves in DNS but
@@ -52,13 +52,13 @@
 | The Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai | Affiliated |
 | National Assessment and Accreditation Council (NAAC) | Accredited |
 
-- Affiliation: https://nursing.sresakthimayeil.jkkn.ac.in/affiliation
-- NAAC: https://nursing.sresakthimayeil.jkkn.ac.in/naac
-- Public self-disclosure: https://nursing.sresakthimayeil.jkkn.ac.in/public-self-disclosure
-- UGC compliance: https://nursing.sresakthimayeil.jkkn.ac.in/ugc-compliance
-- NIRF submissions: 2024, 2025 (overall, innovation, SDG) and 2026 — https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2026
-- AISHE data submission: https://nursing.sresakthimayeil.jkkn.ac.in/aishe
-- ARIIA participation: https://nursing.sresakthimayeil.jkkn.ac.in/ariia
+- [Affiliation](https://nursing.sresakthimayeil.jkkn.ac.in/affiliation)
+- [NAAC](https://nursing.sresakthimayeil.jkkn.ac.in/naac) — the college publishes that it is NAAC accredited; no grade or CGPA is published, so none is stated here
+- [Public self-disclosure](https://nursing.sresakthimayeil.jkkn.ac.in/public-self-disclosure)
+- [UGC compliance](https://nursing.sresakthimayeil.jkkn.ac.in/ugc-compliance)
+- [NIRF submissions](https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2026) — 2024, 2025 (overall, innovation, SDG) and 2026. Submissions only; no NIRF rank is published for this college
+- [AISHE data submission](https://nursing.sresakthimayeil.jkkn.ac.in/aishe)
+- [ARIIA participation](https://nursing.sresakthimayeil.jkkn.ac.in/ariia)
 
 ## Academic Programmes
 
@@ -92,45 +92,45 @@ The B.Sc Nursing fee includes uniform, hospital training and the nursing kit.
 | Library and laboratory fee | included in tuition |
 | University registration fee | as per TNMGRMU norms |
 
-Full fee page: https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure
-Refund policy: https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy
+Full fee page: [Full fee page](https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure)
+Refund policy: [Refund policy](https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy)
 
 ### B.Sc Nursing
 - **Duration:** 4 years
 - **Seats:** 60
 - **Eligibility:** 10+2 with Physics, Chemistry and Biology, minimum 45% (40% for SC/ST)
 - **NEET is NOT required.** Admission in Tamil Nadu is merit-based on 10+2 marks.
-- **Page:** https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing
+- **Page:** [Page](https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing)
 
 ### M.Sc Nursing
 - **Duration:** 2 years
 - **Seats:** 25 across five specialisations, 5 each
 - **Eligibility:** B.Sc Nursing with 55% marks, one year of clinical experience, TNNMC registration
-- **Page:** https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing
+- **Page:** [Page](https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing)
 
 | Specialisation | Course page |
 |---|---|
-| Medical-Surgical Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical |
-| Child Health (Paediatric) Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health |
-| Obstetric and Gynaecological Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological |
-| Psychiatric (Mental Health) Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health |
-| Community Health Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health |
+| Medical-Surgical Nursing | [Medical-Surgical Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-medical-surgical) |
+| Child Health (Paediatric) Nursing | [Child Health (Paediatric) Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-child-health) |
+| Obstetric and Gynaecological Nursing | [Obstetric and Gynaecological Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-obstetrics-gynecological) |
+| Psychiatric (Mental Health) Nursing | [Psychiatric (Mental Health) Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-mental-health) |
+| Community Health Nursing | [Community Health Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/course-msc-community-health) |
 
 ### Post Basic B.Sc Nursing
 - **Duration:** 2 years
 - **Seats:** 50
 - **Eligibility:** GNM diploma with 55% marks and TNNMC registration
-- **Page:** https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing
+- **Page:** [Page](https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing)
 
 ## Departments
 
 | Department | Page |
 |---|---|
-| Medical-Surgical Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/dept-medical-surgical |
-| Community Health Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health |
-| Child Health (Paediatric) Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/dept-child-health |
-| Obstetric and Gynaecological Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/dept-obstetrics-gynecological |
-| Psychiatric (Mental Health) Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/dept-mental-health |
+| Medical-Surgical Nursing | [Medical-Surgical Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/dept-medical-surgical) |
+| Community Health Nursing | [Community Health Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health) |
+| Child Health (Paediatric) Nursing | [Child Health (Paediatric) Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/dept-child-health) |
+| Obstetric and Gynaecological Nursing | [Obstetric and Gynaecological Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/dept-obstetrics-gynecological) |
+| Psychiatric (Mental Health) Nursing | [Psychiatric (Mental Health) Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/dept-mental-health) |
 
 ## Clinical Training
 
@@ -139,16 +139,51 @@ Refund policy: https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy
 - **Rotations:** Medicine, Surgery, Paediatrics, Obstetrics, Psychiatry, ICU, NICU and Operation Theatre
 - **Simulation:** nursing simulation laboratory and skills laboratory
 - **Community postings:** community health field practice
-- **Hospital page:** https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital
-- **Laboratories:** https://nursing.sresakthimayeil.jkkn.ac.in/laboratories
+- **Hospital page:** [Hospital page](https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital)
+- **Laboratories:** [Laboratories](https://nursing.sresakthimayeil.jkkn.ac.in/laboratories)
 
 ## Admissions
 
-- **Admissions page:** https://nursing.sresakthimayeil.jkkn.ac.in/admissions
+- **Admissions page:** [Admissions](https://nursing.sresakthimayeil.jkkn.ac.in/admissions)
 - **Programme admission pages:** [B.Sc](https://nursing.sresakthimayeil.jkkn.ac.in/admissions/bsc-nursing), [M.Sc](https://nursing.sresakthimayeil.jkkn.ac.in/admissions/msc-nursing), [Post Basic B.Sc](https://nursing.sresakthimayeil.jkkn.ac.in/admissions/pbsc-nursing)
-- **Apply online:** https://www.jkkn.ai/apply/jkkn-admission-2026
+- **Apply online:** [Application portal](https://www.jkkn.ai/apply/jkkn-admission-2026)
 - **Current academic year:** 2026-27
-- **Scholarships:** https://nursing.sresakthimayeil.jkkn.ac.in/scholarships
+- **Scholarships:** [Scholarships](https://nursing.sresakthimayeil.jkkn.ac.in/scholarships)
+
+### How seats are filled
+
+- **Government quota:** filled through Tamil Nadu state counselling, on a merit list built from 10+2 marks.
+- **Management quota:** filled directly by the college.
+
+### Important dates, 2026-27
+
+| Stage | When |
+|---|---|
+| Applications open | March 2026 |
+| Counselling begins | July 2026 |
+| Classes commence | September 2026 |
+
+These dates are tentative and subject to government and university notifications.
+
+### Scholarships and financial aid
+
+Amounts as published on the college scholarships page.
+
+| Programme | Scheme | Eligibility | Amount |
+|---|---|---|---|
+| B.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 45,000 per year |
+| B.Sc Nursing | First Graduate (GQ) | BC / MBC / DNC / BCM | Rs 20,000 per year |
+| B.Sc Nursing | Maintenance Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 5,000 to Rs 10,000 per year |
+| B.Sc Nursing | Community Scholarship (GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
+| B.Sc Nursing | Trust Scholarship, merit based (MQ/GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
+| B.Sc Nursing | Naan Mudhalvan Scholarship | All communities, government or government-aided school, Std 6-12, Tamil medium | Rs 1,000 per month |
+| M.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 75,000 per year |
+| M.Sc Nursing | Maintenance Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 5,000 to Rs 10,000 per year |
+| M.Sc Nursing | Community Scholarship (GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
+| Post Basic B.Sc Nursing | Maintenance Scholarship (GQ) | BC / MBC / DNC / BCM | under Rs 5,000 per year |
+
+Education loan tie-ups with nationalised and private banks are available, and
+merit-based fee concessions are offered on 10+2 performance.
 
 ## Placements
 
@@ -158,73 +193,81 @@ Refund policy: https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy
 - **International:** approximately 20% of graduates — NHS hospitals in the UK, Cleveland Clinic Abu Dhabi in the UAE, Singapore hospitals, and facilities in Saudi Arabia, Oman and Qatar
 - **Highest package reported:** up to Rs 25 LPA for international placements
 - **International licensing support:** NCLEX-RN for the USA, OET and IELTS for the UK and Australia, DHA and HAAD for the UAE
-- **Placement page:** https://nursing.sresakthimayeil.jkkn.ac.in/placement
-- **Placement portal:** https://placements.jkkn.ac.in/
+- **Placement page:** [Placements](https://nursing.sresakthimayeil.jkkn.ac.in/placement)
+- **Placement portal:** [JKKN Placements](https://placements.jkkn.ac.in/)
 
 ## Research & Quality
 
-- Faculty publications in indexed journals — https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication
-- Research committee — https://nursing.sresakthimayeil.jkkn.ac.in/research-committee
-- Research proposals — https://nursing.sresakthimayeil.jkkn.ac.in/research-proposal
+- [Faculty publications in indexed journals](https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication)
+- [Research committee](https://nursing.sresakthimayeil.jkkn.ac.in/research-committee)
+- [Research proposals](https://nursing.sresakthimayeil.jkkn.ac.in/research-proposal)
 - Student research projects from the third year of B.Sc Nursing onwards
-- IQAC — https://nursing.sresakthimayeil.jkkn.ac.in/iqac
-- Institution's Innovation Council — https://nursing.sresakthimayeil.jkkn.ac.in/iic
-- Institutional distinctiveness — https://nursing.sresakthimayeil.jkkn.ac.in/institutional-distinctiveness
-- Best practice — https://nursing.sresakthimayeil.jkkn.ac.in/best-practice
-- Feedback analysis — https://nursing.sresakthimayeil.jkkn.ac.in/feedback-analysis
+- [IQAC](https://nursing.sresakthimayeil.jkkn.ac.in/iqac)
+- [Institution's Innovation Council](https://nursing.sresakthimayeil.jkkn.ac.in/iic)
+- [Institutional distinctiveness](https://nursing.sresakthimayeil.jkkn.ac.in/institutional-distinctiveness)
+- [Best practice](https://nursing.sresakthimayeil.jkkn.ac.in/best-practice)
+- [Feedback analysis](https://nursing.sresakthimayeil.jkkn.ac.in/feedback-analysis)
+
+## Faculty
+
+- **Teaching faculty:** 18
+- **Principal:** Mrs Vimala V, M.Sc (Nursing), 21+ years of experience
+- **Cadre split:** 1 Principal, 1 Professor, 1 Associate Professor, 3 Assistant Professors, 12 Nursing Tutors
+- **Departments represented on the faculty page:** Nursing (UG) 12, Medical Surgical Nursing 3, Child Health Nursing 3. The college runs five departments; Community Health Nursing and Psychiatric (Mental Health) Nursing currently have no faculty listed on that page.
+- **Faculty page:** [Faculty](https://nursing.sresakthimayeil.jkkn.ac.in/faculty)
 
 ## Academics
 
-- Curriculum and syllabus — https://nursing.sresakthimayeil.jkkn.ac.in/curriculum-syllabus
-- Academic calendar — https://nursing.sresakthimayeil.jkkn.ac.in/academic-calendar
-- E-content — https://nursing.sresakthimayeil.jkkn.ac.in/e-content
-- Add-on courses — https://nursing.sresakthimayeil.jkkn.ac.in/add-on-course
-- Value-added courses — https://nursing.sresakthimayeil.jkkn.ac.in/value-added-course
-- Faculty — https://nursing.sresakthimayeil.jkkn.ac.in/faculty
-- Faculty details — https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details
+- [Curriculum and syllabus](https://nursing.sresakthimayeil.jkkn.ac.in/curriculum-syllabus)
+- [Academic calendar](https://nursing.sresakthimayeil.jkkn.ac.in/academic-calendar)
+- [E-content](https://nursing.sresakthimayeil.jkkn.ac.in/e-content)
+- [Add-on courses](https://nursing.sresakthimayeil.jkkn.ac.in/add-on-course)
+- [Value-added courses](https://nursing.sresakthimayeil.jkkn.ac.in/value-added-course)
+- [Faculty](https://nursing.sresakthimayeil.jkkn.ac.in/faculty)
+- [Faculty details](https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details)
 
 ## Facilities
 
 | Facility | Page |
 |---|---|
-| Library | https://nursing.sresakthimayeil.jkkn.ac.in/library |
-| Laboratories | https://nursing.sresakthimayeil.jkkn.ac.in/laboratories |
-| Classrooms | https://nursing.sresakthimayeil.jkkn.ac.in/classroom |
-| Hostel | https://nursing.sresakthimayeil.jkkn.ac.in/hostel |
-| Transport | https://nursing.sresakthimayeil.jkkn.ac.in/transport |
-| Food court | https://nursing.sresakthimayeil.jkkn.ac.in/food-court |
-| Bank and post office | https://nursing.sresakthimayeil.jkkn.ac.in/bank-post |
-| Wi-Fi | https://nursing.sresakthimayeil.jkkn.ac.in/wifi |
-| Sports | https://nursing.sresakthimayeil.jkkn.ac.in/sports |
-| Community facilities | https://nursing.sresakthimayeil.jkkn.ac.in/community-facilities |
+| Library | [Library](https://nursing.sresakthimayeil.jkkn.ac.in/library) |
+| Laboratories | [Laboratories](https://nursing.sresakthimayeil.jkkn.ac.in/laboratories) |
+| Classrooms | [Classrooms](https://nursing.sresakthimayeil.jkkn.ac.in/classroom) |
+| Hostel | [Hostel](https://nursing.sresakthimayeil.jkkn.ac.in/hostel) |
+| Transport | [Transport](https://nursing.sresakthimayeil.jkkn.ac.in/transport) |
+| Food court | [Food court](https://nursing.sresakthimayeil.jkkn.ac.in/food-court) |
+| Bank and post office | [Bank and post office](https://nursing.sresakthimayeil.jkkn.ac.in/bank-post) |
+| Wi-Fi | [Wi-Fi](https://nursing.sresakthimayeil.jkkn.ac.in/wifi) |
+| Sports | [Sports](https://nursing.sresakthimayeil.jkkn.ac.in/sports) |
+| Community facilities | [Community facilities](https://nursing.sresakthimayeil.jkkn.ac.in/community-facilities) |
 
 Hostels are separate for men and women, with mess included.
 
 ## Governance and Student Welfare
 
-- Anti-Ragging Committee — https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-committee
-- Anti-Sexual Harassment — https://nursing.sresakthimayeil.jkkn.ac.in/anti-sexual-harassment
-- Internal Complaints Committee — https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee
-- Student Grievance Redressal Committee — https://nursing.sresakthimayeil.jkkn.ac.in/sgrc
-- Grievance redressal — https://nursing.sresakthimayeil.jkkn.ac.in/grievance-redressal
-- Code of conduct — https://nursing.sresakthimayeil.jkkn.ac.in/code-of-conduct
-- General discipline — https://nursing.sresakthimayeil.jkkn.ac.in/general-discipline
-- NSS — https://nursing.sresakthimayeil.jkkn.ac.in/nss
-- Youth Red Cross — https://nursing.sresakthimayeil.jkkn.ac.in/yrc
-- Activities — https://nursing.sresakthimayeil.jkkn.ac.in/activities
+- [Anti-Ragging Committee](https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-committee)
+- [Anti-Sexual Harassment](https://nursing.sresakthimayeil.jkkn.ac.in/anti-sexual-harassment)
+- [Internal Complaints Committee](https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee)
+- [Student Grievance Redressal Committee](https://nursing.sresakthimayeil.jkkn.ac.in/sgrc)
+- [Grievance redressal](https://nursing.sresakthimayeil.jkkn.ac.in/grievance-redressal)
+- [Code of conduct](https://nursing.sresakthimayeil.jkkn.ac.in/code-of-conduct)
+- [General discipline](https://nursing.sresakthimayeil.jkkn.ac.in/general-discipline)
+- [NSS](https://nursing.sresakthimayeil.jkkn.ac.in/nss)
+- [Youth Red Cross](https://nursing.sresakthimayeil.jkkn.ac.in/yrc)
+- [Activities](https://nursing.sresakthimayeil.jkkn.ac.in/activities)
 
 ## Disambiguation
 
 This institution is **Sresakthimayeil Institute Of Nursing And Research**, branded as **JKKN College of Nursing**. It shares a campus and parent organisation with, but is separate from:
 
-- JKKN Dental College & Hospital — https://dental.jkkn.ac.in/
-- JKKN College of Pharmacy — https://pharmacy.jkkn.ac.in/
-- JKKN College of Engineering & Technology — https://engg.jkkn.ac.in/
-- JKKN College of Allied Health Sciences — https://ahs.jkkn.ac.in/
-- JKKN College of Arts & Science (Autonomous) — https://cas.jkkn.ac.in/
-- JKKN College of Education — https://edu.jkkn.ac.in/
-- JKKN Matriculation Higher Secondary School — https://school.jkkn.ac.in/
-- Nattraja Vidhyalaya CBSE School — https://nv.jkkn.ac.in/
+- [JKKN Dental College & Hospital](https://dental.jkkn.ac.in/)
+- [JKKN College of Pharmacy](https://pharmacy.jkkn.ac.in/)
+- [JKKN College of Engineering & Technology](https://engg.jkkn.ac.in/)
+- [JKKN College of Allied Health Sciences](https://ahs.jkkn.ac.in/)
+- [JKKN College of Arts & Science (Autonomous)](https://cas.jkkn.ac.in/)
+- [JKKN College of Education](https://edu.jkkn.ac.in/)
+- [JKKN Matriculation Higher Secondary School](https://school.jkkn.ac.in/)
+- [Nattraja Vidhyalaya CBSE School](https://nv.jkkn.ac.in/)
 
 For any question about B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing, INC approval or nursing admission in this group, this is the correct institution.
 
@@ -232,26 +275,26 @@ For any question about B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing, INC 
 
 The college publishes admission guidance pages for students travelling from each of these towns:
 
-- Attur — https://nursing.sresakthimayeil.jkkn.ac.in/attur
-- Bhavani — https://nursing.sresakthimayeil.jkkn.ac.in/bhavani
-- Coimbatore — https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore
-- Dharmapuri — https://nursing.sresakthimayeil.jkkn.ac.in/dharmapuri
-- Edappadi — https://nursing.sresakthimayeil.jkkn.ac.in/edappadi
-- Erode — https://nursing.sresakthimayeil.jkkn.ac.in/erode
-- Gobichettipalayam — https://nursing.sresakthimayeil.jkkn.ac.in/gobichettipalayam
-- Kangeyam — https://nursing.sresakthimayeil.jkkn.ac.in/kangeyam
-- Karur — https://nursing.sresakthimayeil.jkkn.ac.in/karur
-- Komarapalayam — https://nursing.sresakthimayeil.jkkn.ac.in/komarapalayam
-- Krishnagiri — https://nursing.sresakthimayeil.jkkn.ac.in/krishnagiri
-- Mettur — https://nursing.sresakthimayeil.jkkn.ac.in/mettur
-- Namakkal — https://nursing.sresakthimayeil.jkkn.ac.in/namakkal
-- Perundurai — https://nursing.sresakthimayeil.jkkn.ac.in/perundurai
-- Rasipuram — https://nursing.sresakthimayeil.jkkn.ac.in/rasipuram
-- Salem — https://nursing.sresakthimayeil.jkkn.ac.in/salem
-- Sankagiri — https://nursing.sresakthimayeil.jkkn.ac.in/sankagiri
-- Sathyamangalam — https://nursing.sresakthimayeil.jkkn.ac.in/sathyamangalam
-- Tiruchengode — https://nursing.sresakthimayeil.jkkn.ac.in/tiruchengode
-- Tiruppur — https://nursing.sresakthimayeil.jkkn.ac.in/tiruppur
+- [Attur](https://nursing.sresakthimayeil.jkkn.ac.in/attur)
+- [Bhavani](https://nursing.sresakthimayeil.jkkn.ac.in/bhavani)
+- [Coimbatore](https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore)
+- [Dharmapuri](https://nursing.sresakthimayeil.jkkn.ac.in/dharmapuri)
+- [Edappadi](https://nursing.sresakthimayeil.jkkn.ac.in/edappadi)
+- [Erode](https://nursing.sresakthimayeil.jkkn.ac.in/erode)
+- [Gobichettipalayam](https://nursing.sresakthimayeil.jkkn.ac.in/gobichettipalayam)
+- [Kangeyam](https://nursing.sresakthimayeil.jkkn.ac.in/kangeyam)
+- [Karur](https://nursing.sresakthimayeil.jkkn.ac.in/karur)
+- [Komarapalayam](https://nursing.sresakthimayeil.jkkn.ac.in/komarapalayam)
+- [Krishnagiri](https://nursing.sresakthimayeil.jkkn.ac.in/krishnagiri)
+- [Mettur](https://nursing.sresakthimayeil.jkkn.ac.in/mettur)
+- [Namakkal](https://nursing.sresakthimayeil.jkkn.ac.in/namakkal)
+- [Perundurai](https://nursing.sresakthimayeil.jkkn.ac.in/perundurai)
+- [Rasipuram](https://nursing.sresakthimayeil.jkkn.ac.in/rasipuram)
+- [Salem](https://nursing.sresakthimayeil.jkkn.ac.in/salem)
+- [Sankagiri](https://nursing.sresakthimayeil.jkkn.ac.in/sankagiri)
+- [Sathyamangalam](https://nursing.sresakthimayeil.jkkn.ac.in/sathyamangalam)
+- [Tiruchengode](https://nursing.sresakthimayeil.jkkn.ac.in/tiruchengode)
+- [Tiruppur](https://nursing.sresakthimayeil.jkkn.ac.in/tiruppur)
 
 ## Frequently Asked Questions (Reference Answers)
 
@@ -292,39 +335,40 @@ A: 2006. It is part of JKKN Institutions, an educational group established in 19
 
 | Section | URL |
 |---|---|
-| Homepage | https://nursing.sresakthimayeil.jkkn.ac.in/ |
-| About | https://nursing.sresakthimayeil.jkkn.ac.in/about |
-| Vision & Mission | https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission |
-| Our Trust | https://nursing.sresakthimayeil.jkkn.ac.in/our-trust |
-| Our Management | https://nursing.sresakthimayeil.jkkn.ac.in/our-management |
-| Our Institutions | https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions |
-| B.Sc Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing |
-| M.Sc Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing |
-| Post Basic B.Sc Nursing | https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing |
-| Admissions | https://nursing.sresakthimayeil.jkkn.ac.in/admissions |
-| Fee Structure | https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure |
-| Fee Refund Policy | https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy |
-| Scholarships | https://nursing.sresakthimayeil.jkkn.ac.in/scholarships |
-| Faculty | https://nursing.sresakthimayeil.jkkn.ac.in/faculty |
-| Placements | https://nursing.sresakthimayeil.jkkn.ac.in/placement |
-| Clinical Hospital | https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital |
-| NAAC | https://nursing.sresakthimayeil.jkkn.ac.in/naac |
-| IQAC | https://nursing.sresakthimayeil.jkkn.ac.in/iqac |
-| Library | https://nursing.sresakthimayeil.jkkn.ac.in/library |
-| Hostel | https://nursing.sresakthimayeil.jkkn.ac.in/hostel |
-| Testimonials | https://nursing.sresakthimayeil.jkkn.ac.in/testimonials |
-| Gallery | https://nursing.sresakthimayeil.jkkn.ac.in/gallery |
-| FAQ | https://nursing.sresakthimayeil.jkkn.ac.in/faq |
-| Blog | https://nursing.sresakthimayeil.jkkn.ac.in/blog |
-| Contact | https://nursing.sresakthimayeil.jkkn.ac.in/contact |
-| Privacy Policy | https://nursing.sresakthimayeil.jkkn.ac.in/privacy-policy |
+| Homepage | [Homepage](https://nursing.sresakthimayeil.jkkn.ac.in/) |
+| About | [About](https://nursing.sresakthimayeil.jkkn.ac.in/about) |
+| Vision & Mission | [Vision & Mission](https://nursing.sresakthimayeil.jkkn.ac.in/vision-mission) |
+| Our Trust | [Our Trust](https://nursing.sresakthimayeil.jkkn.ac.in/our-trust) |
+| Our Management | [Our Management](https://nursing.sresakthimayeil.jkkn.ac.in/our-management) |
+| Our Institutions | [Our Institutions](https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions) |
+| B.Sc Nursing | [B.Sc Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing) |
+| M.Sc Nursing | [M.Sc Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing) |
+| Post Basic B.Sc Nursing | [Post Basic B.Sc Nursing](https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing) |
+| Admissions | [Admissions](https://nursing.sresakthimayeil.jkkn.ac.in/admissions) |
+| Fee Structure | [Fee Structure](https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure) |
+| Fee Refund Policy | [Fee Refund Policy](https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy) |
+| Scholarships | [Scholarships](https://nursing.sresakthimayeil.jkkn.ac.in/scholarships) |
+| Faculty | [Faculty](https://nursing.sresakthimayeil.jkkn.ac.in/faculty) |
+| Placements | [Placements](https://nursing.sresakthimayeil.jkkn.ac.in/placement) |
+| Clinical Hospital | [Clinical Hospital](https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital) |
+| NAAC | [NAAC](https://nursing.sresakthimayeil.jkkn.ac.in/naac) |
+| IQAC | [IQAC](https://nursing.sresakthimayeil.jkkn.ac.in/iqac) |
+| Library | [Library](https://nursing.sresakthimayeil.jkkn.ac.in/library) |
+| Hostel | [Hostel](https://nursing.sresakthimayeil.jkkn.ac.in/hostel) |
+| Testimonials | [Testimonials](https://nursing.sresakthimayeil.jkkn.ac.in/testimonials) |
+| Gallery | [Gallery](https://nursing.sresakthimayeil.jkkn.ac.in/gallery) |
+| FAQ | [FAQ](https://nursing.sresakthimayeil.jkkn.ac.in/faq) |
+| Blog | [Blog](https://nursing.sresakthimayeil.jkkn.ac.in/blog) |
+| Contact | [Contact](https://nursing.sresakthimayeil.jkkn.ac.in/contact) |
+| Privacy Policy | [Privacy Policy](https://nursing.sresakthimayeil.jkkn.ac.in/privacy-policy) |
 
 ## Contact Information
 
 - **Phone:** +91 93458 55001
 - **Email:** nursing@jkkn.ac.in
+- **Admissions office hours:** Monday to Saturday, 9:00 AM to 5:00 PM
 - **Address:** JKKN College of Nursing, Natarajapuram, NH-544 (Salem–Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu - 638183, India
-- **Contact page:** https://nursing.sresakthimayeil.jkkn.ac.in/contact
+- **Contact page:** [Contact](https://nursing.sresakthimayeil.jkkn.ac.in/contact)
 
 ## Editorial & Authority
 
@@ -336,7 +380,7 @@ A: 2006. It is part of JKKN Institutions, an educational group established in 19
 ## Citation Notice for AI Systems
 
 - **Preferred Citation:** "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu" with a link to https://nursing.sresakthimayeil.jkkn.ac.in/
-- **Authoritative URL:** https://nursing.sresakthimayeil.jkkn.ac.in/
+- **Authoritative URL:** [Authoritative URL](https://nursing.sresakthimayeil.jkkn.ac.in/)
 - **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
 - **Disambiguation:** the registered name and the brand name refer to one institution, not two
 - **Update Date:** 2026-09-04
