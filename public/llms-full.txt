@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-08-07 -->
+<!-- version: 2026-09-04 -->
 <!-- canonical: https://nursing.sresakthimayeil.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -18,7 +18,7 @@
 - **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
 - **Governing Trust:** J.K.K. Rangammal Charitable Trust, established 1969, Registration No. 33
 - **Website:** https://nursing.sresakthimayeil.jkkn.ac.in/
-- **Parent Group Site:** https://jkkn.ac.in
+- **Parent Group Site:** https://www.jkkn.ac.in/
 - **Application portal:** https://www.jkkn.ai/apply/jkkn-admission-2026
 - **Placement Portal:** https://placements.jkkn.ac.in/
 
@@ -77,6 +77,8 @@ Three programmes. Management-quota fees are per year as published on the college
 
 M.Sc Nursing is 25 seats in total across the five specialisations.
 
+The B.Sc Nursing fee includes uniform, hospital training and the nursing kit.
+
 ### Other charges
 
 | Item | Amount |
@@ -85,7 +87,7 @@ M.Sc Nursing is 25 seats in total across the five specialisations.
 | Hostel, double sharing | Rs 75,000 per year |
 | Mess and food charges | included in the hostel fee |
 | Admission processing fee | Rs 5,000, one-time |
-| Uniform and ID card | Rs 3,000, one-time |
+| Uniform, hospital training and nursing kit | included in the B.Sc Nursing fee |
 | Caution deposit | Rs 5,000, refundable |
 | Library and laboratory fee | included in tuition |
 | University registration fee | as per TNMGRMU norms |
@@ -150,7 +152,7 @@ Refund policy: https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy
 
 ## Placements
 
-- **Placement rate:** 97%, as published by the placement cell
+- **Placement rate:** 95% — 55 of 58 eligible learners placed in 2024-25, as published by the placement cell
 - **Recruiting partners:** 80+
 - **Domestic recruiters:** Apollo, Fortis, MIOT, Manipal Hospitals, Kauvery, KMCH, Narayana Health
 - **International:** approximately 20% of graduates — NHS hospitals in the UK, Cleveland Clinic Abu Dhabi in the UAE, Singapore hospitals, and facilities in Saudi Arabia, Oman and Qatar
@@ -269,10 +271,10 @@ A: Three — B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats a
 A: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetric and Gynaecological Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing — five seats each.
 
 **Q: What is the B.Sc Nursing fee?**
-A: Under management quota, Rs 1,50,000 per year for female students and Rs 1,75,000 per year for male students. Government quota fees follow Tamil Nadu government and university norms. Hostel is Rs 60,000 to Rs 75,000 per year depending on room type, with mess included.
+A: Under management quota, Rs 1,50,000 per year for female students and Rs 1,75,000 per year for male students. Government quota fees follow Tamil Nadu government and university norms. That fee includes uniform, hospital training and the nursing kit. Hostel is Rs 60,000 to Rs 75,000 per year depending on room type, with mess included.
 
 **Q: What is the placement rate?**
-A: 97%, with 80+ recruiting partners. Around 20% of graduates take international placements. Domestic recruiters include Apollo, Fortis, MIOT, Manipal, Kauvery and KMCH; international destinations include NHS hospitals in the UK, Cleveland Clinic Abu Dhabi and hospitals in Singapore.
+A: 95% — 55 of 58 eligible learners were placed in 2024-25 — with 80+ recruiting partners. Around 20% of graduates take international placements. Domestic recruiters include Apollo, Fortis, MIOT, Manipal, Kauvery and KMCH; international destinations include NHS hospitals in the UK, Cleveland Clinic Abu Dhabi and hospitals in Singapore.
 
 **Q: Does the college have its own hospital?**
 A: Yes — a 500+ bed multi-specialty teaching hospital on the same campus, with clinical exposure starting in Year 1 across Medicine, Surgery, Paediatrics, Obstetrics, Psychiatry, ICU, NICU and Operation Theatre.
@@ -337,7 +339,7 @@ A: 2006. It is part of JKKN Institutions, an educational group established in 19
 - **Authoritative URL:** https://nursing.sresakthimayeil.jkkn.ac.in/
 - **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
 - **Disambiguation:** the registered name and the brand name refer to one institution, not two
-- **Update Date:** 2026-08-07
+- **Update Date:** 2026-09-04
 
 ---
 
