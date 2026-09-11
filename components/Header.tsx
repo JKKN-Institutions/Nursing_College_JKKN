@@ -83,8 +83,9 @@ export default function Header() {
                     )}
 
                     {/* First Level Submenu */}
-                    {item.submenu && activeSubmenu === item.label && (
-                      <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${item.label === 'OTHERS' ? 'min-w-[500px] grid grid-cols-2 gap-x-2 divide-x divide-gray-200' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-0' : 'left-0'}`}>
+                    {/* Always in the server HTML so crawlers can follow the links; hover only toggles visibility. */}
+                    {item.submenu && (
+                      <div style={activeSubmenu === item.label ? undefined : { display: "none" }} className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${item.label === 'OTHERS' ? 'min-w-[500px] grid grid-cols-2 gap-x-2 divide-x divide-gray-200' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-0' : 'left-0'}`}>
                         {item.submenu.map((subitem: SubmenuItem) => (
                           <div
                             key={subitem.label}
@@ -106,8 +107,8 @@ export default function Header() {
                                 <span>{subitem.label}</span>
                               </Link>
                             )}
-                            {subitem.submenu && activeNestedSubmenu === subitem.label && (
-                              <div className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
+                            {subitem.submenu && (
+                              <div style={activeNestedSubmenu === subitem.label ? undefined : { display: "none" }} className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
                                 {subitem.submenu.map((nestedItem) => (
                                   <Link key={nestedItem.label} href={nestedItem.href} className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors">
                                     {nestedItem.label}
@@ -147,8 +148,9 @@ export default function Header() {
                     )}
 
                     {/* First Level Submenu */}
-                    {item.submenu && activeSubmenu === item.label && (
-                      <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${item.label === 'OTHERS' ? 'min-w-[500px] grid grid-cols-2 gap-x-2 divide-x divide-gray-200' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-0' : 'left-0'}`}>
+                    {/* Always in the server HTML so crawlers can follow the links; hover only toggles visibility. */}
+                    {item.submenu && (
+                      <div style={activeSubmenu === item.label ? undefined : { display: "none" }} className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${item.label === 'OTHERS' ? 'min-w-[500px] grid grid-cols-2 gap-x-2 divide-x divide-gray-200' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-0' : 'left-0'}`}>
                         {item.submenu.map((subitem: SubmenuItem) => (
                           <div
                             key={subitem.label}
@@ -170,8 +172,8 @@ export default function Header() {
                                 <span>{subitem.label}</span>
                               </Link>
                             )}
-                            {subitem.submenu && activeNestedSubmenu === subitem.label && (
-                              <div className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
+                            {subitem.submenu && (
+                              <div style={activeNestedSubmenu === subitem.label ? undefined : { display: "none" }} className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'RESEARCH'].includes(item.label) ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
                                 {subitem.submenu.map((nestedItem) => (
                                   <Link key={nestedItem.label} href={nestedItem.href} className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors">
                                     {nestedItem.label}
