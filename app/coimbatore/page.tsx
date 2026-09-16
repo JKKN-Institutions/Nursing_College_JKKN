@@ -31,11 +31,11 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college in Coimbatore?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 100-110 km from Coimbatore on NH-544, is an INC-approved nursing college accessible from Coimbatore. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located just 113 km from Coimbatore on NH-544, is an INC-approved nursing college accessible from Coimbatore. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Coimbatore?",
-    a: "JKKN Nursing is approximately 100-110 km from Coimbatore city centre, which takes about 2-2.5 hours by road via NH-544 (Coimbatore-Salem Highway) — direct route. Regular bus services are available from Coimbatore.",
+    a: "JKKN Nursing is approximately 113 km from Coimbatore city centre, which takes about 2 hours by road via NH-544 (Coimbatore-Salem Highway) — direct route. Regular bus services are available from Coimbatore.",
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Does JKKN Nursing provide hostel for Coimbatore learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Coimbatore can also opt for daily commute as the campus is just 2-2.5 hours away. College transport services are available.",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Coimbatore can also opt for daily commute as the campus is just about 2 hours away. College transport services are available.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which are the best nursing colleges in Coimbatore?",
-    a: "Coimbatore has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved option in the region — INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. It is 100-110 km from Coimbatore with excellent hostel facilities.",
+    a: "Coimbatore has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved option in the region — INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. It is 113 km from Coimbatore with excellent hostel facilities.",
   },
   {
     q: "What B.Sc nursing courses are available near Coimbatore?",
@@ -100,7 +100,7 @@ const whyChooseItems = [
   {
     icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
     title: "Easy Commute",
-    desc: "Just 100-110 km from Coimbatore. Daily commute or comfortable hostel — your choice.",
+    desc: "Just 113 km from Coimbatore. Daily commute or comfortable hostel — your choice.",
   },
 ];
 
@@ -155,12 +155,12 @@ const reachItems = [
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST RAILWAY STATION",
-    text: "Coimbatore Junction (~105 km from campus)",
+    text: "Coimbatore Junction (112 km from campus)",
   },
   {
     emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST AIRPORT",
-    text: "Coimbatore International Airport (Code: CJB) (~100 km)",
+    text: "Coimbatore International Airport (Code: CJB) (101 km)",
   },
   {
     emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
@@ -209,16 +209,16 @@ const facilities = [
 ];
 
 const cities = [
-  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km", href: "/namakkal" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "40-50 km", href: "/salem" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km", href: "/erode" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "80-90 km", href: "/tiruppur" },
+  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "62 km", href: "/namakkal" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "57 km", href: "/salem" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "22 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
 ];
 
 export const metadata: Metadata = {
   title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
   description:
-    "JKKN College of Nursing, 100-110 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
+    "JKKN College of Nursing,113 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   keywords:
     "best nursing college in coimbatore, bsc nursing colleges in coimbatore, best nursing colleges in coimbatore, coimbatore nursing college list, nursing course in coimbatore, coimbatore nursing college",
   alternates: {
@@ -318,7 +318,7 @@ export default function CoimbatorePage() {
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
               Searching for the best nursing college in Coimbatore? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
-              programmes — 100-110 km from Coimbatore with 98% placement rate and
+              programmes —113 km from Coimbatore with 98% placement rate and
               hostel facilities.
             </p>
 
@@ -327,7 +327,7 @@ export default function CoimbatorePage() {
               {[
                 { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
-                { value: "105km", label: "FROM COIMBATORE" },
+                { value: "113 km", label: "FROM COIMBATORE" },
                 { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
                 <div
@@ -452,13 +452,13 @@ export default function CoimbatorePage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Coimbatore sits at the western end of NH-544, the Salem to Coimbatore National Highway, and the JKKN campus is on that same road 110 km away at Komarapalayam. For a Coimbatore learner that makes this a hostel decision rather than a daily commute, and it is worth settling before you apply rather than after: B.Sc Nursing carries clinical postings from the first year, and those are timed to ward rounds. The hostel and the 500+ bedded teaching hospital are on one campus, which is the reason the distance stops mattering once a learner is resident.
+                Coimbatore sits at the western end of NH-544, the Salem to Coimbatore National Highway, and the JKKN campus is on that same road 113 km away at Komarapalayam. For a Coimbatore learner that makes this a hostel decision rather than a daily commute, and it is worth settling before you apply rather than after: B.Sc Nursing carries clinical postings from the first year, and those are timed to ward rounds. The hostel and the 500+ bedded teaching hospital are on one campus, which is the reason the distance stops mattering once a learner is resident.
               </p>
               <p>
                 Coimbatore, Tamil Nadu&apos;s second-largest city and a major industrial and healthcare hub, is home to numerous medical institutions and hospitals. The city has a competitive landscape for nursing education, with several <strong>nursing colleges in Coimbatore</strong> offering various programmes. What a learner actually has to compare is checkable on paper: INC approval for the course, affiliation to the awarding university, and the size of the teaching hospital where the clinical postings happen.
               </p>
               <p>
-                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) offers a distinctive advantage. Located 100-110 km from Coimbatore in Komarapalayam, JKKN has a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
+                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) offers a distinctive advantage. Located 113 km from Coimbatore in Komarapalayam, JKKN has a dedicated 500+ bed multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
               </p>
               <p>
                 What sets JKKN apart in the <strong>best nursing colleges in Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
@@ -673,8 +673,7 @@ export default function CoimbatorePage() {
                     <h3 className="text-white font-bold text-base sm:text-lg md:text-xl">
                       Coimbatore → JKKN Nursing Campus
                     </h3>
-                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">
-                      100-110 km • 2-2.5 hours
+                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">113 km • about 2 hours
                     </p>
                   </div>
                 </div>

@@ -38,10 +38,10 @@
 - **Highway:** NH-544 (Salem–Coimbatore National Highway)
 
 ### Distance to Nearby Cities
+- Erode: 22 km
 - Tiruchengode: 26 km
-- Erode: 49 km
-- Namakkal: 57 km
-- Salem: 66 km
+- Salem: 57 km
+- Namakkal: 62 km
 - Coimbatore: 113 km
 
 Road distances, measured from the campus map pin to each city centre.
@@ -326,7 +326,7 @@ A: 98% — 58 of 59 graduating learners were placed in 2024-25 — with 80+ recr
 A: Yes — a 500+ bed multi-specialty teaching hospital on the same campus, with clinical exposure starting in Year 1 across Medicine, Surgery, Paediatrics, Obstetrics, Psychiatry, ICU, NICU and Operation Theatre.
 
 **Q: Where is JKKN College of Nursing located?**
-A: Natarajapuram, NH-544, the Salem to Coimbatore highway, Komarapalayam, Namakkal District, Tamil Nadu 638183 — about 57 km from Namakkal, 49 km from Erode, 66 km from Salem and 113 km from Coimbatore by road.
+A: Natarajapuram, NH-544, the Salem to Coimbatore highway, Komarapalayam, Namakkal District, Tamil Nadu 638183 — about 22 km from Erode, 57 km from Salem, 62 km from Namakkal and 113 km from Coimbatore by road.
 
 **Q: Is "Sresakthimayeil Institute Of Nursing And Research" a different college from JKKN College of Nursing?**
 A: No. They are the same institution — Sresakthimayeil Institute Of Nursing And Research is the registered name and JKKN College of Nursing is the brand name.

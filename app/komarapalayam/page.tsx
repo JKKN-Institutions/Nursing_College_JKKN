@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "The campus is on NH-544 at Natarajapuram, within Komarapalayam town limits",
   reachBus:
     "All town buses and NH-544 route buses passing Komarapalayam stop near the campus; local autos available from Komarapalayam bus stand",
-  reachRail: "Erode Junction (~35 km from campus)",
+  reachRail: "Erode Junction (5 km from campus)",
   faqSubtitle: "Nursing College in Komarapalayam — Your Questions Answered",
   faqs: [
     {
@@ -73,10 +73,10 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Bhavani", distance: "~5 km", href: "/bhavani" },
-    { name: "Tiruchengode", distance: "15-20 km", href: "/tiruchengode" },
-    { name: "Erode", distance: "30-40 km", href: "/erode" },
-    { name: "Salem", distance: "40-50 km", href: "/salem" },
+    { name: "Bhavani", distance: "8 km", href: "/bhavani" },
+    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Salem", distance: "57 km", href: "/salem" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Komarapalayam",

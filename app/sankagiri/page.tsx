@@ -6,46 +6,46 @@ const config: CityPageConfig = {
   cityName: "Sankagiri",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Looking for a nursing college near Sankagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is just 20-25 km straight down NH-544 — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training.",
+    "Looking for a nursing college near Sankagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is just 17 km straight down NH-544 — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
-    { value: "20-25km", label: "FROM SANKAGIRI" },
+    { value: "17 km", label: "FROM SANKAGIRI" },
     { value: "3", label: "PROGRAMMES" },
   ],
   distanceKm: "22",
   distanceHeading: "From Sankagiri to JKKN Nursing",
   distanceSub:
-    "About 30 minutes straight along NH-544 — the campus is right on the highway at Natarajapuram, Komarapalayam",
+    "about 20-30 minutes straight along NH-544 — the campus is right on the highway at Natarajapuram, Komarapalayam",
   landscapeHeading: "Nursing Education for Sankagiri Learners",
   landscapeParagraphs: [
     "Sankagiri is a fast-growing town in Salem district, known for the historic Sankagiri Fort and its position on NH-544, the Salem-Coimbatore national highway. Its location between Salem and Erode gives learners easy access to institutions on the highway corridor.",
-    "For nursing aspirants from Sankagiri, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is one of the most convenient INC-approved options — about 20-25 km down NH-544 at Komarapalayam, a straight 30-minute drive with no route changes. Every highway bus between Salem and Erode passes both towns.",
+    "For nursing aspirants from Sankagiri, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is one of the most convenient INC-approved options — about 17 km down NH-544 at Komarapalayam, a straight 30-minute drive with no route changes. Every highway bus between Salem and Erode passes both towns.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital — learners work with real patients from the first year.",
     "The direct highway connection makes daily commuting practical for Sankagiri learners, and secure separate hostels for boys and girls are available for those who prefer campus stay. With 98% placement rate and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sankagiri learners can build a global nursing career just half an hour from home.",
   ],
   whyHeading: "Why Sankagiri Learners Choose JKKN — Straight Down NH-544",
   whyIntro:
-    "JKKN College of Nursing is just 20-25 km from Sankagiri along NH-544 — a single-road, 30-minute commute. INC approved, NAAC accredited, hospital-attached, with both day-scholar and hostel options.",
+    "JKKN College of Nursing is just 17 km from Sankagiri along NH-544 — a single-road, 30-minute commute. INC approved, NAAC accredited, hospital-attached, with both day-scholar and hostel options.",
   commuteDesc:
-    "20-25 km straight along NH-544 — about 30 minutes, with frequent highway buses between Sankagiri and Komarapalayam.",
+    "17 km straight along NH-544 — about 20-30 minutes, with frequent highway buses between Sankagiri and Komarapalayam.",
   programmesHeading: "Nursing Courses Available for Sankagiri Learners",
   reachHeading: "How to Reach from Sankagiri",
-  reachRouteSummary: "20-25 km • about 30 minutes",
+  reachRouteSummary: "17 km • about 20-30 minutes",
   reachRoute:
     "Straight along NH-544 from Sankagiri towards Erode; the campus is on the highway at Natarajapuram, Komarapalayam",
   reachBus:
     "All Salem-Erode / Salem-Coimbatore route buses via NH-544 stop at both Sankagiri and Komarapalayam — services throughout the day",
-  reachRail: "Sankaridurg railway station serves Sankagiri; Erode Junction (~35 km from campus) is the major junction",
+  reachRail: "Sankaridurg railway station serves Sankagiri; Erode Junction (22 km from campus) is the major junction",
   faqSubtitle: "Nursing College near Sankagiri — Your Questions Answered",
   faqs: [
     {
       q: "Which is the nearest nursing college to Sankagiri?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is one of the nearest INC-approved nursing colleges to Sankagiri — about 20-25 km straight along NH-544. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is one of the nearest INC-approved nursing colleges to Sankagiri — about 17 km straight along NH-544. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Sankagiri?",
-      a: "JKKN College of Nursing is approximately 20-25 km from Sankagiri — about 30 minutes along NH-544 with no route changes. All Salem-Erode highway buses stop at both towns.",
+      a: "JKKN College of Nursing is approximately 17 km from Sankagiri — about 20-30 minutes along NH-544 with no route changes. All Salem-Erode highway buses stop at both towns.",
     },
     {
       q: "Can Sankagiri learners commute daily to JKKN Nursing?",
@@ -61,7 +61,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Are there nursing colleges in Salem district near Sankagiri?",
-      a: "Sankagiri learners have options in Salem city, but JKKN College of Nursing at Komarapalayam is often closer and easier to reach — 20-25 km straight down NH-544, against 35-40 km into Salem city traffic. It is INC approved with hospital-based clinical training.",
+      a: "Sankagiri learners have options in Salem city, but JKKN College of Nursing at Komarapalayam is often closer and easier to reach —17 km straight down NH-544, against 17 km into Salem city traffic. It is INC approved with hospital-based clinical training.",
     },
     {
       q: "Can I get a nursing job abroad after studying here?",
@@ -73,10 +73,10 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Komarapalayam", distance: "20-25 km", href: "/komarapalayam" },
-    { name: "Salem", distance: "35-40 km", href: "/salem" },
-    { name: "Tiruchengode", distance: "20-30 km", href: "/tiruchengode" },
-    { name: "Erode", distance: "45-55 km", href: "/erode" },
+    { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
+    { name: "Salem", distance: "57 km", href: "/salem" },
+    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Erode", distance: "22 km", href: "/erode" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Sankagiri",
@@ -86,7 +86,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Sankagiri | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Sankagiri: JKKN College of Nursing in Komarapalayam is 20-25 km straight down NH-544 — about 30 minutes. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing. Admissions 2026-27 open.",
+    "Nursing college near Sankagiri: JKKN College of Nursing in Komarapalayam is 17 km straight down NH-544 — about 20-30 minutes. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing. Admissions 2026-27 open.",
   keywords:
     "nursing college near sankagiri, nursing college in sankagiri, bsc nursing sankagiri, nursing colleges in salem district, jkkn nursing sankagiri",
   alternates: {
@@ -95,7 +95,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Sankagiri | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is 20-25 km from Sankagiri straight along NH-544. INC approved, NAAC accredited. Admissions 2026-27 open.",
+      "JKKN College of Nursing in Komarapalayam is 17 km from Sankagiri straight along NH-544. INC approved, NAAC accredited. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/sankagiri",
     siteName: "JKKN College of Nursing",
     type: "website",

@@ -6,47 +6,47 @@ const config: CityPageConfig = {
   cityName: "Krishnagiri",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Krishnagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 150 km away via Salem on the NH-44/NH-544 corridor — a Tamil Nadu option under The Tamil Nadu Dr. M.G.R. Medical University, with INC-approved programmes and secure hostels.",
+    "Searching for a nursing college near Krishnagiri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 163 km away via Salem on the NH-44/NH-544 corridor — a Tamil Nadu option under The Tamil Nadu Dr. M.G.R. Medical University, with INC-approved programmes and secure hostels.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
-    { value: "~150km", label: "FROM KRISHNAGIRI" },
+    { value: "163 km", label: "FROM KRISHNAGIRI" },
     { value: "3", label: "PROGRAMMES" },
   ],
   distanceKm: "~150",
   distanceHeading: "From Krishnagiri to JKKN Nursing",
   distanceSub:
-    "Around 3 hours by road — NH-44 to Salem, then NH-544 towards Erode; the campus is at Natarajapuram, Komarapalayam",
+    "about 3 hours by road — NH-44 to Salem, then NH-544 towards Erode; the campus is at Natarajapuram, Komarapalayam",
   landscapeHeading: "Nursing Education for Krishnagiri Learners",
   landscapeParagraphs: [
     "Krishnagiri district, in the north-western corner of Tamil Nadu, is famous as the state's mango capital and for the fast-growing Hosur industrial belt. Because the district borders Karnataka, many learners from Krishnagiri, Hosur and Denkanikottai look towards Bangalore for higher education.",
-    "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam offers exactly that, around 150 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
+    "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam offers exactly that, around 163 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners work with real patients from the first year of the programme.",
     "Krishnagiri learners stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with direct Salem-route buses making trips home easy during holidays. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Krishnagiri district can build a global nursing career while studying in their home state.",
   ],
   whyHeading: "Why Krishnagiri Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is around 150 km from Krishnagiri via the NH-44/NH-544 corridor — a Tamil Nadu option with TNMGRMU affiliation and state counselling, instead of crossing into Karnataka. INC approved, NAAC accredited, hospital-attached, with secure hostels.",
+    "JKKN College of Nursing is around 163 km from Krishnagiri via the NH-44/NH-544 corridor — a Tamil Nadu option with TNMGRMU affiliation and state counselling, instead of crossing into Karnataka. INC approved, NAAC accredited, hospital-attached, with secure hostels.",
   commuteDesc:
-    "Around 150 km via Salem (~3 hours) on the NH-44/NH-544 corridor. Hostel stay with holiday travel home is the standard choice.",
+    "Around 163 km via Salem (about 3 hours) on the NH-44/NH-544 corridor. Hostel stay with holiday travel home is the standard choice.",
   programmesHeading: "Nursing Courses Available for Krishnagiri Learners",
   reachHeading: "How to Reach from Krishnagiri",
-  reachRouteSummary: "~150 km • about 3 hours",
+  reachRouteSummary: "163 km • about 3 hours",
   reachRoute:
     "Krishnagiri → Salem via NH-44, then Salem → Komarapalayam via NH-544; the campus is on the highway at Natarajapuram",
   reachBus:
     "Frequent Salem-bound buses run from Krishnagiri and Hosur on NH-44; from Salem, all Erode/Coimbatore-bound NH-544 buses stop at Komarapalayam",
   reachRail:
-    "Salem Junction is the major rail hub on the route; Erode Junction (~35 km from campus) is the junction nearest to campus",
+    "Salem Junction is the major rail hub on the route; Erode Junction (22 km from campus) is the junction nearest to campus",
   faqSubtitle: "Nursing College near Krishnagiri — Your Questions Answered",
   faqs: [
     {
       q: "Which nursing college is accessible from Krishnagiri?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 150 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 163 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Krishnagiri?",
-      a: "JKKN College of Nursing is roughly 150 km from Krishnagiri — about 3 hours by road. Take a Salem-bound bus on NH-44, then any NH-544 bus towards Erode; the campus is on the highway at Komarapalayam.",
+      a: "JKKN College of Nursing is roughly 163 km from Krishnagiri — about 3 hours by road. Take a Salem-bound bus on NH-44, then any NH-544 bus towards Erode; the campus is on the highway at Komarapalayam.",
     },
     {
       q: "Why study nursing in Tamil Nadu instead of Bangalore for Krishnagiri learners?",
@@ -74,10 +74,10 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Dharmapuri", distance: "45-55 km", href: "/dharmapuri" },
-    { name: "Salem", distance: "90-100 km", href: "/salem" },
-    { name: "Sankagiri", distance: "115-125 km", href: "/sankagiri" },
-    { name: "Komarapalayam", distance: "~150 km", href: "/komarapalayam" },
+    { name: "Dharmapuri", distance: "111 km", href: "/dharmapuri" },
+    { name: "Salem", distance: "57 km", href: "/salem" },
+    { name: "Sankagiri", distance: "17 km", href: "/sankagiri" },
+    { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Krishnagiri",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Krishnagiri | B.Sc Nursing — JKKN",
   description:
-    "JKKN College of Nursing at Komarapalayam is about 150 km from Krishnagiri via Salem. TNMGRMU affiliated, INC approved. B.Sc, M.Sc, Post Basic.",
+    "JKKN College of Nursing at Komarapalayam is about 163 km from Krishnagiri via Salem. TNMGRMU affiliated, INC approved. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near krishnagiri, nursing colleges in krishnagiri, bsc nursing krishnagiri, nursing college hosur, nursing college krishnagiri district, jkkn nursing krishnagiri",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Krishnagiri | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is ~150 km from Krishnagiri via Salem. TN counselling, TNMGRMU affiliation, INC approved, secure hostels.",
+      "JKKN College of Nursing in Komarapalayam is 163 km from Krishnagiri via Salem. TN counselling, TNMGRMU affiliation, INC approved, secure hostels.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/krishnagiri",
     siteName: "JKKN College of Nursing",
     type: "website",

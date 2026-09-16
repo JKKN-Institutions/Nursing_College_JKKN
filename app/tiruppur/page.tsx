@@ -31,11 +31,11 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college in Tiruppur?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located approximately 80-90 km from Tiruppur via NH-544 via Erode, is an INC-approved nursing college accessible from Tiruppur. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located approximately 66 km from Tiruppur via NH-544 via Erode, is an INC-approved nursing college accessible from Tiruppur. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Tiruppur?",
-    a: "JKKN Nursing is approximately 80-90 km from Tiruppur, which takes about 1.5-2 hours by road via NH-544 via Erode, then State Highway towards Tiruppur. Inter-city buses from Tiruppur to Komarapalayam/Erode are available regularly.",
+    a: "JKKN Nursing is approximately 66 km from Tiruppur, which takes about 1 to 1.5 hours by road via NH-544 via Erode, then State Highway towards Tiruppur. Inter-city buses from Tiruppur to Komarapalayam/Erode are available regularly.",
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Does JKKN Nursing provide hostel for Tiruppur learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Tiruppur can also opt for daily commute as the campus is just 1.5-2 hours away. College transport services are available connecting to Tiruppur and surrounding areas.",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Tiruppur can also opt for daily commute as the campus is just about 1 to 1.5 hours away. College transport services are available connecting to Tiruppur and surrounding areas.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which are the best nursing colleges near Tiruppur?",
-    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved nursing college accessible from Tiruppur — 80-90 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved nursing college accessible from Tiruppur —66 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What B.Sc nursing courses are available near Tiruppur?",
@@ -100,7 +100,7 @@ const whyChooseItems = [
   {
     icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
     title: "Easy Commute",
-    desc: "Just 80-90 km from Tiruppur. Daily commute or comfortable hostel — your choice.",
+    desc: "Just 66 km from Tiruppur. Daily commute or comfortable hostel — your choice.",
   },
 ];
 
@@ -155,12 +155,12 @@ const reachItems = [
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST RAILWAY STATION",
-    text: "Tiruppur Junction (~85 km from campus)",
+    text: "Tiruppur Junction (64 km from campus)",
   },
   {
     emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST AIRPORT",
-    text: "Coimbatore International Airport (Code: CJB) (~50 km)",
+    text: "Coimbatore International Airport (Code: CJB) (101 km)",
   },
   {
     emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
@@ -209,16 +209,16 @@ const facilities = [
 ];
 
 const cities = [
-  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km", href: "/namakkal" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "40-50 km", href: "/salem" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km", href: "/erode" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km", href: "/coimbatore" },
+  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "62 km", href: "/namakkal" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "57 km", href: "/salem" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "22 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "113 km", href: "/coimbatore" },
 ];
 
 export const metadata: Metadata = {
   title: "Best Nursing College in Tiruppur | B.Sc Nursing Near Tiruppur — JKKN",
   description:
-    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing is 80-90 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placements.",
+    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing is 66 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placements.",
   keywords:
     "best nursing college in tiruppur, bsc nursing colleges in tiruppur, best nursing colleges in tiruppur, tiruppur nursing college list, nursing course in tiruppur",
   alternates: {
@@ -316,7 +316,7 @@ export default function TiruppurPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — 80-90 km from Tiruppur with 98% placement rate and hostel facilities.
+              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes —66 km from Tiruppur with 98% placement rate and hostel facilities.
             </p>
 
             {/* Stats Grid */}
@@ -324,7 +324,7 @@ export default function TiruppurPage() {
               {[
                 { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
-                { value: "85km", label: "FROM TIRUPPUR" },
+                { value: "66 km", label: "FROM TIRUPPUR" },
                 { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
                 <div
@@ -449,13 +449,13 @@ export default function TiruppurPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 90 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the 500+ bedded teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
+                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 66 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the 500+ bedded teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
               </p>
               <p>
                 Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting learners to look beyond city limits for quality nursing education.
               </p>
               <p>
-                For learners searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers a compelling choice. Located 80-90 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
+                For learners searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers a compelling choice. Located 66 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
               </p>
               <p>
                 JKKN&apos;s integrated campus features a 500+ bed multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
@@ -666,8 +666,7 @@ export default function TiruppurPage() {
                     <h3 className="text-white font-bold text-base sm:text-lg md:text-xl">
                       Tiruppur → JKKN Nursing Campus
                     </h3>
-                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">
-                      80-90 km • 1.5-2 hours
+                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">66 km • about 1 to 1.5 hours
                     </p>
                   </div>
                 </div>

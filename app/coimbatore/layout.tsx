@@ -3,11 +3,11 @@
 export const metadata: Metadata = {
   title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
   description:
-    "JKKN College of Nursing, 100-110 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
+    "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   openGraph: {
     title: "Nursing College Near Coimbatore — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 100 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital.",
+      "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
     siteName: "JKKN College of Nursing",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nursing College Near Coimbatore — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 100 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital.",
+      "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

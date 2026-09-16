@@ -6,51 +6,51 @@ const config: CityPageConfig = {
   cityName: "Edappadi",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Edappadi? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 25-35 km away via Sankagiri. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training, day-travel-friendly distance, and secure hostels.",
+    "Searching for a nursing college near Edappadi? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 32 km away via Sankagiri. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training, day-travel-friendly distance, and secure hostels.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
-    { value: "~30km", label: "FROM EDAPPADI" },
+    { value: "32 km", label: "FROM EDAPPADI" },
     { value: "3", label: "PROGRAMMES" },
   ],
   distanceKm: "~30",
   distanceHeading: "From Edappadi to JKKN Nursing",
   distanceSub:
-    "Around 45 minutes to 1 hour by road via Sankagiri and NH-544; the campus is at Natarajapuram, Komarapalayam",
+    "about 30-40 minutes by road via Sankagiri and NH-544; the campus is at Natarajapuram, Komarapalayam",
   landscapeHeading: "Nursing Education for Edappadi Learners",
   landscapeParagraphs: [
     "Edappadi is a well-known weaving town in western Salem district, with a strong powerloom and handloom tradition and busy agricultural trade. Learners from Edappadi, Poolampatti and nearby blocks often travel to Salem or Erode for professional education — but a closer option sits right on NH-544.",
-    "For nursing aspirants from Edappadi, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is among the closest INC-approved nursing colleges — about 25-35 km away via Sankagiri, roughly 45 minutes to an hour. That makes both day travel and hostel stay genuinely practical choices.",
+    "For nursing aspirants from Edappadi, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is among the closest INC-approved nursing colleges — about 32 km away via Sankagiri, about 30-40 minutes. That makes both day travel and hostel stay genuinely practical choices.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Edappadi learners can commute daily via Sankagiri or choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts under an hour from home.",
   ],
   whyHeading: "Why Edappadi Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is about 25-35 km from Edappadi — close enough for daily commute, with secure hostels for those who prefer campus stay. INC approved, NAAC accredited, hospital-attached.",
+    "JKKN College of Nursing is about 32 km from Edappadi — close enough for daily commute, with secure hostels for those who prefer campus stay. INC approved, NAAC accredited, hospital-attached.",
   commuteDesc:
-    "About 25-35 km from Edappadi (~45 min-1 hour) via Sankagiri. Day travel and hostel stay are both practical options.",
+    "About 32 km from Edappadi (about 30-40 minutes) via Sankagiri. Day travel and hostel stay are both practical options.",
   programmesHeading: "Nursing Courses Available for Edappadi Learners",
   reachHeading: "How to Reach from Edappadi",
-  reachRouteSummary: "25-35 km • about 45 min-1 hour",
+  reachRouteSummary: "32 km • about 30-40 minutes",
   reachRoute:
     "Edappadi → Sankagiri → NH-544 → Komarapalayam (Salem-Coimbatore highway)",
   reachBus:
     "Buses run from Edappadi to Sankagiri; from Sankagiri take any Erode/Bhavani-side bus along NH-544 and get down at Komarapalayam",
   reachRail:
-    "Erode Junction (~35 km) and Salem Junction (~40 km) are the nearest major railheads; campus is ~20 km from Erode Junction",
+    "Erode Junction (22 km) and Salem Junction (56 km) are the nearest major railheads; campus is 22 km from Erode Junction",
   faqSubtitle: "Nursing College near Edappadi — Your Questions Answered",
   faqs: [
     {
       q: "Which nursing college is close to Edappadi?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is among the closest INC-approved nursing colleges for Edappadi learners — about 25-35 km away via Sankagiri. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is among the closest INC-approved nursing colleges for Edappadi learners — about 32 km away via Sankagiri. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Edappadi?",
-      a: "JKKN College of Nursing is approximately 25-35 km from Edappadi — about 45 minutes to 1 hour by road via Sankagiri and NH-544. The campus is at Natarajapuram, Komarapalayam.",
+      a: "JKKN College of Nursing is approximately 32 km from Edappadi — about 30-40 minutes by road via Sankagiri and NH-544. The campus is at Natarajapuram, Komarapalayam.",
     },
     {
       q: "Can Edappadi learners commute daily to JKKN Nursing?",
-      a: "Yes. With the campus about 45 minutes to an hour away via Sankagiri, daily travel is practical. Learners who prefer campus life can choose the separate, secure hostels for boys and girls with mess facilities and warden supervision.",
+      a: "Yes. With the campus about 30-40 minutes away via Sankagiri, daily travel is practical. Learners who prefer campus life can choose the separate, secure hostels for boys and girls with mess facilities and warden supervision.",
     },
     {
       q: "What nursing courses are available for Edappadi learners?",
@@ -74,10 +74,10 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Sankagiri", distance: "10-20 km", href: "/sankagiri" },
-    { name: "Bhavani", distance: "25-35 km", href: "/bhavani" },
-    { name: "Mettur", distance: "25-35 km", href: "/mettur" },
-    { name: "Komarapalayam", distance: "25-35 km", href: "/komarapalayam" },
+    { name: "Sankagiri", distance: "17 km", href: "/sankagiri" },
+    { name: "Bhavani", distance: "8 km", href: "/bhavani" },
+    { name: "Mettur", distance: "59 km", href: "/mettur" },
+    { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Edappadi",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Edappadi | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Edappadi: JKKN College of Nursing in Komarapalayam is ~25-35 km via Sankagiri. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing — day travel or secure hostels. Admissions 2026-27 open.",
+    "Nursing college near Edappadi: JKKN College of Nursing in Komarapalayam is 32 km via Sankagiri. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing — day travel or secure hostels. Admissions 2026-27 open.",
   keywords:
     "nursing college near edappadi, nursing colleges edappadi, bsc nursing edappadi, nursing college salem district, jkkn nursing edappadi",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Edappadi | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is ~25-35 km from Edappadi via Sankagiri. INC approved, NAAC accredited, day travel or hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing in Komarapalayam is 32 km from Edappadi via Sankagiri. INC approved, NAAC accredited, day travel or hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/edappadi",
     siteName: "JKKN College of Nursing",
     type: "website",

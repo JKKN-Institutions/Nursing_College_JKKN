@@ -6,51 +6,51 @@ const config: CityPageConfig = {
   cityName: "Karur",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Karur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 75-85 km away via Namakkal or Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
+    "Searching for a nursing college near Karur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 84 km away via Namakkal or Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS" },
     { value: "6-8", label: "LPA HIGHEST" },
-    { value: "~80km", label: "FROM KARUR" },
+    { value: "84 km", label: "FROM KARUR" },
     { value: "3", label: "PROGRAMMES" },
   ],
   distanceKm: "~80",
   distanceHeading: "From Karur to JKKN Nursing",
   distanceSub:
-    "Around 2 hours by road via Namakkal-Tiruchengode or via Erode; the campus is on NH-544 at Natarajapuram, Komarapalayam",
+    "about 1.5 hours by road via Namakkal-Tiruchengode or via Erode; the campus is on NH-544 at Natarajapuram, Komarapalayam",
   landscapeHeading: "Nursing Education for Karur Learners",
   landscapeParagraphs: [
     "Karur is a well-known commercial town on the banks of the Amaravathi river, famous for its home-textile export industry, bus-body building works, and as the birthplace of major banking institutions. Learners from Karur district regularly pursue professional healthcare education in Trichy, Erode and Salem belts.",
-    "For nursing aspirants from Karur, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an accessible hostel-based option — about 75-85 km away, roughly 2 hours via the Namakkal-Tiruchengode route or via Erode. That distance keeps weekend trips home practical while giving learners a residential campus experience.",
+    "For nursing aspirants from Karur, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an accessible hostel-based option — about 84 km away, about 1.5 hours via the Namakkal-Tiruchengode route or via Erode. That distance keeps weekend trips home practical while giving learners a residential campus experience.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Most Karur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Karur learners can launch a global nursing career about two hours from home.",
   ],
   whyHeading: "Why Karur Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is about 75-85 km from Karur — a hostel-friendly distance with easy weekend travel home via Namakkal or Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing is about 84 km from Karur — a hostel-friendly distance with easy weekend travel home via Namakkal or Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
   commuteDesc:
-    "About 75-85 km from Karur (~2 hours) via Namakkal-Tiruchengode or Erode. Hostel stay with weekend trips home is the popular choice.",
+    "About 84 km from Karur (about 1.5 hours) via Namakkal-Tiruchengode or Erode. Hostel stay with weekend trips home is the popular choice.",
   programmesHeading: "Nursing Courses Available for Karur Learners",
   reachHeading: "How to Reach from Karur",
-  reachRouteSummary: "75-85 km • about 2 hours",
+  reachRouteSummary: "84 km • about 1.5 hours",
   reachRoute:
     "Karur → Namakkal → Tiruchengode → Komarapalayam, or Karur → Erode → Komarapalayam via NH-544",
   reachBus:
     "Regular buses run from Karur bus stand towards Namakkal and Erode; change at Tiruchengode or Erode for Komarapalayam",
   reachRail:
-    "Karur Junction connects to Erode Junction by rail; Erode Junction is ~35 km from campus",
+    "Karur Junction connects to Erode Junction by rail; Erode Junction is 22 km from campus",
   faqSubtitle: "Nursing College near Karur — Your Questions Answered",
   faqs: [
     {
       q: "Which nursing college is accessible from Karur?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Karur learners — about 75-85 km away via Namakkal or Erode. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Karur learners — about 84 km away via Namakkal or Erode. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Karur?",
-      a: "JKKN College of Nursing is approximately 75-85 km from Karur — about 2 hours by road via the Namakkal-Tiruchengode route or via Erode. By rail, Karur Junction connects to Erode Junction, which is about 35 km from campus.",
+      a: "JKKN College of Nursing is approximately 84 km from Karur — about 1.5 hours by road via the Namakkal-Tiruchengode route or via Erode. By rail, Karur Junction connects to Erode Junction, which is about 22 km from campus.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Karur learners?",
-      a: "Yes. Separate, secure hostels for boys and girls with mess facilities and warden supervision are available on campus. With Karur about 2 hours away, learners can comfortably travel home on weekends and holidays.",
+      a: "Yes. Separate, secure hostels for boys and girls with mess facilities and warden supervision are available on campus. With Karur about 1.5 hours away, learners can comfortably travel home on weekends and holidays.",
     },
     {
       q: "What nursing courses are available for Karur learners?",
@@ -74,10 +74,10 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Namakkal", distance: "45-55 km", href: "/namakkal" },
-    { name: "Tiruchengode", distance: "55-65 km", href: "/tiruchengode" },
-    { name: "Erode", distance: "60-70 km", href: "/erode" },
-    { name: "Komarapalayam", distance: "75-85 km", href: "/komarapalayam" },
+    { name: "Namakkal", distance: "62 km", href: "/namakkal" },
+    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Karur",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Karur | B.Sc Nursing — JKKN",
   description:
-    "JKKN College of Nursing at Komarapalayam is 75-85 km from Karur via Namakkal or Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
+    "JKKN College of Nursing at Komarapalayam is 84 km from Karur via Namakkal or Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near karur, nursing colleges in karur, bsc nursing karur, nursing college karur district, jkkn nursing karur",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Karur | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is ~75-85 km from Karur. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing in Komarapalayam is 84 km from Karur. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/karur",
     siteName: "JKKN College of Nursing",
     type: "website",

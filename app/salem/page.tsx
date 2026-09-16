@@ -31,11 +31,11 @@ import {
 const faqs = [
   {
     q: "What is the best nursing college near Salem?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 40-50 km from Salem on NH-544, is an INC-approved nursing college accessible from Salem. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    a: "Sresakthimayeil Institute Of Nursing And Research, located just 57 km from Salem on NH-544, is an INC-approved nursing college accessible from Salem. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
   },
   {
     q: "How far is JKKN Nursing from Salem?",
-    a: "JKKN Nursing is approximately 40-50 km from Salem city centre, which takes about 50-60 minutes by road via NH-544 (Salem-Coimbatore Highway) — direct route. TN State Transport buses run every 15-20 minutes from Salem New Bus Stand to Komarapalayam throughout the day.",
+    a: "JKKN Nursing is approximately 57 km from Salem city centre, which takes about 1 hour by road via NH-544 (Salem-Coimbatore Highway) — direct route. TN State Transport buses run every 15-20 minutes from Salem New Bus Stand to Komarapalayam throughout the day.",
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Does JKKN Nursing provide hostel for Salem learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Salem can also opt for daily commute as the campus is just 50-60 minutes away. College transport services are available from Salem.",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Salem can also opt for daily commute as the campus is just about 1 hour away. College transport services are available from Salem.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which are the best B.Sc nursing colleges in Salem?",
-    a: "Salem has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is INC approved and 40-50 km from Salem via NH-544. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "Salem has several nursing colleges, but JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is INC approved and 57 km from Salem via NH-544. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What nursing courses are available near Salem?",
@@ -100,7 +100,7 @@ const whyChooseItems = [
   {
     icon: <TruckIcon className="w-10 h-10 text-[#006837]" />,
     title: "Easy Commute",
-    desc: "Just 40-50 km from Salem. Daily commute or comfortable hostel — your choice.",
+    desc: "Just 57 km from Salem. Daily commute or comfortable hostel — your choice.",
   },
 ];
 
@@ -155,12 +155,12 @@ const reachItems = [
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST RAILWAY STATION",
-    text: "Salem Junction (~45 km from campus)",
+    text: "Salem Junction (56 km from campus)",
   },
   {
     emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST AIRPORT",
-    text: "Salem Airport (limited flights) / Coimbatore International Airport (~15 km / ~110 km)",
+    text: "Salem Airport (limited flights) / Coimbatore International Airport (101 km / 101 km)",
   },
   {
     emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,
@@ -209,16 +209,16 @@ const facilities = [
 ];
 
 const cities = [
-  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "5-10 km", href: "/namakkal" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "30-40 km", href: "/erode" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "80-90 km", href: "/tiruppur" },
-  { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "100-110 km", href: "/coimbatore" },
+  { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "62 km", href: "/namakkal" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "22 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
+  { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "113 km", href: "/coimbatore" },
 ];
 
 export const metadata: Metadata = {
   title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
   description:
-    "JKKN College of Nursing is 40-50 km from Salem on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
+    "JKKN College of Nursing is 57 km from Salem on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   keywords:
     "nursing college in salem, bsc nursing colleges in salem, best nursing colleges in salem, salem nursing college list, nursing course in salem",
   alternates: {
@@ -227,7 +227,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
     description:
-      "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. 98% placements.",
+      "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 57 km from Salem via NH-544. INC approved, NAAC accredited. 98% placements.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/salem",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -318,7 +318,7 @@ export default function SalemPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 98% placement rate.
+              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 57 km from Salem via NH-544 with 98% placement rate.
             </p>
 
             {/* Stats Grid */}
@@ -326,7 +326,7 @@ export default function SalemPage() {
               {[
                 { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
-                { value: "45km", label: "FROM SALEM" },
+                { value: "57 km", label: "FROM SALEM" },
                 { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
                 <div
@@ -451,13 +451,13 @@ export default function SalemPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Salem sits at the eastern end of NH-544 - the highway is named for the Salem to Coimbatore route - and the JKKN campus is on it, 50 km away at Komarapalayam. Salem is one of the few towns JKKN draws from where a learner realistically has both options open: hostel, or the daily run down the highway. Which one suits you turns on your clinical posting timings rather than on the distance, because first-year postings at the attached teaching hospital start early.
+                Salem sits at the eastern end of NH-544 - the highway is named for the Salem to Coimbatore route - and the JKKN campus is on it,57 km away at Komarapalayam. Salem is one of the few towns JKKN draws from where a learner realistically has both options open: hostel, or the daily run down the highway. Which one suits you turns on your clinical posting timings rather than on the distance, because first-year postings at the attached teaching hospital start early.
               </p>
               <p>
                 Salem, the fifth-largest city in Tamil Nadu, is a major educational and healthcare hub with a thriving steel industry. Known for its medical infrastructure, Salem has several healthcare facilities but a limited number of INC-approved <strong>nursing colleges in Salem</strong> that offer both quality education and strong placement outcomes.
               </p>
               <p>
-                Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often find that the INC-approved options lie within a commute radius. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 40-50 km from Salem via NH-544 — a smooth 50-60 minute drive with excellent highway connectivity.
+                Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often find that the INC-approved options lie within a commute radius. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 57 km from Salem via NH-544 — a smooth about 1 hour drive with excellent highway connectivity.
               </p>
               <p>
                 Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners train at the 500+ bedded multi-specialty teaching hospital on the same campus, from the first year of the programme.
@@ -497,7 +497,7 @@ export default function SalemPage() {
                 Why Salem Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Located just 40-50 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
+                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Located just 57 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -668,8 +668,7 @@ export default function SalemPage() {
                     <h3 className="text-white font-bold text-base sm:text-lg md:text-xl">
                       Salem → JKKN Nursing Campus
                     </h3>
-                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">
-                      40-50 km • 50-60 minutes
+                    <p className="text-white/70 text-xs sm:text-sm mt-0.5">57 km • about 1 hour
                     </p>
                   </div>
                 </div>
