@@ -11,11 +11,11 @@ import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase,
 export const metadata: Metadata = {
   metadataBase: new URL("https://nursing.sresakthimayeil.jkkn.ac.in"),
   title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-  description: "M.Sc Nursing at JKKN College of Nursing, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 95% placement rate. Apply 2026-27.",
+  description: "M.Sc Nursing at JKKN College of Nursing, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 98% placement rate. Apply 2026-27.",
   keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
     title: "M.Sc Nursing at JKKN College of Nursing — Top MSc Nursing College Tamil Nadu",
-    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 95% placement rate. Admissions open 2026-27.",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 98% placement rate. Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-    description: "5 INC-approved specializations, 500+ bed hospital training, 95% placement rate. Apply 2026-27.",
+    description: "5 INC-approved specializations, 500+ bed hospital training, 98% placement rate. Apply 2026-27.",
   },
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
@@ -72,9 +72,12 @@ export default function MScNursing() {
     "inLanguage": "en",
     "isAccessibleForFree": false,
     "offers": {
-      "@type": "Offer",
-      "price": "125000",
+      "@type": "AggregateOffer",
+      "lowPrice": "75000",
+      "highPrice": "100000",
       "priceCurrency": "INR",
+      "offerCount": "5",
+      "description": "Management quota annual tuition fee, academic year 2026-27, by specialisation: Medical Surgical Rs 1,00,000; Obstetrics & Gynaecology Rs 80,000; Psychiatric, Paediatric and Community Health Rs 75,000 each. Government quota fees are as per Tamil Nadu government and university norms.",
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
       "validThrough": "2026-08-31",
@@ -380,7 +383,7 @@ export default function MScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 95% placement rate.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate.</p>
                 </div>
 
                 {/* Description */}
@@ -884,18 +887,18 @@ export default function MScNursing() {
                       </tr>
                       <tr className="bg-white">
                         <td className="px-6 py-4 font-medium text-gray-800">Hostel & Mess (Optional)</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹60,000</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹60,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">₹60,000</td>
+                        <td className="px-6 py-4 text-center text-gray-700">₹60,000</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 font-medium text-gray-800">Examination Fee</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}As per university</td>
-                        <td className="px-6 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}As per university</td>
+                        <td className="px-6 py-4 text-center text-gray-700">As per university</td>
+                        <td className="px-6 py-4 text-center text-gray-700">As per university</td>
                       </tr>
                       <tr className="bg-[#006837]/5">
-                        <td className="px-6 py-4 font-bold text-[#006837]">Total (Approx.)</td>
-                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,35,000 – ₹1,60,000</td>
-                        <td className="px-6 py-4 text-center font-bold text-[#006837]">{/* [DATA NEEDED] */}₹1,35,000 – ₹1,60,000</td>
+                        <td className="px-6 py-4 font-bold text-[#006837]">Total (Approx., tuition + optional hostel)</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">₹1,35,000 – ₹1,60,000</td>
+                        <td className="px-6 py-4 text-center font-bold text-[#006837]">₹1,35,000 – ₹1,60,000</td>
                       </tr>
                     </tbody>
                   </table>
@@ -935,31 +938,31 @@ export default function MScNursing() {
                     <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-medical-surgical" className="hover:underline">Medical Surgical</Link></td>
                     <td className="px-4 py-4 text-gray-700">Critical care, perioperative, oncology nursing</td>
                     <td className="px-4 py-4 text-gray-700">ICU Specialist, Nurse Educator, Clinical Coordinator</td>
-                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–8 LPA</td>
+                    <td className="px-4 py-4 text-gray-700">Contact the placement cell</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-child-health" className="hover:underline">Child Health</Link></td>
                     <td className="px-4 py-4 text-gray-700">Pediatric care, NICU, adolescent health</td>
                     <td className="px-4 py-4 text-gray-700">Pediatric Nurse, NICU Specialist, Child Health Educator</td>
-                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–7 LPA</td>
+                    <td className="px-4 py-4 text-gray-700">Contact the placement cell</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-obstetrics-gynecological" className="hover:underline">OBG Nursing</Link></td>
                     <td className="px-4 py-4 text-gray-700">Maternal health, labor management, reproductive health</td>
                     <td className="px-4 py-4 text-gray-700">Midwife Specialist, Women&apos;s Health Educator, OBG Coordinator</td>
-                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–7 LPA</td>
+                    <td className="px-4 py-4 text-gray-700">Contact the placement cell</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-community-health" className="hover:underline">Community Health</Link></td>
                     <td className="px-4 py-4 text-gray-700">Public health, epidemiology, health promotion</td>
                     <td className="px-4 py-4 text-gray-700">Public Health Officer, Community Nurse, NGO Program Manager</td>
-                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹3.5–7 LPA</td>
+                    <td className="px-4 py-4 text-gray-700">Contact the placement cell</td>
                   </tr>
                   <tr>
                     <td className="px-4 py-4 font-semibold text-[#006837]"><Link href="/course-msc-mental-health" className="hover:underline">Mental Health</Link></td>
                     <td className="px-4 py-4 text-gray-700">Psychiatric nursing, psychotherapy, rehabilitation</td>
                     <td className="px-4 py-4 text-gray-700">Psychiatric Nurse, Mental Health Counselor, De-addiction Specialist</td>
-                    <td className="px-4 py-4 text-gray-700">{/* [DATA NEEDED] */}₹4–8 LPA</td>
+                    <td className="px-4 py-4 text-gray-700">Contact the placement cell</td>
                   </tr>
                 </tbody>
               </table>
@@ -1235,33 +1238,33 @@ export default function MScNursing() {
                   <tbody className="divide-y divide-gray-200 text-sm">
                     <tr>
                       <td className="px-5 py-4 font-medium text-gray-800">Nursing Educator / Lecturer</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹3.5–5 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹5–8 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹8–15 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="px-5 py-4 font-medium text-gray-800">Clinical Nurse Specialist</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–6 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹6–10 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹10–18 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                     <tr>
                       <td className="px-5 py-4 font-medium text-gray-800">Nursing Superintendent / Administrator</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–6 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹6–12 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹12–20 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="px-5 py-4 font-medium text-gray-800">International (UK NHS / Middle East)</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹15–25 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹25–40 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹40–60 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                     <tr>
                       <td className="px-5 py-4 font-medium text-gray-800">Government Nursing Officer</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹4–5.5 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹5.5–8 LPA</td>
-                      <td className="px-5 py-4 text-center text-gray-700">{/* [DATA NEEDED] */}₹8–14 LPA</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
+                      <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                   </tbody>
                 </table>
@@ -1287,19 +1290,19 @@ export default function MScNursing() {
 
             <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}100%</div>
-                <div className="text-gray-600 font-medium">Placement Support</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">100%</div>
+                <div className="text-gray-600 font-medium">M.Sc Placement (2024-25)</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}60+</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">80+</div>
                 <div className="text-gray-600 font-medium">Recruiting Partners</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}₹25 LPA</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">₹25 LPA</div>
                 <div className="text-gray-600 font-medium">Highest Package</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">{/* [DATA NEEDED] */}5+</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">6</div>
                 <div className="text-gray-600 font-medium">Countries</div>
               </div>
             </div>

@@ -181,10 +181,6 @@ export default function FeeStructure() {
                     <td className="px-5 py-4 font-medium text-gray-800">Library & Lab Fee</td>
                     <td className="px-5 py-4 text-gray-600 italic">Included in tuition fee</td>
                   </tr>
-                  <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
-                    <td className="px-5 py-4 font-medium text-gray-800">Uniform & ID Card</td>
-                    <td className="px-5 py-4 text-gray-700">₹3,000 <span className="text-xs text-gray-500">(one-time)</span></td>
-                  </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">Caution Deposit</td>
                     <td className="px-5 py-4 text-gray-700">₹5,000 <span className="text-xs text-green-600 font-medium">(refundable)</span></td>
@@ -277,7 +273,7 @@ export default function FeeStructure() {
                 </div>
                 <h3 className="text-base font-semibold text-[#006837] mb-2">Merit Scholarship</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Top rankers in NEET-UG eligible for fee concession up to 25%
+                  Merit-based fee concessions on 10+2 performance
                 </p>
               </div>
               <div className="bg-[#FBFBEE] rounded-xl border border-gray-200 p-6 shadow-sm hover:shadow-md transition-shadow">

@@ -47,7 +47,7 @@ const feeFaqSchema = {
       "name": "Are scholarships available for nursing students at JKKN?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, JKKN offers government scholarships for BC/MBC/SC/ST students, merit-based fee concessions up to 25% for NEET toppers, JKKN Trust scholarships for economically weaker sections, and education loan tie-ups with major banks.",
+        "text": "Yes, JKKN offers government scholarships for BC/MBC/SC/ST students, merit-based fee concessions on 10+2 performance, JKKN Trust scholarships for economically weaker sections, and education loan tie-ups with major banks.",
       },
     },
     {

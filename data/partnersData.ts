@@ -73,7 +73,7 @@ export const certifications = [
   },
   {
     id: 4,
-    type: "Certified by",
+    type: "Participated in",
     organization: "ARIIA",
     logo: "/images/certifications/ariia.png",
     description: 'JKKN - Proud and Honoured - Ranking 2021 - "Band Beginner"',

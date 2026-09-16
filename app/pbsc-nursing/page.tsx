@@ -48,7 +48,7 @@ export default function PBScNursing() {
     "isAccessibleForFree": false,
     "offers": {
       "@type": "Offer",
-      "price": "85000",
+      "price": "65000",
       "priceCurrency": "INR",
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
@@ -187,7 +187,7 @@ export default function PBScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for GNM/ANM graduates, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the 500+ bed hospital.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the 500+ bed hospital.</p>
                 </div>
 
                 {/* Description */}
@@ -222,8 +222,8 @@ export default function PBScNursing() {
                     <div className="text-xs sm:text-sm text-gray-300">Seats Available</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">97%</div>
-                    <div className="text-xs sm:text-sm text-gray-300">Success Rate</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">INC</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Approved</div>
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">No</div>
@@ -340,7 +340,7 @@ export default function PBScNursing() {
                 </div>
                 <h3 className="text-xl font-bold text-[#006837] mb-4">Higher Salary</h3>
                 <p className="text-gray-700 text-sm leading-relaxed">
-                  B.Sc qualified nurses earn 30-50% more than diploma holders in most healthcare settings.
+                  A B.Sc degree opens senior staff, supervisory and teaching roles that a diploma alone does not.
                 </p>
               </div>
 
@@ -1038,23 +1038,23 @@ export default function PBScNursing() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">97%</div>
-                <div className="text-xl font-semibold mb-2">Completion Rate</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">2</div>
+                <div className="text-xl font-semibold mb-2">Years, Full Time</div>
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">40%</div>
-                <div className="text-xl font-semibold mb-2">Average Salary Increase</div>
-              </div>
-
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">30+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">80+</div>
                 <div className="text-xl font-semibold mb-2">Partner Hospitals</div>
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">300+</div>
-                <div className="text-xl font-semibold mb-2">Successful Alumni</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">INC</div>
+                <div className="text-xl font-semibold mb-2">Approved Programme</div>
+              </div>
+
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">TNMGRMU</div>
+                <div className="text-xl font-semibold mb-2">Affiliated Degree</div>
               </div>
             </div>
           </div>

@@ -135,7 +135,7 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "95%", label: "PLACEMENT RATE" },
+  { value: "98%", label: "PLACEMENT RATE" },
   { value: "6-8", label: "LPA HIGHEST" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
@@ -227,7 +227,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing Colleges in Salem | B.Sc Nursing Near Salem — JKKN",
     description:
-      "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. 95% placements.",
+      "Looking for the best nursing colleges in Salem? JKKN College of Nursing is just 40-50 km from Salem via NH-544. INC approved, NAAC accredited. 98% placements.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/salem",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -281,8 +281,8 @@ export default function SalemPage() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 11.4333,
-              longitude: 77.7167,
+              latitude: 11.4433168,
+              longitude: 77.7315664,
             },
             areaServed: {
               "@type": "City",
@@ -318,13 +318,13 @@ export default function SalemPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 95% placement rate.
+              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 40-50 km from Salem via NH-544 with 98% placement rate.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "95%", label: "PLACEMENTS" },
+                { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "45km", label: "FROM SALEM" },
                 { value: "3", label: "PROGRAMMES" },
@@ -483,7 +483,7 @@ export default function SalemPage() {
                 </div>
               </div>
               <p>
-                With 95% placement rate including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+                With 98% placement rate including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
               </p>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function SalemPage() {
                 Why Salem Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 95% placement rate. Located just 40-50 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
+                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Located just 40-50 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -746,7 +746,7 @@ export default function SalemPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">95%</div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
                 <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>

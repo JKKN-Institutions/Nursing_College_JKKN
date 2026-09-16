@@ -48,16 +48,16 @@ export default function TestimonialsPage() {
           <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
             <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-white/20">
               <div className="py-6 text-center">
-                <p className="text-2xl sm:text-3xl font-bold">57+</p>
-                <p className="text-white/80 text-xs sm:text-sm mt-1">Years of Excellence</p>
+                <p className="text-2xl sm:text-3xl font-bold">74+</p>
+                <p className="text-white/80 text-xs sm:text-sm mt-1">Years of JKKN Legacy</p>
               </div>
               <div className="py-6 text-center">
                 <p className="text-2xl sm:text-3xl font-bold">3</p>
                 <p className="text-white/80 text-xs sm:text-sm mt-1">Nursing Programs</p>
               </div>
               <div className="py-6 text-center">
-                <p className="text-2xl sm:text-3xl font-bold">A+</p>
-                <p className="text-white/80 text-xs sm:text-sm mt-1">NAAC Grade</p>
+                <p className="text-2xl sm:text-3xl font-bold">NAAC</p>
+                <p className="text-white/80 text-xs sm:text-sm mt-1">Accredited</p>
               </div>
               <div className="py-6 text-center">
                 <p className="text-2xl sm:text-3xl font-bold">INC</p>

@@ -135,7 +135,7 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "95%", label: "PLACEMENT RATE" },
+  { value: "98%", label: "PLACEMENT RATE" },
   { value: "6-8", label: "LPA HIGHEST" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
@@ -222,7 +222,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
   description:
-    "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 95% placements.",
+    "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placements.",
   keywords:
     "nursing colleges in erode, erode nursing college, erode nursing college list, nursing college in erode district, best nursing college near erode, bsc nursing in erode",
   alternates: {
@@ -231,7 +231,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
     description:
-      "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. 95% placements.",
+      "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 35 km from Erode on NH-544. INC approved, NAAC accredited. 98% placements.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/erode",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -285,8 +285,8 @@ export default function ErodePage() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 11.4333,
-              longitude: 77.7167,
+              latitude: 11.4433168,
+              longitude: 77.7315664,
             },
             areaServed: {
               "@type": "City",
@@ -324,13 +324,13 @@ export default function ErodePage() {
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
               Searching for the best nursing colleges in Erode? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
-              programmes — just 35 km from Erode via NH-544 with 95% placement rate.
+              programmes — just 35 km from Erode via NH-544 with 98% placement rate.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "95%", label: "PLACEMENTS" },
+                { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "35km", label: "FROM ERODE" },
                 { value: "3", label: "PROGRAMMES" },
@@ -477,7 +477,7 @@ export default function ErodePage() {
                 </div>
               </div>
               <p>
-                With 95% placement rate including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA), Erode learners at JKKN gain a significant career advantage. The campus also offers secure hostel facilities for learners who prefer not to commute daily, along with regular college transport services from Erode.
+                With 98% placement rate including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA), Erode learners at JKKN gain a significant career advantage. The campus also offers secure hostel facilities for learners who prefer not to commute daily, along with regular college transport services from Erode.
               </p>
             </div>
           </div>
@@ -492,7 +492,7 @@ export default function ErodePage() {
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 Among nursing colleges in Erode district, JKKN offers
-                INC approval, NAAC accreditation, and 95% placement rate.
+                INC approval, NAAC accreditation, and 98% placement rate.
                 Located just 35 km from Erode on NH-544, it is closer than many
                 Erode nursing colleges in the city itself — making daily commute
                 comfortable and quick for Erode learners.
@@ -744,7 +744,7 @@ export default function ErodePage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">95%</div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
                 <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>

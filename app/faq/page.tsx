@@ -16,11 +16,11 @@ const faqCategories = [
       },
       {
         q: "How many years of experience does JKKN have in education?",
-        a: "J.K.K. Nattraja Group of Educational Institutions has 57 years of experience in the field of educational service, having been established in 1963 by Shri. J.K.K. Nattarajah.",
+        a: "J.K.K. Nattraja Group of Educational Institutions has over 74 years of experience in educational service, having been established in 1952. JKKN College of Nursing itself was established in 2006.",
       },
       {
         q: "What accreditations does the college hold?",
-        a: "The institution holds A+ Grade by NAAC and B++ Grade by ARIIA. It is also approved by the Indian Nursing Council (INC).",
+        a: "The institution is NAAC accredited and approved by the Indian Nursing Council (INC). It is also registered with the Tamil Nadu Nurses and Midwives Council (TNNMC) and affiliated to Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
       },
       {
         q: "Which university is the college affiliated to?",
@@ -70,11 +70,11 @@ const faqCategories = [
       },
       {
         q: "What is the eligibility for Post Basic B.Sc. Nursing (P.B.B.Sc.) admission?",
-        a: "Candidates must have completed a Diploma in General Nursing and Midwifery (GNM) and hold a valid nursing registration.",
+        a: "Candidates must have completed a Diploma in General Nursing and Midwifery (GNM) with a minimum of 50% aggregate marks (45% for reserved categories) and hold a valid TNNMC registration.",
       },
       {
         q: "Are admissions currently open?",
-        a: "Yes, admissions are open for 2025-2026 for B.Sc. Nursing, P.B.B.Sc. Nursing, and M.Sc. Nursing programs. Visit our Admissions page or contact +91 93458 55001 to apply.",
+        a: "Yes, admissions are open for 2026-27 for B.Sc. Nursing, P.B.B.Sc. Nursing, and M.Sc. Nursing programs. Visit our Admissions page or contact +91 93458 55001 to apply.",
       },
       {
         q: "Where can I find fee structure and refund policy details?",
