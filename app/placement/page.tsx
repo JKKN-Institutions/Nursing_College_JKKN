@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Placements at JKKN College of Nursing — 95% Success Rate | NHS UK, Apollo, Fortis",
+      "Placements at JKKN College of Nursing — 98% Success Rate | NHS UK, Apollo, Fortis",
     description:
-      "95% placement rate with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
+      "98% placement rate (2024-25) with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     type: "website",
     siteName: "JKKN College of Nursing",
@@ -56,16 +56,16 @@ export const metadata: Metadata = {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing Placements — 95% Success Rate",
+        alt: "JKKN College of Nursing Placements — 98% Success Rate",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Placements at JKKN College of Nursing — 95% Success Rate",
+      "Placements at JKKN College of Nursing — 98% Success Rate",
     description:
-      "95% placement rate, 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
+      "98% placement rate, 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
 };
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "What is the placement rate at JKKN College of Nursing?",
-    a: "JKKN College of Nursing has a consistent placement rate of 95%, with graduates placed in top hospitals across India and internationally. In 2024–25, 55 out of 58 eligible learners were placed successfully.",
+    a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate, as filed in the college's NIRF 2026 submission. Graduates are placed in top hospitals across India and internationally.",
   },
   {
     q: "Which companies and hospitals recruit from JKKN College of Nursing?",
@@ -136,7 +136,7 @@ const placementPageSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/placement#webpage",
   name: "Placements at JKKN College of Nursing",
   description:
-    "Comprehensive placement record of JKKN College of Nursing with 95% success rate, 80+ recruiters, and international opportunities in 6 countries.",
+    "Comprehensive placement record of JKKN College of Nursing with 98% success rate (2024-25), 80+ recruiters, and international opportunities in 6 countries.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
   isPartOf: {
     "@type": "WebSite",
@@ -202,26 +202,30 @@ const placementPageSchema = {
    DATA
    ───────────────────────────────────────────── */
 
+// Source: the college's own NIRF'2026 submission to the Ministry of Education
+// (Inst. Code 262, IR-O-C-45803), UG "Placement & higher studies" table.
+// "Learners Placed" = students placed / students graduating in minimum stipulated time.
+// "Median Salary" is the median salary of placed graduates as filed in NIRF.
 const yearWiseStats = [
   {
     year: "2024–25",
-    placed: "55 / 58",
-    rate: "95%",
-    avgPkg: "₹4.2 LPA",
+    placed: "58 / 59",
+    rate: "98%",
+    avgPkg: "₹3.6 LPA",
     highPkg: "₹25 LPA (International)",
   },
   {
     year: "2023–24",
-    placed: "52 / 56",
-    rate: "93%",
-    avgPkg: "₹3.8 LPA",
+    placed: "55 / 60",
+    rate: "92%",
+    avgPkg: "₹3.84 LPA",
     highPkg: "₹22 LPA (International)",
   },
   {
     year: "2022–23",
-    placed: "48 / 52",
-    rate: "92%",
-    avgPkg: "₹3.5 LPA",
+    placed: "51 / 51",
+    rate: "100%",
+    avgPkg: "₹1.8 LPA",
     highPkg: "₹20 LPA (International)",
   },
 ];
@@ -416,36 +420,6 @@ const placementProcess = [
   },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "Getting placed at NHS UK with a ₹22 LPA package was a dream I thought was out of reach. JKKN's OET coaching and visa guidance made it possible. The senior learners prepared us not just clinically but for international standards.",
-    name: "[UPDATE — Student Name]",
-    batch: "B.Sc Nursing — 2023 Batch",
-    company: "NHS UK — ₹22 LPA",
-  },
-  {
-    quote:
-      "I am now working at Apollo Hospitals, Chennai, in the ICU department. The clinical training at JKKN's 500-bed hospital gave me hands-on confidence from day one. The placement cell conducted mock interviews that were extremely helpful.",
-    name: "[UPDATE — Student Name]",
-    batch: "B.Sc Nursing — 2024 Batch",
-    company: "Apollo Hospitals, Chennai",
-  },
-  {
-    quote:
-      "Being selected for Cleveland Clinic Abu Dhabi is beyond what I imagined. JKKN's HAAD coaching and the dedicated international placement cell handled everything — from the application to the visa process.",
-    name: "[UPDATE — Student Name]",
-    batch: "M.Sc Nursing — 2023 Batch",
-    company: "Cleveland Clinic Abu Dhabi",
-  },
-  {
-    quote:
-      "After completing M.Sc Nursing, I got placed as a Nursing Educator. The research exposure and clinical training at JKKN gave me a strong foundation for teaching. The placement cell connected me with multiple colleges.",
-    name: "[UPDATE — Student Name]",
-    batch: "M.Sc Nursing — 2024 Batch",
-    company: "Nursing Education Institution",
-  },
-];
 
 const licensingExams = [
   {
@@ -522,7 +496,7 @@ export default function PlacementsPage() {
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight"
                 data-speakable="true"
               >
-                95% Placement Success Rate — Your Nursing Career Starts Here
+                98% Placement Success Rate — Your Nursing Career Starts Here
               </h1>
               <p className="text-green-100 text-base sm:text-lg lg:text-xl mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
                 80+ recruiters including NHS UK, Apollo, Fortis, and Cleveland
@@ -535,7 +509,7 @@ export default function PlacementsPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-10">
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 sm:p-6 border border-white/20">
                   <p className="text-3xl sm:text-4xl font-bold text-[#FFD700]">
-                    95%
+                    98%
                   </p>
                   <p className="text-green-100 text-sm mt-1">
                     Placement Success Rate
@@ -611,7 +585,7 @@ export default function PlacementsPage() {
                       Placement Rate
                     </th>
                     <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Avg Package (India)
+                      Median Salary (India)
                     </th>
                     <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
                       Highest Package
@@ -650,10 +624,11 @@ export default function PlacementsPage() {
             </div>
 
             <p className="text-xs text-gray-500 mt-4 text-center">
-              * Statistics are based on eligible learners who registered
-              with the Placement Cell. International packages converted at
-              prevailing exchange rates. [UPDATE — Verify exact numbers with
-              Placement Cell]
+              * Placement counts and median salaries are as filed in the
+              college&rsquo;s NIRF 2026 submission to the Ministry of Education.
+              &ldquo;Learners Placed&rdquo; is students placed out of students
+              graduating in the minimum stipulated time. International packages
+              converted at prevailing exchange rates.
             </p>
           </div>
         </section>
@@ -799,8 +774,9 @@ export default function PlacementsPage() {
               Ready to Start Your Nursing Career?
             </h2>
             <p className="text-green-100 mb-6 max-w-xl mx-auto">
-              Join 1000+ alumni who have launched successful careers in
-              healthcare — in India and across 6 countries worldwide.
+              Join the 192 learners who graduated in the last three years
+              (2022-23 to 2024-25, per the college&rsquo;s NIRF 2026 filing) and
+              launched careers in healthcare — in India and across 6 countries.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -921,8 +897,7 @@ export default function PlacementsPage() {
             </div>
 
             <p className="text-xs text-gray-500 mt-6 text-center">
-              * Sector percentages are approximate and vary by academic year.
-              [UPDATE — Verify percentages with Placement Cell]
+              * Sector percentages are indicative and vary by academic year.
             </p>
           </div>
         </section>
@@ -967,53 +942,6 @@ export default function PlacementsPage() {
                     <span className="font-medium">JKKN Support:</span>{" "}
                     {exam.support}
                   </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* ═══════════════════════════════════════════
-            SECTION 8: STUDENT TESTIMONIALS
-            ═══════════════════════════════════════════ */}
-        <section className="py-12 sm:py-16 lg:py-20 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-16">
-            <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3">
-                Learner Success Stories
-              </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Hear from our graduates who have built successful nursing
-                careers in India and abroad.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
-              {testimonials.map((t, idx) => (
-                <div
-                  key={idx}
-                  className="bg-[#FBFBEE] rounded-xl border border-gray-200 p-5 sm:p-6"
-                >
-                  <div className="flex gap-1 mb-3">
-                    {[...Array(5)].map((_, i) => (
-                      <StarIcon
-                        key={i}
-                        className="w-4 h-4 text-[#FFD700] fill-[#FFD700]"
-                      />
-                    ))}
-                  </div>
-                  <blockquote className="text-gray-700 text-sm sm:text-base italic mb-4 leading-relaxed">
-                    &ldquo;{t.quote}&rdquo;
-                  </blockquote>
-                  <div>
-                    <p className="font-semibold text-gray-800 text-sm">
-                      {t.name}
-                    </p>
-                    <p className="text-xs text-gray-500">{t.batch}</p>
-                    <p className="text-xs text-[#0b7845] font-medium mt-1">
-                      Placed at: {t.company}
-                    </p>
-                  </div>
                 </div>
               ))}
             </div>
@@ -1130,7 +1058,7 @@ export default function PlacementsPage() {
               Build Your Healthcare Career with JKKN
             </h2>
             <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-              95% placement rate. 80+ recruiters. International opportunities in
+              98% placement rate. 80+ recruiters. International opportunities in
               6 countries. Dedicated placement cell with complete career support
               — from exam coaching to visa assistance.
             </p>

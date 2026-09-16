@@ -31,7 +31,7 @@ const localBusinessSchema = {
   "@type": "EducationalOrganization",
   "name": "JKKN College of Nursing",
   "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 95% placement rate.",
+  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 98% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "info@jkkn.ac.in",
@@ -46,8 +46,8 @@ const localBusinessSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": 11.4333,
-    "longitude": 77.7167
+    "latitude": 11.4433168,
+    "longitude": 77.7315664
   },
   "openingHoursSpecification": [
     {
@@ -84,7 +84,7 @@ const faqSchema = {
       "name": "Is JKKN College of Nursing approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, J.K.K. Nattraja College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
+        "text": "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
       }
     },
     {
@@ -100,7 +100,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 95% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -132,7 +132,7 @@ const faqSchema = {
       "name": "What are the M.Sc Nursing specializations available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Admission is based on entrance exam and B.Sc Nursing percentage."
+        "text": "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Government-quota seats are filled through the Tamil Nadu Selection Committee (Directorate of Medical Education) on a published rank list; management-quota seats are filled directly by the college on academic merit. Eligibility is a B.Sc Nursing degree with 55% aggregate, one year of clinical experience and valid registration."
       }
     },
     {
@@ -152,7 +152,7 @@ const medicalBusinessSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#localbusiness",
   "name": "JKKN College of Nursing",
   "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 95% placement rate.",
+  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 98% placement rate.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
@@ -168,8 +168,8 @@ const medicalBusinessSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "11.4102",
-    "longitude": "77.7274"
+    "latitude": "11.4433168",
+    "longitude": "77.7315664"
   },
   "hasMap": "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
   "openingHoursSpecification": [
@@ -235,39 +235,6 @@ const howToSchema = {
     { "@type": "HowToStep", "position": 3, "name": "Merit-Based Selection", "text": "Candidates evaluated based on academic merit. Shortlisted candidates invited for counseling at JKKN campus." },
     { "@type": "HowToStep", "position": 4, "name": "Counseling & Seat Allotment", "text": "Attend counseling at JKKN campus. Seats allotted based on merit rank, category, and specialization preference." },
     { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay the prescribed fee (MQ: B.Sc ₹1,50,000 Female / ₹1,75,000 Male, M.Sc ₹75,000–₹1,00,000, Post Basic ₹65,000; GQ as per Govt norms) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
-  ]
-};
-
-const reviewSchema = {
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-  "name": "JKKN College of Nursing",
-  "review": [
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Priya Subramanian" },
-      "reviewBody": "The simulation labs at JKKN gave me the confidence I needed before clinical postings. Today I work as a Staff Nurse at Apollo Hospitals, Chennai.",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "datePublished": "2025-06-15",
-      "itemReviewed": { "@type": "Course", "name": "B.Sc Nursing" }
-    },
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Rajesh Kumar" },
-      "reviewBody": "The research exposure and clinical specialization at JKKN's M.Sc program prepared me for an academic career. Now I'm a Nursing Lecturer.",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "datePublished": "2025-08-20",
-      "itemReviewed": { "@type": "Course", "name": "M.Sc Nursing" }
-    },
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Anitha Murugan" },
-      "reviewBody": "The international placement support changed my life. From IELTS coaching to UK visa assistance. Now I'm earning in GBP with NHS UK.",
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "datePublished": "2025-03-10",
-      "itemReviewed": { "@type": "Course", "name": "B.Sc Nursing" }
-    }
   ]
 };
 
@@ -383,10 +350,6 @@ export default async function Home() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
-      />
-      <script
-        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema) }}
       />
       <script
@@ -425,7 +388,7 @@ export default async function Home() {
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 95% placement success.
+                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98% placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -483,7 +446,7 @@ export default async function Home() {
                     <div className="flex items-center gap-1.5 sm:gap-2">
                       <StarIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#f59e0b]" />
                       <div>
-                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">95% Placement</p>
+                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98% Placement</p>
                         <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Success Rate</p>
                       </div>
                     </div>
@@ -491,7 +454,7 @@ export default async function Home() {
 
                   {/* Badge - Top Left */}
                   <div className="absolute top-4 -left-4 sm:top-6 sm:-left-6 lg:top-8 lg:-left-8 bg-[#7cb983] rounded-full w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex flex-col items-center justify-center shadow-xl">
-                    <span className="text-white font-bold text-base sm:text-lg lg:text-xl">70+</span>
+                    <span className="text-white font-bold text-base sm:text-lg lg:text-xl">74+</span>
                     <span className="text-white text-[6px] sm:text-[7px] lg:text-[8px] font-medium">YEARS LEGACY</span>
                   </div>
                 </div>
@@ -502,9 +465,9 @@ export default async function Home() {
             <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-8 sm:mt-10 md:mt-12">
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
-                { number: "95%", label: "PLACEMENT RATE" },
+                { number: "98%", label: "PLACEMENT RATE" },
                 { number: "500+", label: "BED HOSPITAL\nTRAINING" },
-                { number: "500+", label: "ACTIVE LEARNERS" },
+                { number: "266", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
                 <div
                   key={index}
@@ -585,7 +548,7 @@ export default async function Home() {
                   Nurturing Compassionate Healthcare Leaders Since 2006
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  JKKN College of Nursing, part of JKKN Institutions celebrating #JKKN100, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
+                  JKKN College of Nursing, part of JKKN Institutions, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
                   Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced senior learners combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
@@ -629,7 +592,7 @@ export default async function Home() {
               <div className="relative mt-8 lg:mt-0">
                 {/* Badge - positioned to avoid overflow */}
                 <div className="absolute -top-4 sm:-top-6 md:-top-8 right-2 sm:right-4 md:-right-4 lg:-right-8 w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 bg-[#7cb983] rounded-[30px] sm:rounded-[40px] flex flex-col items-center justify-center text-white shadow-2xl z-10">
-                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold">70+</div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl font-bold">74+</div>
                   <div className="text-[8px] sm:text-[10px] md:text-xs font-bold uppercase">YEARS LEGACY</div>
                 </div>
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
@@ -863,7 +826,7 @@ export default async function Home() {
                   International Placements
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Direct recruitment partnerships with hospitals in UK, USA, Canada, Australia, Singapore, and Gulf countries. NCLEX and IELTS preparation support included.
+                  Direct recruitment partnerships with hospitals in the UK, UAE, Saudi Arabia, Singapore, Australia and Canada. NCLEX and IELTS preparation support included.
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 hover:bg-white/20 transition-all duration-300">
@@ -899,7 +862,7 @@ export default async function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
               {[
-                { number: "95%", label: "Placement Rate" },
+                { number: "98%", label: "Placement Rate" },
                 { number: "₹4.2L", label: "Avg. Package" },
                 { number: "₹25L", label: "Highest (International)" },
                 { number: "80+", label: "Recruiting Partners" },
@@ -1137,7 +1100,7 @@ export default async function Home() {
                     {
                       program: "B.Sc Nursing:",
                       criteria:
-                        "+2 with PCB, minimum 45% marks (40% for SC/ST), age 17-35 years",
+                        "+2 with PCB, minimum 45% marks (40% for SC/ST); eligibility as per INC and Tamil Nadu government norms",
                     },
                     {
                       program: "M.Sc Nursing:",
@@ -1298,7 +1261,7 @@ export default async function Home() {
                 {
                   question: "Is JKKN College of Nursing approved by INC?",
                   answer:
-                    "Yes, J.K.K. Nattraja College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
+                    "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
                 },
                 {
                   question: "What is the fee structure for nursing programs?",
@@ -1308,7 +1271,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 95% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters from UK (NHS), USA, Canada, Australia, Singapore, and Gulf countries. Starting salaries range from ₹3.5-6 LPA in India and ₹15-25 LPA internationally. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",
@@ -1328,7 +1291,7 @@ export default async function Home() {
                 {
                   question: "What are the M.Sc Nursing specializations available?",
                   answer:
-                    "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Admission is based on entrance exam and B.Sc Nursing percentage.",
+                    "JKKN offers M.Sc Nursing in 5 specializations: Medical-Surgical Nursing (most popular), Obstetrics & Gynecological Nursing, Pediatric (Child Health) Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization prepares you for advanced clinical practice, nursing education, administration, and research roles. Government-quota seats are filled through the Tamil Nadu Selection Committee (Directorate of Medical Education) on a published rank list; management-quota seats are filled directly by the college on academic merit. Eligibility is a B.Sc Nursing degree with 55% aggregate, one year of clinical experience and valid registration.",
                 },
                 {
                   question: "How do I choose the best nursing college in Tamil Nadu?",
@@ -1364,7 +1327,7 @@ export default async function Home() {
               Ready to Begin Your Nursing Journey?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-3xl mx-auto">
-              Join JKKN College of Nursing and become part of a legacy of healthcare excellence spanning 100 years. Applications for 2026-27 are now open.
+              Join JKKN College of Nursing and become part of the JKKN Institutions legacy, built since 1952. Applications for 2026-27 are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a

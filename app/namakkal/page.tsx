@@ -135,7 +135,7 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "95%", label: "PLACEMENT RATE" },
+  { value: "98%", label: "PLACEMENT RATE" },
   { value: "6-8", label: "LPA HIGHEST" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
@@ -281,8 +281,8 @@ export default function NamakkalPage() {
             },
             geo: {
               "@type": "GeoCoordinates",
-              latitude: 11.4333,
-              longitude: 77.7167,
+              latitude: 11.4433168,
+              longitude: 77.7315664,
             },
             areaServed: {
               "@type": "City",
@@ -318,13 +318,13 @@ export default function NamakkalPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Namakkal? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is located right in Komarapalayam, Namakkal district — offering INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with 95% placement rate.
+              Searching for the best nursing college in Namakkal? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) is located right in Komarapalayam, Namakkal district — offering INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with 98% placement rate.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "95%", label: "PLACEMENTS" },
+                { value: "98%", label: "PLACEMENTS" },
                 { value: "6-8", label: "LPA HIGHEST" },
                 { value: "10km", label: "FROM NAMAKKAL" },
                 { value: "3", label: "PROGRAMMES" },
@@ -483,7 +483,7 @@ export default function NamakkalPage() {
                 </div>
               </div>
               <p>
-                Namakkal learners at JKKN enjoy the shortest commute among all JKKN city catchments — just 5-10 km from Namakkal city centre. With 95% placement rate including international opportunities in the UK, Gulf, and Australia, JKKN offers Namakkal learners a world-class nursing education right at their doorstep.
+                Namakkal learners at JKKN enjoy the shortest commute among all JKKN city catchments — just 5-10 km from Namakkal city centre. With 98% placement rate including international opportunities in the UK, Gulf, and Australia, JKKN offers Namakkal learners a world-class nursing education right at their doorstep.
               </p>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function NamakkalPage() {
                 Why Namakkal Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                JKKN offers INC approval, NAAC accreditation, and 95% placement rate. Located in Komarapalayam — just 5-10 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
+                JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Located in Komarapalayam — just 5-10 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -746,7 +746,7 @@ export default function NamakkalPage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">95%</div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
                 <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>

@@ -205,9 +205,9 @@ export const heroSlides = [
     image: "/images/hero/slide1.jpg",
     title: "Sresakthimayeil Institute Of Nursing And Research",
     subtitle: "JKKN Educational Institutions",
-    buttonText: "Online Admissions 2025-2026",
+    buttonText: "Online Admissions 2026-27",
     buttonLink: "/admissions",
-    accreditations: ["A+ NAAC", "B++ ARIIA"],
+    accreditations: ["NAAC Accredited", "INC Approved"],
   },
   {
     id: 2,

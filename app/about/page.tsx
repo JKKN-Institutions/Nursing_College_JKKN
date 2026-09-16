@@ -67,7 +67,7 @@ export default function About() {
           Location
         </h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          The college is located on the Salem-Coimbatore National Highway (NH-544) at Komarapalayam in Namakkal district, Tamil Nadu. The campus is accessible from Salem (55 km), Erode (35 km), Coimbatore (90 km), Namakkal (25 km), and Tiruchengode (10 km).
+          The college is located on the Salem-Coimbatore National Highway (NH-544) at Komarapalayam in Namakkal district, Tamil Nadu. By road the campus is about 66 km from Salem, 49 km from Erode, 113 km from Coimbatore, 57 km from Namakkal and 26 km from Tiruchengode.
         </p>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">
