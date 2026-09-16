@@ -26,10 +26,12 @@ export const siteData = {
     youtube: "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
   },
   accreditations: [
-    "A+ Grade by NAAC",
-    "B++ Grade by ARIIA",
+    "NAAC Accredited",
+    "INC Approved",
+    "TNNMC Registered",
+    "Affiliated to Tamil Nadu Dr. M.G.R. Medical University",
   ],
-  aboutText: `J.K.K.Nattraja Group of Educational Institutions runs many colleges of excellence, having 57 years of experience in the field of educational service. The Founder, SHRI.J.K.K.NATTARAJAH, first established girls' school in the year 1963 and J.K.K.Rangammal charitable trust in the year 1959 & later started with dental, pharmacy, nursing, aided engineering school, and matriculation schools with a clear mandate to provide quality education in all fields of education for the welfare of women, poor & downtrodden in this rural area. His work is successfully carried by his daughter SHRIMATHI N.SENDAMARAAI, who established engineering, nursing & education colleges for the welfare of both genders.`,
+  aboutText: `J.K.K.Nattraja Group of Educational Institutions runs many colleges of excellence, with over 74 years in educational service since 1952. The Founder, SHRI.J.K.K.NATTARAJAH, established the group's first school and the J.K.K.Rangammal Charitable Trust, and later started dental, pharmacy, nursing, engineering and matriculation schools with a clear mandate to provide quality education in all fields of education for the welfare of women, poor & downtrodden in this rural area. His work is successfully carried by his daughter SHRIMATHI N.SENDAMARAAI, who established engineering, nursing & education colleges for the welfare of both genders.`,
 };
 
 export const navigationMenu = [
