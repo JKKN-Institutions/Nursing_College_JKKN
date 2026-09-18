@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Faculty | JKKN College of Nursing',
   description:
     'Meet the experienced faculty of JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
-  alternates: { canonical: '/faculty' },
+  alternates: { canonical: 'https://nursing.sresakthimayeil.jkkn.ac.in/faculty' },
   openGraph: {
     title: 'Faculty | JKKN College of Nursing',
     description:
@@ -115,7 +115,7 @@ export default async function FacultyPage() {
 
                 return (
                   <div key={m.id}>
-                    <a href={`/faculty/${m.slug || m.id}/`} className="block">
+                    <a href={`/faculty/${m.slug || m.id}`} className="block">
                       {card}
                     </a>
                   </div>

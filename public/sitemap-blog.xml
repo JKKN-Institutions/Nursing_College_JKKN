@@ -65,4 +65,35 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <!-- Added 2026-09-11: live posts that were in no sitemap. lastmod = datePublished from each post's JSON-LD. -->
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/bsc-nursing-in-tamil-nadu-2026-complete-guide-to-admission-eligibility-fees-scope-salary</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/msc-child-health-paediatric-nursing-in-tamil-nadu-career-scope-hospital-jobs-salary-2026</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/msc-community-health-nursing-in-tamil-nadu-public-health-career-government-jobs-salary-2026</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/msc-medical-surgical-nursing-in-tamil-nadu-scope-specializations-career-path-salary-guide-2026</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/post-basic-bsc-nursing-guide-for-gnm-holders</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

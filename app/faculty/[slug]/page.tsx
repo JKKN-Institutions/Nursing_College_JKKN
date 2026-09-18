@@ -47,7 +47,7 @@ export async function generateMetadata({
   return {
     title,
     description,
-    alternates: { canonical: `/faculty/${slug}` },
+    alternates: { canonical: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}` },
     openGraph: { title, description, url: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}`, siteName: 'JKKN College of Nursing', type: 'website', locale: 'en_IN' },
     twitter: { card: 'summary_large_image', title, description },
   };
