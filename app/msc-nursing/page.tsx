@@ -69,7 +69,10 @@ export default function MScNursing() {
     "coursePrerequisites": "B.Sc Nursing with minimum 55% aggregate marks, 1 year clinical experience, TNNMC registration",
     "about": ["Medical Surgical Nursing", "Child Health Nursing", "Community Health Nursing", "Obstetrics & Gynecology Nursing", "Mental Health Nursing"],
     "educationalLevel": "Postgraduate",
-    "numberOfCredits": 120,
+    // numberOfCredits 120 removed 2026-09-18: the page states no credit count anywhere (the
+    // only "credit" match in its visible text is the word ACCREDITED) and no INC or TNMGRMU
+    // document in this audit gives 120 for a 2-year M.Sc Nursing. It is neither visible nor
+    // sourced, and Google does not require it on Course. Same class as the /pbsc-nursing price.
     "inLanguage": "en",
     "isAccessibleForFree": false,
     "offers": {
