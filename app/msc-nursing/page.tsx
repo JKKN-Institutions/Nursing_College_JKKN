@@ -81,7 +81,10 @@ export default function MScNursing() {
       "description": "Management quota annual tuition fee, academic year 2026-27, by specialisation: Medical Surgical Rs 1,00,000; Obstetrics & Gynaecology Rs 80,000; Psychiatric, Paediatric and Community Health Rs 75,000 each. Government quota fees are as per Tamil Nadu government and university norms.",
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
-      "validThrough": "2026-08-31",
+      // Was 2026-08-31 - already expired at audit time (2026-09-18), which tells Google
+      // and the answer engines that this admission offer has CLOSED, in the middle of the
+      // cycle. Moved to the end of the 2026-27 cycle; revisit when it actually closes.
+      "validThrough": "2026-12-31",
       "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
     },
     "hasCourseInstance": {

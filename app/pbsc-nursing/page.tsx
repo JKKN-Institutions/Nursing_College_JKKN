@@ -47,13 +47,23 @@ export default function PBScNursing() {
     "coursePrerequisites": "GNM Diploma with minimum 50% marks, valid TNNMC registration",
     "inLanguage": "en",
     "isAccessibleForFree": false,
+    // price/priceCurrency removed 2026-09-18. This page asserted Rs 65,000 to crawlers while
+    // showing the visitor NO fee at all - its visible text carries only a "Fee Structure" nav
+    // link and the words "pay the prescribed admission fee". Structured data must not state what
+    // the page does not show; it is the same defect class as the FAQ answers that were in the
+    // JSON-LD but never in the DOM. It was also the ONLY course page asserting a numeric price -
+    // /admissions/*, every course-msc-* page and CourseAdmissionDetail all carry a price-free
+    // Offer. The figure itself is not in dispute (Rs 65,000 MQ, as the homepage OfferCatalog and
+    // /fee-structure give it); if it should be advertised here, add it to the PAGE and the schema
+    // can quote it again.
+    // validThrough was 2026-08-31 - already expired at audit time, which tells Google the offer
+    // has ended. Moved to the end of the 2026-27 admission cycle.
     "offers": {
       "@type": "Offer",
-      "price": "65000",
-      "priceCurrency": "INR",
       "availability": "https://schema.org/InStock",
+      "category": "Government Quota / Management Quota",
       "validFrom": "2026-03-01",
-      "validThrough": "2026-08-31",
+      "validThrough": "2026-12-31",
       "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
     },
     "hasCourseInstance": {

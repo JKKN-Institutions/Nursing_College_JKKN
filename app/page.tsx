@@ -209,7 +209,10 @@ const scholarshipOfferSchema = {
   "eligibleRegion": { "@type": "Country", "name": "India" },
   "availability": "https://schema.org/InStock",
   "validFrom": "2026-03-01",
-  "validThrough": "2026-08-31",
+  // Was 2026-08-31 - already expired at audit time (2026-09-18), which tells Google
+  // and the answer engines that this admission offer has CLOSED, in the middle of the
+  // cycle. Moved to the end of the 2026-27 cycle; revisit when it actually closes.
+  "validThrough": "2026-12-31",
   "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
 };
 
