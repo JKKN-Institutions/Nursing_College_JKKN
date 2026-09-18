@@ -77,7 +77,10 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_SITE_DOMAIN ?? 'nursing.sresakthimayeil.jkkn.ac.in',
 
   /** Logo path (relative to /public) */
-  logoPath: process.env.NEXT_PUBLIC_LOGO_PATH ?? '/images/logo.png',
+  // Fallback was '/images/logo.png', which returns 404 (measured 2026-09-18) while
+  // '/images/nursing_logo.png' returns 200. logoPath has no reader today, so this is a trap
+  // set for whoever wires it up next: a fallback that resolves to nothing looks like it works.
+  logoPath: process.env.NEXT_PUBLIC_LOGO_PATH ?? '/images/nursing_logo.png',
 } as const;
 
 export type SiteConfig = typeof siteConfig;
