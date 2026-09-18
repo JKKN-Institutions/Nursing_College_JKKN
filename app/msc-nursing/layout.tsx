@@ -34,20 +34,15 @@ export const metadata: Metadata = {
   },
 };
 
-const mscFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "What M.Sc Nursing specializations does JKKN offer?", "acceptedAnswer": { "@type": "Answer", "text": "5 specializations: 1) Medical-Surgical Nursing (most popular), 2) OBG Nursing, 3) Pediatric Nursing, 4) Psychiatric Nursing, 5) Community Health Nursing." } },
-    { "@type": "Question", "name": "What is the eligibility for M.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "B.Sc Nursing or Post Basic B.Sc with 55% marks, 1 year clinical experience, valid TNNMC registration. 2 years full-time, 25 seats. MQ fees from ₹75,000–₹1,00,000/year by specialization." } },
-    { "@type": "Question", "name": "What careers after M.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Nursing Educator, Clinical Nurse Specialist, Nurse Manager, Research Associate, Advanced Practice Nurse in specialized departments." } },
-    { "@type": "Question", "name": "What is the M.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Management Quota (MQ) annual fees by specialization: Medical Surgical ₹1,00,000, OBG & GYN ₹80,000, Psychiatric / Paediatric / Community Health ₹75,000 each. Government Quota (GQ) fees are as per Govt norms. Hostel available separately. Scholarships and education loans available." } }
-  ]
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 const mscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing#course",
   "name": "Master of Science in Nursing (M.Sc Nursing)",
   "description": "2-year INC-approved postgraduate nursing program at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. Affiliated to Tamil Nadu Dr. MGR Medical University. Specializations in Child Health, Community Health, Medical-Surgical, Mental Health, and OBG Nursing.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
@@ -87,10 +82,6 @@ export default function MScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(mscNursingSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(mscFaqSchema) }}
       />
       {children}
     </>

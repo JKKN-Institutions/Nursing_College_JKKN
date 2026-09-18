@@ -26,55 +26,6 @@ import { Suspense } from "react";
 import ScrollToSection from "@/components/ScrollToSection";
 import HomepagePopup from "@/components/HomepagePopup";
 
-const localBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
-  "name": "JKKN College of Nursing",
-  "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college in Komarapalayam with 500+ bed hospital training. B.Sc, M.Sc & Post Basic B.Sc Nursing programs with 98% placement rate.",
-  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
-  "telephone": "+919345855001",
-  "email": "info@jkkn.ac.in",
-  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
-    "addressLocality": "Komarapalayam",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "638183",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 11.4433168,
-    "longitude": 77.7315664
-  },
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "opens": "09:00",
-      "closes": "17:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Saturday"],
-      "opens": "09:00",
-      "closes": "13:00"
-    }
-  ],
-  "areaServed": [
-    "Komarapalayam", "Namakkal", "Erode", "Salem", "Tiruchengode",
-    "Rasipuram", "Tamil Nadu", "India"
-  ],
-  "sameAs": [
-    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
-    "https://www.facebook.com/jkknnursing",
-    "https://www.instagram.com/jkknnursing",
-    "https://www.linkedin.com/school/jkknnursing"
-  ]
-};
-
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -146,63 +97,22 @@ const faqSchema = {
   ]
 };
 
-const medicalBusinessSchema = {
-  "@context": "https://schema.org",
-  "@type": "MedicalBusiness",
-  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#localbusiness",
-  "name": "JKKN College of Nursing",
-  "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
-  "description": "INC-approved nursing college with 500+ bed teaching hospital in Komarapalayam, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing with 98% placement rate.",
-  "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
-  "telephone": "+919345855001",
-  "email": "nursing@jkkn.ac.in",
-  "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
-  "priceRange": "₹65,000 - ₹1,75,000 per year (Management Quota)",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
-    "addressLocality": "Komarapalayam",
-    "addressRegion": "Tamil Nadu",
-    "postalCode": "638183",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "11.4433168",
-    "longitude": "77.7315664"
-  },
-  "hasMap": "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
-  "openingHoursSpecification": [
-    {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-      "opens": "09:00",
-      "closes": "17:00"
-    }
-  ],
-  "areaServed": [
-    { "@type": "City", "name": "Komarapalayam" },
-    { "@type": "City", "name": "Namakkal" },
-    { "@type": "City", "name": "Salem" },
-    { "@type": "City", "name": "Erode" },
-    { "@type": "City", "name": "Tiruchengode" },
-    { "@type": "State", "name": "Tamil Nadu" }
-  ],
-  "currenciesAccepted": "INR",
-  "paymentAccepted": "Cash, Bank Transfer, UPI, Education Loan"
-};
-
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Nursing Programs at JKKN College of Nursing",
   "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing, Komarapalayam",
-  "numberOfItems": 4,
+  // GNM was listed here as a 4th offered programme at Rs 75,000/year pointing at /gnm.
+  // /gnm returns 404 (measured 2026-09-18) and GNM carries no sanctioned intake in the
+  // college's NIRF filings, which show only UG [4 Years] 60 and PG [2 Year] 25. Advertising a
+  // programme with no seats and no page is the same defect found on Dental (MDS OMFS, 0 seats).
+  // NOTE: "for GNM holders" on Post Basic below is CORRECT and deliberately kept - Post Basic
+  // B.Sc is the degree-completion route for people who already hold a GNM diploma.
+  "numberOfItems": 3,
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing", "description": "4-year undergraduate – 60 seats – MQ ₹1,50,000 (Female) / ₹1,75,000 (Male)" },
     { "@type": "ListItem", "position": 2, "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing", "description": "2-year postgraduate with 5 specializations – 25 seats – MQ ₹75,000–₹1,00,000" },
-    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – MQ ₹65,000" },
-    { "@type": "ListItem", "position": 4, "name": "GNM", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/gnm", "description": "Diploma in General Nursing and Midwifery – ₹75,000/year" }
+    { "@type": "ListItem", "position": 3, "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing", "description": "2-year degree completion for GNM holders – 50 seats – MQ ₹65,000" }
   ]
 };
 
@@ -210,10 +120,16 @@ const specialAnnouncementSchema = {
   "@context": "https://schema.org",
   "@type": "SpecialAnnouncement",
   "name": "JKKN College of Nursing – Admissions Open 2026-27",
-  "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats), Post Basic B.Sc Nursing (50 seats), and GNM programs for the 2026-27 academic year. Merit scholarships up to 75% available.",
+  "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats) and Post Basic B.Sc Nursing (50 seats) for the 2026-27 academic year. Merit scholarships up to 75% available.",
   "datePosted": "2026-03-01",
-  "expires": "2026-08-31",
-  "category": "https://www.wikidata.org/wiki/Q7397",
+  // Was 2026-08-31, i.e. already expired on 2026-09-18 - an expired SpecialAnnouncement is
+  // ignored by Google and tells answer engines admissions are closed. Extended to the end of
+  // the 2026-27 admission cycle; revisit when the cycle actually closes.
+  "expires": "2026-12-31",
+  // "category" previously pointed at Q7397, which is the Wikidata item for SOFTWARE (verified
+  // live 2026-09-18). It is dropped rather than replaced: SpecialAnnouncement.category is
+  // intended for public-health/emergency categorisation and carries nothing for an admissions
+  // notice. Google's SpecialAnnouncement does not require it.
   "announcementLocation": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
@@ -324,17 +240,16 @@ export default async function Home() {
       <Suspense fallback={null}>
         <ScrollToSection />
       </Suspense>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
+      {/* localBusinessSchema and medicalBusinessSchema were removed 2026-09-18. Between them and
+          the root layout, one college was being declared as FOUR separate entities - #organization,
+          #college, an EducationalOrganization with no @id at all, and #localbusiness typed
+          MedicalBusiness (wrong: this is an educational institution, not a healthcare provider).
+          They also disagreed on email (info@ vs nursing@). Their unique, real properties
+          (opening hours, priceRange, hasMap, payment) now live on the single #college node in
+          app/layout.tsx, so the whole site presents one entity with one @id. */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalBusinessSchema) }}
       />
       <script
         type="application/ld+json"
@@ -753,7 +668,6 @@ export default async function Home() {
                   Post Basic B.Sc Admission →
                 </Link>
               </div>
-
 
             </div>
 

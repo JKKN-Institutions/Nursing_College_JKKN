@@ -22,60 +22,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/fee-structure" },
 };
 
-const feeFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the fee for B.Sc Nursing at JKKN College?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The annual fee for B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research under Management Quota (MQ) is ₹1,50,000 for female students and ₹1,75,000 for male students. Government Quota (GQ) fees are as per Govt norms.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "What is the hostel fee at Sresakthimayeil Institute Of Nursing And Research?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hostel fees range from ₹60,000 to ₹75,000 per year depending on room type. This includes food and basic amenities.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "Are scholarships available for nursing students at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, JKKN offers government scholarships for BC/MBC/SC/ST students, merit-based fee concessions on 10+2 performance, JKKN Trust scholarships for economically weaker sections, and education loan tie-ups with major banks.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "What is the fee for M.Sc Nursing at JKKN?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The annual fee for M.Sc Nursing under Management Quota (MQ) ranges from ₹75,000 to ₹1,00,000 depending on the specialization: Medical Surgical ₹1,00,000, OBG & GYN ₹80,000, Psychiatric / Paediatric / Community Health ₹75,000 each. Government Quota (GQ) fees are as per Govt norms.",
-      },
-    },
-    {
-      "@type": "Question",
-      "name": "Does Sresakthimayeil Institute Of Nursing And Research help with education loans?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, JKKN has tie-ups with SBI, Indian Bank, Canara Bank, and HDFC for education loans. The college provides documentation assistance and guidance for loan applications.",
-      },
-    },
-  ],
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 export default function FeeStructureLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(feeFaqSchema) }}
-      />
       {children}
     </>
   );

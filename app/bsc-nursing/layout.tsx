@@ -38,21 +38,15 @@ export const metadata: Metadata = {
   },
 };
 
-const bscFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "What is the B.Sc Nursing fee at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Management Quota (MQ) annual fee: ₹1,50,000 for female students and ₹1,75,000 for male students. Includes uniform, hospital training, and nursing kit. Government Quota (GQ) fees are as per Govt norms. Hostel available separately. Scholarships and education loans available." } },
-    { "@type": "Question", "name": "Is NEET required for B.Sc Nursing at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "No, NEET is not required. Admission is merit-based on 10+2 with PCB. Minimum 45% marks (40% for SC/ST). Apply online at www.jkkn.ai/apply/jkkn-admission-2026." } },
-    { "@type": "Question", "name": "What is the B.Sc Nursing duration at JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "4-year full-time program including mandatory clinical internship at the attached 500+ bed teaching hospital. Hands-on training from Year 1." } },
-    { "@type": "Question", "name": "What careers after B.Sc Nursing from JKKN?", "acceptedAnswer": { "@type": "Answer", "text": "Staff Nurse, ICU Specialist, Community Health Nurse, Nursing Supervisor, International Nursing (NHS UK, UAE, Singapore). NCLEX prep, IELTS coaching, visa support provided. Domestic: ₹3.8-4.2 LPA. International: ₹15-25 LPA." } },
-    { "@type": "Question", "name": "Does JKKN B.Sc Nursing include hospital training?", "acceptedAnswer": { "@type": "Answer", "text": "Yes – 500+ bed multi-specialty teaching hospital. Real patient interactions from Year 1 across Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry. Advanced simulation labs complement clinical training." } }
-  ]
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 const bscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course",
   name: "Bachelor of Science in Nursing (B.Sc Nursing)",
   description:
     "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 98% placement rate.",
@@ -123,7 +117,8 @@ const localBusinessSchema = {
   "@type": "EducationalOrganization",
   name: "JKKN College of Nursing",
   alternateName: "Sresakthimayeil Institute Of Nursing And Research",
-  image: "https://nursing.sresakthimayeil.jkkn.ac.in/images/logo.png",
+  // /images/logo.png returns 404 (measured 2026-09-18); the real asset is nursing_logo.png.
+  image: "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   telephone: "+919345855001",
   email: "nursing@jkkn.ac.in",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
@@ -212,10 +207,6 @@ export default function BScNursingLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(bscNursingSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(bscFaqSchema) }}
       />
       <script
         type="application/ld+json"

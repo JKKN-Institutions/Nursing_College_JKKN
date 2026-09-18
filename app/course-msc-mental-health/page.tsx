@@ -59,6 +59,23 @@ export default function MScMentalHealthNursing() {
             {
               "@context": "https://schema.org",
               "@type": "Course",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Onsite",
+                "courseWorkload": "P2Y",
+                "location": {
+                  "@type": "Place",
+                  "name": "JKKN College of Nursing",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+                    "addressLocality": "Komarapalayam",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "638183",
+                    "addressCountry": "IN"
+                  }
+                }
+              },
               "name": "M.Sc Psychiatric (Mental Health) Nursing",
               "description": "A 2-year postgraduate nursing specialization in Psychiatric and Mental Health Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers therapeutic interventions, community mental health, psychiatric rehabilitation, and de-addiction nursing.",
               "provider": {
@@ -76,7 +93,7 @@ export default function MScMentalHealthNursing() {
               "@context": "https://schema.org",
               "@type": "FAQPage",
               "mainEntity": [
-                {
+      {
                   "@type": "Question",
                   "name": "What is the scope of M.Sc Nursing in Mental Health Nursing?",
                   "acceptedAnswer": {
@@ -84,7 +101,7 @@ export default function MScMentalHealthNursing() {
                     "text": "M.Sc Nursing in Mental Health Nursing offers excellent career scope given India's growing mental health needs. Graduates can work as psychiatric nursing educators in nursing colleges, clinical nurse specialists in psychiatric hospitals, community mental health nurses under DMHP, de-addiction center coordinators, mental health researchers, and psychiatric nursing administrators. The National Mental Health Policy and Mental Healthcare Act 2017 have created numerous opportunities in both government and private sectors."
                   }
                 },
-                {
+      {
                   "@type": "Question",
                   "name": "Is prior experience in psychiatry required for admission?",
                   "acceptedAnswer": {
@@ -92,7 +109,7 @@ export default function MScMentalHealthNursing() {
                     "text": "No, prior experience specifically in psychiatry is not mandatory for admission. Candidates need minimum 1 year of clinical nursing experience in any area after completing B.Sc Nursing. However, candidates with interest or experience in mental health settings may have an advantage during the selection process. The program provides comprehensive psychiatric nursing training from fundamentals to advanced practice."
                   }
                 },
-                {
+      {
                   "@type": "Question",
                   "name": "What types of psychiatric facilities are available for clinical training?",
                   "acceptedAnswer": {
@@ -100,23 +117,15 @@ export default function MScMentalHealthNursing() {
                     "text": "Sresakthimayeil Institute Of Nursing And Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
                   }
                 },
-                {
+      {
                   "@type": "Question",
                   "name": "Can I pursue Ph.D. after completing M.Sc in Mental Health Nursing?",
                   "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes, M.Sc Nursing in Mental Health Nursing graduates are eligible for Ph.D. programs in Nursing. This opens opportunities for advanced research careers, senior academic positions as Professors, Principal, or Dean positions in nursing colleges. Several universities in India offer Ph.D. in Nursing with research focus on psychiatric and mental health nursing areas."
                   }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What therapeutic skills are taught in the M.Sc Mental Health Nursing program?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The program covers therapeutic communication techniques, individual psychotherapy, group therapy facilitation, family therapy principles, cognitive behavioral therapy basics, crisis intervention, suicide prevention, motivational interviewing for substance abuse, relaxation techniques, art and music therapy basics, and psychiatric rehabilitation techniques. Learners practice these skills through simulation exercises and supervised clinical practice."
-                  }
                 }
-              ]
+    ]
             }
           ])
         }}

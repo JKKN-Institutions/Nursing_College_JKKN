@@ -71,7 +71,9 @@ export const metadata: Metadata = {
 };
 
 /* ─────────────────────────────────────────────
-   SCHEMA — FAQPage + ItemList + AggregateRating
+   SCHEMA — FAQPage + ItemList
+   (No AggregateRating: a self-serving rating on your own Organization is not eligible for a
+   Google rich result and none is published. The old heading named one that never existed.)
    ───────────────────────────────────────────── */
 
 const faqData = [

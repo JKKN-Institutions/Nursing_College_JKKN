@@ -52,13 +52,18 @@ export function CityFaqAccordion({ faqs }: CityFaqAccordionProps) {
               </svg>
             </span>
           </button>
-          {openFaq === i && (
-            <div className="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 md:pb-6">
-              <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
-                {faq.a}
-              </p>
-            </div>
-          )}
+          {/* Always mounted, shown/hidden with `hidden`. Conditional mounting kept the answer
+              out of the DOM until a click, so the FAQPage JSON-LD asserted answers no crawler
+              could ever see - a Google structured-data policy breach. Google allows FAQ answers
+              inside an expandable section; it does not allow them to be absent. */}
+          <div
+            hidden={openFaq !== i}
+            className="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 md:pb-6"
+          >
+            <p className="text-gray-500 text-sm sm:text-base leading-relaxed">
+              {faq.a}
+            </p>
+          </div>
         </div>
       ))}
     </div>

@@ -43,10 +43,8 @@ export default function AisheLayout({
 }) {
     return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nursing.sresakthimayeil.jkkn.ac.in/"},{"@type":"ListItem","position":2,"name":"AISHE","item":"https://nursing.sresakthimayeil.jkkn.ac.in/aishe"}]}' }}
-      />
+      {/* Duplicate BreadcrumbList removed 2026-09-18 - page.tsx already renders
+          <BreadcrumbSchema>, so this page shipped the same crumb trail twice. */}
       {children}
     </>
   );

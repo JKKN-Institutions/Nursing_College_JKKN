@@ -403,6 +403,26 @@ export default function CourseAdmissionDetail({ course }: Props) {
             educationalCredentialAwarded: course.full,
             timeRequired: course.durationISO,
             coursePrerequisites: course.eligibility[0],
+            // hasCourseInstance is REQUIRED by Google for a Course rich result; without it the
+            // whole Course block is ineligible. courseMode + courseWorkload are the two
+            // properties Google wants on the instance.
+            hasCourseInstance: {
+              "@type": "CourseInstance",
+              courseMode: "Onsite",
+              courseWorkload: course.durationISO,
+              location: {
+                "@type": "Place",
+                name: "JKKN College of Nursing",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+                  addressLocality: "Komarapalayam",
+                  addressRegion: "Tamil Nadu",
+                  postalCode: "638183",
+                  addressCountry: "IN",
+                },
+              },
+            },
             offers: {
               "@type": "Offer",
               url: APPLY_URL,

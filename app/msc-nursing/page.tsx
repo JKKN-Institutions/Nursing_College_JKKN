@@ -41,6 +41,7 @@ export default function MScNursing() {
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing#course",
     "name": "Master of Science in Nursing (M.Sc Nursing)",
     "description": "2-year postgraduate M.Sc Nursing program with 5 specializations and clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
@@ -158,14 +159,6 @@ export default function MScNursing() {
       },
       {
         "@type": "Question",
-        "name": "What is the M.Sc Nursing fees at JKKN College of Nursing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "M.Sc Nursing fees at JKKN depend on the specialisation, per year: Medical-Surgical Nursing ₹1,00,000, Obstetrics & Gynaecological Nursing ₹80,000, and Psychiatric / Mental Health, Child Health (Paediatric) and Community Health Nursing ₹75,000 each. Government Quota and Management Quota are charged at the same rate. Hostel, mess and exam fees are additional. Call +91 93458 55001 to confirm before you apply."
-        }
-      },
-      {
-        "@type": "Question",
         "name": "What is the salary after M.Sc Nursing in India?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -182,42 +175,10 @@ export default function MScNursing() {
       },
       {
         "@type": "Question",
-        "name": "How many M.Sc Nursing seats are available at JKKN?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN College of Nursing has an annual intake of 25 seats for M.Sc Nursing, distributed across 5 specializations: Medical Surgical, Child Health, Community Health, OBG, and Mental Health Nursing."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the clinical training facility for M.Sc Nursing at JKKN?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Learners also gain community health experience in rural and urban settings."
-        }
-      },
-      {
-        "@type": "Question",
         "name": "Can working nurses join M.Sc Nursing at JKKN?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, working nurses with B.Sc Nursing degree, minimum 55% marks, 1 year clinical experience, and valid RN & RM registration can apply for M.Sc Nursing at JKKN. The program is designed to advance staff nurses to educator, specialist, and leadership roles."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which university is JKKN College of Nursing affiliated to?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is also approved by the Indian Nursing Council (INC) and recognized by TNNMC."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What documents are required for M.Sc Nursing admission?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Required documents include: B.Sc Nursing degree and mark sheets, 10th & 12th certificates, RN & RM registration certificate, 1-year experience certificate, Transfer Certificate, Aadhaar Card, community certificate (if applicable), passport photos, and medical fitness certificate."
         }
       },
       {
@@ -230,34 +191,10 @@ export default function MScNursing() {
       },
       {
         "@type": "Question",
-        "name": "Does JKKN offer scholarships for M.Sc Nursing learners?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, JKKN provides scholarship opportunities for meritorious learners and those from economically weaker sections. Government scholarships (BC/MBC/SC/ST) are also facilitated through the institution. Contact the admissions office for current scholarship details."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the M.Sc Nursing admission process at JKKN for 2026-27?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "The M.Sc Nursing admission process at JKKN involves 3 steps: (1) Submit online application with required documents at jkkn.ai/apply/jkkn-admission-2026, (2) Attend counseling for specialization selection, (3) Complete fee payment and document verification for enrollment. Applications for 2026-27 are open."
-        }
-      },
-      {
-        "@type": "Question",
         "name": "Can I become a nursing professor with M.Sc Nursing?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yes, M.Sc Nursing is the minimum qualification required to teach as a Lecturer or Assistant Professor in nursing colleges as per INC norms. With a Ph.D., you can advance to Professor and Principal positions. JKKN's regular M.Sc Nursing is fully recognized for teaching positions."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What are the international job opportunities after M.Sc Nursing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "M.Sc Nursing graduates can work internationally in the UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore, and Australia. International nursing positions offer ₹15-60 LPA. JKKN's placement cell supports international recruitment drives."
         }
       }
     ]

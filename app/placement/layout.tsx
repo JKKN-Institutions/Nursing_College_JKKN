@@ -51,60 +51,10 @@ const placementWebPageSchema = {
   }
 };
 
-const placementFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What is the placement rate at Sresakthimayeil Institute Of Nursing And Research?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Sresakthimayeil Institute Of Nursing And Research maintains a 98% placement rate. Over 80 recruiters visit campus annually, including top hospitals in India and international organisations such as NHS UK, Cleveland Clinic Abu Dhabi, and Aster DM Healthcare.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which companies recruit from Sresakthimayeil Institute Of Nursing And Research?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Major recruiters include Apollo Hospitals, Fortis Healthcare, Manipal Hospitals, Kauvery Hospital, MIOT Hospitals, KMCH, and Meenakshi Mission Hospital in India, and internationally NHS UK, Cleveland Clinic Abu Dhabi, Saudi German Hospital, Aster DM Healthcare (UAE), and Singapore General Hospital.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is the average salary package for nursing graduates from JKKN?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "For domestic placements the average salary is Rs. 3.5-4.5 LPA in private hospitals and Rs. 5.0-7.0 LPA in government hospitals. For international placements, average salaries range from Rs. 15-25 LPA, with the highest package at Rs. 25+ LPA for NHS UK positions.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Does Sresakthimayeil Institute Of Nursing And Research provide international placement support?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. JKKN has active international placement partnerships with organisations in the UK (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides visa guidance, documentation support, and licensing exam preparation for all international destinations.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Does Sresakthimayeil Institute Of Nursing And Research help with NCLEX and IELTS preparation?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. JKKN operates a dedicated training centre that prepares students for NCLEX-RN (USA nursing licence), OET and IELTS (required for UK and Australia), DHA and HAAD exams (UAE), and PROMETRIC exams (Saudi Arabia). Coaching is provided as part of the placement programme.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "When do placement drives happen at Sresakthimayeil Institute Of Nursing And Research?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Placement activities at JKKN are conducted year-round as an integral part of the curriculum. Major campus recruitment drives are held from August to February, coinciding with the end of the academic year and peak hiring cycles for hospitals in India and abroad.",
-      },
-    },
-  ],
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 export default function PlacementLayout({
   children,
@@ -116,10 +66,6 @@ export default function PlacementLayout({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(placementWebPageSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(placementFaqSchema) }}
       />
       {children}
     </>

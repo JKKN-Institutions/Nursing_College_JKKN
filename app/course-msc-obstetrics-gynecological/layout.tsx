@@ -70,52 +70,10 @@ const mscObstetricsGynecologicalSchema = {
   }
 };
 
-const mscObstetricsGynecologicalFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the duration of M.Sc Nursing in Obstetrics and Gynecology Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "M.Sc Nursing in Obstetrics and Gynecology Nursing is a 2-year full-time postgraduate program divided into 4 semesters. The first year focuses on core nursing subjects, research methodology, and foundational OBG nursing courses including antenatal care and normal midwifery. The second year emphasizes advanced clinical specialization in high-risk pregnancy, neonatal care, gynecological nursing, and dissertation/thesis work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the eligibility criteria for M.Sc OBG Nursing admission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Candidates must have completed B.Sc Nursing (4-year course) or Post Basic B.Sc Nursing with a minimum of 55% aggregate marks from a recognized university. Additionally, applicants must possess valid registration with the State Nursing Council as RN/RM and have at least 1 year of clinical work experience after completing their basic nursing degree."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What career opportunities are available after completing M.Sc OBG Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Graduates can pursue diverse careers including Nursing Educator/Lecturer specializing in maternal-child health at nursing colleges, Clinical Nurse Midwife, Women's Health Consultant, Labor Ward Manager, NICU Specialist, Research Associate in maternal health, Quality Assurance Officer in maternity services, and can also pursue Ph.D. in Nursing for academic and research careers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the M.Sc OBG Nursing program at JKKN approved by INC?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, the M.Sc Nursing program in Obstetrics and Gynecology at Sresakthimayeil Institute Of Nursing And Research is approved by the Indian Nursing Council (INC) and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is also recognized by the Tamil Nadu Nurses and Midwives Council, ensuring that the degree is valid for employment and higher education across India."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What specialization areas are covered in OBG Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "OBG Nursing specialization encompasses antenatal care, intrapartum nursing, postnatal care, high-risk pregnancy management, neonatal nursing, gynecological nursing, reproductive health, family planning services, infertility counseling, and women's health promotion. Learners gain comprehensive expertise in managing maternal and newborn care across various clinical settings."
-      }
-    }
-  ]
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 export default function MScObstetricsGynecologicalLayout({
   children,
@@ -125,7 +83,6 @@ export default function MScObstetricsGynecologicalLayout({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mscObstetricsGynecologicalSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mscObstetricsGynecologicalFaqSchema) }} />
       {children}
     </>
   );

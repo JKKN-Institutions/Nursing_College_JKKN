@@ -134,8 +134,46 @@ export default async function FacultyProfilePage({
   const iconBox = 'w-10 h-10 rounded-xl flex items-center justify-center text-lg flex-shrink-0';
   const chip = 'px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-700';
 
+  // ── Person schema. These 18 profile pages previously carried NO Person node at all: the only
+  // JSON-LD on them came from the root layout, so every faculty page described the college and
+  // not the person the page is about. Every value below is read from the same CMS row the page
+  // renders, so the schema cannot drift from the visible content.
+  const facultyUrl = `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${m.slug ?? slug}`;
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    '@id': `${facultyUrl}#profilepage`,
+    url: facultyUrl,
+    mainEntity: {
+      '@type': 'Person',
+      '@id': `${facultyUrl}#person`,
+      name: m.name,
+      url: facultyUrl,
+      jobTitle: m.designation,
+      ...(m.department ? { department: m.department } : {}),
+      ...(m.qualification ? { hasCredential: m.qualification } : {}),
+      ...(m.photo_url ? { image: m.photo_url } : {}),
+      ...(m.email ? { email: m.email } : {}),
+      ...(areasOfSpecialisation.length ? { knowsAbout: areasOfSpecialisation } : {}),
+      // Only real, externally resolvable profiles belong in sameAs.
+      ...(([m.google_scholar_url, m.researchgate_url, m.orcid_url].filter(Boolean) as string[]).length
+        ? { sameAs: [m.google_scholar_url, m.researchgate_url, m.orcid_url].filter(Boolean) }
+        : {}),
+      worksFor: {
+        '@type': 'CollegeOrUniversity',
+        '@id': 'https://nursing.sresakthimayeil.jkkn.ac.in/#college',
+        name: 'JKKN College of Nursing',
+        url: 'https://nursing.sresakthimayeil.jkkn.ac.in/',
+      },
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       <Header />
       <main className="min-h-screen bg-[#FBF8F3]">
         {/* ── Hero ── */}

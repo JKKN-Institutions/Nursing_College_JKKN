@@ -70,52 +70,10 @@ const mscMentalHealthSchema = {
   }
 };
 
-const mscMentalHealthFaqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the scope of M.Sc Nursing in Mental Health Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "M.Sc Nursing in Mental Health Nursing offers excellent career scope given India's growing mental health needs. Graduates can work as psychiatric nursing educators in nursing colleges, clinical nurse specialists in psychiatric hospitals, community mental health nurses under DMHP, de-addiction center coordinators, mental health researchers, and psychiatric nursing administrators. The National Mental Health Policy and Mental Healthcare Act 2017 have created numerous opportunities in both government and private sectors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is prior experience in psychiatry required for admission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, prior experience specifically in psychiatry is not mandatory for admission. Candidates need minimum 1 year of clinical nursing experience in any area after completing B.Sc Nursing. However, candidates with interest or experience in mental health settings may have an advantage during the selection process. The program provides comprehensive psychiatric nursing training from fundamentals to advanced practice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of psychiatric facilities are available for clinical training?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sresakthimayeil Institute Of Nursing And Research has affiliations with government psychiatric hospitals, private mental health centers, de-addiction centers, and community mental health programs. Clinical rotations include acute psychiatric wards, outpatient psychiatric clinics, child and adolescent psychiatry units, geriatric psychiatry, forensic psychiatry, rehabilitation centers, and District Mental Health Programme facilities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I pursue Ph.D. after completing M.Sc in Mental Health Nursing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, M.Sc Nursing in Mental Health Nursing graduates are eligible for Ph.D. programs in Nursing. This opens opportunities for advanced research careers, senior academic positions as Professors, Principal, or Dean positions in nursing colleges. Several universities in India offer Ph.D. in Nursing with research focus on psychiatric and mental health nursing areas."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What therapeutic skills are taught in the M.Sc Mental Health Nursing program?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The program covers therapeutic communication techniques, individual psychotherapy, group therapy facilitation, family therapy principles, cognitive behavioral therapy basics, crisis intervention, suicide prevention, motivational interviewing for substance abuse, relaxation techniques, art and music therapy basics, and psychiatric rehabilitation techniques. Learners practice these skills through simulation exercises and supervised clinical practice."
-      }
-    }
-  ]
-};
+// FAQPage removed 2026-09-18 - it was a SECOND, divergent copy of the FAQs. Measured on
+// the built HTML, its questions/answers were absent from the rendered DOM, so it asserted
+// Q&A no user or crawler could see. The page-level FAQPage, built from the array the page
+// actually renders, is the one that survives.
 
 export default function MScMentalHealthLayout({
   children,
@@ -125,7 +83,6 @@ export default function MScMentalHealthLayout({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mscMentalHealthSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mscMentalHealthFaqSchema) }} />
       {children}
     </>
   );

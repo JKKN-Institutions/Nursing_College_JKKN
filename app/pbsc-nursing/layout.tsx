@@ -47,6 +47,7 @@ const pbscBreadcrumbSchema = {
 const pbscNursingSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
+  "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course",
   "name": "Post Basic B.Sc Nursing",
   "description": "2-year INC-approved program for GNM diploma holders. Upgrade your nursing qualifications to a full B.Sc Nursing degree at JKKN College of Nursing, Komarapalayam.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",

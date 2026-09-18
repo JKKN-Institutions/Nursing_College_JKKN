@@ -51,6 +51,23 @@ export default function MScMedicalSurgicalNursing() {
             {
               "@context": "https://schema.org",
               "@type": "Course",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Onsite",
+                "courseWorkload": "P2Y",
+                "location": {
+                  "@type": "Place",
+                  "name": "JKKN College of Nursing",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
+                    "addressLocality": "Komarapalayam",
+                    "addressRegion": "Tamil Nadu",
+                    "postalCode": "638183",
+                    "addressCountry": "IN"
+                  }
+                }
+              },
               "name": "M.Sc Medical-Surgical Nursing",
               "description": "A 2-year postgraduate nursing specialization in Medical-Surgical Nursing, approved by the Indian Nursing Council (INC) and affiliated to Tamil Nadu Dr. MGR Medical University. Covers critical care, emergency, perioperative, cardiac, neurological, oncology, and nephrology nursing.",
               "provider": {

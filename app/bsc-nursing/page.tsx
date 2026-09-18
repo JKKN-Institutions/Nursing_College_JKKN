@@ -22,6 +22,33 @@ import {
   HeartIcon
 } from "@heroicons/react/24/outline";
 
+// The single source of truth for this page's FAQs. The page renders these AND the FAQPage
+// JSON-LD below is generated from them, so the schema can never assert a question the page
+// does not show. Previously the schema carried its own 6 differently-worded questions, of
+// which only 1 appeared in the rendered DOM.
+const bscFaqs: { q: string; a: string }[] = [
+                { q: "What is the B.Sc Nursing fee at JKKN College?", a: "The annual fee is ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate, in each of the 4 years, and it includes uniform, hospital training and the nursing kit. Government Quota fees are as per Tamil Nadu government and university norms. Hostel accommodation costs ₹60,000–75,000 per year additionally. Merit-based fee concessions are available on 10+2 performance; contact the admissions office for the current concession table." },
+                { q: "Is NEET required for B.Sc Nursing at JKKN?", a: "No, NEET is not required for B.Sc Nursing admission at JKKN College. Admission is completely merit-based on 10+2 marks with Physics, Chemistry, and Biology. Minimum 45% aggregate marks required (40% for SC/ST candidates). Apply online at jkkn.ai/apply/jkkn-admission-2026." },
+                { q: "What is the duration of B.Sc Nursing at JKKN?", a: "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship at the attached 500+ bed teaching hospital." },
+                { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. Domestic salary starts at ₹3.5–4.5 LPA, while international positions offer ₹15–25 LPA." },
+                { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached 500+ bed multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
+                { q: "What are the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age must be between 17–35 years. English as compulsory subject in 10+2. NEET is not required. Indian nationals and NRI/PIO candidates are eligible." },
+                { q: "Is JKKN College of Nursing approved by INC?", a: "Yes, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
+                { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
+                { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
+                { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
+                { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
+                { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
+                { q: "What are the placement statistics at JKKN College of Nursing?", a: "JKKN College of Nursing has a 98% placement rate with 80+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Average CTC is ₹4.5 LPA." },
+                { q: "Which university is JKKN College of Nursing affiliated to?", a: "JKKN College of Nursing is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
+                { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance. Alumni currently work at NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals." },
+                { q: "What facilities are available at JKKN College of Nursing?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, a 500+ bed teaching hospital, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
+                { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based fee concessions on 10+2 performance. Government scholarships for BC, MBC, SC and ST learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
+                { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
+                { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
+                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers a 500+ bed teaching hospital providing Year 1 clinical training, 98% placement rate, published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
+];
+
 export default function BScNursing() {
   const [activeYear, setActiveYear] = useState<"first" | "second" | "third" | "fourth">("first");
 
@@ -40,6 +67,7 @@ export default function BScNursing() {
             {
               "@context": "https://schema.org",
               "@type": "Course",
+              "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course",
               "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
               "description": "4-year undergraduate Bachelor of Science in Nursing program with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
               "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
@@ -99,56 +127,11 @@ export default function BScNursing() {
             {
               "@context": "https://schema.org",
               "@type": "FAQPage",
-              "mainEntity": [
-                {
-                  "@type": "Question",
-                  "name": "What is the duration of the B.Sc Nursing course?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What are the eligibility criteria for B.Sc Nursing?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Candidates must have completed 17 years of age as on 31st December of the admission year. NEET is NOT required - Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Is Sresakthimayeil Institute Of Nursing And Research approved by INC?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, Sresakthimayeil Institute Of Nursing And Research is duly approved by the Indian Nursing Council (INC), New Delhi, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "What career opportunities are available after B.Sc Nursing?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Graduates can work as Staff Nurses, Community Health Nurses, ICU/Critical Care Nurses, Nursing Educators (after M.Sc), Defence Services Nursing, or pursue international nursing opportunities."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Does the college provide hostel accommodation?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi, and recreational areas."
-                  }
-                },
-                {
-                  "@type": "Question",
-                  "name": "Can I pursue higher studies after B.Sc Nursing?",
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing in various specialities or PhD in Nursing."
-                  }
-                }
-              ]
+              "mainEntity": bscFaqs.map((f) => ({
+                "@type": "Question",
+                "name": f.q,
+                "acceptedAnswer": { "@type": "Answer", "text": f.a },
+              }))
             }
           ])
         }}
@@ -1427,28 +1410,7 @@ export default function BScNursing() {
             </div>
 
             <div className="max-w-4xl mx-auto space-y-4">
-              {[
-                { q: "What is the B.Sc Nursing fee at JKKN College?", a: "The annual fee is ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate, in each of the 4 years, and it includes uniform, hospital training and the nursing kit. Government Quota fees are as per Tamil Nadu government and university norms. Hostel accommodation costs ₹60,000–75,000 per year additionally. Merit-based fee concessions are available on 10+2 performance; contact the admissions office for the current concession table." },
-                { q: "Is NEET required for B.Sc Nursing at JKKN?", a: "No, NEET is not required for B.Sc Nursing admission at JKKN College. Admission is completely merit-based on 10+2 marks with Physics, Chemistry, and Biology. Minimum 45% aggregate marks required (40% for SC/ST candidates). Apply online at jkkn.ai/apply/jkkn-admission-2026." },
-                { q: "What is the duration of B.Sc Nursing at JKKN?", a: "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship at the attached 500+ bed teaching hospital." },
-                { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. Domestic salary starts at ₹3.5–4.5 LPA, while international positions offer ₹15–25 LPA." },
-                { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached 500+ bed multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
-                { q: "What are the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age must be between 17–35 years. English as compulsory subject in 10+2. NEET is not required. Indian nationals and NRI/PIO candidates are eligible." },
-                { q: "Is JKKN College of Nursing approved by INC?", a: "Yes, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
-                { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
-                { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
-                { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
-                { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
-                { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
-                { q: "What are the placement statistics at JKKN College of Nursing?", a: "JKKN College of Nursing has a 98% placement rate with 80+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Average CTC is ₹4.5 LPA." },
-                { q: "Which university is JKKN College of Nursing affiliated to?", a: "JKKN College of Nursing is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
-                { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance. Alumni currently work at NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals." },
-                { q: "What facilities are available at JKKN College of Nursing?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, a 500+ bed teaching hospital, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
-                { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based fee concessions on 10+2 performance. Government scholarships for BC, MBC, SC and ST learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
-                { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
-                { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
-                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers a 500+ bed teaching hospital providing Year 1 clinical training, 98% placement rate, published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
-              ].map((faq, index) => (
+              {bscFaqs.map((faq, index) => (
                 <details key={index} className="bg-white rounded-xl border border-gray-200 overflow-hidden group">
                   <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-[#FBFBEE] transition-colors">
                     <h3 className="text-lg md:text-xl font-bold text-[#006837]">

@@ -31,6 +31,7 @@ export default function PBScNursing() {
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
+    "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course",
     "name": "Post Basic Bachelor of Science in Nursing (Post Basic B.Sc Nursing)",
     "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
@@ -76,6 +77,8 @@ export default function PBScNursing() {
     }
   };
 
+  // FAQ answers are always mounted and toggled with `hidden`. They were conditionally
+  // mounted, so all 8 answers declared in faqSchema below were absent from the DOM.
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -1175,13 +1178,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 1 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 1} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       The Post Basic B.Sc Nursing programme is a 2-year full-time undergraduate course designed specifically for registered nurses who hold a GNM diploma. This accelerated programme allows working nurses to upgrade their qualification while building on their existing clinical experience.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 2 */}
@@ -1199,13 +1200,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 2 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 2} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       Candidates must have passed GNM (General Nursing and Midwifery) from a recognised institution with minimum 50% aggregate marks. They must be registered with the State Nursing Council and have completed minimum 2 years of clinical experience after GNM. No upper age limit, but candidates above 45 may require special approval.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 3 */}
@@ -1223,13 +1222,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 3 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 3} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       No, NEET is not required for Post Basic B.Sc Nursing admission. Admission is based on merit in the GNM qualifying examination and an entrance test/interview conducted by the institution or state counselling authority. This makes it more accessible for working nurses.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 4 */}
@@ -1247,13 +1244,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 4 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 4} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       B.Sc Nursing is a 4-year undergraduate programme for 10+2 Learners, while Post Basic B.Sc Nursing is a 2-year programme exclusively for GNM diploma holders with clinical experience. Both degrees have equal value for career advancement, higher studies, and international opportunities.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 5 */}
@@ -1271,13 +1266,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 5 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 5} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       Yes, after completing Post Basic B.Sc Nursing and one year of clinical experience, you are eligible to pursue M.Sc Nursing in various specialities such as Medical-Surgical Nursing, Paediatric Nursing, Psychiatric Nursing, Community Health Nursing, OBG Nursing, and more.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 6 */}
@@ -1295,13 +1288,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 6 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 6} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       Yes, Post Basic B.Sc Nursing from INC-approved colleges is recognised internationally. Graduates can apply for nursing positions in UK, USA, Australia, Canada, and Gulf countries after clearing their respective licensing examinations like NCLEX-RN, CBT, etc.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 7 */}
@@ -1319,13 +1310,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 7 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 7} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
                     </p>
                   </div>
-                )}
               </div>
 
               {/* FAQ 8 */}
@@ -1343,13 +1332,11 @@ export default function PBScNursing() {
                     }`}
                   />
                 </button>
-                {openFaq === 8 && (
-                  <div className="px-6 pb-6">
+                <div hidden={openFaq !== 8} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
                       While Post Basic B.Sc Nursing is a full-time programme, the schedule is designed considering that most candidates are working nurses. However, regular attendance is mandatory as per INC norms. Many employers support nurses pursuing higher education with flexible duty arrangements.
                     </p>
                   </div>
-                )}
               </div>
             </div>
           </div>

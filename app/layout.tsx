@@ -100,9 +100,11 @@ const educationalOrganizationSchema = {
   ],
   "parentOrganization": {
     "@type": "EducationalOrganization",
-    "@id": "https://jkkn.ac.in/#organization",
+    // jkkn.ac.in/ 301s to www.jkkn.ac.in/ (measured 2026-09-18), and the #college node below
+    // already used the www form - two spellings of one parent @id stop it resolving as one node.
+    "@id": "https://www.jkkn.ac.in/#organization",
     "name": "JKKN Institutions",
-    "url": "https://jkkn.ac.in/"
+    "url": "https://www.jkkn.ac.in/"
   },
   "memberOf": {
     "@type": "Organization",
@@ -126,18 +128,29 @@ const educationalOrganizationSchema = {
     { "@type": "State", "name": "Tamil Nadu" },
     { "@type": "Country", "name": "India" }
   ],
+  // sameAs must name THIS college, not the group, and must resolve to a stable URL.
+  //  - instagram.com/jkkn.nursing  was stale; the live handle is jkknnursing (user ground truth 2026-08-13)
+  //  - facebook.com/JKKNInstitutions is the GROUP page, wrong entity on a college node
+  //  - maps.app.goo.gl is a shortener (and goo.gl is on the Wikimedia spam blacklist); the
+  //    resolved place URL is used instead, stripped of the volatile entry/g_ep/skid params
   "sameAs": [
-    "https://www.instagram.com/jkkn.nursing/",
-    "https://www.facebook.com/JKKNInstitutions/",
-    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6"
+    "https://www.instagram.com/jkknnursing",
+    "https://www.facebook.com/jkknnursing",
+    "https://www.linkedin.com/school/jkknnursing",
+    "https://www.wikidata.org/wiki/Q141040012",
+    "https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.4433168,77.7289861,903m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3ba9681d0d736069:0x1949ae1b4b64b84a!8m2!3d11.4433168!4d77.7315664!16s%2Fg%2F11g07f4s1w"
   ],
+  // Each itemOffered now carries the @id of the Course declared on its own page, so these
+  // are REFERENCES to one Course entity instead of six anonymous, incomplete Course nodes
+  // (name+url only) repeated on all 130 pages - Google requires description, provider and
+  // hasCourseInstance on a Course, and those live on the course page where they belong.
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Nursing Programs at JKKN",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing#course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
     ]
   }
 };
@@ -186,6 +199,26 @@ const educationalOrgSchema = {
     "latitude": 11.4433168,
     "longitude": 77.7315664
   },
+  // Folded in from the homepage's deleted #localbusiness / no-@id duplicate nodes so that this
+  // college is ONE entity with ONE @id across the whole site instead of four.
+  "hasMap": "https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.4433168,77.7289861,903m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3ba9681d0d736069:0x1949ae1b4b64b84a!8m2!3d11.4433168!4d77.7315664!16s%2Fg%2F11g07f4s1w",
+  "priceRange": "₹65,000 - ₹1,75,000 per year (Management Quota)",
+  "currenciesAccepted": "INR",
+  "paymentAccepted": "Cash, Bank Transfer, UPI, Education Loan",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "09:00",
+      "closes": "17:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday"],
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
   "accreditedBy": [
     {
       "@type": "Organization",
@@ -208,13 +241,17 @@ const educationalOrgSchema = {
     "name": "Tamil Nadu Dr. MGR Medical University (TNMGRMU)",
     "url": "https://www.tnmgrmu.ac.in/"
   },
+  // Each itemOffered now carries the @id of the Course declared on its own page, so these
+  // are REFERENCES to one Course entity instead of six anonymous, incomplete Course nodes
+  // (name+url only) repeated on all 130 pages - Google requires description, provider and
+  // hasCourseInstance on a Course, and those live on the course page where they belong.
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Nursing Programs 2026-27",
     "itemListElement": [
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
-      { "@type": "Offer", "itemOffered": { "@type": "Course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course", "name": "B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing#course", "name": "M.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Course", "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course", "name": "Post Basic B.Sc Nursing", "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing" } }
     ]
   },
   "speakable": {
@@ -230,14 +267,21 @@ const educationalOrgSchema = {
     { "@type": "City", "name": "Tiruppur" },
     { "@type": "AdministrativeArea", "name": "Namakkal District" }
   ],
+  // sameAs = "another URL for THIS SAME entity". Two entries were not that, verified live 2026-09-18:
+  //  - Q55090877 is labelled "J.K.K.Nattraja Educational Institutions" and typed by Wikidata as a
+  //    "Wikimedia list article". It is not this college. The college's own item is Q141040012
+  //    ("Sresakthimayeil Institute of Nursing and Research", private nursing college in
+  //    Komarapalayam), created 2026-08-13 - the site had simply never been pointed at it.
+  //  - indiannursingcouncil.org is the REGULATOR, a different organisation. Recognition is
+  //    already expressed through accreditedBy/recognizedBy above; it does not belong here.
+  // shiksha 91255 was re-checked live and does resolve to this college, so it stays.
   "sameAs": [
-    "https://maps.app.goo.gl/4m3Ec1pdsirbMiuE6",
+    "https://www.google.com/maps/place/JKKN+College+of+Nursing+and+Research/@11.4433168,77.7289861,903m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3ba9681d0d736069:0x1949ae1b4b64b84a!8m2!3d11.4433168!4d77.7315664!16s%2Fg%2F11g07f4s1w",
     "https://www.facebook.com/jkknnursing",
     "https://www.instagram.com/jkknnursing",
     "https://www.linkedin.com/school/jkknnursing",
     "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
-    "https://www.indiannursingcouncil.org/",
-    "https://www.wikidata.org/wiki/Q55090877",
+    "https://www.wikidata.org/wiki/Q141040012",
     "https://www.shiksha.com/college/sresakthimayeil-institute-of-nursing-and-research-namakkal-91255"
   ],
   "additionalProperty": [
