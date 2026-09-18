@@ -7,6 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 export const metadata: Metadata = {
   title: "Scholarships | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
   description: "Explore government scholarships available for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing students at JKKN College of Nursing — SC/SCA/ST, BC/MBC, and Naan Mudhalvan schemes.",
+  alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/scholarships" },
 };
 
 const scholarships = [

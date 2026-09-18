@@ -1,6 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Next streams metadata to user agents that are not in this list. On the ISR blog route that
+  // sometimes put <title> and the canonical after </head> (measured 2026-09-11: 5 of 53 Googlebot
+  // fetches). This is Next 16.1.4's own default list, copied verbatim, plus Googlebot and the AI
+  // crawlers. Setting the option REPLACES the default, so the default part must stay.
+  htmlLimitedBots: /[\w-]+-Google|Google-[\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight|Googlebot|GPTBot|OAI-SearchBot|ChatGPT-User|ClaudeBot|Claude-User|Claude-SearchBot|PerplexityBot|Perplexity-User|CCBot|Amazonbot|meta-externalagent|DuckAssistBot|MistralAI-User/i,
   images: {
     remotePatterns: [
       {
@@ -53,14 +58,14 @@ const nextConfig: NextConfig = {
       { source: '/department-of-medical-surgical-nursing', destination: '/dept-medical-surgical', permanent: true },
       { source: '/department-of-community-health-nursing', destination: '/dept-community-health', permanent: true },
       { source: '/department-ofchild-health-nursing', destination: '/dept-child-health', permanent: true },
-      { source: '/department-of-obstetrics-gynecological-nursing', destination: '/dept-obstetric-gynecological', permanent: true },
+      { source: '/department-of-obstetrics-gynecological-nursing', destination: '/dept-obstetrics-gynecological', permanent: true },
 
       // Specialty / subject pages
-      { source: '/mental-health-nursing', destination: '/dept-psychiatric', permanent: true },
+      { source: '/mental-health-nursing', destination: '/dept-mental-health', permanent: true },
       { source: '/child-health-nursing', destination: '/dept-child-health', permanent: true },
       { source: '/community-health-nursing', destination: '/dept-community-health', permanent: true },
       { source: '/medical-surgical-nursing', destination: '/dept-medical-surgical', permanent: true },
-      { source: '/obstetrics-gynecological-nursing', destination: '/dept-obstetric-gynecological', permanent: true },
+      { source: '/obstetrics-gynecological-nursing', destination: '/dept-obstetrics-gynecological', permanent: true },
 
       // Faculty pages
       { source: '/mrs-thilagam-g', destination: '/faculty-details', permanent: true },
@@ -89,14 +94,14 @@ const nextConfig: NextConfig = {
       // Facility / gallery pages
       { source: '/library-gallery', destination: '/library', permanent: true },
       { source: '/classroom-gallery', destination: '/gallery', permanent: true },
-      { source: '/digital-campus', destination: '/smart-classroom', permanent: true },
+      { source: '/digital-campus', destination: '/classroom', permanent: true },
       { source: '/clinical-hospital-facilities', destination: '/clinical-hospital', permanent: true },
 
       // Other specific pages
       { source: '/placements', destination: '/placement', permanent: true },
       { source: '/vision-and-mission', destination: '/vision-mission', permanent: true },
       { source: '/research', destination: '/research-committee', permanent: true },
-      { source: '/code-of-conduct-2', destination: '/values-ethics', permanent: true },
+      { source: '/code-of-conduct-2', destination: '/code-of-conduct', permanent: true },
       { source: '/bank-post-office', destination: '/about', permanent: true },
       { source: '/my-account', destination: '/', permanent: true },
       { source: '/ivbp', destination: '/', permanent: true },

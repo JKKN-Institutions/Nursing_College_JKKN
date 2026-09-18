@@ -10,6 +10,7 @@ import { siteData } from "@/data/siteData";
 export const metadata: Metadata = {
   title: "Alumni Testimonials | Sresakthimayeil Institute Of Nursing And Research",
   description: "Hear from our alumni working at leading hospitals and nursing colleges. Real experiences from graduates of JKKN College of Nursing — INC approved, NAAC accredited.",
+  alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/testimonials" },
 };
 
 export default function TestimonialsPage() {

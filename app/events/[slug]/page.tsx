@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,6 +11,45 @@ import {
   MapPinIcon,
   ArrowLeftIcon,
 } from "@heroicons/react/24/outline";
+
+const SITE = "https://nursing.sresakthimayeil.jkkn.ac.in";
+
+// Without this the page inherited the root layout's homepage title and canonical, so every event
+// told Google it was a duplicate of the homepage.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const supabase = await createClient();
+  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID ?? "nursing";
+  const { data: event } = await supabase
+    .from("events")
+    .select("title, description, image_url")
+    .eq("slug", slug)
+    .eq("college_id", collegeId)
+    .eq("is_published", true)
+    .single();
+
+  if (!event) return { title: "Event Not Found — JKKN College of Nursing" };
+
+  const canonicalUrl = `${SITE}/events/${slug}`;
+  const description = (event.description ?? "").replace(/\s+/g, " ").trim().slice(0, 160) || undefined;
+  return {
+    title: `${event.title} — JKKN College of Nursing`,
+    description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: event.title,
+      description,
+      type: "article",
+      url: canonicalUrl,
+      siteName: "JKKN College of Nursing",
+      images: event.image_url ? [{ url: event.image_url, alt: event.title }] : undefined,
+    },
+  };
+}
 
 export default async function EventPage({
   params,

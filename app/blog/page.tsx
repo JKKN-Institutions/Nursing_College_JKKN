@@ -14,8 +14,7 @@ export default async function BlogPage() {
     .select('id, title, slug, excerpt, author_name, category, cover_image_url, published_at, created_at, read_time')
     .eq('college_id', collegeId)
     .eq('is_published', true)
-    .order('created_at', { ascending: false })
-    .limit(9);
+    .order('created_at', { ascending: false });
 
   const hasCampusPosts = campusPosts && campusPosts.length > 0;
 
