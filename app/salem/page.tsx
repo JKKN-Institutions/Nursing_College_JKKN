@@ -136,7 +136,7 @@ const programmes = [
 
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE" },
-  { value: "6-8", label: "LPA HIGHEST" },
+  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
@@ -318,14 +318,14 @@ export default function SalemPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 57 km from Salem via NH-544 with 98% placement rate.
+              Searching for the best nursing colleges in Salem? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes — just 57 km from Salem via NH-544 with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "98%", label: "PLACEMENTS" },
-                { value: "6-8", label: "LPA HIGHEST" },
+                { value: "98%", label: "PLACEMENTS 2024-25" },
+                { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
                 { value: "57 km", label: "FROM SALEM" },
                 { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
@@ -460,7 +460,7 @@ export default function SalemPage() {
                 Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often find that the INC-approved options lie within a commute radius. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 57 km from Salem via NH-544 — a smooth about 1 hour drive with excellent highway connectivity.
               </p>
               <p>
-                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its 500+ bed multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners train at the 500+ bedded multi-specialty teaching hospital on the same campus, from the first year of the programme.
+                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its attached multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners train at the attached multi-specialty teaching hospital on the same campus, from the first year of the programme.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -483,7 +483,7 @@ export default function SalemPage() {
                 </div>
               </div>
               <p>
-                With 98% placement rate including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
               </p>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function SalemPage() {
                 Why Salem Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Located just 57 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
+                Among nursing colleges accessible from Salem, JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Located just 57 km from Salem on NH-544, B.Sc nursing colleges in Salem district rarely match the clinical exposure and placement record that JKKN offers.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

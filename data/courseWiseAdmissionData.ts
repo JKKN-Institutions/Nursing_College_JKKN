@@ -115,7 +115,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     whyThis: [
       { title: "INC-Approved Curriculum", desc: "Follows the Indian Nursing Council's revised B.Sc Nursing curriculum with TNMGRMU university framework." },
-      { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached 500+ bed JKKN Multi-Specialty Teaching Hospital." },
+      { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached JKKN Multi-Specialty Teaching Hospital." },
       { title: "98% Placement Track Record", desc: "Consistent placements at top corporate hospitals across India and abroad." },
     ],
     faqs: [

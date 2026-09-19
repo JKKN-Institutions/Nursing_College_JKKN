@@ -8,8 +8,8 @@ const config: CityPageConfig = {
   heroDescription:
     "Looking for a nursing college near Dharmapuri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 111 km away via Salem. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels for outstation learners.",
   heroStats: [
-    { value: "98%", label: "PLACEMENTS" },
-    { value: "6-8", label: "LPA HIGHEST" },
+    { value: "98%", label: "PLACEMENTS 2024-25" },
+    { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
     { value: "111 km", label: "FROM DHARMAPURI" },
     { value: "3", label: "PROGRAMMES" },
   ],
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Dharmapuri is a largely agricultural district in north-western Tamil Nadu, famous for its mango cultivation and for Hogenakkal Falls on the Cauvery. Compared to Salem or Coimbatore, the district has fewer professional healthcare institutions, so nursing aspirants from Dharmapuri, Palacode, Pennagaram and Harur often study outside the district.",
     "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical choice for that journey — around 111 km via Salem, about 2 hours by road. Every Salem-bound bus from Dharmapuri connects onward to the NH-544 corridor, where the campus sits right on the highway.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year onwards.",
-    "Dharmapuri learners typically stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with the Salem route making weekend and holiday travel home straightforward. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Dharmapuri district can build a global nursing career from a campus that stays within easy reach of home.",
+    "Dharmapuri learners typically stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with the Salem route making weekend and holiday travel home straightforward. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Dharmapuri district can build a global nursing career from a campus that stays within easy reach of home.",
   ],
   whyHeading: "Why Dharmapuri Learners Choose JKKN",
   whyIntro:

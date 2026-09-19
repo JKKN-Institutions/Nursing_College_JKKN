@@ -98,7 +98,7 @@ const programmes = [
 
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE" },
-  { value: "6-8", label: "LPA HIGHEST" },
+  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "2.5-4", label: "LPA AVERAGE" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];

@@ -33,7 +33,7 @@ export default function PBScNursing() {
     "@type": "Course",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course",
     "name": "Post Basic Bachelor of Science in Nursing (Post Basic B.Sc Nursing)",
-    "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+    "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at attached teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
     "provider": {
       "@type": "EducationalOrganization",
@@ -200,7 +200,7 @@ export default function PBScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the 500+ bed hospital.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the attached hospital.</p>
                 </div>
 
                 {/* Description */}

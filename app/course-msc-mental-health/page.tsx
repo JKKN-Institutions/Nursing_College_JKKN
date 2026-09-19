@@ -148,7 +148,7 @@ export default function MScMentalHealthNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Mental Health (Psychiatric) Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates develop expertise in psychiatric assessment, therapeutic counseling, community mental health promotion, and psychiatric rehabilitation at the 500+ bed teaching hospital.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Mental Health (Psychiatric) Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates develop expertise in psychiatric assessment, therapeutic counseling, community mental health promotion, and psychiatric rehabilitation at the attached teaching hospital.</p>
                 </div>
 
                 <p className="text-xl md:text-2xl text-gray-200 mb-6">

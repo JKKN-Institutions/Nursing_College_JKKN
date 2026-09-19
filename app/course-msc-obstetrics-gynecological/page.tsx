@@ -133,7 +133,7 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-cyan-100 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Obstetric and Gynecological Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates build advanced expertise in maternal health, high-risk pregnancy management, midwifery, neonatal care, and women's healthcare at the 500+ bed teaching hospital.</p>
+                  <p className="text-cyan-100 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Obstetric and Gynecological Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates build advanced expertise in maternal health, high-risk pregnancy management, midwifery, neonatal care, and women's healthcare at the attached teaching hospital.</p>
                 </div>
 
                 <p className="text-lg md:text-xl text-cyan-100 mb-6">

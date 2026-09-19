@@ -8,8 +8,8 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Rasipuram? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 60 km away — in the same Namakkal district. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostels.",
   heroStats: [
-    { value: "98%", label: "PLACEMENTS" },
-    { value: "6-8", label: "LPA HIGHEST" },
+    { value: "98%", label: "PLACEMENTS 2024-25" },
+    { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
     { value: "60 km", label: "FROM RASIPURAM" },
     { value: "3", label: "PROGRAMMES" },
   ],
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Rasipuram is a well-known town in Namakkal district, famous for its traditional silk saree weaving and its strong schooling culture. Learners from Rasipuram taluk regularly pursue professional courses across the district and neighbouring Salem, and healthcare careers are a growing preference.",
     "For nursing aspirants, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a same-district option — about 60 km away via Tiruchengode, roughly an hour by road. Learners get an INC-approved institute without leaving Namakkal district.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year.",
-    "Most Rasipuram learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), with the one-hour distance making weekend trips home easy. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Rasipuram learners can launch a global career from within their own district.",
+    "Most Rasipuram learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), with the one-hour distance making weekend trips home easy. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Rasipuram learners can launch a global career from within their own district.",
   ],
   whyHeading: "Why Rasipuram Learners Choose JKKN — Same-District Nursing College",
   whyIntro:

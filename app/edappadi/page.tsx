@@ -8,8 +8,8 @@ const config: CityPageConfig = {
   heroDescription:
     "Searching for a nursing college near Edappadi? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 32 km away via Sankagiri. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training, day-travel-friendly distance, and secure hostels.",
   heroStats: [
-    { value: "98%", label: "PLACEMENTS" },
-    { value: "6-8", label: "LPA HIGHEST" },
+    { value: "98%", label: "PLACEMENTS 2024-25" },
+    { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
     { value: "32 km", label: "FROM EDAPPADI" },
     { value: "3", label: "PROGRAMMES" },
   ],
@@ -22,7 +22,7 @@ const config: CityPageConfig = {
     "Edappadi is a well-known weaving town in western Salem district, with a strong powerloom and handloom tradition and busy agricultural trade. Learners from Edappadi, Poolampatti and nearby blocks often travel to Salem or Erode for professional education — but a closer option sits right on NH-544.",
     "For nursing aspirants from Edappadi, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is among the closest INC-approved nursing colleges — about 32 km away via Sankagiri, about 30-40 minutes. That makes both day travel and hostel stay genuinely practical choices.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
-    "Edappadi learners can commute daily via Sankagiri or choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts under an hour from home.",
+    "Edappadi learners can commute daily via Sankagiri or choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts under an hour from home.",
   ],
   whyHeading: "Why Edappadi Learners Choose JKKN",
   whyIntro:
