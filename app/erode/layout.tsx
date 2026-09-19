@@ -3,11 +3,11 @@
 export const metadata: Metadata = {
   title: "Nursing College Near Erode — JKKN College of Nursing",
   description:
-    "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital training.",
+    "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital training.",
   openGraph: {
     title: "Nursing College Near Erode — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital training.",
+      "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital training.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/erode",
     siteName: "JKKN College of Nursing",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nursing College Near Erode — JKKN College of Nursing",
     description:
-      "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement, 500-bed hospital training.",
+      "JKKN College of Nursing, 22 km from Erode. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital training.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

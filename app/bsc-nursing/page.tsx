@@ -198,7 +198,7 @@ export default function BScNursing() {
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">98%</div>
-                    <div className="text-xs sm:text-sm text-gray-300">Placement Rate</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Placement Rate (2024-25)</div>
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">80+</div>
@@ -311,7 +311,7 @@ export default function BScNursing() {
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">98%</div>
-                <h3 className="text-lg font-bold mb-2">Placement Rate</h3>
+                <h3 className="text-lg font-bold mb-2">Placement Rate (2024-25)</h3>
                 <p className="text-gray-200 text-sm">50+ recruiters including Apollo, Fortis, KIMS. Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
@@ -1292,7 +1292,7 @@ export default function BScNursing() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">98%</div>
-                <div className="text-xl font-semibold mb-2">Placement Rate</div>
+                <div className="text-xl font-semibold mb-2">Placement Rate (2024-25)</div>
               </div>
 
               <div className="text-center">

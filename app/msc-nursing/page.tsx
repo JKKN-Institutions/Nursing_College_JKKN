@@ -999,7 +999,7 @@ export default function MScNursing() {
                 HANDS-ON EXPERIENCE
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                Clinical Training at 500+ Bed Teaching Hospital
+                Clinical Training at Attached Teaching Hospital
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 M.Sc Nursing learners at JKKN receive extensive clinical training at our on-campus multi-specialty teaching hospital — a unique advantage among M.Sc Nursing colleges in Tamil Nadu.

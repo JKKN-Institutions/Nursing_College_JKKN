@@ -183,7 +183,7 @@ export default function Admissions() {
                   🏥
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">500+ Bed Teaching Hospital</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">Attached Teaching Hospital</h3>
                   <p className="text-gray-600 text-sm">Hands-on clinical training from Year 1 at our attached multi-specialty teaching hospital with real patient exposure.</p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Admissions() {
                   📈
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">98% Placement Rate</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">98% Placement Rate (2024-25)</h3>
                   <p className="text-gray-600 text-sm">Consistently high placement record with graduates placed in leading hospitals across India and abroad.</p>
                 </div>
               </div>

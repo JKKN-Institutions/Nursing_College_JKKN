@@ -56,16 +56,16 @@ export const metadata: Metadata = {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing Placements — 98% Success Rate",
+        alt: "JKKN College of Nursing Placements — 98% in 2024-25",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Placements at JKKN College of Nursing — 98% Success Rate",
+      "Placements at JKKN College of Nursing — 98% in 2024-25",
     description:
-      "98% placement rate, 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
+      "98% placement rate in 2024-25 (58 of 59, NIRF 2026), 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
 };
@@ -1075,7 +1075,7 @@ export default function PlacementsPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <ChartBarIcon className="w-8 h-8 text-[#FFD700] mx-auto mb-2" />
-                <p className="font-semibold">500-Bed Hospital</p>
+                <p className="font-semibold">Attached Teaching Hospital</p>
                 <p className="text-green-200 text-sm">
                   Clinical Training from Year 1
                 </p>

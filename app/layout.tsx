@@ -328,7 +328,7 @@ const videoObjectSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "JKKN College of Nursing — Campus Tour, Facilities & Student Life",
-  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, 500-bed teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+  "description": "Explore JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, attached teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "uploadDate": "2025-01-01",
   "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",

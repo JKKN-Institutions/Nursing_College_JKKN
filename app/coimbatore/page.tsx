@@ -135,9 +135,9 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "98%", label: "PLACEMENT RATE" },
+  { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "2.5-4", label: "LPA AVERAGE" },
+  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -227,7 +227,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Nursing College in Coimbatore | B.Sc Nursing Near Coimbatore — JKKN",
     description:
-      "Looking for the best nursing college in Coimbatore? JKKN College of Nursing offers INC approved, NAAC accredited nursing programmes. 98% placements.",
+      "Looking for the best nursing college in Coimbatore? JKKN College of Nursing offers INC approved, NAAC accredited nursing programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
     siteName: "JKKN College of Nursing",
     type: "website",
@@ -467,7 +467,7 @@ export default function CoimbatorePage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="500-bed teaching hospital for nursing students near Coimbatore"
+                    alt="attached teaching hospital for nursing students near Coimbatore"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -751,7 +751,7 @@ export default function CoimbatorePage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
                 <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate (2024-25)</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>
 

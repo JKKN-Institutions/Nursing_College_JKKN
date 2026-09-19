@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
     description:
-      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 98% placement, international opportunities.",
+      "Apply for nursing programs at Sresakthimayeil Institute Of Nursing And Research. INC approved, 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), international opportunities.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",

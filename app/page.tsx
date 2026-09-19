@@ -293,7 +293,7 @@ export default async function Home() {
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6 md:mb-8">
                   <BuildingOffice2Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                   <span className="text-white text-xs sm:text-sm md:text-base font-medium">
-                    INC Approved | TNNMC Recognized | 500+ Bedded Teaching Hospital
+                    INC Approved | TNNMC Recognized | Attached Teaching Hospital
                   </span>
                 </div>
 
@@ -383,8 +383,8 @@ export default async function Home() {
             <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-8 sm:mt-10 md:mt-12">
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
-                { number: "98%", label: "PLACEMENT RATE" },
-                { number: "500+", label: "BED HOSPITAL\nTRAINING" },
+                { number: "98%", label: "PLACEMENT RATE 2024-25" },
+                { number: "1", label: "ATTACHED TEACHING\nHOSPITAL" },
                 { number: "266", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
                 <div
@@ -718,7 +718,7 @@ export default async function Home() {
                   <BuildingOffice2Icon className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-4">
-                  500+ Bed Hospital Training
+                  Attached Hospital Training
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
                   Hands-on clinical training in our attached 500+ bedded multi-specialty hospital covering all nursing specialities with real patient interactions.
@@ -779,8 +779,8 @@ export default async function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
               {[
-                { number: "98%", label: "Placement Rate" },
-                { number: "₹4.2L", label: "Avg. Package" },
+                { number: "98%", label: "Placement Rate (2024-25)" },
+                { number: "₹3.6L", label: "Median Package (NIRF)" },
                 { number: "₹25L", label: "Highest (International)" },
                 { number: "80+", label: "Recruiting Partners" },
               ].map((stat, index) => (
