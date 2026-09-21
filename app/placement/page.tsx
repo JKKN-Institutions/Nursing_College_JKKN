@@ -1016,8 +1016,7 @@ export default function PlacementsPage() {
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 Everything you need to know about placements, salary packages,
-                recruiters, and career opportunities at JKKN College of
-                Nursing.
+                recruiters, and career opportunities at JKKN College of Nursing and Research.
               </p>
             </div>
 

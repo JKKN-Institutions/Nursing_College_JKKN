@@ -546,8 +546,7 @@ export default function MScNursing() {
 
               <div>
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                  The <strong className="text-[#006837]">Master of Science in Nursing (M.Sc Nursing)</strong> at <Link href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of
-                  Nursing</Link> is a comprehensive 2-year postgraduate program designed to
+                  The <strong className="text-[#006837]">Master of Science in Nursing (M.Sc Nursing)</strong> at <Link href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</Link> is a comprehensive 2-year postgraduate program designed to
                   develop advanced nursing professionals with specialized clinical
                   expertise, research acumen, and leadership capabilities. As one of the leading <strong className="text-[#006837]">M.Sc Nursing colleges in Tamil Nadu</strong>, JKKN is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU)</a> and approved by the <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Indian Nursing Council (INC)</a>.
                 </p>
