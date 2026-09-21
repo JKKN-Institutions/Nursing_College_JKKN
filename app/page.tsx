@@ -51,7 +51,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -67,7 +67,7 @@ const faqSchema = {
       "name": "What clinical training facilities are available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Learners receive clinical training at the attached 500+ bedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
+        "text": "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       "name": "How do I choose the best nursing college in Tamil Nadu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
+        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
       }
     }
   ]
@@ -306,7 +306,7 @@ export default async function Home() {
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98% placement success.
+                  Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, attached-hospital training, and 98% placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -476,7 +476,7 @@ export default async function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
                   {[
                     "INC approved programs with hospital internship",
-                    "500+ bedded teaching hospital for clinical training",
+                    "attached teaching hospital for clinical training",
                     "Advanced nursing simulation laboratory",
                     "International placement partnerships",
                   ].map((feature, index) => (
@@ -721,7 +721,7 @@ export default async function Home() {
                   Attached Hospital Training
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Hands-on clinical training in our attached 500+ bedded multi-specialty hospital covering all nursing specialities with real patient interactions.
+                  Hands-on clinical training in our attachedded multi-specialty hospital covering all nursing specialities with real patient interactions.
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 hover:bg-white/20 transition-all duration-300">
@@ -1188,7 +1188,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",
@@ -1198,7 +1198,7 @@ export default async function Home() {
                 {
                   question: "What clinical training facilities are available?",
                   answer:
-                    "Our Learners receive clinical training at the attached 500+ bedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
+                    "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
                 },
                 {
                   question: "Is hostel accommodation mandatory?",
@@ -1213,7 +1213,7 @@ export default async function Home() {
                 {
                   question: "How do I choose the best nursing college in Tamil Nadu?",
                   answer:
-                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
+                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
                 },
               ].map((faq, index) => (
                 <details

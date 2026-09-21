@@ -11,11 +11,11 @@ import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase,
 export const metadata: Metadata = {
   metadataBase: new URL("https://nursing.sresakthimayeil.jkkn.ac.in"),
   title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-  description: "M.Sc Nursing at JKKN College of Nursing and Research, Tamil Nadu. 5 INC-approved specializations, 500+ bed hospital training, 98% placement rate. Apply 2026-27.",
+  description: "M.Sc Nursing at JKKN College of Nursing and Research, Tamil Nadu. 5 INC-approved specializations, attached-hospital training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Apply 2026-27.",
   keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
     title: "M.Sc Nursing at JKKN College of Nursing and Research — Top MSc Nursing College Tamil Nadu",
-    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, 500+ bed hospital training, and 98% placement rate. Admissions open 2026-27.",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, attached-hospital training, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     siteName: "JKKN College of Nursing and Research",
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-    description: "5 INC-approved specializations, 500+ bed hospital training, 98% placement rate. Apply 2026-27.",
+    description: "5 INC-approved specializations, attached-hospital training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Apply 2026-27.",
   },
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
@@ -43,7 +43,7 @@ export default function MScNursing() {
     "@type": "Course",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing#course",
     "name": "Master of Science in Nursing (M.Sc Nursing)",
-    "description": "2-year postgraduate M.Sc Nursing program with 5 specializations and clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+    "description": "2-year postgraduate M.Sc Nursing program with 5 specializations and clinical training at attached teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     "provider": {
       "@type": "EducationalOrganization",
@@ -326,7 +326,7 @@ export default function MScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a 500+ bed teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a attached teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).</p>
                 </div>
 
                 {/* Description */}
@@ -554,7 +554,7 @@ export default function MScNursing() {
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The program integrates evidence-based practice with hands-on clinical
-                  training at the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> on campus. Learners completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced senior learners who bring decades of clinical and
+                  training at the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">attached multi-specialty teaching hospital</Link> on campus. Learners completing their <Link href="/bsc-nursing" className="text-[#006837] font-semibold hover:underline">B.Sc Nursing</Link> can advance to this postgraduate program with 5 INC-approved specializations. Located on the <Link href="/about" className="text-[#006837] font-semibold hover:underline">JKKN campus in Komarapalayam</Link>, near <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode</Link>, <Link href="/salem" className="text-[#006837] font-semibold hover:underline">Salem</Link>, and <Link href="/coimbatore" className="text-[#006837] font-semibold hover:underline">Coimbatore</Link>, the college provides experienced senior learners who bring decades of clinical and
                   academic expertise to create transformative learning experiences.
                 </p>
 
@@ -1013,7 +1013,7 @@ export default function MScNursing() {
                     <div className="w-12 h-12 bg-[#006837] text-white rounded-xl flex items-center justify-center flex-shrink-0 font-bold">1</div>
                     <div>
                       <h3 className="text-xl font-bold text-[#006837] mb-2">On-Campus Hospital Access</h3>
-                      <p className="text-gray-700">Direct access to the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed multi-specialty teaching hospital</Link> with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, and Psychiatry.</p>
+                      <p className="text-gray-700">Direct access to the <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">attached multi-specialty teaching hospital</Link> with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, and Psychiatry.</p>
                     </div>
                   </div>
 
@@ -1590,7 +1590,7 @@ export default function MScNursing() {
                     </tr>
                     <tr>
                       <td className="px-4 py-3 font-medium">Clinical Training</td>
-                      <td className="px-4 py-3 text-[#006837] font-semibold">500+ bed hospital on campus</td>
+                      <td className="px-4 py-3 text-[#006837] font-semibold">attached hospital on campus</td>
                       <td className="px-4 py-3 text-gray-600">Limited or self-arranged</td>
                     </tr>
                     <tr>
@@ -1818,7 +1818,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    JKKN provides clinical training at its on-campus 500+ bed multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Learners also gain community health experience in rural and urban settings.
+                    JKKN provides clinical training at its on-campus attached multi-specialty teaching hospital with departments including General Medicine, Surgery, Pediatrics, OBG, Orthopedics, ICU, NICU, and Psychiatry. Learners also gain community health experience in rural and urban settings.
                   </p>
                 </details>
 

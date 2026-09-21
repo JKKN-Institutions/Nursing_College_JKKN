@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title:
       "Placements at JKKN College of Nursing and Research — 98% Success Rate | NHS UK, Apollo, Fortis",
     description:
-      "98% placement rate (2024-25) with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
+      "98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     type: "website",
     siteName: "JKKN College of Nursing and Research",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title:
       "Placements at JKKN College of Nursing and Research — 98% in 2024-25",
     description:
-      "98% placement rate in 2024-25 (58 of 59, NIRF 2026), 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
+      "98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) in 2024-25 (58 of 59, NIRF 2026), 80+ recruiters, international opportunities in UK, UAE, Singapore.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
 };
@@ -79,7 +79,7 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "What is the placement rate at JKKN College of Nursing and Research?",
-    a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate, as filed in the college's NIRF 2026 submission. Graduates are placed in top hospitals across India and internationally.",
+    a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), as filed in the college's NIRF 2026 submission. Graduates are placed in top hospitals across India and internationally.",
   },
   {
     q: "Which companies and hospitals recruit from JKKN College of Nursing and Research?",
@@ -349,7 +349,7 @@ const sectorCards = [
   {
     icon: GlobeAltIcon,
     title: "International Healthcare",
-    desc: "Premium placements in UK (NHS), UAE, Saudi Arabia, Singapore, Australia, and Canada with packages up to ₹25 LPA.",
+    desc: "Premium placements in UK (NHS), UAE, Saudi Arabia, Singapore, Australia, and Canada.",
     recruiters: "NHS UK, Cleveland Clinic Abu Dhabi, Aster DM, Singapore GH",
     percentage: "20%",
   },
@@ -1060,7 +1060,7 @@ export default function PlacementsPage() {
               Build Your Healthcare Career with JKKN
             </h2>
             <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-              98% placement rate. 80+ recruiters. International opportunities in
+              98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). 80+ recruiters. International opportunities in
               6 countries. Dedicated placement cell with complete career support
               — from exam coaching to visa assistance.
             </p>
