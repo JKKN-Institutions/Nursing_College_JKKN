@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "B.Sc Nursing admission 2026, BSc Nursing JKKN, BSc nursing without NEET, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
   alternates: { canonical: `${SITE_URL}/admissions/bsc-nursing` },
   openGraph: {
-    title: "B.Sc Nursing Admission 2026-27 — JKKN College of Nursing",
+    title: "B.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
     description:
       "4-year B.Sc Nursing program. No NEET required. Complete admission details — eligibility, fees, seats, documents, dates, and process.",
     url: `${SITE_URL}/admissions/bsc-nursing`,

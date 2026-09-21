@@ -32,10 +32,10 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Is JKKN College of Nursing approved by INC?",
+      "name": "Is JKKN College of Nursing and Research approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
+        "text": "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
       }
     },
     {
@@ -51,7 +51,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -67,7 +67,7 @@ const faqSchema = {
       "name": "What clinical training facilities are available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Learners receive clinical training at the attached 500+ bedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
+        "text": "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
       }
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       "name": "How do I choose the best nursing college in Tamil Nadu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
+        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
       }
     }
   ]
@@ -100,8 +100,8 @@ const faqSchema = {
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Nursing Programs at JKKN College of Nursing",
-  "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing, Komarapalayam",
+  "name": "Nursing Programs at JKKN College of Nursing and Research",
+  "description": "Complete list of INC-approved nursing programs offered at JKKN College of Nursing and Research, Komarapalayam",
   // GNM was listed here as a 4th offered programme at Rs 75,000/year pointing at /gnm.
   // /gnm returns 404 (measured 2026-09-18) and GNM carries no sanctioned intake in the
   // college's NIRF filings, which show only UG [4 Years] 60 and PG [2 Year] 25. Advertising a
@@ -119,7 +119,7 @@ const itemListSchema = {
 const specialAnnouncementSchema = {
   "@context": "https://schema.org",
   "@type": "SpecialAnnouncement",
-  "name": "JKKN College of Nursing – Admissions Open 2026-27",
+  "name": "JKKN College of Nursing and Research – Admissions Open 2026-27",
   "text": "Applications are now open for B.Sc Nursing (60 seats), M.Sc Nursing (25 seats) and Post Basic B.Sc Nursing (50 seats) for the 2026-27 academic year. Merit scholarships up to 75% available.",
   "datePosted": "2026-03-01",
   // Was 2026-08-31, i.e. already expired on 2026-09-18 - an expired SpecialAnnouncement is
@@ -133,7 +133,7 @@ const specialAnnouncementSchema = {
   "announcementLocation": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing"
+    "name": "JKKN College of Nursing and Research"
   },
   "url": "https://www.jkkn.ai/apply/jkkn-admission-2026"
 };
@@ -141,8 +141,8 @@ const specialAnnouncementSchema = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Apply for Nursing Admission at JKKN College of Nursing",
-  "description": "Step-by-step guide to apply for B.Sc Nursing, M.Sc Nursing, or Post Basic B.Sc Nursing admission at JKKN College of Nursing, Komarapalayam.",
+  "name": "How to Apply for Nursing Admission at JKKN College of Nursing and Research",
+  "description": "Step-by-step guide to apply for B.Sc Nursing, M.Sc Nursing, or Post Basic B.Sc Nursing admission at JKKN College of Nursing and Research, Komarapalayam.",
   "totalTime": "PT30M",
   "estimatedCost": { "@type": "MonetaryAmount", "currency": "INR", "value": "0" },
   "step": [
@@ -158,7 +158,7 @@ const speakableSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#webpage",
-  "name": "JKKN College of Nursing – INC Approved Nursing College in Tamil Nadu",
+  "name": "JKKN College of Nursing and Research – INC Approved Nursing College in Tamil Nadu",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "speakable": {
     "@type": "SpeakableSpecification",
@@ -174,14 +174,14 @@ const profilePageSchema = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#profilepage",
-  "name": "JKKN College of Nursing – Official Profile",
+  "name": "JKKN College of Nursing and Research – Official Profile",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "dateCreated": "2006-01-01",
   "dateModified": "2026-03-10",
   "mainEntity": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing",
+    "name": "JKKN College of Nursing and Research",
     "alternateName": "Sresakthimayeil Institute Of Nursing And Research",
     "foundingDate": "2006",
     "knowsAbout": [
@@ -199,12 +199,12 @@ const scholarshipOfferSchema = {
   "@context": "https://schema.org",
   "@type": "Offer",
   "name": "Merit Scholarship for Nursing Programs at JKKN",
-  "description": "Merit-based scholarships covering up to 75% of tuition fees for deserving students across all nursing programs at JKKN College of Nursing.",
+  "description": "Merit-based scholarships covering up to 75% of tuition fees for deserving students across all nursing programs at JKKN College of Nursing and Research.",
   "category": "Scholarship",
   "offeredBy": {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#college",
-    "name": "JKKN College of Nursing"
+    "name": "JKKN College of Nursing and Research"
   },
   "eligibleRegion": { "@type": "Country", "name": "India" },
   "availability": "https://schema.org/InStock",
@@ -281,7 +281,7 @@ export default async function Home() {
       <Header />
       <BreadcrumbSchema items={[
         { name: 'JKKN Institutions', url: 'https://jkkn.ac.in/' },
-        { name: 'JKKN College of Nursing', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
+        { name: 'JKKN College of Nursing and Research', url: 'https://nursing.sresakthimayeil.jkkn.ac.in/' },
       ]} />
       <main className="overflow-x-hidden !pt-0">
         {/* Hero Section */}
@@ -293,7 +293,7 @@ export default async function Home() {
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6 md:mb-8">
                   <BuildingOffice2Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                   <span className="text-white text-xs sm:text-sm md:text-base font-medium">
-                    INC Approved | TNNMC Recognized | 500+ Bedded Teaching Hospital
+                    INC Approved | TNNMC Recognized | Attached Teaching Hospital
                   </span>
                 </div>
 
@@ -306,7 +306,7 @@ export default async function Home() {
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, 500+ bedded hospital training, and 98% placement success.
+                  Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, attached-hospital training, and 98% placement success.
                 </p>
 
                 {/* CTA Buttons */}
@@ -340,7 +340,7 @@ export default async function Home() {
                   <div className="relative rounded-[30px] sm:rounded-[35px] lg:rounded-[40px] overflow-hidden shadow-2xl border-4 border-white/20">
                     <Image
                       src="/images/Homepage-Hero_Banner-image.webp"
-                      alt="JKKN College of Nursing"
+                      alt="JKKN College of Nursing and Research"
                       width={450}
                       height={450}
                       className="object-cover w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px]"
@@ -383,8 +383,8 @@ export default async function Home() {
             <div className="grid grid-cols-4 gap-2 sm:gap-3 md:gap-4 mt-8 sm:mt-10 md:mt-12">
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
-                { number: "98%", label: "PLACEMENT RATE" },
-                { number: "500+", label: "BED HOSPITAL\nTRAINING" },
+                { number: "98%", label: "PLACEMENT RATE 2024-25" },
+                { number: "1", label: "ATTACHED TEACHING\nHOSPITAL" },
                 { number: "266", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
                 <div
@@ -460,13 +460,13 @@ export default async function Home() {
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 items-center">
               <div>
                 <p className="text-[#7cb983] text-xs sm:text-sm font-bold uppercase tracking-wide mb-2 sm:mb-4">
-                  ABOUT JKKN COLLEGE OF NURSING
+                  ABOUT JKKN COLLEGE OF NURSING AND RESEARCH
                 </p>
                 <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4 sm:mb-6">
                   Nurturing Compassionate Healthcare Leaders Since 2006
                 </h2>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  JKKN College of Nursing, part of JKKN Institutions, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
+                  JKKN College of Nursing and Research, part of JKKN Institutions, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
                   Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced senior learners combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
@@ -476,7 +476,7 @@ export default async function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
                   {[
                     "INC approved programs with hospital internship",
-                    "500+ bedded teaching hospital for clinical training",
+                    "attached teaching hospital for clinical training",
                     "Advanced nursing simulation laboratory",
                     "International placement partnerships",
                   ].map((feature, index) => (
@@ -516,7 +516,7 @@ export default async function Home() {
                 <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                   <Image
                     src="/images/Simulation-lab-image.webp"
-                    alt="JKKN College of Nursing Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
+                    alt="JKKN College of Nursing and Research Simulation Lab with Learners practicing clinical skills on high-fidelity mannequins"
                     width={600}
                     height={400}
                     className="w-full h-auto object-cover"
@@ -705,7 +705,7 @@ export default async function Home() {
                 WHY CHOOSE US
               </p>
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4">
-                Why JKKN College of Nursing?
+                Why JKKN College of Nursing and Research?
               </h2>
               <p className="text-sm sm:text-base text-white/80 max-w-3xl mx-auto px-2">
                 Experience world-class nursing education with clinical excellence, modern facilities, and exceptional career opportunities.
@@ -718,10 +718,10 @@ export default async function Home() {
                   <BuildingOffice2Icon className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-4">
-                  500+ Bed Hospital Training
+                  Attached Hospital Training
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Hands-on clinical training in our attached 500+ bedded multi-specialty hospital covering all nursing specialities with real patient interactions.
+                  Hands-on clinical training in our attachedded multi-specialty hospital covering all nursing specialities with real patient interactions.
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 hover:bg-white/20 transition-all duration-300">
@@ -779,8 +779,8 @@ export default async function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12 md:mb-16">
               {[
-                { number: "98%", label: "Placement Rate" },
-                { number: "₹4.2L", label: "Avg. Package" },
+                { number: "98%", label: "Placement Rate (2024-25)" },
+                { number: "₹3.6L", label: "Median Package (NIRF)" },
                 { number: "₹25L", label: "Highest (International)" },
                 { number: "80+", label: "Recruiting Partners" },
               ].map((stat, index) => (
@@ -930,7 +930,7 @@ export default async function Home() {
                   Upcoming & Recent Events
                 </h2>
                 <p className="text-gray-600 max-w-3xl mx-auto">
-                  Stay updated with workshops, seminars, health camps, and celebrations happening at JKKN College of Nursing.
+                  Stay updated with workshops, seminars, health camps, and celebrations happening at JKKN College of Nursing and Research.
                 </p>
               </div>
 
@@ -1100,7 +1100,7 @@ export default async function Home() {
                 What Our Learners Say
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
-                Hear from our Learners and alumni about their transformative experience at JKKN College of Nursing.
+                Hear from our Learners and alumni about their transformative experience at JKKN College of Nursing and Research.
               </p>
             </div>
 
@@ -1176,9 +1176,9 @@ export default async function Home() {
               {[
                 
                 {
-                  question: "Is JKKN College of Nursing approved by INC?",
+                  question: "Is JKKN College of Nursing and Research approved by INC?",
                   answer:
-                    "Yes, JKKN College of Nursing is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
+                    "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
                 },
                 {
                   question: "What is the fee structure for nursing programs?",
@@ -1188,7 +1188,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98% placement rate with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing); international placements go up to ₹25 LPA. Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",
@@ -1198,7 +1198,7 @@ export default async function Home() {
                 {
                   question: "What clinical training facilities are available?",
                   answer:
-                    "Our Learners receive clinical training at the attached 500+ bedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
+                    "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
                 },
                 {
                   question: "Is hostel accommodation mandatory?",
@@ -1213,7 +1213,7 @@ export default async function Home() {
                 {
                   question: "How do I choose the best nursing college in Tamil Nadu?",
                   answer:
-                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a 500+ bedded multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
+                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
                 },
               ].map((faq, index) => (
                 <details
@@ -1244,7 +1244,7 @@ export default async function Home() {
               Ready to Begin Your Nursing Journey?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-3xl mx-auto">
-              Join JKKN College of Nursing and become part of the JKKN Institutions legacy, built since 1952. Applications for 2026-27 are now open.
+              Join JKKN College of Nursing and Research and become part of the JKKN Institutions legacy, built since 1952. Applications for 2026-27 are now open.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <a

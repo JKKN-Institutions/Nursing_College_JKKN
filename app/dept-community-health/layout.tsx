@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Community Health Nursing Department at JKKN. Public health training, field visits, and community-based learning.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-community-health",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {

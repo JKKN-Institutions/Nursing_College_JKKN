@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Obstetrics & Gynecological Nursing Department at JKKN. Maternal health, midwifery training, and women's healthcare.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-obstetrics-gynecological",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {

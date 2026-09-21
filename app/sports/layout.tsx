@@ -1,26 +1,26 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sports & Athletics — JKKN College of Nursing",
+  title: "Sports & Athletics — JKKN College of Nursing and Research",
   description: "Sports facilities and athletic programmes for nursing students at JKKN, Komarapalayam. Indoor and outdoor sports.",
   openGraph: {
-    title: "Sports & Athletics — JKKN College of Nursing",
+    title: "Sports & Athletics — JKKN College of Nursing and Research",
     description: "Sports facilities and athletic programmes for nursing students at JKKN, Komarapalayam. Indoor and outdoor sports.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/sports",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sports & Athletics — JKKN College of Nursing",
+    title: "Sports & Athletics — JKKN College of Nursing and Research",
     description: "Sports facilities and athletic programmes for nursing students at JKKN, Komarapalayam. Indoor and outdoor sports.",
   },
   robots: {

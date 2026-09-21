@@ -1,28 +1,28 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Feedback Analysis — JKKN College of Nursing",
+  title: "Feedback Analysis — JKKN College of Nursing and Research",
   description:
     "Student, faculty, and stakeholder feedback analysis and improvement measures at JKKN.",
   openGraph: {
-    title: "Feedback Analysis — JKKN College of Nursing",
+    title: "Feedback Analysis — JKKN College of Nursing and Research",
     description:
       "Student, faculty, and stakeholder feedback analysis and improvement measures at JKKN.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/feedback-analysis",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Feedback Analysis — JKKN College of Nursing",
+    title: "Feedback Analysis — JKKN College of Nursing and Research",
     description:
       "Student, faculty, and stakeholder feedback analysis and improvement measures at JKKN.",
     images: ["/images/nursing_logo.png"],

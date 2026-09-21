@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "Post Basic B.Sc Nursing admission 2026, PBBSc Nursing JKKN, GNM to BSc Nursing, Post Basic BSc eligibility, PB BSc Nursing fees, Post Basic Nursing Tamil Nadu",
   alternates: { canonical: `${SITE_URL}/admissions/pbsc-nursing` },
   openGraph: {
-    title: "Post Basic B.Sc Nursing Admission 2026-27 — JKKN College of Nursing",
+    title: "Post Basic B.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
     description:
       "2-year Post Basic B.Sc Nursing for GNM diploma holders. Merit-based. Complete admission details — eligibility, fees, documents, dates, process at JKKN.",
     url: `${SITE_URL}/admissions/pbsc-nursing`,

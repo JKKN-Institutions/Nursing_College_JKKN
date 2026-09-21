@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "JKKN group of educational institutions under J.K.K. Rangammal Charitable Trust. Engineering, pharmacy, arts, and science colleges.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/our-institutions",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {

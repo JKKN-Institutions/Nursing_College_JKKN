@@ -39,16 +39,16 @@ export async function generateMetadata({
     .eq('college_id', process.env.NEXT_PUBLIC_COLLEGE_ID)
     .single();
 
-  if (!data) return { title: 'Faculty | JKKN College of Nursing' };
+  if (!data) return { title: 'Faculty | JKKN College of Nursing and Research' };
 
-  const title = `${data.name} — ${data.designation} | JKKN College of Nursing`;
-  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam.`;
+  const title = `${data.name} — ${data.designation} | JKKN College of Nursing and Research`;
+  const description = `Learn about ${data.name}, ${data.designation}${data.department ? ` in the ${data.department}` : ''} at JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam.`;
 
   return {
     title,
     description,
     alternates: { canonical: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}` },
-    openGraph: { title, description, url: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}`, siteName: 'JKKN College of Nursing', type: 'website', locale: 'en_IN' },
+    openGraph: { title, description, url: `https://nursing.sresakthimayeil.jkkn.ac.in/faculty/${slug}`, siteName: 'JKKN College of Nursing and Research', type: 'website', locale: 'en_IN' },
     twitter: { card: 'summary_large_image', title, description },
   };
 }
@@ -162,7 +162,7 @@ export default async function FacultyProfilePage({
       worksFor: {
         '@type': 'CollegeOrUniversity',
         '@id': 'https://nursing.sresakthimayeil.jkkn.ac.in/#college',
-        name: 'JKKN College of Nursing',
+        name: 'JKKN College of Nursing and Research',
         url: 'https://nursing.sresakthimayeil.jkkn.ac.in/',
       },
     },

@@ -33,12 +33,12 @@ export default function PBScNursing() {
     "@type": "Course",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course",
     "name": "Post Basic Bachelor of Science in Nursing (Post Basic B.Sc Nursing)",
-    "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+    "description": "2-year Post Basic B.Sc Nursing program for GNM diploma holders with clinical training at attached teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
     "provider": {
       "@type": "EducationalOrganization",
       "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-      "name": "JKKN College of Nursing",
+      "name": "JKKN College of Nursing and Research",
       "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
     },
     "timeRequired": "P2Y",
@@ -74,7 +74,7 @@ export default function PBScNursing() {
       "endDate": "2028-06-30",
       "location": {
         "@type": "Place",
-        "name": "JKKN College of Nursing Campus",
+        "name": "JKKN College of Nursing and Research Campus",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Natarajapuram, NH-544",
@@ -200,7 +200,7 @@ export default function PBScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the 500+ bed hospital.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the attached hospital.</p>
                 </div>
 
                 {/* Description */}
@@ -249,7 +249,7 @@ export default function PBScNursing() {
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
                   src="/images/NURSING%20COLLEGE/DSC_0380.webp"
-                  alt="Post Basic BSc Nursing students in practical lab session at JKKN College of Nursing"
+                  alt="Post Basic BSc Nursing students in practical lab session at JKKN College of Nursing and Research"
                   fill
                   className="object-cover"
                   priority
@@ -268,7 +268,7 @@ export default function PBScNursing() {
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
                     src="/images/NURSING%20COLLEGE/IMG_1550.webp"
-                    alt="Post Basic BSc Nursing students in clinical skills demonstration at JKKN College of Nursing"
+                    alt="Post Basic BSc Nursing students in clinical skills demonstration at JKKN College of Nursing and Research"
                     fill
                     className="object-cover"
                   />
@@ -955,7 +955,7 @@ export default function PBScNursing() {
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
                   src="/images/NURSING%20COLLEGE/IMG_1572.webp"
-                  alt="Post Basic BSc Nursing students studying in library at JKKN College of Nursing"
+                  alt="Post Basic BSc Nursing students studying in library at JKKN College of Nursing and Research"
                   fill
                   className="object-cover"
                 />
@@ -1378,7 +1378,7 @@ export default function PBScNursing() {
         {/* Institutional Authority Block */}
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>

@@ -115,8 +115,8 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     whyThis: [
       { title: "INC-Approved Curriculum", desc: "Follows the Indian Nursing Council's revised B.Sc Nursing curriculum with TNMGRMU university framework." },
-      { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached 500+ bed JKKN Multi-Specialty Teaching Hospital." },
-      { title: "98% Placement Track Record", desc: "Consistent placements at top corporate hospitals across India and abroad." },
+      { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached JKKN Multi-Specialty Teaching Hospital." },
+      { title: "98% Placement Track Record (2024-25)", desc: "Consistent placements at top corporate hospitals across India and abroad." },
     ],
     faqs: [
       { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },

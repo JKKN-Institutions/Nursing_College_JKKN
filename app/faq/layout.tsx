@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description,
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/faq",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
   },
 };
 

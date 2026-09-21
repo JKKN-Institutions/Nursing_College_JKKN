@@ -3,20 +3,20 @@
 export const metadata: Metadata = {
   title: "Journal Publications — JKKN Nursing Research",
   description:
-    "Research publications and scholarly work by faculty and students at JKKN College of Nursing.",
+    "Research publications and scholarly work by faculty and students at JKKN College of Nursing and Research.",
   openGraph: {
     title: "Journal Publications — JKKN Nursing Research",
     description:
-      "Research publications and scholarly work by faculty and students at JKKN College of Nursing.",
+      "Research publications and scholarly work by faculty and students at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Journal Publications — JKKN Nursing Research",
     description:
-      "Research publications and scholarly work by faculty and students at JKKN College of Nursing.",
+      "Research publications and scholarly work by faculty and students at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

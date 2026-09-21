@@ -18,7 +18,7 @@ const admissionsWebPageSchema = {
   "@type": "WebPage",
   "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
-  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 98% placement.",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -148,7 +148,7 @@ export default function Admissions() {
           <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
           <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
             <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
-            <p className="text-gray-700 text-sm">JKKN College of Nursing offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing and Research offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
           </div>
         </div>
 
@@ -183,7 +183,7 @@ export default function Admissions() {
                   🏥
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">500+ Bed Teaching Hospital</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">Attached Teaching Hospital</h3>
                   <p className="text-gray-600 text-sm">Hands-on clinical training from Year 1 at our attached multi-specialty teaching hospital with real patient exposure.</p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ export default function Admissions() {
                   📈
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">98% Placement Rate</h3>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">98% Placement Rate (2024-25)</h3>
                   <p className="text-gray-600 text-sm">Consistently high placement record with graduates placed in leading hospitals across India and abroad.</p>
                 </div>
               </div>
@@ -699,7 +699,7 @@ export default function Admissions() {
                   a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately.",
                 },
                 {
-                  q: "How can I apply for admission to JKKN College of Nursing?",
+                  q: "How can I apply for admission to JKKN College of Nursing and Research?",
                   a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance.",
                 },
                 {
@@ -719,8 +719,8 @@ export default function Admissions() {
                   a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration.",
                 },
                 {
-                  q: "What is the placement rate at JKKN College of Nursing?",
-                  a: "JKKN consistently achieves a 98% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
+                  q: "What is the placement rate at JKKN College of Nursing and Research?",
+                  a: "JKKN consistently achieves a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
                 },
                 {
                   q: "When do classes begin for the 2026-27 academic year?",
@@ -728,7 +728,7 @@ export default function Admissions() {
                 },
                 {
                   q: "Does JKKN have its own teaching hospital for clinical training?",
-                  a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
+                  a: "Yes. JKKN has an attached multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
                 },
               ].map(({ q, a }, idx) => (
                 <details
@@ -771,14 +771,14 @@ export default function Admissions() {
                   { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },
                   { q: "What is the eligibility for M.Sc Nursing?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
                   { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately." },
-                  { q: "How can I apply for admission to JKKN College of Nursing?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
+                  { q: "How can I apply for admission to JKKN College of Nursing and Research?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
                   { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling on a merit list built from 10+2 marks. Management Quota (MQ) seats are filled directly by the institution on academic merit. Apply through both routes to maximize your chances." },
                   { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
-                  { q: "What is the placement rate at JKKN College of Nursing?", a: "JKKN consistently achieves a 98% placement rate. Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
+                  { q: "What is the placement rate at JKKN College of Nursing and Research?", a: "JKKN consistently achieves a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
-                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached 500+ bed multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
+                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
                 ].map(({ q, a }) => ({
                   "@type": "Question",
                   "name": q,
@@ -823,7 +823,7 @@ export default function Admissions() {
         {/* ── INSTITUTIONAL AUTHORITY BLOCK ──────────────────────── */}
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 py-8">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>

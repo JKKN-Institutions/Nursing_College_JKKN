@@ -1,25 +1,25 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Research Committee — JKKN College of Nursing",
+  title: "Research Committee — JKKN College of Nursing and Research",
   description: "Research committee guiding nursing research projects, publications, and academic research at JKKN.",
   openGraph: {
-    title: "Research Committee — JKKN College of Nursing",
+    title: "Research Committee — JKKN College of Nursing and Research",
     description: "Research committee guiding nursing research projects, publications, and academic research at JKKN.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-committee",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {
     card: "summary_large_image",
-    title: "Research Committee — JKKN College of Nursing",
+    title: "Research Committee — JKKN College of Nursing and Research",
     description: "Research committee guiding nursing research projects, publications, and academic research at JKKN.",
     images: ["/images/nursing_logo.png"],
   },

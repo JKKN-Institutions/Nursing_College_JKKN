@@ -2,25 +2,25 @@
 
 export const metadata: Metadata = {
   title: "NSS — National Service Scheme | JKKN Nursing",
-  description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing.",
+  description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing and Research.",
   openGraph: {
     title: "NSS — National Service Scheme | JKKN Nursing",
-    description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing.",
+    description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/nss",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {
     card: "summary_large_image",
     title: "NSS — National Service Scheme | JKKN Nursing",
-    description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing.",
+    description: "NSS unit activities, community service, and social outreach programmes at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
 

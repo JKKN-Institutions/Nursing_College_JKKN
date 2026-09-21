@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Institutional Distinctiveness — JKKN College of Nursing",
+  title: "Institutional Distinctiveness — JKKN College of Nursing and Research",
   description:
-    "Unique strengths, achievements, and distinctive features of JKKN College of Nursing.",
+    "Unique strengths, achievements, and distinctive features of JKKN College of Nursing and Research.",
   openGraph: {
-    title: "Institutional Distinctiveness — JKKN College of Nursing",
+    title: "Institutional Distinctiveness — JKKN College of Nursing and Research",
     description:
-      "Unique strengths, achievements, and distinctive features of JKKN College of Nursing.",
+      "Unique strengths, achievements, and distinctive features of JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/institutional-distinctiveness",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Institutional Distinctiveness — JKKN College of Nursing",
+    title: "Institutional Distinctiveness — JKKN College of Nursing and Research",
     description:
-      "Unique strengths, achievements, and distinctive features of JKKN College of Nursing.",
+      "Unique strengths, achievements, and distinctive features of JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

@@ -29,24 +29,24 @@ import {
 const bscFaqs: { q: string; a: string }[] = [
                 { q: "What is the B.Sc Nursing fee at JKKN College?", a: "The annual fee is ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate, in each of the 4 years, and it includes uniform, hospital training and the nursing kit. Government Quota fees are as per Tamil Nadu government and university norms. Hostel accommodation costs ₹60,000–75,000 per year additionally. Merit-based fee concessions are available on 10+2 performance; contact the admissions office for the current concession table." },
                 { q: "Is NEET required for B.Sc Nursing at JKKN?", a: "No, NEET is not required for B.Sc Nursing admission at JKKN College. Admission is completely merit-based on 10+2 marks with Physics, Chemistry, and Biology. Minimum 45% aggregate marks required (40% for SC/ST candidates). Apply online at jkkn.ai/apply/jkkn-admission-2026." },
-                { q: "What is the duration of B.Sc Nursing at JKKN?", a: "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship at the attached 500+ bed teaching hospital." },
-                { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. Domestic salary starts at ₹3.5–4.5 LPA, while international positions offer ₹15–25 LPA." },
-                { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached 500+ bed multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
+                { q: "What is the duration of B.Sc Nursing at JKKN?", a: "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship at the attached attached teaching hospital." },
+                { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. NIRF 2026 records a median salary of ₹3,60,000 for the 2024-25 graduating cohort." },
+                { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached attached multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
                 { q: "What are the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age must be between 17–35 years. English as compulsory subject in 10+2. NEET is not required. Indian nationals and NRI/PIO candidates are eligible." },
-                { q: "Is JKKN College of Nursing approved by INC?", a: "Yes, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
+                { q: "Is JKKN College of Nursing and Research approved by INC?", a: "Yes, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
                 { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
                 { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
                 { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
                 { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
                 { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
-                { q: "What are the placement statistics at JKKN College of Nursing?", a: "JKKN College of Nursing has a 98% placement rate with 80+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Average CTC is ₹4.5 LPA." },
-                { q: "Which university is JKKN College of Nursing affiliated to?", a: "JKKN College of Nursing is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
+                { q: "What are the placement statistics at JKKN College of Nursing and Research?", a: "JKKN College of Nursing and Research has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with 80+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Median salary for the 2024-25 cohort was ₹3,60,000 (NIRF 2026)." },
+                { q: "Which university is JKKN College of Nursing and Research affiliated to?", a: "JKKN College of Nursing and Research is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
                 { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance. Alumni currently work at NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals." },
-                { q: "What facilities are available at JKKN College of Nursing?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, a 500+ bed teaching hospital, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
+                { q: "What facilities are available at JKKN College of Nursing and Research?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, a attached teaching hospital, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
                 { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based fee concessions on 10+2 performance. Government scholarships for BC, MBC, SC and ST learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
                 { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
                 { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
-                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers a 500+ bed teaching hospital providing Year 1 clinical training, 98% placement rate, published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
+                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers a attached teaching hospital providing Year 1 clinical training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
 ];
 
 export default function BScNursing() {
@@ -69,12 +69,12 @@ export default function BScNursing() {
               "@type": "Course",
               "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course",
               "name": "Bachelor of Science in Nursing (B.Sc Nursing)",
-              "description": "4-year undergraduate Bachelor of Science in Nursing program with clinical training at 500+ bed teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
+              "description": "4-year undergraduate Bachelor of Science in Nursing program with clinical training at attached teaching hospital. INC approved, affiliated with Tamil Nadu Dr. M.G.R. Medical University.",
               "url": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
               "provider": {
                 "@type": "EducationalOrganization",
                 "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-                "name": "JKKN College of Nursing",
+                "name": "JKKN College of Nursing and Research",
                 "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
                 "address": {
                   "@type": "PostalAddress",
@@ -115,7 +115,7 @@ export default function BScNursing() {
                 "endDate": "2030-06-30",
                 "location": {
                   "@type": "Place",
-                  "name": "JKKN College of Nursing Campus",
+                  "name": "JKKN College of Nursing and Research Campus",
                   "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Natarajapuram, NH-544",
@@ -155,14 +155,14 @@ export default function BScNursing() {
                 {/* Main Heading */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                   BSc Nursing in Tamil Nadu —{" "}
-                  <span className="text-[#7cb983]">JKKN College of Nursing</span>
+                  <span className="text-[#7cb983]">JKKN College of Nursing and Research</span>
                 </h1>
 
                 <p className="text-sm text-gray-300 mb-4">Last updated: April 11, 2026</p>
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg course-overview">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 4-year INC-approved BSc Nursing program in Tamil Nadu, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached 500+ bed multi-specialty teaching hospital from Year 1. 98% placement rate with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹1,50,000 (female) / ₹1,75,000 (male).</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 4-year INC-approved BSc Nursing program in Tamil Nadu, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached attached multi-specialty teaching hospital from Year 1. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹1,50,000 (female) / ₹1,75,000 (male).</p>
                 </div>
 
                 {/* Description */}
@@ -198,7 +198,7 @@ export default function BScNursing() {
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">98%</div>
-                    <div className="text-xs sm:text-sm text-gray-300">Placement Rate</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Placement Rate (2024-25)</div>
                   </div>
                   <div>
                     <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">80+</div>
@@ -211,7 +211,7 @@ export default function BScNursing() {
               <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                 <Image
                   src="/images/NURSING%20COLLEGE/DSC_0345.webp"
-                  alt="BSc Nursing students practising clinical skills at JKKN College of Nursing, Tamil Nadu"
+                  alt="BSc Nursing students practising clinical skills at JKKN College of Nursing and Research, Tamil Nadu"
                   fill
                   className="object-cover"
                   priority
@@ -230,7 +230,7 @@ export default function BScNursing() {
                 <div className="relative rounded-2xl overflow-hidden min-h-[400px]">
                   <Image
                     src="/images/NURSING%20COLLEGE/DSC_0359.webp"
-                    alt="BSc Nursing students in classroom learning anatomy at JKKN College of Nursing, Komarapalayam"
+                    alt="BSc Nursing students in classroom learning anatomy at JKKN College of Nursing and Research, Komarapalayam"
                     fill
                     className="object-cover"
                   />
@@ -249,7 +249,7 @@ export default function BScNursing() {
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                  JKKN College of Nursing runs a comprehensive 4-year undergraduate <Link href="/" className="text-[#006837] font-semibold hover:underline">nursing programme in Tamil Nadu</Link> designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">500+ bed teaching hospital</Link>. With a 98% placement rate including international opportunities, JKKN provides a clinical foundation for a nursing career.
+                  JKKN College of Nursing and Research runs a comprehensive 4-year undergraduate <Link href="/" className="text-[#006837] font-semibold hover:underline">nursing programme in Tamil Nadu</Link> designed to develop skilled, compassionate, and ethical nursing professionals. The learning framework integrates theoretical knowledge with extensive clinical practice at our attached <Link href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">attached teaching hospital</Link>. With a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities, JKKN provides a clinical foundation for a nursing career.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
                   Sresakthimayeil Institute Of Nursing And Research follows a progressive education approach that goes beyond textbook learning. Learners gain hands-on experience through clinical rotations in leading hospitals, community health centres, and specialised care units.
@@ -298,7 +298,7 @@ export default function BScNursing() {
                 Why JKKN is Among the Best BSc Nursing Colleges in Tamil Nadu
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                JKKN College of Nursing combines clinical training in a 500+ bedded teaching hospital, published fees, and international career pathways for BSc Nursing in Tamil Nadu.
+                JKKN College of Nursing and Research combines clinical training in a attached teaching hospital, published fees, and international career pathways for BSc Nursing in Tamil Nadu.
               </p>
             </div>
 
@@ -311,8 +311,8 @@ export default function BScNursing() {
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">98%</div>
-                <h3 className="text-lg font-bold mb-2">Placement Rate</h3>
-                <p className="text-gray-200 text-sm">50+ recruiters including Apollo, Fortis, KIMS. Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
+                <h3 className="text-lg font-bold mb-2">Placement Rate (2024-25)</h3>
+                <p className="text-gray-200 text-sm">Recruiters include Apollo, Fortis, KIMS. Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">₹95K</div>
@@ -1249,7 +1249,7 @@ export default function BScNursing() {
               </div>
 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                JKKN College of Nursing welcomes male learners to the B.Sc Nursing program. As per Indian Nursing Council (INC) guidelines, 10% of total intake — 6 seats out of 60 — is reserved for male candidates. Male nursing is a rapidly growing field with excellent career prospects in ICU, Emergency Care, Defence Nursing, and International Placements.
+                JKKN College of Nursing and Research welcomes male learners to the B.Sc Nursing program. As per Indian Nursing Council (INC) guidelines, 10% of total intake — 6 seats out of 60 — is reserved for male candidates. Male nursing is a rapidly growing field with excellent career prospects in ICU, Emergency Care, Defence Nursing, and International Placements.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -1292,16 +1292,16 @@ export default function BScNursing() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">98%</div>
-                <div className="text-xl font-semibold mb-2">Placement Rate</div>
+                <div className="text-xl font-semibold mb-2">Placement Rate (2024-25)</div>
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">₹4.5L</div>
-                <div className="text-xl font-semibold mb-2">Average CTC</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">₹3.6L</div>
+                <div className="text-xl font-semibold mb-2">Median Salary (2024-25, NIRF 2026)</div>
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">50+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">80+</div>
                 <div className="text-xl font-semibold mb-2">Recruiting Partners</div>
               </div>
 
@@ -1408,7 +1408,7 @@ export default function BScNursing() {
                 Frequently Asked Questions About BSc Nursing at JKKN
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Find answers to the most common questions about B.Sc Nursing admission, fees, eligibility, placements, and career scope at JKKN College of Nursing.
+                Find answers to the most common questions about B.Sc Nursing admission, fees, eligibility, placements, and career scope at JKKN College of Nursing and Research.
               </p>
             </div>
 
@@ -1439,7 +1439,7 @@ export default function BScNursing() {
           <div className="container-custom">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl font-bold text-[#006837] mb-4">BSc Nursing Near You</h2>
-              <p className="text-gray-600 mb-6">JKKN College of Nursing is located on NH-544, easily accessible from major Tamil Nadu cities. Explore our city-specific pages:</p>
+              <p className="text-gray-600 mb-6">JKKN College of Nursing and Research is located on NH-544, easily accessible from major Tamil Nadu cities. Explore our city-specific pages:</p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link href="/erode" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing near Erode</Link>
                 <Link href="/salem" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing in Salem</Link>
@@ -1486,7 +1486,7 @@ export default function BScNursing() {
         {/* Institutional Authority Block */}
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>

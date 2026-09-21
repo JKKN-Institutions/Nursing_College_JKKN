@@ -1,26 +1,26 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Anti-Ragging Policy — JKKN College of Nursing",
+  title: "Anti-Ragging Policy — JKKN College of Nursing and Research",
   description: "Anti-ragging measures and student discipline policies at Sresakthimayeil Institute of Nursing, JKKN.",
   openGraph: {
-    title: "Anti-Ragging Policy — JKKN College of Nursing",
+    title: "Anti-Ragging Policy — JKKN College of Nursing and Research",
     description: "Anti-ragging measures and student discipline policies at Sresakthimayeil Institute of Nursing, JKKN.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/anti-ragging-discipline",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anti-Ragging Policy — JKKN College of Nursing",
+    title: "Anti-Ragging Policy — JKKN College of Nursing and Research",
     description: "Anti-ragging measures and student discipline policies at Sresakthimayeil Institute of Nursing, JKKN.",
   },
   robots: {

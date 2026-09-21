@@ -26,14 +26,14 @@ export async function generateMetadata({
 
   // Returning {} here silently inherits the /blog listing's title and canonical, which is how
   // this fault stayed invisible: the post rendered fine while its head claimed to be the listing.
-  if (!post) return { title: 'Blog Post Not Found — JKKN College of Nursing' };
+  if (!post) return { title: 'Blog Post Not Found — JKKN College of Nursing and Research' };
 
   const description = post.excerpt || '';
   const canonicalUrl = `https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/${slug}`;
   const ogImage = post.cover_image_url || '/images/nursing_logo.png';
 
   return {
-    title: `${post.title} — JKKN College of Nursing`,
+    title: `${post.title} — JKKN College of Nursing and Research`,
     description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
@@ -41,7 +41,7 @@ export async function generateMetadata({
       description,
       type: 'article',
       url: canonicalUrl,
-      siteName: 'JKKN College of Nursing',
+      siteName: 'JKKN College of Nursing and Research',
       images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
       publishedTime: post.published_at || post.created_at,
     },

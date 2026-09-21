@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "M.Sc Nursing admission 2026, MSc Nursing JKKN, MSc Nursing specializations, TN MSc Nursing entrance, MSc Nursing eligibility, MSc Nursing fees",
   alternates: { canonical: `${SITE_URL}/admissions/msc-nursing` },
   openGraph: {
-    title: "M.Sc Nursing Admission 2026-27 — JKKN College of Nursing",
+    title: "M.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
     description:
       "2-year M.Sc Nursing with 5 INC-approved specializations. TN M.Sc Entrance required. Complete admission details — eligibility, fees, documents, dates, process.",
     url: `${SITE_URL}/admissions/msc-nursing`,

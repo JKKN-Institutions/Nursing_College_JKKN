@@ -59,15 +59,15 @@ const faqs = [
   },
   {
     q: "Which are the best nursing colleges near Tiruppur?",
-    a: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved nursing college accessible from Tiruppur —66 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved nursing college accessible from Tiruppur —66 km away in Komarapalayam, Namakkal. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What B.Sc nursing courses are available near Tiruppur?",
-    a: "JKKN College of Nursing near Tiruppur offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing and Research near Tiruppur offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for nursing courses near Tiruppur?",
-    a: "Fee structures for nursing courses at JKKN College of Nursing are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+    a: "Fee structures for nursing courses at JKKN College of Nursing and Research are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
   },
 ];
 
@@ -135,9 +135,9 @@ const programmes = [
 ];
 
 const placementStats = [
-  { value: "98%", label: "PLACEMENT RATE" },
-  { value: "6-8", label: "LPA HIGHEST" },
-  { value: "2.5-4", label: "LPA AVERAGE" },
+  { value: "98%", label: "PLACEMENT RATE 2024-25" },
+  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -218,7 +218,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Best Nursing College in Tiruppur | B.Sc Nursing Near Tiruppur — JKKN",
   description:
-    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing is 66 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placements.",
+    "Looking for the best nursing college in Tiruppur? JKKN College of Nursing and Research is 66 km from Tiruppur. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   keywords:
     "best nursing college in tiruppur, bsc nursing colleges in tiruppur, best nursing colleges in tiruppur, tiruppur nursing college list, nursing course in tiruppur",
   alternates: {
@@ -227,9 +227,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Nursing College in Tiruppur | B.Sc Nursing Near Tiruppur — JKKN",
     description:
-      "Looking for the best nursing college in Tiruppur? JKKN College of Nursing offers INC approved, NAAC accredited nursing programmes. 98% placements.",
+      "Looking for the best nursing college in Tiruppur? JKKN College of Nursing and Research offers INC approved, NAAC accredited nursing programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/tiruppur",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     type: "website",
   },
 };
@@ -265,7 +265,7 @@ export default function TiruppurPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "JKKN College of Nursing",
+            name: "JKKN College of Nursing and Research",
             alternateName: "Sresakthimayeil Institute Of Nursing And Research",
             url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
             telephone: "+919345855001",
@@ -316,14 +316,14 @@ export default function TiruppurPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes —66 km from Tiruppur with 98% placement rate and hostel facilities.
+              Searching for the best nursing college in Tiruppur? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) offers INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes —66 km from Tiruppur with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and hostel facilities.
             </p>
 
             {/* Stats Grid */}
             <div className="grid grid-cols-4 gap-2 sm:gap-3 max-w-sm sm:max-w-lg mx-auto mb-7 sm:mb-8">
               {[
-                { value: "98%", label: "PLACEMENTS" },
-                { value: "6-8", label: "LPA HIGHEST" },
+                { value: "98%", label: "PLACEMENTS 2024-25" },
+                { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
                 { value: "66 km", label: "FROM TIRUPPUR" },
                 { value: "3", label: "PROGRAMMES" },
               ].map((stat) => (
@@ -386,7 +386,7 @@ export default function TiruppurPage() {
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt="JKKN College of Nursing campus — best nursing college in Tiruppur"
+                alt="JKKN College of Nursing and Research campus — best nursing college in Tiruppur"
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -449,22 +449,22 @@ export default function TiruppurPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 66 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the 500+ bedded teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
+                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 66 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the attached teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
               </p>
               <p>
                 Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting learners to look beyond city limits for quality nursing education.
               </p>
               <p>
-                For learners searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers a compelling choice. Located 66 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
+                For learners searching for the <strong>best nursing college in Tiruppur</strong>, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers a compelling choice. Located 66 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
               </p>
               <p>
-                JKKN&apos;s integrated campus features a 500+ bed multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
+                JKKN&apos;s integrated campus features an attached multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="500-bed teaching hospital for nursing students near Tiruppur"
+                    alt="attached teaching hospital for nursing students near Tiruppur"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -473,7 +473,7 @@ export default function TiruppurPage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Simulation-lab-image.webp"
-                    alt="Nursing simulation lab at JKKN College of Nursing near Tiruppur"
+                    alt="Nursing simulation lab at JKKN College of Nursing and Research near Tiruppur"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -481,7 +481,7 @@ export default function TiruppurPage() {
                 </div>
               </div>
               <p>
-                Tiruppur learners at JKKN enjoy secure hostel facilities designed for outstation learners, with 98% placement rate including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA). For Tiruppur families seeking a <strong>nursing course in Tiruppur</strong> region with proven career outcomes, JKKN delivers both academic excellence and professional readiness.
+                Tiruppur learners at JKKN enjoy secure hostel facilities designed for outstation learners, with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA). For Tiruppur families seeking a <strong>nursing course in Tiruppur</strong> region with proven career outcomes, JKKN delivers both academic excellence and professional readiness.
               </p>
             </div>
           </div>
@@ -495,7 +495,7 @@ export default function TiruppurPage() {
                 Why Tiruppur Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation, and 98% placement rate. Learners from Tiruppur benefit from secure hostel facilities and clinical training on the same campus as a 500+ bedded multi-specialty teaching hospital.
+                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Learners from Tiruppur benefit from secure hostel facilities and clinical training on the same campus as an attached multi-specialty teaching hospital.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -744,7 +744,7 @@ export default function TiruppurPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
                 <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate (2024-25)</div>
                 <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
               </div>
 

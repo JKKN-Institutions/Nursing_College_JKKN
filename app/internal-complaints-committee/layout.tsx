@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Internal Complaints Committee for addressing grievances and ensuring a safe campus environment at JKKN.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/internal-complaints-committee",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {

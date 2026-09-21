@@ -397,7 +397,7 @@ export default function CourseAdmissionDetail({ course }: Props) {
             provider: {
               "@type": "EducationalOrganization",
               "@id": `${SITE_URL}/#organization`,
-              name: "JKKN College of Nursing",
+              name: "JKKN College of Nursing and Research",
               url: SITE_URL,
             },
             educationalCredentialAwarded: course.full,
@@ -412,7 +412,7 @@ export default function CourseAdmissionDetail({ course }: Props) {
               courseWorkload: course.durationISO,
               location: {
                 "@type": "Place",
-                name: "JKKN College of Nursing",
+                name: "JKKN College of Nursing and Research",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "Natarajapuram, NH-544, Salem-Coimbatore Highway",
