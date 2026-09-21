@@ -22,13 +22,13 @@ export default function NIRF2024() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16 max-w-[1400px]">
             <div className="flex flex-col sm:flex-row gap-6 items-start">
               <a
-                href="/pdf/NIRF-2024-Overall.pdf"
+                href="/pdf/nirf-2024-overall.pdf"
                 className="bg-[#7cb983] text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-[#6ba872] transition-colors"
               >
                 OVERALL
               </a>
               <a
-                href="/pdf/NIRF-2024-Innovation.pdf"
+                href="/pdf/nirf-2024-innovation.pdf"
                 className="bg-[#7cb983] text-white px-8 py-4 rounded-lg text-lg font-medium hover:bg-[#6ba872] transition-colors"
               >
                 INNOVATION
