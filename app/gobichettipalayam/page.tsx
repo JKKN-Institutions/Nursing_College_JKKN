@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Gobichettipalayam",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Gobichettipalayam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 38 km away via Bhavani — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostel facilities.",
+    "Searching for a nursing college near Gobichettipalayam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) in Komarapalayam is about 38 km away via Bhavani — an INC-approved institute offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and hostel facilities.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS 2024-25" },
     { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
@@ -20,13 +20,13 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Gobichettipalayam Learners",
   landscapeParagraphs: [
     "Gobichettipalayam (Gobi) is a major town in the western part of Erode district, known for its agriculture, coconut and turmeric trade, and as a scenic location frequently featured in Tamil cinema. Learners from Gobi taluk looking for professional healthcare education usually have to consider colleges in Erode, Coimbatore or beyond.",
-    "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers Gobi learners an accessible alternative — about 38 km via the Gobi-Bhavani road, roughly an hour's journey. For a hostel-based nursing education, that proximity means easy weekend trips home, a real advantage over colleges in distant cities.",
+    "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers Gobi learners an accessible alternative — about 38 km via the Gobi-Bhavani road, roughly an hour's journey. For a hostel-based nursing education, that proximity means easy weekend trips home, a real advantage over colleges in distant cities.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year onwards.",
     "Most Gobichettipalayam learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), while some commute via Bhavani. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Gobi learners get a global career launchpad within an hour of home.",
   ],
   whyHeading: "Why Gobichettipalayam Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is about 38 km from Gobichettipalayam via Bhavani — close enough for weekend trips home, far enough to enjoy full campus life. INC approved, NAAC accredited, hospital-attached, with secure hostels.",
+    "JKKN College of Nursing and Research is about 38 km from Gobichettipalayam via Bhavani — close enough for weekend trips home, far enough to enjoy full campus life. INC approved, NAAC accredited, hospital-attached, with secure hostels.",
   commuteDesc:
     "About 38 km from Gobi via the Bhavani road (about 45 minutes). Hostel stay with easy weekend travel home is the popular choice.",
   programmesHeading: "Nursing Courses Available for Gobichettipalayam Learners",
@@ -41,11 +41,11 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Gobichettipalayam?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is one of the most accessible INC-approved nursing colleges for Gobichettipalayam learners — about 38 km via the Gobi-Bhavani road. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) in Komarapalayam is one of the most accessible INC-approved nursing colleges for Gobichettipalayam learners — about 38 km via the Gobi-Bhavani road. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Gobichettipalayam?",
-      a: "JKKN College of Nursing is approximately 38 km from Gobichettipalayam — about an hour by road via Bhavani. Buses run regularly from Gobi bus stand towards Bhavani and Komarapalayam.",
+      a: "JKKN College of Nursing and Research is approximately 38 km from Gobichettipalayam — about an hour by road via Bhavani. Buses run regularly from Gobi bus stand towards Bhavani and Komarapalayam.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Gobichettipalayam learners?",
@@ -53,7 +53,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What nursing courses are available near Gobichettipalayam?",
-      a: "JKKN College of Nursing offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "JKKN College of Nursing and Research offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "Is NEET required for B.Sc Nursing?",
@@ -65,7 +65,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What is the fee structure for B.Sc Nursing near Gobichettipalayam?",
-      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing and Research follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
     },
     {
       q: "How can I apply for admission at JKKN Nursing?",
@@ -86,7 +86,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Gobichettipalayam | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Gobichettipalayam: JKKN College of Nursing in Komarapalayam is 38 km via Bhavani. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with hostel. Admissions 2026-27 open.",
+    "Nursing college near Gobichettipalayam: JKKN College of Nursing and Research in Komarapalayam is 38 km via Bhavani. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with hostel. Admissions 2026-27 open.",
   keywords:
     "nursing college near gobichettipalayam, nursing college in gobichettipalayam, bsc nursing gobi, nursing colleges in erode district, jkkn nursing gobichettipalayam",
   alternates: {
@@ -95,9 +95,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Gobichettipalayam | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is 38 km from Gobichettipalayam via Bhavani. INC approved, NAAC accredited, hostel available.",
+      "JKKN College of Nursing and Research in Komarapalayam is 38 km from Gobichettipalayam via Bhavani. INC approved, NAAC accredited, hostel available.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/gobichettipalayam",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     type: "website",
   },
 };

@@ -1,26 +1,26 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Curriculum & Syllabus — JKKN College of Nursing",
+  title: "Curriculum & Syllabus — JKKN College of Nursing and Research",
   description: "INC-approved curriculum and syllabus for B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes at JKKN, Komarapalayam.",
   openGraph: {
-    title: "Curriculum & Syllabus — JKKN College of Nursing",
+    title: "Curriculum & Syllabus — JKKN College of Nursing and Research",
     description: "INC-approved curriculum and syllabus for B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes at JKKN, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/curriculum-syllabus",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Curriculum & Syllabus — JKKN College of Nursing",
+    title: "Curriculum & Syllabus — JKKN College of Nursing and Research",
     description: "INC-approved curriculum and syllabus for B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes at JKKN, Komarapalayam.",
   },
   robots: {

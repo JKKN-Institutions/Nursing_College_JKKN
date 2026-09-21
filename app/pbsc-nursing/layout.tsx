@@ -1,15 +1,15 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
+  title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
   description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
   keywords: "post bsc nursing colleges in tamilnadu, post bsc nursing correspondence course in tamilnadu, list of post bsc nursing colleges in tamilnadu, post basic bsc nursing distance education in tamilnadu, post bsc nursing distance education in tamilnadu, post bsc nursing in tamilnadu",
   openGraph: {
-    title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
+    title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
     description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Post Basic B.Sc Nursing — JKKN College of Nursing",
+    title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
     description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
     images: ["/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"],
   },
@@ -49,11 +49,11 @@ const pbscNursingSchema = {
   "@type": "Course",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing#course",
   "name": "Post Basic B.Sc Nursing",
-  "description": "2-year INC-approved program for GNM diploma holders. Upgrade your nursing qualifications to a full B.Sc Nursing degree at JKKN College of Nursing, Komarapalayam.",
+  "description": "2-year INC-approved program for GNM diploma holders. Upgrade your nursing qualifications to a full B.Sc Nursing degree at JKKN College of Nursing and Research, Komarapalayam.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
   "provider": {
     "@type": "CollegeOrUniversity",
-    "name": "JKKN College of Nursing",
+    "name": "JKKN College of Nursing and Research",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
   },
   "educationalCredentialAwarded": "Post Basic B.Sc Nursing",

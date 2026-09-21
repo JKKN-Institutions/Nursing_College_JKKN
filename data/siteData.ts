@@ -232,7 +232,7 @@ export const heroSlides = [
 export const announcements = [
   {
     id: 1,
-    title: "JKKN College Of Nursing & Research –B.SC.,(Nursing),M.SC.,P.B.B.SC.,(Nursing) admissions open apply now!",
+    title: "JKKN College of Nursing and Research –B.SC.,(Nursing),M.SC.,P.B.B.SC.,(Nursing) admissions open apply now!",
     date: "June 23, 2023",
   },
   {

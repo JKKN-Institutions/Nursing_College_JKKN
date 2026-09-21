@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Dharmapuri",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Looking for a nursing college near Dharmapuri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is around 111 km away via Salem. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels for outstation learners.",
+    "Looking for a nursing college near Dharmapuri? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) in Komarapalayam is around 111 km away via Salem. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels for outstation learners.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS 2024-25" },
     { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
@@ -20,13 +20,13 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Dharmapuri Learners",
   landscapeParagraphs: [
     "Dharmapuri is a largely agricultural district in north-western Tamil Nadu, famous for its mango cultivation and for Hogenakkal Falls on the Cauvery. Compared to Salem or Coimbatore, the district has fewer professional healthcare institutions, so nursing aspirants from Dharmapuri, Palacode, Pennagaram and Harur often study outside the district.",
-    "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical choice for that journey — around 111 km via Salem, about 2 hours by road. Every Salem-bound bus from Dharmapuri connects onward to the NH-544 corridor, where the campus sits right on the highway.",
+    "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical choice for that journey — around 111 km via Salem, about 2 hours by road. Every Salem-bound bus from Dharmapuri connects onward to the NH-544 corridor, where the campus sits right on the highway.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year onwards.",
     "Dharmapuri learners typically stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with the Salem route making weekend and holiday travel home straightforward. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Dharmapuri district can build a global nursing career from a campus that stays within easy reach of home.",
   ],
   whyHeading: "Why Dharmapuri Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is around 111 km from Dharmapuri via Salem — a well-connected hostel option for a district with limited nursing colleges of its own. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is around 111 km from Dharmapuri via Salem — a well-connected hostel option for a district with limited nursing colleges of its own. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
   commuteDesc:
     "Around 111 km from Dharmapuri via Salem (about 2 hours). Hostel stay with weekend travel home via the Salem route is the popular choice.",
   programmesHeading: "Nursing Courses Available for Dharmapuri Learners",
@@ -42,15 +42,15 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Dharmapuri?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Dharmapuri learners — around 111 km via Salem. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Dharmapuri learners — around 111 km via Salem. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Dharmapuri?",
-      a: "JKKN College of Nursing is roughly 111 km from Dharmapuri — about 2 hours by road. Take any Salem-bound bus from Dharmapuri, then an NH-544 bus towards Erode; the campus is on the highway at Komarapalayam.",
+      a: "JKKN College of Nursing and Research is roughly 111 km from Dharmapuri — about 2 hours by road. Take any Salem-bound bus from Dharmapuri, then an NH-544 bus towards Erode; the campus is on the highway at Komarapalayam.",
     },
     {
       q: "Are there nursing colleges in Dharmapuri district?",
-      a: "Dharmapuri district has limited INC-approved nursing college options, so many aspirants study in the Salem-Erode belt. JKKN College of Nursing at Komarapalayam is a well-connected choice around 111 km away via Salem, with secure hostels for outstation learners.",
+      a: "Dharmapuri district has limited INC-approved nursing college options, so many aspirants study in the Salem-Erode belt. JKKN College of Nursing and Research at Komarapalayam is a well-connected choice around 111 km away via Salem, with secure hostels for outstation learners.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Dharmapuri learners?",
@@ -58,7 +58,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What nursing courses are available for Dharmapuri learners?",
-      a: "JKKN College of Nursing offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "JKKN College of Nursing and Research offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "Is NEET required for B.Sc Nursing?",
@@ -70,7 +70,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What is the fee structure for B.Sc Nursing for Dharmapuri learners?",
-      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing and Research follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
     },
   ],
   cities: [
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Dharmapuri | B.Sc Nursing — JKKN",
   description:
-    "JKKN College of Nursing at Komarapalayam is about 111 km from Dharmapuri via Salem. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
+    "JKKN College of Nursing and Research at Komarapalayam is about 111 km from Dharmapuri via Salem. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near dharmapuri, nursing colleges in dharmapuri, bsc nursing dharmapuri, nursing college dharmapuri district, jkkn nursing dharmapuri",
   alternates: {
@@ -96,9 +96,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Dharmapuri | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is 111 km from Dharmapuri via Salem. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing and Research in Komarapalayam is 111 km from Dharmapuri via Salem. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/dharmapuri",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     type: "website",
   },
 };

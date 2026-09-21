@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Add-On Courses — JKKN College of Nursing",
+  title: "Add-On Courses — JKKN College of Nursing and Research",
   description:
-    "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing, Komarapalayam.",
+    "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing and Research, Komarapalayam.",
   openGraph: {
-    title: "Add-On Courses — JKKN College of Nursing",
+    title: "Add-On Courses — JKKN College of Nursing and Research",
     description:
-      "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing, Komarapalayam.",
+      "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing and Research, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/add-on-course",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Add-On Courses — JKKN College of Nursing",
+    title: "Add-On Courses — JKKN College of Nursing and Research",
     description:
-      "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing, Komarapalayam.",
+      "Skill-enhancing add-on courses for nursing students at JKKN College of Nursing and Research, Komarapalayam.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

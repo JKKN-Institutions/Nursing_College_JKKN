@@ -7,24 +7,24 @@ import { UserCircle2 } from 'lucide-react';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Faculty | JKKN College of Nursing',
+  title: 'Faculty | JKKN College of Nursing and Research',
   description:
-    'Meet the experienced faculty of JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
+    'Meet the experienced faculty of JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam. Qualified professors and specialists in B.Sc, M.Sc, and Post Basic B.Sc Nursing programmes.',
   alternates: { canonical: 'https://nursing.sresakthimayeil.jkkn.ac.in/faculty' },
   openGraph: {
-    title: 'Faculty | JKKN College of Nursing',
+    title: 'Faculty | JKKN College of Nursing and Research',
     description:
-      'Meet the experienced faculty of JKKN College of Nursing, Komarapalayam. Qualified professors and specialists in nursing education and research.',
+      'Meet the experienced faculty of JKKN College of Nursing and Research, Komarapalayam. Qualified professors and specialists in nursing education and research.',
     url: 'https://nursing.sresakthimayeil.jkkn.ac.in/faculty',
-    siteName: 'JKKN College of Nursing',
+    siteName: 'JKKN College of Nursing and Research',
     type: 'website',
     locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Faculty | JKKN College of Nursing',
+    title: 'Faculty | JKKN College of Nursing and Research',
     description:
-      'Meet the experienced faculty of JKKN College of Nursing, Komarapalayam.',
+      'Meet the experienced faculty of JKKN College of Nursing and Research, Komarapalayam.',
   },
 };
 

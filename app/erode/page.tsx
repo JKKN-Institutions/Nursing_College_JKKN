@@ -59,15 +59,15 @@ const faqs = [
   },
   {
     q: "Which are the top nursing colleges in Erode district?",
-    a: "Erode district has limited INC-approved nursing colleges. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is one of the most accessible and reputed options for Erode learners — just 22 km via NH-544. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "Erode district has limited INC-approved nursing colleges. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in nearby Komarapalayam is one of the most accessible and reputed options for Erode learners — just 22 km via NH-544. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What nursing courses are available near Erode?",
-    a: "JKKN College of Nursing near Erode offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "JKKN College of Nursing and Research near Erode offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What is the fee structure for B.Sc Nursing near Erode?",
-    a: "Fee structures for B.Sc Nursing at JKKN College of Nursing are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+    a: "Fee structures for B.Sc Nursing at JKKN College of Nursing and Research are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
   },
 ];
 
@@ -222,7 +222,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
   description:
-    "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 22 km from Erode on NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+    "Looking for the best nursing colleges in Erode? JKKN College of Nursing and Research is just 22 km from Erode on NH-544. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   keywords:
     "nursing colleges in erode, erode nursing college, erode nursing college list, nursing college in erode district, best nursing college near erode, bsc nursing in erode",
   alternates: {
@@ -231,9 +231,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing Colleges in Erode | B.Sc Nursing Near Erode — JKKN",
     description:
-      "Looking for the best nursing colleges in Erode? JKKN College of Nursing is just 22 km from Erode on NH-544. INC approved, NAAC accredited. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+      "Looking for the best nursing colleges in Erode? JKKN College of Nursing and Research is just 22 km from Erode on NH-544. INC approved, NAAC accredited. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/erode",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     type: "website",
   },
 };
@@ -270,7 +270,7 @@ export default function ErodePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "JKKN College of Nursing",
+            name: "JKKN College of Nursing and Research",
             alternateName: "Sresakthimayeil Institute Of Nursing And Research",
             url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
             telephone: "+919345855001",
@@ -322,7 +322,7 @@ export default function ErodePage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing colleges in Erode? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) offers
+              Searching for the best nursing colleges in Erode? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
               programmes — just 22 km from Erode via NH-544 with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
             </p>
@@ -394,7 +394,7 @@ export default function ErodePage() {
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt="JKKN College of Nursing campus — best nursing colleges in Erode"
+                alt="JKKN College of Nursing and Research campus — best nursing colleges in Erode"
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -451,7 +451,7 @@ export default function ErodePage() {
                 Erode is a major industrial and educational hub in western Tamil Nadu, known for its textile, turmeric, and manufacturing industries. While Erode has a growing number of educational institutions, the availability of INC-approved nursing colleges in Erode district remains limited compared to cities like Coimbatore or Chennai.
               </p>
               <p>
-                Learners searching for <strong>nursing colleges in Erode</strong> often find that the best options lie within a short commute. JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 22 km from Erode via the well-connected NH-544 highway — making it one of the most accessible choices in the <strong>Erode nursing college list</strong>.
+                Learners searching for <strong>nursing colleges in Erode</strong> often find that the best options lie within a short commute. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is just 22 km from Erode via the well-connected NH-544 highway — making it one of the most accessible choices in the <strong>Erode nursing college list</strong>.
               </p>
               <p>
                 What sets JKKN apart from other <strong>nursing colleges in Erode district</strong> is its integrated campus with an attached multi-specialty teaching hospital, providing clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
@@ -469,7 +469,7 @@ export default function ErodePage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Simulation-lab-image.webp"
-                    alt="Nursing simulation lab at JKKN College of Nursing near Erode"
+                    alt="Nursing simulation lab at JKKN College of Nursing and Research near Erode"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Placements at JKKN College of Nursing | Recruiters",
+  title: "Placements at JKKN College of Nursing and Research | Recruiters",
   description:
     "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
   keywords:

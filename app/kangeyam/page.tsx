@@ -6,7 +6,7 @@ const config: CityPageConfig = {
   cityName: "Kangeyam",
   heroTitlePrefix: "Nursing College near",
   heroDescription:
-    "Searching for a nursing college near Kangeyam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) in Komarapalayam is about 72 km away via Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
+    "Searching for a nursing college near Kangeyam? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) in Komarapalayam is about 72 km away via Erode. INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with hospital-based training and secure hostels.",
   heroStats: [
     { value: "98%", label: "PLACEMENTS 2024-25" },
     { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
@@ -20,13 +20,13 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Kangeyam Learners",
   landscapeParagraphs: [
     "Kangeyam, in Tiruppur district, is famous for the hardy Kangayam cattle breed, its coconut and copra trade, and its powerloom units. Families here run farms and businesses across the Kongu belt — and increasingly send their learners into professional healthcare careers.",
-    "For nursing aspirants from Kangeyam, JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 72 km away, about 1 to 1.5 hours via Erode. Weekend trips home stay easy while learners get a full residential campus experience.",
+    "For nursing aspirants from Kangeyam, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 72 km away, about 1 to 1.5 hours via Erode. Weekend trips home stay easy while learners get a full residential campus experience.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Most Kangeyam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Kangeyam learners can launch a global nursing career about ninety minutes from home.",
   ],
   whyHeading: "Why Kangeyam Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing is about 72 km from Kangeyam — a hostel-friendly distance with easy weekend travel home via Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 72 km from Kangeyam — a hostel-friendly distance with easy weekend travel home via Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 72 km from Kangeyam (about 1 to 1.5 hours) via Erode. Hostel stay with weekend trips home is the popular choice.",
   programmesHeading: "Nursing Courses Available for Kangeyam Learners",
@@ -42,11 +42,11 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Kangeyam?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing) at Komarapalayam is an accessible INC-approved nursing college for Kangeyam learners — about 72 km away via Erode. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Kangeyam learners — about 72 km away via Erode. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Kangeyam?",
-      a: "JKKN College of Nursing is approximately 72 km from Kangeyam — about 1 to 1.5 hours by road via Erode and Bhavani. Erode Junction is the nearest major railhead, about 52 km from Kangeyam and 22 km from campus.",
+      a: "JKKN College of Nursing and Research is approximately 72 km from Kangeyam — about 1 to 1.5 hours by road via Erode and Bhavani. Erode Junction is the nearest major railhead, about 52 km from Kangeyam and 22 km from campus.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Kangeyam learners?",
@@ -54,7 +54,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What nursing courses are available for Kangeyam learners?",
-      a: "JKKN College of Nursing offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "JKKN College of Nursing and Research offers B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats), and Post Basic B.Sc Nursing (2 years, 50 seats). All programmes are INC approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "Is NEET required for B.Sc Nursing?",
@@ -66,7 +66,7 @@ const config: CityPageConfig = {
     },
     {
       q: "What is the fee structure for B.Sc Nursing for Kangeyam learners?",
-      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+      a: "Fee structures for B.Sc Nursing at JKKN College of Nursing and Research follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
     },
     {
       q: "How can I apply for admission at JKKN Nursing from Kangeyam?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Kangeyam | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Kangeyam: JKKN College of Nursing in Komarapalayam is 72 km via Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "Nursing college near Kangeyam: JKKN College of Nursing and Research in Komarapalayam is 72 km via Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
   keywords:
     "nursing college near kangeyam, nursing colleges kangeyam, bsc nursing kangeyam, nursing college tiruppur district, jkkn nursing kangeyam",
   alternates: {
@@ -96,9 +96,9 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Kangeyam | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing in Komarapalayam is 72 km from Kangeyam via Erode. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing and Research in Komarapalayam is 72 km from Kangeyam via Erode. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/kangeyam",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     type: "website",
   },
 };

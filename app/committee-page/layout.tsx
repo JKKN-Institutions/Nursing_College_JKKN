@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Committees — JKKN College of Nursing",
+  title: "Committees — JKKN College of Nursing and Research",
   description:
-    "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing.",
+    "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing and Research.",
   openGraph: {
-    title: "Committees — JKKN College of Nursing",
+    title: "Committees — JKKN College of Nursing and Research",
     description:
-      "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing.",
+      "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/committee-page",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Committees — JKKN College of Nursing",
+    title: "Committees — JKKN College of Nursing and Research",
     description:
-      "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing.",
+      "Academic and administrative committees ensuring quality and governance at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

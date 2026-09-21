@@ -1,25 +1,25 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Smart Classrooms — JKKN College of Nursing",
+  title: "Smart Classrooms — JKKN College of Nursing and Research",
   description: "Modern smart classrooms with audio-visual equipment and technology-enabled learning at JKKN, Komarapalayam.",
   openGraph: {
-    title: "Smart Classrooms — JKKN College of Nursing",
+    title: "Smart Classrooms — JKKN College of Nursing and Research",
     description: "Modern smart classrooms with audio-visual equipment and technology-enabled learning at JKKN, Komarapalayam.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/classroom",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {
     card: "summary_large_image",
-    title: "Smart Classrooms — JKKN College of Nursing",
+    title: "Smart Classrooms — JKKN College of Nursing and Research",
     description: "Modern smart classrooms with audio-visual equipment and technology-enabled learning at JKKN, Komarapalayam.",
     images: ["/images/nursing_logo.png"],
   },

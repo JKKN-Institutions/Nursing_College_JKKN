@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fees & Refund Policy — JKKN College of Nursing",
+  title: "Fees & Refund Policy — JKKN College of Nursing and Research",
   description:
-    "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing.",
+    "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing and Research.",
   openGraph: {
-    title: "Fees & Refund Policy — JKKN College of Nursing",
+    title: "Fees & Refund Policy — JKKN College of Nursing and Research",
     description:
-      "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing.",
+      "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/fees-refund-policy",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fees & Refund Policy — JKKN College of Nursing",
+    title: "Fees & Refund Policy — JKKN College of Nursing and Research",
     description:
-      "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing.",
+      "Fee structure, payment schedule, and refund policy for nursing programs at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

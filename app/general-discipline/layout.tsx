@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Discipline Policy — JKKN College of Nursing",
+  title: "Discipline Policy — JKKN College of Nursing and Research",
   description:
-    "Student and staff discipline rules and code of conduct at JKKN College of Nursing.",
+    "Student and staff discipline rules and code of conduct at JKKN College of Nursing and Research.",
   openGraph: {
-    title: "Discipline Policy — JKKN College of Nursing",
+    title: "Discipline Policy — JKKN College of Nursing and Research",
     description:
-      "Student and staff discipline rules and code of conduct at JKKN College of Nursing.",
+      "Student and staff discipline rules and code of conduct at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/general-discipline",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Discipline Policy — JKKN College of Nursing",
+    title: "Discipline Policy — JKKN College of Nursing and Research",
     description:
-      "Student and staff discipline rules and code of conduct at JKKN College of Nursing.",
+      "Student and staff discipline rules and code of conduct at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

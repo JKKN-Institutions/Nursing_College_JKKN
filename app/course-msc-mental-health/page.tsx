@@ -65,7 +65,7 @@ export default function MScMentalHealthNursing() {
                 "courseWorkload": "P2Y",
                 "location": {
                   "@type": "Place",
-                  "name": "JKKN College of Nursing",
+                  "name": "JKKN College of Nursing and Research",
                   "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
@@ -148,7 +148,7 @@ export default function MScMentalHealthNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Mental Health (Psychiatric) Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates develop expertise in psychiatric assessment, therapeutic counseling, community mental health promotion, and psychiatric rehabilitation at the attached teaching hospital.</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year M.Sc Nursing specialization in Mental Health (Psychiatric) Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates develop expertise in psychiatric assessment, therapeutic counseling, community mental health promotion, and psychiatric rehabilitation at the attached teaching hospital.</p>
                 </div>
 
                 <p className="text-xl md:text-2xl text-gray-200 mb-6">
@@ -1607,7 +1607,7 @@ export default function MScMentalHealthNursing() {
         {/* Institutional Authority Block */}
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>

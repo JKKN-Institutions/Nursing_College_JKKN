@@ -49,7 +49,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 "courseWorkload": "P2Y",
                 "location": {
                   "@type": "Place",
-                  "name": "JKKN College of Nursing",
+                  "name": "JKKN College of Nursing and Research",
                   "address": {
                     "@type": "PostalAddress",
                     "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",
@@ -133,7 +133,7 @@ export default function MScObstetricsGynecologicalNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-6 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-cyan-100 text-sm">JKKN College of Nursing offers a 2-year M.Sc Nursing specialization in Obstetric and Gynecological Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates build advanced expertise in maternal health, high-risk pregnancy management, midwifery, neonatal care, and women's healthcare at the attached teaching hospital.</p>
+                  <p className="text-cyan-100 text-sm">JKKN College of Nursing and Research offers a 2-year M.Sc Nursing specialization in Obstetric and Gynecological Nursing, approved by INC and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Graduates build advanced expertise in maternal health, high-risk pregnancy management, midwifery, neonatal care, and women's healthcare at the attached teaching hospital.</p>
                 </div>
 
                 <p className="text-lg md:text-xl text-cyan-100 mb-6">
@@ -190,7 +190,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
                     src="/images/NURSING%20COLLEGE/DSC_0357.webp"
-                    alt="M.Sc Obstetric Gynecological Nursing students in classroom at JKKN College of Nursing"
+                    alt="M.Sc Obstetric Gynecological Nursing students in classroom at JKKN College of Nursing and Research"
                     width={500}
                     height={400}
                     className="w-full h-full object-cover"
@@ -880,7 +880,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 <div className="rounded-3xl overflow-hidden shadow-2xl max-w-md w-full">
                   <Image
                     src="/images/NURSING%20COLLEGE/DSC_0387.webp"
-                    alt="M.Sc Obstetric Gynecological Nursing students in practical training session at JKKN College of Nursing"
+                    alt="M.Sc Obstetric Gynecological Nursing students in practical training session at JKKN College of Nursing and Research"
                     width={500}
                     height={400}
                     className="w-full h-full object-cover"
@@ -1542,7 +1542,7 @@ export default function MScObstetricsGynecologicalNursing() {
         {/* Institutional Authority Block */}
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
-            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing</p>
+            <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>

@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Scholarships | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
-  description: "Explore government scholarships available for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing students at JKKN College of Nursing — SC/SCA/ST, BC/MBC, and Naan Mudhalvan schemes.",
+  description: "Explore government scholarships available for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing students at JKKN College of Nursing and Research — SC/SCA/ST, BC/MBC, and Naan Mudhalvan schemes.",
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/scholarships" },
 };
 
@@ -92,7 +92,7 @@ export default function ScholarshipsPage() {
               Scholarships for Nursing Students
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto">
-              JKKN College of Nursing learners are eligible for multiple state and central government scholarship schemes based on community and merit.
+              JKKN College of Nursing and Research learners are eligible for multiple state and central government scholarship schemes based on community and merit.
             </p>
           </div>
         </section>

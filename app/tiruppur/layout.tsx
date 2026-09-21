@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Nursing College Near Tiruppur — JKKN College of Nursing",
+  title: "Nursing College Near Tiruppur — JKKN College of Nursing and Research",
   description:
-    "JKKN College of Nursing near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+    "JKKN College of Nursing and Research near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   openGraph: {
-    title: "Nursing College Near Tiruppur — JKKN College of Nursing",
+    title: "Nursing College Near Tiruppur — JKKN College of Nursing and Research",
     description:
-      "JKKN College of Nursing near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+      "JKKN College of Nursing and Research near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/tiruppur",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nursing College Near Tiruppur — JKKN College of Nursing",
+    title: "Nursing College Near Tiruppur — JKKN College of Nursing and Research",
     description:
-      "JKKN College of Nursing near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+      "JKKN College of Nursing and Research near Tiruppur on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

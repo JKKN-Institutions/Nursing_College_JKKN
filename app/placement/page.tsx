@@ -30,7 +30,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Placements at JKKN College of Nursing | Recruiters",
+    "Placements at JKKN College of Nursing and Research | Recruiters",
   description:
     "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
   alternates: {
@@ -45,25 +45,25 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Placements at JKKN College of Nursing — 98% Success Rate | NHS UK, Apollo, Fortis",
+      "Placements at JKKN College of Nursing and Research — 98% Success Rate | NHS UK, Apollo, Fortis",
     description:
       "98% placement rate (2024-25) with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada. Packages up to ₹25 LPA.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     type: "website",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/Homepage-Hero_Banner-image.webp",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing Placements — 98% in 2024-25",
+        alt: "JKKN College of Nursing and Research Placements — 98% in 2024-25",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Placements at JKKN College of Nursing — 98% in 2024-25",
+      "Placements at JKKN College of Nursing and Research — 98% in 2024-25",
     description:
       "98% placement rate in 2024-25 (58 of 59, NIRF 2026), 80+ recruiters, international opportunities in UK, UAE, Singapore. Packages up to ₹25 LPA.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
@@ -78,11 +78,11 @@ export const metadata: Metadata = {
 
 const faqData = [
   {
-    q: "What is the placement rate at JKKN College of Nursing?",
+    q: "What is the placement rate at JKKN College of Nursing and Research?",
     a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate, as filed in the college's NIRF 2026 submission. Graduates are placed in top hospitals across India and internationally.",
   },
   {
-    q: "Which companies and hospitals recruit from JKKN College of Nursing?",
+    q: "Which companies and hospitals recruit from JKKN College of Nursing and Research?",
     a: "Over 80 recruiters hire from JKKN, including Apollo Hospitals, Fortis Healthcare, Manipal Hospitals, MIOT Hospitals, Kauvery Hospital, KMCH, NHS UK, Cleveland Clinic Abu Dhabi, Saudi German Hospital, Aster DM Healthcare (UAE), Singapore General Hospital, AIIMS, and Government Hospitals across Tamil Nadu.",
   },
   {
@@ -94,7 +94,7 @@ const faqData = [
     a: "The highest salary package offered to JKKN nursing graduates is ₹25 LPA (international placement through NHS UK). The highest domestic package is ₹8–10 LPA through government hospital placements.",
   },
   {
-    q: "Does JKKN College of Nursing offer international placement opportunities?",
+    q: "Does JKKN College of Nursing and Research offer international placement opportunities?",
     a: "Yes. JKKN has a dedicated International Placement Cell that facilitates placements in 6 countries: United Kingdom (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides OET/IELTS coaching, NCLEX-RN preparation, DHA/HAAD/PROMETRIC exam coaching, visa documentation support, and licensing registration guidance.",
   },
   {
@@ -102,7 +102,7 @@ const faqData = [
     a: "JKKN provides comprehensive placement support including: dedicated placement cell, professional resume building with faculty guidance, soft skills and communication training, mock interviews with clinical and HR panels, campus recruitment drives, international exam preparation (NCLEX, OET, IELTS, DHA, HAAD, PROMETRIC), visa documentation assistance, and post-placement follow-up.",
   },
   {
-    q: "When do campus placement drives happen at JKKN College of Nursing?",
+    q: "When do campus placement drives happen at JKKN College of Nursing and Research?",
     a: "Campus placement drives at JKKN are conducted throughout the academic year, primarily between August and February. Major hospital chains and international recruiters visit the campus for tests, group discussions, and personal interviews. The placement cell coordinates the entire process from registration to offer acceptance.",
   },
   {
@@ -111,7 +111,7 @@ const faqData = [
   },
   {
     q: "Does JKKN provide NCLEX and IELTS coaching for international placements?",
-    a: "Yes. JKKN College of Nursing has a dedicated licensing exam preparation program covering NCLEX-RN (USA), OET/IELTS (UK and Australia), DHA/HAAD (UAE), and PROMETRIC (Saudi Arabia). Coaching includes study materials, mock tests, expert faculty sessions, and registration guidance for each exam.",
+    a: "Yes. JKKN College of Nursing and Research has a dedicated licensing exam preparation program covering NCLEX-RN (USA), OET/IELTS (UK and Australia), DHA/HAAD (UAE), and PROMETRIC (Saudi Arabia). Coaching includes study materials, mock tests, expert faculty sessions, and registration guidance for each exam.",
   },
   {
     q: "What sectors do JKKN nursing graduates work in after placement?",
@@ -136,9 +136,9 @@ const placementPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/placement#webpage",
-  name: "Placements at JKKN College of Nursing",
+  name: "Placements at JKKN College of Nursing and Research",
   description:
-    "Comprehensive placement record of JKKN College of Nursing with 98% success rate (2024-25), 80+ recruiters, and international opportunities in 6 countries.",
+    "Comprehensive placement record of JKKN College of Nursing and Research with 98% success rate (2024-25), 80+ recruiters, and international opportunities in 6 countries.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
   isPartOf: {
     "@type": "WebSite",
@@ -150,7 +150,7 @@ const placementPageSchema = {
   },
   mainEntity: {
     "@type": "ItemList",
-    name: "Top Recruiters at JKKN College of Nursing",
+    name: "Top Recruiters at JKKN College of Nursing and Research",
     numberOfItems: 15,
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Apollo Hospitals" },
@@ -492,7 +492,7 @@ export default function PlacementsPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-green-200 text-sm sm:text-base font-medium tracking-wide uppercase mb-3">
-                JKKN College of Nursing — Placement Cell
+                JKKN College of Nursing and Research — Placement Cell
               </p>
               <h1
                 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight"
@@ -646,7 +646,7 @@ export default function PlacementsPage() {
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 80+ hospitals, healthcare chains, and international employers
-                actively recruit from JKKN College of Nursing.
+                actively recruit from JKKN College of Nursing and Research.
               </p>
             </div>
 
@@ -1119,7 +1119,7 @@ export default function PlacementsPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
               <p className="font-semibold text-[#002309] mb-2">
-                Published by JKKN College of Nursing — Placement Cell
+                Published by JKKN College of Nursing and Research — Placement Cell
               </p>
               <p className="text-sm text-gray-600 mb-1">
                 Sresakthimayeil Institute Of Nursing And Research

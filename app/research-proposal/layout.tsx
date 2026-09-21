@@ -3,20 +3,20 @@
 export const metadata: Metadata = {
   title: "Research Proposals — JKKN Nursing Research",
   description:
-    "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing.",
+    "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing and Research.",
   openGraph: {
     title: "Research Proposals — JKKN Nursing Research",
     description:
-      "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing.",
+      "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/research-proposal",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Research Proposals — JKKN Nursing Research",
     description:
-      "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing.",
+      "Ongoing and completed research proposals by faculty and students at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

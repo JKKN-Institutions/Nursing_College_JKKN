@@ -238,7 +238,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
-            name: "JKKN College of Nursing",
+            name: "JKKN College of Nursing and Research",
             alternateName: "Sresakthimayeil Institute Of Nursing And Research",
             url: `${SITE_URL}/`,
             telephone: "+919345855001",
@@ -357,7 +357,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt={`JKKN College of Nursing campus — nursing college near ${config.cityName}`}
+                alt={`JKKN College of Nursing and Research campus — nursing college near ${config.cityName}`}
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -427,7 +427,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Simulation-lab-image.webp"
-                    alt={`Nursing simulation lab at JKKN College of Nursing near ${config.cityName}`}
+                    alt={`Nursing simulation lab at JKKN College of Nursing and Research near ${config.cityName}`}
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"

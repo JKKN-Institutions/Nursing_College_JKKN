@@ -12,13 +12,13 @@ export const metadata: Metadata = {
       "Top BSc Nursing college in Tamil Nadu. 4-year INC approved, TNMGRMU affiliated. 500+ bed hospital training from Year 1. 98% placement. Apply for 2026.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/B.Sc-Nursing-Hero-Banner_image.webp",
         width: 1200,
         height: 630,
-        alt: "BSc Nursing at JKKN College of Nursing, Tamil Nadu — INC Approved 4-Year Program",
+        alt: "BSc Nursing at JKKN College of Nursing and Research, Tamil Nadu — INC Approved 4-Year Program",
       },
     ],
   },
@@ -49,13 +49,13 @@ const bscNursingSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course",
   name: "Bachelor of Science in Nursing (B.Sc Nursing)",
   description:
-    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 98% placement rate.",
+    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), Komarapalayam, Tamil Nadu. Clinical training at 500+ bed teaching hospital from Year 1. NAAC accredited. 98% placement rate.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
   dateModified: "2026-04-11",
   provider: {
     "@type": "CollegeOrUniversity",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-    name: "JKKN College of Nursing (Sresakthimayeil Institute Of Nursing And Research)",
+    name: "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research)",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
     sameAs: [
       "https://www.facebook.com/jkknnursing",
@@ -89,7 +89,7 @@ const bscNursingSchema = {
     endDate: "2030-06-30",
     location: {
       "@type": "Place",
-      name: "JKKN College of Nursing Campus",
+      name: "JKKN College of Nursing and Research Campus",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Natarajapuram, NH-544",
@@ -115,7 +115,7 @@ const bscNursingSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "EducationalOrganization",
-  name: "JKKN College of Nursing",
+  name: "JKKN College of Nursing and Research",
   alternateName: "Sresakthimayeil Institute Of Nursing And Research",
   // /images/logo.png returns 404 (measured 2026-09-18); the real asset is nursing_logo.png.
   image: "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
@@ -167,7 +167,7 @@ const howToSchema = {
   "@type": "HowTo",
   name: "How to Apply for BSc Nursing at JKKN College",
   description:
-    "Step-by-step admission process for B.Sc Nursing at JKKN College of Nursing, Komarapalayam, Tamil Nadu.",
+    "Step-by-step admission process for B.Sc Nursing at JKKN College of Nursing and Research, Komarapalayam, Tamil Nadu.",
   step: [
     {
       "@type": "HowToStep",

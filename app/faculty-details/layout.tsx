@@ -1,11 +1,11 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Faculty & Staff — JKKN College of Nursing",
-  description: "Meet our experienced faculty members at JKKN College of Nursing. Qualified nursing educators with clinical expertise.",
+  title: "Faculty & Staff — JKKN College of Nursing and Research",
+  description: "Meet our experienced faculty members at JKKN College of Nursing and Research. Qualified nursing educators with clinical expertise.",
   openGraph: {
-    title: "Faculty & Staff — JKKN College of Nursing",
-    description: "Meet our experienced faculty members at JKKN College of Nursing. Qualified nursing educators with clinical expertise.",
+    title: "Faculty & Staff — JKKN College of Nursing and Research",
+    description: "Meet our experienced faculty members at JKKN College of Nursing and Research. Qualified nursing educators with clinical expertise.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/faculty-details",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Faculty & Staff — JKKN College of Nursing",
-    description: "Meet our experienced faculty members at JKKN College of Nursing. Qualified nursing educators with clinical expertise.",
+    title: "Faculty & Staff — JKKN College of Nursing and Research",
+    description: "Meet our experienced faculty members at JKKN College of Nursing and Research. Qualified nursing educators with clinical expertise.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

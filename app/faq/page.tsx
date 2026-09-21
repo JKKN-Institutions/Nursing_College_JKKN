@@ -12,11 +12,11 @@ const faqCategories = [
     faqs: [
       {
         q: "What is the full name of the institution?",
-        a: "The full name is Sresakthimayeil Institute Of Nursing And Research, also known as JKKN College of Nursing. It is part of the J.K.K. Nattraja Group of Educational Institutions.",
+        a: "The full name is Sresakthimayeil Institute Of Nursing And Research, also known as JKKN College of Nursing and Research. It is part of the J.K.K. Nattraja Group of Educational Institutions.",
       },
       {
         q: "How many years of experience does JKKN have in education?",
-        a: "J.K.K. Nattraja Group of Educational Institutions has over 74 years of experience in educational service, having been established in 1952. JKKN College of Nursing itself was established in 2006.",
+        a: "J.K.K. Nattraja Group of Educational Institutions has over 74 years of experience in educational service, having been established in 1952. JKKN College of Nursing and Research itself was established in 2006.",
       },
       {
         q: "What accreditations does the college hold?",
@@ -36,7 +36,7 @@ const faqCategories = [
     category: "Courses & Programs",
     faqs: [
       {
-        q: "What nursing courses are offered at JKKN College of Nursing?",
+        q: "What nursing courses are offered at JKKN College of Nursing and Research?",
         a: "Three programs are offered: B.Sc. Nursing (4 years), Post Basic B.Sc. Nursing / P.B.B.Sc. (2 years), and M.Sc. Nursing (2 years).",
       },
       {
@@ -181,7 +181,7 @@ export default function FaqPage() {
               Frequently Asked Questions
             </div>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
-              FAQs — JKKN College of Nursing
+              FAQs — JKKN College of Nursing and Research
             </h1>
             <p className="text-lg text-white/90 max-w-2xl mx-auto">
               Common questions about Sresakthimayeil Institute Of Nursing And Research — courses, admissions, facilities, and more.

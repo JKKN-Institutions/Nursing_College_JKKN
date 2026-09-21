@@ -32,12 +32,12 @@ export async function generateMetadata({
     .eq("is_published", true)
     .single();
 
-  if (!event) return { title: "Event Not Found — JKKN College of Nursing" };
+  if (!event) return { title: "Event Not Found — JKKN College of Nursing and Research" };
 
   const canonicalUrl = `${SITE}/events/${slug}`;
   const description = (event.description ?? "").replace(/\s+/g, " ").trim().slice(0, 160) || undefined;
   return {
-    title: `${event.title} — JKKN College of Nursing`,
+    title: `${event.title} — JKKN College of Nursing and Research`,
     description,
     alternates: { canonical: canonicalUrl },
     openGraph: {
@@ -45,7 +45,7 @@ export async function generateMetadata({
       description,
       type: "article",
       url: canonicalUrl,
-      siteName: "JKKN College of Nursing",
+      siteName: "JKKN College of Nursing and Research",
       images: event.image_url ? [{ url: event.image_url, alt: event.title }] : undefined,
     },
   };

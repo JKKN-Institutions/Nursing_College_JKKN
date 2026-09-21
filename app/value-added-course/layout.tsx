@@ -1,30 +1,30 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Value Added Courses — JKKN College of Nursing",
+  title: "Value Added Courses — JKKN College of Nursing and Research",
   description:
-    "Career-enhancing value-added courses for nursing students at JKKN College of Nursing.",
+    "Career-enhancing value-added courses for nursing students at JKKN College of Nursing and Research.",
   openGraph: {
-    title: "Value Added Courses — JKKN College of Nursing",
+    title: "Value Added Courses — JKKN College of Nursing and Research",
     description:
-      "Career-enhancing value-added courses for nursing students at JKKN College of Nursing.",
+      "Career-enhancing value-added courses for nursing students at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/value-added-course",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Value Added Courses — JKKN College of Nursing",
+    title: "Value Added Courses — JKKN College of Nursing and Research",
     description:
-      "Career-enhancing value-added courses for nursing students at JKKN College of Nursing.",
+      "Career-enhancing value-added courses for nursing students at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

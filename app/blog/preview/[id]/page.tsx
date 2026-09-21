@@ -13,7 +13,7 @@ import { processContent, calcReadMeta, buildBlogHtml } from '@/lib/blog-render';
 export const dynamic = 'force-dynamic';
 
 export const metadata: Metadata = {
-  title: 'Draft Preview — JKKN College of Nursing',
+  title: 'Draft Preview — JKKN College of Nursing and Research',
   robots: {
     index: false,
     follow: false,

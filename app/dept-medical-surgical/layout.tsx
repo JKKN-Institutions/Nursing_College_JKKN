@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     description: "Medical-Surgical Nursing Department at JKKN. Critical care training, surgical nursing labs, and clinical expertise.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/dept-medical-surgical",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },  twitter: {

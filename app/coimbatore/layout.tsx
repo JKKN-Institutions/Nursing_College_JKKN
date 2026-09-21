@@ -3,28 +3,28 @@
 export const metadata: Metadata = {
   title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
   description:
-    "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
+    "JKKN College of Nursing and Research, 113 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
   openGraph: {
-    title: "Nursing College Near Coimbatore — JKKN College of Nursing",
+    title: "Nursing College Near Coimbatore — JKKN College of Nursing and Research",
     description:
-      "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital.",
+      "JKKN College of Nursing and Research, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nursing College Near Coimbatore — JKKN College of Nursing",
+    title: "Nursing College Near Coimbatore — JKKN College of Nursing and Research",
     description:
-      "JKKN College of Nursing, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital.",
+      "JKKN College of Nursing and Research, 113 km from Coimbatore on NH-544. INC-approved B.Sc & M.Sc Nursing. 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026), attached hospital.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

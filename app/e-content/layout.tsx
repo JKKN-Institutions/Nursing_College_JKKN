@@ -3,20 +3,20 @@
 export const metadata: Metadata = {
   title: "E-Content & Digital Resources — JKKN Nursing",
   description:
-    "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing.",
+    "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing and Research.",
   openGraph: {
     title: "E-Content & Digital Resources — JKKN Nursing",
     description:
-      "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing.",
+      "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/e-content",
-    siteName: "JKKN College of Nursing",
+    siteName: "JKKN College of Nursing and Research",
     images: [
       {
         url: "/images/nursing_logo.png",
         width: 1200,
         height: 630,
-        alt: "JKKN College of Nursing",
+        alt: "JKKN College of Nursing and Research",
       },
     ],
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "E-Content & Digital Resources — JKKN Nursing",
     description:
-      "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing.",
+      "Digital learning resources and e-content materials for nursing students at JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {
