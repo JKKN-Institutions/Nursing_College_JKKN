@@ -1434,6 +1434,37 @@ export default function BScNursing() {
           </div>
         </section>
 
+        {/* ── BSc Nursing for Erode learners ───────────────────── */}
+        <section className="py-12 bg-white">
+          <div className="container-custom">
+            <div className="max-w-3xl mx-auto">
+              <h2 className="text-2xl font-bold text-[#006837] mb-4">BSc Nursing College Near Erode</h2>
+              <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed space-y-4">
+                <p>
+                  Learners looking for an <strong>Erode BSc Nursing college</strong> can reach JKKN College of Nursing and
+                  Research in about 20 to 30 minutes. The campus is in Komarapalayam, Namakkal district — 18 km from
+                  Erode city on NH-544 — so it sits just outside Erode district rather than inside it. Regular buses run
+                  from Erode Central Bus Stand, and Erode Junction is 21 km away.
+                </p>
+                <p>
+                  The <strong>BSc Nursing college Erode</strong> learners most often compare us against is a daily-commute
+                  choice: the four-year BSc Nursing programme has 60 sanctioned seats, is approved by the Indian Nursing
+                  Council and is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training
+                  happens at the attached multi-specialty teaching hospital on campus, so patient-care exposure starts in
+                  the first year.
+                </p>
+                <p>
+                  NEET is not required for BSc Nursing in Tamil Nadu. Admission is on 10+2 Physics, Chemistry and Biology
+                  marks through the Tamil Nadu Selection Committee. Hostel accommodation and college transport are
+                  available for learners commuting from Erode and the towns around it. For the full list of nursing
+                  colleges in Erode district, see our{" "}
+                  <Link href="/erode" className="text-[#006837] font-semibold hover:underline">Erode district page</Link>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Location Links Section — City Landing Pages */}
         <section className="py-12 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -1442,7 +1473,7 @@ export default function BScNursing() {
               <p className="text-gray-600 mb-6">JKKN College of Nursing and Research is located on NH-544, easily accessible from major Tamil Nadu cities. Explore our city-specific pages:</p>
               <div className="flex flex-wrap justify-center gap-3">
                 <Link href="/erode" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing near Erode</Link>
-                <Link href="/salem" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing in Salem</Link>
+                <Link href="/salem" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing near Salem</Link>
                 <Link href="/namakkal" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing in Namakkal</Link>
                 <Link href="/coimbatore" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing near Coimbatore</Link>
                 <Link href="/tiruppur" className="bg-white border border-[#006837] text-[#006837] px-4 py-2 rounded-full hover:bg-[#006837] hover:text-white transition-colors text-sm font-medium">BSc Nursing near Tiruppur</Link>
