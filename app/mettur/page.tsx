@@ -46,7 +46,7 @@ const config: CityPageConfig = {
     },
     {
       q: "How far is JKKN Nursing from Mettur?",
-      a: "JKKN College of Nursing and Research is approximately 59 km from Mettur — about 1 hour by road via the Mettur-Bhavani route along the Cauvery. Erode Junction, about 22 km from campus, is the nearest major railhead.",
+      a: "JKKN College of Nursing and Research is approximately 59 km from Mettur — about 1 hour by road via the Mettur-Bhavani route along the Cauvery. Erode Junction, about 21 km from campus, is the nearest major railhead.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Mettur learners?",

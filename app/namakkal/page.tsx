@@ -210,7 +210,7 @@ const facilities = [
 
 const cities = [
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "57 km", href: "/salem" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "22 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "18 km", href: "/erode" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
   { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "113 km", href: "/coimbatore" },
 ];

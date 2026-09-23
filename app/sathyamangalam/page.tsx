@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Buses run from Sathyamangalam towards Gobichettipalayam and Erode; change at Gobi or Bhavani for Komarapalayam",
   reachRail:
-    "Erode Junction is the nearest major railhead (22 km from campus); Coimbatore is the nearest airport city",
+    "Erode Junction is the nearest major railhead (21 km from campus); Coimbatore is the nearest airport city",
   faqSubtitle: "Nursing College near Sathyamangalam — Your Questions Answered",
   faqs: [
     {
@@ -75,7 +75,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Gobichettipalayam", distance: "38 km", href: "/gobichettipalayam" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Coimbatore", distance: "113 km", href: "/coimbatore" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],

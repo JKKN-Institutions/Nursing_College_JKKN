@@ -211,7 +211,7 @@ const facilities = [
 const cities = [
   { icon: <HomeIcon className="w-6 h-6 text-[#006837]" />, name: "Namakkal", distance: "62 km", href: "/namakkal" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Salem", distance: "57 km", href: "/salem" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "22 km", href: "/erode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Erode", distance: "18 km", href: "/erode" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
 ];
 

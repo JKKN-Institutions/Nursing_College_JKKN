@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "Straight along NH-544 from Sankagiri towards Erode; the campus is on the highway at Natarajapuram, Komarapalayam",
   reachBus:
     "All Salem-Erode / Salem-Coimbatore route buses via NH-544 stop at both Sankagiri and Komarapalayam — services throughout the day",
-  reachRail: "Sankaridurg railway station serves Sankagiri; Erode Junction (22 km from campus) is the major junction",
+  reachRail: "Sankaridurg railway station serves Sankagiri; Erode Junction (21 km from campus) is the major junction",
   faqSubtitle: "Nursing College near Sankagiri — Your Questions Answered",
   faqs: [
     {
@@ -76,7 +76,7 @@ const config: CityPageConfig = {
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
     { name: "Salem", distance: "57 km", href: "/salem" },
     { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Sankagiri",

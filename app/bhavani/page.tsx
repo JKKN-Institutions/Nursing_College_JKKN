@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "Cross the Cauvery bridge from Bhavani to Komarapalayam; the campus is on NH-544 at Natarajapuram",
   reachBus:
     "Frequent town buses and share autos run between Bhavani bus stand and Komarapalayam throughout the day",
-  reachRail: "Erode Junction (22 km from campus)",
+  reachRail: "Erode Junction (21 km from campus)",
   faqSubtitle: "Nursing College near Bhavani — Your Questions Answered",
   faqs: [
     {
@@ -74,7 +74,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Gobichettipalayam", distance: "38 km", href: "/gobichettipalayam" },
     { name: "Salem", distance: "57 km", href: "/salem" },
   ],

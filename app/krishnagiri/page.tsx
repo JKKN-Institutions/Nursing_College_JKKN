@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Frequent Salem-bound buses run from Krishnagiri and Hosur on NH-44; from Salem, all Erode/Coimbatore-bound NH-544 buses stop at Komarapalayam",
   reachRail:
-    "Salem Junction is the major rail hub on the route; Erode Junction (22 km from campus) is the junction nearest to campus",
+    "Salem Junction is the major rail hub on the route; Erode Junction (21 km from campus) is the junction nearest to campus",
   faqSubtitle: "Nursing College near Krishnagiri — Your Questions Answered",
   faqs: [
     {

@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Frequent buses run from Dharmapuri to Salem; from Salem, all Erode/Coimbatore-bound NH-544 buses stop at Komarapalayam",
   reachRail:
-    "Dharmapuri and Salem Junction are on the rail route; Erode Junction (22 km from campus) is the major junction near campus",
+    "Dharmapuri and Salem Junction are on the rail route; Erode Junction (21 km from campus) is the major junction near campus",
   faqSubtitle: "Nursing College near Dharmapuri — Your Questions Answered",
   faqs: [
     {
