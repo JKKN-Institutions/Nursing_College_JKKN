@@ -30,8 +30,8 @@ import {
 
 const faqs = [
   {
-    q: "What is the best nursing college in Coimbatore?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 113 km from Coimbatore on NH-544, is an INC-approved nursing college accessible from Coimbatore. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    q: "Is JKKN College of Nursing and Research in Coimbatore district?",
+    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 113 km from Coimbatore on NH-544. Coimbatore has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "How far is JKKN Nursing from Coimbatore?",
@@ -43,11 +43,11 @@ const faqs = [
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
-    a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+    a: "Yes, graduates from JKKN College of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
   },
   {
     q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute Of Nursing And Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
+    a: "Yes, JKKN College of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
   },
   {
     q: "Does JKKN Nursing provide hostel for Coimbatore learners?",
@@ -58,8 +58,8 @@ const faqs = [
     a: "You can apply online through the official website at https://nursing.sresakthimayeil.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.",
   },
   {
-    q: "Which are the best nursing colleges in Coimbatore?",
-    a: "Coimbatore has several nursing colleges, but JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved option in the region — INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. It is 113 km from Coimbatore with excellent hostel facilities.",
+    q: "Which nursing colleges are near Coimbatore?",
+    a: "Coimbatore district has its own INC-approved nursing colleges. JKKN College of Nursing and Research is not one of them - it is in Komarapalayam, Namakkal district, about 113 km away on NH-544 - but it is within reach for Coimbatore learners who prefer a residential campus with an attached multi-specialty teaching hospital.",
   },
   {
     q: "What B.Sc nursing courses are available near Coimbatore?",
@@ -216,21 +216,40 @@ const cities = [
 ];
 
 export const metadata: Metadata = {
-  title: "Nursing College Near Coimbatore — B.Sc, M.Sc | JKKN",
+  title: "Nursing Colleges near Coimbatore 2026 — JKKN, 113 km on NH-544",
   description:
-    "JKKN College of Nursing and Research,113 km from Coimbatore on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc and Post Basic B.Sc Nursing.",
+    "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 113 km from Coimbatore on NH-544. INC approved, 60 B.Sc seats.",
   keywords:
-    "best nursing college in coimbatore, bsc nursing colleges in coimbatore, best nursing colleges in coimbatore, coimbatore nursing college list, nursing course in coimbatore, coimbatore nursing college",
+    "nursing colleges near coimbatore, coimbatore nursing college list, nursing colleges near coimbatore district, bsc nursing near coimbatore",
   alternates: {
     canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
   },
   openGraph: {
-    title: "Best Nursing College in Coimbatore | B.Sc Nursing Near Coimbatore — JKKN",
+    title: "Nursing Colleges near Coimbatore 2026 — JKKN, 113 km on NH-544",
     description:
-      "Looking for the best nursing college in Coimbatore? JKKN College of Nursing and Research offers INC approved, NAAC accredited nursing programmes. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 113 km from Coimbatore on NH-544. INC approved, 60 B.Sc seats.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore",
     siteName: "JKKN College of Nursing and Research",
     type: "website",
+    images: [
+      {
+        url: "/images/nursing_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "JKKN College of Nursing and Research",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nursing Colleges near Coimbatore 2026 — JKKN, 113 km on NH-544",
+    description:
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 113 km from Coimbatore on NH-544. INC approved, 60 B.Sc seats.",
+    images: ["/images/nursing_logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -242,7 +261,7 @@ export default function CoimbatorePage() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://nursing.sresakthimayeil.jkkn.ac.in/" },
-          { name: "Best Nursing College in Coimbatore", url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore" },
+          { name: "nursing colleges near Coimbatore", url: "https://nursing.sresakthimayeil.jkkn.ac.in/coimbatore" },
         ]}
       />
       <script
@@ -266,7 +285,7 @@ export default function CoimbatorePage() {
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             name: "JKKN College of Nursing and Research",
-            alternateName: "Sresakthimayeil Institute Of Nursing And Research",
+            alternateName: "JKKN College of Nursing and Research",
             url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
             telephone: "+919345855001",
             email: "nursing@jkkn.ac.in",
@@ -310,13 +329,13 @@ export default function CoimbatorePage() {
 
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 leading-tight">
-              Best Nursing College in{" "}
+              Nursing Colleges near{" "}
               <span className="text-[#FBFBEE]">Coimbatore</span>
             </h1>
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Coimbatore? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) offers
+              JKKN College of Nursing and Research offers
               INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc
               programmes —113 km from Coimbatore with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and
               hostel facilities.
@@ -389,7 +408,7 @@ export default function CoimbatorePage() {
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt="JKKN College of Nursing and Research campus — best nursing college in Coimbatore"
+                alt="JKKN College of Nursing and Research campus — nursing colleges near Coimbatore"
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -458,10 +477,13 @@ export default function CoimbatorePage() {
                 Coimbatore, Tamil Nadu&apos;s second-largest city and a major industrial and healthcare hub, is home to numerous medical institutions and hospitals. The city has a competitive landscape for nursing education, with several <strong>nursing colleges in Coimbatore</strong> offering various programmes. What a learner actually has to compare is checkable on paper: INC approval for the course, affiliation to the awarding university, and the size of the teaching hospital where the clinical postings happen.
               </p>
               <p>
-                For learners looking for the <strong>best nursing college in Coimbatore</strong> region, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) offers a distinctive advantage. Located 113 km from Coimbatore in Komarapalayam, JKKN has a dedicated attached multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
+                For learners looking for the <strong>nursing colleges near Coimbatore</strong> region, JKKN College of Nursing and Research (JKKN College of Nursing and Research) offers a distinctive advantage. Located 113 km from Coimbatore in Komarapalayam, JKKN has a dedicated attached multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
               </p>
               <p>
-                What sets JKKN apart in the <strong>best nursing colleges in Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
+                What sets JKKN apart in the <strong>nursing colleges near Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
+              </p>
+              <p>
+                Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -484,7 +506,7 @@ export default function CoimbatorePage() {
                 </div>
               </div>
               <p>
-                Coimbatore learners at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is one of the INC-approved options for Coimbatore families seeking the <strong>best nursing college in Coimbatore</strong> region.
+                Coimbatore learners at JKKN benefit from secure, well-maintained hostel facilities with 24/7 security, mess services, and a campus environment designed for focused learning. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and a <strong>B.Sc nursing</strong> programme that combines theory with extensive hands-on clinical practice, JKKN is one of the INC-approved options for Coimbatore families seeking the <strong>nursing colleges near Coimbatore</strong> region.
               </p>
             </div>
           </div>
@@ -789,7 +811,7 @@ export default function CoimbatorePage() {
                 Frequently Asked Questions
               </h2>
               <p className="text-[#006837] text-sm sm:text-base font-medium">
-                Best Nursing Colleges in Coimbatore — Your Questions Answered
+                nursing colleges near Coimbatore — Your Questions Answered
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -806,7 +828,7 @@ export default function CoimbatorePage() {
                 Explore More Cities
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
-                Find the best nursing college near your city
+                Find your route to the JKKN campus from your city
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
