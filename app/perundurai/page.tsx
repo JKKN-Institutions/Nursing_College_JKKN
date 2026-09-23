@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Frequent buses connect Perundurai and Erode; from Erode bus stand take any Bhavani/Salem-side bus and get down at Komarapalayam",
   reachRail:
-    "Erode Junction is the nearest major railhead (19 km from Perundurai and 22 km from campus)",
+    "Erode Junction is the nearest major railhead (19 km from Perundurai and 21 km from campus)",
   faqSubtitle: "Nursing College near Perundurai — Your Questions Answered",
   faqs: [
     {
@@ -74,7 +74,7 @@ const config: CityPageConfig = {
     },
   ],
   cities: [
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
     { name: "Gobichettipalayam", distance: "38 km", href: "/gobichettipalayam" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },

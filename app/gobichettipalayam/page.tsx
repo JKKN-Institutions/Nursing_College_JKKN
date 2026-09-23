@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "Gobichettipalayam → Bhavani → Komarapalayam; the campus is on NH-544 at Natarajapuram",
   reachBus:
     "Regular buses run from Gobichettipalayam bus stand towards Bhavani and Komarapalayam; change at Bhavani if there is no direct service",
-  reachRail: "Erode Junction (22 km from campus)",
+  reachRail: "Erode Junction (21 km from campus)",
   faqSubtitle: "Nursing College near Gobichettipalayam — Your Questions Answered",
   faqs: [
     {
@@ -74,7 +74,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Bhavani", distance: "8 km", href: "/bhavani" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
     { name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
   ],

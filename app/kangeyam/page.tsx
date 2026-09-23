@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Regular buses run from Kangeyam to Erode; from Erode bus stand take any Bhavani/Salem-side bus and get down at Komarapalayam",
   reachRail:
-    "Erode Junction is the nearest major railhead (52 km from Kangeyam and 22 km from campus)",
+    "Erode Junction is the nearest major railhead (52 km from Kangeyam and 21 km from campus)",
   faqSubtitle: "Nursing College near Kangeyam — Your Questions Answered",
   faqs: [
     {
@@ -46,7 +46,7 @@ const config: CityPageConfig = {
     },
     {
       q: "How far is JKKN Nursing from Kangeyam?",
-      a: "JKKN College of Nursing and Research is approximately 72 km from Kangeyam — about 1 to 1.5 hours by road via Erode and Bhavani. Erode Junction is the nearest major railhead, about 52 km from Kangeyam and 22 km from campus.",
+      a: "JKKN College of Nursing and Research is approximately 72 km from Kangeyam — about 1 to 1.5 hours by road via Erode and Bhavani. Erode Junction is the nearest major railhead, about 52 km from Kangeyam and 21 km from campus.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Kangeyam learners?",
@@ -75,7 +75,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Tiruppur", distance: "66 km", href: "/tiruppur" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Perundurai", distance: "35 km", href: "/perundurai" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],

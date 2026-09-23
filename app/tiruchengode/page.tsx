@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "Direct Tiruchengode-Komarapalayam road; the campus is on NH-544 at Natarajapuram, Komarapalayam",
   reachBus:
     "Regular government and private buses run between Tiruchengode bus stand and Komarapalayam throughout the day",
-  reachRail: "Erode Junction (22 km from campus); Sankaridurg is the closer local station",
+  reachRail: "Erode Junction (21 km from campus); Sankaridurg is the closer local station",
   faqSubtitle: "Nursing College near Tiruchengode — Your Questions Answered",
   faqs: [
     {
@@ -76,7 +76,7 @@ const config: CityPageConfig = {
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
     { name: "Namakkal", distance: "62 km", href: "/namakkal" },
     { name: "Sankagiri", distance: "17 km", href: "/sankagiri" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
   ],
   successCityText:
     "Share your experience and inspire future nursing learners from Tiruchengode",

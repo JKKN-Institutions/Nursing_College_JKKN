@@ -36,7 +36,7 @@ const config: CityPageConfig = {
     "Rasipuram → Tiruchengode → Komarapalayam; the campus is on NH-544 at Natarajapuram",
   reachBus:
     "Regular buses run from Rasipuram bus stand towards Tiruchengode and Komarapalayam; Namakkal-Erode route buses also serve the corridor",
-  reachRail: "Erode Junction (22 km from campus); Salem Junction is the other major junction for Rasipuram",
+  reachRail: "Erode Junction (21 km from campus); Salem Junction is the other major junction for Rasipuram",
   faqSubtitle: "Nursing College near Rasipuram — Your Questions Answered",
   faqs: [
     {

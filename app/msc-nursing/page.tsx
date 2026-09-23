@@ -192,7 +192,7 @@ export default function MScNursing() {
         "name": "Where is JKKN College of Nursing and Research located?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "JKKN College of Nursing and Research is located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is approximately 22 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore."
+          "text": "JKKN College of Nursing and Research is located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is approximately 18 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore."
         }
       },
       {
@@ -1885,7 +1885,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    JKKN College of Nursing and Research is at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is about 22 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore.
+                    JKKN College of Nursing and Research is at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. It is about 18 km from Erode, 58 km from Salem, 67 km from Tiruppur, and 105 km from Coimbatore.
                   </p>
                 </details>
 

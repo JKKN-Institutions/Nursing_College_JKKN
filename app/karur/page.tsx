@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Regular buses run from Karur bus stand towards Namakkal and Erode; change at Tiruchengode or Erode for Komarapalayam",
   reachRail:
-    "Karur Junction connects to Erode Junction by rail; Erode Junction is 22 km from campus",
+    "Karur Junction connects to Erode Junction by rail; Erode Junction is 21 km from campus",
   faqSubtitle: "Nursing College near Karur — Your Questions Answered",
   faqs: [
     {
@@ -46,7 +46,7 @@ const config: CityPageConfig = {
     },
     {
       q: "How far is JKKN Nursing from Karur?",
-      a: "JKKN College of Nursing and Research is approximately 84 km from Karur — about 1.5 hours by road via the Namakkal-Tiruchengode route or via Erode. By rail, Karur Junction connects to Erode Junction, which is about 22 km from campus.",
+      a: "JKKN College of Nursing and Research is approximately 84 km from Karur — about 1.5 hours by road via the Namakkal-Tiruchengode route or via Erode. By rail, Karur Junction connects to Erode Junction, which is about 21 km from campus.",
     },
     {
       q: "Does JKKN Nursing provide hostel for Karur learners?",
@@ -76,7 +76,7 @@ const config: CityPageConfig = {
   cities: [
     { name: "Namakkal", distance: "62 km", href: "/namakkal" },
     { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
-    { name: "Erode", distance: "22 km", href: "/erode" },
+    { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],
   successCityText:

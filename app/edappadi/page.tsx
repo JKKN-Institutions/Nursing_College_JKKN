@@ -37,7 +37,7 @@ const config: CityPageConfig = {
   reachBus:
     "Buses run from Edappadi to Sankagiri; from Sankagiri take any Erode/Bhavani-side bus along NH-544 and get down at Komarapalayam",
   reachRail:
-    "Erode Junction (22 km) and Salem Junction (56 km) are the nearest major railheads; campus is 22 km from Erode Junction",
+    "Erode Junction (21 km) and Salem Junction (56 km) are the nearest major railheads; campus is 21 km from Erode Junction",
   faqSubtitle: "Nursing College near Edappadi — Your Questions Answered",
   faqs: [
     {
