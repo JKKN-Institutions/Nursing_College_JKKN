@@ -3,6 +3,8 @@ import Image from "next/image";
 import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import DistrictCollegeList from "@/components/DistrictCollegeList";
+import { ERODE_BSCN } from "@/data/tnmgrmu-bscn-2026-27";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -31,7 +33,7 @@ import {
 const faqs = [
   {
     q: "Which nursing colleges are in Erode district?",
-    a: "Erode district has its own INC-approved nursing colleges, all self-financing and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. JKKN College of Nursing and Research is not one of them — it is in Komarapalayam, Namakkal district, 18 km from Erode city and about 20-30 minutes by road on NH-544, which makes it one of the nearest INC-approved options for an Erode learner.",
+    a: "Erode district has 7 B.Sc Nursing colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University for 2026-2027, with 480 sanctioned seats between them. All 7 are self-financing — Erode district has no government nursing college. They are Bhavani College of Nursing; College of Nursing, Dharmarathnakara Dr. Mahalingam Institute of Paramedical Sciences and Research at Sakthi Nagar; Nandha College of Nursing; Shree Venkateshwara College of Nursing at Gobichettipalayam; Sri Sai Sindhu College of Nursing at Kolappalur; SSM College of Nursing at Jambai; and Vellalar College of Nursing at Thindal. JKKN College of Nursing and Research is not one of them — it is in Komarapalayam, Namakkal district, 18 km from Erode city and about 20-30 minutes by road on NH-544, which makes it one of the nearest INC-approved options for an Erode learner.",
   },
   {
     q: "How far is JKKN Nursing from Erode?",
@@ -504,6 +506,12 @@ export default function ErodePage() {
             </div>
           </div>
         </section>
+
+        {/* ── B.Sc Nursing Colleges in Erode District ───────────────── */}
+        {/* PR #2 left this table out on purpose: the 7-colleges / 480-seats figure only
+            had a third-party source at the time. It now comes from the university's own
+            affiliated-colleges list dated 03.08.2026, so the page can name them. */}
+        <DistrictCollegeList list={ERODE_BSCN} distanceKm={18} viaRoad="on NH-544" />
 
         {/* ── Why Choose Section ────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
