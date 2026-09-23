@@ -30,8 +30,8 @@ import {
 
 const faqs = [
   {
-    q: "What is the best nursing college in Namakkal?",
-    a: "Sresakthimayeil Institute Of Nursing And Research, located just 62 km from Namakkal on NH-544, is an INC-approved nursing college accessible from Namakkal. Approved by INC, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.",
+    q: "Is JKKN College of Nursing and Research in Namakkal district?",
+    a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, which is in Namakkal district. The campus is about 62 km from Namakkal town itself, roughly 1 to 1.5 hours by road on NH-544. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "How far is JKKN Nursing from Namakkal?",
@@ -58,8 +58,8 @@ const faqs = [
     a: "You can apply online through the official website at https://nursing.sresakthimayeil.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.",
   },
   {
-    q: "Which is the best nursing college in Namakkal district?",
-    a: "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved nursing college in Namakkal district. It is INC approved, NAAC accredited, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The campus is just 62 km from Namakkal city centre.",
+    q: "Which nursing colleges are in Namakkal district?",
+    a: "Namakkal district has several INC-approved nursing colleges, spread across Namakkal town, Tiruchengode, Rasipuram and Komarapalayam. JKKN College of Nursing and Research is one of them, based in Komarapalayam at the northern edge of the district, about 62 km from Namakkal town. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "What nursing courses are offered at JKKN Nursing in Namakkal?",
@@ -155,7 +155,7 @@ const reachItems = [
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
     label: "NEAREST RAILWAY STATION",
-    text: "Salem Junction (56 km from campus)",
+    text: "Erode Junction (21 km from campus); Salem Junction is 56 km",
   },
   {
     emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
@@ -216,21 +216,40 @@ const cities = [
 ];
 
 export const metadata: Metadata = {
-  title: "Nursing College in Namakkal | B.Sc Nursing in Namakkal — JKKN",
+  title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
   description:
-    "Looking for the best nursing college in Namakkal? JKKN College of Nursing and Research is located in Komarapalayam, just 62 km from Namakkal. INC approved, NAAC accredited. B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc programmes.",
+    "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
   keywords:
-    "nursing college in namakkal, namakkal nursing college, namakkal nursing college list, best nursing college in namakkal, bsc nursing in namakkal",
+    "nursing colleges in namakkal district, namakkal nursing college list, namakkal nursing colleges list, nursing colleges in namakkal, namakkal bsc nursing college",
   alternates: {
     canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/namakkal",
   },
   openGraph: {
-    title: "Nursing College in Namakkal | B.Sc Nursing in Namakkal — JKKN",
+    title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
     description:
-      "Looking for the best nursing college in Namakkal? JKKN College of Nursing and Research is in Komarapalayam, just 62 km away. INC approved, NAAC accredited.",
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/namakkal",
     siteName: "JKKN College of Nursing and Research",
     type: "website",
+    images: [
+      {
+        url: "/images/nursing_logo.png",
+        width: 1200,
+        height: 630,
+        alt: "JKKN College of Nursing and Research",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
+    description:
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
+    images: ["/images/nursing_logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -312,13 +331,13 @@ export default function NamakkalPage() {
 
             {/* Heading */}
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-5 leading-tight">
-              Best Nursing College in{" "}
-              <span className="text-[#FBFBEE]">Namakkal</span>
+              Nursing Colleges in{" "}
+              <span className="text-[#FBFBEE]">Namakkal District</span>
             </h1>
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              Searching for the best nursing college in Namakkal? Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) is located right in Komarapalayam, Namakkal district — offering INC-approved B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc programmes with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
+              JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — about 62 km from Namakkal town on NH-544. It offers INC-approved B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc programmes, with a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
             </p>
 
             {/* Stats Grid */}
@@ -388,7 +407,7 @@ export default function NamakkalPage() {
             <div className="rounded-2xl overflow-hidden shadow-md">
               <Image
                 src="/images/jkkn_campus.webp"
-                alt="JKKN College of Nursing and Research campus — best nursing college in Namakkal"
+                alt="JKKN College of Nursing and Research campus in Komarapalayam, Namakkal district"
                 width={1200}
                 height={500}
                 className="w-full h-48 sm:h-64 md:h-80 object-cover"
@@ -461,6 +480,9 @@ export default function NamakkalPage() {
               </p>
               <p>
                 What JKKN brings to the <strong>Namakkal nursing college list</strong> is its integrated campus with an attached multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+              </p>
+              <p>
+                Looking for the college itself rather than a district list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <div className="flex-1 rounded-xl overflow-hidden">
@@ -801,7 +823,7 @@ export default function NamakkalPage() {
                 Explore More Cities
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
-                Find the best nursing college near your city
+                Find your route to the JKKN campus from your city
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
