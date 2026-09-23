@@ -6,6 +6,9 @@ import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import DistrictCollegeList from "@/components/DistrictCollegeList";
+import BestCollegeAnswer from "@/components/BestCollegeAnswer";
+import { SALEM_BSCN } from "@/data/tnmgrmu-bscn-2026-27";
 import {
   CheckCircleIcon,
   HeartIcon,
@@ -29,6 +32,14 @@ import {
 
 
 const faqs = [
+  {
+    q: "Which is the best nursing college in Salem?",
+    a: "There is no single best one. The Tamil Nadu Dr. M.G.R. Medical University publishes which colleges are approved and how many seats each is sanctioned — Salem district has 17 B.Sc Nursing colleges with 1,170 sanctioned seats for 2026-2027 — but it publishes no quality ranking of them. Compare four things you can check yourself: whether the college has its own attached teaching hospital and from which year postings start, the sanctioned intake (40 to 100 seats across the district), whether it is government (1 of the 17 is — Government Mohan Kumaramangalam Medical College, 70 seats) or self-financing, and the daily journey from your home. JKKN College of Nursing and Research is not one of the 17: it is in Komarapalayam, Namakkal district, about 57 km from Salem.",
+  },
+  {
+    q: "How many B.Sc Nursing colleges are there in Salem district?",
+    a: "Salem district has 17 B.Sc Nursing colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University for the 2026-2027 academic year, with 1,170 sanctioned seats between them. One is government — College of Nursing, Government Mohan Kumaramangalam Medical College, Salem, with 70 seats — and the other 16 are self-financing. The figures are from the university's affiliated-colleges list dated 03.08.2026.",
+  },
   {
     q: "Is JKKN College of Nursing and Research in Salem district?",
     a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 57 km from Salem on NH-544. Salem has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
@@ -510,6 +521,16 @@ export default function SalemPage() {
             </div>
           </div>
         </section>
+
+        {/* ── B.Sc Nursing Colleges in Salem District ───────────────── */}
+        {/* The district's own list, from the university's affiliated-colleges document.
+            JKKN is in Namakkal district and is deliberately NOT a row in it - see the
+            component. "salem nursing college list" is the biggest Salem query this page
+            receives, and until now the page answered every intent except that one. */}
+        <DistrictCollegeList list={SALEM_BSCN} distanceKm={57} viaRoad="on NH-544" />
+
+        {/* ── Which is the best nursing college in Salem? ───────────── */}
+        <BestCollegeAnswer list={SALEM_BSCN} distanceKm={57} />
 
         {/* ── Why Choose Section ────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
