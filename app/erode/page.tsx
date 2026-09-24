@@ -4,7 +4,7 @@ import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import DistrictCollegeList from "@/components/DistrictCollegeList";
-import { ERODE_BSCN } from "@/data/tnmgrmu-bscn-2026-27";
+import { requireTnDistrict } from "@/data/tn-nursing-colleges-2026-27";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -29,6 +29,8 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
+
+const ERODE_BSCN = requireTnDistrict("Erode");
 
 const faqs = [
   {
