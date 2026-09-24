@@ -1,22 +1,24 @@
-import type { DistrictList } from "@/data/tnmgrmu-bscn-2026-27";
+import type { TnDistrict } from "@/data/tn-nursing-colleges-2026-27";
 
 type Props = {
-  list: DistrictList;
+  list: TnDistrict;
   distanceKm: number;
+  /** True only where the campus genuinely sits inside this district. See DistrictCollegeList. */
+  ownDistrict?: boolean;
 };
 
 /**
  * "Which is the best nursing college in <district>?" is a real search, and leaving it
  * unanswered hands it to whoever will answer it. Answering it with ourselves is worse:
- * we are not in the district, and nobody publishes a quality ranking of these colleges
- * to appeal to. The university publishes approval and sanctioned intake and nothing else.
+ * nobody publishes a quality ranking of these colleges to appeal to. The university
+ * publishes approval and sanctioned intake and nothing else.
  *
  * So the answer is the four things a reader can actually check, with our own numbers in
  * the same table as everyone else's. The visible copy and the FAQPage JSON-LD answer on
  * the page carry the same claim, deliberately - an answer engine quoting one and a parent
  * reading the other must not come away with two different impressions.
  */
-export default function BestCollegeAnswer({ list, distanceKm }: Props) {
+export default function BestCollegeAnswer({ list, distanceKm, ownDistrict = false }: Props) {
   const { district, colleges, seats, governmentCount } = list;
   const govt = colleges.find((c) => c.government);
   const min = Math.min(...colleges.map((c) => c.seats));
@@ -76,15 +78,28 @@ export default function BestCollegeAnswer({ list, distanceKm }: Props) {
           ))}
         </ol>
 
-        <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
-          On our own side of it, plainly: JKKN College of Nursing and Research is{" "}
-          <strong>not in {district} district</strong> — it is in Komarapalayam, Namakkal district,
-          about <strong>{distanceKm} km</strong> away, so it is not on the list above and we are not
-          claiming a place on it. What we can put next to those four criteria is a multi-specialty
-          teaching hospital on the same campus with postings from the first year, a sanctioned
-          intake of 60 B.Sc Nursing seats, and a 98% placement rate for 2024-25 — 58 of 59
-          graduates, as published in our NIRF 2026 submission.
-        </p>
+        {ownDistrict ? (
+          <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+            On our own side of it, plainly: JKKN College of Nursing and Research{" "}
+            <strong>is one of those {colleges.length}</strong> — Komarapalayam, {district} district,
+            60 sanctioned B.Sc Nursing seats. Being on the list is not a claim to be the best of it,
+            and the district is wide enough that the campus is about{" "}
+            <strong>{distanceKm} km</strong> from {district} town. What we can put next to those
+            four criteria is a multi-specialty teaching hospital on the same campus with postings
+            from the first year, and a 98% placement rate for 2024-25 — 58 of 59 graduates, as
+            published in our NIRF 2026 submission.
+          </p>
+        ) : (
+          <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+            On our own side of it, plainly: JKKN College of Nursing and Research is{" "}
+            <strong>not in {district} district</strong> — it is in Komarapalayam, Namakkal district,
+            about <strong>{distanceKm} km</strong> away, so it is not on the list above and we are
+            not claiming a place on it. What we can put next to those four criteria is a
+            multi-specialty teaching hospital on the same campus with postings from the first year,
+            a sanctioned intake of 60 B.Sc Nursing seats, and a 98% placement rate for 2024-25 — 58
+            of 59 graduates, as published in our NIRF 2026 submission.
+          </p>
+        )}
       </div>
     </section>
   );

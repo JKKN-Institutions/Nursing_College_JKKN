@@ -8,7 +8,7 @@ import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import DistrictCollegeList from "@/components/DistrictCollegeList";
 import BestCollegeAnswer from "@/components/BestCollegeAnswer";
-import { SALEM_BSCN } from "@/data/tnmgrmu-bscn-2026-27";
+import { requireTnDistrict } from "@/data/tn-nursing-colleges-2026-27";
 import {
   CheckCircleIcon,
   HeartIcon,
@@ -30,6 +30,8 @@ import {
   PhoneIcon,
 } from "@heroicons/react/24/outline";
 
+
+const SALEM_BSCN = requireTnDistrict("Salem");
 
 const faqs = [
   {

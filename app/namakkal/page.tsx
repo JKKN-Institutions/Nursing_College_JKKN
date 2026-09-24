@@ -3,6 +3,9 @@ import Image from "next/image";
 import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
+import DistrictCollegeList from "@/components/DistrictCollegeList";
+import BestCollegeAnswer from "@/components/BestCollegeAnswer";
+import { requireTnDistrict } from "@/data/tn-nursing-colleges-2026-27";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -28,7 +31,13 @@ import {
 } from "@heroicons/react/24/outline";
 
 
+const NAMAKKAL_BSCN = requireTnDistrict("Namakkal");
+
 const faqs = [
+  {
+    q: "Which is the best nursing college in Namakkal?",
+    a: "There is no single best one, and anyone who names one is giving you an opinion. The Tamil Nadu Dr. M.G.R. Medical University publishes which colleges are approved and how many seats each is sanctioned — Namakkal district has 12 B.Sc Nursing colleges with 800 sanctioned seats for 2026-2027 — but it publishes no quality ranking of them. Compare four things you can check yourself: whether the college has its own attached teaching hospital and from which year clinical postings start, the sanctioned intake (50 to 100 seats across the district), whether it is government or self-financing (all 12 here are self-financing, so compare fees against neighbouring districts too), and the daily journey from your home. JKKN College of Nursing and Research is one of those 12 — institution code 262, Komarapalayam, 60 seats — and being on the list is not a claim to be the best of it.",
+  },
   {
     q: "Is JKKN College of Nursing and Research in Namakkal district?",
     a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, which is in Namakkal district. The campus is about 62 km from Namakkal town itself, roughly 1 to 1.5 hours by road on NH-544. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
@@ -59,7 +68,11 @@ const faqs = [
   },
   {
     q: "Which nursing colleges are in Namakkal district?",
-    a: "Namakkal district has several INC-approved nursing colleges, spread across Namakkal town, Tiruchengode, Rasipuram and Komarapalayam. JKKN College of Nursing and Research is one of them, based in Komarapalayam at the northern edge of the district, about 62 km from Namakkal town. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "Namakkal district has 12 B.Sc Nursing colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University for 2026-2027, with 800 sanctioned seats between them. All 12 are self-financing — Namakkal district has no government nursing college. They are Anbu College of Nursing and Annai JKK. Sampoorani Ammal College of Nursing at Komarapalayam; Arvinth College of Nursing, Deepthi College of Nursing, Excel Nursing College, Paavai College of Nursing and Research, PGP. College of Nursing & Research and Sri Rengeswarar College of Nursing around Namakkal; K.S.Rangasamy College of Nursing, Sengunthar College of Nursing and Vivekanandha College of Nursing at Tiruchengode; and this college, Sresakthimayeil Institute of Nursing & Research, institution code 262 at Komarapalayam with 60 seats. The figures are from the university's affiliated-colleges list dated 03.08.2026.",
+  },
+  {
+    q: "How many B.Sc Nursing colleges are there in Namakkal district?",
+    a: "12, with 800 sanctioned seats between them, on The Tamil Nadu Dr. M.G.R. Medical University's affiliated list for 2026-2027 dated 03.08.2026. None of them is a government college. One more college, Dhanvantri College of Nursing at Pallakkapalayam, appears on the same university list with no district stated against it, so it is not counted in the 12 here even though Pallakkapalayam lies in Komarapalayam taluk.",
   },
   {
     q: "What nursing courses are offered at JKKN Nursing in Namakkal?",
@@ -510,6 +523,22 @@ export default function NamakkalPage() {
             </div>
           </div>
         </section>
+
+        {/* ── B.Sc Nursing Colleges in Namakkal District ─────────────── */}
+        {/* ownDistrict: Komarapalayam IS in Namakkal district, so JKKN is one of the 12
+            rows here - the opposite of /salem and /erode, where the same component runs
+            with the flag off and JKKN is deliberately not in the table. "namakkal nursing
+            college list" is the biggest Namakkal query at 129 impressions, 120 of them
+            landing on this page at position 7.5, and until now the page had no list. */}
+        <DistrictCollegeList
+          list={NAMAKKAL_BSCN}
+          distanceKm={62}
+          viaRoad="on NH-544"
+          ownDistrict
+        />
+
+        {/* ── Which is the best nursing college in Namakkal? ─────────── */}
+        <BestCollegeAnswer list={NAMAKKAL_BSCN} distanceKm={62} ownDistrict />
 
         {/* ── Why Choose Section ────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16 px-4">
