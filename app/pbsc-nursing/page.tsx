@@ -203,6 +203,20 @@ export default function PBScNursing() {
                   <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year INC-approved Post Basic B.Sc Nursing program for registered GNM diploma holders, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Upgrade your diploma to a degree with enhanced clinical training at the attached hospital.</p>
                 </div>
 
+                {/* B.Sc only, and labelled - the Post Basic B.Sc affiliated list is a separate
+                    university document we have not read. */}
+                <p className="text-gray-300 text-sm mb-8">
+                  Comparing colleges across the state?{" "}
+                  <a
+                    href="/nursing-colleges-in-tamil-nadu"
+                    className="text-[#7cb983] font-semibold hover:underline"
+                  >
+                    All 284 B.Sc Nursing colleges in Tamil Nadu, district by district
+                  </a>{" "}
+                  — from the university&apos;s own affiliated list for 2026-27. The Post Basic
+                  B.Sc list is published separately by the university.
+                </p>
+
                 {/* Description */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
                   Elevate your nursing career from diploma to degree. The 2-year Post Basic B.Sc Nursing programme at JKKN is specially designed for registered GNM nurses to upgrade their qualification, expand career opportunities, and pursue higher education in nursing.
