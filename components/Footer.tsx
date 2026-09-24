@@ -29,11 +29,6 @@ export default function Footer({ hideLifeAtJKKN: _unused }: FooterProps = {}) {
                 className="rounded"
               ></iframe>
             </div>
-
-            <p className="text-sm sm:text-base font-semibold">
-              Best Innovation Focused<br />
-              Multi-Disciplinary Campus
-            </p>
           </div>
 
           {/* Our Institutions */}

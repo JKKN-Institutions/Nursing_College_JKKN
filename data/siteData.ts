@@ -13,7 +13,6 @@ export interface NavItem {
 
 export const siteData = {
   institutionName: "Sresakthimayeil Institute Of Nursing And Research",
-  tagline: "Best Innovation Focused Multi-Disciplinary Campus",
   contact: {
     phone: "+91 93458 55001",
     email: "nursing@jkkn.ac.in",
