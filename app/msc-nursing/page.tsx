@@ -14,7 +14,9 @@ export const metadata: Metadata = {
   description: "M.Sc Nursing at JKKN College of Nursing and Research, Tamil Nadu. 5 INC-approved specializations, attached-hospital training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Apply 2026-27.",
   keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
-    title: "M.Sc Nursing at JKKN College of Nursing and Research — Top MSc Nursing College Tamil Nadu",
+    // "Top MSc Nursing College Tamil Nadu" was here and had no source behind it - nobody
+    // publishes a ranking of Tamil Nadu's nursing colleges to appeal to.
+    title: "M.Sc Nursing at JKKN College of Nursing and Research — INC Approved, Tamil Nadu",
     description: "INC-approved 2-year M.Sc Nursing with 5 specializations, attached-hospital training, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     siteName: "JKKN College of Nursing and Research",
@@ -326,8 +328,23 @@ export default function MScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research — one of the top M.Sc Nursing colleges in Tamil Nadu — offers a 2-year INC-approved postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a attached teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year INC-approved M.Sc Nursing postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a attached teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).</p>
                 </div>
+
+                {/* The state list is B.Sc only and is labelled as such - the university
+                    publishes separate affiliated lists for M.Sc and Post Basic B.Sc, and we
+                    have not read those, so this page does not imply a count it cannot show. */}
+                <p className="text-gray-300 text-sm mb-8">
+                  Comparing colleges across the state?{" "}
+                  <a
+                    href="/nursing-colleges-in-tamil-nadu"
+                    className="text-[#7cb983] font-semibold hover:underline"
+                  >
+                    All 284 B.Sc Nursing colleges in Tamil Nadu, district by district
+                  </a>{" "}
+                  — from the university&apos;s own affiliated list for 2026-27. The M.Sc list is
+                  published separately by the university.
+                </p>
 
                 {/* Description */}
                 <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">

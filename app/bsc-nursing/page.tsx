@@ -165,6 +165,20 @@ export default function BScNursing() {
                   <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 4-year INC-approved BSc Nursing program in Tamil Nadu, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Learners receive clinical training at the attached attached multi-specialty teaching hospital from Year 1. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with international opportunities in NHS UK, UAE, and Singapore. Annual fee: ₹1,50,000 (female) / ₹1,75,000 (male).</p>
                 </div>
 
+                {/* This page sells one course; the list of every college belongs on its own
+                    page. Measured 2026-09-23: "colleges in tamilnadu" phrasings return zero
+                    impressions sitewide because no list page existed to return. */}
+                <p className="text-gray-300 text-sm mb-8">
+                  Comparing colleges first?{" "}
+                  <a
+                    href="/nursing-colleges-in-tamil-nadu"
+                    className="text-[#7cb983] font-semibold hover:underline"
+                  >
+                    All 284 B.Sc Nursing colleges in Tamil Nadu, district by district
+                  </a>{" "}
+                  — from the university&apos;s own affiliated list for 2026-27.
+                </p>
+
                 {/* Description */}
                 <p className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed">
                   Transform your passion for healthcare into a rewarding career. The 4-year undergraduate nursing program at Sresakthimayeil Institute Of Nursing And Research prepares compassionate and competent healthcare professionals ready to make a difference in patient care.
