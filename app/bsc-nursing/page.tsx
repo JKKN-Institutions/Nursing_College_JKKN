@@ -346,7 +346,7 @@ export default function BScNursing() {
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">Year 1</div>
                 <h3 className="text-lg font-bold mb-2">Clinical Exposure</h3>
-                <p className="text-gray-200 text-sm">Unlike many colleges, JKKN starts <Link href="/clinical-hospital" className="text-[#7cb983] hover:underline">hospital training</Link> from the first year itself.</p>
+                <p className="text-gray-200 text-sm">JKKN starts <Link href="/clinical-hospital" className="text-[#7cb983] hover:underline">hospital training</Link> from the first year itself.</p>
               </div>
             </div>
 

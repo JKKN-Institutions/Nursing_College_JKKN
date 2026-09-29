@@ -20,8 +20,8 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Tiruchengode Learners",
   landscapeParagraphs: [
     "Tiruchengode is one of the major towns of Namakkal district, famous for the hilltop Ardhanareeswarar Temple and as a national hub for the borewell rig industry. The town has a strong educational ecosystem, and healthcare careers — especially nursing — are a popular choice for learners from Tiruchengode taluk.",
-    "For nursing aspirants here, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is one of the closest INC-approved options — about 26 km away by the direct Tiruchengode-Komarapalayam road, within the same Namakkal district. No relocation to Salem, Erode or Coimbatore is needed.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Learners train at the JKKN group's multi-specialty teaching hospital, getting real patient-care exposure from the first year — a key advantage over theory-only colleges.",
+    "For nursing aspirants here, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved option about 26 km away by the direct Tiruchengode-Komarapalayam road, within the same Namakkal district. No relocation to Salem, Erode or Coimbatore is needed.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Learners train at the JKKN group's multi-specialty teaching hospital, getting real patient-care exposure from the first year.",
     "Tiruchengode learners can commute daily (about 30-40 minutes by bus or two-wheeler) or choose the secure on-campus hostels with separate blocks for boys and girls. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
   whyHeading: "Why Tiruchengode Learners Choose JKKN — Same-District Nursing College",
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Tiruchengode?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) in Komarapalayam is one of the nearest INC-approved nursing colleges to Tiruchengode — about 26 km away in the same Namakkal district. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "The Tamil Nadu Dr. M.G.R. Medical University's 2026-2027 affiliated list places three B.Sc Nursing colleges under Tiruchengode: K.S.Rangasamy College of Nursing, Sengunthar College of Nursing and Vivekanandha College of Nursing. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is in Komarapalayam, about 26 km away in the same Namakkal district. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Tiruchengode?",

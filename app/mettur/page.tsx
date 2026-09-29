@@ -20,7 +20,7 @@ const config: CityPageConfig = {
   landscapeHeading: "Nursing Education for Mettur Learners",
   landscapeParagraphs: [
     "Mettur is best known for the Mettur Dam (Stanley Reservoir) on the Cauvery, its hydro and thermal power stations, and its chemical industrial belt. Families here value stable, professional careers — and healthcare is one of the strongest options for learners from Mettur, Kolathur and the surrounding blocks.",
-    "For nursing aspirants from Mettur, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is one of the closest INC-approved options — about 59 km away, about 1 hour via Bhavani along the river route. Learners can choose the hostel or, from nearby blocks, even consider day travel.",
+    "For nursing aspirants from Mettur, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an INC-approved option about 59 km away, about 1 hour via Bhavani along the river route. Learners can choose the hostel or, from nearby blocks, even consider day travel.",
     "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Many Mettur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — and go home on weekends, barely an hour and a half away. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is close to Mettur?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is one of the closest INC-approved nursing colleges for Mettur learners — about 59 km away via Bhavani. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "The Tamil Nadu Dr. M.G.R. Medical University's 2026-2027 affiliated list places one B.Sc Nursing college under Mettur: The Kaavery Nursing College. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is at Komarapalayam, about 59 km away via Bhavani. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Mettur?",
