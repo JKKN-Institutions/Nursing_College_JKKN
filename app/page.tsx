@@ -364,7 +364,7 @@ export default async function Home() {
                     <div className="flex items-center gap-1.5 sm:gap-2">
                       <StarIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#f59e0b]" />
                       <div>
-                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98% Placement</p>
+                        <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98% Placement (2024-25)</p>
                         <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Success Rate</p>
                       </div>
                     </div>

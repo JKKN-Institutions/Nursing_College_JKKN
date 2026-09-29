@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords:
     "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, NHS UK nursing jobs, nursing salary india, best nursing college placement",
   openGraph: {
-    title: "Placements — 98% Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
     description:
       "Sresakthimayeil Institute Of Nursing And Research placement cell: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
     type: "website",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Placements — 98% Rate, NHS UK, Apollo | JKKN Nursing",
+    title: "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
     description:
       "Sresakthimayeil Institute Of Nursing And Research: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters, international placements.",
     images: ["/images/nursing_logo.png"],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 const placementWebPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Placements — 98% Rate, NHS UK, Apollo | JKKN Nursing",
+  "name": "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
   "description": "Sresakthimayeil Institute Of Nursing And Research placement cell: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
   "isPartOf": {
