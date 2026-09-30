@@ -315,12 +315,6 @@ const educationalOrgSchema = {
       "name": "Domestic Placement Partners",
       "value": "Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health",
       "description": "Top domestic hospital chains that actively recruit from JKKN College of Nursing and Research"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Teaching Hospital Beds",
-      "value": "500+",
-      "description": "Number of beds in the attached multi-specialty teaching hospital for clinical training"
     }
   ]
 };
