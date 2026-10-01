@@ -144,7 +144,8 @@ export default function DistrictCollegeList({
 
         <p className="text-xs text-gray-500 mt-3">
           Listed alphabetically, not ranked. Source: {TN_SOURCE.label}. Sanctioned intake can
-          change between academic years — confirm with the college before you apply.
+          change between academic years — confirm with the college before you apply. Every district:{" "}
+          <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>.
         </p>
 
         <div className="mt-8 rounded-xl border-l-4 border-[#006837] bg-[#FBFBEE] p-5 sm:p-6">

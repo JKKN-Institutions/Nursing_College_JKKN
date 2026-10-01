@@ -5,7 +5,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import TnCollegeDirectory from "@/components/TnCollegeDirectory";
-import { TN_DISTRICTS, TN_SOURCE, TN_TOTALS } from "@/data/tn-nursing-colleges-2026-27";
+import { TN_DISTRICTS, TN_SOURCE, TN_TOTALS, JKKN_CODE } from "@/data/tn-nursing-colleges-2026-27";
 import {
   AcademicCapIcon,
   BuildingLibraryIcon,
@@ -69,14 +69,14 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "Nursing Colleges in Tamil Nadu 2026 — All 284, District Wise",
+  title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
   description:
-    "All 284 B.Sc Nursing colleges affiliated to TNMGRMU for 2026-27, district by district, with sanctioned seats. 18,960 seats across 35 districts. From the university's own list.",
+    "All 284 B.Sc Nursing colleges affiliated to TNMGRMU for 2026-27, district by district: 18,960 sanctioned seats in 35 districts, from the university's list.",
   keywords:
     "nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, b sc nursing colleges in tamil nadu, list of nursing colleges in tamilnadu, inc approved nursing colleges in tamilnadu, government nursing colleges in tamilnadu, nursing college list tamilnadu, tnmgrmu nursing colleges",
   alternates: { canonical: `${BASE}/nursing-colleges-in-tamil-nadu` },
   openGraph: {
-    title: "Nursing Colleges in Tamil Nadu 2026 — All 284, District Wise",
+    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
     description:
       "The university's own affiliated list for 2026-27: 284 B.Sc Nursing colleges, 18,960 sanctioned seats, 35 districts. Not a ranking.",
     url: `${BASE}/nursing-colleges-in-tamil-nadu`,
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nursing Colleges in Tamil Nadu 2026 — All 284, District Wise",
+    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
     description:
       "284 B.Sc Nursing colleges, 18,960 sanctioned seats, 35 districts, from the TNMGRMU affiliated list dated 03.08.2026.",
   },
@@ -129,7 +129,7 @@ export default function TamilNaduNursingCollegesPage() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-5 leading-tight">
-              Nursing Colleges in Tamil Nadu
+              B.Sc Nursing Colleges in Tamil Nadu
             </h1>
 
             <p className="text-white/80 text-sm sm:text-base md:text-lg leading-relaxed mb-8">
@@ -280,6 +280,45 @@ export default function TamilNaduNursingCollegesPage() {
         </section>
 
         {/* ── The directory ─────────────────────────────────────────── */}
+        {/* ── Where JKKN sits in this list ─────────────────────────────── */}
+        {/* The table is alphabetical and JKKN is one row of 284 under its legal name, so a
+            reader looking for JKKN would not find it by the brand. This card states the
+            measured facts once, above the table. No Google rating: it goes stale. */}
+        <section className="bg-white pt-12 sm:pt-16 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                Where JKKN College of Nursing and Research Sits in This List
+              </h2>
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm sm:text-base">
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">In the table</dt>
+                  <dd className="text-gray-900">Namakkal district, institution code {JKKN_CODE}, listed as Sresakthimayeil Institute of Nursing &amp; Research</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Location</dt>
+                  <dd className="text-gray-900">Komarapalayam, on NH-544. 18 km from Erode, 57 km from Salem</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">B.Sc Nursing seats</dt>
+                  <dd className="text-gray-900">60 sanctioned seats</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Approval</dt>
+                  <dd className="text-gray-900">Approved by the Indian Nursing Council (INC)</dd>
+                </div>
+                <div className="sm:col-span-2">
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Placement</dt>
+                  <dd className="text-gray-900">98%: 58 of 59 graduates placed in 2024-25 (NIRF 2026)</dd>
+                </div>
+              </dl>
+              <p className="text-xs text-gray-500 mt-4">
+                Seats and code: {TN_SOURCE.label}. Placement: NIRF 2026 data submitted by the college. This card is about JKKN only; the table below is not a ranking.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <TnCollegeDirectory />
 
         {/* ── FAQ ───────────────────────────────────────────────────── */}
