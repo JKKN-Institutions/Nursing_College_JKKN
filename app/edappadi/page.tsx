@@ -13,7 +13,7 @@ const config: CityPageConfig = {
     { value: "32 km", label: "FROM EDAPPADI" },
     { value: "3", label: "PROGRAMMES" },
   ],
-  distanceKm: "~30",
+  distanceKm: "32",
   distanceHeading: "From Edappadi to JKKN Nursing",
   distanceSub:
     "about 30-40 minutes by road via Sankagiri and NH-544; the campus is at Natarajapuram, Komarapalayam",
@@ -76,7 +76,7 @@ const config: CityPageConfig = {
   cities: [
     { name: "Sankagiri", distance: "17 km", href: "/sankagiri" },
     { name: "Bhavani", distance: "8 km", href: "/bhavani" },
-    { name: "Mettur", distance: "59 km", href: "/mettur" },
+    { name: "Mettur", distance: "48 km", href: "/mettur" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],
   successCityText:

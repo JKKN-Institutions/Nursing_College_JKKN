@@ -13,7 +13,7 @@ const config: CityPageConfig = {
     { value: "38 km", label: "FROM GOBI" },
     { value: "3", label: "PROGRAMMES" },
   ],
-  distanceKm: "45",
+  distanceKm: "38",
   distanceHeading: "From Gobichettipalayam to JKKN Nursing",
   distanceSub:
     "about 45 minutes via the Gobi-Bhavani road; cross to Komarapalayam and the campus is on NH-544 at Natarajapuram",

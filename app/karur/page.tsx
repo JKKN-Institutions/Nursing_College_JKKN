@@ -75,7 +75,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Namakkal", distance: "62 km", href: "/namakkal" },
-    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Tiruchengode", distance: "22 km", href: "/tiruchengode" },
     { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
   ],

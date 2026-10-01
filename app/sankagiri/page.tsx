@@ -13,7 +13,7 @@ const config: CityPageConfig = {
     { value: "17 km", label: "FROM SANKAGIRI" },
     { value: "3", label: "PROGRAMMES" },
   ],
-  distanceKm: "22",
+  distanceKm: "17",
   distanceHeading: "From Sankagiri to JKKN Nursing",
   distanceSub:
     "about 20-30 minutes straight along NH-544 — the campus is right on the highway at Natarajapuram, Komarapalayam",
@@ -75,7 +75,7 @@ const config: CityPageConfig = {
   cities: [
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
     { name: "Salem", distance: "57 km", href: "/salem" },
-    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Tiruchengode", distance: "22 km", href: "/tiruchengode" },
     { name: "Erode", distance: "18 km", href: "/erode" },
   ],
   successCityText:

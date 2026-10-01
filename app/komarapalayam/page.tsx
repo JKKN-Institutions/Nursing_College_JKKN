@@ -74,7 +74,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Bhavani", distance: "8 km", href: "/bhavani" },
-    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Tiruchengode", distance: "22 km", href: "/tiruchengode" },
     { name: "Erode", distance: "18 km", href: "/erode" },
     { name: "Salem", distance: "57 km", href: "/salem" },
   ],

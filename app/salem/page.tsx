@@ -8,7 +8,7 @@ import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import DistrictCollegeList from "@/components/DistrictCollegeList";
 import BestCollegeAnswer from "@/components/BestCollegeAnswer";
-import { requireTnDistrict } from "@/data/tn-nursing-colleges-2026-27";
+import { requireTnDistrict, JKKN_CODE, TN_SOURCE } from "@/data/tn-nursing-colleges-2026-27";
 import {
   CheckCircleIcon,
   HeartIcon,
@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     q: "How far is JKKN Nursing from Salem?",
-    a: "JKKN Nursing is approximately 57 km from Salem city centre, which takes about 1 hour by road via NH-544 (Salem-Coimbatore Highway) — direct route. TN State Transport buses run every 15-20 minutes from Salem New Bus Stand to Komarapalayam throughout the day.",
+    a: "JKKN Nursing is approximately 57 km from Salem city centre, which takes about 1 hour by road via NH-544 (Salem-Coimbatore Highway) — direct route.",
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "Does JKKN Nursing provide hostel for Salem learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Salem can also opt for daily commute as the campus is just about 1 hour away. College transport services are available from Salem.",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Salem can also opt for daily commute as the campus is just about 1 hour away.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -150,7 +150,7 @@ const programmes = [
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "60", label: "B.SC NURSING SEATS" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -159,11 +159,6 @@ const reachItems = [
     emoji: <MapIcon className="w-5 h-5 text-[#006837]" />,
     label: "ROUTE",
     text: "NH-544 (Salem-Coimbatore Highway) — direct route",
-  },
-  {
-    emoji: <TruckIcon className="w-5 h-5 text-[#006837]" />,
-    label: "BY BUS",
-    text: "TN State Transport buses from Salem New Bus Stand to Komarapalayam run every 15-20 minutes throughout the day",
   },
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
@@ -204,7 +199,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Salem and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -438,7 +433,7 @@ export default function SalemPage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      45<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      57<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">
@@ -518,7 +513,46 @@ export default function SalemPage() {
                 </div>
               </div>
               <p>
-                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities and regular transport services from Salem, JKKN is the preferred choice for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities, JKKN is an INC-approved option for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── JKKN facts for Salem applicants ──────────────────────────── */}
+        {/* Above the Salem list so a parent who came for "the list" sees JKKN's measured
+            facts first, and is told plainly that JKKN is not one of the 17 - it is in
+            Namakkal district. No Google rating on purpose: it changes daily. */}
+        <section className="bg-white pt-12 sm:pt-16 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                JKKN College of Nursing and Research: Facts for Salem Applicants
+              </h2>
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm sm:text-base">
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Location</dt>
+                  <dd className="text-gray-900">Komarapalayam, Namakkal district, not in Salem district. About 57 km from Salem by road on NH-544</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">University list</dt>
+                  <dd className="text-gray-900">TNMGRMU institution code {JKKN_CODE}, listed under Namakkal as Sresakthimayeil Institute of Nursing &amp; Research</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">B.Sc Nursing seats</dt>
+                  <dd className="text-gray-900">60 sanctioned seats</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Approval</dt>
+                  <dd className="text-gray-900">Approved by the Indian Nursing Council (INC)</dd>
+                </div>
+                <div className="sm:col-span-2">
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Placement</dt>
+                  <dd className="text-gray-900">98%: 58 of 59 graduates placed in 2024-25 (NIRF 2026)</dd>
+                </div>
+              </dl>
+              <p className="text-xs text-gray-500 mt-4">
+                Seats and code: {TN_SOURCE.label}. Placement: NIRF 2026 data submitted by the college.
               </p>
             </div>
           </div>

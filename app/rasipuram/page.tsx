@@ -13,7 +13,7 @@ const config: CityPageConfig = {
     { value: "60 km", label: "FROM RASIPURAM" },
     { value: "3", label: "PROGRAMMES" },
   ],
-  distanceKm: "42",
+  distanceKm: "60",
   distanceHeading: "From Rasipuram to JKKN Nursing",
   distanceSub:
     "about 1 to 1.5 hours via Tiruchengode; the campus is on NH-544 at Natarajapuram, Komarapalayam — same Namakkal district",
@@ -74,7 +74,7 @@ const config: CityPageConfig = {
   ],
   cities: [
     { name: "Namakkal", distance: "62 km", href: "/namakkal" },
-    { name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+    { name: "Tiruchengode", distance: "22 km", href: "/tiruchengode" },
     { name: "Komarapalayam", distance: "5 km", href: "/komarapalayam" },
     { name: "Salem", distance: "57 km", href: "/salem" },
   ],

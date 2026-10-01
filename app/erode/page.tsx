@@ -195,7 +195,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Erode and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -219,7 +219,7 @@ const cities = [
   { icon: <StarIcon className="w-6 h-6 text-[#006837]" />, name: "Coimbatore", distance: "113 km", href: "/coimbatore" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Komarapalayam", distance: "In-town", href: "/komarapalayam" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Bhavani", distance: "8 km", href: "/bhavani" },
-  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruchengode", distance: "26 km", href: "/tiruchengode" },
+  { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Tiruchengode", distance: "22 km", href: "/tiruchengode" },
   { icon: <MapPinIcon className="w-6 h-6 text-[#006837]" />, name: "Sankagiri", distance: "17 km", href: "/sankagiri" },
 ];
 
@@ -435,14 +435,14 @@ export default function ErodePage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      35<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      18<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">
                         From Erode to JKKN Nursing
                       </h2>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        40-50 minutes via NH-544 — direct highway connectivity
+                        About 20-30 minutes by road from Erode city
                       </p>
                     </div>
                   </div>
@@ -503,7 +503,7 @@ export default function ErodePage() {
                 </div>
               </div>
               <p>
-                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA), Erode learners at JKKN gain a significant career advantage. The campus also offers secure hostel facilities for learners who prefer not to commute daily, along with regular college transport services from Erode.
+                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA), Erode learners at JKKN gain a significant career advantage. The campus also offers secure hostel facilities for learners who prefer not to commute daily, along with a college bus service (see the transport page for current routes).
               </p>
             </div>
           </div>
