@@ -137,7 +137,7 @@ const programmes = [
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "60", label: "B.SC NURSING SEATS" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -191,7 +191,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Coimbatore and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -426,7 +426,7 @@ export default function CoimbatorePage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      105<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      113<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">

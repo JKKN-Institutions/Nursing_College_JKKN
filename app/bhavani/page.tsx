@@ -13,7 +13,7 @@ const config: CityPageConfig = {
     { value: "8 km", label: "FROM BHAVANI" },
     { value: "3", label: "PROGRAMMES" },
   ],
-  distanceKm: "5",
+  distanceKm: "8",
   distanceHeading: "From Bhavani to JKKN Nursing",
   distanceSub:
     "About 10-15 minutes — cross the Cauvery bridge to Komarapalayam and the campus is on NH-544 at Natarajapuram",

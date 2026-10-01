@@ -99,7 +99,7 @@ const programmes = [
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "60", label: "B.SC NURSING SEATS" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -125,7 +125,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting nearby towns and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -198,7 +198,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
     {
       emoji: <PaperAirplaneIcon className="w-5 h-5 text-[#006837]" />,
       label: "NEAREST AIRPORT",
-      text: "Coimbatore International Airport (Code: CJB) (~80 km)",
+      text: "Coimbatore International Airport (Code: CJB) (101 km)",
     },
     {
       emoji: <BuildingOffice2Icon className="w-5 h-5 text-[#006837]" />,

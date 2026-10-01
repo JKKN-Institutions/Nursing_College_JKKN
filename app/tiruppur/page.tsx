@@ -51,7 +51,7 @@ const faqs = [
   },
   {
     q: "Does JKKN Nursing provide hostel for Tiruppur learners?",
-    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Tiruppur can also opt for daily commute as the campus is just about 1 to 1.5 hours away. College transport services are available connecting to Tiruppur and surrounding areas.",
+    a: "Yes, JKKN Nursing provides separate hostel facilities for boys and girls. Learners from Tiruppur can also opt for daily commute as the campus is just about 1 to 1.5 hours away. College transport services are available; see the transport page for current routes.",
   },
   {
     q: "How can I apply for admission at JKKN Nursing?",
@@ -137,7 +137,7 @@ const programmes = [
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "60", label: "B.SC NURSING SEATS" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -191,7 +191,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Tiruppur and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -423,14 +423,14 @@ export default function TiruppurPage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      85<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      66<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">
                         From Tiruppur to JKKN Nursing
                       </h2>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        1.5-2 hours via NH-544 via Erode, then State Highway towards Tiruppur
+                        About 1 to 1.5 hours by road from Tiruppur
                       </p>
                     </div>
                   </div>
