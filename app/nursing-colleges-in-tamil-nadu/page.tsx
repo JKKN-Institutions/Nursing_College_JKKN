@@ -276,9 +276,11 @@ export default function TamilNaduNursingCollegesPage() {
                 <a href="/pbsc-nursing#post-basic-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">
                   Post Basic B.Sc Nursing colleges in Tamil Nadu
                 </a>{" "}
-                section. The M.Sc list is not reproduced here, because we have not read it, and
-                putting a number on this page that we have not checked would be worse than leaving
-                the gap visible.
+                section, and the M.Sc list (2023-24, 78 colleges) is on our{" "}
+                <a href="/msc-nursing#msc-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">
+                  M.Sc Nursing colleges in Tamil Nadu
+                </a>{" "}
+                section.
               </p>
             </div>
           </div>

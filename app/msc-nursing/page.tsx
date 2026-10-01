@@ -6,18 +6,19 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ScrollButton from "@/components/ScrollButton";
 import Image from "next/image";
 import Link from "next/link";
+import { MSC_COLLEGES, MSC_SOURCE, MSC_TOTALS } from "@/data/tn-msc-nursing-colleges-2023-24";
 import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase, FaClipboardCheck, FaFileAlt } from "react-icons/fa";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nursing.sresakthimayeil.jkkn.ac.in"),
   title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-  description: "M.Sc Nursing at JKKN College of Nursing and Research, Tamil Nadu. 5 INC-approved specializations, attached-hospital training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Apply 2026-27.",
+  description: "M.Sc Nursing at JKKN College of Nursing and Research: 5 INC-approved specializations, 25 seats, 11 of 11 placed (NIRF 2026). Plus all 78 TN M.Sc colleges.",
   keywords: "msc nursing colleges in tamilnadu, M.Sc Nursing Tamil Nadu, msc nursing admission 2026, msc nursing specializations, post graduate nursing Tamil Nadu, JKKN nursing, msc nursing fees, msc nursing eligibility, nursing colleges near Erode Salem Coimbatore, master of science in nursing",
   openGraph: {
     // "Top MSc Nursing College Tamil Nadu" was here and had no source behind it - nobody
     // publishes a ranking of Tamil Nadu's nursing colleges to appeal to.
     title: "M.Sc Nursing at JKKN College of Nursing and Research — INC Approved, Tamil Nadu",
-    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, attached-hospital training, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Admissions open 2026-27.",
+    description: "INC-approved 2-year M.Sc Nursing with 5 specializations, attached-hospital training, and 100% M.Sc placement (2024-25: 11 of 11 graduates, NIRF 2026). Admissions open 2026-27.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing",
     siteName: "JKKN College of Nursing and Research",
     type: "website",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "M.Sc Nursing Colleges in Tamil Nadu | JKKN Nursing",
-    description: "5 INC-approved specializations, attached-hospital training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Apply 2026-27.",
+    description: "5 INC-approved specializations, attached-hospital training, 100% M.Sc placement (2024-25: 11 of 11 graduates, NIRF 2026). Apply 2026-27.",
   },
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/msc-nursing" },
   robots: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
@@ -328,7 +329,7 @@ export default function MScNursing() {
 
                 <div className="bg-white/10 border-l-4 border-[#7cb983] p-4 mb-8 rounded-r-lg">
                   <p className="font-semibold text-[#7cb983] mb-1">Quick Summary</p>
-                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year INC-approved M.Sc Nursing postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at a attached teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).</p>
+                  <p className="text-gray-200 text-sm">JKKN College of Nursing and Research offers a 2-year INC-approved M.Sc Nursing postgraduate program with 5 specializations. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with clinical training at an attached teaching hospital. Graduates pursue careers as Nurse Educators, Clinical Specialists, and Administrators with 100% M.Sc placement (2024-25: 11 of 11 graduates placed, NIRF 2026).</p>
                 </div>
 
                 {/* The state list is B.Sc only and is labelled as such - the university
@@ -437,8 +438,6 @@ export default function MScNursing() {
                   <span className="font-semibold text-gray-800">TNNMC Recognized</span>
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
-                  {/* [DATA NEEDED] Replace with actual TNMGRMU logo — currently using NAAC logo as placeholder */}
-                  <Image src="/images/NAAC_LOGO.png" alt="Tamil Nadu Dr. MGR Medical University Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
                   <span className="font-semibold text-gray-800"><a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">TNMGRMU</a> Affiliated</span>
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
@@ -565,7 +564,7 @@ export default function MScNursing() {
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
                   The <strong className="text-[#006837]">Master of Science in Nursing (M.Sc Nursing)</strong> at <Link href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</Link> is a comprehensive 2-year postgraduate program designed to
                   develop advanced nursing professionals with specialized clinical
-                  expertise, research acumen, and leadership capabilities. As one of the leading <strong className="text-[#006837]">M.Sc Nursing colleges in Tamil Nadu</strong>, JKKN is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU)</a> and approved by the <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Indian Nursing Council (INC)</a>.
+                  expertise, research acumen, and leadership capabilities. As one of the 78 <strong className="text-[#006837]">M.Sc Nursing colleges in Tamil Nadu</strong>, JKKN is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU)</a> and approved by the <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Indian Nursing Council (INC)</a>.
                 </p>
 
                 <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -1253,16 +1252,16 @@ export default function MScNursing() {
                 <div className="text-gray-600 font-medium">M.Sc Placement (2024-25)</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">80+</div>
-                <div className="text-gray-600 font-medium">Recruiting Partners</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">11 of 11</div>
+                <div className="text-gray-600 font-medium">M.Sc graduates placed (NIRF 2026)</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">₹25 LPA</div>
-                <div className="text-gray-600 font-medium">Highest Package</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">₹5.76L</div>
+                <div className="text-gray-600 font-medium">M.Sc median salary (NIRF 2026)</div>
               </div>
               <div className="text-center bg-[#FBFBEE] rounded-2xl p-8">
-                <div className="text-4xl font-bold text-[#006837] mb-2">6</div>
-                <div className="text-gray-600 font-medium">Countries</div>
+                <div className="text-4xl font-bold text-[#006837] mb-2">100%</div>
+                <div className="text-gray-600 font-medium">M.Sc placement in 2023-24 too</div>
               </div>
             </div>
 
@@ -1287,7 +1286,7 @@ export default function MScNursing() {
                 OUR DISTINCTION
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                Why Choose JKKN — Top M.Sc Nursing College in Tamil Nadu
+                Why Choose JKKN for M.Sc Nursing in Tamil Nadu
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Join a legacy of nursing excellence built since 2006 with 74+ years of JKKN institutional heritage — progressive
@@ -1634,6 +1633,58 @@ export default function MScNursing() {
           </div>
         </section>
 
+        {/* ── M.Sc Nursing colleges in Tamil Nadu ─────────────────────── */}
+        {/* The page title has always said "M.Sc Nursing Colleges in Tamil Nadu" with no list
+            behind it. This is the list, from the university's own document, names only:
+            per-college seat totals were not fully verified, so none are shown. */}
+        <section id="msc-colleges-tamil-nadu" className="py-16 md:py-20 bg-white">
+          <div className="container-custom max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+              M.Sc Nursing Colleges in Tamil Nadu
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              The Tamil Nadu Dr. M.G.R. Medical University&apos;s M.Sc Nursing affiliated list for {MSC_SOURCE.academicYear} names{" "}
+              <strong>{MSC_TOTALS.colleges} colleges</strong>; {MSC_TOTALS.government} of them are government colleges. It is the latest M.Sc list on the university website (checked {MSC_SOURCE.checked}), so confirm this year&apos;s specializations and seats with the college before you apply.
+            </p>
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7 mb-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">JKKN College of Nursing and Research in this list</h3>
+              <ul className="space-y-2 text-gray-800">
+                <li>Row 59, institution code 262, listed as Sresakthimayeil Institute of Nursing &amp; Research, Komarapalayam, Namakkal</li>
+                <li>All 5 specializations: Medical Surgical, Paediatric, Obstetrics &amp; Gynaecology, Community Health and Psychiatric Nursing, 5 seats each (25 in total)</li>
+                <li>M.Sc placement: 11 of 11 graduates placed in 2024-25 and in 2023-24 (NIRF 2026)</li>
+              </ul>
+            </div>
+            <details className="rounded-xl border border-gray-200 bg-white">
+              <summary className="cursor-pointer p-4 font-semibold text-[#006837]">
+                Show all {MSC_TOTALS.colleges} M.Sc Nursing colleges in Tamil Nadu
+              </summary>
+              <div className="overflow-x-auto px-4 pb-4">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-left text-gray-600 border-b">
+                      <th className="py-2 pr-3">No.</th><th className="py-2 pr-3">Code</th><th className="py-2 pr-3">College</th><th className="py-2">Type</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {MSC_COLLEGES.map((c) => (
+                      <tr key={c.code + "-" + c.sl} className="border-b border-gray-100 align-top">
+                        <td className="py-2 pr-3">{c.sl}</td>
+                        <td className="py-2 pr-3">{c.code}</td>
+                        <td className="py-2 pr-3">{c.college}</td>
+                        <td className="py-2">{c.government ? "Government" : "Self-financing"}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                <p className="text-xs text-gray-500 mt-3">
+                  In the university&apos;s order: government colleges first, then self-financing colleges. Not a ranking. Source:{" "}
+                  <a href={MSC_SOURCE.url} className="underline" rel="noopener" target="_blank">{MSC_SOURCE.label}</a>.
+                </p>
+              </div>
+            </details>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="py-20 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -1868,7 +1919,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is approved by the Indian Nursing Council (INC) and recognized by TNNMC.
+                    JKKN College of Nursing and Research is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. It is approved by the Indian Nursing Council (INC) and recognized by TNNMC.
                   </p>
                 </details>
 
@@ -2033,7 +2084,7 @@ export default function MScNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by <Link href="/" className="text-[#006837] hover:underline">JKKN College of Nursing and Research</Link></p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research — One of the top M.Sc Nursing colleges in Tamil Nadu</p>
+            <p className="text-sm text-gray-600 mb-1">Legal name: Sresakthimayeil Institute of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC Approved</a> | <Link href="/naac" className="hover:underline">NAAC Accredited</Link> | Affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tamil Nadu Dr. M.G.R. Medical University</a></p>
             <p className="text-sm text-gray-600 mb-1">Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600 mb-1">Contact: <a href="tel:+919345855001" className="hover:underline">+91 93458 55001</a> | <a href="mailto:nursing@jkkn.ac.in" className="hover:underline">nursing@jkkn.ac.in</a></p>

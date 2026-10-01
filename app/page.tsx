@@ -1003,7 +1003,7 @@ export default async function Home() {
               </h2>
               <p className="text-gray-600 max-w-3xl mx-auto">
                 Take the first step towards a rewarding nursing career. Applications are now open for the 2026-27 academic session.
-                Comparing colleges first? See <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
+                Comparing colleges first? See <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district, or the <a href="/msc-nursing#msc-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">78 M.Sc Nursing colleges</a>.
               </p>
             </div>
 

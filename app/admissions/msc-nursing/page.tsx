@@ -37,6 +37,12 @@ export default function MScNursingAdmission() {
           ]}
         />
         <CourseAdmissionDetail course={course} />
+        <section className="px-4 pb-12">
+          <p className="max-w-3xl mx-auto text-center text-gray-700">
+            Comparing M.Sc Nursing colleges? See{" "}
+            <a href="/msc-nursing#msc-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 78 M.Sc Nursing colleges in Tamil Nadu</a>, from the university&apos;s affiliated list.
+          </p>
+        </section>
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />
