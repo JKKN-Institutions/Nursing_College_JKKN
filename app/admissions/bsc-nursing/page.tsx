@@ -37,6 +37,11 @@ export default function BScNursingAdmission() {
           ]}
         />
         <CourseAdmissionDetail course={course} />
+        <section className="px-4 pb-12">
+          <p className="max-w-3xl mx-auto text-center text-gray-700">
+            Comparing colleges before counselling? See <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district, from the university's affiliated list.
+          </p>
+        </section>
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

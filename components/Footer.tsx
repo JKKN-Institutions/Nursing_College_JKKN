@@ -29,6 +29,9 @@ export default function Footer({ hideLifeAtJKKN: _unused }: FooterProps = {}) {
                 className="rounded"
               ></iframe>
             </div>
+            <p className="text-sm">
+              <a href="/nursing-colleges-in-tamil-nadu" className="underline hover:text-[#7cb983]">B.Sc Nursing Colleges in Tamil Nadu: all 284, district-wise</a>
+            </p>
           </div>
 
           {/* Our Institutions */}
