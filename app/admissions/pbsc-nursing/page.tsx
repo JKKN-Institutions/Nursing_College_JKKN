@@ -37,6 +37,12 @@ export default function PBScNursingAdmission() {
           ]}
         />
         <CourseAdmissionDetail course={course} />
+        <section className="px-4 pb-12">
+          <p className="max-w-3xl mx-auto text-center text-gray-700">
+            Comparing Post B.Sc Nursing colleges? See{" "}
+            <a href="/pbsc-nursing#post-basic-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 56 Post Basic B.Sc Nursing colleges in Tamil Nadu</a>, from the university&apos;s affiliated list.
+          </p>
+        </section>
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

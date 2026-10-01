@@ -326,6 +326,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { title: "Pathway to M.Sc Nursing", desc: "After P.B.B.Sc, you become eligible for M.Sc Nursing with all its 5 specializations." },
     ],
     faqs: [
+      { q: "Is Post B.Sc Nursing the same as Post Basic B.Sc Nursing?", a: "Yes. Post B.Sc Nursing, Post Basic B.Sc Nursing and P.B.B.Sc Nursing are names for the same 2-year degree for GNM diploma holders who are registered nurses. At JKKN College of Nursing and Research it has 50 sanctioned seats in the university's 2023-24 list." },
       { q: "Who is eligible for Post Basic B.Sc Nursing?", a: "GNM diploma holders from INC-recognized institutions with valid RN and RM registration with the State Nursing Council, and preferably 1 year of post-GNM work experience are eligible. Candidates also need 10+2 (any stream) or 10th + GNM equivalent." },
       { q: "Is there an entrance exam for Post Basic B.Sc Nursing?", a: "No. Admission is merit-based on GNM aggregate marks. Government Quota seats are filled via Tamil Nadu state counselling, and Management Quota seats are filled directly by JKKN based on GNM merit." },
       { q: "What is the Post Basic B.Sc Nursing fee at JKKN?", a: "Management Quota tuition is ₹65,000 per year. Government Quota fees are as per Tamil Nadu government norms. Hostel, examination, and uniform fees are billed separately." },

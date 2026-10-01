@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Image from "next/image";
+import { PB_COLLEGES, PB_SOURCE, PB_TOTALS } from "@/data/tn-post-basic-colleges-2023-24";
 import {
   CheckCircleIcon,
   ClockIcon,
@@ -95,6 +96,14 @@ export default function PBScNursing() {
     "mainEntity": [
       {
         "@type": "Question",
+        "name": "Is Post B.Sc Nursing the same as Post Basic B.Sc Nursing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Post B.Sc Nursing, Post Basic B.Sc Nursing and P.B.B.Sc Nursing are names for the same 2-year degree for GNM diploma holders who are registered nurses. At JKKN College of Nursing and Research it has 50 sanctioned seats in the university's 2023-24 list."
+        }
+      },
+      {
+        "@type": "Question",
         "name": "What is the duration of the Post Basic B.Sc Nursing course?",
         "acceptedAnswer": {
           "@type": "Answer",
@@ -146,7 +155,7 @@ export default function PBScNursing() {
         "name": "Does the college provide hostel accommodation?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
+          "text": "Yes, JKKN College of Nursing and Research provides separate, well-furnished hostel facilities for both male and female learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis."
         }
       },
       {
@@ -193,7 +202,7 @@ export default function PBScNursing() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                   Post Basic B.Sc in{" "}
                   <span className="text-[#7cb983]">Nursing</span>{" "}
-                  (P.B. B.Sc Nursing)
+                  (Post B.Sc / P.B.B.Sc Nursing)
                 </h1>
 
                 <p className="text-sm text-gray-300 mb-4">Last updated: March 19, 2026</p>
@@ -298,7 +307,7 @@ export default function PBScNursing() {
                   The Post Basic Bachelor of Science in Nursing (P.B. B.Sc Nursing) is a 2-year undergraduate degree programme exclusively designed for registered nurses who have completed their GNM (General Nursing and Midwifery) diploma. This bridge programme enables working nurses to upgrade their qualification to a bachelor's degree level.
                 </p>
                 <p className="text-gray-700 text-lg leading-relaxed mb-8">
-                  At Sresakthimayeil Institute Of Nursing And Research, the valuable clinical experience that GNM nurses bring is fully recognised. The learning framework builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
+                  At JKKN College of Nursing and Research, the valuable clinical experience that GNM nurses bring is fully recognised. The learning framework builds upon this foundation, focusing on advanced nursing concepts, research methodology, leadership skills, and specialized clinical competencies that prepare you for enhanced roles in healthcare.
                 </p>
 
                 {/* Features List */}
@@ -884,7 +893,7 @@ export default function PBScNursing() {
                 WORLD-CLASS INFRASTRUCTURE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Facilities at Sresakthimayeil Institute Of Nursing And Research
+                Facilities at JKKN College of Nursing and Research
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
                 Learn in a nurturing environment equipped with modern infrastructure and cutting-edge technology.
@@ -1171,6 +1180,61 @@ export default function PBScNursing() {
           </div>
         </section>
 
+        {/* ── Post Basic B.Sc colleges in Tamil Nadu ───────────────────── */}
+        {/* "post bsc nursing colleges in tamilnadu" ranked 22.4 while the site never used the
+            words "Post B.Sc", and no list existed. The 56 names sit in a closed <details> so
+            parents see JKKN's facts first, while the list stays in the HTML for list intent. */}
+        <section id="post-basic-colleges-tamil-nadu" className="py-16 md:py-20 bg-white">
+          <div className="container-custom max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
+              Post Basic B.Sc (Post B.Sc) Nursing Colleges in Tamil Nadu
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-6">
+              The Tamil Nadu Dr. M.G.R. Medical University&apos;s Post Basic B.Sc Nursing affiliated list for {PB_SOURCE.academicYear} names{" "}
+              <strong>{PB_TOTALS.colleges} colleges</strong> with <strong>{PB_TOTALS.seats.toLocaleString("en-IN")} sanctioned seats</strong>;{" "}
+              {PB_TOTALS.government} of them are government colleges. It is the latest Post Basic list on the university website (checked {PB_SOURCE.checked}), so confirm this year&apos;s seats with the college before you apply.
+            </p>
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7 mb-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-3">JKKN College of Nursing and Research in this list</h3>
+              <ul className="space-y-2 text-gray-800">
+                <li>Row 44, institution code 262, listed as Sresakthimayeil Institute of Nursing &amp; Research, Komarapalayam, Namakkal</li>
+                <li>50 sanctioned Post Basic B.Sc seats; approved by the Indian Nursing Council (INC)</li>
+                <li>For GNM diploma holders registered as nurses. See the{" "}
+                  <Link href="/admissions/pbsc-nursing" className="text-[#006837] font-semibold hover:underline">Post B.Sc admission details</Link></li>
+              </ul>
+            </div>
+            <details className="rounded-xl border border-gray-200 bg-white">
+              <summary className="cursor-pointer p-4 font-semibold text-[#006837]">
+                Show all {PB_TOTALS.colleges} Post Basic B.Sc Nursing colleges in Tamil Nadu
+              </summary>
+              <div className="overflow-x-auto px-4 pb-4">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-left text-gray-600 border-b">
+                      <th className="py-2 pr-3">No.</th><th className="py-2 pr-3">Code</th><th className="py-2 pr-3">College</th><th className="py-2 pr-3">Type</th><th className="py-2">Seats</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {PB_COLLEGES.map((c) => (
+                      <tr key={c.code + "-" + c.sl} className="border-b border-gray-100 align-top">
+                        <td className="py-2 pr-3">{c.sl}</td>
+                        <td className="py-2 pr-3">{c.code}</td>
+                        <td className="py-2 pr-3">{c.address}</td>
+                        <td className="py-2 pr-3">{c.government ? "Government" : "Self-financing"}</td>
+                        <td className="py-2">{c.seats}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+                <p className="text-xs text-gray-500 mt-3">
+                  In the university&apos;s order: government colleges first, then self-financing colleges. Not a ranking. Source:{" "}
+                  <a href={PB_SOURCE.url} className="underline" rel="noopener" target="_blank">{PB_SOURCE.label}</a>.
+                </p>
+              </div>
+            </details>
+          </div>
+        </section>
+
         {/* FAQ Section */}
         <section className="py-16 md:py-24 bg-[#FBFBEE]">
           <div className="container-custom">
@@ -1182,11 +1246,33 @@ export default function PBScNursing() {
                 Frequently Asked Questions
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                Find answers to common questions about the Post Basic B.Sc Nursing programme at Sresakthimayeil Institute Of Nursing And Research.
+                Find answers to common questions about the Post Basic B.Sc Nursing programme at JKKN College of Nursing and Research.
               </p>
             </div>
 
             <div className="max-w-4xl mx-auto space-y-4">
+              {/* FAQ 0 - spelling bridge */}
+              <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
+                <button
+                  onClick={() => setOpenFaq(openFaq === 100 ? null : 100)}
+                  className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-50 transition-colors duration-200"
+                >
+                  <h3 className="text-lg md:text-xl font-bold text-[#006837] pr-4">
+                    Is Post B.Sc Nursing the same as Post Basic B.Sc Nursing?
+                  </h3>
+                  <ChevronDownIcon
+                    className={`w-6 h-6 text-[#7cb983] flex-shrink-0 transition-transform duration-300 ${
+                      openFaq === 100 ? "rotate-180" : ""
+                    }`}
+                  />
+                </button>
+                <div hidden={openFaq !== 100} className="px-6 pb-6">
+                    <p className="text-gray-700 leading-relaxed">
+                      Yes. Post B.Sc Nursing, Post Basic B.Sc Nursing and P.B.B.Sc Nursing are names for the same 2-year degree for GNM diploma holders who are registered nurses. At JKKN College of Nursing and Research it has 50 sanctioned seats in the university&apos;s 2023-24 list.
+                    </p>
+                  </div>
+              </div>
+
               {/* FAQ 1 */}
               <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
                 <button
@@ -1336,7 +1422,7 @@ export default function PBScNursing() {
                 </button>
                 <div hidden={openFaq !== 7} className="px-6 pb-6">
                     <p className="text-gray-700 leading-relaxed">
-                      Yes, Sresakthimayeil Institute Of Nursing And Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
+                      Yes, JKKN College of Nursing and Research provides separate, well-furnished hostel facilities for both male and female Learners with 24/7 security, mess, Wi-Fi connectivity, and recreational areas. Hostel accommodation is optional and available on first-come-first-served basis.
                     </p>
                   </div>
               </div>
@@ -1393,7 +1479,7 @@ export default function PBScNursing() {
         <div className="container-custom">
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
-            <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
+            <p className="text-sm text-gray-600 mb-1">Legal name: Sresakthimayeil Institute of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
