@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import DistrictCollegeList from "@/components/DistrictCollegeList";
 import BestCollegeAnswer from "@/components/BestCollegeAnswer";
-import { requireTnDistrict } from "@/data/tn-nursing-colleges-2026-27";
+import { requireTnDistrict, JKKN_CODE, TN_SOURCE } from "@/data/tn-nursing-colleges-2026-27";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -40,11 +40,11 @@ const faqs = [
   },
   {
     q: "Is JKKN College of Nursing and Research in Namakkal district?",
-    a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, which is in Namakkal district. The campus is about 62 km from Namakkal town itself, roughly 1 to 1.5 hours by road on NH-544. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, which is in Namakkal district. The campus is about 62 km from Namakkal town itself, roughly 1 to 1.5 hours by road via Tiruchengode. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "How far is JKKN Nursing from Namakkal?",
-    a: "JKKN Nursing is approximately 62 km from Namakkal town, which takes about 1 to 1.5 hours by road via NH-544 (Salem-Coimbatore Highway). Frequent local buses and auto-rickshaws are available from Namakkal town to Komarapalayam throughout the day.",
+    a: "JKKN Nursing is approximately 62 km from Namakkal town, which takes about 1 to 1.5 hours by road via Tiruchengode (State Highway 94) and on to Komarapalayam. The campus itself is on NH-544, the Salem-Coimbatore highway.",
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
@@ -52,11 +52,11 @@ const faqs = [
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
-    a: "Yes, graduates from Sresakthimayeil Institute Of Nursing And Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
+    a: "Yes, graduates from JKKN College of Nursing and Research are eligible for international nursing careers. With an INC-approved B.Sc Nursing degree, you can appear for licensing exams like HAAD/DHA (Gulf), NMC-CBT (UK), NCLEX (US), or AHPRA (Australia).",
   },
   {
     q: "Does the institute have hostel for girls?",
-    a: "Yes, Sresakthimayeil Institute Of Nursing And Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
+    a: "Yes, JKKN College of Nursing and Research provides a separate, secure hostel for women learners with 24/7 security, mess facility, and warden supervision. Hostel accommodation is available for learners from all cities.",
   },
   {
     q: "Does JKKN Nursing provide hostel for Namakkal learners?",
@@ -150,7 +150,7 @@ const programmes = [
 const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
-  { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
+  { value: "60", label: "B.SC NURSING SEATS" },
   { value: "5+", label: "TOP RECRUITERS" },
 ];
 
@@ -158,12 +158,7 @@ const reachItems = [
   {
     emoji: <MapIcon className="w-5 h-5 text-[#006837]" />,
     label: "ROUTE",
-    text: "NH-544 (Salem-Coimbatore Highway)",
-  },
-  {
-    emoji: <TruckIcon className="w-5 h-5 text-[#006837]" />,
-    label: "BY BUS",
-    text: "Frequent local buses and auto-rickshaws available from Namakkal town to Komarapalayam",
+    text: "From Namakkal: via Tiruchengode (SH-94) to Komarapalayam; the campus is on NH-544",
   },
   {
     emoji: <MapPinIcon className="w-5 h-5 text-[#006837]" />,
@@ -204,7 +199,7 @@ const facilities = [
   {
     icon: <TruckIcon className="w-6 h-6 text-[#006837]" />,
     title: "Transport",
-    desc: "College buses connecting to Namakkal and surrounding areas",
+    desc: "College bus service on set routes; see the transport page for current stops",
     href: "/transport",
   },
   {
@@ -231,7 +226,7 @@ const cities = [
 export const metadata: Metadata = {
   title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
   description:
-    "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
+    "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town.",
   keywords:
     "nursing colleges in namakkal district, namakkal nursing college list, namakkal nursing colleges list, nursing colleges in namakkal, namakkal bsc nursing college",
   alternates: {
@@ -240,7 +235,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
     description:
-      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/namakkal",
     siteName: "JKKN College of Nursing and Research",
     type: "website",
@@ -257,7 +252,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Nursing College in Namakkal District 2026 — JKKN, INC Approved",
     description:
-      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town on NH-544.",
+      "JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — INC approved, 60 B.Sc seats, 62 km from Namakkal town.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {
@@ -350,7 +345,7 @@ export default function NamakkalPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — about 62 km from Namakkal town on NH-544. It offers INC-approved B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc programmes, with a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
+              JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — about 62 km from Namakkal town by road via Tiruchengode. It offers INC-approved B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc programmes, with a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
             </p>
 
             {/* Stats Grid */}
@@ -438,14 +433,14 @@ export default function NamakkalPage() {
                 <div className="flex-1 p-5 sm:p-7 md:p-8">
                   <div className="flex items-center gap-4 sm:gap-6 flex-wrap">
                     <div className="text-5xl sm:text-6xl font-bold text-[#006837] leading-none flex-shrink-0">
-                      10<span className="text-2xl sm:text-3xl font-bold">km</span>
+                      62<span className="text-2xl sm:text-3xl font-bold">km</span>
                     </div>
                     <div>
                       <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-1">
                         From Namakkal to JKKN Nursing
                       </h2>
                       <p className="text-gray-400 text-sm leading-relaxed">
-                        15-20 minutes via NH-544 (Salem-Coimbatore Highway)
+                        About 1 to 1.5 hours by road from Namakkal town, via Tiruchengode
                       </p>
                     </div>
                   </div>
@@ -489,7 +484,7 @@ export default function NamakkalPage() {
                 Namakkal district, known for its poultry industry, transport sector, and the iconic Namakkal Fort, is rapidly growing as an educational destination in Tamil Nadu. With JKKN Institutions headquartered in Komarapalayam — just 62 km from Namakkal city — learners have direct access to one of the region&apos;s most comprehensive educational campuses.
               </p>
               <p>
-                For learners looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved institution inside the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
+                For learners looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing and Research is an INC-approved institution inside the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
               </p>
               <p>
                 What JKKN brings to the <strong>Namakkal nursing college list</strong> is its integrated campus with an attached multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
@@ -518,7 +513,47 @@ export default function NamakkalPage() {
                 </div>
               </div>
               <p>
-                Namakkal learners at JKKN enjoy the shortest commute among all JKKN city catchments — just 62 km from Namakkal city centre. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK, Gulf, and Australia, JKKN offers Namakkal learners a world-class nursing education right at their doorstep.
+                Namakkal learners reach JKKN in roughly 1 to 1.5 hours by road via Tiruchengode, about 62 km from Namakkal town. JKKN reported a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), and hostel accommodation is available for learners who prefer to stay on campus.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── JKKN facts for Namakkal applicants ─────────────────────── */}
+        {/* Sits above the district list so a parent who came for "the list" sees JKKN's
+            measured facts first. No Google rating on purpose - it changes daily and would go
+            stale on the page. The university code line bridges the brand to the legal name
+            the TNMGRMU list uses, because the list below never says "JKKN". */}
+        <section className="bg-white pt-12 sm:pt-16 px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                JKKN College of Nursing and Research: Facts for Namakkal Applicants
+              </h2>
+              <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 text-sm sm:text-base">
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Location</dt>
+                  <dd className="text-gray-900">Komarapalayam, Namakkal district. About 62 km from Namakkal town by road via Tiruchengode</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">University list</dt>
+                  <dd className="text-gray-900">TNMGRMU institution code {JKKN_CODE}, listed as Sresakthimayeil Institute of Nursing &amp; Research</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">B.Sc Nursing seats</dt>
+                  <dd className="text-gray-900">60 sanctioned seats</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Approval</dt>
+                  <dd className="text-gray-900">Approved by the Indian Nursing Council (INC)</dd>
+                </div>
+                <div className="sm:col-span-2">
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Placement</dt>
+                  <dd className="text-gray-900">98%: 58 of 59 graduates placed in 2024-25 (NIRF 2026)</dd>
+                </div>
+              </dl>
+              <p className="text-xs text-gray-500 mt-4">
+                Seats and code: {TN_SOURCE.label}. Placement: NIRF 2026 data submitted by the college.
               </p>
             </div>
           </div>
@@ -533,7 +568,7 @@ export default function NamakkalPage() {
         <DistrictCollegeList
           list={NAMAKKAL_BSCN}
           distanceKm={62}
-          viaRoad="on NH-544"
+          viaRoad="by road via Tiruchengode"
           ownDistrict
         />
 
@@ -548,7 +583,7 @@ export default function NamakkalPage() {
                 Why Namakkal Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Located in Komarapalayam — just 62 km from Namakkal city — learners from Namakkal enjoy the shortest commute among all JKKN city catchments.
+                JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). The campus is in Komarapalayam, Namakkal district, about 62 km from Namakkal town by road via Tiruchengode.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -754,7 +789,7 @@ export default function NamakkalPage() {
                 Campus &amp; Facilities
               </h2>
               <p className="text-gray-500 text-sm sm:text-base">
-                Everything you need for a world-class education experience
+                Labs, learning commons, hostel, transport and sports on one campus
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
