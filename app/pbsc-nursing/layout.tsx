@@ -2,11 +2,11 @@
 
 export const metadata: Metadata = {
   title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
-  description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
+  description: "Post Basic B.Sc (Post B.Sc) Nursing for GNM nurses at JKKN, Komarapalayam: 2 years, INC approved, 50 seats. Plus all 56 Post Basic colleges in Tamil Nadu.",
   keywords: "post bsc nursing colleges in tamilnadu, post bsc nursing correspondence course in tamilnadu, list of post bsc nursing colleges in tamilnadu, post basic bsc nursing distance education in tamilnadu, post bsc nursing distance education in tamilnadu, post bsc nursing in tamilnadu",
   openGraph: {
     title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
-    description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
+    description: "Post Basic B.Sc (Post B.Sc) Nursing for GNM nurses at JKKN, Komarapalayam: 2 years, INC approved, 50 seats. Plus all 56 Post Basic colleges in Tamil Nadu.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/pbsc-nursing",
     siteName: "JKKN College of Nursing and Research",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Post Basic B.Sc Nursing — JKKN College of Nursing and Research",
-    description: "Post Basic B.Sc Nursing course for registered nurses at JKKN, Komarapalayam. 2-year programme, INC approved, career advancement opportunities.",
+    description: "Post Basic B.Sc (Post B.Sc) Nursing for GNM nurses at JKKN, Komarapalayam: 2 years, INC approved, 50 seats. Plus all 56 Post Basic colleges in Tamil Nadu.",
     images: ["/images/P.B.B.Sc-Nursing-Hero-Banner-Image.png"],
   },
   robots: {

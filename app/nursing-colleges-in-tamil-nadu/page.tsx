@@ -271,9 +271,14 @@ export default function TamilNaduNursingCollegesPage() {
               </p>
               <p className="text-sm text-gray-500">
                 This page covers <strong>B.Sc Nursing</strong> only. The university publishes
-                separate affiliated lists for M.Sc Nursing and Post Basic B.Sc Nursing; those are
-                not reproduced here, because we have not read them, and putting a number on this
-                page that we have not checked would be worse than leaving the gap visible.
+                separate affiliated lists for M.Sc Nursing and Post Basic B.Sc Nursing. The Post
+                Basic list (2023-24, 56 colleges) is on our{" "}
+                <a href="/pbsc-nursing#post-basic-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">
+                  Post Basic B.Sc Nursing colleges in Tamil Nadu
+                </a>{" "}
+                section. The M.Sc list is not reproduced here, because we have not read it, and
+                putting a number on this page that we have not checked would be worse than leaving
+                the gap visible.
               </p>
             </div>
           </div>
