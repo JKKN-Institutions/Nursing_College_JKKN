@@ -4,6 +4,11 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { navigationMenu, type SubmenuItem } from "@/data/siteData";
+import EnquiryButton from "@/components/lead/EnquiryButton"
+
+// Homepage only (2026-10-16): "Enquire Now" opens the 3-box enquiry form in place.
+// Every other page has no modal provider, so EnquiryButton renders the old link.
+const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header";
 
 export default function Header() {
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
@@ -31,14 +36,14 @@ export default function Header() {
                 priority
               />
             </Link>
-            <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
-              target="_blank"
-              rel="noopener noreferrer"
+            <EnquiryButton
+              sourcePage="home-header"
+              fallbackHref={APPLY_HREF}
+              fallbackLabel="Apply Now"
               className="ml-auto bg-primary hover:bg-primary-dark text-white font-semibold px-4 py-2 rounded transition-colors whitespace-nowrap text-sm"
             >
-              Apply Now
-            </a>
+              Enquire Now
+            </EnquiryButton>
           </div>
 
           {/* ── Desktop layout (lg+): Logo | Nav rows | Apply Now ── */}
@@ -193,14 +198,14 @@ export default function Header() {
 
             {/* Apply Now - spans both rows */}
             <div className="flex items-center flex-shrink-0">
-              <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
-                target="_blank"
-                rel="noopener noreferrer"
+              <EnquiryButton
+                sourcePage="home-header"
+                fallbackHref={APPLY_HREF}
+                fallbackLabel="Apply Now"
                 className="bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded transition-colors whitespace-nowrap"
               >
-                Apply Now
-              </a>
+                Enquire Now
+              </EnquiryButton>
             </div>
 
           </div>

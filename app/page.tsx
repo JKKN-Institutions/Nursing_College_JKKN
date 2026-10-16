@@ -25,6 +25,9 @@ import { createClient } from "@/lib/supabase/server";
 import { Suspense } from "react";
 import ScrollToSection from "@/components/ScrollToSection";
 import HomepagePopup from "@/components/HomepagePopup";
+import { EnquiryModalProvider } from "@/components/lead/EnquiryModal";
+import EnquiryButton from "@/components/lead/EnquiryButton";
+import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -238,7 +241,7 @@ export default async function Home() {
   }
 
   return (
-    <>
+    <EnquiryModalProvider>
       <HomepagePopup />
       <Suspense fallback={null}>
         <ScrollToSection />
@@ -309,27 +312,35 @@ export default async function Home() {
                   Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, attached-hospital training, and 98% placement success.
                 </p>
 
-                {/* CTA Buttons */}
+                {/* CTA Buttons — 2026-10-16: the call-back button leads; lg and up also has the form card on the right */}
+                <p className="lg:hidden text-sm text-white/90 mb-3">Fill 3 details. Our admission team will call you within 24 hours.</p>
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
+                  <EnquiryButton
+                    sourcePage="home-hero-btn"
+                    fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                    fallbackLabel="Apply for 2026-27"
+                    className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base cursor-pointer"
+                  >
+                    Get a Call Back
+                  </EnquiryButton>
                   <ScrollButton
                     targetId="programs"
-                    className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base cursor-pointer"
+                    className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base cursor-pointer"
                   >
                     Explore Programs →
                   </ScrollButton>
-                  <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-center text-sm sm:text-base"
-                  >
-                    Apply for 2026-27
-                  </a>
                 </div>
               </div>
 
-              {/* Hero Image */}
-              <div className="flex justify-center items-center relative mt-8 lg:mt-0">
+              {/* lg and up: the 3-box enquiry card takes the photo's place (2026-10-16) */}
+              <div className="hidden lg:block rounded-3xl bg-[#0b3d1f]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
+                <h2 className="text-xl lg:text-2xl font-bold text-white leading-snug">Get B.Sc / M.Sc Nursing fee and admission details</h2>
+                <p className="mt-1 mb-5 text-sm text-white/80">Fill 3 details. Our admission team will call you within 24 hours.</p>
+                <NursingEnquiryForm sourcePage="home-hero" compact />
+              </div>
+
+              {/* Hero Image (phones and tablets) */}
+              <div className="lg:hidden flex justify-center items-center relative mt-8 lg:mt-0">
                 {/* Background decorative elements */}
                 <div className="absolute -top-4 -right-4 w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 bg-white/10 rounded-[40px] sm:rounded-[50px] lg:rounded-[60px] rotate-12"></div>
                 <div className="absolute -bottom-6 -left-6 w-32 h-32 sm:w-36 sm:h-36 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-white/5 rounded-[30px] lg:rounded-[40px] -rotate-12"></div>
@@ -344,7 +355,6 @@ export default async function Home() {
                       width={450}
                       height={450}
                       className="object-cover w-[280px] h-[280px] sm:w-[320px] sm:h-[320px] md:w-[380px] md:h-[380px] lg:w-[450px] lg:h-[450px]"
-                      priority
                     />
                   </div>
 
@@ -1061,22 +1071,18 @@ export default async function Home() {
               </div>
 
               {/* Application CTA */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-3xl p-10 text-center shadow-2xl">
-                <h3 className="text-3xl font-bold text-white mb-4">
-                  Start Your Application
+              {/* 2026-10-16: the 3-box form where eligibility is read */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-3xl p-6 sm:p-10 shadow-2xl">
+                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 text-center">
+                  Check your eligibility with our admission team
                 </h3>
-                <p className="text-white/90 mb-8">
-                  Limited seats available. Apply early to secure your place in Tamil Nadu's premier nursing institution.
+                <p className="text-white/90 mb-6 text-center">
+                  Fill 3 details. Our admission team will call you within 24 hours.
                 </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg"
-                  >
-                    Apply Online →
-                  </a>
+                <div className="max-w-md mx-auto">
+                  <NursingEnquiryForm sourcePage="home-admissions" compact />
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
                   <Link
                     href="tel:+91 9345855001"
                     className="border-2 border-white hover:bg-white hover:text-[#006837] text-white font-bold px-8 py-4 rounded-full transition-all duration-300 inline-flex items-center justify-center gap-2"
@@ -1245,17 +1251,17 @@ export default async function Home() {
               Ready to Begin Your Nursing Journey?
             </h2>
             <p className="text-lg text-white/90 mb-10 max-w-3xl mx-auto">
-              Join JKKN College of Nursing and Research and become part of the JKKN Institutions legacy, built since 1952. Applications for 2026-27 are now open.
+              Join JKKN College of Nursing and Research and become part of the JKKN Institutions legacy, built since 1952. Talk to our admission team about the course that suits you.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
-                target="_blank"
-                rel="noopener noreferrer"
+              <EnquiryButton
+                sourcePage="home-cta"
+                fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                fallbackLabel="Apply Online Now →"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                Apply Online Now →
-              </a>
+                Get a Call Back
+              </EnquiryButton>
               <a
                 href="/pdf/brochure.pdf"
                 download
@@ -1269,6 +1275,6 @@ export default async function Home() {
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />
-    </>
+    </EnquiryModalProvider>
   );
 }
