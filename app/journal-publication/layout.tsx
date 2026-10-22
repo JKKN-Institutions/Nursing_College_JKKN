@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "Journal Publications — JKKN Nursing Research",
@@ -48,7 +49,7 @@ export default function JournalPublicationLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nursing.sresakthimayeil.jkkn.ac.in/"},{"@type":"ListItem","position":2,"name":"Journal Publications","item":"https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication"}]}' }}
       />
-      {children}
+      <SitePageShell>{children}</SitePageShell>
     </>
   );
 }

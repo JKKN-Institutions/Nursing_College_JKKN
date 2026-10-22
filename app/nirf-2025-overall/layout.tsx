@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "NIRF 2025 Overall Rankings — JKKN College of Nursing and Research",
@@ -48,7 +49,7 @@ export default function Nirf2025OverallLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nursing.sresakthimayeil.jkkn.ac.in/"},{"@type":"ListItem","position":2,"name":"NIRF 2025 Overall","item":"https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2025-overall"}]}' }}
       />
-      {children}
+      <SitePageShell>{children}</SitePageShell>
     </>
   );
 }

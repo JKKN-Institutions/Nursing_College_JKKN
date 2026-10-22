@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "Child Health Nursing Dept — JKKN Nursing",
@@ -38,5 +39,5 @@ export default function DeptChildHealthLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <SitePageShell>{children}</SitePageShell>;
 }
