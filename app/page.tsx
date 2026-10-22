@@ -333,10 +333,11 @@ export default async function Home() {
               </div>
 
               {/* lg and up: the 3-box enquiry card takes the photo's place (2026-10-16) */}
-              <div className="hidden lg:block rounded-3xl bg-[#0b3d1f]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
-                <h2 className="text-xl lg:text-2xl font-bold text-white leading-snug">Get B.Sc / M.Sc Nursing fee and admission details</h2>
-                <p className="mt-1 mb-5 text-sm text-white/80">Fill 3 details. Our admission team will call you within 24 hours.</p>
-                <NursingEnquiryForm sourcePage="home-hero" compact />
+              {/* White card, mockup #7 (user's pick 2026-10-22): the form's own 3-step strip replaces the
+                  old sub-line, so the heading sits straight above it. */}
+              <div className="hidden lg:block rounded-[20px] bg-white shadow-[0_18px_40px_rgba(3,40,22,0.35)] p-6 lg:p-7">
+                <h2 className="mb-4 text-xl lg:text-2xl font-bold text-[#032816] leading-snug">Get B.Sc / M.Sc Nursing fee and admission details</h2>
+                <NursingEnquiryForm sourcePage="home-hero" compact bare />
               </div>
 
               {/* Hero Image (phones and tablets) */}
@@ -1072,13 +1073,12 @@ export default async function Home() {
 
               {/* Application CTA */}
               {/* 2026-10-16: the 3-box form where eligibility is read */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-3xl p-6 sm:p-10 shadow-2xl">
-                <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2 text-center">
+              {/* The form is its own white card now (mockup #7, 2026-10-22) and its 3-step strip says
+                  what the old sub-line said; the green box stays as the frame. */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-3xl p-3 sm:p-6 shadow-2xl">
+                <h3 className="mb-3 sm:mb-4 px-1 sm:px-0 text-2xl sm:text-3xl font-bold text-white text-center">
                   Check your eligibility with our admission team
                 </h3>
-                <p className="text-white/90 mb-6 text-center">
-                  Fill 3 details. Our admission team will call you within 24 hours.
-                </p>
                 <div className="max-w-md mx-auto">
                   <NursingEnquiryForm sourcePage="home-admissions" compact />
                 </div>

@@ -129,10 +129,12 @@ export default function Contact() {
 
               {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser cannot POST
                   there directly because the endpoint sends no Access-Control-Allow-Origin. */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-xl p-6 sm:p-8">
+              {/* The form is its own white card now (mockup #7, 2026-10-22); the green box stays as
+                  the frame on the white page. */}
+              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-xl p-3 sm:p-6">
                 <NursingEnquiryForm sourcePage="contact" />
 
-                <p className="text-white/70 text-sm mt-6 pt-6 border-t border-white/20">
+                <p className="text-white/70 text-sm mt-6 pt-6 px-1 sm:px-0 border-t border-white/20">
                   Prefer the full application form?{" "}
                   <a
                     href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=contact"
