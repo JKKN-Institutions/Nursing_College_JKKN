@@ -25,7 +25,6 @@ import { createClient } from "@/lib/supabase/server";
 import { Suspense } from "react";
 import ScrollToSection from "@/components/ScrollToSection";
 import HomepagePopup from "@/components/HomepagePopup";
-import { EnquiryModalProvider } from "@/components/lead/EnquiryModal";
 import EnquiryButton from "@/components/lead/EnquiryButton";
 import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
 
@@ -241,7 +240,9 @@ export default async function Home() {
   }
 
   return (
-    <EnquiryModalProvider>
+    <>
+      {/* The EnquiryModalProvider this page used to mount now wraps every page (components/
+          ClientLayout.tsx, 2026-10-22); the popup below uses that one provider. */}
       <HomepagePopup />
       <Suspense fallback={null}>
         <ScrollToSection />
@@ -1275,6 +1276,6 @@ export default async function Home() {
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />
-    </EnquiryModalProvider>
+    </>
   );
 }
