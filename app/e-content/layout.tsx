@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "E-Content & Digital Resources — JKKN Nursing",
@@ -48,7 +49,7 @@ export default function EContentLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://nursing.sresakthimayeil.jkkn.ac.in/"},{"@type":"ListItem","position":2,"name":"E-Content","item":"https://nursing.sresakthimayeil.jkkn.ac.in/e-content"}]}' }}
       />
-      {children}
+      <SitePageShell>{children}</SitePageShell>
     </>
   );
 }

@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "IIC — Institution's Innovation Council | JKKN Nursing",
@@ -45,7 +46,7 @@ export default function IicLayout({
     <>
       {/* Duplicate BreadcrumbList removed 2026-09-18 - page.tsx already renders
           <BreadcrumbSchema>, so this page shipped the same crumb trail twice. */}
-      {children}
+      <SitePageShell>{children}</SitePageShell>
     </>
   );
 }

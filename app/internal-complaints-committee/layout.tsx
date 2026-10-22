@@ -1,4 +1,5 @@
 ﻿import type { Metadata } from "next";
+import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "Internal Complaints Committee — JKKN Nursing",
@@ -38,5 +39,5 @@ export default function InternalComplaintsCommitteeLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return <SitePageShell>{children}</SitePageShell>;
 }

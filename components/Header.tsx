@@ -2,15 +2,20 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { navigationMenu, type SubmenuItem } from "@/data/siteData";
 import EnquiryButton from "@/components/lead/EnquiryButton"
 
-// Homepage only (2026-10-16): "Enquire Now" opens the 3-box enquiry form in place.
-// Every other page has no modal provider, so EnquiryButton renders the old link.
+// "Enquire Now" opens the 3-box enquiry form in place - on the homepage since 2026-10-16, on every
+// page since 2026-10-22 (user's choice; the modal provider now wraps all pages). The jkkn.ai link
+// below is only the fallback for a page rendered without that provider.
 const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header";
 
 export default function Header() {
+  // Homepage header leads keep their old CRM tag (home-header) so the before / after comparison
+  // still works; every other page is tagged header.
+  const headerSource = usePathname() === "/" ? "home-header" : "header";
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null);
   const [activeNestedSubmenu, setActiveNestedSubmenu] = useState<string | null>(null);
 
@@ -37,7 +42,7 @@ export default function Header() {
               />
             </Link>
             <EnquiryButton
-              sourcePage="home-header"
+              sourcePage={headerSource}
               fallbackHref={APPLY_HREF}
               fallbackLabel="Apply Now"
               className="ml-auto bg-primary hover:bg-primary-dark text-white font-semibold px-4 py-2 rounded transition-colors whitespace-nowrap text-sm"
@@ -199,7 +204,7 @@ export default function Header() {
             {/* Apply Now - spans both rows */}
             <div className="flex items-center flex-shrink-0">
               <EnquiryButton
-                sourcePage="home-header"
+                sourcePage={headerSource}
                 fallbackHref={APPLY_HREF}
                 fallbackLabel="Apply Now"
                 className="bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-2.5 rounded transition-colors whitespace-nowrap"
