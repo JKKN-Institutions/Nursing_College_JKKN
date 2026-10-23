@@ -194,9 +194,9 @@ export default function CourseAdmissionDetail({ course }: Props) {
               </div>
               <div className="space-y-3">
                 {course.dates.map((d, i) => (
-                  <div key={i} className="flex items-center justify-between gap-3 bg-white border-l-4 border-[#7cb983] rounded-r-lg px-4 py-3">
+                  <div key={i} className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:justify-between sm:gap-3 bg-white border-l-4 border-[#7cb983] rounded-r-lg px-4 py-3">
                     <span className="text-sm text-gray-700 font-medium">{d.label}</span>
-                    <span className="text-sm font-bold text-[#006837] whitespace-nowrap">{d.date}</span>
+                    <span className="text-sm font-bold text-[#006837] sm:text-right">{d.date}</span>
                   </div>
                 ))}
               </div>
