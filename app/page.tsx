@@ -1112,7 +1112,7 @@ export default async function Home() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid lg:grid-cols-3 gap-8">
               {[
                 {
                   quote:
