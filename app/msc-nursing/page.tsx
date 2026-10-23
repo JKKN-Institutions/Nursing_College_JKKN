@@ -636,7 +636,7 @@ export default function MScNursing() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Medical Surgical Nursing */}
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-center justify-center text-white font-bold text-2xl">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-end justify-start pl-4 pb-2 text-white font-bold text-2xl">
                   1
                 </div>
                 <div className="mb-6">
@@ -657,7 +657,7 @@ export default function MScNursing() {
 
               {/* Child Health Nursing */}
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-center justify-center text-white font-bold text-2xl">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-end justify-start pl-4 pb-2 text-white font-bold text-2xl">
                   2
                 </div>
                 <div className="mb-6">
@@ -678,7 +678,7 @@ export default function MScNursing() {
 
               {/* Community Health Nursing */}
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-center justify-center text-white font-bold text-2xl">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-end justify-start pl-4 pb-2 text-white font-bold text-2xl">
                   3
                 </div>
                 <div className="mb-6">
@@ -699,7 +699,7 @@ export default function MScNursing() {
 
               {/* Obstetrics & Gynecology Nursing */}
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden md:col-start-1 lg:col-start-2">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-center justify-center text-white font-bold text-2xl">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-end justify-start pl-4 pb-2 text-white font-bold text-2xl">
                   4
                 </div>
                 <div className="mb-6">
@@ -720,7 +720,7 @@ export default function MScNursing() {
 
               {/* Mental Health Nursing */}
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-center justify-center text-white font-bold text-2xl">
+                <div className="absolute top-0 right-0 w-20 h-20 bg-[#7cb983] rounded-full -mr-10 -mt-10 flex items-end justify-start pl-4 pb-2 text-white font-bold text-2xl">
                   5
                 </div>
                 <div className="mb-6">
