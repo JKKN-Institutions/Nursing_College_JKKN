@@ -33,7 +33,7 @@ export default function ResearchCommittee() {
               To monitor and ensure the smooth conduct of research activities and ethical regulations at the Sresakthimayeil Institute Of Nursing And Research, the following Research Committee has been formulated
             </p>
 
-            <div className="mt-8 mb-6">
+            <div className="mt-8 mb-6 overflow-x-auto">
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="border-b-2 border-gray-300">
