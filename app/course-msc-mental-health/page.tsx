@@ -223,25 +223,25 @@ export default function MScMentalHealthNursing() {
           <div className="container-custom">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
+                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
                   19+
                 </p>
                 <p className="text-gray-600">Years of Excellence</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
+                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
                   5
                 </p>
                 <p className="text-gray-600">Seats Available</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
+                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
                   1:5
                 </p>
                 <p className="text-gray-600">Facilitator-Learner Ratio</p>
               </div>
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">
+                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
                   1000+
                 </p>
                 <p className="text-gray-600">Clinical Training Hours</p>
