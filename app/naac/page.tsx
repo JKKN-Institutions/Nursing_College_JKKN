@@ -45,6 +45,33 @@ export default function NAAC() {
             IIQA
           </h2>
 
+          {/* The grade itself, which this page never showed - it carried only the IIQA / SSR
+              documents, so visitors (and answer engines) read the NAAC claim on the other pages as
+              unproven. Read 2026-10-27 from NAAC's own list of institutions with valid
+              accreditation as on 14-08-2025, Colleges sheet: Track-Id TNCOGN111269, AISHE C-45803. */}
+          <div className="rounded-2xl border border-[#7cb983]/40 bg-white p-5 sm:p-6 mb-8 max-w-3xl">
+            <p className="text-xs uppercase tracking-wide text-gray-500 mb-1">NAAC accreditation</p>
+            <p className="text-xl sm:text-2xl font-bold text-[#0b7845] mb-2">
+              Accredited with Grade B++ (CGPA 2.79)
+            </p>
+            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+              Sresakthimayeil Institute of Nursing and Research (JKKN College of Nursing and Research)
+              was accredited by NAAC in its first cycle, with the result declared on 5 September 2024.
+            </p>
+            <p className="text-xs text-gray-500 mt-3">
+              Source: NAAC, list of institutions with valid accreditation as on 14-08-2025 (
+              <a
+                href="https://naac.gov.in/index.php/en/2-uncategorised/32-accreditation-status"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0b7845] font-semibold hover:underline"
+              >
+                naac.gov.in
+              </a>
+              ).
+            </p>
+          </div>
+
           {/* Layout with Sidebar and Content */}
           <div className="flex flex-col lg:flex-row gap-0">
             {/* Sidebar */}
