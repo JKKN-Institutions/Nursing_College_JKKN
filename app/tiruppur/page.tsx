@@ -31,7 +31,7 @@ import {
 const faqs = [
   {
     q: "Is JKKN College of Nursing and Research in Tiruppur district?",
-    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 66 km from Tiruppur on NH-544. Tiruppur has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 66 km from Tiruppur on NH-544. Tiruppur has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "How far is JKKN Nursing from Tiruppur?",
@@ -323,7 +323,7 @@ export default function TiruppurPage() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
               <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
-                INC, NAAC Approved • Admissions Open
+                NAAC Accredited (B++) · INC Approved • Admissions Open
               </span>
             </div>
 
@@ -386,10 +386,10 @@ export default function TiruppurPage() {
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2.5">
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ INC
+                ✓ NAAC Accredited (B++)
               </span>
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ NAAC
+                ✓ INC Approved
               </span>
             </div>
             <div className="hidden sm:block w-px h-7 bg-gray-200 flex-shrink-0"></div>
@@ -477,7 +477,7 @@ export default function TiruppurPage() {
                 For learners searching for the <strong>nursing colleges near Tiruppur</strong>, JKKN College of Nursing and Research (JKKN College of Nursing and Research) in Komarapalayam offers a compelling choice. Located 66 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
               </p>
               <p>
-                JKKN&apos;s integrated campus features an attached multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
+                JKKN&apos;s integrated campus features an attached multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
               </p>
               <p>
                 Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -517,7 +517,7 @@ export default function TiruppurPage() {
                 Why Tiruppur Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Learners from Tiruppur benefit from secure hostel facilities and clinical training on the same campus as an attached multi-specialty teaching hospital.
+                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation (B++), and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Learners from Tiruppur benefit from secure hostel facilities and clinical training on the same campus as an attached multi-specialty teaching hospital.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

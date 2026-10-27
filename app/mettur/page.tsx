@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Mettur is best known for the Mettur Dam (Stanley Reservoir) on the Cauvery, its hydro and thermal power stations, and its chemical industrial belt. Families here value stable, professional careers — and healthcare is one of the strongest options for learners from Mettur, Kolathur and the surrounding blocks.",
     "For nursing aspirants from Mettur, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an INC-approved option about 48 km away, about 1 hour via Bhavani along the river route. Learners can choose the hostel or, from nearby blocks, even consider day travel.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Many Mettur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — and go home on weekends, about an hour away. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
   whyHeading: "Why Mettur Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is about 48 km from Mettur — close enough for easy weekend trips home, far enough for a focused residential campus life. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 48 km from Mettur — close enough for easy weekend trips home, far enough for a focused residential campus life. INC approved, NAAC accredited (B++), hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 48 km from Mettur (about 1 hour) via Bhavani. Hostel stay with weekend trips home is the popular choice; day travel is possible from nearer blocks.",
   programmesHeading: "Nursing Courses Available for Mettur Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is close to Mettur?",
-      a: "The Tamil Nadu Dr. M.G.R. Medical University's 2026-2027 affiliated list places one B.Sc Nursing college under Mettur: The Kaavery Nursing College. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is at Komarapalayam, about 48 km away via Bhavani. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "The Tamil Nadu Dr. M.G.R. Medical University's 2026-2027 affiliated list places one B.Sc Nursing college under Mettur: The Kaavery Nursing College. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is at Komarapalayam, about 48 km away via Bhavani. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Mettur?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Mettur | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Mettur: JKKN College of Nursing and Research in Komarapalayam is 48 km via Bhavani. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "Nursing college near Mettur: JKKN College of Nursing and Research in Komarapalayam is 48 km via Bhavani. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
   keywords:
     "nursing college near mettur, nursing colleges mettur, bsc nursing mettur, nursing college mettur dam, jkkn nursing mettur",
   alternates: {

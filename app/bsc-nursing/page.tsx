@@ -33,7 +33,7 @@ const bscFaqs: { q: string; a: string }[] = [
                 { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. NIRF 2026 records a median salary of ₹3,60,000 for the 2024-25 graduating cohort." },
                 { q: "Does JKKN provide hospital training for BSc Nursing learners?", a: "Yes, JKKN has an attached attached multi-specialty teaching hospital where learners gain real patient interactions from Year 1. Clinical rotations cover Medicine, Surgery, Pediatrics, Obstetrics, and Psychiatry departments. Advanced simulation learning labs complement hands-on clinical training." },
                 { q: "What are the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 with Physics, Chemistry, and Biology with minimum 45% aggregate marks (40% for reserved categories). Age must be between 17–35 years. English as compulsory subject in 10+2. NEET is not required. Indian nationals and NRI/PIO candidates are eligible." },
-                { q: "Is JKKN College of Nursing and Research approved by INC?", a: "Yes, JKKN College of Nursing and Research is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited." },
+                { q: "Is JKKN College of Nursing and Research approved by INC?", a: "Yes, JKKN College of Nursing and Research is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited (B++)." },
                 { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
                 { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
                 { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
@@ -46,7 +46,7 @@ const bscFaqs: { q: string; a: string }[] = [
                 { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based fee concessions on 10+2 performance. Government scholarships for BC, MBC, SC and ST learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
                 { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
                 { q: "How to apply for B.Sc Nursing at JKKN College?", a: "Apply online at jkkn.ai/apply/jkkn-admission-2026. Submit your 10+2 mark sheets, ID proof, community certificate, and passport-size photographs. Selection is based on 10+2 merit. Attend the counselling session for seat allotment, pay the admission fee, and join the orientation programme. Admissions are open from April to August 2026." },
-                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers an attached teaching hospital providing Year 1 clinical training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation, and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
+                { q: "What does JKKN offer BSc Nursing students in Tamil Nadu?", a: "JKKN offers an attached teaching hospital providing Year 1 clinical training, 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), published annual fees of ₹1,50,000 (female) / ₹1,75,000 (male), international placement support for NHS UK, UAE, and Singapore, INC approval, NAAC accreditation (B++), and TNMGRMU affiliation. The campus is conveniently located on NH-544 near Erode and Salem." },
 ];
 
 export default function BScNursing() {
@@ -149,7 +149,7 @@ export default function BScNursing() {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-gray-700/50 text-white px-4 py-2 rounded-full mb-6">
                   <CheckCircleIcon className="w-5 h-5 text-[#7cb983]" />
-                  <span className="text-sm font-medium"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved | <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Recognized | <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited</span>
+                  <span className="text-sm font-medium"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved | <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Recognized | <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited (B++)</span>
                 </div>
 
                 {/* Main Heading */}
@@ -341,7 +341,7 @@ export default function BScNursing() {
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">INC</div>
                 <h3 className="text-lg font-bold mb-2">Approved & Accredited</h3>
-                <p className="text-gray-200 text-sm">INC approved, <Link href="/naac" className="text-[#7cb983] hover:underline">NAAC accredited</Link>, affiliated to Tamil Nadu Dr. M.G.R. Medical University.</p>
+                <p className="text-gray-200 text-sm">INC approved, <Link href="/naac" className="text-[#7cb983] hover:underline">NAAC accredited (B++)</Link>, affiliated to Tamil Nadu Dr. M.G.R. Medical University.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">Year 1</div>
@@ -1533,7 +1533,7 @@ export default function BScNursing() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Legal name: Sresakthimayeil Institute of Nursing and Research</p>
-            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
           </div>

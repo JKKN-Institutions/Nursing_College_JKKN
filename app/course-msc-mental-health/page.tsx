@@ -169,7 +169,7 @@ export default function MScMentalHealthNursing() {
                   </div>
                   <div className="flex items-center gap-2 bg-gray-700/50 px-4 py-2 rounded-full">
                     <CheckCircle2 className="w-5 h-5" />
-                    <span>NAAC Accredited</span>
+                    <span>NAAC Accredited (B++)</span>
                   </div>
                   <div className="flex items-center gap-2 bg-gray-700/50 px-4 py-2 rounded-full">
                     <Clock className="w-5 h-5" />
@@ -1609,7 +1609,7 @@ export default function MScMentalHealthNursing() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
-            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
           </div>

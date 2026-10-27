@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Krishnagiri district, in the north-western corner of Tamil Nadu, is famous as the state's mango capital and for the fast-growing Hosur industrial belt. Because the district borders Karnataka, many learners from Krishnagiri, Hosur and Denkanikottai look towards Bangalore for higher education.",
     "For nursing aspirants, staying within Tamil Nadu has real advantages — Tamil Nadu state counselling, affiliation under The Tamil Nadu Dr. M.G.R. Medical University, and clinical postings in Tamil-speaking hospitals. JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam offers exactly that, around 163 km from Krishnagiri along the well-served NH-44/NH-544 corridor via Salem.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners work with real patients from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners work with real patients from the first year of the programme.",
     "Krishnagiri learners stay in the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with direct Salem-route buses making trips home easy during holidays. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), learners from Krishnagiri district can build a global nursing career while studying in their home state.",
   ],
   whyHeading: "Why Krishnagiri Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is around 163 km from Krishnagiri via the NH-44/NH-544 corridor — a Tamil Nadu option with TNMGRMU affiliation and state counselling, instead of crossing into Karnataka. INC approved, NAAC accredited, hospital-attached, with secure hostels.",
+    "JKKN College of Nursing and Research is around 163 km from Krishnagiri via the NH-44/NH-544 corridor — a Tamil Nadu option with TNMGRMU affiliation and state counselling, instead of crossing into Karnataka. INC approved, NAAC accredited (B++), hospital-attached, with secure hostels.",
   commuteDesc:
     "Around 163 km via Salem (about 3 hours) on the NH-44/NH-544 corridor. Hostel stay with holiday travel home is the standard choice.",
   programmesHeading: "Nursing Courses Available for Krishnagiri Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Krishnagiri?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 163 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Krishnagiri learners — around 163 km via Salem on the NH-44/NH-544 corridor. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Krishnagiri?",
@@ -50,7 +50,7 @@ const config: CityPageConfig = {
     },
     {
       q: "Why study nursing in Tamil Nadu instead of Bangalore for Krishnagiri learners?",
-      a: "Studying within Tamil Nadu keeps you in the Tamil Nadu state counselling system, under The Tamil Nadu Dr. M.G.R. Medical University, with clinical postings in Tamil-speaking hospitals — factors many Krishnagiri families prefer over crossing into Karnataka. JKKN College of Nursing and Research offers all three with INC approval and NAAC accreditation.",
+      a: "Studying within Tamil Nadu keeps you in the Tamil Nadu state counselling system, under The Tamil Nadu Dr. M.G.R. Medical University, with clinical postings in Tamil-speaking hospitals — factors many Krishnagiri families prefer over crossing into Karnataka. JKKN College of Nursing and Research offers all three with INC approval and NAAC accreditation (B++).",
     },
     {
       q: "Does JKKN Nursing provide hostel for Krishnagiri learners?",

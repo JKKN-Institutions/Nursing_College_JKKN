@@ -25,7 +25,7 @@ export const siteData = {
     youtube: "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
   },
   accreditations: [
-    "NAAC Accredited",
+    "NAAC Accredited (B++)",
     "INC Approved",
     "TNNMC Registered",
     "Affiliated to Tamil Nadu Dr. M.G.R. Medical University",
@@ -208,7 +208,7 @@ export const heroSlides = [
     subtitle: "JKKN Educational Institutions",
     buttonText: "Online Admissions 2026-27",
     buttonLink: "/admissions",
-    accreditations: ["NAAC Accredited", "INC Approved"],
+    accreditations: ["NAAC Accredited (B++)", "INC Approved"],
   },
   {
     id: 2,

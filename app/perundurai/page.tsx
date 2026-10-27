@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Perundurai is a fast-growing industrial and educational town in Erode district, known for its SIPCOT industrial estate, textile units and engineering campuses along NH-544. Healthcare education is a natural next step for learners here — Perundurai families already see medical institutions and industry side by side.",
     "For nursing aspirants from Perundurai, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a convenient option on the same NH-544 corridor — about 35 km away via Erode, roughly an hour by road. Day travel via Erode is possible, and hostels make it fully residential for those who prefer.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Perundurai learners can choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision — with home barely an hour away. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts on your own highway.",
   ],
   whyHeading: "Why Perundurai Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is about 35 km from Perundurai on the same NH-544 corridor — an easy hour via Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 35 km from Perundurai on the same NH-544 corridor — an easy hour via Erode. INC approved, NAAC accredited (B++), hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 35 km from Perundurai (about 30-40 minutes) via Erode on NH-544. Hostel stay with weekend trips home is the popular choice; day travel is also possible.",
   programmesHeading: "Nursing Courses Available for Perundurai Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is close to Perundurai?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is a convenient INC-approved nursing college for Perundurai learners — about 35 km away via Erode on the NH-544 corridor. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is a convenient INC-approved nursing college for Perundurai learners — about 35 km away via Erode on the NH-544 corridor. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Perundurai?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Perundurai | B.Sc Nursing — JKKN",
   description:
-    "JKKN College of Nursing and Research at Komarapalayam is 35 km from Perundurai on NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
+    "JKKN College of Nursing and Research at Komarapalayam is 35 km from Perundurai on NH-544. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near perundurai, nursing colleges perundurai, bsc nursing perundurai, nursing college erode district, jkkn nursing perundurai",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Perundurai | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing and Research in Komarapalayam is 35 km from Perundurai via Erode. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing and Research in Komarapalayam is 35 km from Perundurai via Erode. INC approved, NAAC accredited (B++), secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/perundurai",
     siteName: "JKKN College of Nursing and Research",
     type: "website",

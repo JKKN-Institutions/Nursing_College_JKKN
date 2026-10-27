@@ -18,7 +18,7 @@ const admissionsWebPageSchema = {
   "@type": "WebPage",
   "name": "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/admissions",
-  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+  "description": "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited (B++), 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"
@@ -107,7 +107,7 @@ export default function Admissions() {
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
               </svg>
-              <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved · <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited · <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Affiliated
+              <a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC</a> Approved · <a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">NAAC</a> Accredited (B++) · <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">TNMGRMU</a> Affiliated
             </div>
 
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
@@ -172,8 +172,8 @@ export default function Admissions() {
                   🏛️
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">INC Approved &amp; NAAC Accredited</h3>
-                  <p className="text-gray-600 text-sm">Recognized by the Indian Nursing Council and accredited by NAAC for academic quality and standards.</p>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">NAAC Accredited (B++) · INC Approved</h3>
+                  <p className="text-gray-600 text-sm">Recognized by the Indian Nursing Council and accredited by NAAC (B++) for academic quality and standards.</p>
                 </div>
               </div>
 
@@ -825,7 +825,7 @@ export default function Admissions() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
-            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
           </div>

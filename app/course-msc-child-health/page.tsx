@@ -176,7 +176,7 @@ export default function MScChildHealthNursing() {
                     <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                     <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium">NAAC Accredited</span>
+                  <span className="text-sm font-medium">NAAC Accredited (B++)</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -1157,7 +1157,7 @@ export default function MScChildHealthNursing() {
         <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
           <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
           <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
-          <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+          <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
           <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
           <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
         </div>

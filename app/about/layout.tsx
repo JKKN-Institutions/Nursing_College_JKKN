@@ -3,7 +3,7 @@ import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
   title: "About Us — JKKN College of Nursing and Research | JKKN",
-  description: "JKKN College of Nursing and Research (est. 2006) — INC-approved nursing institute in Komarapalayam, Tamil Nadu. NAAC accredited, TNMGRMU affiliated. Learn about our mission and excellence.",
+  description: "JKKN College of Nursing and Research (est. 2006) — INC-approved nursing institute in Komarapalayam, Tamil Nadu. NAAC accredited (B++), TNMGRMU affiliated. Learn about our mission and excellence.",
   openGraph: {
     title: "About Us — JKKN College of Nursing and Research | JKKN",
     description: "Established in 2006, Sresakthimayeil Institute of Nursing offers INC-approved nursing programmes in Komarapalayam, Tamil Nadu.",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },  twitter: {
     card: "summary_large_image",
     title: "About Us — JKKN College of Nursing and Research | JKKN",
-    description: "JKKN College of Nursing and Research (est. 2006) — INC-approved nursing institute in Komarapalayam, Tamil Nadu. NAAC accredited, TNMGRMU affiliated. Learn about our mission and excellence.",
+    description: "JKKN College of Nursing and Research (est. 2006) — INC-approved nursing institute in Komarapalayam, Tamil Nadu. NAAC accredited (B++), TNMGRMU affiliated. Learn about our mission and excellence.",
     images: ["/images/nursing_logo.png"],
   },
 

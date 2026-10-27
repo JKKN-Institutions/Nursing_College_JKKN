@@ -38,7 +38,7 @@ const ADMISSION_PHONE_DISPLAY = "+91 93458 55001"
 //    Institutional Development Plan (/pdf/Implementation-of-the-Institutional-Development-Plan-MD.pdf,
 //    section 1) says "Founded in 2007". If that is settled as 2007, change it here and on the
 //    homepage together.
-const TRUST = ["NAAC Accredited", "INC Approved", "Since 2006"]
+const TRUST = ["NAAC Accredited (B++)", "INC Approved", "Since 2006"]
 
 type Props = {
   /** Which page this instance sits on, e.g. "bsc-nursing". Tags the lead in the CRM. */

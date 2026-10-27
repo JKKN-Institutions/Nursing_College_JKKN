@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     q: "Is JKKN College of Nursing and Research in Erode district?",
-    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, not in Erode district. It is 18 km from Erode city on NH-544, about 20-30 minutes by road, so Erode learners can commute daily or stay in the hostel. It is approved by INC, accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
+    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, not in Erode district. It is 18 km from Erode city on NH-544, about 20-30 minutes by road, so Erode learners can commute daily or stay in the hostel. It is approved by INC, accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
   },
   {
     q: "What nursing courses are available near Erode?",
@@ -333,7 +333,7 @@ export default function ErodePage() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
               <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
-                INC, NAAC Approved • Admissions Open
+                NAAC Accredited (B++) · INC Approved • Admissions Open
               </span>
             </div>
 
@@ -398,10 +398,10 @@ export default function ErodePage() {
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2.5">
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ INC
+                ✓ NAAC Accredited (B++)
               </span>
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ NAAC
+                ✓ INC Approved
               </span>
             </div>
             <div className="hidden sm:block w-px h-7 bg-gray-200 flex-shrink-0"></div>
@@ -477,7 +477,7 @@ export default function ErodePage() {
                 Learners searching for <strong>nursing colleges in Erode</strong> sometimes look just outside the district as well. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 18 km from Erode on the NH-544 highway, about 20-30 minutes by road — which keeps it within daily commuting distance for many Erode learners looking at the wider <strong>Erode nursing college list</strong>.
               </p>
               <p>
-                JKKN College of Nursing and Research is <strong>not in Erode district</strong>. What it adds for an Erode learner is an integrated campus with an attached multi-specialty teaching hospital, providing clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                JKKN College of Nursing and Research is <strong>not in Erode district</strong>. What it adds for an Erode learner is an integrated campus with an attached multi-specialty teaching hospital, providing clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
               </p>
               <p>
                 Looking for the college itself rather than a district list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -524,7 +524,7 @@ export default function ErodePage() {
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 18 km from Erode on NH-544,
-                about 20-30 minutes by road. It is approved by INC, accredited by NAAC, and reported a 98% placement rate
+                about 20-30 minutes by road. It is approved by INC, accredited by NAAC (B++), and reported a 98% placement rate
                 (2024-25: 58 of 59 graduates placed, NIRF 2026). Daily commute from Erode is practical, and hostel
                 accommodation is available for learners who prefer to stay on campus.
               </p>

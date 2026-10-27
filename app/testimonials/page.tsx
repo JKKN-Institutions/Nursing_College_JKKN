@@ -9,7 +9,7 @@ import { siteData } from "@/data/siteData";
 
 export const metadata: Metadata = {
   title: "Alumni Testimonials | Sresakthimayeil Institute Of Nursing And Research",
-  description: "Hear from our alumni working at leading hospitals and nursing colleges. Real experiences from graduates of JKKN College of Nursing and Research — INC approved, NAAC accredited.",
+  description: "Hear from our alumni working at leading hospitals and nursing colleges. Real experiences from graduates of JKKN College of Nursing and Research — INC approved, NAAC accredited (B++).",
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/testimonials" },
 };
 
@@ -57,7 +57,7 @@ export default function TestimonialsPage() {
                 <p className="text-white/80 text-xs sm:text-sm mt-1">Nursing Programs</p>
               </div>
               <div className="py-6 text-center">
-                <p className="text-2xl sm:text-3xl font-bold">NAAC</p>
+                <p className="text-2xl sm:text-3xl font-bold">NAAC B++</p>
                 <p className="text-white/80 text-xs sm:text-sm mt-1">Accredited</p>
               </div>
               <div className="py-6 text-center">

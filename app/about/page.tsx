@@ -26,7 +26,7 @@ export default function About() {
 
       <div className="bg-green-50 border-l-4 border-primary p-4 mb-8 rounded-r-lg">
         <p className="font-semibold text-primary mb-1">Quick Summary</p>
-        <p className="text-gray-700 text-sm">JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved, NAAC-accredited institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at an attached teaching hospital.</p>
+        <p className="text-gray-700 text-sm">JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved, NAAC-accredited (B++) institution in Komarapalayam, Tamil Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University with 43+ senior learners and clinical training at an attached teaching hospital.</p>
       </div>
 
       <section className="prose prose-lg max-w-none">
@@ -60,7 +60,7 @@ export default function About() {
           <li>Approved by the <strong>Indian Nursing Council (INC)</strong></li>
           <li>Affiliated to <strong>Tamil Nadu Dr. MGR Medical University (TNMGRMU)</strong></li>
           <li>Recognized by the <strong>Tamil Nadu Nurses and Midwives Council (TNNMC)</strong></li>
-          <li><a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NAAC</a> Accredited</li>
+          <li><a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">NAAC</a> Accredited (B++)</li>
         </ul>
 
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mt-8 mb-4">
@@ -84,7 +84,7 @@ export default function About() {
       <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
         <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
         <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
-        <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+        <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
         <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
         <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
       </div>

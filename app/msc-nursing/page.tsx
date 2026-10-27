@@ -442,7 +442,7 @@ export default function MScNursing() {
                 </div>
                 <div className="flex items-center gap-3 w-72 md:w-auto">
                   <Image src="/images/NAAC_LOGO.png" alt="NAAC Logo" width={50} height={50} className="object-contain flex-shrink-0 w-[50px]" />
-                  <span className="font-semibold text-gray-800"><a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">NAAC</a> Accredited</span>
+                  <span className="font-semibold text-gray-800"><a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] hover:underline">NAAC</a> Accredited (B++)</span>
                 </div>
               </div>
             </div>
@@ -2085,7 +2085,7 @@ export default function MScNursing() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by <Link href="/" className="text-[#006837] hover:underline">JKKN College of Nursing and Research</Link></p>
             <p className="text-sm text-gray-600 mb-1">Legal name: Sresakthimayeil Institute of Nursing and Research</p>
-            <p className="text-sm text-gray-600 mb-1"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC Approved</a> | <Link href="/naac" className="hover:underline">NAAC Accredited</Link> | Affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tamil Nadu Dr. M.G.R. Medical University</a></p>
+            <p className="text-sm text-gray-600 mb-1"><a href="https://www.indiannursingcouncil.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">INC Approved</a> | <Link href="/naac" className="hover:underline">NAAC Accredited (B++)</Link> | Affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="hover:underline">Tamil Nadu Dr. M.G.R. Medical University</a></p>
             <p className="text-sm text-gray-600 mb-1">Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600 mb-1">Contact: <a href="tel:+919345855001" className="hover:underline">+91 93458 55001</a> | <a href="mailto:nursing@jkkn.ac.in" className="hover:underline">nursing@jkkn.ac.in</a></p>
             <p className="text-sm text-gray-600">Last reviewed: April 2026 | <Link href="/admissions" className="text-[#006837] hover:underline">Apply Now</Link> | <Link href="/placement" className="text-[#006837] hover:underline">Placement Details</Link> | <Link href="/contact" className="text-[#006837] hover:underline">Contact Us</Link></p>

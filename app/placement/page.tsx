@@ -1069,7 +1069,7 @@ export default function PlacementsPage() {
                 <CheckCircleIcon className="w-8 h-8 text-[#FFD700] mx-auto mb-2" />
                 <p className="font-semibold">INC Approved</p>
                 <p className="text-green-200 text-sm">
-                  NAAC Accredited
+                  NAAC Accredited (B++)
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
@@ -1129,7 +1129,7 @@ export default function PlacementsPage() {
               </p>
               <p className="text-sm text-gray-600 mb-1">
                 Affiliated to Tamil Nadu Dr. M.G.R. Medical University |
-                INC Approved | NAAC Accredited
+                NAAC Accredited (B++) · INC Approved
               </p>
               <p className="text-sm text-gray-600">
                 Last Updated: March 2026

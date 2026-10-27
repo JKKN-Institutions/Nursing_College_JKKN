@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Karur is a well-known commercial town on the banks of the Amaravathi river, famous for its home-textile export industry, bus-body building works, and as the birthplace of major banking institutions. Learners from Karur district regularly pursue professional healthcare education in Trichy, Erode and Salem belts.",
     "For nursing aspirants from Karur, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is an accessible hostel-based option — about 84 km away, about 1.5 hours via the Namakkal-Tiruchengode route or via Erode. That distance keeps weekend trips home practical while giving learners a residential campus experience.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Most Karur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Karur learners can launch a global nursing career about two hours from home.",
   ],
   whyHeading: "Why Karur Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is about 84 km from Karur — a hostel-friendly distance with easy weekend travel home via Namakkal or Erode. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 84 km from Karur — a hostel-friendly distance with easy weekend travel home via Namakkal or Erode. INC approved, NAAC accredited (B++), hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 84 km from Karur (about 1.5 hours) via Namakkal-Tiruchengode or Erode. Hostel stay with weekend trips home is the popular choice.",
   programmesHeading: "Nursing Courses Available for Karur Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Karur?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Karur learners — about 84 km away via Namakkal or Erode. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Karur learners — about 84 km away via Namakkal or Erode. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Karur?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Karur | B.Sc Nursing — JKKN",
   description:
-    "JKKN College of Nursing and Research at Komarapalayam is 84 km from Karur via Namakkal or Erode. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic.",
+    "JKKN College of Nursing and Research at Komarapalayam is 84 km from Karur via Namakkal or Erode. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic.",
   keywords:
     "nursing college near karur, nursing colleges in karur, bsc nursing karur, nursing college karur district, jkkn nursing karur",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Karur | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing and Research in Komarapalayam is 84 km from Karur. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing and Research in Komarapalayam is 84 km from Karur. INC approved, NAAC accredited (B++), secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/karur",
     siteName: "JKKN College of Nursing and Research",
     type: "website",

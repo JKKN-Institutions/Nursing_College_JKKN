@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Sathyamangalam sits at the foothills of the Western Ghats in Erode district, an agricultural town on the Coimbatore-Mysuru corridor known for its farm produce and the forest belt beyond. For learners from Sathy, Puliampatti and the surrounding blocks, professional education usually means travelling towards Erode or Coimbatore.",
     "For nursing aspirants from Sathyamangalam, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 66 km away, about 1.5 hours via Gobichettipalayam and Bhavani. Close enough for weekend trips home, far enough for a focused residential campus life.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Most Sathyamangalam learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sathy learners can take a global nursing career from the foothills to the world.",
   ],
   whyHeading: "Why Sathyamangalam Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is about 66 km from Sathyamangalam — a hostel-friendly distance with weekend travel home via Gobichettipalayam. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 66 km from Sathyamangalam — a hostel-friendly distance with weekend travel home via Gobichettipalayam. INC approved, NAAC accredited (B++), hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 66 km from Sathyamangalam (about 1.5 hours) via Gobichettipalayam and Bhavani. Hostel stay with weekend trips home is the popular choice.",
   programmesHeading: "Nursing Courses Available for Sathyamangalam Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Sathyamangalam?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Sathyamangalam learners — about 66 km away via Gobichettipalayam and Bhavani. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Sathyamangalam learners — about 66 km away via Gobichettipalayam and Bhavani. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Sathyamangalam?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Sathyamangalam | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Sathyamangalam: JKKN College of Nursing and Research in Komarapalayam is 66 km via Gobichettipalayam. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "Nursing college near Sathyamangalam: JKKN College of Nursing and Research in Komarapalayam is 66 km via Gobichettipalayam. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
   keywords:
     "nursing college near sathyamangalam, nursing colleges sathy, bsc nursing sathyamangalam, nursing college erode district, jkkn nursing sathyamangalam",
   alternates: {
@@ -96,7 +96,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Nursing College near Sathyamangalam | B.Sc Nursing — JKKN",
     description:
-      "JKKN College of Nursing and Research in Komarapalayam is 66 km from Sathyamangalam via Gobi. INC approved, NAAC accredited, secure hostels. Admissions 2026-27 open.",
+      "JKKN College of Nursing and Research in Komarapalayam is 66 km from Sathyamangalam via Gobi. INC approved, NAAC accredited (B++), secure hostels. Admissions 2026-27 open.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/sathyamangalam",
     siteName: "JKKN College of Nursing and Research",
     type: "website",

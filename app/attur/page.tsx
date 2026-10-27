@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Attur is a busy agricultural market town in eastern Salem district, on the Salem-Chennai road, known for its sago (tapioca) processing belt and weekly trade. Learners from Attur and surrounding blocks usually look towards Salem city for professional education — but seats and hostel options there fill up fast every admission season.",
     "For nursing aspirants from Attur, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a practical hostel-based option — about 109 km away, about 1.5 hours via Salem and NH-544. The distance makes it a residential-campus choice, with trips home comfortably possible on longer weekends and holidays.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year of the programme.",
     "Most Attur learners choose the secure on-campus hostels — separate blocks for boys and girls with mess facilities and warden supervision. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Attur learners can build a global nursing career while staying rooted in the Salem belt.",
   ],
   whyHeading: "Why Attur Learners Choose JKKN",
   whyIntro:
-    "JKKN College of Nursing and Research is about 109 km from Attur — a hostel-first choice with straightforward travel home via Salem. INC approved, NAAC accredited, hospital-attached, with secure separate hostels.",
+    "JKKN College of Nursing and Research is about 109 km from Attur — a hostel-first choice with straightforward travel home via Salem. INC approved, NAAC accredited (B++), hospital-attached, with secure separate hostels.",
   commuteDesc:
     "About 109 km from Attur (about 1.5 hours) via Salem and NH-544. Hostel stay with trips home on holidays is the popular choice.",
   programmesHeading: "Nursing Courses Available for Attur Learners",
@@ -42,7 +42,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which nursing college is accessible from Attur?",
-      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Attur learners — about 109 km away via Salem and NH-544. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "Sresakthimayeil Institute Of Nursing And Research (JKKN College of Nursing and Research) at Komarapalayam is an accessible INC-approved nursing college for Attur learners — about 109 km away via Salem and NH-544. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Attur?",
@@ -87,7 +87,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Attur | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Attur: JKKN College of Nursing and Research in Komarapalayam is 109 km via Salem and NH-544. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
+    "Nursing college near Attur: JKKN College of Nursing and Research in Komarapalayam is 109 km via Salem and NH-544. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic B.Sc Nursing with secure hostels. Admissions 2026-27 open.",
   keywords:
     "nursing college near attur, nursing colleges attur salem, bsc nursing attur, nursing college salem district, jkkn nursing attur",
   alternates: {

@@ -20,7 +20,7 @@ const faqCategories = [
       },
       {
         q: "What accreditations does the college hold?",
-        a: "The institution is NAAC accredited and approved by the Indian Nursing Council (INC). It is also registered with the Tamil Nadu Nurses and Midwives Council (TNNMC) and affiliated to Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+        a: "The institution is NAAC accredited (B++) and approved by the Indian Nursing Council (INC). It is also registered with the Tamil Nadu Nurses and Midwives Council (TNNMC) and affiliated to Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
       },
       {
         q: "Which university is the college affiliated to?",

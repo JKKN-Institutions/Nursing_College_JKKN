@@ -31,7 +31,7 @@ import {
 const faqs = [
   {
     q: "Is JKKN College of Nursing and Research in Coimbatore district?",
-    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 113 km from Coimbatore on NH-544. Coimbatore has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "No. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 113 km from Coimbatore on NH-544. Coimbatore has its own INC-approved nursing colleges. JKKN is approved by the Indian Nursing Council, accredited by NAAC (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
   },
   {
     q: "How far is JKKN Nursing from Coimbatore?",
@@ -323,7 +323,7 @@ export default function CoimbatorePage() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
               <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
-                INC, NAAC Approved • Admissions Open
+                NAAC Accredited (B++) · INC Approved • Admissions Open
               </span>
             </div>
 
@@ -389,10 +389,10 @@ export default function CoimbatorePage() {
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2.5">
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ INC
+                ✓ NAAC Accredited (B++)
               </span>
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ NAAC
+                ✓ INC Approved
               </span>
             </div>
             <div className="hidden sm:block w-px h-7 bg-gray-200 flex-shrink-0"></div>
@@ -480,7 +480,7 @@ export default function CoimbatorePage() {
                 For learners looking for the <strong>nursing colleges near Coimbatore</strong> region, JKKN College of Nursing and Research (JKKN College of Nursing and Research) offers a distinctive advantage. Located 113 km from Coimbatore in Komarapalayam, JKKN has a dedicated attached multi-specialty teaching hospital on the same campus, ensuring clinical exposure from the very first year of the programme.
               </p>
               <p>
-                What sets JKKN apart in the <strong>nursing colleges near Coimbatore</strong> region is its combination of INC approval, NAAC accreditation, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
+                What sets JKKN apart in the <strong>nursing colleges near Coimbatore</strong> region is its combination of INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
               </p>
               <p>
                 Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -521,7 +521,7 @@ export default function CoimbatorePage() {
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
                 Among nursing colleges serving the Coimbatore region, JKKN offers
-                INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Coimbatore
+                INC approval, NAAC accreditation (B++), and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Coimbatore
                 nursing college seekers find JKKN ideal for its attached teaching hospital,
                 international placement record, and secure hostel facilities for outstation
                 learners.

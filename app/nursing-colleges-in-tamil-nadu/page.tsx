@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     q: "Is JKKN College of Nursing and Research on the Tamil Nadu university list?",
-    a: `Yes. It appears as institution code 262, in Namakkal district, Komarapalayam, with 60 sanctioned B.Sc Nursing seats for ${TN_SOURCE.academicYear}. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. It is one of ${TN_TOTALS.colleges} colleges on the list and this page does not rank it above any of the others.`,
+    a: `Yes. It appears as institution code 262, in Namakkal district, Komarapalayam, with 60 sanctioned B.Sc Nursing seats for ${TN_SOURCE.academicYear}. It is approved by the Indian Nursing Council, accredited by NAAC (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. It is one of ${TN_TOTALS.colleges} colleges on the list and this page does not rank it above any of the others.`,
   },
   {
     q: "What is the difference between B.Sc Nursing, Post Basic B.Sc Nursing and M.Sc Nursing?",

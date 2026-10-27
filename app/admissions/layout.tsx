@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Admissions 2026-27 — B.Sc, M.Sc, Post Basic Nursing | JKKN",
   description:
-    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited, 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+    "Apply for B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing at Sresakthimayeil Institute Of Nursing And Research, Komarapalayam. INC approved, NAAC accredited (B++), 98% placement (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   keywords:
     "nursing admission 2026, bsc nursing admission tamil nadu, msc nursing admission, nursing college admission komarapalayam, JKKN nursing admission, nursing entrance exam",
   openGraph: {

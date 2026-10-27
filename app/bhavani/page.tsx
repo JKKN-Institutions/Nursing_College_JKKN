@@ -21,12 +21,12 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Bhavani is a historic temple town in Erode district, famous for the Sangameshwarar Temple at the confluence of the Cauvery and Bhavani rivers, and for its traditional jamakkalam (carpet) weaving industry. It is directly connected to Komarapalayam by the Cauvery bridge, making the two towns everyday neighbours.",
     "That connection matters for nursing aspirants: JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) sits just across the river in Komarapalayam on NH-544 — roughly 8 km from Bhavani town. For learners looking for a nursing college near Bhavani, this is effectively a home-town campus with a about 10-15 minutes commute.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year of the programme.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year of the programme.",
     "Because the campus is so close, most Bhavani learners study as day scholars and save the full cost of hostel and mess fees — though secure separate hostels for boys and girls are available for those who prefer to stay on campus. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Bhavani learners can start a global nursing career from right next door.",
   ],
   whyHeading: "Why Bhavani Learners Choose JKKN — Just Across the Cauvery Bridge",
   whyIntro:
-    "For Bhavani learners, JKKN College of Nursing and Research is an INC-approved, NAAC-accredited nursing institute just across the Cauvery bridge in Komarapalayam, about 8 km away. Day-scholar friendly, hospital-attached, with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+    "For Bhavani learners, JKKN College of Nursing and Research is an INC-approved, NAAC-accredited (B++) nursing institute just across the Cauvery bridge in Komarapalayam, about 8 km away. Day-scholar friendly, hospital-attached, with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   commuteDesc:
     "Just 8 km from Bhavani across the Cauvery bridge — a about 10-15 minutes commute makes day-scholar study easy.",
   programmesHeading: "Nursing Courses Available for Bhavani Learners",
@@ -41,7 +41,7 @@ const config: CityPageConfig = {
   faqs: [
     {
       q: "Which is the nearest nursing college to Bhavani?",
-      a: "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved nursing college about 8 km from Bhavani, just across the Cauvery bridge. It is NAAC accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      a: "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved nursing college about 8 km from Bhavani, just across the Cauvery bridge. It is NAAC accredited (B++) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
     },
     {
       q: "How far is JKKN Nursing from Bhavani?",
@@ -85,7 +85,7 @@ const config: CityPageConfig = {
 export const metadata: Metadata = {
   title: "Nursing College near Bhavani | B.Sc Nursing — JKKN",
   description:
-    "Nursing college near Bhavani: JKKN College of Nursing and Research is just 8 km away across the Cauvery bridge in Komarapalayam. INC approved, NAAC accredited. B.Sc, M.Sc, Post Basic B.Sc Nursing. Day-scholar friendly. Admissions 2026-27 open.",
+    "Nursing college near Bhavani: JKKN College of Nursing and Research is just 8 km away across the Cauvery bridge in Komarapalayam. INC approved, NAAC accredited (B++). B.Sc, M.Sc, Post Basic B.Sc Nursing. Day-scholar friendly. Admissions 2026-27 open.",
   keywords:
     "nursing college near bhavani, nursing college in bhavani, bsc nursing near bhavani, nursing colleges in erode district, jkkn nursing bhavani",
   alternates: {

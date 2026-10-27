@@ -164,7 +164,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   </div>
                   <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                     <FaBriefcase className="text-cyan-300 flex-shrink-0" />
-                    <span className="text-sm md:text-base font-medium">NAAC Accredited</span>
+                    <span className="text-sm md:text-base font-medium">NAAC Accredited (B++)</span>
                   </div>
                 </div>
 
@@ -1544,7 +1544,7 @@ export default function MScObstetricsGynecologicalNursing() {
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 mt-12 mb-8">
             <p className="font-semibold text-dark mb-2">Published by JKKN College of Nursing and Research</p>
             <p className="text-sm text-gray-600 mb-1">Sresakthimayeil Institute Of Nursing And Research</p>
-            <p className="text-sm text-gray-600 mb-1">INC Approved | NAAC Accredited | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+            <p className="text-sm text-gray-600 mb-1">NAAC Accredited (B++) · INC Approved | Affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
             <p className="text-sm text-gray-600 mb-1">Komarapalayam, Namakkal District, Tamil Nadu 638183</p>
             <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
           </div>

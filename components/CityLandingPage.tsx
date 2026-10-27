@@ -280,7 +280,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
               <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
-                INC, NAAC Approved • Admissions Open
+                NAAC Accredited (B++) · INC Approved • Admissions Open
               </span>
             </div>
 
@@ -338,10 +338,10 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
           <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5">
             <div className="flex items-center gap-2.5">
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ INC
+                ✓ NAAC Accredited (B++)
               </span>
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ NAAC
+                ✓ INC Approved
               </span>
             </div>
             <div className="hidden sm:block w-px h-7 bg-gray-200 flex-shrink-0"></div>

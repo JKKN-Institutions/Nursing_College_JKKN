@@ -11,7 +11,7 @@ const course = coursesAdmission.bsc;
 export const metadata: Metadata = {
   title: "B.Sc Nursing Admission 2026-27 — Fees, Seats, Eligibility | JKKN",
   description:
-    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited, no NEET required. Eligibility, fees and dates — apply online.",
+    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited (B++), no NEET required. Eligibility, fees and dates — apply online.",
   keywords:
     "B.Sc Nursing admission 2026, BSc Nursing JKKN, BSc nursing without NEET, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
   alternates: { canonical: `${SITE_URL}/admissions/bsc-nursing` },
