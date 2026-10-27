@@ -85,18 +85,18 @@ export default function BestCollegeAnswer({ list, distanceKm, ownDistrict = fals
             60 sanctioned B.Sc Nursing seats. Being on the list is not a claim to be the best of it,
             and the district is wide enough that the campus is about{" "}
             <strong>{distanceKm} km</strong> from {district} town. What we can put next to those
-            four criteria is a multi-specialty teaching hospital on the same campus with postings
-            from the first year, and a 98% placement rate for 2024-25 — 58 of 59 graduates, as
-            published in our NIRF 2026 submission.
+            four criteria is clinical postings at four affiliated hospitals in Erode, including
+            Government Headquarters Hospital, and a 98% placement rate for 2024-25 — 58 of 59
+            graduates, as published in our NIRF 2026 submission.
           </p>
         ) : (
           <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
             On our own side of it, plainly: JKKN College of Nursing and Research is{" "}
             <strong>not in {district} district</strong> — it is in Komarapalayam, Namakkal district,
             about <strong>{distanceKm} km</strong> away, so it is not on the list above and we are
-            not claiming a place on it. What we can put next to those four criteria is a
-            multi-specialty teaching hospital on the same campus with postings from the first year,
-            a sanctioned intake of 60 B.Sc Nursing seats, and a 98% placement rate for 2024-25 — 58
+            not claiming a place on it. What we can put next to those four criteria is clinical
+            postings at four affiliated hospitals in Erode, including Government Headquarters
+            Hospital, a sanctioned intake of 60 B.Sc Nursing seats, and a 98% placement rate for 2024-25 — 58
             of 59 graduates, as published in our NIRF 2026 submission.
           </p>
         )}
