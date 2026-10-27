@@ -40,7 +40,15 @@ const faqs = [
   },
   {
     q: "Is JKKN College of Nursing and Research in Namakkal district?",
-    a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, which is in Namakkal district. The campus is about 62 km from Namakkal town itself, roughly 1 to 1.5 hours by road via Tiruchengode. It is approved by the Indian Nursing Council, accredited by NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+    a: "Yes. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district, about 62 km from Namakkal town (1 to 1.5 hours by road via Tiruchengode). It is approved by the Indian Nursing Council, accredited by NAAC with a B++ grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+  },
+  {
+    q: "Is Sresakthimayeil Institute of Nursing & Research the same as JKKN College of Nursing and Research?",
+    a: `Yes. The Tamil Nadu Dr. M.G.R. Medical University lists JKKN College of Nursing and Research under its registered name, Sresakthimayeil Institute of Nursing & Research, institution code ${JKKN_CODE}. It is the same college in Komarapalayam, Namakkal district, with 60 sanctioned B.Sc Nursing seats for 2026-2027 in the university list.`,
+  },
+  {
+    q: "Which hospitals do JKKN nursing students get clinical postings in?",
+    a: "JKKN College of Nursing and Research is affiliated to four hospitals for clinical training: Government Headquarters Hospital, Erode; Erode Medical Centre; Erode Emergency Care Hospital; and Senthil Multi Speciality Hospital. The list is published on the college's Clinical / Hospital Facilities page; the admission office can tell you which hospital each year is posted to.",
   },
   {
     q: "How far is JKKN Nursing from Namakkal?",
@@ -48,7 +56,7 @@ const faqs = [
   },
   {
     q: "Is NEET required for B.Sc Nursing?",
-    a: "No, NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee. Contact the admission office for the current year's dates.",
+    a: "No. Tamil Nadu admits B.Sc Nursing students on Class 12 marks in Physics, Chemistry and Biology, normalised to 200, with no NEET. JKKN College of Nursing and Research follows the 2026-27 state prospectus: 45% aggregate for OC and 40% for BC, BCM, MBC, DNC, SC, SCA and ST candidates.",
   },
   {
     q: "Can I get a nursing job abroad after studying here?",
@@ -80,7 +88,7 @@ const faqs = [
   },
   {
     q: "What is the fee structure for nursing courses in Namakkal?",
-    a: "Fee structures for nursing courses at JKKN College of Nursing and Research are competitive and follow Tamil Nadu government and university norms. For the latest fee details for the 2026-27 academic year, contact the admission office at +91 93458 55001 or visit https://nursing.sresakthimayeil.jkkn.ac.in/",
+    a: "B.Sc Nursing tuition at JKKN College of Nursing and Research is ₹1,50,000 a year for women and ₹1,75,000 for men, including uniform, hospital training and the nursing kit. M.Sc Nursing is ₹75,000 to ₹1,00,000 by specialisation and Post Basic B.Sc ₹65,000. Hostel, mess and examination charges are billed separately.",
   },
 ];
 
@@ -93,7 +101,7 @@ const whyChooseItems = [
   {
     icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
     title: "Hospital Training",
-    desc: "Attached to JKKN group hospitals — direct patient care exposure",
+    desc: "Clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital",
   },
   {
     icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
@@ -151,7 +159,7 @@ const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "60", label: "B.SC NURSING SEATS" },
-  { value: "5+", label: "TOP RECRUITERS" },
+  { value: "58/59", label: "GRADUATES PLACED 2024-25" },
 ];
 
 const reachItems = [
@@ -294,14 +302,17 @@ export default function NamakkalPage() {
             "@context": "https://schema.org",
             "@type": "EducationalOrganization",
             name: "JKKN College of Nursing and Research",
-            alternateName: "Sresakthimayeil Institute Of Nursing And Research",
+            alternateName: [
+              "Sresakthimayeil Institute of Nursing & Research",
+              "Sresakthimayeil Institute of Nursing and Research",
+            ],
             url: "https://nursing.sresakthimayeil.jkkn.ac.in/",
             telephone: "+919345855001",
             email: "nursing@jkkn.ac.in",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Natarajapuram, NH-544, Komarapalayam",
-              addressLocality: "Namakkal",
+              streetAddress: "Natarajapuram, NH-544",
+              addressLocality: "Komarapalayam",
               addressRegion: "Tamil Nadu",
               postalCode: "638183",
               addressCountry: "IN",
@@ -333,7 +344,7 @@ export default function NamakkalPage() {
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full mb-5 sm:mb-6">
               <AcademicCapIcon className="w-5 h-5 text-white" />
               <span className="text-white text-xs sm:text-sm font-medium">
-                INC, NAAC Approved • Admissions Open
+                INC Approved • NAAC B++ • Admissions Open
               </span>
             </div>
 
@@ -345,7 +356,7 @@ export default function NamakkalPage() {
 
             {/* Description */}
             <p className="text-white/80 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-7 sm:mb-8 leading-relaxed px-2">
-              JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — about 62 km from Namakkal town by road via Tiruchengode. It offers INC-approved B.Sc Nursing, M.Sc Nursing and Post Basic B.Sc programmes, with a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).
+              JKKN College of Nursing and Research, listed by The Tamil Nadu Dr. M.G.R. Medical University as Sresakthimayeil Institute of Nursing &amp; Research (code {JKKN_CODE}), is an INC-approved college in Komarapalayam, Namakkal district. It offers B.Sc, Post Basic B.Sc and M.Sc Nursing, with clinical postings at four hospitals including Government Headquarters Hospital, Erode.
             </p>
 
             {/* Stats Grid */}
@@ -399,7 +410,7 @@ export default function NamakkalPage() {
                 ✓ INC
               </span>
               <span className="bg-[#7cb983]/20 text-[#006837] font-bold text-xs sm:text-sm px-3 sm:px-4 py-1.5 rounded-full">
-                ✓ NAAC
+                ✓ NAAC B++
               </span>
             </div>
             <div className="hidden sm:block w-px h-7 bg-gray-200 flex-shrink-0"></div>
@@ -478,7 +489,7 @@ export default function NamakkalPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Namakkal learners are applying inside their own district. The JKKN campus is in Komarapalayam taluk, Namakkal district,62 km away - so a Namakkal applicant is not changing district for admission, and the hostel-or-commute question that every other town has to settle does not arise. It is the shortest distance any JKKN nursing applicant travels, and it is the reason Namakkal learners can take first-year clinical postings at the attached teaching hospital as day scholars.
+                Namakkal learners are applying inside their own district. The JKKN campus is in Komarapalayam taluk, Namakkal district, 62 km away - so a Namakkal applicant is not changing district for admission, and the hostel-or-commute question that every other town has to settle does not arise.
               </p>
               <p>
                 Namakkal district, known for its poultry industry, transport sector, and the iconic Namakkal Fort, is rapidly growing as an educational destination in Tamil Nadu. With JKKN Institutions headquartered in Komarapalayam — just 62 km from Namakkal city — learners have direct access to one of the region&apos;s most comprehensive educational campuses.
@@ -487,7 +498,7 @@ export default function NamakkalPage() {
                 For learners looking for a <strong>nursing college in Namakkal</strong>, JKKN College of Nursing and Research is an INC-approved institution inside the district. Located right within the Namakkal district at Komarapalayam, it eliminates the need to travel to Salem, Erode, or Coimbatore for quality nursing education.
               </p>
               <p>
-                What JKKN brings to the <strong>Namakkal nursing college list</strong> is its integrated campus with an attached multi-specialty teaching hospital, providing hands-on clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC, and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                What JKKN brings to the <strong>Namakkal nursing college list</strong> is clinical training at four affiliated hospitals in Erode - Government Headquarters Hospital, Erode Medical Centre, Erode Emergency Care Hospital and Senthil Multi Speciality Hospital. The institute is approved by the Indian Nursing Council (INC) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. It is accredited by NAAC with a B++ grade (CGPA 2.79, first cycle, declared 5 September 2024) - see the <a href="/naac" className="text-[#006837] font-semibold hover:underline">NAAC page</a>.
               </p>
               <p>
                 Looking for the college itself rather than a district list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -496,7 +507,7 @@ export default function NamakkalPage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="attached teaching hospital at JKKN College of Nursing and Research in Namakkal"
+                    alt="Hospital clinical training for JKKN College of Nursing and Research learners"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -548,12 +559,39 @@ export default function NamakkalPage() {
                   <dd className="text-gray-900">Approved by the Indian Nursing Council (INC)</dd>
                 </div>
                 <div className="sm:col-span-2">
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">NAAC</dt>
+                  <dd className="text-gray-900">Accredited, grade B++ (CGPA 2.79), first cycle, declared 5 September 2024</dd>
+                </div>
+                <div className="sm:col-span-2">
                   <dt className="text-xs uppercase tracking-wide text-gray-500">Placement</dt>
                   <dd className="text-gray-900">98%: 58 of 59 graduates placed in 2024-25 (NIRF 2026)</dd>
                 </div>
               </dl>
               <p className="text-xs text-gray-500 mt-4">
-                Seats and code: {TN_SOURCE.label}. Placement: NIRF 2026 data submitted by the college.
+                Seats and code: {TN_SOURCE.label}. NAAC: NAAC list of institutions with valid accreditation as on 14-08-2025. Placement: NIRF 2026 data submitted by the college.
+              </p>
+            </div>
+
+            {/* S6 draft #1, Change B. ChatGPT names a rival first for "clinical postings across
+                multiple hospitals", and this page had no quotable hospital list. The four names
+                are the college's own /clinical-hospital page; the community postings are left out
+                because /clinical-hospital and /community-facilities name different places. */}
+            <div className="rounded-2xl border border-[#7cb983]/40 bg-[#FBFBEE] p-5 sm:p-7 mt-5">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+                Clinical Postings: Where You Train
+              </h2>
+              <dl className="grid grid-cols-1 gap-y-3 text-sm sm:text-base">
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Affiliated hospitals</dt>
+                  <dd className="text-gray-900">Government Headquarters Hospital, Erode &middot; Erode Medical Centre &middot; Erode Emergency Care Hospital &middot; Senthil Multi Speciality Hospital</dd>
+                </div>
+                <div>
+                  <dt className="text-xs uppercase tracking-wide text-gray-500">Programmes</dt>
+                  <dd className="text-gray-900">3 programmes, 135 seats: B.Sc Nursing 60, Post Basic B.Sc Nursing 50, M.Sc Nursing 25 (Medical-Surgical, Child Health, Community Health, Obstetrics &amp; Gynaecological, Mental Health)</dd>
+                </div>
+              </dl>
+              <p className="text-xs text-gray-500 mt-4">
+                Source: the college&apos;s <a href="/clinical-hospital" className="text-[#006837] font-semibold hover:underline">Clinical / Hospital Facilities</a> page and course pages.
               </p>
             </div>
           </div>
@@ -583,7 +621,7 @@ export default function NamakkalPage() {
                 Why Namakkal Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                JKKN offers INC approval, NAAC accreditation, and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). The campus is in Komarapalayam, Namakkal district, about 62 km from Namakkal town by road via Tiruchengode.
+                JKKN offers INC approval, NAAC accreditation with a B++ grade, clinical postings at four affiliated hospitals in Erode, and a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). The campus is in Komarapalayam, Namakkal district, about 62 km from Namakkal town by road via Tiruchengode.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>
@@ -712,7 +750,6 @@ export default function NamakkalPage() {
                   "Apollo Hospitals",
                   "Fortis",
                   "Manipal Hospitals",
-                  "AIIMS",
                   "Gulf Healthcare Recruiters",
                 ].map((company) => (
                   <span
@@ -833,19 +870,19 @@ export default function NamakkalPage() {
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
                 <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">98%</div>
                 <div className="text-gray-500 text-sm sm:text-base font-medium">Placement Rate (2024-25)</div>
-                <p className="text-gray-400 text-xs mt-2">Consistent placement support across all nursing programmes</p>
+                <p className="text-gray-400 text-xs mt-2">58 of 59 graduates placed (NIRF 2026)</p>
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">60+</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Recruiting Partners</div>
-                <p className="text-gray-400 text-xs mt-2">Apollo, Sun Pharma, NHS UK, and more top healthcare employers</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">₹3.6 LPA</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Median Salary</div>
+                <p className="text-gray-400 text-xs mt-2">2024-25 B.Sc Nursing graduates, as filed in NIRF 2026</p>
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">25 LPA</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Highest Package</div>
-                <p className="text-gray-400 text-xs mt-2">International nursing placements in UK, UAE, and Singapore</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">4</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Affiliated Hospitals</div>
+                <p className="text-gray-400 text-xs mt-2">Clinical postings in Erode, including Government Headquarters Hospital</p>
               </div>
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">
