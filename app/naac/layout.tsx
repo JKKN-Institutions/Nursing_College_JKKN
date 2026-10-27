@@ -1,11 +1,11 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NAAC Accreditation — JKKN College of Nursing and Research",
-  description: "NAAC accreditation details, quality assurance, and academic excellence standards at Sresakthimayeil Institute of Nursing, JKKN.",
+  title: "NAAC Accredited (B++) — JKKN College of Nursing and Research",
+  description: "NAAC Accredited (B++) · INC Approved: JKKN College of Nursing and Research, CGPA 2.79, first cycle, declared 2024. IIQA, SSR and criterion documents.",
   openGraph: {
-    title: "NAAC Accreditation — JKKN College of Nursing and Research",
-    description: "NAAC accreditation details, quality assurance, and academic excellence standards at Sresakthimayeil Institute of Nursing, JKKN.",
+    title: "NAAC Accredited (B++) — JKKN College of Nursing and Research",
+    description: "NAAC Accredited (B++) · INC Approved: JKKN College of Nursing and Research, CGPA 2.79, first cycle, declared 2024. IIQA, SSR and criterion documents.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/naac",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NAAC Accreditation — JKKN College of Nursing and Research",
-    description: "NAAC accreditation details, quality assurance, and academic excellence standards at Sresakthimayeil Institute of Nursing, JKKN.",
+    title: "NAAC Accredited (B++) — JKKN College of Nursing and Research",
+    description: "NAAC Accredited (B++) · INC Approved: JKKN College of Nursing and Research, CGPA 2.79, first cycle, declared 2024. IIQA, SSR and criterion documents.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {
