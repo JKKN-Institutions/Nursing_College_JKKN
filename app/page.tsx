@@ -297,7 +297,7 @@ export default async function Home() {
                 <div className="inline-flex items-center gap-2 sm:gap-3 bg-white/10 backdrop-blur-md px-3 sm:px-4 md:px-6 py-2 sm:py-3 rounded-full mb-4 sm:mb-6 md:mb-8">
                   <BuildingOffice2Icon className="w-5 h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                   <span className="text-white text-xs sm:text-sm md:text-base font-medium">
-                    INC Approved | TNNMC Recognized | Attached Teaching Hospital
+                    INC: found suitable 2026-27 | TNNMC Recognised | TNMGRMU Affiliated (Code 262)
                   </span>
                 </div>
 
@@ -377,7 +377,7 @@ export default async function Home() {
                       <StarIcon className="w-5 h-5 sm:w-6 sm:h-6 lg:w-7 lg:h-7 text-[#f59e0b]" />
                       <div>
                         <p className="text-[#006837] font-bold text-[10px] sm:text-xs lg:text-sm">98% Placement (2024-25)</p>
-                        <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">Success Rate</p>
+                        <p className="text-gray-500 text-[8px] sm:text-[10px] lg:text-xs">58 of 59 · NIRF 2026</p>
                       </div>
                     </div>
                   </div>
@@ -449,9 +449,9 @@ export default async function Home() {
                   </div>
                   <div>
                     <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-0.5 sm:mb-1">
-                      Avg. Package
+                      Median Salary (UG 2024-25)
                     </h3>
-                    <p className="text-xs sm:text-sm text-gray-600">₹4.2 - 12 LPA</p>
+                    <p className="text-xs sm:text-sm text-gray-600">₹3,60,000 · NIRF 2026 data submitted by the college</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-2 sm:gap-3 md:gap-4">

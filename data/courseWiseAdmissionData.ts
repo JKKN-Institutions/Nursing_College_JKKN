@@ -208,7 +208,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "Community Health Nursing",
     ],
     career: [
-      "Nursing Tutor / Lecturer / Professor in nursing colleges (INC + TNMGRMU recognized)",
+      "Nursing Tutor / Lecturer / Professor in nursing colleges (INC + TNMGRMU affiliated)",
       "Nurse Manager / Clinical Coordinator at corporate hospitals",
       "Nurse Practitioner / Specialty Nurse — ICU, NICU, Oncology, Cardiology, Dialysis",
       "Nurse Researcher — clinical trials, public health, government health programs",

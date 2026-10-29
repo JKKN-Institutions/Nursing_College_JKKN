@@ -114,7 +114,7 @@ export default function Admissions() {
               Admissions 2026-27
             </h1>
             <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8">
-              Begin your nursing career at one of Tamil Nadu&apos;s top INC-approved nursing colleges
+              Begin your nursing career at one of Tamil Nadu&apos;s INC-approved nursing colleges
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
