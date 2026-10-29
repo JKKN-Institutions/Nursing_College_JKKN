@@ -76,11 +76,11 @@ const faqs = [
   },
   {
     q: "Which nursing colleges are in Namakkal district?",
-    a: "JKKN College of Nursing and Research (Sresakthimayeil Institute of Nursing & Research, institution code 262 at Komarapalayam, 60 seats) is one of the 12 B.Sc Nursing colleges in Namakkal district affiliated to The Tamil Nadu Dr. M.G.R. Medical University for 2026-2027, which have 800 sanctioned seats between them. All 12 are self-financing — Namakkal district has no government nursing college. The other 11 are Anbu College of Nursing and Annai JKK. Sampoorani Ammal College of Nursing at Komarapalayam; Arvinth College of Nursing, Deepthi College of Nursing, Excel Nursing College, Paavai College of Nursing and Research, PGP. College of Nursing & Research and Sri Rengeswarar College of Nursing around Namakkal; and K.S.Rangasamy College of Nursing, Sengunthar College of Nursing and Vivekanandha College of Nursing at Tiruchengode. The figures are from the university's affiliated-colleges list dated 03.08.2026.",
+    a: "JKKN College of Nursing and Research (Sresakthimayeil Institute of Nursing & Research, institution code 262 at Komarapalayam, 60 seats) is one of the 12 B.Sc Nursing colleges in Namakkal district affiliated to The Tamil Nadu Dr. M.G.R. Medical University for 2026-2027, which have 800 sanctioned seats between them. All 12 are self-financing — Namakkal district has no government nursing college. The other 11 are Anbu College of Nursing and Annai JKK. Sampoorani Ammal College of Nursing at Komarapalayam; Arvinth College of Nursing, Deepthi College of Nursing, Excel Nursing College, Paavai College of Nursing and Research, PGP. College of Nursing & Research and Sri Rengeswarar College of Nursing around Namakkal; and K.S.Rangasamy College of Nursing, Sengunthar College of Nursing and Vivekanandha College of Nursing at Tiruchengode. The figures are from the university's affiliated-colleges list updated 10.10.2026.",
   },
   {
     q: "How many B.Sc Nursing colleges are there in Namakkal district?",
-    a: "12, with 800 sanctioned seats between them, on The Tamil Nadu Dr. M.G.R. Medical University's affiliated list for 2026-2027 dated 03.08.2026. JKKN College of Nursing and Research at Komarapalayam is one of the 12, with 60 seats. None of them is a government college. One more college, Dhanvantri College of Nursing at Pallakkapalayam, appears on the same university list with no district stated against it, so it is not counted in the 12 here even though Pallakkapalayam lies in Komarapalayam taluk.",
+    a: "12, with 800 sanctioned seats between them, on The Tamil Nadu Dr. M.G.R. Medical University's affiliated list for 2026-2027, updated 10.10.2026. JKKN College of Nursing and Research at Komarapalayam is one of the 12, with 60 seats. None of them is a government college. One more college, Dhanvantri College of Nursing at Pallakkapalayam, appears on the same university list with no district stated against it, so it is not counted in the 12 here even though Pallakkapalayam lies in Komarapalayam taluk.",
   },
   {
     q: "What nursing courses are offered at JKKN Nursing in Namakkal?",
@@ -927,7 +927,7 @@ export default function NamakkalPage() {
                 Find your route to the JKKN campus from your city
               </p>
               <p className="text-gray-600 text-sm sm:text-base mt-2">
-                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
+                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 288 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

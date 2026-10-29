@@ -69,24 +69,24 @@ const faqs = [
 ];
 
 export const metadata: Metadata = {
-  title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
+  title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 288, District-wise",
   description:
-    "All 284 B.Sc Nursing colleges affiliated to TNMGRMU for 2026-27, district by district: 18,960 sanctioned seats in 35 districts, from the university's list.",
+    "All 288 B.Sc Nursing colleges affiliated to TNMGRMU for 2026-27, district by district: 19,310 sanctioned seats in 35 districts, from the university's list.",
   keywords:
     "nursing colleges in tamilnadu, bsc nursing colleges in tamilnadu, b sc nursing colleges in tamil nadu, list of nursing colleges in tamilnadu, inc approved nursing colleges in tamilnadu, government nursing colleges in tamilnadu, nursing college list tamilnadu, tnmgrmu nursing colleges",
   alternates: { canonical: `${BASE}/nursing-colleges-in-tamil-nadu` },
   openGraph: {
-    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
+    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 288, District-wise",
     description:
-      "The university's own affiliated list for 2026-27: 284 B.Sc Nursing colleges, 18,960 sanctioned seats, 35 districts. Not a ranking.",
+      "The university's own affiliated list for 2026-27: 288 B.Sc Nursing colleges, 19,310 sanctioned seats, 35 districts. Not a ranking.",
     url: `${BASE}/nursing-colleges-in-tamil-nadu`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 284, District-wise",
+    title: "B.Sc Nursing Colleges in Tamil Nadu 2026: All 288, District-wise",
     description:
-      "284 B.Sc Nursing colleges, 18,960 sanctioned seats, 35 districts, from the TNMGRMU affiliated list dated 03.08.2026.",
+      "288 B.Sc Nursing colleges, 19,310 sanctioned seats, 35 districts, from the TNMGRMU affiliated list updated 10.10.2026.",
   },
   robots: { index: true, follow: true },
 };
@@ -288,7 +288,7 @@ export default function TamilNaduNursingCollegesPage() {
 
         {/* ── The directory ─────────────────────────────────────────── */}
         {/* ── Where JKKN sits in this list ─────────────────────────────── */}
-        {/* The table is alphabetical and JKKN is one row of 284 under its legal name, so a
+        {/* The table is alphabetical and JKKN is one row of 288 under its legal name, so a
             reader looking for JKKN would not find it by the brand. This card states the
             measured facts once, above the table. No Google rating: it goes stale. */}
         <section className="bg-white pt-12 sm:pt-16 px-4">

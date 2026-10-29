@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "How many B.Sc Nursing colleges are there in Salem district?",
-    a: "Salem district has 17 B.Sc Nursing colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University for the 2026-2027 academic year, with 1,170 sanctioned seats between them. One is government — College of Nursing, Government Mohan Kumaramangalam Medical College, Salem, with 70 seats — and the other 16 are self-financing. The figures are from the university's affiliated-colleges list dated 03.08.2026.",
+    a: "Salem district has 17 B.Sc Nursing colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University for the 2026-2027 academic year, with 1,170 sanctioned seats between them. One is government — College of Nursing, Government Mohan Kumaramangalam Medical College, Salem, with 70 seats — and the other 16 are self-financing. The figures are from the university's affiliated-colleges list updated 10.10.2026.",
   },
   {
     q: "Is JKKN College of Nursing and Research in Salem district?",
@@ -883,7 +883,7 @@ export default function SalemPage() {
                 Find your route to the JKKN campus from your city
               </p>
               <p className="text-gray-600 text-sm sm:text-base mt-2">
-                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
+                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 288 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

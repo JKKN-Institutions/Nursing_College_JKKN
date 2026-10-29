@@ -831,7 +831,7 @@ export default function CoimbatorePage() {
                 Find your route to the JKKN campus from your city
               </p>
               <p className="text-gray-600 text-sm sm:text-base mt-2">
-                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
+                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 288 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

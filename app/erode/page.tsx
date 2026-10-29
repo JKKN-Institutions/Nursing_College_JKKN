@@ -512,7 +512,7 @@ export default function ErodePage() {
         {/* ── B.Sc Nursing Colleges in Erode District ───────────────── */}
         {/* PR #2 left this table out on purpose: the 7-colleges / 480-seats figure only
             had a third-party source at the time. It now comes from the university's own
-            affiliated-colleges list dated 03.08.2026, so the page can name them. */}
+            affiliated-colleges list updated 10.10.2026, so the page can name them. */}
         <DistrictCollegeList list={ERODE_BSCN} distanceKm={18} viaRoad="on NH-544" />
 
         {/* ── Why Choose Section ────────────────────────────────────── */}
@@ -833,7 +833,7 @@ export default function ErodePage() {
                 Find your route to the JKKN campus from your city
               </p>
               <p className="text-gray-600 text-sm sm:text-base mt-2">
-                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 284 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
+                Or see <a href="/nursing-colleges-in-tamil-nadu" className="text-[#006837] font-semibold hover:underline">all 288 B.Sc Nursing colleges in Tamil Nadu</a>, district by district.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

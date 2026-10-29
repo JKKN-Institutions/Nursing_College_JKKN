@@ -1,7 +1,7 @@
 /**
  * Every B.Sc Nursing college affiliated to The Tamil Nadu Dr. M.G.R. Medical University
  * for 2026-2027, grouped by district. Source: the university's own affiliated-colleges
- * list dated 03.08.2026 - 284 institutions statewide.
+ * list dated 10.10.2026 - 288 institutions statewide.
  *
  * GENERATED FILE - do not hand-edit.
  * Regenerate:  python scripts/tn_nursing_dataset.py   (in the SEO project)
@@ -15,7 +15,7 @@
  * Main Road, Harur ... Dharmapuri District" under Salem, and a wrong district on a live
  * page is a wrong fact about someone else's college.
  *
- * 282 of 284 rows resolve to one of 35 districts.
+ * 286 of 288 rows resolve to one of 35 districts.
  */
 
 export type TnCollege = {
@@ -40,9 +40,9 @@ export type TnDistrict = {
 
 export const TN_SOURCE = {
   label:
-    "The Tamil Nadu Dr. M.G.R. Medical University, B.Sc Nursing affiliated colleges 2026-2027 (list dated 03.08.2026)",
+    "The Tamil Nadu Dr. M.G.R. Medical University, B.Sc Nursing affiliated colleges 2026-2027 (updated 10.10.2026)",
   academicYear: "2026-2027",
-  dated: "03.08.2026",
+  dated: "10.10.2026",
 } as const;
 
 /** The institution code this college holds on the university's list. */
@@ -60,7 +60,6 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "128", name: "Apollo College of Nursing", place: "Chennai", seats: 200 },
     { code: "259", name: "Billroth College of Nursing", place: "Chennai", seats: 50 },
     { code: "546", name: "C.S.I. Kalyani College of Nursing", place: "Chennai", seats: 40 },
-    { code: "163", name: "College of Nursing, Madras Medical College", place: "Chennai", seats: 100, government: true },
     { code: "551", name: "Hindu Mission College of Nursing", place: "Chennai", seats: 40 },
     { code: "291", name: "M M M College of Nursing", place: "Chennai", seats: 50 },
     { code: "156", name: "Madha College of Nursing", place: "Chennai", seats: 100 },
@@ -72,6 +71,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "335", name: "Sree Sastha College of Nursing", place: "Chennai", seats: 40 },
     { code: "199", name: "St. Isabels College of Nursing", place: "Chennai", seats: 40 },
     { code: "679", name: "Tagore College of Nursing", place: "Chennai", seats: 100 },
+    { code: "163", name: "Tamil Nadu Government Institute of Advanced Nursing Science and Research", place: "Chennai", seats: 100, government: true },
     { code: "487", name: "Vee Care College of Nursing", place: "Chennai", seats: 40 },
     { code: "050", name: "VHS-M.A. Chidambaram College of Nursing", place: "Chennai", seats: 60 },
     { code: "888", name: "Vijaya College of Nursing No.323", place: "Chennai", seats: 100 },
@@ -127,7 +127,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "088", name: "Padmavathi College of Nursing", place: "Dharmapuri", seats: 50 },
     { code: "1056", name: "SLNC College of Nursing", place: "Sclliampatti", seats: 60 },
     { code: "306", name: "Sri Vijay Vidyalaya College of Nursing", place: "Dharmapuri", seats: 60 },
-    { code: "296", name: "Srri Paspo College of Nursing", place: "Dharmapuri", seats: 70 },
+    { code: "296", name: "Srri Paspo College of Nursing", place: "Dharmapuri", seats: 100 },
     { code: "289", name: "Swami Vivekananda College of Nursing", place: "Dharmapuri", seats: 40 },
   ]],
   ["Dindigul", [
@@ -135,12 +135,13 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "035", name: "Christian College of Nursing", place: "Ambilikkai", seats: 50 },
     { code: "798", name: "Christian Fellowship Hospital", place: "Dindigul", seats: 60 },
     { code: "922", name: "Claudine College of Nursing", place: "Dindigul", seats: 60 },
+    { code: "1124", name: "Dindigul Shifa College of Nursing", place: "Aathur", seats: 60 },
     { code: "813", name: "GTN College of Nursing", place: "Dindigul", seats: 100 },
     { code: "229", name: "Jainee College of Nursing", place: "Dindigul", seats: 50 },
     { code: "912", name: "NPR College of Nursing & Research Institute", place: "Dindugul", seats: 60 },
     { code: "1104", name: "Our Lady College of Nursing Academic block in", place: "Dindigul", seats: 60 },
     { code: "545", name: "Sacred Heart College of Nursing", place: "Dindigul", seats: 50 },
-    { code: "841", name: "Sai Sakthi College of Nursing", place: "Dindigul", seats: 60 },
+    { code: "841", name: "Sai Sakthi College of Nursing", place: "Dindigul", seats: 100 },
     { code: "233", name: "Sakthi College of Nursing", place: "Oddanchatram", seats: 100 },
   ]],
   ["Erode", [
@@ -184,7 +185,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "842", name: "Maria College of Nursing", place: "Moovattumugam", seats: 60 },
     { code: "301", name: "P.S. College of Nursing", place: "Kanyakumari", seats: 50 },
     { code: "137", name: "Sree Mookambika College of Nursing", place: "Kulasekaram", seats: 100 },
-    { code: "496", name: "Sri Ramakrishna College of Nursing", place: "Kanyakumari", seats: 50 },
+    { code: "496", name: "Sree Ramakrishna College of Nursing", place: "Kanyakumari", seats: 50 },
     { code: "1058", name: "St. Jude's Nursing College. Annai Nagar", place: "Kanyakumari", seats: 60 },
     { code: "1023", name: "St.Antony’s College of Nursing", place: "Kanyakumari", seats: 60 },
     { code: "239", name: "St.Xavier’s Catholic College of Nursing", place: "Nagercoil", seats: 100 },
@@ -219,6 +220,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "664", name: "Vikram College of Nursing", place: "Madurai", seats: 60 },
   ]],
   ["Mayiladuthurai", [
+    { code: "1132", name: "Dr.Krishna College of Nursing", place: "Mayiladuthurai", seats: 60 },
     { code: "880", name: "Kalaimahal College of Nursing", place: "Mayiladuthurai", seats: 60 },
   ]],
   ["Nagapattinam", [
@@ -292,7 +294,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "1110", name: "Vivekananda Global College of Nursing Tirupattur-Karaikudi Main Road Thenkarai Village", place: "Sivaganga", seats: 60 },
   ]],
   ["Tenkasi", [
-    { code: "890", name: "A. R College of Nursing A.R Nagar", place: "Kadayam", seats: 60 },
+    { code: "890", name: "A. R College of Nursing", place: "Kadayam", seats: 60 },
     { code: "1049", name: "S.Thangapazham College of Nursing", place: "Tenkasi", seats: 60 },
     { code: "1075", name: "St. Mary’s Institute of Nursing", place: "Tenkasi", seats: 60 },
     { code: "1019", name: "St.Mary's College of Nursing", place: "Tenkasi", seats: 50 },
@@ -346,6 +348,7 @@ const RAW: Array<[string, TnCollege[]]> = [
     { code: "1082", name: "PSN College of Nursing", place: "PSN College of Nursing", seats: 60, note: "Sanctioned 60; the university's list records no admission for A.Y 2024-2025" },
     { code: "396", name: "Sardar Rajas College of Nursing", place: "Tirunelveli", seats: 50 },
     { code: "1060", name: "SCAD College of Nursing", place: "TIrunelveli", seats: 60 },
+    { code: "1130", name: "Shifa Nursing College", place: "Tiruppanikarisalkulam", seats: 60 },
     { code: "386", name: "Sri Balaji College of Nursing", place: "Tirunelveli", seats: 50 },
     { code: "136", name: "Sri K.Ramachandran Naidu College of Nursing", place: "Tirunelveli", seats: 60 },
     { code: "1050", name: "St.John’s College of Nursing", place: "Tirunelveli", seats: 60 },
@@ -390,6 +393,7 @@ const RAW: Array<[string, TnCollege[]]> = [
   ]],
   ["Viluppuram", [
     { code: "307", name: "E.S College of Nursing", place: "Villupuram", seats: 100 },
+    { code: "1129", name: "ESSK Nursing College", place: "Vazhuthareddy", seats: 100 },
     { code: "801", name: "Mailam Nursing College", place: "Tindivanam", seats: 100 },
     { code: "330", name: "Pauls College of Nursing", place: "Villupuram", seats: 50 },
     { code: "816", name: "PKB College of Nursing", place: "Villupuram", seats: 60 },

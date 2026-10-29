@@ -220,7 +220,7 @@ export default function PBScNursing() {
                     href="/nursing-colleges-in-tamil-nadu"
                     className="text-[#7cb983] font-semibold hover:underline"
                   >
-                    All 284 B.Sc Nursing colleges in Tamil Nadu, district by district
+                    All 288 B.Sc Nursing colleges in Tamil Nadu, district by district
                   </a>{" "}
                   — from the university&apos;s own affiliated list for 2026-27. The Post Basic
                   B.Sc list is published separately by the university.
