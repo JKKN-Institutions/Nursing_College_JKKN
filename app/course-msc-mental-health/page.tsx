@@ -588,14 +588,13 @@ export default function MScMentalHealthNursing() {
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Entrance examination conducted by the institution
+                      No entrance test for government-quota seats (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)
                     </p>
                   </div>
                   <div className="flex gap-3">
                     <CheckCircle2 className="w-6 h-6 text-[#a8d5b0] flex-shrink-0 mt-1" />
                     <p className="leading-relaxed">
-                      Merit-based selection considering academic performance and
-                      entrance test score
+                      Merit list out of 100: 90 for B.Sc (Nursing) marks, 10 for experience
                     </p>
                   </div>
                   <div className="flex gap-3">
@@ -1298,11 +1297,10 @@ export default function MScMentalHealthNursing() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-[#006837] mb-3">
-                      Entrance Examination
+                      Merit Ranking
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Appear for the university-conducted entrance examination testing nursing
-                      knowledge, aptitude, and English proficiency.
+                      Government-quota seats have no entrance test: the Selection Committee ranks applicants out of 100 marks - 90 for B.Sc (Nursing) academic marks and 10 for experience (Tamil Nadu M.Sc (Nursing) prospectus 2026-27).
                     </p>
                   </div>
                   <div className="hidden md:block absolute left-6 top-12 w-0.5 h-24 bg-gray-300"></div>
@@ -1339,8 +1337,7 @@ export default function MScMentalHealthNursing() {
                       Merit List & Admission
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
-                      Selection based on combined score from academic record, entrance exam, and
-                      interview. Confirm admission by fee payment within stipulated time.
+                      The Selection Committee publishes the merit list and allots government-quota seats by online counselling. Confirm admission by fee payment within stipulated time.
                     </p>
                   </div>
                 </div>

@@ -561,13 +561,13 @@ export default function MScChildHealthNursing() {
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Entrance examination conducted by the university or institution</span>
+                  <span>No entrance test for government-quota seats (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span>Merit-based selection considering academic performance and entrance test score</span>
+                  <span>Merit list out of 100: 90 for B.Sc (Nursing) marks, 10 for experience</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
@@ -982,9 +982,9 @@ export default function MScChildHealthNursing() {
                   3
                 </div>
                 <div className="flex-1 bg-gray-50 rounded-xl p-6 md:p-8">
-                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Entrance Examination</h3>
+                  <h3 className="text-2xl font-bold text-[#006837] mb-3">Merit Ranking</h3>
                   <p className="text-gray-700 leading-relaxed">
-                    Appear for the university-conducted entrance examination testing nursing fundamentals and aptitude.
+                    Government-quota seats have no entrance test: the Selection Committee ranks applicants out of 100 marks - 90 for B.Sc (Nursing) academic marks and 10 for experience (Tamil Nadu M.Sc (Nursing) prospectus 2026-27).
                   </p>
                 </div>
               </div>
@@ -1104,7 +1104,7 @@ export default function MScChildHealthNursing() {
 
             <FAQItem
               question="What is the selection process for M.Sc Nursing admission?"
-              answer="The selection process involves multiple stages: submission of online application with required documents, verification of academic credentials and professional registration, university entrance examination covering nursing fundamentals and aptitude, and personal interview for shortlisted candidates. The final merit list is prepared based on a weighted combination of entrance examination score, academic performance in qualifying degree, and interview assessment."
+              answer="Government-quota M.Sc (Nursing) seats are filled by the Selection Committee, Directorate of Medical Education and Research, Tamil Nadu, through online counselling from a merit list out of 100 marks: 90 for B.Sc (Nursing) academic marks and 10 for experience. No entrance test is named in the 2026-2027 prospectus. Management-quota seats are filled through the college admission office."
             />
 
             <FAQItem

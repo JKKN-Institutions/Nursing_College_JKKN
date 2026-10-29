@@ -525,13 +525,13 @@ export default function MScObstetricsGynecologicalNursing() {
                   <div className="flex gap-3">
                     <FaCheckCircle className="text-green-300 text-xl mt-1 flex-shrink-0" />
                     <p className="text-white leading-relaxed">
-                      Entrance examination conducted by the university or institution
+                      No entrance test for government-quota seats (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)
                     </p>
                   </div>
                   <div className="flex gap-3">
                     <FaCheckCircle className="text-green-300 text-xl mt-1 flex-shrink-0" />
                     <p className="text-white leading-relaxed">
-                      Merit-based selection considering academic performance and entrance test score
+                      Merit list out of 100: 90 for B.Sc (Nursing) marks, 10 for experience
                     </p>
                   </div>
                   <div className="flex gap-3">
@@ -1180,7 +1180,7 @@ export default function MScObstetricsGynecologicalNursing() {
                   </div>
                 </div>
 
-                {/* Step 3 - Entrance Examination */}
+                {/* Step 3 - Merit Ranking */}
                 <div className="relative mb-12 md:mb-16">
                   <div className="flex flex-col md:flex-row md:items-center gap-6">
                     <div className="md:w-1/2 md:text-right md:pr-12">
@@ -1190,11 +1190,10 @@ export default function MScObstetricsGynecologicalNursing() {
                         </div>
                       </div>
                       <h3 className="text-2xl font-bold text-[#006837] mb-3">
-                        Entrance Examination
+                        Merit Ranking
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        Appear for the university entrance examination covering nursing
-                        fundamentals and OBG specialization topics.
+                        Government-quota seats have no entrance test: the Selection Committee ranks applicants out of 100 marks - 90 for B.Sc (Nursing) academic marks and 10 for experience (Tamil Nadu M.Sc (Nursing) prospectus 2026-27).
                       </p>
                     </div>
                     <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center justify-center">
@@ -1245,8 +1244,7 @@ export default function MScObstetricsGynecologicalNursing() {
                         Merit List Publication
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        Final merit list is published based on entrance examination score, academic
-                        performance, and interview assessment.
+                        The Selection Committee publishes the merit list and allots government-quota seats by online counselling.
                       </p>
                     </div>
                     <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex items-center justify-center">
@@ -1459,11 +1457,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 </summary>
                 <div className="px-6 pb-6">
                   <p className="text-gray-700 leading-relaxed">
-                    The selection process involves multiple stages: submission of online application with required documents,
-                    verification of academic credentials and professional registration, university entrance examination, and
-                    personal interview for shortlisted candidates. The final merit list is prepared based on a weighted
-                    combination of entrance examination score, academic performance in qualifying degree, and interview
-                    assessment.
+                    Government-quota M.Sc (Nursing) seats are filled by the Selection Committee, Directorate of Medical Education and Research, Tamil Nadu, through online counselling from a merit list out of 100 marks: 90 for B.Sc (Nursing) academic marks and 10 for experience. No entrance test is named in the 2026-2027 prospectus. Management-quota seats are filled through the college admission office.
                   </p>
                 </div>
               </details>

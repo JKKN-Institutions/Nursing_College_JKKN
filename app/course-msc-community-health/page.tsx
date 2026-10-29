@@ -517,13 +517,13 @@ export default function MScCommunityHealthNursing() {
                   <div className="flex items-start gap-3">
                     <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
                     <p className="text-base md:text-lg">
-                      Entrance examination conducted by the university or institution
+                      No entrance test for government-quota seats (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
                     <FaCheckCircle className="text-2xl text-green-400 mt-1 flex-shrink-0" />
                     <p className="text-base md:text-lg">
-                      Merit-based selection considering academic performance and entrance test score
+                      Merit list out of 100: 90 for B.Sc (Nursing) marks, 10 for experience
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
@@ -1171,10 +1171,10 @@ export default function MScCommunityHealthNursing() {
                     <div className="md:w-1/2 md:pr-12 mb-8 md:mb-0 mt-12 md:mt-0">
                       <div className="bg-white rounded-xl p-8 shadow-lg">
                         <h3 className="text-xl md:text-2xl font-bold text-[#006837] mb-4">
-                          Entrance Examination
+                          Merit Ranking
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Appear for the university entrance examination testing knowledge in nursing fundamentals, community health, and aptitude for postgraduate studies.
+                          Government-quota seats have no entrance test: the Selection Committee ranks applicants out of 100 marks - 90 for B.Sc (Nursing) academic marks and 10 for experience (Tamil Nadu M.Sc (Nursing) prospectus 2026-27).
                         </p>
                       </div>
                     </div>
@@ -1214,7 +1214,7 @@ export default function MScCommunityHealthNursing() {
                           Merit List & Counselling
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Selection based on combined merit of academic performance, entrance test score, and interview. Attend counselling session for seat allotment.
+                          The Selection Committee publishes the merit list and allots government-quota seats by online counselling. Attend counselling for seat allotment.
                         </p>
                       </div>
                     </div>
