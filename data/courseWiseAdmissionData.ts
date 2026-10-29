@@ -150,7 +150,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     feeShort: "₹75,000 – ₹1,00,000/yr (MQ)",
     feeDetailed: [
       { label: "Tuition Fee (Management Quota)", value: "₹75,000 – ₹1,00,000 / year" },
-      { label: "Government Quota Fee", value: "As per TN Govt norms" },
+      { label: "Government Quota Tuition (self-financing colleges)", value: "₹75,000 / year (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)" },
       { label: "Hostel + Mess (optional)", value: "₹65,000 – ₹85,000 / year" },
       { label: "University Examination Fee", value: "₹15,000 / year" },
       { label: "Thesis / Dissertation Fee", value: "₹10,000 (one-time)" },
@@ -160,20 +160,20 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ageLimit: "No upper age limit · Minimum 1 year post-RN experience required",
     eligibility: [
       "B.Sc Nursing or Post Basic B.Sc Nursing from an INC-recognized college",
-      "Minimum 55% aggregate marks in the qualifying degree",
+      "Minimum 55% aggregate in B.Sc Nursing (50% for SC / SCA / ST)",
       "Valid Registered Nurse (RN) and Registered Midwife (RM) registration with the State Nursing Council",
       "Minimum 1 year of clinical experience after registration as RN",
-      "Qualified in the TN M.Sc Nursing Entrance Exam (state-conducted)",
+      "No entrance test for government-quota seats - merit list out of 100 (90 for B.Sc Nursing marks, 10 for experience)",
       "Medical fitness certificate",
     ],
     entranceExam:
-      "Tamil Nadu M.Sc Nursing Entrance Examination conducted by the Directorate of Medical Education (DME), Tamil Nadu — June 2026.",
+      "None for government-quota seats. The Selection Committee, Directorate of Medical Education and Research, Tamil Nadu, fills them by online counselling from a merit list out of 100 marks: 90 for B.Sc (Nursing) academic marks and 10 for experience (Tamil Nadu M.Sc (Nursing) prospectus 2026-27, G.O.(D) No.1113, dated 30.09.2026).",
     reservation:
-      "Reservation as per Tamil Nadu government policy. In-service quota seats available for working nurses in TN government service.",
+      "Reservation as per Tamil Nadu government policy. Half of the government-quota seats in each speciality are reserved for service candidates - nurses in Tamil Nadu government service (Tamil Nadu M.Sc (Nursing) prospectus 2026-27).",
     process: [
       { title: "Verify Eligibility", desc: "Confirm 1-year RN experience, B.Sc Nursing 55%+, and active state council registration." },
       { title: "Apply Online", desc: "Submit application at jkkn.ai/apply/jkkn-admission-2026 selecting your preferred specialization." },
-      { title: "Entrance Exam", desc: "Appear for the TN M.Sc Nursing Entrance Test. Carry hall ticket and ID proof." },
+      { title: "Merit List", desc: "Government-quota: the Selection Committee ranks applicants out of 100 - 90 for B.Sc Nursing marks, 10 for experience. There is no entrance test." },
       { title: "Specialization Selection", desc: "Choose from 5 specializations — Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health." },
       { title: "Counselling & Document Verification", desc: "Attend state counselling (Govt seats) or institutional counselling (MQ seats) with originals." },
       { title: "Fee Payment & Joining", desc: "Pay the tuition fee, receive joining letter, and report on the academic session start date." },
@@ -183,7 +183,6 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "B.Sc Nursing Consolidated Mark Sheet (all semesters)",
       "Registered Nurse (RN) & RM Registration Certificate",
       "Experience Certificate — minimum 1 year (in original)",
-      "TN M.Sc Nursing Entrance Exam Score Card / Hall Ticket",
       "10th and 12th Mark Sheets",
       "Transfer Certificate from last institution",
       "Community Certificate (if applicable)",
@@ -192,15 +191,12 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "Medical Fitness Certificate",
       "No-Objection Certificate (NOC) — if currently employed",
     ],
-    // N-11. These are the TYPICAL cycle months, not a confirmed 2026-27 schedule. The official
-    // site publishes no M.Sc Nursing timeline today (checked live 2026-08-27, Courses.aspx?cid=13
-    // returns navigation only), so labelling them as confirmed dates would be inventing them.
-    // They are marked "typical" and the reader is sent to the source instead.
+    // 2026-10-29. Replaced the "typical cycle" months (April / June entrance / July / August): the
+    // M.Sc (Nursing) prospectus 2026-27 was notified on 02-10-2026 and names no entrance test.
+    // Only the notified date is stated; the reader is sent to the source for the round dates.
     dates: [
-      { label: "Application opens", date: "April (typical cycle)" },
-      { label: "Entrance exam", date: "June (typical cycle)" },
-      { label: "Results", date: "July (typical cycle)" },
-      { label: "Counselling", date: "August (typical cycle)" },
+      { label: "Government notification (prospectus 2026-27)", date: "2 October 2026  -  done" },
+      { label: "Government-quota counselling", date: "Online, in rounds  -  dates on tnmedicalselection.net" },
       { label: "Confirmed 2026-27 schedule", date: "Published at tnmedicalselection.net  -  confirm there before you plan" },
       { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
     ],
@@ -225,10 +221,10 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { title: "Clinical Practice + Teaching Exposure", desc: "Dual training — clinical postings in JKKN Hospital plus teaching experience in undergraduate programs." },
     ],
     faqs: [
-      { q: "What is the eligibility for M.Sc Nursing at JKKN?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
-      { q: "Is there an entrance exam for M.Sc Nursing?", a: "Yes. Candidates must qualify in the Tamil Nadu M.Sc Nursing Entrance Examination conducted by the Directorate of Medical Education (DME), Tamil Nadu. It is typically held in June, but the Selection Committee publishes no M.Sc Nursing schedule for 2026-27 on its site as of 27 August 2026 - confirm the date at tnmedicalselection.net before you plan." },
+      { q: "What is the eligibility for M.Sc Nursing at JKKN?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate (50% for SC / SCA / ST), valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
+      { q: "Is there an entrance exam for M.Sc Nursing?", a: "No entrance test is named in the Tamil Nadu M.Sc (Nursing) prospectus for 2026-2027. Government-quota seats are filled by online counselling from a merit list out of 100 marks: 90 for B.Sc (Nursing) academic marks and 10 for experience. The prospectus was notified on 2 October 2026 at tnmedicalselection.net." },
       { q: "What specializations are offered in M.Sc Nursing at JKKN?", a: "JKKN offers 5 M.Sc Nursing specializations: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetrics & Gynaecological Nursing, Psychiatric/Mental Health Nursing, and Community Health Nursing. Each has 5 seats." },
-      { q: "What is the M.Sc Nursing fee structure?", a: "Management Quota tuition fees range from ₹75,000 to ₹1,00,000 per year. Government Quota fees are as per TN Govt norms. Hostel, examination, thesis, and clinical kit are billed separately." },
+      { q: "What is the M.Sc Nursing fee structure?", a: "Management Quota tuition fees range from ₹75,000 to ₹1,00,000 per year. Government-quota tuition in self-financing colleges is ₹75,000 per year (Tamil Nadu M.Sc (Nursing) prospectus 2026-27). Hostel, examination, thesis, and clinical kit are billed separately." },
       { q: "Can working nurses join M.Sc Nursing?", a: "Yes. Work experience is actually a prerequisite — minimum 1 year of clinical experience after RN registration is required. In-service quota seats are reserved for nurses working in Tamil Nadu government healthcare." },
       { q: "What is the career scope after M.Sc Nursing?", a: "M.Sc Nursing opens roles such as Nursing Tutor/Lecturer/Professor, Nurse Manager, Specialty Nurse (ICU/NICU/Oncology), Nurse Researcher, international clinical/teaching roles, and pathways to M.Phil and Ph.D in Nursing." },
       { q: "How long is the M.Sc Nursing course?", a: "M.Sc Nursing is a 2-year full-time program (4 semesters) including clinical postings, learning studio teaching, and a research dissertation in the chosen specialization." },

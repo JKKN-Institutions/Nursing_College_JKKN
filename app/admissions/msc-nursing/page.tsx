@@ -13,12 +13,12 @@ export const metadata: Metadata = {
   description:
     "M.Sc Nursing admission 2026-27 at JKKN, Tamil Nadu — 5 specialisations, 25 seats, eligibility, counselling process and how to apply. INC approved.",
   keywords:
-    "M.Sc Nursing admission 2026, MSc Nursing JKKN, MSc Nursing specializations, TN MSc Nursing entrance, MSc Nursing eligibility, MSc Nursing fees",
+    "M.Sc Nursing admission 2026, MSc Nursing JKKN, MSc Nursing specializations, TN MSc Nursing counselling, MSc Nursing eligibility, MSc Nursing fees",
   alternates: { canonical: `${SITE_URL}/admissions/msc-nursing` },
   openGraph: {
     title: "M.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
     description:
-      "2-year M.Sc Nursing with 5 INC-approved specializations. TN M.Sc Entrance required. Complete admission details — eligibility, fees, documents, dates, process.",
+      "2-year M.Sc Nursing with 5 specializations. Government-quota seats by merit counselling, no entrance test. Complete admission details — eligibility, fees, documents, dates, process.",
     url: `${SITE_URL}/admissions/msc-nursing`,
     type: "website",
   },
