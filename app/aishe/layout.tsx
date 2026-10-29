@@ -2,13 +2,13 @@
 import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
-  title: "AISHE — Annual Survey of Higher Education | JKKN",
+  title: "AISHE Code C-45803 - JKKN College of Nursing and Research",
   description:
-    "AISHE annual survey data and enrollment statistics for JKKN College of Nursing and Research.",
+    "AISHE code C-45803 of JKKN College of Nursing and Research (Sresakthimayeil Institute of Nursing and Research), Namakkal, listed by the Ministry of Education.",
   openGraph: {
-    title: "AISHE — Annual Survey of Higher Education | JKKN",
+    title: "AISHE Code C-45803 - JKKN College of Nursing and Research",
     description:
-      "AISHE annual survey data and enrollment statistics for JKKN College of Nursing and Research.",
+      "AISHE code C-45803 of JKKN College of Nursing and Research (Sresakthimayeil Institute of Nursing and Research), Namakkal, listed by the Ministry of Education.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/aishe",
     siteName: "JKKN College of Nursing and Research",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "AISHE — Annual Survey of Higher Education | JKKN",
+    title: "AISHE Code C-45803 - JKKN College of Nursing and Research",
     description:
-      "AISHE annual survey data and enrollment statistics for JKKN College of Nursing and Research.",
+      "AISHE code C-45803 of JKKN College of Nursing and Research (Sresakthimayeil Institute of Nursing and Research), Namakkal, listed by the Ministry of Education.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {
