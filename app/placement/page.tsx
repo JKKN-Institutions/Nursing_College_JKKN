@@ -549,7 +549,7 @@ export default function PlacementsPage() {
         </section>
 
         {/* ═══════════════════════════════════════════
-            SECTION 3: TOP RECRUITERS
+            SECTION 3: WHERE NURSING GRADUATES WORK (sectors - no employer names without a verified list)
             ═══════════════════════════════════════════ */}
         <section className="py-12 sm:py-16 lg:py-20 bg-[#FBFBEE]">
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
@@ -739,7 +739,7 @@ export default function PlacementsPage() {
                       {sector.desc}
                     </p>
                     <p className="text-xs text-gray-500">
-                      <span className="font-medium">Key Recruiters:</span>{" "}
+                      <span className="font-medium">Typical employers:</span>{" "}
                       {sector.recruiters}
                     </p>
                   </div>

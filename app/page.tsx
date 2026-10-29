@@ -53,7 +53,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
       }
     },
     {
@@ -191,7 +191,7 @@ const profilePageSchema = {
       "Medical-Surgical Nursing", "OBG Nursing", "Pediatric Nursing",
       "Psychiatric Nursing", "Community Health Nursing",
       "Clinical Nursing Education", "International Nursing Careers",
-      "NHS UK Nursing Recruitment", "NCLEX Preparation", "Nursing Simulation Training"
+      "Nursing Licensure Exam Guidance", "NCLEX Preparation", "Nursing Simulation Training"
     ],
     "keywords": "nursing college Tamil Nadu, B.Sc Nursing Komarapalayam, INC approved nursing college, nursing college near Salem, JKKN nursing, best nursing college Namakkal, M.Sc Nursing Tamil Nadu"
   }
@@ -490,7 +490,7 @@ export default async function Home() {
                     "INC approved programs with hospital internship",
                     "Clinical postings at four affiliated hospitals",
                     "Advanced nursing simulation laboratory",
-                    "International placement partnerships",
+                    "98% UG placement 2024-25 (NIRF 2026)",
                   ].map((feature, index) => (
                     <div key={index} className="flex items-start gap-2 sm:gap-3">
                       <div className="w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-[#7cb983] flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -793,8 +793,8 @@ export default async function Home() {
               {[
                 { number: "98%", label: "Placement Rate (2024-25)" },
                 { number: "₹3.6L", label: "Median Package (NIRF)" },
-                { number: "₹25L", label: "Highest (International)" },
-                { number: "80+", label: "Recruiting Partners" },
+                { number: "11/11", label: "M.Sc Placed 2024-25 (NIRF)" },
+                { number: "4", label: "Affiliated Hospitals" },
               ].map((stat, index) => (
                 <div
                   key={index}
@@ -808,25 +808,19 @@ export default async function Home() {
               ))}
             </div>
 
-            {/* Top Recruiters */}
+            {/* Where graduates work - sectors only; employer names need a verified recruiter list (2026-10-29) */}
             <div>
               <h3 className="text-2xl font-bold text-center text-[#006837] mb-8">
-                Top Recruiters
+                Where Our Graduates Can Work
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
                 {[
-                  "Apollo Hospitals",
-                  "MIOT International",
-                  "Fortis Healthcare",
-                  "Manipal Hospitals",
-                  "KIMS Hospitals",
-                  "Narayana Health",
-                  "AIIMS",
-                  "Government Hospitals",
-                  "NHS (UK)",
-                  "Saudi German Hospital",
-                  "Cleveland Clinic Abu Dhabi",
-                  "Singapore General Hospital",
+                  "Multi-specialty hospitals",
+                  "Government hospitals",
+                  "Nursing colleges",
+                  "Community health",
+                  "Clinical research",
+                  "Abroad, after licensure",
                 ].map((hospital, index) => (
                   <div
                     key={index}
@@ -1196,7 +1190,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with recruiters including Apollo, MIOT, Fortis, Manipal, KIMS, government hospitals, and international recruiters in the UK (NHS), UAE, Saudi Arabia, Singapore, Australia and Canada. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",

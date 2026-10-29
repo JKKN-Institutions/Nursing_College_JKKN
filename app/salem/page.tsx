@@ -151,7 +151,7 @@ const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "60", label: "B.SC NURSING SEATS" },
-  { value: "5+", label: "TOP RECRUITERS" },
+  { value: "4", label: "AFFILIATED HOSPITALS" },
 ];
 
 const reachItems = [
@@ -513,7 +513,7 @@ export default function SalemPage() {
                 </div>
               </div>
               <p>
-                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) including international opportunities in the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities, JKKN is an INC-approved option for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
+                With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international pathways to the UK (NHS), Gulf countries, and Australia, plus secure hostel facilities, JKKN is an INC-approved option for Salem learners who want a <strong>nursing course in Salem</strong> region with proven career outcomes.
               </p>
             </div>
           </div>
@@ -698,15 +698,15 @@ export default function SalemPage() {
 
             <div className="text-center">
               <p className="text-gray-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-4">
-                COMPANIES THAT HIRE FROM US
+                WHERE NURSING GRADUATES WORK
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mb-6">
                 {[
-                  "Apollo Hospitals",
-                  "Fortis",
-                  "Manipal Hospitals",
-                  "AIIMS",
-                  "Gulf Healthcare Recruiters",
+                  "Multi-specialty hospitals",
+                  "Government hospitals",
+                  "Nursing colleges",
+                  "Community health",
+                  "Abroad, after licensure",
                 ].map((company) => (
                   <span
                     key={company}
@@ -830,15 +830,15 @@ export default function SalemPage() {
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">60+</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Recruiting Partners</div>
-                <p className="text-gray-400 text-xs mt-2">Apollo, Sun Pharma, NHS UK, and more top healthcare employers</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">₹3.6 LPA</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Median Salary (UG 2024-25)</div>
+                <p className="text-gray-400 text-xs mt-2">NIRF 2026 data submitted by the college</p>
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">25 LPA</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Highest Package</div>
-                <p className="text-gray-400 text-xs mt-2">International nursing placements in UK, UAE, and Singapore</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">11 / 11</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">M.Sc Placed (2024-25)</div>
+                <p className="text-gray-400 text-xs mt-2">NIRF 2026 data submitted by the college</p>
               </div>
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">

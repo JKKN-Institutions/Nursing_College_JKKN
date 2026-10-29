@@ -138,7 +138,7 @@ const placementStats = [
   { value: "98%", label: "PLACEMENT RATE 2024-25" },
   { value: "₹3.6", label: "LPA MEDIAN (NIRF)" },
   { value: "60", label: "B.SC NURSING SEATS" },
-  { value: "5+", label: "TOP RECRUITERS" },
+  { value: "4", label: "AFFILIATED HOSPITALS" },
 ];
 
 const reachItems = [
@@ -480,7 +480,7 @@ export default function CoimbatorePage() {
                 For learners looking for the <strong>nursing colleges near Coimbatore</strong> region, JKKN College of Nursing and Research (JKKN College of Nursing and Research) offers a distinctive advantage. Located 113 km from Coimbatore in Komarapalayam, JKKN sends its learners for clinical postings to four affiliated hospitals in Erode, including Government Headquarters Hospital.
               </p>
               <p>
-                What sets JKKN apart in the <strong>nursing colleges near Coimbatore</strong> region is its combination of INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute&apos;s international placement track record — including the UK (NHS), Gulf countries (HAAD/DHA), and Australia (AHPRA) — gives Coimbatore learners a global career pathway that few local institutions can match.
+                What sets JKKN apart in the <strong>nursing colleges near Coimbatore</strong> region is its combination of INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The institute offers exam guidance for nurses heading to the UK (NHS), Gulf countries (HAAD/DHA) and Australia (AHPRA).
               </p>
               <p>
                 Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -646,15 +646,15 @@ export default function CoimbatorePage() {
 
             <div className="text-center">
               <p className="text-gray-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-4">
-                COMPANIES THAT HIRE FROM US
+                WHERE NURSING GRADUATES WORK
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mb-6">
                 {[
-                  "Apollo Hospitals",
-                  "Fortis",
-                  "Manipal Hospitals",
-                  "AIIMS",
-                  "Gulf Healthcare Recruiters",
+                  "Multi-specialty hospitals",
+                  "Government hospitals",
+                  "Nursing colleges",
+                  "Community health",
+                  "Abroad, after licensure",
                 ].map((company) => (
                   <span
                     key={company}
@@ -778,15 +778,15 @@ export default function CoimbatorePage() {
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">60+</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Recruiting Partners</div>
-                <p className="text-gray-400 text-xs mt-2">Apollo, Sun Pharma, NHS UK, and more top healthcare employers</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">₹3.6 LPA</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">Median Salary (UG 2024-25)</div>
+                <p className="text-gray-400 text-xs mt-2">NIRF 2026 data submitted by the college</p>
               </div>
 
               <div className="bg-white rounded-2xl p-5 sm:p-6 shadow-sm text-center">
-                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">25 LPA</div>
-                <div className="text-gray-500 text-sm sm:text-base font-medium">Highest Package</div>
-                <p className="text-gray-400 text-xs mt-2">International nursing placements in UK, UAE, and Singapore</p>
+                <div className="text-3xl sm:text-4xl font-bold text-[#006837] mb-2">11 / 11</div>
+                <div className="text-gray-500 text-sm sm:text-base font-medium">M.Sc Placed (2024-25)</div>
+                <p className="text-gray-400 text-xs mt-2">NIRF 2026 data submitted by the college</p>
               </div>
 
               <div className="bg-[#006837] rounded-2xl p-5 sm:p-6 shadow-sm text-center flex flex-col justify-center">

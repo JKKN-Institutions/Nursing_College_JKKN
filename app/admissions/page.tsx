@@ -206,7 +206,7 @@ export default function Admissions() {
                 </div>
                 <div>
                   <h3 className="font-bold text-[#0b7845] text-base mb-1">International Opportunities</h3>
-                  <p className="text-gray-600 text-sm">Career pathways to UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, and Singapore for eligible graduates.</p>
+                  <p className="text-gray-600 text-sm">Career pathways to the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible graduates, after the licence each country requires.</p>
                 </div>
               </div>
 
@@ -720,7 +720,7 @@ export default function Admissions() {
                 },
                 {
                   q: "What is the placement rate at JKKN College of Nursing and Research?",
-                  a: "JKKN consistently achieves a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates.",
+                  a: "JKKN reported a 98% placement rate for 2024-25 (58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000. Graduates can also take nursing roles in the UK (NHS), UAE, Saudi Arabia and Singapore after the licence each country requires.",
                 },
                 {
                   q: "When do classes begin for the 2026-27 academic year?",
@@ -776,7 +776,7 @@ export default function Admissions() {
                   { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
-                  { q: "What is the placement rate at JKKN College of Nursing and Research?", a: "JKKN consistently achieves a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
+                  { q: "What is the placement rate at JKKN College of Nursing and Research?", a: "JKKN reported a 98% placement rate for 2024-25 (58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000. Graduates can also take nursing roles in the UK (NHS), UAE, Saudi Arabia and Singapore after the licence each country requires." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
                   { q: "Where do JKKN nursing learners do their clinical training?", a: "At four affiliated hospitals in Erode: Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode. The list is on the college's Clinical / Hospital Facilities page." },
                 ].map(({ q, a }) => ({

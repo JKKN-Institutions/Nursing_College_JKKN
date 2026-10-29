@@ -743,14 +743,14 @@ export default function NamakkalPage() {
 
             <div className="text-center">
               <p className="text-gray-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest mb-4">
-                COMPANIES THAT HIRE FROM US
+                WHERE NURSING GRADUATES WORK
               </p>
               <div className="flex flex-wrap gap-2 sm:gap-3 justify-center mb-6">
                 {[
-                  "Apollo Hospitals",
-                  "Fortis",
-                  "Manipal Hospitals",
-                  "Gulf Healthcare Recruiters",
+                  "Multi-specialty hospitals",
+                  "Government hospitals",
+                  "Nursing colleges",
+                  "Abroad, after licensure",
                 ].map((company) => (
                   <span
                     key={company}

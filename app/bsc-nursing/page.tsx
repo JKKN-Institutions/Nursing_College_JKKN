@@ -36,12 +36,12 @@ const bscFaqs: { q: string; a: string }[] = [
                 { q: "Is JKKN College of Nursing and Research approved by INC?", a: "Yes, JKKN College of Nursing and Research is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited (B++)." },
                 { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Hostel fee is ₹60,000–75,000 per year." },
                 { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
-                { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. International nurses at NHS UK and UAE hospitals earn ₹15–25 LPA. With experience, senior nurses earn ₹6–8 LPA domestically." },
+                { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. With experience, senior nurses earn ₹6–8 LPA domestically." },
                 { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
                 { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
-                { q: "What are the placement statistics at JKKN College of Nursing and Research?", a: "JKKN College of Nursing and Research has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with 80+ recruiting partners including Apollo Hospitals, Fortis, KIMS, and international employers like NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals. Median salary for the 2024-25 cohort was ₹3,60,000 (NIRF 2026)." },
+                { q: "What are the placement statistics at JKKN College of Nursing and Research?", a: "JKKN College of Nursing and Research has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Median salary for the 2024-25 cohort was ₹3,60,000 (NIRF 2026)." },
                 { q: "Which university is JKKN College of Nursing and Research affiliated to?", a: "JKKN College of Nursing and Research is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
-                { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance. Alumni currently work at NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals." },
+                { q: "Does JKKN provide international nursing placement support?", a: "Yes, JKKN provides comprehensive international placement support including NCLEX preparation for USA, OET and IELTS coaching for UK and Australia, Prometric exam training for Gulf countries, and complete visa assistance." },
                 { q: "What facilities are available at JKKN College of Nursing and Research?", a: "JKKN offers advanced simulation learning labs, anatomy and nursing skills learning labs, a digital learning commons with 10,000+ e-journals, computer learning lab with health informatics software, clinical postings at four affiliated hospitals, separate hostels for male and female learners, transport, sports facilities, Wi-Fi campus, smart learning studios, and a food court." },
                 { q: "Is there a scholarship for B.Sc Nursing at JKKN?", a: "Yes, JKKN offers merit-based fee concessions on 10+2 performance. Government scholarships for BC, MBC, SC and ST learners are also facilitated through the college. Education loan assistance from partner banks is available for eligible learners." },
                 { q: "What is the B.Sc Nursing syllabus at JKKN?", a: "The INC-approved syllabus covers Anatomy, Physiology, Microbiology, and Fundamentals of Nursing in Year 1. Years 2–3 focus on Medical-Surgical Nursing, Community Health, Pediatrics, and OBG Nursing. Year 4 covers Nursing Management, Research, and a mandatory 6-month internship. Clinical rotations begin from Year 1." },
@@ -259,7 +259,7 @@ export default function BScNursing() {
 
                 {/* Snippet-ready definition paragraph — AEO-02 */}
                 <p className="text-lg text-gray-800 font-medium bg-green-50 border-l-4 border-[#006837] p-4 rounded-r-lg mb-6">
-                  <strong>B.Sc Nursing</strong> is a 4-year undergraduate degree program that trains learners to become registered nurses. In Tamil Nadu, over 190 colleges offer this INC-approved course affiliated to TNMGRMU. Eligibility requires 10+2 with PCB (45% minimum). Average starting salary: ₹3.5–4.5 LPA domestic, ₹15–25 LPA international (NHS UK, UAE).
+                  <strong>B.Sc Nursing</strong> is a 4-year undergraduate degree program that trains learners to become registered nurses. In Tamil Nadu, over 190 colleges offer this INC-approved course affiliated to TNMGRMU. Eligibility requires 10+2 with PCB (45% minimum). Median salary of placed JKKN UG graduates, 2024-25: ₹3,60,000 (NIRF 2026 data submitted by the college).
                 </p>
 
                 <p className="text-gray-700 text-lg leading-relaxed mb-6">
@@ -285,7 +285,7 @@ export default function BScNursing() {
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">80+ Hospital Tie-ups</span>
+                    <span className="text-gray-700">4 Affiliated Hospitals in Erode</span>
                   </div>
                   <div className="flex items-start gap-3">
                     <CheckCircleIcon className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
@@ -326,7 +326,7 @@ export default function BScNursing() {
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">98%</div>
                 <h3 className="text-lg font-bold mb-2">Placement Rate (2024-25)</h3>
-                <p className="text-gray-200 text-sm">Recruiters include Apollo, Fortis, KIMS. Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
+                <p className="text-gray-200 text-sm">58 of 59 graduates placed (NIRF 2026 data submitted by the college). Check our <Link href="/placement" className="text-[#7cb983] hover:underline">placement record</Link>.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">₹1.5L</div>
@@ -334,9 +334,9 @@ export default function BScNursing() {
                 <p className="text-gray-200 text-sm">₹1,75,000 a year for male learners, including uniform, hospital training and nursing kit. See the full <Link href="/fee-structure" className="text-[#7cb983] hover:underline">fee structure</Link>.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
-                <div className="text-3xl font-bold text-[#7cb983] mb-2">NHS UK</div>
-                <h3 className="text-lg font-bold mb-2">International Placements</h3>
-                <p className="text-gray-200 text-sm">NCLEX, OET, IELTS coaching. Alumni at NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals.</p>
+                <div className="text-3xl font-bold text-[#7cb983] mb-2">Abroad</div>
+                <h3 className="text-lg font-bold mb-2">Work Abroad Guidance</h3>
+                <p className="text-gray-200 text-sm">NCLEX, OET, IELTS coaching for nurses planning to work abroad.</p>
               </div>
               <div className="bg-gradient-to-br from-[#006837] to-[#002309] rounded-xl p-6 text-white">
                 <div className="text-3xl font-bold text-[#7cb983] mb-2">INC</div>
@@ -1173,7 +1173,7 @@ export default function BScNursing() {
                     <tr className="bg-white"><td className="border border-gray-300 p-3">ICU / Critical Care Nurse</td><td className="border border-gray-300 p-3">₹4.0 – 6.0 LPA</td></tr>
                     <tr className="bg-gray-50"><td className="border border-gray-300 p-3">Nursing Supervisor</td><td className="border border-gray-300 p-3">₹5.0 – 8.0 LPA</td></tr>
                     <tr className="bg-white"><td className="border border-gray-300 p-3">Nursing Educator (after M.Sc)</td><td className="border border-gray-300 p-3">₹4.5 – 7.0 LPA</td></tr>
-                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">International Nurse (NHS UK)</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">₹15 – 25 LPA</td></tr>
+                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">International Nurse (NHS UK)</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Varies by country and licence</td></tr>
                     <tr className="bg-white"><td className="border border-gray-300 p-3">International Nurse (UAE/Singapore)</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">₹12 – 20 LPA</td></tr>
                     <tr className="bg-gray-50"><td className="border border-gray-300 p-3">Defence Services Nurse</td><td className="border border-gray-300 p-3">₹4.0 – 6.0 LPA + Benefits</td></tr>
                   </tbody>
@@ -1195,7 +1195,7 @@ export default function BScNursing() {
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">3</span>
-                    <div><p className="font-semibold text-[#006837]">Years 5–10: Leadership or International</p><p className="text-gray-600 text-sm">Become Nursing Supervisor, Educator, or move to NHS UK/UAE for ₹15–25 LPA.</p></div>
+                    <div><p className="font-semibold text-[#006837]">Years 5–10: Leadership or International</p><p className="text-gray-600 text-sm">Become Nursing Supervisor, Educator, or move abroad after licensure.</p></div>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">4</span>
@@ -1315,8 +1315,8 @@ export default function BScNursing() {
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">80+</div>
-                <div className="text-xl font-semibold mb-2">Recruiting Partners</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">₹3.6L</div>
+                <div className="text-xl font-semibold mb-2">Median Salary, UG 2024-25 (NIRF)</div>
               </div>
 
               <div className="text-center">

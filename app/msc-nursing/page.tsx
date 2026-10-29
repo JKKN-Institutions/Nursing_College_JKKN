@@ -1266,9 +1266,9 @@ export default function MScNursing() {
             </div>
 
             <div className="max-w-4xl mx-auto">
-              <h3 className="text-2xl font-bold text-[#006837] mb-6 text-center">Top Recruiters for M.Sc Nursing Graduates</h3>
+              <h3 className="text-2xl font-bold text-[#006837] mb-6 text-center">Where M.Sc Nursing Graduates Work</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {["Apollo Hospitals", "Fortis Healthcare", "AIIMS", "NHS UK", "Cleveland Clinic Abu Dhabi", "Max Healthcare", "Manipal Hospitals", "Government Hospitals"].map((recruiter) => (
+                {["Nursing colleges (faculty)", "Multi-specialty hospitals", "Government hospitals", "AIIMS and central institutions", "Clinical research", "Public health programmes", "Hospital administration", "Abroad, after licensure"].map((recruiter) => (
                   <div key={recruiter} className="bg-[#FBFBEE] border border-gray-200 rounded-xl p-4 text-center text-sm font-medium text-gray-700">
                     {recruiter}
                   </div>
@@ -2004,7 +2004,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    M.Sc Nursing graduates can work in UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore, and Australia. International positions offer ₹15-60 LPA. JKKN&apos;s placement cell supports international recruitment drives.
+                    M.Sc Nursing graduates can work in UK (NHS), UAE, Saudi Arabia, Singapore, and Australia. International positions offer ₹15-60 LPA.
                   </p>
                 </details>
 
