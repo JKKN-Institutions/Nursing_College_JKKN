@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Placements at JKKN College of Nursing and Research | Recruiters",
+  title: "Placements at JKKN College of Nursing: 98% UG (NIRF 2026)",
   description:
-    "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
+    "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
   keywords:
-    "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, NHS UK nursing jobs, nursing salary india, best nursing college placement",
+    "nursing placement, nursing jobs, JKKN nursing placement, nursing college placement tamil nadu, nursing salary india, NIRF nursing placement",
   openGraph: {
-    title: "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
+    title: "Placements — 98% in 2024-25 (NIRF 2026) | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute Of Nursing And Research placement cell: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters. International placements to UK, UAE, Saudi Arabia.",
+      "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     siteName: "Sresakthimayeil Institute Of Nursing And Research",
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
+    title: "Placements — 98% in 2024-25 (NIRF 2026) | JKKN Nursing",
     description:
-      "Sresakthimayeil Institute Of Nursing And Research: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters, international placements.",
+      "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
     images: ["/images/nursing_logo.png"],
   },
   robots: { index: true, follow: true },
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
 const placementWebPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Placements — 98% in 2024-25, NHS UK | JKKN Nursing",
+  "name": "Placements — 98% in 2024-25 (NIRF 2026) | JKKN Nursing",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
-  "description": "Sresakthimayeil Institute Of Nursing And Research placement cell: 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), 80+ recruiters including NHS UK, Apollo, Cleveland Clinic Abu Dhabi. Salary Rs. 3.5-25 LPA.",
+  "description": "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
   "isPartOf": {
     "@type": "WebSite",
     "url": "https://nursing.sresakthimayeil.jkkn.ac.in/"

@@ -30,9 +30,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Placements at JKKN College of Nursing and Research | Recruiters",
+    "Placements at JKKN College of Nursing: 98% UG (NIRF 2026)",
   description:
-    "Where JKKN nursing graduates go — 80+ hospital partners including Apollo, Fortis and NHS UK, plus the training that gets them there.",
+    "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
   alternates: {
     canonical:
       "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
@@ -45,9 +45,9 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Placements at JKKN College of Nursing and Research — 98% Success Rate | NHS UK, Apollo, Fortis",
+      "Placements at JKKN College of Nursing and Research — 98% in 2024-25",
     description:
-      "98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with 80+ recruiters. International placements in UK, UAE, Singapore, Australia, Canada.",
+      "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
     type: "website",
     siteName: "JKKN College of Nursing and Research",
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title:
       "Placements at JKKN College of Nursing and Research — 98% in 2024-25",
     description:
-      "98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) in 2024-25 (58 of 59, NIRF 2026), 80+ recruiters, international opportunities in UK, UAE, Singapore.",
+      "UG 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000; M.Sc: 11 of 11 placed. NIRF 2026 data submitted by JKKN College of Nursing.",
     images: ["/images/Homepage-Hero_Banner-image.webp"],
   },
 };
@@ -79,23 +79,23 @@ export const metadata: Metadata = {
 const faqData = [
   {
     q: "What is the placement rate at JKKN College of Nursing and Research?",
-    a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), as filed in the college's NIRF 2026 submission. Graduates are placed in top hospitals across India and internationally.",
+    a: "In 2024–25, 58 of the 59 learners who graduated in the minimum stipulated time were placed — a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), as filed in the college's NIRF 2026 submission. The median salary of placed UG graduates that year was Rs 3,60,000.",
   },
   {
     q: "Which companies and hospitals recruit from JKKN College of Nursing and Research?",
-    a: "Over 80 recruiters hire from JKKN, including Apollo Hospitals, Fortis Healthcare, Manipal Hospitals, MIOT Hospitals, Kauvery Hospital, KMCH, NHS UK, Cleveland Clinic Abu Dhabi, Saudi German Hospital, Aster DM Healthcare (UAE), Singapore General Hospital, AIIMS, and Government Hospitals across Tamil Nadu.",
+    a: "This page does not name employers until the placement cell publishes a verified recruiter list. What is on record is the NIRF 2026 data submitted by the college: 58 of 59 UG graduates placed in 2024-25 and 11 of 11 M.Sc graduates placed in 2024-25. Ask the placement cell for the current list of recruiting hospitals.",
   },
   {
     q: "What is the average salary package for nursing graduates from JKKN?",
-    a: "The average salary package for JKKN nursing graduates is ₹3.5–4.5 LPA for domestic private hospital placements. Government hospital salaries average ₹5.0–7.0 LPA. International placements (UK NHS) offer ₹20–25 LPA, and Gulf placements (UAE, Saudi Arabia) offer ₹12–18 LPA.",
+    a: "The NIRF 2026 data submitted by the college gives the median salary of placed graduates: Rs 3,60,000 for UG 2024-25, Rs 3,84,000 for UG 2023-24, Rs 1,80,000 for UG 2022-23 and Rs 5,76,000 for M.Sc 2024-25. NIRF does not ask for an average or a salary range.",
   },
   {
-    q: "What is the highest salary package offered to JKKN nursing graduates?",
-    a: "The highest salary package offered to JKKN nursing graduates is ₹25 LPA (international placement through NHS UK). The highest domestic package is ₹8–10 LPA through government hospital placements.",
+    q: "Is there a highest salary package figure for JKKN nursing graduates?",
+    a: "No highest-package figure is on record. NIRF asks colleges for the median salary of placed graduates, not the highest offer, and the NIRF 2026 data submitted by the college gives a median of Rs 3,60,000 for UG 2024-25.",
   },
   {
-    q: "Does JKKN College of Nursing and Research offer international placement opportunities?",
-    a: "Yes. JKKN has a dedicated International Placement Cell that facilitates placements in 6 countries: United Kingdom (NHS), UAE (Cleveland Clinic Abu Dhabi, Aster DM Healthcare), Saudi Arabia (Saudi German Hospital), Singapore, Australia, and Canada. The college provides OET/IELTS coaching, NCLEX-RN preparation, DHA/HAAD/PROMETRIC exam coaching, visa documentation support, and licensing registration guidance.",
+    q: "Does JKKN College of Nursing and Research help nurses who plan to work abroad?",
+    a: "Yes, with exam and paperwork guidance; the college does not publish placement figures for abroad. It provides OET/IELTS coaching, NCLEX-RN preparation, DHA/HAAD/PROMETRIC exam coaching, visa documentation support, and licensing registration guidance.",
   },
   {
     q: "What placement support does JKKN provide to nursing learners?",
@@ -103,11 +103,11 @@ const faqData = [
   },
   {
     q: "When do campus placement drives happen at JKKN College of Nursing and Research?",
-    a: "Campus placement drives at JKKN are conducted throughout the academic year, primarily between August and February. Major hospital chains and international recruiters visit the campus for tests, group discussions, and personal interviews. The placement cell coordinates the entire process from registration to offer acceptance.",
+    a: "Campus placement drives at JKKN are conducted throughout the academic year, primarily between August and February. Recruiting hospitals visit the campus for tests, group discussions, and personal interviews. The placement cell coordinates the entire process from registration to offer acceptance.",
   },
   {
     q: "Can M.Sc Nursing graduates get better placement packages at JKKN?",
-    a: "Yes. M.Sc Nursing graduates from JKKN typically receive higher packages and access to specialized roles including Nursing Educator, Clinical Specialist, Nursing Supervisor, Research Associate, and Hospital Administrator positions. International placements for M.Sc graduates also offer premium packages, particularly in the UK and UAE.",
+    a: "Yes. M.Sc Nursing graduates from JKKN typically receive higher packages and access to specialized roles including Nursing Educator, Clinical Specialist, Nursing Supervisor, Research Associate, and Hospital Administrator positions. In the NIRF 2026 data submitted by the college, 11 of 11 M.Sc graduates were placed in 2024-25, at a median salary of Rs 5,76,000.",
   },
   {
     q: "Does JKKN provide NCLEX and IELTS coaching for international placements?",
@@ -115,7 +115,7 @@ const faqData = [
   },
   {
     q: "What sectors do JKKN nursing graduates work in after placement?",
-    a: "JKKN nursing graduates work across multiple healthcare sectors: Private Hospitals (Apollo, Fortis, Manipal, MIOT), International Hospitals (NHS UK, Cleveland Clinic Abu Dhabi), Government Hospitals (AIIMS, ESI, TN Government), Clinical Research Organizations, Pharmaceutical Companies, Community and Public Health Organizations, and Home Healthcare Services.",
+    a: "Nursing graduates work across private hospitals, international healthcare (after the licence each country requires), government hospitals, clinical research organizations, Pharmaceutical Companies, Community and Public Health Organizations, and Home Healthcare Services.",
   },
 ];
 
@@ -138,7 +138,7 @@ const placementPageSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/placement#webpage",
   name: "Placements at JKKN College of Nursing and Research",
   description:
-    "Comprehensive placement record of JKKN College of Nursing and Research with 98% success rate (2024-25), 80+ recruiters, and international opportunities in 6 countries.",
+    "Placement record of JKKN College of Nursing and Research: UG 2024-25, 58 of 59 graduates placed (98%), median salary Rs 3,60,000 - NIRF 2026 data submitted by the college.",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/placement",
   isPartOf: {
     "@type": "WebSite",
@@ -147,52 +147,6 @@ const placementPageSchema = {
   about: {
     "@type": "EducationalOrganization",
     "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/#organization",
-  },
-  mainEntity: {
-    "@type": "ItemList",
-    name: "Top Recruiters at JKKN College of Nursing and Research",
-    numberOfItems: 15,
-    itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Apollo Hospitals" },
-      { "@type": "ListItem", position: 2, name: "Fortis Healthcare" },
-      { "@type": "ListItem", position: 3, name: "Manipal Hospitals" },
-      { "@type": "ListItem", position: 4, name: "NHS UK" },
-      {
-        "@type": "ListItem",
-        position: 5,
-        name: "Cleveland Clinic Abu Dhabi",
-      },
-      { "@type": "ListItem", position: 6, name: "MIOT Hospitals" },
-      { "@type": "ListItem", position: 7, name: "Kauvery Hospital" },
-      { "@type": "ListItem", position: 8, name: "KMCH" },
-      {
-        "@type": "ListItem",
-        position: 9,
-        name: "Saudi German Hospital",
-      },
-      {
-        "@type": "ListItem",
-        position: 10,
-        name: "Aster DM Healthcare",
-      },
-      {
-        "@type": "ListItem",
-        position: 11,
-        name: "Singapore General Hospital",
-      },
-      { "@type": "ListItem", position: 12, name: "AIIMS" },
-      {
-        "@type": "ListItem",
-        position: 13,
-        name: "Meenakshi Mission Hospital",
-      },
-      {
-        "@type": "ListItem",
-        position: 14,
-        name: "Government Hospitals (Tamil Nadu)",
-      },
-      { "@type": "ListItem", position: 15, name: "ESI Hospitals" },
-    ],
   },
   speakable: {
     "@type": "SpeakableSpecification",
@@ -214,70 +168,36 @@ const yearWiseStats = [
     placed: "58 / 59",
     rate: "98%",
     avgPkg: "₹3.6 LPA",
-    highPkg: "₹25 LPA (International)",
+    highPkg: "NIRF 2026",
   },
   {
     year: "2023–24",
     placed: "55 / 60",
     rate: "92%",
     avgPkg: "₹3.84 LPA",
-    highPkg: "₹22 LPA (International)",
+    highPkg: "NIRF 2026",
   },
   {
     year: "2022–23",
     placed: "51 / 51",
     rate: "100%",
     avgPkg: "₹1.8 LPA",
-    highPkg: "₹20 LPA (International)",
-  },
-];
-
-const salaryRanges = [
-  {
-    category: "India (Private Hospitals)",
-    starting: "₹2.5–3.0 LPA",
-    average: "₹3.5–4.5 LPA",
-    top: "₹6–8 LPA",
-  },
-  {
-    category: "India (Government)",
-    starting: "₹3.5–4.5 LPA",
-    average: "₹5.0–7.0 LPA",
-    top: "₹8–10 LPA",
-  },
-  {
-    category: "International (UK / NHS)",
-    starting: "₹15–18 LPA",
-    average: "₹20–25 LPA",
-    top: "₹25+ LPA",
-  },
-  {
-    category: "International (Gulf / UAE)",
-    starting: "₹8–12 LPA",
-    average: "₹12–18 LPA",
-    top: "₹20+ LPA",
+    highPkg: "NIRF 2026",
   },
 ];
 
 const recruitersIndia = [
-  "Apollo Hospitals",
-  "Fortis Healthcare",
-  "Manipal Hospitals",
-  "MIOT Hospitals",
-  "Kauvery Hospital",
-  "Meenakshi Mission Hospital",
-  "KMCH",
-  "Kaveri Hospital",
-  "Narayana Health",
-  "KIMS",
+  "Multi-specialty hospitals",
+  "Super-specialty hospitals",
+  "Nursing homes",
+  "Dialysis and diagnostic centres",
 ];
 
 const recruitersInternational = [
-  "NHS UK",
-  "Cleveland Clinic Abu Dhabi",
-  "Saudi German Hospital",
-  "Aster DM Healthcare (UAE)",
-  "Singapore General Hospital",
+  "UK (after NMC registration)",
+  "UAE (after DHA / DOH licence)",
+  "Saudi Arabia (after SCFHS registration)",
+  "Singapore (after SNB registration)",
 ];
 
 const recruitersGovernment = [
@@ -291,34 +211,34 @@ const internationalDestinations = [
   {
     country: "United Kingdom",
     flag: "🇬🇧",
-    employers: "NHS (National Health Service)",
+    employers: "NHS and private hospitals (after NMC registration)",
     support:
       "OET / IELTS coaching, NMC registration guidance, CBT exam preparation, visa documentation support",
-    pkgRange: "₹15–25+ LPA",
+    pkgRange: "Salary set by the employer",
   },
   {
     country: "UAE",
     flag: "🇦🇪",
-    employers: "Cleveland Clinic Abu Dhabi, Aster DM Healthcare",
+    employers: "Hospitals licensed by DHA / DOH",
     support:
       "DHA / HAAD exam coaching, Emirates nursing licensing, employment visa support",
-    pkgRange: "₹8–20+ LPA",
+    pkgRange: "Salary set by the employer",
   },
   {
     country: "Saudi Arabia",
     flag: "🇸🇦",
-    employers: "Saudi German Hospital",
+    employers: "Hospitals registered with SCFHS",
     support:
       "PROMETRIC exam preparation, SCFHS registration guidance, Iqama process support",
-    pkgRange: "₹8–18 LPA",
+    pkgRange: "Salary set by the employer",
   },
   {
     country: "Singapore",
     flag: "🇸🇬",
-    employers: "Singapore General Hospital & private hospitals",
+    employers: "Public and private hospitals (after SNB registration)",
     support:
       "SNB registration guidance, language proficiency preparation, work visa support",
-    pkgRange: "₹10–20 LPA",
+    pkgRange: "Salary set by the employer",
   },
   {
     country: "Australia",
@@ -326,7 +246,7 @@ const internationalDestinations = [
     employers: "Public & private hospital networks",
     support:
       "IELTS / OET coaching, AHPRA registration guidance, skills assessment support",
-    pkgRange: "₹15–25 LPA",
+    pkgRange: "Salary set by the employer",
   },
   {
     country: "Canada",
@@ -334,7 +254,7 @@ const internationalDestinations = [
     employers: "Provincial health authorities",
     support:
       "NCLEX-RN preparation, provincial nursing college registration, Express Entry documentation",
-    pkgRange: "₹15–25 LPA",
+    pkgRange: "Salary set by the employer",
   },
 ];
 
@@ -342,44 +262,38 @@ const sectorCards = [
   {
     icon: HeartIcon,
     title: "Private Hospitals",
-    desc: "Leading hospital chains like Apollo, Fortis, Manipal, and MIOT offer clinical nursing roles in ICU, OT, Emergency, and Specialty departments.",
-    recruiters: "Apollo, Fortis, Manipal, MIOT, Kauvery, KMCH",
-    percentage: "45%",
+    desc: "Clinical nursing roles in ICU, OT, Emergency, and Specialty departments of private hospitals.",
+    recruiters: "Multi-specialty and super-specialty hospitals",
   },
   {
     icon: GlobeAltIcon,
     title: "International Healthcare",
-    desc: "Premium placements in UK (NHS), UAE, Saudi Arabia, Singapore, Australia, and Canada.",
-    recruiters: "NHS UK, Cleveland Clinic Abu Dhabi, Aster DM, Singapore GH",
-    percentage: "20%",
+    desc: "Nursing roles in the UK, UAE, Saudi Arabia, Singapore, Australia, and Canada after the licence each country requires.",
+    recruiters: "After NMC / DHA / SCFHS / SNB / AHPRA licensing",
   },
   {
     icon: ShieldCheckIcon,
     title: "Government Hospitals",
     desc: "Stable government positions in AIIMS, ESI, Tamil Nadu government hospitals, and Primary Health Centers with excellent benefits.",
     recruiters: "AIIMS, ESI, TN Govt Hospitals, PHC/CHC",
-    percentage: "15%",
   },
   {
     icon: BeakerIcon,
     title: "Clinical Research",
     desc: "Research associate and clinical trial coordinator roles in pharmaceutical and clinical research organizations.",
     recruiters: "Pharma CROs, Research Institutes",
-    percentage: "8%",
   },
   {
     icon: AcademicCapIcon,
     title: "Nursing Education",
     desc: "Teaching and faculty positions in nursing colleges, medical universities, and healthcare training institutes. Preferred for M.Sc graduates.",
     recruiters: "Nursing Colleges, Medical Universities",
-    percentage: "7%",
   },
   {
     icon: HomeModernIcon,
     title: "Community & Home Health",
     desc: "Community health nursing, home healthcare services, public health programs, and NGO healthcare initiatives.",
     recruiters: "Home Health Agencies, NGOs, Public Health Orgs",
-    percentage: "5%",
   },
 ];
 
@@ -501,10 +415,9 @@ export default function PlacementsPage() {
                 98% Placement Success Rate — Your Nursing Career Starts Here
               </h1>
               <p className="text-green-100 text-base sm:text-lg lg:text-xl mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
-                80+ recruiters including NHS UK, Apollo, Fortis, and Cleveland
-                Clinic Abu Dhabi. Domestic and international placements with
-                packages from ₹3.5 LPA to ₹25 LPA. Dedicated placement cell
-                with NCLEX, OET, IELTS coaching and full visa support.
+                UG 2024-25: 58 of 59 graduates placed, median salary ₹3,60,000 (NIRF 2026
+                data submitted by the college). Placement cell with NCLEX, OET and IELTS
+                coaching and visa guidance.
               </p>
 
               {/* Hero Stats */}
@@ -519,18 +432,18 @@ export default function PlacementsPage() {
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 sm:p-6 border border-white/20">
                   <p className="text-3xl sm:text-4xl font-bold text-[#FFD700]">
-                    80+
+                    ₹3.6 LPA
                   </p>
                   <p className="text-green-100 text-sm mt-1">
-                    Recruiting Partners
+                    Median Salary, UG 2024-25
                   </p>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl p-5 sm:p-6 border border-white/20">
                   <p className="text-3xl sm:text-4xl font-bold text-[#FFD700]">
-                    ₹25 LPA
+                    11 / 11
                   </p>
                   <p className="text-green-100 text-sm mt-1">
-                    Highest Package (International)
+                    M.Sc Placed, 2024-25 (NIRF)
                   </p>
                 </div>
               </div>
@@ -568,8 +481,8 @@ export default function PlacementsPage() {
                 Year-Wise Placement Statistics
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Consistent placement track record with growing packages and
-                increasing international opportunities every year.
+                UG placement and median salary as filed by the college in its NIRF 2026
+                submission (Inst. Code 262). NIRF does not ask for a highest package.
               </p>
             </div>
 
@@ -590,7 +503,7 @@ export default function PlacementsPage() {
                       Median Salary (India)
                     </th>
                     <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Highest Package
+                      Source
                     </th>
                   </tr>
                 </thead>
@@ -642,11 +555,11 @@ export default function PlacementsPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3">
-                Our Top Recruiting Partners
+                Where Nursing Graduates Work
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                80+ hospitals, healthcare chains, and international employers
-                actively recruit from JKKN College of Nursing and Research.
+                Sectors open to nursing graduates. Employer names are listed only after the
+                placement cell publishes a verified recruiter list.
               </p>
             </div>
 
@@ -707,67 +620,6 @@ export default function PlacementsPage() {
         </section>
 
         {/* ═══════════════════════════════════════════
-            SECTION 4: SALARY RANGES
-            ═══════════════════════════════════════════ */}
-        <section className="py-12 sm:py-16 lg:py-20 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-16">
-            <div className="text-center mb-8 sm:mb-12">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3">
-                Salary Packages — Domestic & International
-              </h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Competitive salary ranges across private hospitals, government
-                positions, and international placements.
-              </p>
-            </div>
-
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse rounded-xl overflow-hidden shadow-sm">
-                <thead>
-                  <tr className="bg-[#0b7845] text-white">
-                    <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Category
-                    </th>
-                    <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Starting Salary
-                    </th>
-                    <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Average Salary
-                    </th>
-                    <th className="px-4 sm:px-6 py-3 sm:py-4 text-left text-sm sm:text-base font-semibold">
-                      Top Package
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {salaryRanges.map((row, idx) => (
-                    <tr
-                      key={row.category}
-                      className={
-                        idx % 2 === 0 ? "bg-green-50/50" : "bg-white"
-                      }
-                    >
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base font-medium text-gray-800">
-                        {row.category}
-                      </td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base text-gray-700">
-                        {row.starting}
-                      </td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base text-gray-700">
-                        {row.average}
-                      </td>
-                      <td className="px-4 sm:px-6 py-3 sm:py-4 text-sm sm:text-base font-semibold text-[#0b7845]">
-                        {row.top}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-
-        {/* ═══════════════════════════════════════════
             MID-PAGE CTA
             ═══════════════════════════════════════════ */}
         <section className="py-10 sm:py-14 bg-gradient-to-r from-[#0b7845] to-[#095d36] text-white">
@@ -778,7 +630,7 @@ export default function PlacementsPage() {
             <p className="text-green-100 mb-6 max-w-xl mx-auto">
               Join the 192 learners who graduated in the last three years
               (2022-23 to 2024-25, per the college&rsquo;s NIRF 2026 filing) and
-              launched careers in healthcare — in India and across 6 countries.
+              launched careers in healthcare.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
@@ -811,8 +663,8 @@ export default function PlacementsPage() {
                 International Placement Destinations
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                JKKN graduates work in 6 countries with dedicated support for
-                licensing exams, registration, and visa processing.
+                Countries Indian nurses commonly move to, the licence each one needs, and
+                the exam and paperwork guidance the college offers.
               </p>
             </div>
 
@@ -881,9 +733,6 @@ export default function PlacementsPage() {
                         <h3 className="text-lg font-semibold text-gray-800">
                           {sector.title}
                         </h3>
-                        <span className="text-sm text-[#0b7845] font-medium">
-                          ~{sector.percentage} of graduates
-                        </span>
                       </div>
                     </div>
                     <p className="text-sm text-gray-700 mb-3">
@@ -898,9 +747,6 @@ export default function PlacementsPage() {
               })}
             </div>
 
-            <p className="text-xs text-gray-500 mt-6 text-center">
-              * Sector percentages are indicative and vary by academic year.
-            </p>
           </div>
         </section>
 
@@ -1059,8 +905,7 @@ export default function PlacementsPage() {
               Build Your Healthcare Career with JKKN
             </h2>
             <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-              98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). 80+ recruiters. International opportunities in
-              6 countries. Dedicated placement cell with complete career support
+              98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college). Placement cell with career support
               — from exam coaching to visa assistance.
             </p>
 
@@ -1081,9 +926,9 @@ export default function PlacementsPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <GlobeAltIcon className="w-8 h-8 text-[#FFD700] mx-auto mb-2" />
-                <p className="font-semibold">6 Countries</p>
+                <p className="font-semibold">Exam Guidance</p>
                 <p className="text-green-200 text-sm">
-                  International Placements
+                  NCLEX, OET, IELTS for work abroad
                 </p>
               </div>
             </div>
