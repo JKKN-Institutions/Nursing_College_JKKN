@@ -72,7 +72,7 @@ const faqs = [
   },
   {
     q: "Which nursing colleges are near Salem?",
-    a: "Salem district has its own INC-approved nursing colleges. JKKN College of Nursing and Research is not one of them - it is in Komarapalayam, Namakkal district, about 57 km away on NH-544 - but it is within reach for Salem learners who prefer a residential campus with an attached multi-specialty teaching hospital.",
+    a: "Salem district has its own INC-approved nursing colleges. JKKN College of Nursing and Research is not one of them - it is in Komarapalayam, Namakkal district, about 57 km away on NH-544 - but it is within reach for Salem learners who prefer a residential campus, with clinical postings at four affiliated hospitals in Erode.",
   },
   {
     q: "What nursing courses are available near Salem?",
@@ -93,7 +93,7 @@ const whyChooseItems = [
   {
     icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
     title: "Hospital Training",
-    desc: "Attached to JKKN group hospitals — direct patient care exposure",
+    desc: "Postings at four affiliated hospitals in Erode, including Government Headquarters Hospital",
   },
   {
     icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
@@ -478,7 +478,7 @@ export default function SalemPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Salem sits at the eastern end of NH-544 - the highway is named for the Salem to Coimbatore route - and the JKKN campus is on it,57 km away at Komarapalayam. Salem is one of the few towns JKKN draws from where a learner realistically has both options open: hostel, or the daily run down the highway. Which one suits you turns on your clinical posting timings rather than on the distance, because first-year postings at the attached teaching hospital start early.
+                Salem sits at the eastern end of NH-544 - the highway is named for the Salem to Coimbatore route - and the JKKN campus is on it,57 km away at Komarapalayam. Salem is one of the few towns JKKN draws from where a learner realistically has both options open: hostel, or the daily run down the highway. Which one suits you turns on your clinical posting timings rather than on the distance.
               </p>
               <p>
                 Salem, the fifth-largest city in Tamil Nadu, is a major educational and healthcare hub with a thriving steel industry. Known for its medical infrastructure, Salem has several healthcare facilities but a limited number of INC-approved <strong>nursing colleges in Salem</strong> that offer both quality education and strong placement outcomes.
@@ -487,7 +487,7 @@ export default function SalemPage() {
                 Learners searching for <strong>B.Sc nursing colleges in Salem</strong> often find that the INC-approved options lie within a commute radius. JKKN College of Nursing and Research (JKKN College of Nursing and Research) in Komarapalayam is just 57 km from Salem via NH-544 — a smooth about 1 hour drive with excellent highway connectivity.
               </p>
               <p>
-                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers its attached multi-specialty teaching hospital providing clinical exposure from Year 1, INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners train at the attached multi-specialty teaching hospital on the same campus, from the first year of the programme.
+                Among nursing colleges serving the <strong>Salem</strong> region, JKKN offers clinical postings at four affiliated hospitals in Erode, INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Salem learners do their clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital.
               </p>
               <p>
                 Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -496,7 +496,7 @@ export default function SalemPage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="attached teaching hospital for nursing students near Salem"
+                    alt="hospital clinical training for nursing students near Salem"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"

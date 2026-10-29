@@ -59,7 +59,7 @@ const faqs = [
   },
   {
     q: "Which nursing colleges are near Tiruppur?",
-    a: "Tiruppur district has its own INC-approved nursing colleges. JKKN College of Nursing and Research is not one of them - it is in Komarapalayam, Namakkal district, about 66 km away on NH-544 - but it is within reach for Tiruppur learners who prefer a residential campus with an attached multi-specialty teaching hospital.",
+    a: "Tiruppur district has its own INC-approved nursing colleges. JKKN College of Nursing and Research is not one of them - it is in Komarapalayam, Namakkal district, about 66 km away on NH-544 - but it is within reach for Tiruppur learners who prefer a residential campus, with clinical postings at four affiliated hospitals in Erode.",
   },
   {
     q: "What B.Sc nursing courses are available near Tiruppur?",
@@ -80,7 +80,7 @@ const whyChooseItems = [
   {
     icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
     title: "Hospital Training",
-    desc: "Attached to JKKN group hospitals — direct patient care exposure",
+    desc: "Postings at four affiliated hospitals in Erode, including Government Headquarters Hospital",
   },
   {
     icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
@@ -468,7 +468,7 @@ export default function TiruppurPage() {
                   distance would be invented. Erode is deliberately NOT given one of these -
                   it holds live desktop #1 and is left alone. */}
               <p>
-                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 66 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the same campus as the attached teaching hospital where first-year clinical postings take place, so a resident learner is walking to the ward rather than travelling to it.
+                Tiruppur is not on NH-544. The road from Tiruppur runs through Erode before it joins the Salem to Coimbatore highway that the JKKN campus sits on, which is why the 66 km reads longer than a map suggests. For a Tiruppur learner this is a hostel decision. The hostel is on the campus, and clinical postings take place at four affiliated hospitals in Erode.
               </p>
               <p>
                 Tiruppur, the knitwear capital of India and a major export hub in Tamil Nadu, is known for its thriving textile industry and growing urban infrastructure. While Tiruppur has expanded rapidly in commerce and industry, the availability of INC-approved <strong>nursing colleges in Tiruppur</strong> remains limited, prompting learners to look beyond city limits for quality nursing education.
@@ -477,7 +477,7 @@ export default function TiruppurPage() {
                 For learners searching for the <strong>nursing colleges near Tiruppur</strong>, JKKN College of Nursing and Research (JKKN College of Nursing and Research) in Komarapalayam offers a compelling choice. Located 66 km from Tiruppur with well-connected road access, the campus provides the kind of clinical infrastructure and placement record that is difficult to find in the <strong>Tiruppur nursing college list</strong>.
               </p>
               <p>
-                JKKN&apos;s integrated campus features an attached multi-specialty teaching hospital, ensuring hands-on clinical training from the very first year. The institute holds INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
+                JKKN&apos;s learners do hands-on clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital. The institute holds INC approval, NAAC accreditation (B++), and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai — credentials that families can verify with INC and the university.
               </p>
               <p>
                 Looking for the college itself rather than a city list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -486,7 +486,7 @@ export default function TiruppurPage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="attached teaching hospital for nursing students near Tiruppur"
+                    alt="hospital clinical training for nursing students near Tiruppur"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"
@@ -517,7 +517,7 @@ export default function TiruppurPage() {
                 Why Tiruppur Learners Choose JKKN
               </h2>
               <p className="text-gray-500 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed px-2">
-                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation (B++), and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Learners from Tiruppur benefit from secure hostel facilities and clinical training on the same campus as an attached multi-specialty teaching hospital.
+                Among nursing colleges serving the Tiruppur region, JKKN offers INC approval, NAAC accreditation (B++), and 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Learners from Tiruppur benefit from secure hostel facilities and clinical postings at four affiliated hospitals in Erode.
               </p>
               <div className="w-12 h-1 bg-[#7cb983] rounded mx-auto mt-4"></div>
             </div>

@@ -1074,9 +1074,9 @@ export default function PlacementsPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">
                 <ChartBarIcon className="w-8 h-8 text-[#FFD700] mx-auto mb-2" />
-                <p className="font-semibold">Attached Teaching Hospital</p>
+                <p className="font-semibold">Affiliated Hospital Training</p>
                 <p className="text-green-200 text-sm">
-                  Clinical Training from Year 1
+                  Four affiliated hospitals in Erode
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20">

@@ -115,7 +115,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     whyThis: [
       { title: "INC-Approved Curriculum", desc: "Follows the Indian Nursing Council's revised B.Sc Nursing curriculum with TNMGRMU university framework." },
-      { title: "Clinical Posting from Year 1", desc: "Hands-on training at the attached JKKN Multi-Specialty Teaching Hospital." },
+      { title: "Clinical Postings", desc: "Hands-on training at four affiliated hospitals in Erode, including Government Headquarters Hospital." },
       { title: "98% Placement Track Record (2024-25)", desc: "Consistent placements at top corporate hospitals across India and abroad." },
     ],
     faqs: [
@@ -218,7 +218,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     whyThis: [
       { title: "5 Specializations Under One Roof", desc: "Choose from Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health — all with dedicated senior learners." },
       { title: "Research & Thesis Mentorship", desc: "Guided dissertation with publication support and ethical clearance via JKKN Research Committee." },
-      { title: "Clinical Practice + Teaching Exposure", desc: "Dual training — clinical postings in JKKN Hospital plus teaching experience in undergraduate programs." },
+      { title: "Clinical Practice + Teaching Exposure", desc: "Dual training — clinical postings at affiliated hospitals plus teaching experience in undergraduate programs." },
     ],
     faqs: [
       { q: "What is the eligibility for M.Sc Nursing at JKKN?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate (50% for SC / SCA / ST), valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },

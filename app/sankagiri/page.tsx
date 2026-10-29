@@ -21,7 +21,7 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Sankagiri is a fast-growing town in Salem district, known for the historic Sankagiri Fort and its position on NH-544, the Salem-Coimbatore national highway. Its location between Salem and Erode gives learners easy access to institutions on the highway corridor.",
     "For nursing aspirants from Sankagiri, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is an INC-approved option about 17 km down NH-544 at Komarapalayam, a straight 30-minute drive with no route changes. Every highway bus between Salem and Erode passes both towns.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training is hospital-based at the JKKN group's multi-specialty teaching hospital — learners work with real patients from the first year.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
     "The direct highway connection makes daily commuting practical for Sankagiri learners, and secure separate hostels for boys and girls are available for those who prefer campus stay. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Sankagiri learners can build a global nursing career just half an hour from home.",
   ],
   whyHeading: "Why Sankagiri Learners Choose JKKN — Straight Down NH-544",

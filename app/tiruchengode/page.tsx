@@ -21,7 +21,7 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Tiruchengode is one of the major towns of Namakkal district, famous for the hilltop Ardhanareeswarar Temple and as a national hub for the borewell rig industry. The town has a strong educational ecosystem, and healthcare careers — especially nursing — are a popular choice for learners from Tiruchengode taluk.",
     "For nursing aspirants here, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam is an INC-approved option about 22 km away by the direct Tiruchengode-Komarapalayam road, within the same Namakkal district. No relocation to Salem, Erode or Coimbatore is needed.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Learners train at the JKKN group's multi-specialty teaching hospital, getting real patient-care exposure from the first year.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Learners do their clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
     "Tiruchengode learners can commute daily (about 30-40 minutes by bus or two-wheeler) or choose the secure on-campus hostels with separate blocks for boys and girls. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), a global nursing career starts close to home.",
   ],
   whyHeading: "Why Tiruchengode Learners Choose JKKN — Same-District Nursing College",

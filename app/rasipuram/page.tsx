@@ -21,7 +21,7 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Rasipuram is a well-known town in Namakkal district, famous for its traditional silk saree weaving and its strong schooling culture. Learners from Rasipuram taluk regularly pursue professional courses across the district and neighbouring Salem, and healthcare careers are a growing preference.",
     "For nursing aspirants, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) at Komarapalayam is a same-district option — about 60 km away via Tiruchengode, roughly an hour by road. Learners get an INC-approved institute without leaving Namakkal district.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at the JKKN group's multi-specialty teaching hospital, giving learners direct patient-care exposure from the first year.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
     "Most Rasipuram learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), with the one-hour distance making weekend trips home easy. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Rasipuram learners can launch a global career from within their own district.",
   ],
   whyHeading: "Why Rasipuram Learners Choose JKKN — Same-District Nursing College",

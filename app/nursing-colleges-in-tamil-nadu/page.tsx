@@ -217,8 +217,8 @@ export default function TamilNaduNursingCollegesPage() {
               On our own side of it, plainly: JKKN College of Nursing and Research is one of the{" "}
               {TN_TOTALS.colleges} colleges on this list, institution code 262, Namakkal district,
               with 60 sanctioned B.Sc Nursing seats. We are not claiming a rank we cannot show you.
-              What we can put next to those four criteria is a multi-specialty teaching hospital on
-              the same campus with postings from the first year, and a 98% placement rate for
+              What we can put next to those four criteria is clinical postings at four affiliated
+              hospitals in Erode, including Government Headquarters Hospital, and a 98% placement rate for
               2024-25 — 58 of 59 graduates, as published in our NIRF 2026 submission.
             </p>
           </div>

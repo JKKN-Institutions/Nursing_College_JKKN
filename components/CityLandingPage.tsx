@@ -155,7 +155,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
     {
       icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
       title: "Hospital Training",
-      desc: "Attached to JKKN group hospitals — direct patient care exposure",
+      desc: "Postings at four affiliated hospitals in Erode, including Government Headquarters Hospital",
     },
     {
       icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
@@ -418,7 +418,7 @@ export default function CityLandingPage({ config }: { config: CityPageConfig }) 
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt={`Teaching hospital for nursing learners near ${config.cityName}`}
+                    alt={`Hospital clinical training for nursing learners near ${config.cityName}`}
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"

@@ -84,7 +84,7 @@ const whyChooseItems = [
   {
     icon: <HeartIcon className="w-10 h-10 text-[#006837]" />,
     title: "Hospital Training",
-    desc: "Attached to JKKN group hospitals — direct patient care exposure",
+    desc: "Postings at four affiliated hospitals in Erode, including Government Headquarters Hospital",
   },
   {
     icon: <GlobeAltIcon className="w-10 h-10 text-[#006837]" />,
@@ -477,7 +477,7 @@ export default function ErodePage() {
                 Learners searching for <strong>nursing colleges in Erode</strong> sometimes look just outside the district as well. JKKN College of Nursing and Research is in Komarapalayam, Namakkal district — 18 km from Erode on the NH-544 highway, about 20-30 minutes by road — which keeps it within daily commuting distance for many Erode learners looking at the wider <strong>Erode nursing college list</strong>.
               </p>
               <p>
-                JKKN College of Nursing and Research is <strong>not in Erode district</strong>. What it adds for an Erode learner is an integrated campus with an attached multi-specialty teaching hospital, providing clinical exposure from the very first year. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                JKKN College of Nursing and Research is <strong>not in Erode district</strong>. What it adds for an Erode learner is an integrated campus whose clinical postings are at four affiliated hospitals in Erode itself, including Government Headquarters Hospital. The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
               </p>
               <p>
                 Looking for the college itself rather than a district list? <a href="/" className="text-[#006837] font-semibold hover:underline">JKKN College of Nursing and Research</a> has the full course, fee and admission details on its main page.
@@ -486,7 +486,7 @@ export default function ErodePage() {
                 <div className="flex-1 rounded-xl overflow-hidden">
                   <Image
                     src="/images/Clinical_HospitalFacilities-1.webp"
-                    alt="attached teaching hospital for nursing students near Erode"
+                    alt="hospital clinical training for nursing students near Erode"
                     width={600}
                     height={300}
                     className="w-full h-40 sm:h-48 object-cover rounded-xl"

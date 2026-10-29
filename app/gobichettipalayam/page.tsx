@@ -21,7 +21,7 @@ const config: CityPageConfig = {
   landscapeParagraphs: [
     "Gobichettipalayam (Gobi) is a major town in the western part of Erode district, known for its agriculture, coconut and turmeric trade, and as a scenic location frequently featured in Tamil cinema. Learners from Gobi taluk looking for professional healthcare education usually have to consider colleges in Erode, Coimbatore or beyond.",
     "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) in Komarapalayam offers Gobi learners an accessible alternative — about 38 km via the Gobi-Bhavani road, roughly an hour's journey. For a hostel-based nursing education, that distance allows weekend trips home.",
-    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training happens at the JKKN group's multi-specialty teaching hospital, so learners build real patient-care skills from the first year onwards.",
+    "The institute is approved by the Indian Nursing Council (INC), accredited by NAAC (B++), and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Clinical training takes place at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
     "Most Gobichettipalayam learners choose the secure on-campus hostels (separate blocks for boys and girls with mess facilities), while some commute via Bhavani. With 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international nursing pathways (UK NHS, Gulf HAAD/DHA, Australia AHPRA), Gobi learners get a global career launchpad within an hour of home.",
   ],
   whyHeading: "Why Gobichettipalayam Learners Choose JKKN",

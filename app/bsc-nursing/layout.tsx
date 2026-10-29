@@ -49,7 +49,7 @@ const bscNursingSchema = {
   "@id": "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing#course",
   name: "Bachelor of Science in Nursing (B.Sc Nursing)",
   description:
-    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing and Research, Komarapalayam, Tamil Nadu. Clinical training at attached teaching hospital from Year 1. NAAC accredited (B++). 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+    "4-year INC-approved undergraduate nursing program at JKKN College of Nursing and Research, Komarapalayam, Tamil Nadu. Clinical postings at four affiliated hospitals in Erode. NAAC accredited (B++). 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   url: "https://nursing.sresakthimayeil.jkkn.ac.in/bsc-nursing",
   dateModified: "2026-04-11",
   provider: {

@@ -183,8 +183,8 @@ export default function Admissions() {
                   🏥
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#0b7845] text-base mb-1">Attached Teaching Hospital</h3>
-                  <p className="text-gray-600 text-sm">Hands-on clinical training from Year 1 at our attached multi-specialty teaching hospital with real patient exposure.</p>
+                  <h3 className="font-bold text-[#0b7845] text-base mb-1">Affiliated Hospital Training</h3>
+                  <p className="text-gray-600 text-sm">Hands-on clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital, with real patient exposure.</p>
                 </div>
               </div>
 
@@ -727,8 +727,8 @@ export default function Admissions() {
                   a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications.",
                 },
                 {
-                  q: "Does JKKN have its own teaching hospital for clinical training?",
-                  a: "Yes. JKKN has an attached multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health.",
+                  q: "Where do JKKN nursing learners do their clinical training?",
+                  a: "At four affiliated hospitals in Erode: Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode. The list is on the college's Clinical / Hospital Facilities page.",
                 },
               ].map(({ q, a }, idx) => (
                 <details
@@ -778,7 +778,7 @@ export default function Admissions() {
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
                   { q: "What is the placement rate at JKKN College of Nursing and Research?", a: "JKKN consistently achieves a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Graduates are placed in leading hospitals across India including Apollo, Fortis, Manipal, and CMC, as well as international opportunities in the UK (NHS), UAE, Saudi Arabia, and Singapore for eligible candidates." },
                   { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
-                  { q: "Does JKKN have its own teaching hospital for clinical training?", a: "Yes. JKKN has an attached multi-specialty teaching hospital where learners get hands-on clinical exposure from the first year itself. The hospital covers all major specialties — medical, surgical, OBG, pediatrics, psychiatry, and community health." },
+                  { q: "Where do JKKN nursing learners do their clinical training?", a: "At four affiliated hospitals in Erode: Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode. The list is on the college's Clinical / Hospital Facilities page." },
                 ].map(({ q, a }) => ({
                   "@type": "Question",
                   "name": q,

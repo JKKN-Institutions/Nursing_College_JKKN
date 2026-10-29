@@ -69,7 +69,7 @@ const faqSchema = {
       "name": "What clinical training facilities are available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
+        "text": "Our learners receive clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments."
       }
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
       "name": "How do I choose the best nursing college in Tamil Nadu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district."
+        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital."
       }
     }
   ]
@@ -310,7 +310,7 @@ export default async function Home() {
 
                 {/* Description */}
                 <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 md:mb-10 max-w-3xl leading-relaxed">
-                  Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, attached-hospital training, and 98% placement success.
+                  Join JKKN College of Nursing and Research and become a compassionate healthcare professional. B.Sc, M.Sc and Post Basic Nursing programs with state-of-the-art simulation labs, clinical postings at four affiliated hospitals, and 98% placement success.
                 </p>
 
                 {/* CTA Buttons — 2026-10-16: the call-back button leads; lg and up also has the form card on the right */}
@@ -396,7 +396,7 @@ export default async function Home() {
               {[
                 { number: "3", label: "NURSING\nPROGRAMS" },
                 { number: "98%", label: "PLACEMENT RATE 2024-25" },
-                { number: "1", label: "ATTACHED TEACHING\nHOSPITAL" },
+                { number: "4", label: "AFFILIATED\nHOSPITALS" },
                 { number: "266", label: "ACTIVE LEARNERS" },
               ].map((stat, index) => (
                 <div
@@ -488,7 +488,7 @@ export default async function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
                   {[
                     "INC approved programs with hospital internship",
-                    "attached teaching hospital for clinical training",
+                    "Clinical postings at four affiliated hospitals",
                     "Advanced nursing simulation laboratory",
                     "International placement partnerships",
                   ].map((feature, index) => (
@@ -730,10 +730,10 @@ export default async function Home() {
                   <BuildingOffice2Icon className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-4">
-                  Attached Hospital Training
+                  Affiliated Hospital Training
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Hands-on clinical training in our attachedded multi-specialty hospital covering all nursing specialities with real patient interactions.
+                  Hands-on clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital, with real patient interactions.
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 hover:bg-white/20 transition-all duration-300">
@@ -1206,7 +1206,7 @@ export default async function Home() {
                 {
                   question: "What clinical training facilities are available?",
                   answer:
-                    "Our Learners receive clinical training at the attachedded multi-specialty hospital covering medicine, surgery, pediatrics, obstetrics, psychiatry, orthopedics, and more. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
+                    "Our learners receive clinical training at four affiliated hospitals in Erode, including Government Headquarters Hospital. We also have advanced simulation labs with high-fidelity mannequins for practicing procedures safely. Community health training is conducted through rural health centers and urban health posts in partnership with government health departments.",
                 },
                 {
                   question: "Is hostel accommodation mandatory?",
@@ -1221,7 +1221,7 @@ export default async function Home() {
                 {
                   question: "How do I choose the best nursing college in Tamil Nadu?",
                   answer:
-                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners train in a attached multi-specialty teaching hospital on the same campus in Komarapalayam, Namakkal district.",
+                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
                 },
               ].map((faq, index) => (
                 <details
