@@ -256,7 +256,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     tagline: "2-year degree program for GNM diploma holders — upgrade your diploma to a full B.Sc Nursing degree",
     duration: "2 Years (4 Semesters)",
     durationISO: "P2Y",
-    seats: "30 Seats",
+    seats: "50 Seats",
     feeShort: "₹65,000/yr (MQ)",
     feeDetailed: [
       { label: "Tuition Fee (Management Quota)", value: "₹65,000 / year" },
