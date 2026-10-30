@@ -119,6 +119,20 @@ const educationalOrganizationSchema = {
       "recognizedBy": { "@type": "Organization", "name": "Indian Nursing Council (INC)" }
     },
     {
+      // NAAC's own list of institutions with valid accreditation as on 14-08-2025, Colleges sheet,
+      // row 6191 (Track-Id TNCOGN111269, AISHE C-45803): cycle 1, CGPA 2.79, grade B++, declared
+      // 05-09-2024. NAAC's grade table puts CGPA 2.76-3.00 at B++ "Accredited". Re-read 2026-10-30.
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Accreditation",
+      "name": "NAAC Accredited (B++), CGPA 2.79, Cycle 1, declared 5 September 2024",
+      "url": "https://nursing.sresakthimayeil.jkkn.ac.in/naac",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "National Assessment and Accreditation Council (NAAC)",
+        "url": "https://www.naac.gov.in/"
+      }
+    },
+    {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Recognition",
       "recognizedBy": { "@type": "Organization", "name": "Tamil Nadu Nurses and Midwives Council (TNNMC)" }
@@ -180,7 +194,7 @@ const educationalOrgSchema = {
     "JKKN College of Nursing and Research",
     "JKKN College of Nursing and Research"
   ],
-  "description": "INC-approved nursing college offering B.Sc, M.Sc, and Post Basic B.Sc Nursing programs. NAAC accredited and affiliated to Tamil Nadu Dr. MGR Medical University.",
+  "description": "INC-approved nursing college offering B.Sc, M.Sc, and Post Basic B.Sc Nursing programs. NAAC accredited (B++) and affiliated to Tamil Nadu Dr. MGR Medical University.",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
