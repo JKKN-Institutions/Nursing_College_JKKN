@@ -70,7 +70,7 @@ const educationalOrganizationSchema = {
     "JKKN College of Nursing and Research",
     "JKKN College of Nursing and Research Komarapalayam"
   ],
-  "description": "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) and international career opportunities including NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals.",
+  "description": "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
@@ -304,31 +304,13 @@ const educationalOrgSchema = {
       "@type": "PropertyValue",
       "name": "Placement Rate",
       "value": "98%",
-      "description": "Placement rate for the 2024-25 graduating cohort: 58 of 59 placed, as filed in NIRF 2026. Overall placement rate for nursing graduates including domestic and international placements"
+      "description": "Placement rate for the 2024-25 graduating cohort: 58 of 59 placed, as filed by the college in NIRF 2026"
     },
     {
       "@type": "PropertyValue",
-      "name": "Highest Package (International)",
-      "value": "25 LPA",
-      "description": "Highest international placement package offered to nursing graduates"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Recruiting Partners",
-      "value": "80+",
-      "description": "Number of active recruiting partners including hospitals, healthcare chains, and international employers"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "International Placement Partners",
-      "value": "NHS UK, Cleveland Clinic Abu Dhabi, Singapore Hospitals",
-      "description": "Key international healthcare organizations that recruit JKKN nursing graduates"
-    },
-    {
-      "@type": "PropertyValue",
-      "name": "Domestic Placement Partners",
-      "value": "Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health",
-      "description": "Top domestic hospital chains that actively recruit from JKKN College of Nursing and Research"
+      "name": "Median Salary, UG 2024-25",
+      "value": "Rs 3,60,000",
+      "description": "Median salary of placed UG graduates, 2024-25, as filed by the college in NIRF 2026"
     }
   ]
 };
@@ -337,7 +319,7 @@ const videoObjectSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "JKKN College of Nursing and Research — Campus Tour, Facilities & Student Life",
-  "description": "Explore JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, attached teaching hospital, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+  "description": "Explore JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) campus tour, nursing simulation labs, hospital clinical training, hostel facilities, and student life at Komarapalayam, Tamil Nadu. B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "thumbnailUrl": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "uploadDate": "2025-01-01",
   "contentUrl": "https://www.youtube.com/playlist?list=PL6QsTq-__HhteTB3-dqN_8hzc7EKycZnY",
