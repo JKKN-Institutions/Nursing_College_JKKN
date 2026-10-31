@@ -318,7 +318,7 @@ export default async function Home() {
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                   <EnquiryButton
                     sourcePage="home-hero-btn"
-                    fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                    fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=home"
                     fallbackLabel="Apply for 2026-27"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base cursor-pointer"
                   >
@@ -1251,7 +1251,7 @@ export default async function Home() {
             <div className="flex flex-wrap gap-4 justify-center">
               <EnquiryButton
                 sourcePage="home-cta"
-                fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=home"
                 fallbackLabel="Apply Online Now →"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >

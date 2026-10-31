@@ -10,7 +10,7 @@ import EnquiryButton from "@/components/lead/EnquiryButton"
 // "Enquire Now" opens the 3-box enquiry form in place - on the homepage since 2026-10-16, on every
 // page since 2026-10-22 (user's choice; the modal provider now wraps all pages). The jkkn.ai link
 // below is only the fallback for a page rendered without that provider.
-const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header";
+const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=components-header";
 
 export default function Header() {
   // Homepage header leads keep their old CRM tag (home-header) so the before / after comparison

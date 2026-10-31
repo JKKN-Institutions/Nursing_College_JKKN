@@ -20,7 +20,7 @@ import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm"
 import { sendGaEvent } from "@/lib/ga-event"
 import { campaignTagsSnapshot, parseCampaignTags, tagApplyHref } from "@/lib/campaign-tags"
 
-const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_medium=organic"
+const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in"
 const SITE_HOST = "nursing.sresakthimayeil.jkkn.ac.in"
 
 type OpenOptions = { withPoster?: boolean }
