@@ -19,6 +19,7 @@
 import { useActionState, useEffect, useId, useRef } from "react"
 import { CheckCircle2, ChevronDown } from "lucide-react"
 import { submitNursingEnquiry, type NursingEnquiryState } from "@/app/actions/nursing-enquiry"
+import CampaignFields from "@/components/lead/CampaignFields"
 import { NURSING_PROGRAMMES } from "@/lib/nursing-programmes"
 import { ENQUIRY_DONE_KEY, writeStore } from "@/lib/enquiry-store"
 
@@ -144,6 +145,7 @@ export default function NursingEnquiryForm({
   return (
     <form action={formAction} className={`${surface} space-y-4 text-left`}>
       <input type="hidden" name="source_page" value={sourcePage} />
+      <CampaignFields />
 
       {/* Honeypot. Off-screen rather than display:none - a real browser autofill will not reach
           it and a bot will. Never remove: the CRM scores this field. */}
