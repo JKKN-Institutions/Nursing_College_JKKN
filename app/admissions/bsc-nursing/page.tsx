@@ -8,17 +8,22 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 
 const course = coursesAdmission.bsc;
 
+// 2026-11-02. Title and description rewritten for the search this page is actually shown for:
+// "bsc nursing counselling date 2026" 13,909 impressions at position 7.9, "... tamil nadu"
+// 7,479 + 3,043, on a page with 1,16,094 impressions at 0.69% CTR (GSC 2026-03-01..10-28).
+// The old title never said "counselling" and ran to 64 characters. The year is 2027 because
+// the 2026-27 rounds are over; the page says plainly that the 2027 dates are not out yet.
 export const metadata: Metadata = {
-  title: "B.Sc Nursing Admission 2026-27 — Fees, Seats, Eligibility | JKKN",
+  title: "BSc Nursing Counselling Date 2027 Tamil Nadu | JKKN",
   description:
-    "60 B.Sc Nursing seats at JKKN, Komarapalayam. INC approved, NAAC accredited (B++), no NEET required. Eligibility, fees and dates — apply online.",
+    "BSc Nursing counselling 2027 dates are not announced yet. See the official 2026-27 round dates, 60 seats at JKKN Komarapalayam, no NEET, fees and how to apply.",
   keywords:
-    "B.Sc Nursing admission 2026, BSc Nursing JKKN, BSc nursing without NEET, B.Sc Nursing eligibility Tamil Nadu, BSc nursing fees, BSc Nursing application",
+    "BSc nursing counselling date 2027, BSc nursing counselling date Tamil Nadu, B.Sc Nursing admission 2027, BSc Nursing JKKN, BSc nursing without NEET, BSc nursing fees",
   alternates: { canonical: `${SITE_URL}/admissions/bsc-nursing` },
   openGraph: {
-    title: "B.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
+    title: "BSc Nursing Counselling Date 2027 Tamil Nadu | JKKN",
     description:
-      "4-year B.Sc Nursing program. No NEET required. Complete admission details — eligibility, fees, seats, documents, dates, and process.",
+      "BSc Nursing counselling 2027 dates are not announced yet. See the official 2026-27 round dates, 60 seats at JKKN Komarapalayam, no NEET, fees and how to apply.",
     url: `${SITE_URL}/admissions/bsc-nursing`,
     type: "website",
   },

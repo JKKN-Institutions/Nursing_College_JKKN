@@ -23,6 +23,9 @@ export interface CourseAdmission {
   career: string[];
   whyThis: { title: string; desc: string }[];
   faqs: { q: string; a: string }[];
+  // Optional 40-55 word direct answer shown right under the hero. Only a course that has
+  // one renders the block, so msc and pbsc are unchanged.
+  topAnswer?: { heading: string; text: string; source: string };
 }
 
 export const APPLY_URL = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=site";
@@ -97,15 +100,28 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     // moves - which is exactly how the block this replaced ("July 2026 (tentative)") went
     // wrong. Every volatile row now carries the date it was observed, so it ages into an
     // old-but-honest reading instead of a false claim.
+    // 2026-11-02. The 27 Aug rows aged exactly as the note above said they would: the page still
+    // read "counselling not announced" after all three rounds had run. Round dates are from the
+    // notice titles on tnmedicalselection.net read live 2026-11-02 - allotment lists "On -
+    // 03.09.2026" and "On - 21.09.2026" (a re-allotment list: Allotted From / Allotted To /
+    // Retained, so Round 2), Round-3 Batch-1 "on - 27.10.2026" and Batch-2 "on - 29.10.2026",
+    // and the Round-3 allotment order names B SC NURSING. No 2027-28 notice appears.
     dates: [
       { label: "Government notification issued", date: "21 June 2026  -  done" },
       { label: "Online application opened", date: "21 June 2026, 12.01 PM  -  done" },
       { label: "Last date to upload the application", date: "12 July 2026, 5.00 PM  -  closed (extended from 03 July)" },
-      { label: "Provisional rank list", date: "Published as of 27 Aug 2026 - check your rank at tnmedicalselection.net" },
-      { label: "Missing documents upload", date: "Open as of 27 Aug 2026 - act if your application was flagged" },
-      { label: "Government-quota counselling", date: "Not announced as of 27 Aug 2026 - watch tnmedicalselection.net" },
+      { label: "Provisional rank list", date: "Published by 27 Aug 2026  -  done" },
+      { label: "Round 1 seat allotment (government quota)", date: "3 September 2026  -  done" },
+      { label: "Round 2 seat allotment", date: "21 September 2026  -  done" },
+      { label: "Round 3 seat allotment (Batch 1 and 2)", date: "27 and 29 October 2026  -  done" },
+      { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
       { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
     ],
+    topAnswer: {
+      heading: "BSc Nursing Counselling Date 2027",
+      text: "Tamil Nadu has not announced the B.Sc Nursing counselling dates for 2027 yet (checked 2 November 2026 on tnmedicalselection.net). In the 2026-27 cycle, applications opened on 21 June 2026, Round 1 seats were allotted on 3 September, Round 2 on 21 September and Round 3 on 27-29 October 2026.",
+      source: "Source: Selection Committee, Directorate of Medical Education and Research, Tamil Nadu - notices on tnmedicalselection.net, read 2 November 2026.",
+    },
     career: [
       "Staff Nurse — Multi-specialty / Super-specialty hospitals (Apollo, Fortis, Manipal, CMC)",
       "Government Staff Nurse — Tamil Nadu MRB, AIIMS, ESIC, Railways, Defence",
@@ -126,7 +142,8 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling on a merit list built from 10+2 marks, with fees as per Govt norms. Management Quota (MQ) seats are filled directly by JKKN on academic merit, with institutional fee structure." },
       { q: "Does JKKN offer hostel for B.Sc Nursing learners?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
       { q: "What career options are available after B.Sc Nursing?", a: "Graduates can work as Staff Nurses in corporate hospitals, Government Staff Nurses via TN MRB/AIIMS/ESIC, ICU/Critical Care specialists, pursue M.Sc Nursing, or take international roles in UK (NHS), UAE, Saudi Arabia, Singapore, Australia after the relevant licensure exam." },
-      { q: "When do B.Sc Nursing classes begin?", a: "Classes for the 2026-27 academic year are expected to begin in September 2026. The exact date follows the close of government-quota counselling, and as of 27 August 2026 the Selection Committee has not announced a B.Sc Nursing counselling schedule. Management-quota admission at JKKN is open now, and admitted students receive their reporting date with the admission letter." },
+      { q: "When is the BSc Nursing counselling date 2027 in Tamil Nadu?", a: "The 2027-28 BSc Nursing counselling dates are not announced yet: the Tamil Nadu Selection Committee had published no 2027 schedule on tnmedicalselection.net as of 2 November 2026. In 2026-27, seats were allotted in three rounds, on 3 September, 21 September and 27-29 October 2026. JKKN's government-quota B.Sc Nursing seats are filled through this counselling." },
+      { q: "When do B.Sc Nursing classes begin?", a: "For the 2026-27 batch, the reporting date followed the government-quota counselling, which allotted seats in three rounds on 3 September, 21 September and 27-29 October 2026 (tnmedicalselection.net). Admitted students receive their reporting date with the admission letter. For the 2027-28 batch, no counselling schedule had been announced as of 2 November 2026." },
       // N-08, 2026-08-26. People genuinely ask this, and the page had a measurable blind spot:
       // it wrote "B.Sc" 23 times in visible copy and "BSc" zero times, while GSC shows the
       // register's searchers overwhelmingly type BSc - 357 keywords carrying 9,087 mobile

@@ -46,6 +46,24 @@ export default function CourseAdmissionDetail({ course }: Props) {
         </div>
       </section>
 
+      {/* TOP ANSWER - only for a course that carries one (2026-11-02: bsc, counselling date) */}
+      {course.topAnswer && (
+        <section className="bg-white pt-10 md:pt-14">
+          <div className="max-w-3xl mx-auto px-4 sm:px-6">
+            <div className="bg-[#FBFBEE] border-l-4 border-[#006837] rounded-r-xl p-5 sm:p-6 shadow-sm">
+              <h2 className="text-lg sm:text-xl font-bold text-[#0b7845] mb-2">{course.topAnswer.heading}</h2>
+              <p className="text-gray-800 text-sm sm:text-base leading-relaxed">{course.topAnswer.text}</p>
+              <p className="mt-3 text-xs text-gray-500">
+                {course.topAnswer.source}{" "}
+                <a href="https://tnmedicalselection.net/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">
+                  Open tnmedicalselection.net
+                </a>
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* QUICK STATS */}
       <section className="bg-white py-10 md:py-14">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16">
