@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import StickyAdmissionCTA from "@/components/lead/StickyAdmissionCTA";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import CourseAdmissionDetail from "@/components/CourseAdmissionDetail";
 import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
@@ -51,6 +52,7 @@ export default function PBScNursingAdmission() {
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />
+      <StickyAdmissionCTA sourcePage="sticky-pbsc-nursing" courseName={course.short} />
     </>
   );
 }

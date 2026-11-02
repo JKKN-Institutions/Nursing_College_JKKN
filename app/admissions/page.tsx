@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
+import StickyAdmissionCTA from "@/components/lead/StickyAdmissionCTA";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
 import { courseList, NEXT_CYCLE, DATES_SOURCE } from "@/data/courseWiseAdmissionData";
@@ -847,6 +848,7 @@ export default function Admissions() {
       </main>
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />
+      <StickyAdmissionCTA sourcePage="sticky-admissions" />
     </>
   );
 }
