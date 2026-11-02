@@ -115,7 +115,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Round 2 seat allotment", date: "21 September 2026  -  done" },
       { label: "Round 3 seat allotment (Batch 1 and 2)", date: "27 and 29 October 2026  -  done" },
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
-      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
+      { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
     topAnswer: {
       heading: "BSc Nursing Counselling Date 2027",
@@ -173,7 +173,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Thesis / Dissertation Fee", value: "₹10,000 (one-time)" },
       { label: "Specialty Lab & Clinical Kit", value: "₹6,000 (one-time)" },
     ],
-    intake: "September – October 2026",
+    intake: "October 2026",
     ageLimit: "No upper age limit · Minimum 1 year post-RN experience required",
     eligibility: [
       "B.Sc Nursing or Post Basic B.Sc Nursing from an INC-recognized college",
@@ -223,7 +223,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Round 1 seat allotment (government quota)", date: "27 October 2026  -  done" },
       { label: "Round 2 seat allotment", date: "30 October 2026  -  done" },
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
-      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
+      { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
     topAnswer: {
       heading: "MSc Nursing Entrance Exam 2027",
@@ -293,17 +293,19 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Lab & Clinical Kit (one-time)", value: "₹6,000" },
       { label: "Uniform & ID (one-time)", value: "₹5,000" },
     ],
-    intake: "September 2026",
+    intake: "October 2026",
     // 2026-11-02. The experience line said "minimum 1 year" here and in four other spots on this
     // page. The Tamil Nadu Post Basic B.Sc (Nursing) prospectus 2026-27 (G.O.(D) No.970,
     // 18.08.2026) has no minimum for non-service candidates - experience only adds merit marks,
     // one per completed year as on 31-05-2026, up to 10 - while service candidates need 2 years
     // of continuous regular service, and the age limit applies to service candidates only
-    // (under 50 as on 31 December 2026). Left as it was, and flagged: "10th + GNM diploma" below -
-    // the prospectus asks for a pass in the Higher Secondary course.
+    // (under 50 as on 31 December 2026). Same day, second pass: "10+2 (any stream) OR 10th + GNM"
+    // became a Higher Secondary pass - clause 5(a) asks for "a pass in the Higher Secondary course
+    // or Equivalent Examination recognized by the University", with no 10th-only route. Intake is
+    // October because the 2026-27 government-quota allotments were 21 and 28 October.
     ageLimit: "No upper age limit (non-service) · Service candidates: under 50 as on 31 Dec 2026",
     eligibility: [
-      "10+2 pass (any stream) OR 10th + GNM diploma",
+      "Pass in the Higher Secondary course (10+2) or an equivalent examination recognised by the University (TN prospectus 2026-27)",
       "GNM (General Nursing & Midwifery) diploma from an INC-recognized institution",
       "Valid Registered Nurse (RN) & Registered Midwife (RM) registration with State Nursing Council",
       "No minimum experience for non-service candidates - each completed year adds 1 merit mark (maximum 10); Tamil Nadu government service candidates need 2 years of continuous regular service (TN prospectus 2026-27)",
@@ -326,7 +328,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       "GNM Consolidated Mark Sheet",
       "RN & RM Registration Certificate",
       "Experience Certificate (each completed year adds 1 merit mark, maximum 10)",
-      "10th and 12th Mark Sheets (or 10th + GNM equivalent)",
+      "10th and 12th (Higher Secondary) Mark Sheets",
       "Transfer Certificate from last institution",
       "Community Certificate (if applicable)",
       "Nativity Certificate (Tamil Nadu domicile, if applicable)",
@@ -347,7 +349,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Round 1 seat allotment (government quota)", date: "21 October 2026  -  done" },
       { label: "Round 2 seat allotment", date: "28 October 2026  -  done" },
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
-      { label: "Management quota at JKKN", date: "Open  -  apply through the admission office" },
+      { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
     topAnswer: {
       heading: "Post BSc Nursing Entrance Exam 2027",
@@ -369,7 +371,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     faqs: [
       { q: "Is Post B.Sc Nursing the same as Post Basic B.Sc Nursing?", a: "Yes. Post B.Sc Nursing, Post Basic B.Sc Nursing and P.B.B.Sc Nursing are names for the same 2-year degree for GNM diploma holders who are registered nurses. At JKKN College of Nursing and Research it has 50 sanctioned seats in the university's 2023-24 list." },
-      { q: "Who is eligible for Post Basic B.Sc Nursing?", a: "GNM diploma holders from INC-recognized institutions with valid RN and RM registration with the State Nursing Council are eligible. Experience is not a minimum requirement for non-service candidates in the Tamil Nadu prospectus 2026-27; each completed year adds one merit mark, up to 10. Candidates also need 10+2 (any stream) or 10th + GNM equivalent." },
+      { q: "Who is eligible for Post Basic B.Sc Nursing?", a: "GNM diploma holders from INC-recognized institutions with valid RN and RM registration with the State Nursing Council are eligible. Experience is not a minimum requirement for non-service candidates in the Tamil Nadu prospectus 2026-27; each completed year adds one merit mark, up to 10. Candidates also need a pass in the Higher Secondary course (10+2) or an equivalent examination." },
       { q: "Is there an entrance exam for Post Basic B.Sc Nursing?", a: "No. In Tamil Nadu, government-quota seats are filled from a merit list out of 100: 90 for Diploma in Nursing (GNM) marks and 10 for experience, one mark per completed year (Post Basic B.Sc (Nursing) prospectus 2026-27). Seats are allotted by online counselling. Management-quota seats at JKKN are filled through the college admission office." },
       { q: "When is the Post Basic BSc Nursing counselling date 2027?", a: "The 2027-28 Post Basic BSc Nursing counselling dates are not announced yet: the Tamil Nadu Selection Committee had published no 2027 schedule as of 2 November 2026. In 2026-27, the prospectus came out on 28 August 2026 and seats were allotted on 21 and 28 October 2026. JKKN's government-quota seats follow this counselling." },
       { q: "What is the Post Basic B.Sc Nursing fee at JKKN?", a: "Management Quota tuition is ₹65,000 per year. Government Quota fees are as per Tamil Nadu government norms. Hostel, examination, and uniform fees are billed separately." },

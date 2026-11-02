@@ -1034,7 +1034,7 @@ export default async function Home() {
                     {
                       program: "Post Basic B.Sc:",
                       criteria:
-                        "GNM diploma with 1 year experience, valid TNNMC registration",
+                        "GNM diploma with a Higher Secondary (10+2) pass and valid RN/RM registration; experience adds merit marks, no minimum for non-service candidates (TN prospectus 2026-27)",
                     },
                     
                     {

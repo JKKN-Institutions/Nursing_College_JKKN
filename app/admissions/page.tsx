@@ -359,7 +359,10 @@ export default function Admissions() {
                         "30 seats", and a bare <td>30</td> carries no unit to match on. It was
                         the last one left in the repo. */}
                     <td className="px-5 py-4 text-gray-700 whitespace-nowrap">50</td>
-                    <td className="px-5 py-4 text-gray-700">GNM Diploma + RN registration, min 1 year experience</td>
+                    {/* 2026-11-02. Was "min 1 year experience": the TN Post Basic prospectus 2026-27
+                        (G.O.(D) No.970) sets no minimum for non-service candidates - experience
+                        only adds merit marks - and asks for a Higher Secondary pass. */}
+                    <td className="px-5 py-4 text-gray-700">GNM Diploma + 10+2 pass + RN/RM registration (experience adds merit marks)</td>
                     <td className="px-5 py-4 font-semibold text-[#006837] whitespace-nowrap">₹65,000</td>
                   </tr>
                 </tbody>
