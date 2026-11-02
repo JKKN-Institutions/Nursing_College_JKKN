@@ -5,14 +5,28 @@ import { DEFAULT_PROGRAMME_BY_COURSE_KEY } from "@/lib/nursing-programmes";
 
 interface Props {
   course: CourseAdmission;
+  /**
+   * 10,300-lead plan, Nursing Step 3 (2026-11-02). Puts a 3-box enquiry form near the top as well
+   * as the one at the bottom: in the hero's right column from lg (1024 px) up, and under the top
+   * answer below lg. Off by default, so any other caller renders exactly as before. Measured
+   * before: the only form sat at 9,894 px of a 12,359 px page at 375 px (bsc, live 2026-11-02).
+   */
+  formUp?: boolean;
 }
 
-export default function CourseAdmissionDetail({ course }: Props) {
+export default function CourseAdmissionDetail({ course, formUp = false }: Props) {
+  const topSource = `${course.slug}-top`;
+  const programmeId = DEFAULT_PROGRAMME_BY_COURSE_KEY[course.key];
   return (
     <>
       {/* HERO */}
-      <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white pt-44 pb-16 md:pt-48 md:pb-24">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
+      <section className={`bg-gradient-to-br from-[#006837] to-[#7cb983] text-white pt-44 pb-16 md:pt-48 md:pb-24${formUp ? " lg:pt-32 lg:pb-16" : ""}`}>
+        <div
+          className={`max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center${
+            formUp ? " lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-12 lg:items-center lg:text-left" : ""
+          }`}
+        >
+          <div>
           <div className="inline-flex items-center gap-2 bg-white/20 text-white px-4 py-2 rounded-full mb-6 text-sm font-medium">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path
@@ -26,10 +40,10 @@ export default function CourseAdmissionDetail({ course }: Props) {
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
             {course.short} Admission 2026-27
           </h1>
-          <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-2">
+          <p className={`text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-2${formUp ? " lg:mx-0" : ""}`}>
             {course.full}
           </p>
-          <p className="text-base sm:text-lg text-white/80 max-w-2xl mx-auto mb-8">
+          <p className={`text-base sm:text-lg text-white/80 max-w-2xl mx-auto mb-8${formUp ? " lg:mx-0" : ""}`}>
             {course.tagline}
           </p>
           <a
@@ -43,6 +57,12 @@ export default function CourseAdmissionDetail({ course }: Props) {
             </svg>
             Apply Now
           </a>
+          </div>
+          {formUp && (
+            <div className="hidden lg:block text-left">
+              <NursingEnquiryForm sourcePage={topSource} defaultProgrammeId={programmeId} compact />
+            </div>
+          )}
         </div>
       </section>
 
@@ -60,6 +80,15 @@ export default function CourseAdmissionDetail({ course }: Props) {
                 </a>
               </p>
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* ENQUIRY FORM, below lg - under the top answer (formUp only; lg and up has it in the hero) */}
+      {formUp && (
+        <section className="lg:hidden bg-white pt-8 md:pt-10">
+          <div className="max-w-xl mx-auto px-4 sm:px-6">
+            <NursingEnquiryForm sourcePage={topSource} defaultProgrammeId={programmeId} compact />
           </div>
         </section>
       )}

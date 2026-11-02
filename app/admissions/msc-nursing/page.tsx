@@ -42,7 +42,7 @@ export default function MScNursingAdmission() {
             { name: "M.Sc Nursing Admission", url: `${SITE_URL}/admissions/msc-nursing` },
           ]}
         />
-        <CourseAdmissionDetail course={course} />
+        <CourseAdmissionDetail course={course} formUp />
         <section className="px-4 pb-12">
           <p className="max-w-3xl mx-auto text-center text-gray-700">
             Comparing M.Sc Nursing colleges? See{" "}

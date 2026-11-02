@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import StickyAdmissionCTA from "@/components/lead/StickyAdmissionCTA";
+import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
 import { courseList, NEXT_CYCLE, DATES_SOURCE } from "@/data/courseWiseAdmissionData";
@@ -103,8 +104,12 @@ export default function Admissions() {
         />
 
         {/* ── 1. HERO BANNER ─────────────────────────────────────── */}
-        <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white pt-44 pb-16 md:pt-48 md:pb-24">
-          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center">
+        {/* 2026-11-02 (10,300-lead plan, Nursing Step 3). This hub had no enquiry form at all. A
+            3-box form now sits in the hero's right column from lg up, and under the Quick Summary
+            below lg. Leads are tagged "admissions-top" (GA4 source_page, CRM utm_campaign). */}
+        <section className="bg-gradient-to-br from-[#006837] to-[#7cb983] text-white pt-44 pb-16 md:pt-48 md:pb-24 lg:pt-32 lg:pb-16">
+          <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 text-center lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:gap-12 lg:items-center lg:text-left">
+            <div>
             <div className="inline-flex flex-wrap items-center justify-center gap-x-2 gap-y-1 max-w-full bg-white/20 text-white px-4 py-2 rounded-2xl sm:rounded-full mb-6 text-sm font-medium">
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -115,11 +120,11 @@ export default function Admissions() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
               Admissions 2026-27
             </h1>
-            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8">
+            <p className="text-lg sm:text-xl text-white/90 max-w-2xl mx-auto mb-8 lg:mx-0">
               Begin your nursing career at one of Tamil Nadu&apos;s INC-approved nursing colleges
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=admissions"
                 target="_blank"
@@ -142,6 +147,10 @@ export default function Admissions() {
                 Download Prospectus
               </a>
             </div>
+            </div>
+            <div className="hidden lg:block text-left">
+              <NursingEnquiryForm sourcePage="admissions-top" compact />
+            </div>
           </div>
         </section>
 
@@ -151,6 +160,9 @@ export default function Admissions() {
           <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
             <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
             <p className="text-gray-700 text-sm">JKKN College of Nursing and Research offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
+          </div>
+          <div className="lg:hidden max-w-xl mx-auto mb-8">
+            <NursingEnquiryForm sourcePage="admissions-top" compact />
           </div>
         </div>
 
