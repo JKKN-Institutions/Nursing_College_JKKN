@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
+import { courseList, NEXT_CYCLE, DATES_SOURCE } from "@/data/courseWiseAdmissionData";
 
 export const metadata: Metadata = {
   title: "Admissions 2026 | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
@@ -145,7 +146,7 @@ export default function Admissions() {
 
         {/* ── TIMESTAMP & TL;DR ──────────────────────────────────── */}
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-16 pt-6">
-          <p className="text-sm text-gray-500 mb-4">Last updated: March 19, 2026</p>
+          <p className="text-sm text-gray-500 mb-4">Last updated: November 2, 2026</p>
           <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
             <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
             <p className="text-gray-700 text-sm">JKKN College of Nursing and Research offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
@@ -494,26 +495,35 @@ export default function Admissions() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-4xl mx-auto">
-              {[
-                { icon: "📋", label: "Application Opens", date: "March 2026", color: "bg-[#e8f5e9]", border: "border-[#7cb983]" },
-                
-                { icon: "🏛️", label: "Counselling Begins", date: "July 2026", color: "bg-[#e3f2fd]", border: "border-blue-300" },
-                { icon: "🎓", label: "Classes Commence", date: "September 2026", color: "bg-[#fce4ec]", border: "border-pink-300" },
-              ].map(({ icon, label, date, color, border }) => (
-                <div key={label} className={`${color} border-l-4 ${border} rounded-xl p-5 text-center shadow-sm`}>
-                  <div className="text-3xl mb-2">{icon}</div>
-                  <p className="text-xs text-gray-500 font-medium uppercase tracking-wide mb-1">{label}</p>
-                  <p className="text-base font-bold text-[#0b7845]">{date}</p>
-                </div>
+            {/* 2026-11-02. Was three hand-typed cards - "Application Opens March 2026",
+                "Counselling Begins July 2026", "Classes Commence September 2026" - all wrong
+                for the real 2026-27 cycle (applications opened 21 Jun / 28 Aug / 2 Oct by
+                course, allotments ran 3 Sep - 30 Oct). The cards now read the same data file as
+                the course pages, so one edit updates both. */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto">
+              {courseList.map((c) => (
+                <Link
+                  key={c.key}
+                  href={`/admissions/${c.slug}`}
+                  className="bg-[#e8f5e9] border-l-4 border-[#7cb983] rounded-xl p-5 text-center shadow-sm hover:shadow-md transition-shadow"
+                >
+                  <p className="text-sm font-bold text-[#0b7845] mb-3">{c.short}</p>
+                  <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Applied</p>
+                  <p className="text-sm font-semibold text-gray-800 mb-2">{c.dateSummary?.applied}</p>
+                  <p className="text-xs text-gray-500 font-medium uppercase tracking-wide">Seats allotted</p>
+                  <p className="text-sm font-semibold text-gray-800">{c.dateSummary?.allotted}</p>
+                </Link>
               ))}
+              <div className="bg-[#e3f2fd] border-l-4 border-blue-300 rounded-xl p-5 text-center shadow-sm">
+                <p className="text-sm font-bold text-[#0b7845] mb-3">{NEXT_CYCLE.label}</p>
+                <p className="text-sm font-semibold text-gray-800 mb-2">{NEXT_CYCLE.status}</p>
+                <p className="text-xs text-gray-600">{NEXT_CYCLE.note}</p>
+              </div>
             </div>
 
-            <p className="mt-6 text-center text-xs sm:text-sm text-gray-500 flex items-center justify-center gap-1.5">
-              <svg className="w-4 h-4 text-[#7cb983] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-              </svg>
-              Dates are tentative and subject to government/university notifications.
+            <p className="mt-6 text-center text-xs sm:text-sm text-gray-500 max-w-3xl mx-auto">
+              Dates are for government-quota counselling. Your reporting date is the one in your
+              allotment order or JKKN admission letter. {DATES_SOURCE}
             </p>
           </div>
         </section>
@@ -727,7 +737,7 @@ export default function Admissions() {
                 },
                 {
                   q: "When do classes begin for the 2026-27 academic year?",
-                  a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications.",
+                  a: "For 2026-27, government-quota counselling ran September-October 2026: B.Sc Nursing seats were allotted on 3 and 21 September and 27-29 October, Post Basic on 21 and 28 October, and M.Sc on 27 and 30 October. Each student's reporting date is in the allotment order or the JKKN admission letter. 2027-28 dates are not announced yet.",
                 },
                 {
                   q: "Where do JKKN nursing learners do their clinical training?",
@@ -780,7 +790,7 @@ export default function Admissions() {
                   { q: "Is hostel accommodation provided?", a: "Yes. Separate hostel facilities are available for both girls and boys within the campus, with 24/7 security, Wi-Fi, hygienic mess facilities, and 24-hour warden supervision. Hostel admission is on a first-come, first-served basis." },
                   { q: "What documents are required at the time of admission?", a: "10th and 12th original mark sheets, transfer certificate, migration certificate, community certificate (if applicable), Aadhaar card, 8 passport-sized photographs, and a medical fitness certificate. M.Sc and Post Basic applicants must also produce their nursing degree/diploma and RN registration." },
                   { q: "What is the placement rate at JKKN College of Nursing and Research?", a: "JKKN reported a 98% placement rate for 2024-25 (58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000. Graduates can also take nursing roles in the UK (NHS), UAE, Saudi Arabia and Singapore after the licence each country requires." },
-                  { q: "When do classes begin for the 2026-27 academic year?", a: "Classes for the 2026-27 academic year are tentatively scheduled to commence in September 2026, following the completion of state counselling in July 2026. Exact dates are subject to TNMGRMU and government notifications." },
+                  { q: "When do classes begin for the 2026-27 academic year?", a: "For 2026-27, government-quota counselling ran September-October 2026: B.Sc Nursing seats were allotted on 3 and 21 September and 27-29 October, Post Basic on 21 and 28 October, and M.Sc on 27 and 30 October. Each student's reporting date is in the allotment order or the JKKN admission letter. 2027-28 dates are not announced yet." },
                   { q: "Where do JKKN nursing learners do their clinical training?", a: "At four affiliated hospitals in Erode: Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode. The list is on the college's Clinical / Hospital Facilities page." },
                 ].map(({ q, a }) => ({
                   "@type": "Question",

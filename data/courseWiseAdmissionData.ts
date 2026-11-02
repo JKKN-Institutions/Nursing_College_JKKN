@@ -26,7 +26,21 @@ export interface CourseAdmission {
   // Optional 40-55 word direct answer shown right under the hero. Only a course that has
   // one renders the block, so msc and pbsc are unchanged.
   topAnswer?: { heading: string; text: string; source: string };
+  // One-line summary of the same official cycle as `dates`, for the /admissions hub cards. It
+  // lives here, next to `dates`, so the hub and the course page are updated in one edit - the
+  // hub's hand-typed "March / July / September 2026" cards went wrong because they lived apart.
+  dateSummary?: { applied: string; allotted: string };
 }
+
+// Status of the next cycle, shown on the /admissions hub. Change it the day a 2027-28
+// prospectus appears on tnmedicalselection.net.
+export const NEXT_CYCLE = {
+  label: "2027-28",
+  status: "Not announced as of 2 Nov 2026",
+  note: "Watch tnmedicalselection.net",
+};
+export const DATES_SOURCE =
+  "Source: Selection Committee notices on tnmedicalselection.net, read 2 November 2026.";
 
 export const APPLY_URL = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=site";
 export const SITE_URL = "https://nursing.sresakthimayeil.jkkn.ac.in";
@@ -117,6 +131,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
       { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
+    dateSummary: { applied: "21 Jun - 12 Jul 2026", allotted: "3 Sep, 21 Sep, 27-29 Oct 2026" },
     topAnswer: {
       heading: "BSc Nursing Counselling Date 2027",
       text: "Tamil Nadu has not announced the B.Sc Nursing counselling dates for 2027 yet (checked 2 November 2026 on tnmedicalselection.net). In the 2026-27 cycle, applications opened on 21 June 2026, Round 1 seats were allotted on 3 September, Round 2 on 21 September and Round 3 on 27-29 October 2026.",
@@ -225,6 +240,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
       { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
+    dateSummary: { applied: "2 - 7 Oct 2026", allotted: "27 + 30 Oct 2026" },
     topAnswer: {
       heading: "MSc Nursing Entrance Exam 2027",
       text: "There is no entrance exam for M.Sc Nursing government-quota seats in Tamil Nadu. The Selection Committee ranks applicants out of 100: 90 for B.Sc Nursing marks and 10 for experience (prospectus 2026-27). In 2026-27, seats were allotted on 27 and 30 October 2026; 2027-28 dates are not announced yet (checked 2 November 2026).",
@@ -351,6 +367,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "2027-28 counselling", date: "Not announced as of 2 Nov 2026 - watch tnmedicalselection.net" },
       { label: "Management quota at JKKN", date: "Call the JKKN admission office for current seat status" },
     ],
+    dateSummary: { applied: "28 Aug - 7 Sep 2026", allotted: "21 + 28 Oct 2026" },
     topAnswer: {
       heading: "Post BSc Nursing Entrance Exam 2027",
       text: "There is no entrance exam for Post Basic B.Sc Nursing government-quota seats in Tamil Nadu. The merit list is out of 100: 90 for Diploma in Nursing marks and 10 for experience (prospectus 2026-27). In 2026-27, seats were allotted on 21 and 28 October 2026; 2027-28 dates are not announced yet.",
