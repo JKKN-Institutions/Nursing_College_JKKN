@@ -8,17 +8,22 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 
 const course = coursesAdmission.pbsc;
 
+// 2026-11-02 (10,300-lead plan, Nursing Step 2). Top weak query "post bsc nursing entrance exam
+// 2026": 3,007 impressions at 0.33% CTR, position 7.9 (GSC 2026-03-01..11-01); searchers type
+// "Post BSc" twice as often as "Post Basic" there. The old title ran to 64 characters and the
+// description to 193. The answer - no entrance exam, merit 90 + 10 - is from the Tamil Nadu
+// Post Basic B.Sc (Nursing) prospectus 2026-27, G.O.(D) No.970 dated 18.08.2026.
 export const metadata: Metadata = {
-  title: "Post Basic B.Sc Nursing Admission 2026-27 | GNM to Degree — JKKN",
+  title: "Post BSc Nursing Entrance Exam & Counselling 2027 | JKKN",
   description:
-    "Post Basic B.Sc Nursing admission 2026-27 at JKKN. 2-year degree for GNM diploma holders. 50 seats. ₹65,000/yr MQ. Merit-based admission — no entrance exam. Eligibility, fees, documents, dates.",
+    "No entrance exam for Post BSc Nursing in Tamil Nadu: merit is 90 for GNM marks + 10 for experience. 2026-27 round dates, 50 seats at JKKN, fees, how to apply.",
   keywords:
-    "Post Basic B.Sc Nursing admission 2026, PBBSc Nursing JKKN, GNM to BSc Nursing, Post Basic BSc eligibility, PB BSc Nursing fees, Post Basic Nursing Tamil Nadu",
+    "Post BSc nursing entrance exam 2027, Post Basic BSc nursing counselling date 2027, Post Basic B.Sc Nursing admission 2027, GNM to BSc Nursing, PB BSc Nursing JKKN, Post Basic Nursing Tamil Nadu",
   alternates: { canonical: `${SITE_URL}/admissions/pbsc-nursing` },
   openGraph: {
-    title: "Post Basic B.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
+    title: "Post BSc Nursing Entrance Exam & Counselling 2027 | JKKN",
     description:
-      "2-year Post Basic B.Sc Nursing for GNM diploma holders. Merit-based. Complete admission details — eligibility, fees, documents, dates, process at JKKN.",
+      "No entrance exam for Post BSc Nursing in Tamil Nadu: merit is 90 for GNM marks + 10 for experience. 2026-27 round dates, 50 seats at JKKN, fees, how to apply.",
     url: `${SITE_URL}/admissions/pbsc-nursing`,
     type: "website",
   },

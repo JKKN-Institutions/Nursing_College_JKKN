@@ -8,17 +8,22 @@ import { coursesAdmission, SITE_URL } from "@/data/courseWiseAdmissionData";
 
 const course = coursesAdmission.msc;
 
+// 2026-11-02 (10,300-lead plan, Nursing Step 2). The page's biggest weak query is "msc nursing
+// entrance exam 2026": 7,087 impressions at 0.52% CTR, position 7.8 (GSC 2026-03-01..11-01).
+// The honest answer is that Tamil Nadu has no entrance exam for these seats, so the title names
+// the search and the description gives the answer. "Counselling" stays in the title because
+// those queries already earn 3-10% CTR here.
 export const metadata: Metadata = {
-  title: "MSc Nursing Admission 2026 Tamil Nadu - Counselling Dates",
+  title: "MSc Nursing Entrance Exam & Counselling 2027 TN | JKKN",
   description:
-    "M.Sc Nursing admission 2026-27 at JKKN, Tamil Nadu — 5 specialisations, 25 seats, eligibility, counselling process and how to apply. INC approved.",
+    "No entrance exam for MSc Nursing in Tamil Nadu: merit is 90 for B.Sc marks + 10 for experience. 2026-27 round dates, 25 seats at JKKN, fees and how to apply.",
   keywords:
-    "M.Sc Nursing admission 2026, MSc Nursing JKKN, MSc Nursing specializations, TN MSc Nursing counselling, MSc Nursing eligibility, MSc Nursing fees",
+    "MSc nursing entrance exam 2027, MSc nursing counselling date 2027 Tamil Nadu, M.Sc Nursing admission 2027, MSc Nursing JKKN, MSc Nursing eligibility, MSc Nursing fees",
   alternates: { canonical: `${SITE_URL}/admissions/msc-nursing` },
   openGraph: {
-    title: "M.Sc Nursing Admission 2026-27 — JKKN College of Nursing and Research",
+    title: "MSc Nursing Entrance Exam & Counselling 2027 TN | JKKN",
     description:
-      "2-year M.Sc Nursing with 5 specializations. Government-quota seats by merit counselling, no entrance test. Complete admission details — eligibility, fees, documents, dates, process.",
+      "No entrance exam for MSc Nursing in Tamil Nadu: merit is 90 for B.Sc marks + 10 for experience. 2026-27 round dates, 25 seats at JKKN, fees and how to apply.",
     url: `${SITE_URL}/admissions/msc-nursing`,
     type: "website",
   },
