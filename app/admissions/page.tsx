@@ -159,7 +159,13 @@ export default function Admissions() {
           <p className="text-sm text-gray-500 mb-4">Last updated: November 2, 2026</p>
           <div className="bg-green-50 border-l-4 border-[#0b7845] p-4 mb-8 rounded-r-lg">
             <p className="font-semibold text-[#0b7845] mb-1">Quick Summary</p>
-            <p className="text-gray-700 text-sm">JKKN College of Nursing and Research offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility: 10+2 with PCB, minimum 45% aggregate. Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
+            <p className="text-gray-700 text-sm">JKKN College of Nursing and Research offers admission to B.Sc Nursing (4 years), M.Sc Nursing (2 years), and Post Basic B.Sc Nursing (2 years). Eligibility:</p>
+            <ul className="text-gray-700 text-sm list-disc pl-5 my-2 space-y-1">
+              <li><strong>B.Sc Nursing:</strong> 10+2 with Physics, Chemistry, Biology and English, minimum 45% (40% for BC/BCM/MBC &amp; DNC and SC/SCA/ST)</li>
+              <li><strong>M.Sc Nursing:</strong> B.Sc Nursing degree with 55% (50% for SC/SCA/ST), RN/RM registration and 1 year of experience</li>
+              <li><strong>Post Basic B.Sc Nursing:</strong> GNM diploma, a 10+2 pass and RN/RM registration</li>
+            </ul>
+            <p className="text-gray-700 text-sm">Apply online at www.jkkn.ai/apply/jkkn-admission-2026 or contact +91 93458 55001.</p>
           </div>
           <div className="lg:hidden max-w-xl mx-auto mb-8">
             <NursingEnquiryForm sourcePage="admissions-top" compact />
