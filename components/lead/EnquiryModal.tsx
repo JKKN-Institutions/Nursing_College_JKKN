@@ -161,7 +161,9 @@ export function EnquiryModalProvider({ children }: { children: ReactNode }) {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return
       const target = e.target as HTMLElement | null
       if (!target || target.closest("a, button, input, select, textarea, label, [role=dialog]")) return
-      if (target.isContentEditable) return
+      // Editable content (SPEC section 6, 2026-11-04): a rich-text editor (the CMS uses tiptap, a
+      // [contenteditable] box) and anything inside one - a click there is editing, never a call.
+      if (target.isContentEditable || target.closest("[contenteditable], [role=textbox]")) return
       const pathname = window.location.pathname
       if (isGateOffPath(pathname)) return
       if (window.getSelection()?.toString()) return // the visitor is selecting text, not tapping
