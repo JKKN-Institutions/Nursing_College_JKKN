@@ -314,15 +314,17 @@ export default async function Home() {
                 </p>
 
                 {/* CTA Buttons — 2026-10-16: the call-back button leads; lg and up also has the form card on the right */}
-                <p className="lg:hidden text-sm text-white/90 mb-3">Fill 3 details. Our admission team will call you within 24 hours.</p>
+                {/* 2026-11-04: "Get a Call Back" -> "Call Counsellor", a call gate (form, then the dialer in the same tap) */}
+                <p className="lg:hidden text-sm text-white/90 mb-3">Fill 3 details, then talk to our admission counsellor right away.</p>
                 <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                   <EnquiryButton
-                    sourcePage="home-hero-btn"
+                    sourcePage="call-gate-home-hero"
+                    intent="call"
                     fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=home"
                     fallbackLabel="Apply for 2026-27"
                     className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm sm:text-base cursor-pointer"
                   >
-                    Get a Call Back
+                    Call Counsellor
                   </EnquiryButton>
                   <ScrollButton
                     targetId="programs"
@@ -1249,13 +1251,15 @@ export default async function Home() {
               Join JKKN College of Nursing and Research and become part of the JKKN Institutions legacy, built since 1952. Talk to our admission team about the course that suits you.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
+              {/* Call gate (user's choice 2026-11-04): form, then the dialer opens in the same tap. */}
               <EnquiryButton
-                sourcePage="home-cta"
+                sourcePage="call-gate-home-cta"
+                intent="call"
                 fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=nursing.sresakthimayeil.jkkn.ac.in&utm_campaign=home"
                 fallbackLabel="Apply Online Now →"
                 className="bg-white hover:bg-gray-50 text-[#006837] font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-xl"
               >
-                Get a Call Back
+                Call Counsellor
               </EnquiryButton>
               <a
                 href="/pdf/brochure.pdf"

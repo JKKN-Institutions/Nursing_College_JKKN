@@ -123,7 +123,7 @@ export default function Contact() {
               <div className="w-12 sm:w-16 h-1 bg-[#FFD700] mb-4 sm:mb-6"></div>
 
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-                Leave your details and our admission team will call you within 24 hours.
+                Fill your details, then call or WhatsApp our admission team right away.
                 Required fields are marked.
               </p>
 
