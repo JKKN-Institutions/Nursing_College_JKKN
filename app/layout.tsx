@@ -8,6 +8,11 @@ import { ConversionTracking } from "@/components/analytics/ConversionTracking";
 const GA_MEASUREMENT_ID = "G-Q72FWCD9PN";
 const META_PIXEL_ID = "167167189256935";
 
+// ANALYTICS_OFF=1 at build time is for a LOCAL test build only (the 2026-11-04 test of the Call /
+// WhatsApp gate runs `next start` on this laptop). Vercel never sets it.
+const IS_PRODUCTION_BUILD =
+  process.env.NODE_ENV === "production" && process.env.ANALYTICS_OFF !== "1";
+
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -58,6 +63,10 @@ export const metadata: Metadata = {
   verification: {
     google: ["60d41b66b125ffef", "bfuXWGn_yRKqpY6qTWHWTk5oVQjCws5mszC8LsCfPbw"],
   },
+  // iPhone Safari turns any phone number in plain text into a dial link of its own, which skipped
+  // the Call / WhatsApp form gate (user's choice 2026-11-04: those taps must also go form -> dialer).
+  // Off here; EnquiryModal's plain-number tap listener takes those taps instead.
+  formatDetection: { telephone: false },
 };
 
 const educationalOrganizationSchema = {
@@ -344,10 +353,16 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
+        {/* Analytics load only in a real production build (2026-11-04): a local test - the Call /
+            WhatsApp gate test included - must not write test taps into the live GA4 property or
+            the Meta pixel. Vercel production and preview builds are unaffected. */}
+        {IS_PRODUCTION_BUILD && (
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+            strategy="afterInteractive"
+          />
+        )}
+        {IS_PRODUCTION_BUILD && (
         <Script id="ga4-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -356,6 +371,8 @@ export default function RootLayout({
             gtag('config', '${GA_MEASUREMENT_ID}');
           `}
         </Script>
+        )}
+        {IS_PRODUCTION_BUILD && (
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
@@ -370,6 +387,7 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
+        )}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(educationalOrganizationSchema) }}
@@ -384,6 +402,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${poppins.className} antialiased bg-[#FBFBEE]`} suppressHydrationWarning>
+        {IS_PRODUCTION_BUILD && (
         <noscript>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -394,6 +413,7 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+        )}
         <ConversionTracking />
         <ClientLayout>
           {children}
