@@ -8,8 +8,10 @@ import { ConversionTracking } from "@/components/analytics/ConversionTracking";
 const GA_MEASUREMENT_ID = "G-Q72FWCD9PN";
 const META_PIXEL_ID = "167167189256935";
 
-// ANALYTICS_OFF=1 at build time is for a LOCAL test build only (the 2026-11-04 test of the Call /
-// WhatsApp gate runs `next start` on this laptop). Vercel never sets it.
+// ANALYTICS_OFF=1 is for a LOCAL test only (the 2026-11-04 test of the Call / WhatsApp gate runs
+// `next start` on this laptop). Set it for BOTH `next build` and `next start`: static pages read it
+// at build time, dynamic pages (the homepage among them) at request time - measured 2026-11-04, a
+// build-only switch still loaded GA4 + the pixel on "/". Vercel never sets it.
 const IS_PRODUCTION_BUILD =
   process.env.NODE_ENV === "production" && process.env.ANALYTICS_OFF !== "1";
 
