@@ -1,5 +1,6 @@
 "use client";
 
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -1595,6 +1596,7 @@ export default function MScMentalHealthNursing() {
               <a href="/pdf/brochure.pdf" download className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white px-8 py-3 rounded-full font-semibold transition-colors">
                 Download Brochure
               </a>
+              <BrochureWhatsAppLink className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white px-8 py-3 rounded-full font-semibold transition-colors" />
             </div>
 
          

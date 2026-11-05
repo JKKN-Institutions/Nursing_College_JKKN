@@ -1,4 +1,5 @@
 ﻿import Header from "@/components/Header";
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
@@ -1268,6 +1269,7 @@ export default async function Home() {
               >
                 Download Brochure
               </a>
+              <BrochureWhatsAppLink className="border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-bold px-8 py-4 rounded-full transition-all duration-300" />
             </div>
           </div>
         </section>

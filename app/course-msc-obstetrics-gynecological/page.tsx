@@ -1,5 +1,6 @@
 "use client";
 
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -1526,6 +1527,7 @@ export default function MScObstetricsGynecologicalNursing() {
                 <a href="/pdf/brochure.pdf" download className="bg-transparent border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all">
                   Download Brochure
                 </a>
+                <BrochureWhatsAppLink className="bg-transparent border-2 border-white hover:bg-white hover:text-[#7cb983] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all" />
               </div>
 
           

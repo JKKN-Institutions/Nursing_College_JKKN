@@ -1,5 +1,6 @@
 "use client";
 
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import { useState } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -1470,6 +1471,7 @@ export default function PBScNursing() {
                 <a href="/pdf/brochure.pdf" download className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300">
                   Download Brochure
                 </a>
+                <BrochureWhatsAppLink className="border-2 border-white text-white hover:bg-white hover:text-[#006837] font-semibold px-8 py-4 rounded-lg transition-all duration-300" />
               </div>
             </div>
           </div>

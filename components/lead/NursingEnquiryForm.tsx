@@ -29,7 +29,7 @@ import CampaignFields from "@/components/lead/CampaignFields"
 import { NURSING_PROGRAMMES } from "@/lib/nursing-programmes"
 import { ENQUIRY_DONE_KEY, writeStore } from "@/lib/enquiry-store"
 import { sendGaEvent } from "@/lib/ga-event"
-import { GATE_PHONE_DISPLAY, telGateUrl, whatsappGateUrl, type GateIntent } from "@/lib/call-gate"
+import { GATE_PHONE_DISPLAY, telGateUrl, whatsappGateUrl, type GateIntent, type GateTopic } from "@/lib/call-gate"
 
 const ADMISSION_PHONE = "+919345855001"
 const ADMISSION_PHONE_DISPLAY = "+91 93458 55001"
@@ -65,6 +65,8 @@ type Props = {
    *  Left out (every page form and the Enquire Now popup, user's choice 2026-11-04): TWO buttons,
    *  "Call Counsellor" + "Chat on WhatsApp". Either way ONE tap sends the lead and opens the app. */
   gate?: GateIntent
+  /** What a WhatsApp gate was opened for (lib/call-gate.ts GateTopic), e.g. the brochure. */
+  topic?: GateTopic
 }
 
 type GatePhase =
@@ -78,6 +80,7 @@ export default function NursingEnquiryForm({
   compact = false,
   bare = false,
   gate,
+  topic,
 }: Props) {
   // Unique per instance: the homepage can show this form twice (hero card + popup).
   const uid = useId()
@@ -135,7 +138,7 @@ export default function NursingEnquiryForm({
       window.location.assign(telGateUrl)
       return
     }
-    const url = whatsappGateUrl(programmeId, window.location.pathname)
+    const url = whatsappGateUrl(programmeId, window.location.pathname, topic)
     // A new tab keeps this page (and the request still in flight) alive; a blocked tab falls back
     // to the same tab, where keepalive still lets the request finish.
     const tab = window.open(url, "_blank")

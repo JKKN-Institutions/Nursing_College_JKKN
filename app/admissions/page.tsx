@@ -7,6 +7,7 @@ import NursingEnquiryForm from "@/components/lead/NursingEnquiryForm";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
 import { courseList, NEXT_CYCLE, DATES_SOURCE } from "@/data/courseWiseAdmissionData";
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 
 export const metadata: Metadata = {
   title: "Admissions 2026 | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
@@ -146,6 +147,7 @@ export default function Admissions() {
                 </svg>
                 Download Prospectus
               </a>
+              <BrochureWhatsAppLink label="Get Prospectus on WhatsApp" className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white font-bold px-8 py-3.5 rounded-lg hover:bg-white/10 transition-colors text-base" />
             </div>
             </div>
             <div className="hidden lg:block text-left">

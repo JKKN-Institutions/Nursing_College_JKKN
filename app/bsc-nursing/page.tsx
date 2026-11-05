@@ -1,5 +1,6 @@
 "use client";
 
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import { useState } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -1523,6 +1524,7 @@ export default function BScNursing() {
               <a href="/pdf/brochure.pdf" download className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300">
                 Download Brochure
               </a>
+              <BrochureWhatsAppLink className="border-2 border-white text-white hover:bg-white hover:text-[#7cb983] font-bold px-10 py-4 rounded-lg text-lg transition-all duration-300" />
             </div>
           </div>
         </section>
