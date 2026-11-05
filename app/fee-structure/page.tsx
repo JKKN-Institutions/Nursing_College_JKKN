@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import Link from "next/link";
+import BlogEnquiryBox from "@/components/lead/BlogEnquiryBox";
 
 export default function FeeStructure() {
   return (
@@ -111,6 +112,12 @@ export default function FeeStructure() {
             </p>
           </div>
         </section>
+
+        {/* Lead option 5 (2026-11-05): the enquiry form right after the fee table. Before this the page had
+            no form at all - the first enquiry button sat 6.7 phone screens down (live 375 px scan). */}
+        <div className="px-4">
+          <BlogEnquiryBox sourcePage="fee-structure" />
+        </div>
 
         {/* Hostel & Accommodation Fees */}
         <section className="bg-[#FBFBEE] py-12 sm:py-16">
