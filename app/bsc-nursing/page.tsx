@@ -1,6 +1,8 @@
 "use client";
 
 import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
+import BlogEnquiryBox from "@/components/lead/BlogEnquiryBox";
+import { DEFAULT_PROGRAMME_BY_COURSE_KEY } from "@/lib/nursing-programmes";
 import { useState } from "react";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -235,6 +237,11 @@ export default function BScNursing() {
             </div>
           </div>
         </section>
+
+        {/* Enquiry box (lead option, 2026-11-06): before this the page had no form at all */}
+        <div className="bg-[#FBFBEE] px-4 py-1">
+          <BlogEnquiryBox sourcePage="bsc-nursing-top" programmeId={DEFAULT_PROGRAMME_BY_COURSE_KEY.bsc} title="Get B.Sc Nursing Fee & Admission Details" />
+        </div>
 
         {/* Programme Overview Section */}
         <section className="py-16 md:py-24 bg-[#FBFBEE]">

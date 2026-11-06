@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import BlogEnquiryBox from "@/components/lead/BlogEnquiryBox";
 import CityFeesEligibility from "@/components/CityFeesEligibility";
 import Header from "@/components/Header";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
@@ -419,6 +420,11 @@ export default function NamakkalPage() {
             </p>
           </div>
         </section>
+
+        {/* ── Enquiry box (lead option, 2026-11-06): before this the page had no form at all ── */}
+        <div className="bg-[#FBFBEE] px-4 py-1">
+          <BlogEnquiryBox sourcePage="city-namakkal-top" />
+        </div>
 
         {/* ── Campus Image ──────────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] pt-8 sm:pt-12 px-4">

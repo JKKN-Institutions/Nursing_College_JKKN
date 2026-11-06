@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { CityFaqAccordion } from "@/components/CityFaqAccordion";
 import Image from "next/image";
+import BlogEnquiryBox from "@/components/lead/BlogEnquiryBox";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import {
   CheckCircleIcon,
@@ -401,6 +402,11 @@ export default function CoimbatorePage() {
             </p>
           </div>
         </section>
+
+        {/* ── Enquiry box (lead option, 2026-11-06): before this the page had no form at all ── */}
+        <div className="bg-[#FBFBEE] px-4 py-1">
+          <BlogEnquiryBox sourcePage="city-coimbatore-top" />
+        </div>
 
         {/* ── Campus Image ──────────────────────────────────────────── */}
         <section className="bg-[#FBFBEE] pt-8 sm:pt-12 px-4">

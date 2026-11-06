@@ -6,6 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import ScrollButton from "@/components/ScrollButton";
 import Image from "next/image";
 import Link from "next/link";
+import BlogEnquiryBox from "@/components/lead/BlogEnquiryBox";
 import { MSC_COLLEGES, MSC_SOURCE, MSC_TOTALS } from "@/data/tn-msc-nursing-colleges-2023-24";
 import { FaClock, FaBook, FaCheckCircle, FaGraduationCap, FaUserMd, FaBriefcase, FaClipboardCheck, FaFileAlt } from "react-icons/fa";
 
@@ -448,6 +449,12 @@ export default function MScNursing() {
             </div>
           </div>
         </section>
+
+        {/* Enquiry box (lead option, 2026-11-06): before this the page had no form at all.
+            M.Sc has five specialities, one programme id each: no pre-select, the reader picks. */}
+        <div className="bg-[#FBFBEE] px-4 py-1">
+          <BlogEnquiryBox sourcePage="msc-nursing-top" title="Get M.Sc Nursing Fee & Admission Details" />
+        </div>
 
         {/* Quick Info Cards */}
         <section className="py-16 bg-[#FBFBEE]">
