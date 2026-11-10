@@ -4,7 +4,7 @@ export default function NIRF2025SDG() {
       <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-6">NIRF 2025 SDG Ranking — JKKN College of Nursing and Research</h1>
       <div className="flex justify-center">
         <iframe
-          src="/pdf/NIRF-2025-SDG.pdf"
+          src="/pdf/nirf-2025-sdg.pdf"
           className="w-full h-[800px] border-2 border-gray-300 rounded-lg"
           title="NIRF-2025 SDG"
         />
