@@ -16,6 +16,11 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // ── Broken internal links (Link Guard run 2026-11-09, fixed 2026-11-10) ─────────────
+      // Internal links pointed at these dead URLs. Each destination answered HTTP 200 on 2026-11-10
+      // (live check). Both slash forms listed; Next's own trailing-slash 308 answers one of them first.
+      { source: '/hospital', destination: '/clinical-hospital', permanent: true },
+      { source: '/hospital/', destination: '/clinical-hospital', permanent: true },
       // ── Course-mismatch removal 2026-08-11 (DEP-45) ───────────────────────
       // This college does not run GNM or ANM. Offered list read live off this site
       // 2026-08-11: B.Sc Nursing, P.B.B.Sc Nursing, M.Sc Nursing (5 specialisations).
