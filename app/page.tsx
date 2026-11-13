@@ -46,7 +46,7 @@ const faqSchema = {
       "name": "What is the fee structure for nursing programs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male, incl. uniform, hospital training & nursing kit), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 depending on specialization. Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible students."
+        "text": "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male, incl. uniform, hospital training & nursing kit), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 depending on specialization. Government Quota (GQ) fees are As Per Government Norm. Hostel accommodation available separately. Scholarships and education loans available for eligible students."
       }
     },
     {
@@ -153,7 +153,7 @@ const howToSchema = {
     { "@type": "HowToStep", "position": 2, "name": "Upload Documents", "text": "Upload: 10+2 or B.Sc marksheets, Transfer Certificate, Community/Caste Certificate, Medical Fitness Certificate, Aadhaar Card, and passport photos." },
     { "@type": "HowToStep", "position": 3, "name": "Merit-Based Selection", "text": "Candidates evaluated based on academic merit. Shortlisted candidates invited for counseling at JKKN campus." },
     { "@type": "HowToStep", "position": 4, "name": "Counseling & Seat Allotment", "text": "Attend counseling at JKKN campus. Seats allotted based on merit rank, category, and specialization preference." },
-    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay the prescribed fee (MQ: B.Sc ₹1,50,000 Female / ₹1,75,000 Male, M.Sc ₹75,000–₹1,00,000, Post Basic ₹65,000; GQ as per Govt norms) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
+    { "@type": "HowToStep", "position": 5, "name": "Fee Payment & Confirmation", "text": "Pay the prescribed fee (MQ: B.Sc ₹1,50,000 Female / ₹1,75,000 Male, M.Sc ₹75,000–₹1,00,000, Post Basic ₹65,000; GQ: As Per Government Norm) via bank transfer, UPI, or education loan. Receive admission confirmation.", "url": "https://www.jkkn.ai/apply/jkkn-admission-2026" }
   ]
 };
 
@@ -1188,7 +1188,7 @@ export default async function Home() {
                 {
                   question: "What is the fee structure for nursing programs?",
                   answer:
-                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are as per Govt norms. Hostel accommodation available separately. Scholarships and education loans available for eligible learners.",
+                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are As Per Government Norm. Hostel accommodation available separately. Scholarships and education loans available for eligible learners.",
                 },
                 {
                   question: "What are the placement opportunities after nursing?",

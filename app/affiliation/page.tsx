@@ -31,7 +31,7 @@ const facts: { k: string; v: string; src: string }[] = [
   { k: "NAAC", v: "B++ (CGPA 2.79), first cycle, declared 05-09-2024", src: "NAAC list as on 14-08-2025" },
   { k: "AISHE code", v: "C-45803", src: "AISHE directory" },
   { k: "Placement, UG 2024-25", v: "58 of 59 placed; median salary Rs 3,60,000", src: "NIRF 2026 data submitted by the college" },
-  { k: "M.Sc government-quota tuition 2026-27", v: "Rs 75,000 per year (self-financing colleges)", src: "TN M.Sc (Nursing) prospectus 2026-27" },
+  { k: "M.Sc government-quota tuition 2026-27", v: "As Per Government Norm", src: "TN M.Sc (Nursing) prospectus 2026-27" },
 ];
 
 const faqs: { q: string; voice: string; a: string }[] = [
@@ -58,7 +58,7 @@ const faqs: { q: string; voice: string; a: string }[] = [
   {
     q: "Is there an entrance exam for M.Sc Nursing government-quota seats in Tamil Nadu?",
     voice: "M.Sc nursing ku entrance exam irukka?",
-    a: "No entrance test is named in the 2026-2027 Tamil Nadu M.Sc Nursing prospectus. Government-quota seats are filled by counselling from a merit list: 90 marks for B.Sc Nursing results and 10 for experience. Candidates need 55% (50% for SC/SCA/ST); tuition for these seats at self-financing colleges such as JKKN is Rs 75,000 a year.",
+    a: "No entrance test is named in the 2026-2027 Tamil Nadu M.Sc Nursing prospectus. Government-quota seats are filled by counselling from a merit list: 90 marks for B.Sc Nursing results and 10 for experience. Candidates need 55% (50% for SC/SCA/ST); the fee for these seats is As Per Government Norm.",
   },
 ];
 
@@ -247,7 +247,7 @@ export default function Affiliation() {
               <p className={p}>
                 UG 2024-25: 58 of 59 graduating students placed, median salary Rs 3,60,000 - from the{" "}
                 <a href={NIRF_PDF} className="text-[#006837] underline">NIRF 2026 data submitted by the college</a>. M.Sc
-                (Nursing) government-quota tuition in self-financing colleges is Rs 75,000 per year.
+                (Nursing) government-quota fees are As Per Government Norm.
               </p>
               <Source
                 body="Selection Committee, Directorate of Medical Education and Research, Tamil Nadu - Prospectus for M.Sc. (Nursing) 2026-2027, G.O.(D) No.1113, dated 30.09.2026"

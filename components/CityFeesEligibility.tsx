@@ -16,8 +16,9 @@
  *   rather than shared.
  *
  * EVERY FIGURE HAS A PRIMARY SOURCE. NONE IS INVENTED.
- *   fees         config/official-fees.md - government quota and management quota are the same
- *                for nursing, and the figure includes uniform, hospital training and the kit
+ *   fees         config/official-fees.md - the management-quota figure, which includes uniform,
+ *                hospital training and the kit. Government quota fees read "As Per Government Norm"
+ *                and carry no amount (user's rule 2026-11-13).
  *   seats        config/facts-master.csv, Verified=Y - B.Sc 60, M.Sc 25, Post Basic 50
  *   eligibility  Government of Tamil Nadu prospectus for admission to the B.Sc (Nursing) degree
  *                course, 2026-27 session, G.O. (D) No.657 dated 03.06.2026. That document
@@ -43,7 +44,7 @@ export default function CityFeesEligibility({ cityName }: { cityName: string }) 
               <tr className="bg-[#e8f5ee]">
                 <th className="p-3 text-left font-semibold text-gray-900">Course</th>
                 <th className="p-3 text-left font-semibold text-gray-900">Seats</th>
-                <th className="p-3 text-left font-semibold text-gray-900">Tuition per year</th>
+                <th className="p-3 text-left font-semibold text-gray-900">Management Quota tuition per year</th>
               </tr>
             </thead>
             <tbody>
@@ -66,7 +67,7 @@ export default function CityFeesEligibility({ cityName }: { cityName: string }) 
           </table>
         </div>
         <p className="text-gray-500 text-xs sm:text-sm mb-8">
-          Government quota and management quota carry the same tuition for nursing, and the
+          Government quota fees are As Per Government Norm. The management-quota
           figure already includes uniform, hospital training and the nursing kit. Hostel, mess
           and examination charges are billed separately.
         </p>

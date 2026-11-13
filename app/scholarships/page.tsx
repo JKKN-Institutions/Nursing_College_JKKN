@@ -15,7 +15,7 @@ const scholarships = [
   {
     course: "B.Sc Nursing",
     short: "BSc N",
-    pmssGQ: "₹45,000 / Year",
+    pmssGQ: "As Per Government Norm",
     maintenance: "₹5,000 – ₹10,000 / Year",
     firstGraduate: "₹20,000 / Year",
     communityScholarship: "₹5,000 – ₹10,000 / Year",
@@ -25,7 +25,7 @@ const scholarships = [
   {
     course: "M.Sc Nursing",
     short: "MSc N",
-    pmssGQ: "₹75,000 / Year",
+    pmssGQ: "As Per Government Norm",
     maintenance: "₹5,000 – ₹10,000 / Year",
     firstGraduate: "—",
     communityScholarship: "₹5,000 – ₹10,000 / Year",

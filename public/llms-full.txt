@@ -65,7 +65,7 @@ Road distances, measured from the campus map pin to each city centre.
 
 ## Academic Programmes
 
-Three programmes. Management-quota fees are per year for the academic year 2026-27 as published on the college fee page; government-quota fees follow Tamil Nadu government and university norms.
+Three programmes. Management-quota fees are per year for the academic year 2026-27 as published on the college fee page; government-quota fees are As Per Government Norm.
 
 | Programme | Duration | Seats | Management Quota fee per year |
 |---|---|---|---|
@@ -174,13 +174,13 @@ Amounts as published on the college scholarships page.
 
 | Programme | Scheme | Eligibility | Amount |
 |---|---|---|---|
-| B.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 45,000 per year |
+| B.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | As Per Government Norm |
 | B.Sc Nursing | First Graduate (GQ) | BC / MBC / DNC / BCM | Rs 20,000 per year |
 | B.Sc Nursing | Maintenance Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 5,000 to Rs 10,000 per year |
 | B.Sc Nursing | Community Scholarship (GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
 | B.Sc Nursing | Trust Scholarship, merit based (MQ/GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
 | B.Sc Nursing | Naan Mudhalvan Scholarship | All communities, government or government-aided school, Std 6-12, Tamil medium | Rs 1,000 per month |
-| M.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 75,000 per year |
+| M.Sc Nursing | PMSS Community Scholarship (GQ) | SC / SCA / ST / BC-CC | As Per Government Norm |
 | M.Sc Nursing | Maintenance Scholarship (GQ) | SC / SCA / ST / BC-CC | Rs 5,000 to Rs 10,000 per year |
 | M.Sc Nursing | Community Scholarship (GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
 | Post Basic B.Sc Nursing | Maintenance Scholarship (GQ) | BC / MBC / DNC / BCM | under Rs 5,000 per year |
@@ -317,7 +317,7 @@ A: Three — B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats a
 A: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetric and Gynaecological Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing — five seats each.
 
 **Q: What is the B.Sc Nursing fee?**
-A: Under management quota, Rs 1,50,000 per year for female students and Rs 1,75,000 per year for male students. Government quota fees follow Tamil Nadu government and university norms. That fee includes uniform, hospital training and the nursing kit. Hostel is Rs 60,000 to Rs 75,000 per year depending on room type, with mess included.
+A: Under management quota, Rs 1,50,000 per year for female students and Rs 1,75,000 per year for male students. Government quota fees are As Per Government Norm. The management-quota fee includes uniform, hospital training and the nursing kit. Hostel is Rs 60,000 to Rs 75,000 per year depending on room type, with mess included.
 
 **Q: What is the placement rate?**
 A: 98% — 58 of 59 graduating learners were placed in 2024-25 — with 80+ recruiting partners. Around 20% of graduates take international placements. Domestic recruiters include Apollo, Fortis, MIOT, Manipal, Kauvery and KMCH; international destinations include NHS hospitals in the UK, Cleveland Clinic Abu Dhabi and hospitals in Singapore.

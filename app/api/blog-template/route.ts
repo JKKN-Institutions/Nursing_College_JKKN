@@ -142,9 +142,9 @@ export async function GET() {
           makeTable(
             ['College Type', 'Annual Fee Range', 'Total (2 Years)'],
             [
-              ['Government B.Ed Colleges', '\u20b95,000 \u2013 \u20b915,000', '\u20b910,000 \u2013 \u20b930,000'],
+              ['Government B.Ed Colleges', 'As Per Government Norm', 'As Per Government Norm'],
               ['Aided B.Ed Colleges', '\u20b920,000 \u2013 \u20b940,000', '\u20b940,000 \u2013 \u20b980,000'],
-              ['Self-Financing (State Quota)', '\u20b940,000 \u2013 \u20b970,000', '\u20b980,000 \u2013 \u20b91,40,000'],
+              ['Self-Financing (State Quota)', 'As Per Government Norm', 'As Per Government Norm'],
               ['Self-Financing (Management)', '\u20b960,000 \u2013 \u20b91,00,000', '\u20b91,20,000 \u2013 \u20b92,00,000'],
             ]
           ),

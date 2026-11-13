@@ -30,7 +30,7 @@ import {
 // does not show. Previously the schema carried its own 6 differently-worded questions, of
 // which only 1 appeared in the rendered DOM.
 const bscFaqs: { q: string; a: string }[] = [
-                { q: "What is the B.Sc Nursing fee at JKKN College?", a: "The annual fee is ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate, in each of the 4 years, and it includes uniform, hospital training and the nursing kit. Government Quota fees are as per Tamil Nadu government and university norms. Hostel accommodation costs ₹60,000–75,000 per year additionally. Merit-based fee concessions are available on 10+2 performance; contact the admissions office for the current concession table." },
+                { q: "What is the B.Sc Nursing fee at JKKN College?", a: "The annual fee is ₹1,50,000 for a female candidate and ₹1,75,000 for a male candidate, in each of the 4 years, and it includes uniform, hospital training and the nursing kit. Government Quota fees are As Per Government Norm. Hostel accommodation costs ₹60,000–75,000 per year additionally. Merit-based fee concessions are available on 10+2 performance; contact the admissions office for the current concession table." },
                 { q: "Is NEET required for B.Sc Nursing at JKKN?", a: "No, NEET is not required for B.Sc Nursing admission at JKKN College. Admission is completely merit-based on 10+2 marks with Physics, Chemistry, and Biology. Minimum 45% aggregate marks required (40% for SC/ST candidates). Apply online at jkkn.ai/apply/jkkn-admission-2026." },
                 { q: "What is the duration of B.Sc Nursing at JKKN?", a: "The B.Sc Nursing programme is a 4-year full-time undergraduate course. This includes 3.5 years of academic study combining theoretical classes and clinical rotations, followed by a 6-month mandatory internship." },
                 { q: "What are the career options after B.Sc Nursing from JKKN?", a: "Graduates can work as Staff Nurses, ICU Specialists, Community Health Nurses, Nursing Supervisors, or Nursing Educators (after M.Sc). International opportunities include NHS UK, UAE, and Singapore hospitals. NIRF 2026 records a median salary of ₹3,60,000 for the 2024-25 graduating cohort." },
@@ -101,7 +101,7 @@ export default function BScNursing() {
                 "highPrice": "175000",
                 "priceCurrency": "INR",
                 "offerCount": "2",
-                "description": "Management quota annual tuition fee, academic year 2026-27: Rs 1,50,000 for female candidates, Rs 1,75,000 for male candidates. Government quota fees are as per Tamil Nadu government and university norms.",
+                "description": "Management quota annual tuition fee, academic year 2026-27: Rs 1,50,000 for female candidates, Rs 1,75,000 for male candidates. Government quota fees are As Per Government Norm.",
                 "availability": "https://schema.org/InStock",
                 "validFrom": "2026-03-01",
                 // Was 2026-08-31 - already expired at audit time (2026-09-18), which tells Google

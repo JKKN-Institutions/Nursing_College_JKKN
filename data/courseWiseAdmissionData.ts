@@ -59,7 +59,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     feeDetailed: [
       { label: "Tuition Fee (Female – MQ)", value: "₹1,50,000 / year" },
       { label: "Tuition Fee (Male – MQ)", value: "₹1,75,000 / year" },
-      { label: "Government Quota Fee", value: "As per TN Govt norms" },
+      { label: "Government Quota Fee", value: "As Per Government Norm" },
       { label: "Hostel + Mess (optional)", value: "₹65,000 – ₹85,000 / year" },
       { label: "Examination & University Fee", value: "₹15,000 – ₹20,000 / year" },
       { label: "Uniform, Lab Coat, ID Kit (one-time)", value: "₹8,000 (approx.)" },
@@ -75,7 +75,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       // N-05. From the TN DME prospectus G.O. (D) No.657, 03.06.2026. Both matter to a real
       // applicant and neither was anywhere on the page.
       "Candidates from boards other than the TN State Board or CBSE need an Eligibility Certificate from The Tamil Nadu Dr. M.G.R. Medical University, Chennai, before joining",
-      "Government application fee Rs 500, which also covers B.Pharm, B.ASLP, B.P.O and the Allied and Healthcare UG courses",
+      "Government application fee: As Per Government Norm (one application also covers B.Pharm, B.ASLP, B.P.O and the Allied and Healthcare UG courses)",
     ],
     entranceExam:
       "None. There is no entrance exam for B.Sc Nursing in Tamil Nadu - the merit list is built from the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200.",
@@ -151,10 +151,10 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     ],
     faqs: [
       { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },
-      { q: "What is the B.Sc Nursing fee structure at JKKN?", a: "Management Quota annual tuition is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, examination, and uniform charges are billed separately." },
+      { q: "What is the B.Sc Nursing fee structure at JKKN?", a: "Management Quota annual tuition is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are As Per Government Norm. Hostel, mess, examination, and uniform charges are billed separately." },
       { q: "What is the eligibility for B.Sc Nursing?", a: "Candidates must have passed 10+2 with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for BC/BCM/MBC & DNC and SC/SCA/ST). NEET is NOT required. Applicants must have completed 17 years of age as on 31st December of the admission year." },
       { q: "How many B.Sc Nursing seats are available at JKKN?", a: "60 seats are available for B.Sc Nursing — split across Government Quota (filled via TN state counselling) and Management Quota (filled directly by the institution on academic merit)." },
-      { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling on a merit list built from 10+2 marks, with fees as per Govt norms. Management Quota (MQ) seats are filled directly by JKKN on academic merit, with institutional fee structure." },
+      { q: "What is the difference between Government Quota and Management Quota?", a: "Government Quota (GQ) seats are filled through Tamil Nadu state counselling on a merit list built from 10+2 marks, with fees As Per Government Norm. Management Quota (MQ) seats are filled directly by JKKN on academic merit, with institutional fee structure." },
       { q: "Does JKKN offer hostel for B.Sc Nursing learners?", a: "Yes. Separate girls' and boys' hostels are available within campus with 24/7 security, Wi-Fi, hygienic mess, and warden supervision. Hostel allotment is on a first-come, first-served basis." },
       { q: "What career options are available after B.Sc Nursing?", a: "Graduates can work as Staff Nurses in corporate hospitals, Government Staff Nurses via TN MRB/AIIMS/ESIC, ICU/Critical Care specialists, pursue M.Sc Nursing, or take international roles in UK (NHS), UAE, Saudi Arabia, Singapore, Australia after the relevant licensure exam." },
       { q: "When is the BSc Nursing counselling date 2027 in Tamil Nadu?", a: "The 2027-28 BSc Nursing counselling dates are not announced yet: the Tamil Nadu Selection Committee had published no 2027 schedule on tnmedicalselection.net as of 2 November 2026. In 2026-27, seats were allotted in three rounds, on 3 September, 21 September and 27-29 October 2026. JKKN's government-quota B.Sc Nursing seats are filled through this counselling." },
@@ -182,7 +182,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     feeShort: "₹75,000 – ₹1,00,000/yr (MQ)",
     feeDetailed: [
       { label: "Tuition Fee (Management Quota)", value: "₹75,000 – ₹1,00,000 / year" },
-      { label: "Government Quota Tuition (self-financing colleges)", value: "₹75,000 / year (Tamil Nadu M.Sc (Nursing) prospectus 2026-27)" },
+      { label: "Government Quota Fee", value: "As Per Government Norm" },
       { label: "Hostel + Mess (optional)", value: "₹65,000 – ₹85,000 / year" },
       { label: "University Examination Fee", value: "₹15,000 / year" },
       { label: "Thesis / Dissertation Fee", value: "₹10,000 (one-time)" },
@@ -271,7 +271,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "Is there an entrance exam for M.Sc Nursing?", a: "No entrance test is named in the Tamil Nadu M.Sc (Nursing) prospectus for 2026-2027. Government-quota seats are filled by online counselling from a merit list out of 100 marks: 90 for B.Sc (Nursing) academic marks and 10 for experience. The prospectus was notified on 2 October 2026 at tnmedicalselection.net." },
       { q: "When is the MSc Nursing counselling date 2027 in Tamil Nadu?", a: "The 2027-28 MSc Nursing counselling dates are not announced yet: the Tamil Nadu Selection Committee had published no 2027 schedule as of 2 November 2026. In 2026-27, the prospectus came out on 2 October 2026 and seats were allotted on 27 and 30 October 2026. JKKN's government-quota M.Sc Nursing seats follow this counselling." },
       { q: "What specializations are offered in M.Sc Nursing at JKKN?", a: "JKKN offers 5 M.Sc Nursing specializations: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetrics & Gynaecological Nursing, Psychiatric/Mental Health Nursing, and Community Health Nursing. Each has 5 seats." },
-      { q: "What is the M.Sc Nursing fee structure?", a: "Management Quota tuition fees range from ₹75,000 to ₹1,00,000 per year. Government-quota tuition in self-financing colleges is ₹75,000 per year (Tamil Nadu M.Sc (Nursing) prospectus 2026-27). Hostel, examination, thesis, and clinical kit are billed separately." },
+      { q: "What is the M.Sc Nursing fee structure?", a: "Management Quota tuition fees range from ₹75,000 to ₹1,00,000 per year. Government-quota fees are As Per Government Norm. Hostel, examination, thesis, and clinical kit are billed separately." },
       { q: "Can working nurses join M.Sc Nursing?", a: "Yes. Work experience is actually a prerequisite — minimum 1 year of clinical experience after RN registration is required. In-service quota seats are reserved for nurses working in Tamil Nadu government healthcare." },
       { q: "What is the career scope after M.Sc Nursing?", a: "M.Sc Nursing opens roles such as Nursing Tutor/Lecturer/Professor, Nurse Manager, Specialty Nurse (ICU/NICU/Oncology), Nurse Researcher, international clinical/teaching roles, and pathways to M.Phil and Ph.D in Nursing." },
       { q: "How long is the M.Sc Nursing course?", a: "M.Sc Nursing is a 2-year full-time program (4 semesters) including clinical postings, learning studio teaching, and a research dissertation in the chosen specialization." },
@@ -303,7 +303,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
     feeShort: "₹65,000/yr (MQ)",
     feeDetailed: [
       { label: "Tuition Fee (Management Quota)", value: "₹65,000 / year" },
-      { label: "Government Quota Fee", value: "As per TN Govt norms" },
+      { label: "Government Quota Fee", value: "As Per Government Norm" },
       { label: "Hostel + Mess (optional)", value: "₹65,000 – ₹85,000 / year" },
       { label: "University Examination Fee", value: "₹15,000 / year" },
       { label: "Lab & Clinical Kit (one-time)", value: "₹6,000" },
@@ -391,7 +391,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { q: "Who is eligible for Post Basic B.Sc Nursing?", a: "GNM diploma holders from INC-recognized institutions with valid RN and RM registration with the State Nursing Council are eligible. Experience is not a minimum requirement for non-service candidates in the Tamil Nadu prospectus 2026-27; each completed year adds one merit mark, up to 10. Candidates also need a pass in the Higher Secondary course (10+2) or an equivalent examination." },
       { q: "Is there an entrance exam for Post Basic B.Sc Nursing?", a: "No. In Tamil Nadu, government-quota seats are filled from a merit list out of 100: 90 for Diploma in Nursing (GNM) marks and 10 for experience, one mark per completed year (Post Basic B.Sc (Nursing) prospectus 2026-27). Seats are allotted by online counselling. Management-quota seats at JKKN are filled through the college admission office." },
       { q: "When is the Post Basic BSc Nursing counselling date 2027?", a: "The 2027-28 Post Basic BSc Nursing counselling dates are not announced yet: the Tamil Nadu Selection Committee had published no 2027 schedule as of 2 November 2026. In 2026-27, the prospectus came out on 28 August 2026 and seats were allotted on 21 and 28 October 2026. JKKN's government-quota seats follow this counselling." },
-      { q: "What is the Post Basic B.Sc Nursing fee at JKKN?", a: "Management Quota tuition is ₹65,000 per year. Government Quota fees are as per Tamil Nadu government norms. Hostel, examination, and uniform fees are billed separately." },
+      { q: "What is the Post Basic B.Sc Nursing fee at JKKN?", a: "Management Quota tuition is ₹65,000 per year. Government Quota fees are As Per Government Norm. Hostel, examination, and uniform fees are billed separately." },
       { q: "How long does Post Basic B.Sc Nursing take?", a: "It is a 2-year full-time degree program (4 semesters). After completion, you receive a B.Sc Nursing degree from Tamil Nadu Dr. M.G.R. Medical University, equivalent to the regular B.Sc Nursing degree." },
       { q: "After Post Basic B.Sc Nursing, can I do M.Sc Nursing?", a: "Yes. After completing Post Basic B.Sc Nursing, you become eligible for M.Sc Nursing (with the standard 55% + 1 year experience requirement). All 5 M.Sc Nursing specializations are open to P.B.B.Sc graduates." },
       { q: "Can I work and study Post Basic B.Sc Nursing?", a: "Post Basic B.Sc Nursing at JKKN is a regular full-time program with mandatory clinical postings — it is not offered as a part-time/distance course. Working nurses typically take leave or NOC from their employer to attend." },

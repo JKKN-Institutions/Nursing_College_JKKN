@@ -395,7 +395,7 @@ export default function Admissions() {
               <svg className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
               </svg>
-              MQ fees shown above. Government Quota (GQ) fees are as per Govt norms. Fees are reviewed annually. See{" "}
+              MQ fees shown above. Government Quota (GQ) fees are As Per Government Norm. Fees are reviewed annually. See{" "}
               <Link href="/fee-structure" className="text-[#006837] underline hover:text-[#004d28]">
                 Fee Structure
               </Link>{" "}
@@ -730,7 +730,7 @@ export default function Admissions() {
                 },
                 {
                   q: "What are the fees for B.Sc Nursing under Management Quota?",
-                  a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately.",
+                  a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are As Per Government Norm. Hostel, mess, and other charges are billed separately.",
                 },
                 {
                   q: "How can I apply for admission to JKKN College of Nursing and Research?",
@@ -804,7 +804,7 @@ export default function Admissions() {
                   { q: "What is the eligibility criteria for B.Sc Nursing at JKKN?", a: "Candidates must have passed 10+2 (HSC) with Physics, Chemistry, Biology, and English with a minimum aggregate of 45% (40% for BC/BCM/MBC & DNC and SC/SCA/ST). NEET is NOT required. Applicants must have completed 17 years of age as on 31st December of the admission year." },
                   { q: "Is NEET required for B.Sc Nursing admission?", a: "No. NEET is not required for B.Sc Nursing in Tamil Nadu. Admission is merit-based on the 10+2 marks in Physics, Chemistry and Biology, normalised to a base of 200 by the Tamil Nadu Selection Committee, per the Government of Tamil Nadu prospectus for the 2026-27 session." },
                   { q: "What is the eligibility for M.Sc Nursing?", a: "Candidates must hold a B.Sc Nursing or Post Basic B.Sc Nursing degree from an INC-recognized institution with a minimum 55% aggregate, valid Registered Nurse (RN) and Registered Midwife (RM) registration, and at least one year of clinical experience after registration." },
-                  { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are as per Tamil Nadu government norms. Hostel, mess, and other charges are billed separately." },
+                  { q: "What are the fees for B.Sc Nursing under Management Quota?", a: "Management Quota annual tuition fee is ₹1,50,000 for female candidates and ₹1,75,000 for male candidates. Government Quota fees are As Per Government Norm. Hostel, mess, and other charges are billed separately." },
                   { q: "How can I apply for admission to JKKN College of Nursing and Research?", a: "You can apply online at www.jkkn.ai/apply/jkkn-admission-2026, fill out the application form with accurate details, upload the required documents, and submit. You may also visit the admissions office at Komarapalayam or call +91 93458 55001 for guidance." },
                   { q: "What is the admission process — Government Quota vs Management Quota?", a: "Government Quota (GQ) seats are filled through the Tamil Nadu state counselling on a merit list built from 10+2 marks. Management Quota (MQ) seats are filled directly by the institution on academic merit. Apply through both routes to maximize your chances." },
                   { q: "Are scholarships available for nursing learners?", a: "Yes. JKKN offers merit-based scholarships, fee concessions for academic toppers, and assists eligible learners with Government of Tamil Nadu scholarships for BC, MBC, SC, and ST categories. Education loan tie-ups with nationalized banks are also available." },

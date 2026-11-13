@@ -85,7 +85,7 @@ export default function MScNursing() {
       "highPrice": "100000",
       "priceCurrency": "INR",
       "offerCount": "5",
-      "description": "Management quota annual tuition fee, academic year 2026-27, by specialisation: Medical Surgical Rs 1,00,000; Obstetrics & Gynaecology Rs 80,000; Psychiatric, Paediatric and Community Health Rs 75,000 each. Government quota fees are as per Tamil Nadu government and university norms.",
+      "description": "Management quota annual tuition fee, academic year 2026-27, by specialisation: Medical Surgical Rs 1,00,000; Obstetrics & Gynaecology Rs 80,000; Psychiatric, Paediatric and Community Health Rs 75,000 each. Government quota fees are As Per Government Norm.",
       "availability": "https://schema.org/InStock",
       "validFrom": "2026-03-01",
       // Was 2026-08-31 - already expired at audit time (2026-09-18), which tells Google
@@ -1824,7 +1824,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    M.Sc Nursing fees at JKKN depend on the specialisation, per year: Medical-Surgical Nursing ₹1,00,000, Obstetrics & Gynaecological Nursing ₹80,000, and Psychiatric / Mental Health, Child Health (Paediatric) and Community Health Nursing ₹75,000 each. Government Quota and Management Quota are charged at the same rate. Hostel, mess and exam fees are additional. Call +91 93458 55001 to confirm before you apply.
+                    M.Sc Nursing Management Quota fees at JKKN depend on the specialisation, per year: Medical-Surgical Nursing ₹1,00,000, Obstetrics & Gynaecological Nursing ₹80,000, and Psychiatric / Mental Health, Child Health (Paediatric) and Community Health Nursing ₹75,000 each. Government Quota fees are As Per Government Norm. Hostel, mess and exam fees are additional. Call +91 93458 55001 to confirm before you apply.
                   </p>
                 </details>
 
