@@ -1,3 +1,4 @@
+import EnquirySection from "@/components/lead/EnquirySection";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "@/components/Header";
@@ -983,6 +984,9 @@ export default function PlacementsPage() {
           </div>
         </section>
       </main>
+
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="placement" heading="Ask About Placements and Admission" />
 
       <Footer hideLifeAtJKKN={true} />
       <FloatingButtons />

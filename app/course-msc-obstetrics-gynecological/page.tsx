@@ -1,5 +1,7 @@
 "use client";
 
+import EnquirySection from "@/components/lead/EnquirySection";
+import { DEFAULT_PROGRAMME_BY_COURSE_KEY } from "@/lib/nursing-programmes";
 import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -1547,6 +1549,10 @@ export default function MScObstetricsGynecologicalNursing() {
         </div>
 
       </main>
+
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="msc-obstetrics-gynecological" programmeId={DEFAULT_PROGRAMME_BY_COURSE_KEY["msc-obstetrics-gynecological"]} />
+
       <Footer hideLifeAtJKKN />
       <FloatingButtons />
     </>

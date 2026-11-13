@@ -43,4 +43,12 @@ export const VALID_NURSING_PROGRAMME_IDS: ReadonlySet<string> = new Set(
 export const DEFAULT_PROGRAMME_BY_COURSE_KEY: Readonly<Record<string, string>> = {
   bsc: "35412f80-1100-4be9-ba82-92111eac57fc",
   pbsc: "23b838dd-49b7-4f0e-afe4-72af411f7724",
+  // Added 2026-11-13 with the page forms: each /course-msc-<x> page is about exactly one M.Sc
+  // specialisation (H1 / title read live, ids re-checked against the CRM form definition the same
+  // day), so here the default is not a guess. The general /msc-nursing page still has none.
+  "msc-medical-surgical": "e46c9707-be99-453e-a411-9bac83e806ee",
+  "msc-child-health": "432ea38a-947a-4959-98c5-fbcef4068252",
+  "msc-community-health": "bf8a9692-7543-4af8-b0db-d45d8eff32be",
+  "msc-mental-health": "52edf664-720c-4dd6-917d-f531c05375b9",
+  "msc-obstetrics-gynecological": "a878c1b4-a610-4750-b69b-51002ce91252",
 }

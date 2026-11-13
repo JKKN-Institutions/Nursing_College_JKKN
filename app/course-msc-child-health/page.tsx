@@ -1,5 +1,7 @@
 "use client";
 
+import EnquirySection from "@/components/lead/EnquirySection";
+import { DEFAULT_PROGRAMME_BY_COURSE_KEY } from "@/lib/nursing-programmes";
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -1162,6 +1164,9 @@ export default function MScChildHealthNursing() {
           <p className="text-sm text-gray-600">Contact: +91 93458 55001 | nursing@jkkn.ac.in</p>
         </div>
       </div>
+
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="msc-child-health" programmeId={DEFAULT_PROGRAMME_BY_COURSE_KEY["msc-child-health"]} />
 
       <Footer hideLifeAtJKKN />
       <FloatingButtons />
