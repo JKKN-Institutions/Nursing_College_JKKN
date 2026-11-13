@@ -51,56 +51,56 @@ export default function FeeStructure() {
                   <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">B.Sc Nursing (Female)</td>
                     <td className="px-5 py-4 text-gray-600">4 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹1,50,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs">Incl. Uniform, Hospital Training &amp; Nursing Kit</td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">B.Sc Nursing (Male)</td>
                     <td className="px-5 py-4 text-gray-600">4 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹1,75,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs">Incl. Uniform, Hospital Training &amp; Nursing Kit</td>
                   </tr>
                   <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">Post Basic B.Sc Nursing</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹65,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">M.Sc Nursing – Medical Surgical</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹1,00,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
                   <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">M.Sc Nursing – OBG &amp; Gynecology</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹80,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">M.Sc Nursing – Psychiatric</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹75,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
                   <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">M.Sc Nursing – Paediatric</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹75,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">M.Sc Nursing – Community Health</td>
                     <td className="px-5 py-4 text-gray-600">2 Years</td>
-                    <td className="px-5 py-4 text-gray-600 italic">As Per Govt Norms</td>
+                    <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹75,000</td>
                     <td className="px-5 py-4 text-gray-500 text-xs"></td>
                   </tr>
@@ -108,7 +108,7 @@ export default function FeeStructure() {
               </table>
             </div>
             <p className="mt-4 text-sm text-gray-500 italic">
-              * Government Quota fees are as per Tamil Nadu government/university norms. Management Quota fees are per year. Additional examination fees as per Tamil Nadu Dr. MGR Medical University.
+              * Government Quota fees: As Per Government Norm. Management Quota fees are per year. Additional examination fees as per Tamil Nadu Dr. MGR Medical University.
             </p>
           </div>
         </section>
