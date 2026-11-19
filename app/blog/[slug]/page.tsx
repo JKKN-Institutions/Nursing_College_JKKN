@@ -4,6 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import CampusBlogContent from '../campus/[slug]/CampusBlogContent';
+import { blogFromMyJkkn, blogSiteKey, getPost, listPosts } from '@/lib/blog/myjkkn';
+import { MYJKKN_URL } from '@/lib/blog/config';
 
 export const revalidate = 300;
 
@@ -56,6 +58,22 @@ export default async function BlogPost({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
+  if (blogFromMyJkkn()) {
+    const detail = await getPost(slug);
+    if (!detail) notFound();
+    const popular = (await listPosts(4)).posts.filter((p) => p.slug !== slug).slice(0, 3);
+    return renderPost({
+      slug,
+      post: detail.post,
+      popularPosts: popular,
+      relatedPosts: detail.related,
+      initialComments: detail.comments,
+      isPreview: detail.preview,
+      fromMyJkkn: true,
+    });
+  }
+
   const supabase = await createClient();
 
   const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
@@ -96,6 +114,39 @@ export default async function BlogPost({
       .eq('status', 'approved')
       .order('created_at', { ascending: true }),
   ]);
+
+  return renderPost({
+    slug,
+    post,
+    popularPosts: popularPosts ?? [],
+    relatedPosts: relatedPosts ?? [],
+    initialComments: initialComments ?? [],
+    isPreview: false,
+    fromMyJkkn: false,
+  });
+}
+
+/* eslint-disable @typescript-eslint/no-explicit-any -- rows come untyped from the `blogs` table, as before */
+/** The page itself. Both sources (this site's `blogs` table, or MyJKKN) end here, so the markup is one. */
+function renderPost({
+  slug,
+  post,
+  popularPosts,
+  relatedPosts,
+  initialComments,
+  isPreview,
+  fromMyJkkn,
+}: {
+  slug: string;
+  post: any;
+  popularPosts: any[];
+  relatedPosts: any[];
+  initialComments: any[];
+  /** A draft opened with its preview link from MyJKKN. */
+  isPreview: boolean;
+  fromMyJkkn: boolean;
+}) {
+  /* eslint-enable @typescript-eslint/no-explicit-any */
 
   const isStructured = !!post.sections;
 
@@ -161,9 +212,11 @@ export default async function BlogPost({
         tocItems={tocItems}
         readTime={readTime}
         wordCount={words}
-        popularPosts={popularPosts ?? []}
-        relatedPosts={relatedPosts ?? []}
-        initialComments={initialComments ?? []}
+        popularPosts={popularPosts}
+        relatedPosts={relatedPosts}
+        initialComments={initialComments}
+        commentsVia={fromMyJkkn ? { api: `${MYJKKN_URL}/api/public/blog/comments`, site: blogSiteKey() } : undefined}
+        commentFormOpen={!fromMyJkkn || (post.allow_comments && !isPreview)}
       />
       <Footer hideLifeAtJKKN />
       <ScrollToTop />
