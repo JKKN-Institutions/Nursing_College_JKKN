@@ -5,16 +5,61 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ScrollToTop } from '@/components/ScrollToTop';
 import CampusBlogContent from './CampusBlogContent';
+import { blogFromMyJkkn, blogSiteKey, getPost, listPosts } from '@/lib/blog/myjkkn';
+import { MYJKKN_URL } from '@/lib/blog/config';
 import { inlineCtaFor } from '@/lib/blog-inline-cta';
 
 export const revalidate = 300;
 
-export async function generateMetadata({
-  params,
-}: {
+type PageProps = {
   params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
+  /** ?preview=<token>: the Preview link in MyJKKN opens a draft (BLOG_SOURCE=myjkkn only). */
+  searchParams: Promise<{ preview?: string }>;
+};
+
+export async function generateMetadata({ params, searchParams }: PageProps): Promise<Metadata> {
   const { slug } = await params;
+
+  if (blogFromMyJkkn()) {
+    const { preview } = await searchParams;
+    const detail = await getPost(slug, preview);
+    if (!detail) return { title: 'Blog Post Not Found — JKKN College of Nursing and Research' };
+    const { post } = detail;
+    // The SEO fields are filled in MyJKKN; where the writer left one empty, MyJKKN has
+    // already fallen back to the title, excerpt, featured image and the post's own address.
+    const description = post.seo.description ?? '';
+    const ogImage = post.seo.og_image || '/images/nursing_logo.png';
+    return {
+      // A written SEO title is the whole title; otherwise the college name is added, as before.
+      title:
+        post.seo.title === post.title
+          ? `${post.title} — JKKN College of Nursing and Research`
+          : post.seo.title,
+      description,
+      ...(post.seo.keywords.length > 0 && { keywords: post.seo.keywords }),
+      alternates: { canonical: post.seo.canonical_url },
+      openGraph: {
+        title: post.seo.title,
+        description,
+        type: 'article',
+        url: `https://nursing.sresakthimayeil.jkkn.ac.in/blog/campus/${slug}`,
+        siteName: 'JKKN College of Nursing and Research',
+        images: [{ url: ogImage, width: 1200, height: 630, alt: post.title }],
+        publishedTime: post.published_at || post.created_at,
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: post.seo.title,
+        description,
+        images: [ogImage],
+      },
+      robots:
+        detail.preview || post.seo.noindex
+          ? { index: false, follow: !detail.preview }
+          : { index: true, follow: true },
+    };
+  }
+
   const supabase = await createClient();
   const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
   const { data: post } = await supabase
@@ -99,12 +144,25 @@ function calcReadMeta(content: string): { words: number; readTime: number } {
   return { words, readTime: Math.max(1, Math.ceil(words / 200)) };
 }
 
-export default async function CampusBlogPost({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function CampusBlogPost({ params, searchParams }: PageProps) {
   const { slug } = await params;
+
+  if (blogFromMyJkkn()) {
+    const { preview } = await searchParams;
+    const detail = await getPost(slug, preview);
+    if (!detail) notFound();
+    const popular = (await listPosts(4)).posts.filter((p) => p.slug !== slug).slice(0, 3);
+    return renderPost({
+      slug,
+      post: detail.post,
+      popularPosts: popular,
+      relatedPosts: detail.related,
+      initialComments: detail.comments,
+      isPreview: detail.preview,
+      fromMyJkkn: true,
+    });
+  }
+
   const supabase = await createClient();
 
   const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
@@ -148,6 +206,39 @@ export default async function CampusBlogPost({
       .eq('status', 'approved')
       .order('created_at', { ascending: true }),
   ]);
+
+  return renderPost({
+    slug,
+    post,
+    popularPosts: popularPosts ?? [],
+    relatedPosts: relatedPosts ?? [],
+    initialComments: initialComments ?? [],
+    isPreview: false,
+    fromMyJkkn: false,
+  });
+}
+
+/* eslint-disable @typescript-eslint/no-explicit-any -- rows come untyped from the `blogs` table, as before */
+/** The page itself. Both sources (this site's `blogs` table, or MyJKKN) end here, so the markup is one. */
+function renderPost({
+  slug,
+  post,
+  popularPosts,
+  relatedPosts,
+  initialComments,
+  isPreview,
+  fromMyJkkn,
+}: {
+  slug: string;
+  post: any;
+  popularPosts: any[];
+  relatedPosts: any[];
+  initialComments: any[];
+  /** A draft opened with its preview link from MyJKKN. */
+  isPreview: boolean;
+  fromMyJkkn: boolean;
+}) {
+  /* eslint-enable @typescript-eslint/no-explicit-any */
 
   // Structured posts (new format with sections JSONB) skip HTML processing
   const isStructured = !!post.sections;
@@ -203,10 +294,18 @@ export default async function CampusBlogPost({
 
   return (
     <div className="min-h-screen bg-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
-      />
+      {isPreview ? (
+        <div className="fixed bottom-0 left-0 right-0 z-50 bg-[#ffde59] border-t border-amber-300">
+          <p className="max-w-5xl mx-auto px-4 sm:px-6 py-2.5 text-sm font-semibold text-[#002309]">
+            Draft Preview — this post is not published yet and is hidden from search engines.
+          </p>
+        </div>
+      ) : (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema) }}
+        />
+      )}
       <Header />
       <CampusBlogContent
         post={post}
@@ -214,11 +313,13 @@ export default async function CampusBlogPost({
         tocItems={tocItems}
         readTime={readTime}
         wordCount={words}
-        popularPosts={popularPosts ?? []}
-        relatedPosts={relatedPosts ?? []}
-        initialComments={initialComments ?? []}
+        popularPosts={popularPosts}
+        relatedPosts={relatedPosts}
+        initialComments={initialComments}
+        commentsVia={fromMyJkkn ? { api: `${MYJKKN_URL}/api/public/blog/comments`, site: blogSiteKey() } : undefined}
+        commentFormOpen={!fromMyJkkn || (post.allow_comments && !isPreview)}
         /* Enquiry box inside every post (lead option 2, 2026-11-05) - place from lib/blog-inline-cta.ts. */
-        inlineCta={inlineCtaFor(slug, processedHtml)}
+        inlineCta={isPreview ? null : inlineCtaFor(slug, processedHtml)}
       />
       <Footer hideLifeAtJKKN />
       <ScrollToTop />

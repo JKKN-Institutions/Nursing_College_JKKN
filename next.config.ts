@@ -119,6 +119,19 @@ const nextConfig: NextConfig = {
       { source: '/ilr', destination: '/', permanent: true },
     ]
   },
+  // BLOG_SOURCE=myjkkn: /sitemap-blog.xml is built from the posts published in MyJKKN.
+  // Without the setting there is no rewrite and the hand-kept public/sitemap-blog.xml is served as before.
+  // Read when the site is built, so a change to BLOG_SOURCE needs a new deploy.
+  async rewrites() {
+    return {
+      beforeFiles:
+        process.env.BLOG_SOURCE === 'myjkkn'
+          ? [{ source: '/sitemap-blog.xml', destination: '/api/sitemap-blog' }]
+          : [],
+      afterFiles: [],
+      fallback: [],
+    };
+  },
   async headers() {
     return [
       {
@@ -140,7 +153,7 @@ const nextConfig: NextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "img-src 'self' data: https: blob:",
               "font-src 'self' https://fonts.gstatic.com",
-              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://czjzizrzmqcdwgtxwuks.supabase.co https://www.facebook.com https://connect.facebook.net",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://czjzizrzmqcdwgtxwuks.supabase.co https://www.facebook.com https://connect.facebook.net https://www.jkkn.ai",
               "frame-src 'self' https://www.youtube.com https://www.google.com",
               "frame-ancestors 'self'",
             ].join('; '),
