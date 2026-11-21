@@ -1094,67 +1094,6 @@ export default async function Home() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section className="py-20 bg-[#FBFBEE]">
-          <div className="container mx-auto px-8 md:px-16 lg:px-24">
-            <div className="text-center mb-12">
-              <p className="text-[#7cb983] text-sm font-bold uppercase tracking-wide mb-4">
-                SUCCESS STORIES
-              </p>
-              <h2 className="text-4xl md:text-5xl font-bold text-[#006837] mb-4">
-                What Our Learners Say
-              </h2>
-              <p className="text-gray-600 max-w-3xl mx-auto">
-                Hear from our Learners and alumni about their transformative experience at JKKN College of Nursing and Research.
-              </p>
-            </div>
-
-            <div className="grid lg:grid-cols-3 gap-8">
-              {[
-                {
-                  quote:
-                    "The simulation labs at JKKN gave me confidence before my first clinical posting. The hands-on training with mannequins helped me handle real emergencies calmly. I'm now working at Apollo Chennai.",
-                  name: "Priya Subramanian",
-                  designation: "B.Sc Nursing 2022, Staff Nurse at Apollo",
-                  initials: "PS",
-                },
-                {
-                  quote:
-                    "After completing my M.Sc Nursing from JKKN, I received placement offers from 3 nursing colleges. The research exposure and clinical specialization prepared me perfectly for an academic career.",
-                  name: "Rajesh Kumar",
-                  designation: "M.Sc Nursing 2023, Nursing Lecturer",
-                  initials: "RK",
-                },
-              ].map((testimonial, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
-                >
-                  <div className="text-6xl text-[#7cb983]/20 mb-4">"</div>
-                  <p className="text-gray-700 italic mb-6 leading-relaxed">
-                    {testimonial.quote}
-                  </p>
-                  <div className="flex items-center gap-4">
-                    <div className="w-14 h-14 rounded-full bg-[#006837] flex items-center justify-center flex-shrink-0">
-                      <span className="text-white font-bold text-lg">
-                        {testimonial.initials}
-                      </span>
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-[#006837]">
-                        {testimonial.name}
-                      </h4>
-                      <p className="text-sm text-gray-600">
-                        {testimonial.designation}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* FAQ Section */}
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-8 md:px-16 lg:px-24">
