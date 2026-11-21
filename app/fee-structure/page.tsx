@@ -53,14 +53,14 @@ export default function FeeStructure() {
                     <td className="px-5 py-4 text-gray-600">4 Years</td>
                     <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹1,50,000</td>
-                    <td className="px-5 py-4 text-gray-500 text-xs">Incl. Uniform, Hospital Training &amp; Nursing Kit</td>
+                    <td className="px-5 py-4 text-gray-500 text-xs">Uniform / kit charges: confirm with the admission office</td>
                   </tr>
                   <tr className="border-b border-gray-100 bg-[#fafff8] hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">B.Sc Nursing (Male)</td>
                     <td className="px-5 py-4 text-gray-600">4 Years</td>
                     <td className="px-5 py-4 text-gray-600 italic">As Per Government Norm</td>
                     <td className="px-5 py-4 text-[#006837] font-bold">₹1,75,000</td>
-                    <td className="px-5 py-4 text-gray-500 text-xs">Incl. Uniform, Hospital Training &amp; Nursing Kit</td>
+                    <td className="px-5 py-4 text-gray-500 text-xs">Uniform / kit charges: confirm with the admission office</td>
                   </tr>
                   <tr className="border-b border-gray-100 hover:bg-[#f0f9f4] transition-colors">
                     <td className="px-5 py-4 font-medium text-gray-800">Post Basic B.Sc Nursing</td>

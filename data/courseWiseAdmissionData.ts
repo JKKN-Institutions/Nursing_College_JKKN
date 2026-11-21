@@ -62,7 +62,7 @@ export const coursesAdmission: Record<CourseKey, CourseAdmission> = {
       { label: "Government Quota Fee", value: "As Per Government Norm" },
       { label: "Hostel + Mess (optional)", value: "₹65,000 – ₹85,000 / year" },
       { label: "Examination & University Fee", value: "₹15,000 – ₹20,000 / year" },
-      { label: "Uniform, Lab Coat, ID Kit (one-time)", value: "₹8,000 (approx.)" },
+      { label: "Uniform, Lab Coat, ID Kit", value: "Confirm with the admission office" },
     ],
     intake: "August – September 2026",
     ageLimit: "Minimum 17 years as on 31st December 2026 · Upper limit 35 years",

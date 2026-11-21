@@ -46,7 +46,7 @@ const faqSchema = {
       "name": "What is the fee structure for nursing programs?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male, incl. uniform, hospital training & nursing kit), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 depending on specialization. Government Quota (GQ) fees are As Per Government Norm. Hostel accommodation available separately. Scholarships and education loans available for eligible students."
+        "text": "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 depending on specialization. Government Quota (GQ) fees are As Per Government Norm. Uniform, kit and hostel charges: confirm with the admission office. Scholarships and education loans available for eligible students."
       }
     },
     {
@@ -1181,7 +1181,7 @@ export default async function Home() {
                 {
                   question: "What is the fee structure for nursing programs?",
                   answer:
-                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are As Per Government Norm. Hostel accommodation available separately. Scholarships and education loans available for eligible learners.",
+                    "Management Quota (MQ) annual fees: B.Sc Nursing ₹1,50,000 (Female) / ₹1,75,000 (Male), Post Basic B.Sc Nursing ₹65,000, M.Sc Nursing ₹75,000–₹1,00,000 (varies by specialization). Government Quota (GQ) fees are As Per Government Norm. Uniform, kit and hostel charges: confirm with the admission office. Scholarships and education loans available for eligible learners.",
                 },
                 {
                   question: "What are the placement opportunities after nursing?",

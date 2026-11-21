@@ -67,8 +67,8 @@ export default function CityFeesEligibility({ cityName }: { cityName: string }) 
           </table>
         </div>
         <p className="text-gray-500 text-xs sm:text-sm mb-8">
-          Government quota fees are As Per Government Norm. The management-quota
-          figure already includes uniform, hospital training and the nursing kit. Hostel, mess
+          Government quota fees are As Per Government Norm. Uniform and kit charges:
+          confirm with the admission office. Hostel, mess
           and examination charges are billed separately.
         </p>
 

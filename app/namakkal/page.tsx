@@ -89,7 +89,7 @@ const faqs = [
   },
   {
     q: "What is the fee structure for nursing courses in Namakkal?",
-    a: "B.Sc Nursing tuition at JKKN College of Nursing and Research is ₹1,50,000 a year for women and ₹1,75,000 for men, including uniform, hospital training and the nursing kit. M.Sc Nursing is ₹75,000 to ₹1,00,000 by specialisation and Post Basic B.Sc ₹65,000. Hostel, mess and examination charges are billed separately.",
+    a: "B.Sc Nursing tuition at JKKN College of Nursing and Research is ₹1,50,000 a year for women and ₹1,75,000 for men; uniform and kit charges: confirm with the admission office. M.Sc Nursing is ₹75,000 to ₹1,00,000 by specialisation and Post Basic B.Sc ₹65,000. Hostel, mess and examination charges are billed separately.",
   },
 ];
 
