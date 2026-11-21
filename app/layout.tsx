@@ -81,11 +81,11 @@ const educationalOrganizationSchema = {
     "JKKN College of Nursing and Research",
     "JKKN College of Nursing and Research Komarapalayam"
   ],
-  "description": "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2006, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
+  "description": "JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research), established in 2007, is an INC-approved nursing college in Komarapalayam, Tamil Nadu, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs with 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026).",
   "url": "https://nursing.sresakthimayeil.jkkn.ac.in/",
   "logo": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
-  "foundingDate": "2006",
+  "foundingDate": "2007",
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
   "address": {
@@ -211,7 +211,7 @@ const educationalOrgSchema = {
   "image": "https://nursing.sresakthimayeil.jkkn.ac.in/images/nursing_logo.png",
   "telephone": "+919345855001",
   "email": "nursing@jkkn.ac.in",
-  "foundingDate": "2006",
+  "foundingDate": "2007",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Natarajapuram, NH-544, Salem-Coimbatore Highway",

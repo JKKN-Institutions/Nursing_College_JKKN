@@ -192,7 +192,7 @@ npm run lint     # ESLint check
 - **Full Name:** Sresakthimayeil Institute of Nursing and Research
 - **Brand Name:** JKKN College of Nursing
 - **Parent:** JKKN Institutions
-- **Founded:** 2006
+- **Founded:** 2007 (owner settled 2026-11-21: college IDP PDF "Founded in 2007", TNMGRMU first affiliation 2007-08, AISHE 2007; never 2006)
 - **Campus:** Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183
 - **Coordinates:** 11.4333°N, 77.7167°E
 - **Phone:** +91 93458 55001

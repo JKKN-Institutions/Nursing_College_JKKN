@@ -6,7 +6,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 // 2026-10-29. Every fact on this page was read on the body's own portal or document on
 // 29-10-2026 and carries that source next to it (official-data report, Desktop
 // nursing-official-data-for-site-2026-10-29.html). Not on this page on purpose, until
-// the office confirms them: year of establishment (site 2006 vs AISHE 2007), AISHE
+// the office confirms them: year of establishment (settled as 2007 by the owner on 2026-11-21, not shown here yet), AISHE
 // management type, the seat matrix "Minority" mark, NAAC validity end date, B.Sc / Post
 // Basic government-quota fees.
 

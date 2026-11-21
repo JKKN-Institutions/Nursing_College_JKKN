@@ -17,7 +17,7 @@ const faqCategories = [
       },
       {
         q: "How many years of experience does JKKN have in education?",
-        a: "J.K.K. Nattraja Group of Educational Institutions has over 74 years of experience in educational service, having been established in 1952. JKKN College of Nursing and Research itself was established in 2006.",
+        a: "J.K.K. Nattraja Group of Educational Institutions has over 74 years of experience in educational service, having been established in 1952. JKKN College of Nursing and Research itself was established in 2007.",
       },
       {
         q: "What accreditations does the college hold?",

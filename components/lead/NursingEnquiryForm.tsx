@@ -54,12 +54,11 @@ export function toTenDigitMobile(raw: string): string {
 //  - INC: /affiliation ("Recognized by Indian Nursing Council"), /about ("Approved by the Indian
 //    Nursing Council (INC)") and the homepage hero badge "INC Approved". Not on INC's own
 //    withdrawal list of 07-09-2026.
-//  - 2006: the year the site publishes (homepage badge "Since 2006", /about, Organization
-//    foundingDate) and the owner confirmed on 2026-09-12. OPEN CONFLICT: the college's
-//    Institutional Development Plan (/pdf/Implementation-of-the-Institutional-Development-Plan-MD.pdf,
-//    section 1) says "Founded in 2007". If that is settled as 2007, change it here and on the
-//    homepage together.
-const TRUST = ["NAAC Accredited (B++)", "INC Approved", "Since 2006"]
+//  - 2007: settled by the owner on 2026-11-21 (was 2006, confirmed 2026-09-12). Sources: the
+//    college's Institutional Development Plan (/pdf/Implementation-of-the-Institutional-Development-Plan-MD.pdf,
+//    section 1) "Founded in 2007", TNMGRMU B.Sc list 2026-27 (first PA 2007-08), AISHE (2007).
+//    Changed together with the homepage badge, /about, Organization foundingDate and llms files.
+const TRUST = ["NAAC Accredited (B++)", "INC Approved", "Since 2007"]
 
 type Props = {
   /** Which page this instance sits on, e.g. "bsc-nursing". Tags the lead in the CRM. */
