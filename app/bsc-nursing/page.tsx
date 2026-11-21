@@ -218,8 +218,8 @@ export default function BScNursing() {
                     <div className="text-xs sm:text-sm text-gray-300">Placement Rate (2024-25)</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">80+</div>
-                    <div className="text-xs sm:text-sm text-gray-300">Hospital Partners</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">4</div>
+                    <div className="text-xs sm:text-sm text-gray-300">Partner Hospitals</div>
                   </div>
                 </div>
               </div>

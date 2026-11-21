@@ -1087,7 +1087,7 @@ export default function PBScNursing() {
               </div>
 
               <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">80+</div>
+                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">4</div>
                 <div className="text-xl font-semibold mb-2">Partner Hospitals</div>
               </div>
 
