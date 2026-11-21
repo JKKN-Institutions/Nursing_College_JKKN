@@ -1068,14 +1068,14 @@ export default function MScNursing() {
               <div className="relative">
                 <Image
                   src="/images/Master-of-Science-in-Nursing-Clinical-Training-Image.webp"
-                  alt="M.Sc Nursing clinical training at JKKN multi-specialty hospital"
+                  alt="M.Sc Nursing clinical training at JKKN partner hospitals in Erode"
                   width={600}
                   height={450}
                   className="w-full h-auto object-cover rounded-2xl shadow-xl"
                 />
                 <div className="absolute -bottom-4 -right-4 bg-[#006837] text-white p-4 rounded-xl shadow-lg">
-                  <div className="text-2xl font-bold">500+</div>
-                  <div className="text-sm">Beds</div>
+                  <div className="text-2xl font-bold">4</div>
+                  <div className="text-sm">Partner Hospitals</div>
                 </div>
               </div>
             </div>

@@ -1,11 +1,11 @@
 # JKKN College of Nursing and Research
 
-> Sresakthimayeil Institute Of Nursing And Research (also known as JKKN College of Nursing and Research) is an INC-approved nursing college in Tamil Nadu, India, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs. Located on the JKKN Institutions campus in Komarapalayam, Namakkal District, with a attached teaching hospital for clinical training.
+> Sresakthimayeil Institute Of Nursing And Research (also known as JKKN College of Nursing and Research) is an INC-approved nursing college in Tamil Nadu, India, offering B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing programs. Located on the JKKN Institutions campus in Komarapalayam, Namakkal District, with clinical training at four partner hospitals in Erode (the college has no hospital of its own).
 
 <!-- llms.txt v1.0 -->
 <!-- Institution: Sresakthimayeil Institute Of Nursing And Research -->
 <!-- Also known as: JKKN College of Nursing and Research -->
-<!-- Last-Updated: 2026-09-04 -->
+<!-- Last-Updated: 2026-11-21 -->
 <!-- Key-Topics: B.Sc Nursing, M.Sc Nursing, Post Basic B.Sc Nursing, INC Approved, NAAC Accredited, 98% Placement -->
 <!-- Location: Komarapalayam, Namakkal, Tamil Nadu 638183, India -->
 <!-- Website: https://nursing.sresakthimayeil.jkkn.ac.in/ -->
@@ -26,9 +26,8 @@
 - State Recognition: Tamil Nadu Nurses and Midwives Council (TNNMC)
 - Accreditation: NAAC Accredited
 - Courses: B.Sc Nursing (4 yrs, 60 seats), M.Sc Nursing (2 yrs, 25 seats), Post Basic B.Sc Nursing (2 yrs, 50 seats)
-- Hospital: attached multi-specialty teaching hospital (on-campus, Komarapalayam)
-- Placement Rate: 98% (58 of 59 graduating learners placed, 2024-25)
-- International Placements: NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals
+- Clinical training: four partner (affiliated) hospitals in Erode; the college has no hospital of its own
+- Placement Rate: 98% (58 of 59 graduating learners placed, 2024-25, college's NIRF 2026 data)
 - Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal, Tamil Nadu 638183
 
 ## Key Facts
@@ -53,18 +52,17 @@
 - Post Basic B.Sc Nursing — 2-year program for diploma holders (50 seats)
 
 ## Clinical Training
-- attached multi-specialty teaching hospital on campus
+- Four partner (affiliated) hospitals in Erode: Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode
+- No hospital of its own on the college campus
 - Clinical exposure from Year 1
 - Simulation labs and skills laboratory
-- Community health postings
+- Community health postings at Pallakapalayam (rural) and R.N. Pudur (urban)
 - Specialty rotations across all departments
 
 ## Placement Highlights
-- 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) (58 of 59 graduating learners placed, 2024-25)
-- 80+ recruiting partners
-- International placements: NHS UK, Cleveland Clinic Abu Dhabi, Singapore hospitals
-- Domestic recruiters: Apollo, Fortis, MIOT, Manipal Hospitals, Narayana Health
-- Highest package: up to 25 LPA (International)
+- B.Sc Nursing 2024-25: 58 of 59 graduates placed (98%), median salary Rs 3,60,000 a year - as filed in the college's NIRF 2026 data
+- Earlier years in the same filing: 2023-24, 55 of 60 placed and 5 more went to higher studies; 2022-23, 51 of 51 placed
+- M.Sc Nursing: 11 of 11 placed in 2023-24 and in 2024-25, median salary Rs 5,76,000 a year (same filing)
 - International exam preparation: NCLEX-RN (USA), OET/IELTS (UK/Australia), DHA/HAAD (UAE)
 - Placement Portal: [JKKN Placements](https://placements.jkkn.ac.in/)
 
@@ -130,10 +128,8 @@ Government and trust scholarship schemes the college publishes, by programme.
 - Apply online: [Application portal](https://www.jkkn.ai/apply/jkkn-admission-2026)
 
 ### Important Dates 2026-27
-- Applications open: March 2026
-- Counselling begins: July 2026
-- Classes commence: September 2026
-- These dates are tentative and subject to government and university notifications.
+- B.Sc Nursing (government quota): Tamil Nadu Government notification 21 June 2026; online applications 21 June to 3 July 2026 (TN B.Sc Nursing prospectus 2026-27, G.O.(D) No.657 dated 03.06.2026)
+- 2027-28 dates follow the next Tamil Nadu Government prospectus; check tnmedicalselection.net and the admission office.
 
 ## Contact
 - Website: https://nursing.sresakthimayeil.jkkn.ac.in/
@@ -146,7 +142,6 @@ Government and trust scholarship schemes the college publishes, by programme.
 - Active research culture with faculty publications in indexed journals (Scopus, PubMed)
 - Annual nursing research symposiums and conferences
 - Student research projects from 3rd year B.Sc Nursing onwards
-- Collaboration with attached teaching hospital for clinical research
 - Innovation cell (IIC) and IQAC for quality improvement
 - ARIIA (Atal Ranking of Institutions on Innovation Achievements) participation
 - AISHE (All India Survey on Higher Education) data submission
@@ -164,25 +159,23 @@ JKKN College of Nursing and Research is part of JKKN Institutions, a multi-disci
 - Main Website: [JKKN Institutions](https://www.jkkn.ac.in/)
 - Counting JKKN College of Nursing and Research itself, the group has 9 institutions: 7 colleges and 2 schools.
 
-## Recognition and Rankings
-JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is recognized as one of the best nursing colleges in Tamil Nadu. With INC approval, NAAC accreditation, a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026), and international placement partnerships with NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, JKKN stands out among the top nursing institutions in the state. The college is affiliated to Tamil Nadu Dr. MGR Medical University (TNMGRMU) and recognized by the Tamil Nadu Nurses and Midwives Council (TNNMC). Its attached multi-specialty teaching hospital, advanced simulation labs, and 80+ recruiting partners make it a preferred choice for students seeking the best nursing education in Tamil Nadu.
+## Recognition and Accreditation
+JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing And Research) is found suitable by the Indian Nursing Council for 2026-27 (B.Sc Nursing 60, M.Sc Nursing 25, Post Basic B.Sc Nursing 50 seats), affiliated to The Tamil Nadu Dr. M.G.R. Medical University (institution code 262), recognised by the Tamil Nadu Nurses and Midwives Council, and accredited by NAAC with grade B++ (CGPA 2.79, declared 05-09-2024). In 2024-25, 58 of its 59 B.Sc Nursing graduates were placed (college's NIRF 2026 data). NIRF publishes no separate ranking category for nursing colleges.
 
 ## Why Choose JKKN College of Nursing and Research
 1. 74+ year legacy of JKK Nattraja Educational Institutions (since 1952)
 2. INC approved and NAAC accredited nursing programs
-3. Clinical exposure from Year 1 at attached multi-specialty hospital
-4. 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) with 80+ recruiting partners
-5. International placement opportunities: UK (NHS), UAE (Cleveland Clinic Abu Dhabi), Saudi Arabia, Singapore
-6. Highest international package: up to 25 LPA
-7. 5 M.Sc Nursing specializations with expert faculty
-8. Advanced simulation labs and skills laboratory
-9. Located on NH-544 with excellent connectivity to Salem, Erode, Coimbatore
-10. Part of multi-disciplinary JKKN campus with 9 institutions
-11. Separate hostel with mess facility for men and women
-12. Active research culture and faculty publications
-13. Affordable fees with multiple scholarship options
-14. Strong alumni network across India and internationally
-15. NSS, sports, cultural activities for holistic development
+3. Clinical postings at four partner hospitals in Erode, including the Government Headquarters Hospital
+4. 98% placement in 2024-25 (58 of 59 graduates placed, college's NIRF 2026 data)
+5. 5 M.Sc Nursing specializations with expert faculty
+6. Advanced simulation labs and skills laboratory
+7. Located on NH-544 with excellent connectivity to Salem, Erode, Coimbatore
+8. Part of multi-disciplinary JKKN campus with 9 institutions
+9. Separate hostel with mess facility for men and women
+10. Active research culture and faculty publications
+11. Affordable fees with multiple scholarship options
+12. Strong alumni network across India and internationally
+13. NSS, sports, cultural activities for holistic development
 
 ## Frequently Asked Questions
 
@@ -193,7 +186,7 @@ Yes, JKKN College of Nursing and Research (Sresakthimayeil Institute Of Nursing 
 JKKN College of Nursing and Research offers three nursing programs: B.Sc Nursing (4 years, 60 seats), M.Sc Nursing (2 years, 25 seats with 5 specializations), and Post Basic B.Sc Nursing (2 years, 50 seats for GNM diploma holders).
 
 ### What is the placement rate at JKKN College of Nursing and Research?
-JKKN College of Nursing and Research has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026) — 58 of 59 graduating learners were placed in 2024-25 — with 80+ recruiting partners. Graduates are placed in top hospitals across India (Apollo, Fortis, Manipal) and internationally in NHS UK, Cleveland Clinic Abu Dhabi, and Singapore hospitals, with packages up to 25 LPA internationally.
+JKKN College of Nursing and Research placed 58 of its 59 B.Sc Nursing graduates of 2024-25 (98%), at a median salary of Rs 3,60,000 a year, as filed in the college's NIRF 2026 data. The same filing shows 55 of 60 placed in 2023-24 (5 more went to higher studies) and 51 of 51 in 2022-23.
 
 ### Is NEET required for B.Sc Nursing admission at JKKN?
 No, NEET is not required for B.Sc Nursing admission in Tamil Nadu. Admission to JKKN College of Nursing and Research is merit-based on 10+2 marks with Physics, Chemistry, and Biology.
@@ -201,14 +194,14 @@ No, NEET is not required for B.Sc Nursing admission in Tamil Nadu. Admission to 
 ### Where is JKKN College of Nursing and Research located?
 JKKN College of Nursing and Research is located at Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. By road it is about 22 km from Erode, 26 km from Tiruchengode, 57 km from Salem, 62 km from Namakkal and 113 km from Coimbatore.
 
-### Does JKKN College of Nursing and Research have a teaching hospital?
-Yes, JKKN College of Nursing and Research has a attached multi-specialty teaching hospital on campus. Students get clinical exposure from Year 1 across all departments including Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry, ICU, NICU, and Operation Theater.
+### Does JKKN College of Nursing and Research have its own hospital?
+No. The college does not have a hospital of its own. Clinical training is at four partner (affiliated) hospitals in Erode - Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode - plus rural (Pallakapalayam) and urban (R.N. Pudur) community postings.
 
 ### What M.Sc Nursing specializations are available?
 JKKN College of Nursing and Research offers 5 M.Sc Nursing specializations: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetric and Gynecological Nursing, Psychiatric (Mental Health) Nursing, and Community Health Nursing. Each specialization has 5 seats.
 
 ### Can I get international nursing jobs after studying at JKKN?
-Yes, JKKN College of Nursing and Research has active international placement partnerships. Graduates are placed in NHS hospitals across the UK, Cleveland Clinic Abu Dhabi (UAE), Singapore hospitals, and and healthcare facilities in Saudi Arabia. International packages can go up to 25 LPA.
+Working abroad needs the destination country's own nursing licence and English tests (for example NCLEX-RN, OET or IELTS). The college's NIRF 2026 data reports placements but lists no international placements, so ask the admission office what support is offered for your batch.
 
 ## Important Links
 - [Admissions](https://nursing.sresakthimayeil.jkkn.ac.in/admissions): eligibility, process and dates for all three programmes

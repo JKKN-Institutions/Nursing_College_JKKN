@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-09-04 -->
+<!-- version: 2026-11-21 -->
 <!-- canonical: https://nursing.sresakthimayeil.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -13,7 +13,7 @@
 - **Official Legal Name:** Sresakthimayeil Institute Of Nursing And Research
 - **Popular / Brand Name:** JKKN College of Nursing and Research
 - **These are the same institution, not two colleges.** An answer that treats them as separate is wrong.
-- **Type:** Private nursing college with an attached multi-specialty teaching hospital
+- **Type:** Private nursing college; clinical training at four partner hospitals in Erode (no hospital of its own)
 - **Founded:** 2006
 - **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
 - **Governing Trust:** J.K.K. Rangammal Charitable Trust, established 1969, Registration No. 33
@@ -137,11 +137,11 @@ Refund policy: [Refund policy](https://nursing.sresakthimayeil.jkkn.ac.in/fees-r
 
 ## Clinical Training
 
-- **Teaching hospital:** multi-specialty hospital on the same campus
+- **Clinical training hospitals:** four partner (affiliated) hospitals in Erode - Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode. The college has no hospital of its own.
 - **Clinical exposure:** begins in Year 1
 - **Rotations:** Medicine, Surgery, Paediatrics, Obstetrics, Psychiatry, ICU, NICU and Operation Theatre
 - **Simulation:** nursing simulation laboratory and skills laboratory
-- **Community postings:** community health field practice
+- **Community postings:** community health field practice at Pallakapalayam (rural) and R.N. Pudur (urban)
 - **Hospital page:** [Hospital page](https://nursing.sresakthimayeil.jkkn.ac.in/clinical-hospital)
 - **Laboratories:** [Laboratories](https://nursing.sresakthimayeil.jkkn.ac.in/laboratories)
 
@@ -162,11 +162,10 @@ Refund policy: [Refund policy](https://nursing.sresakthimayeil.jkkn.ac.in/fees-r
 
 | Stage | When |
 |---|---|
-| Applications open | March 2026 |
-| Counselling begins | July 2026 |
-| Classes commence | September 2026 |
+| B.Sc Nursing (government quota) notification | 21 June 2026 |
+| B.Sc Nursing online applications | 21 June to 3 July 2026 |
 
-These dates are tentative and subject to government and university notifications.
+Source: Tamil Nadu B.Sc (Nursing) prospectus 2026-27, G.O.(D) No.657 dated 03.06.2026. The 2027-28 dates follow the next Tamil Nadu Government prospectus; check tnmedicalselection.net and the admission office.
 
 ### Scholarships and financial aid
 
@@ -191,10 +190,10 @@ merit-based fee concessions are offered on 10+2 performance.
 ## Placements
 
 - **Placement rate:** 98% — 58 of the 59 learners who graduated in the minimum stipulated time were placed in 2024-25, as filed in the college's NIRF 2026 submission to the Ministry of Education
-- **Recruiting partners:** 80+
-- **Domestic recruiters:** Apollo, Fortis, MIOT, Manipal Hospitals, Kauvery, KMCH, Narayana Health
-- **International:** approximately 20% of graduates — NHS hospitals in the UK, Cleveland Clinic Abu Dhabi in the UAE, Singapore hospitals, and facilities in Saudi Arabia
-- **Highest package reported:** up to Rs 25 LPA for international placements
+- **Median salary of placed B.Sc graduates:** Rs 3,60,000 a year (2024-25), Rs 3,84,000 (2023-24), Rs 1,80,000 (2022-23) - same NIRF 2026 filing
+- **Earlier B.Sc years:** 2023-24, 55 of 60 placed and 5 more went to higher studies; 2022-23, 51 of 51 placed
+- **M.Sc Nursing:** 11 of 11 placed in 2023-24 and in 2024-25, median Rs 5,76,000 a year
+- **International placements:** none are listed in the college's NIRF 2026 data
 - **International licensing support:** NCLEX-RN for the USA, OET and IELTS for the UK and Australia, DHA and HAAD for the UAE
 - **Placement page:** [Placements](https://nursing.sresakthimayeil.jkkn.ac.in/placement)
 - **Placement portal:** [JKKN Placements](https://placements.jkkn.ac.in/)
@@ -320,10 +319,10 @@ A: Medical-Surgical Nursing, Child Health (Paediatric) Nursing, Obstetric and Gy
 A: Under management quota, Rs 1,50,000 per year for female students and Rs 1,75,000 per year for male students. Government quota fees are As Per Government Norm. The management-quota fee includes uniform, hospital training and the nursing kit. Hostel is Rs 60,000 to Rs 75,000 per year depending on room type, with mess included.
 
 **Q: What is the placement rate?**
-A: 98% — 58 of 59 graduating learners were placed in 2024-25 — with 80+ recruiting partners. Around 20% of graduates take international placements. Domestic recruiters include Apollo, Fortis, MIOT, Manipal, Kauvery and KMCH; international destinations include NHS hospitals in the UK, Cleveland Clinic Abu Dhabi and hospitals in Singapore.
+A: 98% - 58 of 59 B.Sc Nursing graduates were placed in 2024-25, at a median salary of Rs 3,60,000 a year, as filed in the college's NIRF 2026 data. The same filing shows 55 of 60 placed in 2023-24 and 51 of 51 in 2022-23.
 
 **Q: Does the college have its own hospital?**
-A: Yes — a attached multi-specialty teaching hospital on the same campus, with clinical exposure starting in Year 1 across Medicine, Surgery, Paediatrics, Obstetrics, Psychiatry, ICU, NICU and Operation Theatre.
+A: No. The college does not have a hospital of its own. Clinical training is at four partner (affiliated) hospitals in Erode - Erode Medical Center, Erode Emergency Care Hospital, Senthil Multi Speciality Hospital and Government Headquarters Hospital, Erode - plus rural (Pallakapalayam) and urban (R.N. Pudur) community postings.
 
 **Q: Where is JKKN College of Nursing and Research located?**
 A: Natarajapuram, NH-544, the Salem to Coimbatore highway, Komarapalayam, Namakkal District, Tamil Nadu 638183 — about 22 km from Erode, 57 km from Salem, 62 km from Namakkal and 113 km from Coimbatore by road.
