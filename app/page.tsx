@@ -54,7 +54,7 @@ const faqSchema = {
       "name": "What are the placement opportunities after nursing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements."
+        "text": "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell gives guidance on licence exams such as NCLEX and IELTS for nurses planning to work abroad."
       }
     },
     {
@@ -192,7 +192,7 @@ const profilePageSchema = {
       "Medical-Surgical Nursing", "OBG Nursing", "Pediatric Nursing",
       "Psychiatric Nursing", "Community Health Nursing",
       "Clinical Nursing Education", "International Nursing Careers",
-      "Nursing Licensure Exam Guidance", "NCLEX Preparation", "Nursing Simulation Training"
+      "Nursing Licensure Exam Guidance", "Nursing Simulation Training"
     ],
     "keywords": "nursing college Tamil Nadu, B.Sc Nursing Komarapalayam, INC approved nursing college, nursing college near Salem, JKKN nursing, best nursing college Namakkal, M.Sc Nursing Tamil Nadu"
   }
@@ -755,10 +755,10 @@ export default async function Home() {
                   <GlobeAltIcon className="w-7 h-7 sm:w-8 sm:h-8 md:w-9 md:h-9 text-white" />
                 </div>
                 <h3 className="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-4">
-                  International Placements
+                  Working Abroad
                 </h3>
                 <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
-                  Direct recruitment partnerships with hospitals in the UK, UAE, Saudi Arabia, Singapore, Australia and Canada. NCLEX and IELTS preparation support included.
+                  Nurses can work abroad after passing that country&apos;s licence exam (NCLEX, OET, IELTS and others). Ask our placement cell for guidance on which exam you need.
                 </p>
               </div>
               <div className="bg-white/10 backdrop-blur-md rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 hover:bg-white/20 transition-all duration-300">
@@ -1125,13 +1125,6 @@ export default async function Home() {
                   designation: "M.Sc Nursing 2023, Nursing Lecturer",
                   initials: "RK",
                 },
-                {
-                  quote:
-                    "The international placement support at JKKN changed my life. They helped me with IELTS preparation and UK visa process. Now I'm earning in GBP and supporting my family back home.",
-                  name: "Anitha Murugan",
-                  designation: "B.Sc Nursing 2021, NHS UK",
-                  initials: "AM",
-                },
               ].map((testimonial, index) => (
                 <div
                   key={index}
@@ -1193,7 +1186,7 @@ export default async function Home() {
                 {
                   question: "What are the placement opportunities after nursing?",
                   answer:
-                    "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell provides NCLEX, IELTS preparation, and visa support for international placements.",
+                    "JKKN has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college), with a median salary of Rs 3,60,000 for placed UG graduates. The median salary of placed graduates was ₹3.6 LPA in 2024-25 (NIRF 2026 filing). Our placement cell gives guidance on licence exams such as NCLEX and IELTS for nurses planning to work abroad.",
                 },
                 {
                   question: "Can male candidates apply for nursing?",

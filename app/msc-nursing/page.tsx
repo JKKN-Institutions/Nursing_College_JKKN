@@ -172,7 +172,7 @@ export default function MScNursing() {
         "name": "What is the salary after M.Sc Nursing in India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "M.Sc Nursing graduates in India earn ₹3.5-8 LPA at entry level depending on the role. Nursing Educators earn ₹3.5-15 LPA, Clinical Specialists ₹4-18 LPA, and international positions (UK NHS, Middle East) offer ₹15-60 LPA."
+          "text": "In the college's NIRF 2026 data, 11 of 11 M.Sc Nursing graduates of 2024-25 were placed, at a median salary of Rs 5,76,000 a year. Pay in other jobs depends on the employer, role, location and experience."
         }
       },
       {
@@ -933,7 +933,7 @@ export default function MScNursing() {
               </table>
             </div>
             <p className="text-sm text-gray-500 mt-4 text-center">
-              Salary data based on industry averages for M.Sc Nursing graduates in India (2025-26). International positions (UK NHS, Middle East) offer significantly higher packages.
+              The college&apos;s NIRF 2026 data records a median salary of Rs 5,76,000 for placed M.Sc Nursing graduates of 2024-25. Ask the placement cell about roles in each specialization.
             </p>
           </div>
         </section>
@@ -1185,7 +1185,7 @@ export default function MScNursing() {
                 M.Sc Nursing Salary in India 2026
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                M.Sc Nursing graduates command premium salaries in India and abroad. Here&apos;s what you can expect based on role and experience.
+                Pay depends on the employer, role, location and experience. The college&apos;s NIRF 2026 data records a median salary of Rs 5,76,000 for its placed M.Sc graduates of 2024-25.
               </p>
             </div>
 
@@ -1220,7 +1220,7 @@ export default function MScNursing() {
                       <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                     </tr>
                     <tr className="bg-gray-50">
-                      <td className="px-5 py-4 font-medium text-gray-800">International (UK NHS / Middle East)</td>
+                      <td className="px-5 py-4 font-medium text-gray-800">Abroad (after that country&apos;s licence)</td>
                       <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                       <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
                       <td className="px-5 py-4 text-center text-gray-700">Contact the placement cell</td>
@@ -1589,7 +1589,7 @@ export default function MScNursing() {
                   <FaUserMd className="w-8 h-8" />
                 </div>
                 <h3 className="text-xl font-bold text-[#006837] mb-3">International Pathway</h3>
-                <p className="text-gray-700">M.Sc Nursing opens doors to international positions in UK (NHS), Middle East, Singapore, and Australia with higher salary packages.</p>
+                <p className="text-gray-700">M.Sc Nursing graduates can also work abroad after clearing the licence exam of the country they choose.</p>
               </div>
             </div>
 
@@ -1841,7 +1841,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    M.Sc Nursing graduates in India earn ₹3.5-8 LPA at entry level. Nursing Educators earn ₹3.5-15 LPA, Clinical Specialists ₹4-18 LPA, and international positions (UK NHS, Middle East) offer ₹15-60 LPA depending on experience.
+                    In the college&apos;s NIRF 2026 data, 11 of 11 M.Sc Nursing graduates of 2024-25 were placed, at a median salary of Rs 5,76,000 a year. Pay in other jobs depends on the employer, role, location and experience.
                   </p>
                 </details>
 
@@ -2011,7 +2011,7 @@ export default function MScNursing() {
                     </span>
                   </summary>
                   <p className="text-gray-600 leading-relaxed mt-4 pt-4 border-t border-gray-200">
-                    M.Sc Nursing graduates can work in UK (NHS), UAE, Saudi Arabia, Singapore, and Australia. International positions offer ₹15-60 LPA.
+                    M.Sc Nursing graduates can work abroad - for example in the UK, UAE, Saudi Arabia, Singapore or Australia - after clearing that country&apos;s licence exam. Salary is set by the employer.
                   </p>
                 </details>
 

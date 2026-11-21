@@ -96,11 +96,11 @@ const faqData = [
   },
   {
     q: "Does JKKN College of Nursing and Research help nurses who plan to work abroad?",
-    a: "Yes, with exam and paperwork guidance; the college does not publish placement figures for abroad. It provides OET/IELTS coaching, NCLEX-RN preparation, DHA/HAAD/PROMETRIC exam coaching, visa documentation support, and licensing registration guidance.",
+    a: "The placement cell gives guidance on the licence exam and paperwork each country needs - for example OET/IELTS for the UK, NCLEX-RN for the USA, DHA/HAAD for the UAE and PROMETRIC for Saudi Arabia. The college does not publish placement figures for abroad; please ask the placement cell what support is offered for your batch.",
   },
   {
     q: "What placement support does JKKN provide to nursing learners?",
-    a: "JKKN provides comprehensive placement support including: dedicated placement cell, professional resume building with faculty guidance, soft skills and communication training, mock interviews with clinical and HR panels, campus recruitment drives, international exam preparation (NCLEX, OET, IELTS, DHA, HAAD, PROMETRIC), visa documentation assistance, and post-placement follow-up.",
+    a: "JKKN provides comprehensive placement support including: dedicated placement cell, professional resume building with faculty guidance, soft skills and communication training, mock interviews with clinical and HR panels, campus recruitment drives, guidance on international licence exams (NCLEX, OET, IELTS, DHA, HAAD, PROMETRIC), and post-placement follow-up.",
   },
   {
     q: "When do campus placement drives happen at JKKN College of Nursing and Research?",
@@ -111,8 +111,8 @@ const faqData = [
     a: "Yes. M.Sc Nursing graduates from JKKN typically receive higher packages and access to specialized roles including Nursing Educator, Clinical Specialist, Nursing Supervisor, Research Associate, and Hospital Administrator positions. In the NIRF 2026 data submitted by the college, 11 of 11 M.Sc graduates were placed in 2024-25, at a median salary of Rs 5,76,000.",
   },
   {
-    q: "Does JKKN provide NCLEX and IELTS coaching for international placements?",
-    a: "Yes. JKKN College of Nursing and Research has a dedicated licensing exam preparation program covering NCLEX-RN (USA), OET/IELTS (UK and Australia), DHA/HAAD (UAE), and PROMETRIC (Saudi Arabia). Coaching includes study materials, mock tests, expert faculty sessions, and registration guidance for each exam.",
+    q: "Does JKKN help with NCLEX and IELTS for working abroad?",
+    a: "The placement cell gives guidance on licence exams such as NCLEX-RN (USA), OET/IELTS (UK and Australia), DHA/HAAD (UAE) and PROMETRIC (Saudi Arabia) - which exam you need and how to register. Please ask the placement cell what support is offered for your batch.",
   },
   {
     q: "What sectors do JKKN nursing graduates work in after placement?",
@@ -214,7 +214,7 @@ const internationalDestinations = [
     flag: "🇬🇧",
     employers: "NHS and private hospitals (after NMC registration)",
     support:
-      "OET / IELTS coaching, NMC registration guidance, CBT exam preparation, visa documentation support",
+      "OET / IELTS and NMC CBT guidance, NMC registration guidance",
     pkgRange: "Salary set by the employer",
   },
   {
@@ -222,7 +222,7 @@ const internationalDestinations = [
     flag: "🇦🇪",
     employers: "Hospitals licensed by DHA / DOH",
     support:
-      "DHA / HAAD exam coaching, Emirates nursing licensing, employment visa support",
+      "DHA / HAAD exam guidance, UAE licensing guidance",
     pkgRange: "Salary set by the employer",
   },
   {
@@ -230,7 +230,7 @@ const internationalDestinations = [
     flag: "🇸🇦",
     employers: "Hospitals registered with SCFHS",
     support:
-      "PROMETRIC exam preparation, SCFHS registration guidance, Iqama process support",
+      "PROMETRIC exam guidance, SCFHS registration guidance",
     pkgRange: "Salary set by the employer",
   },
   {
@@ -238,7 +238,7 @@ const internationalDestinations = [
     flag: "🇸🇬",
     employers: "Public and private hospitals (after SNB registration)",
     support:
-      "SNB registration guidance, language proficiency preparation, work visa support",
+      "SNB registration guidance, language test guidance",
     pkgRange: "Salary set by the employer",
   },
   {
@@ -246,7 +246,7 @@ const internationalDestinations = [
     flag: "🇦🇺",
     employers: "Public & private hospital networks",
     support:
-      "IELTS / OET coaching, AHPRA registration guidance, skills assessment support",
+      "IELTS / OET guidance, AHPRA registration guidance",
     pkgRange: "Salary set by the employer",
   },
   {
@@ -254,7 +254,7 @@ const internationalDestinations = [
     flag: "🇨🇦",
     employers: "Provincial health authorities",
     support:
-      "NCLEX-RN preparation, provincial nursing college registration, Express Entry documentation",
+      "NCLEX-RN guidance, provincial nursing registration guidance",
     pkgRange: "Salary set by the employer",
   },
 ];
@@ -344,28 +344,28 @@ const licensingExams = [
     country: "USA & Canada",
     desc: "National Council Licensure Examination for Registered Nurses — required for nursing practice in the United States and Canada.",
     support:
-      "Comprehensive study materials, mock tests, expert senior learner sessions, and NCSBN registration guidance.",
+      "Guidance on the exam and NCSBN registration - ask the placement cell.",
   },
   {
     exam: "OET / IELTS",
     country: "UK & Australia",
     desc: "Occupational English Test and IELTS for healthcare professionals — required for nursing registration in the UK (NMC) and Australia (AHPRA).",
     support:
-      "Dedicated English language coaching, speaking practice with native speakers, full-length mock tests, and score improvement strategies.",
+      "Guidance on the test format and registration - ask the placement cell.",
   },
   {
     exam: "DHA / HAAD",
     country: "UAE",
     desc: "Dubai Health Authority and Health Authority Abu Dhabi licensing examinations — required for nursing practice in the UAE.",
     support:
-      "DHA/HAAD-specific study materials, practice exams, dataflow verification guidance, and employer coordination.",
+      "Guidance on the exam and DataFlow verification - ask the placement cell.",
   },
   {
     exam: "PROMETRIC",
     country: "Saudi Arabia",
     desc: "Saudi Commission for Health Specialties (SCFHS) nursing licensure examination — required for nursing practice in Saudi Arabia.",
     support:
-      "SCFHS registration support, Prometric-specific preparation materials, and mock examinations.",
+      "Guidance on SCFHS registration and the Prometric exam - ask the placement cell.",
   },
 ];
 
@@ -417,8 +417,8 @@ export default function PlacementsPage() {
               </h1>
               <p className="text-green-100 text-base sm:text-lg lg:text-xl mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed">
                 UG 2024-25: 58 of 59 graduates placed, median salary ₹3,60,000 (NIRF 2026
-                data submitted by the college). Placement cell with NCLEX, OET and IELTS
-                coaching and visa guidance.
+                data submitted by the college). Placement cell with guidance on NCLEX, OET and IELTS
+                for nurses planning to work abroad.
               </p>
 
               {/* Hero Stats */}
@@ -758,12 +758,12 @@ export default function PlacementsPage() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-16">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309] mb-3">
-                International Licensing Exam Preparation
+                International Licensing Exam Guidance
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Dedicated coaching programs for global nursing licensure exams
-                — preparing learners for careers in the USA, UK, UAE, Saudi
-                Arabia, Australia, and Canada.
+                Which licence exam each country asks for - ask the placement
+                cell for guidance if you plan to work in the USA, UK, UAE, Saudi
+                Arabia, Australia or Canada.
               </p>
             </div>
 
@@ -907,7 +907,7 @@ export default function PlacementsPage() {
             </h2>
             <p className="text-green-100 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
               98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026 data submitted by the college). Placement cell with career support
-              — from exam coaching to visa assistance.
+              — including guidance on licence exams for working abroad.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 max-w-3xl mx-auto mb-8">
