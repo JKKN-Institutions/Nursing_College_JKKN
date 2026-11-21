@@ -38,7 +38,7 @@ const faqSchema = {
       "name": "Is JKKN College of Nursing and Research approved by INC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
+        "text": "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), recognised by the Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions."
       }
     },
     {
@@ -94,7 +94,7 @@ const faqSchema = {
       "name": "How do I choose the best nursing college in Tamil Nadu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital."
+        "text": "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-recognised, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital."
       }
     }
   ]
@@ -484,7 +484,7 @@ export default async function Home() {
                   JKKN College of Nursing and Research, part of JKKN Institutions, is committed to producing skilled, compassionate nursing professionals who deliver excellence in patient care. Our Learners are trained in clinical competence, critical thinking, and humanitarian values.
                 </p>
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
-                  Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and registered with Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced senior learners combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
+                  Affiliated with The Tamil Nadu Dr. M.G.R. Medical University, approved by the Indian Nursing Council (INC), and recognised by the Tamil Nadu Nurses and Midwives Council (TNNMC), we offer comprehensive nursing programs. Our experienced senior learners combine clinical expertise with pedagogical excellence in state-of-the-art Learning Studios.
                 </p>
 
                 {/* Features */}
@@ -1176,7 +1176,7 @@ export default async function Home() {
                 {
                   question: "Is JKKN College of Nursing and Research approved by INC?",
                   answer:
-                    "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), registered with Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
+                    "Yes, JKKN College of Nursing and Research is fully approved by the Indian Nursing Council (INC), recognised by the Tamil Nadu Nurses and Midwives Council (TNNMC), and affiliated with The Tamil Nadu Dr. M.G.R. Medical University. Our degrees are recognized nationally and internationally, enabling our graduates to work anywhere in India and apply for international nursing positions.",
                 },
                 {
                   question: "What is the fee structure for nursing programs?",
@@ -1211,7 +1211,7 @@ export default async function Home() {
                 {
                   question: "How do I choose the best nursing college in Tamil Nadu?",
                   answer:
-                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-registered, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
+                    "Check five things a college can prove on paper rather than claim. One, Indian Nursing Council (INC) approval for the exact course you are applying to. Two, registration with the Tamil Nadu Nurses and Midwives Council. Three, affiliation to The Tamil Nadu Dr. M.G.R. Medical University, because that is who issues the degree. Four, the size of the teaching hospital where you will do clinical training - a nursing degree is earned at the bedside, so bed count and specialty mix matter more than a brochure. Five, a fee structure published in writing. Ask any college for its approval letter and affiliation certificate; one that cannot show them is a risk whatever a ranking list says. JKKN College of Nursing and Research is INC-approved and TNNMC-recognised, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and its learners do clinical postings at four affiliated hospitals in Erode, including Government Headquarters Hospital.",
                 },
               ].map((faq, index) => (
                 <details

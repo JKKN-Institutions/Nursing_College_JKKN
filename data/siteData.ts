@@ -27,7 +27,7 @@ export const siteData = {
   accreditations: [
     "NAAC Accredited (B++)",
     "INC Approved",
-    "TNNMC Registered",
+    "TNNMC Recognised",
     "Affiliated to Tamil Nadu Dr. M.G.R. Medical University",
   ],
   aboutText: `J.K.K.Nattraja Group of Educational Institutions runs many colleges of excellence, with over 74 years in educational service since 1952. The Founder, SHRI.J.K.K.NATTARAJAH, established the group's first school and the J.K.K.Rangammal Charitable Trust, and later started dental, pharmacy, nursing, engineering and matriculation schools with a clear mandate to provide quality education in all fields of education for the welfare of women, poor & downtrodden in this rural area. His work is successfully carried by his daughter SHRIMATHI N.SENDAMARAAI, who established engineering, nursing & education colleges for the welfare of both genders.`,
