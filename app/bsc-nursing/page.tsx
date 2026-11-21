@@ -1307,7 +1307,7 @@ export default function BScNursing() {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
               <div className="text-center">
                 <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">98%</div>
                 <div className="text-xl font-semibold mb-2">Placement Rate (2024-25)</div>
@@ -1318,15 +1318,6 @@ export default function BScNursing() {
                 <div className="text-xl font-semibold mb-2">Median Salary (2024-25, NIRF 2026)</div>
               </div>
 
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">₹3.6L</div>
-                <div className="text-xl font-semibold mb-2">Median Salary, UG 2024-25 (NIRF)</div>
-              </div>
-
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold text-[#7cb983] mb-3">1000+</div>
-                <div className="text-xl font-semibold mb-2">Alumni Network</div>
-              </div>
             </div>
           </div>
         </section>

@@ -207,7 +207,7 @@ export default function MScObstetricsGynecologicalNursing() {
         {/* Stats Section */}
         <section className="bg-[#FBFBEE] py-12">
           <div className="container-custom">
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">4</div>
                 <div className="text-gray-700 font-medium">Partner Hospitals</div>
@@ -215,10 +215,6 @@ export default function MScObstetricsGynecologicalNursing() {
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">11 of 11</div>
                 <div className="text-gray-700 font-medium">M.Sc placed 2024-25 (NIRF)</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">20+</div>
-                <div className="text-gray-700 font-medium">Research Publications</div>
               </div>
             </div>
           </div>
