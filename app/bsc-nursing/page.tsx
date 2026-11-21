@@ -39,9 +39,9 @@ const bscFaqs: { q: string; a: string }[] = [
                 { q: "Is JKKN College of Nursing and Research approved by INC?", a: "Yes, JKKN College of Nursing and Research is approved by the Indian Nursing Council (INC), New Delhi. The college is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai, and is NAAC accredited (B++)." },
                 { q: "Does JKKN College provide hostel for nursing learners?", a: "Yes, separate well-furnished hostel facilities are available for both male and female learners with 24/7 security, mess facility, Wi-Fi connectivity, and recreational areas. Please confirm with the admission office for the current hostel and mess fee." },
                 { q: "Can I pursue M.Sc Nursing after B.Sc Nursing from JKKN?", a: "Yes, after completing B.Sc Nursing and one year of clinical experience, you can pursue M.Sc Nursing at JKKN in specializations like Medical-Surgical, Child Health, OBG, Psychiatric, or Community Health Nursing. PhD in Nursing is also available." },
-                { q: "What is the salary after B.Sc Nursing in India?", a: "Starting salary for BSc Nursing graduates ranges from ₹3.5–4.5 LPA in India. Government hospital nurses earn ₹25,000–45,000 per month. With experience, senior nurses earn ₹6–8 LPA domestically." },
+                { q: "What is the salary after B.Sc Nursing in India?", a: "In the college's NIRF 2026 data, 58 of 59 B.Sc Nursing graduates of 2024-25 were placed, at a median salary of Rs 3,60,000 a year. Pay in other jobs depends on the employer, role, location and experience." },
                 { q: "Is B.Sc Nursing open for male learners at JKKN?", a: "Yes, male learners can pursue B.Sc Nursing at JKKN College. As per INC guidelines, 10% of total intake (6 seats out of 60) is reserved for male candidates. Separate hostel facilities are available. Male nurses are in high demand in ICU, Emergency, and Defence sectors." },
-                { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates earn higher salaries (₹3.5–4.5 LPA vs ₹2.5–3 LPA), qualify for international nursing positions, and can directly pursue M.Sc Nursing. JKKN offers B.Sc Nursing for stronger career prospects." },
+                { q: "What is the difference between B.Sc Nursing and GNM?", a: "B.Sc Nursing is a 4-year degree program while GNM is a 3-year diploma. B.Sc Nursing graduates can directly pursue M.Sc Nursing, and can work abroad after clearing the licence exam of the country they choose. JKKN offers B.Sc Nursing for stronger career prospects." },
                 { q: "What are the placement statistics at JKKN College of Nursing and Research?", a: "JKKN College of Nursing and Research has a 98% placement rate (2024-25: 58 of 59 graduates placed, NIRF 2026). Median salary for the 2024-25 cohort was ₹3,60,000 (NIRF 2026)." },
                 { q: "Which university is JKKN College of Nursing and Research affiliated to?", a: "JKKN College of Nursing and Research is affiliated to Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), Chennai. TNMGRMU is the premier medical university in Tamil Nadu that governs all medical, dental, and nursing education in the state." },
                 { q: "Does JKKN provide international nursing placement support?", a: "The placement cell gives guidance on the licence exam and registration each country needs - NCLEX for the USA, OET or IELTS for the UK and Australia, PROMETRIC for Gulf countries. Please ask the placement cell what support is offered for your batch." },
@@ -1158,10 +1158,10 @@ export default function BScNursing() {
                 SALARY & SCOPE
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#006837] mb-4">
-                Salary After B.Sc Nursing in India and Abroad
+                Salary After B.Sc Nursing
               </h2>
               <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-                B.Sc Nursing graduates enjoy competitive salaries across government, private, and international healthcare settings.
+                Pay depends on the employer, role, location and experience. These are the placement figures the college filed in its NIRF 2026 data.
               </p>
             </div>
 
@@ -1171,22 +1171,18 @@ export default function BScNursing() {
                 <table className="w-full border-collapse border border-gray-300 text-left text-sm">
                   <thead>
                     <tr className="bg-[#006837] text-white">
-                      <th className="border border-gray-300 p-3">Role</th>
-                      <th className="border border-gray-300 p-3">Salary (Per Annum)</th>
+                      <th className="border border-gray-300 p-3">B.Sc Nursing batch</th>
+                      <th className="border border-gray-300 p-3">Placed</th>
+                      <th className="border border-gray-300 p-3">Median salary (a year)</th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="bg-white"><td className="border border-gray-300 p-3">Staff Nurse (Private Hospital)</td><td className="border border-gray-300 p-3">₹3.0 – 4.5 LPA</td></tr>
-                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">Staff Nurse (Government)</td><td className="border border-gray-300 p-3">₹3.5 – 5.5 LPA</td></tr>
-                    <tr className="bg-white"><td className="border border-gray-300 p-3">ICU / Critical Care Nurse</td><td className="border border-gray-300 p-3">₹4.0 – 6.0 LPA</td></tr>
-                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">Nursing Supervisor</td><td className="border border-gray-300 p-3">₹5.0 – 8.0 LPA</td></tr>
-                    <tr className="bg-white"><td className="border border-gray-300 p-3">Nursing Educator (after M.Sc)</td><td className="border border-gray-300 p-3">₹4.5 – 7.0 LPA</td></tr>
-                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">International Nurse (NHS UK)</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Varies by country and licence</td></tr>
-                    <tr className="bg-white"><td className="border border-gray-300 p-3">International Nurse (UAE/Singapore)</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">₹12 – 20 LPA</td></tr>
-                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">Defence Services Nurse</td><td className="border border-gray-300 p-3">₹4.0 – 6.0 LPA + Benefits</td></tr>
+                    <tr className="bg-white"><td className="border border-gray-300 p-3">2024-25</td><td className="border border-gray-300 p-3">58 of 59</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">₹3,60,000</td></tr>
+                    <tr className="bg-gray-50"><td className="border border-gray-300 p-3">2023-24</td><td className="border border-gray-300 p-3">55 of 60 (5 more went to higher studies)</td><td className="border border-gray-300 p-3">₹3,84,000</td></tr>
+                    <tr className="bg-white"><td className="border border-gray-300 p-3">2022-23</td><td className="border border-gray-300 p-3">51 of 51</td><td className="border border-gray-300 p-3">₹1,80,000</td></tr>
                   </tbody>
                 </table>
-                <p className="text-xs text-gray-500 mt-2">Salary data based on industry averages (2025–26). Actual compensation varies by employer and location.</p>
+                <p className="text-xs text-gray-500 mt-2">Source: the college&apos;s NIRF 2026 data. Pay in other jobs depends on the employer, role, location and experience; ask the <Link href="/placement" className="text-[#006837] hover:underline">placement cell</Link> for details.</p>
               </div>
 
               {/* Career Growth Path */}
@@ -1195,11 +1191,11 @@ export default function BScNursing() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
-                    <div><p className="font-semibold text-[#006837]">Years 0–2: Staff Nurse</p><p className="text-gray-600 text-sm">Start at hospitals, clinics, or community health centres. Earn ₹3–4.5 LPA.</p></div>
+                    <div><p className="font-semibold text-[#006837]">Years 0–2: Staff Nurse</p><p className="text-gray-600 text-sm">Start at hospitals, clinics, or community health centres.</p></div>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
-                    <div><p className="font-semibold text-[#006837]">Years 2–5: Specialization</p><p className="text-gray-600 text-sm">Pursue <Link href="/msc-nursing" className="text-[#006837] hover:underline">M.Sc Nursing</Link> or specialization in ICU, OT, or Critical Care. Earn ₹5–7 LPA.</p></div>
+                    <div><p className="font-semibold text-[#006837]">Years 2–5: Specialization</p><p className="text-gray-600 text-sm">Pursue <Link href="/msc-nursing" className="text-[#006837] hover:underline">M.Sc Nursing</Link> or specialization in ICU, OT, or Critical Care.</p></div>
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">3</span>
@@ -1207,7 +1203,7 @@ export default function BScNursing() {
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="bg-[#7cb983] text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">4</span>
-                    <div><p className="font-semibold text-[#006837]">Years 10+: Senior Leadership</p><p className="text-gray-600 text-sm">Chief Nursing Officer, Hospital Administrator, or PhD in Nursing. Earn ₹10–15+ LPA.</p></div>
+                    <div><p className="font-semibold text-[#006837]">Years 10+: Senior Leadership</p><p className="text-gray-600 text-sm">Chief Nursing Officer, Hospital Administrator, or PhD in Nursing.</p></div>
                   </div>
                 </div>
               </div>
@@ -1243,7 +1239,7 @@ export default function BScNursing() {
                   <tr className="bg-white"><td className="border border-gray-300 p-3 font-medium">Duration</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">4 Years</td><td className="border border-gray-300 p-3">2 Years</td></tr>
                   <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-medium">Qualification</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Degree (B.Sc)</td><td className="border border-gray-300 p-3">Degree (B.Sc)</td></tr>
                   <tr className="bg-white"><td className="border border-gray-300 p-3 font-medium">Eligibility</td><td className="border border-gray-300 p-3">10+2 with PCB (45%)</td><td className="border border-gray-300 p-3">GNM + Experience</td></tr>
-                  <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-medium">Starting Salary</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">₹3.5–4.5 LPA</td><td className="border border-gray-300 p-3">₹3.5–4.5 LPA</td></tr>
+                  <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-medium">Salary</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Median ₹3,60,000 (2024-25, NIRF)</td><td className="border border-gray-300 p-3">Ask the placement cell</td></tr>
                   <tr className="bg-white"><td className="border border-gray-300 p-3 font-medium">M.Sc Eligibility</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Yes — Direct</td><td className="border border-gray-300 p-3">Yes — Direct</td></tr>
                   <tr className="bg-gray-50"><td className="border border-gray-300 p-3 font-medium">International Jobs</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">Eligible (NCLEX/OET)</td><td className="border border-gray-300 p-3">Eligible</td></tr>
                   <tr className="bg-white"><td className="border border-gray-300 p-3 font-medium">Government Jobs</td><td className="border border-gray-300 p-3 font-bold text-[#006837]">All posts eligible</td><td className="border border-gray-300 p-3">All posts eligible</td></tr>
