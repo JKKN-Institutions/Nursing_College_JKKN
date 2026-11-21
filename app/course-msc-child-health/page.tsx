@@ -230,8 +230,8 @@ export default function MScChildHealthNursing() {
               </div>
               {/* Placement Badge */}
               <div className="absolute bottom-2 right-2 md:-bottom-6 md:-right-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
-                <div className="text-2xl md:text-4xl font-bold">100%</div>
-                <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
+                <div className="text-2xl md:text-4xl font-bold">11 of 11</div>
+                <div className="text-xs md:text-sm font-medium">M.Sc placed 2024-25 (NIRF)</div>
               </div>
             </div>
           </div>
@@ -241,7 +241,7 @@ export default function MScChildHealthNursing() {
       {/* Stats Section */}
       <section className="py-12 bg-white">
         <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">19+</div>
               <div className="text-gray-600 font-medium">Years of Excellence</div>
@@ -249,14 +249,6 @@ export default function MScChildHealthNursing() {
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">5</div>
               <div className="text-gray-600 font-medium">Seats Available</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1:5</div>
-              <div className="text-gray-600 font-medium">Facilitator-Learner Ratio</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1800+</div>
-              <div className="text-gray-600 font-medium">Clinical Training Hours</div>
             </div>
           </div>
         </div>

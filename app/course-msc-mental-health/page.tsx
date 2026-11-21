@@ -213,8 +213,8 @@ export default function MScMentalHealthNursing() {
                 </div>
                 {/* Placement Badge */}
                 <div className="absolute bottom-2 left-2 md:-bottom-6 md:-left-6 bg-[#7cb983] text-white px-4 py-3 md:px-8 md:py-6 rounded-xl md:rounded-2xl shadow-xl">
-                  <div className="text-2xl md:text-4xl font-bold">100%</div>
-                  <div className="text-xs md:text-sm font-medium">Placement Assistance</div>
+                  <div className="text-2xl md:text-4xl font-bold">11 of 11</div>
+                  <div className="text-xs md:text-sm font-medium">M.Sc placed 2024-25 (NIRF)</div>
                 </div>
               </div>
             </div>
@@ -224,7 +224,7 @@ export default function MScMentalHealthNursing() {
         {/* Stats Section */}
         <section className="py-12 bg-[#FBFBEE]">
           <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 gap-6 max-w-3xl mx-auto">
               <div className="bg-white rounded-xl p-6 text-center shadow-sm">
                 <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
                   19+
@@ -236,18 +236,6 @@ export default function MScMentalHealthNursing() {
                   5
                 </p>
                 <p className="text-gray-600">Seats Available</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
-                  1:5
-                </p>
-                <p className="text-gray-600">Facilitator-Learner Ratio</p>
-              </div>
-              <div className="bg-white rounded-xl p-6 text-center shadow-sm">
-                <p className="text-4xl lg:text-5xl font-bold text-[#7cb983] mb-2">
-                  1000+
-                </p>
-                <p className="text-gray-600">Clinical Training Hours</p>
               </div>
             </div>
           </div>

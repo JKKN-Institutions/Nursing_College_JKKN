@@ -217,8 +217,8 @@ export default function MScCommunityHealthNursing() {
                     />
                   </div>
                   <div className="text-white px-6 py-4 rounded-xl inline-block" style={{backgroundColor: '#7cb983'}}>
-                    <p className="text-4xl font-bold mb-1">100%</p>
-                    <p className="text-sm">Placement Assistance</p>
+                    <p className="text-4xl font-bold mb-1">11 of 11</p>
+                    <p className="text-sm">M.Sc placed 2024-25 (NIRF)</p>
                   </div>
                 </div>
               </div>
@@ -229,22 +229,18 @@ export default function MScCommunityHealthNursing() {
         {/* Stats Section */}
         <section className="py-12 bg-[#FBFBEE]">
           <div className="container-custom">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">19+</div>
                 <div className="text-gray-700 font-medium">Years of Educational Excellence</div>
-              </div>
-              <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">1800+</div>
-                <div className="text-gray-700 font-medium">Community Field Hours</div>
               </div>
               <div className="text-center">
                 <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">5+</div>
                 <div className="text-gray-700 font-medium">PHCs & CHCs Affiliated</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">98%</div>
-                <div className="text-gray-700 font-medium">Placement Rate (2024-25)</div>
+                <div className="text-4xl md:text-5xl font-bold text-[#7cb983] mb-2">5</div>
+                <div className="text-gray-700 font-medium">Seats (INC 2026-27)</div>
               </div>
             </div>
           </div>
