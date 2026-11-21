@@ -366,8 +366,8 @@ export default function MScNursing() {
                     <div className="text-xs sm:text-sm text-white/80">Specializations</div>
                   </div>
                   <div>
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">100%</div>
-                    <div className="text-xs sm:text-sm text-white/80">Placement Support</div>
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#7cb983] mb-1">11 of 11</div>
+                    <div className="text-xs sm:text-sm text-white/80">M.Sc placed 2024-25 (NIRF)</div>
                   </div>
                 </div>
 
