@@ -4,11 +4,11 @@ import SitePageShell from "@/components/SitePageShell";
 export const metadata: Metadata = {
   title: "NIRF 2025 Innovation — JKKN College of Nursing and Research",
   description:
-    "NIRF 2025 innovation ranking submission data for JKKN College of Nursing and Research.",
+    "NIRF 2025 Innovation data submitted by JKKN College of Nursing and Research.",
   openGraph: {
     title: "NIRF 2025 Innovation — JKKN College of Nursing and Research",
     description:
-      "NIRF 2025 innovation ranking submission data for JKKN College of Nursing and Research.",
+      "NIRF 2025 Innovation data submitted by JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2025-innovation",
     siteName: "JKKN College of Nursing and Research",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NIRF 2025 Innovation — JKKN College of Nursing and Research",
     description:
-      "NIRF 2025 innovation ranking submission data for JKKN College of Nursing and Research.",
+      "NIRF 2025 Innovation data submitted by JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

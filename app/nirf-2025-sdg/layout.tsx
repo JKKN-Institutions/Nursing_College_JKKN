@@ -2,13 +2,13 @@
 import SitePageShell from "@/components/SitePageShell";
 
 export const metadata: Metadata = {
-  title: "NIRF 2025 SDG Rankings — JKKN College of Nursing and Research",
+  title: "NIRF 2025 SDG Data Submitted — JKKN College of Nursing and Research",
   description:
-    "NIRF 2025 Sustainability Development Goals ranking data for JKKN College of Nursing and Research.",
+    "NIRF 2025 Sustainable Development Goals data submitted by JKKN College of Nursing and Research.",
   openGraph: {
-    title: "NIRF 2025 SDG Rankings — JKKN College of Nursing and Research",
+    title: "NIRF 2025 SDG Data Submitted — JKKN College of Nursing and Research",
     description:
-      "NIRF 2025 Sustainability Development Goals ranking data for JKKN College of Nursing and Research.",
+      "NIRF 2025 Sustainable Development Goals data submitted by JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2025-sdg",
     siteName: "JKKN College of Nursing and Research",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NIRF 2025 SDG Rankings — JKKN College of Nursing and Research",
+    title: "NIRF 2025 SDG Data Submitted — JKKN College of Nursing and Research",
     description:
-      "NIRF 2025 Sustainability Development Goals ranking data for JKKN College of Nursing and Research.",
+      "NIRF 2025 Sustainable Development Goals data submitted by JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {

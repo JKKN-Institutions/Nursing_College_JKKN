@@ -1,11 +1,11 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NIRF 2024 — JKKN College of Nursing and Research Rankings",
-  description: "NIRF 2024 ranking data and performance metrics of JKKN College of Nursing and Research in national institutional ranking framework.",
+  title: "NIRF 2024 Data Submitted — JKKN College of Nursing and Research",
+  description: "NIRF 2024 data submitted by JKKN College of Nursing and Research to the National Institutional Ranking Framework.",
   openGraph: {
-    title: "NIRF 2024 — JKKN College of Nursing and Research Rankings",
-    description: "NIRF 2024 ranking data and performance metrics of JKKN College of Nursing and Research in national institutional ranking framework.",
+    title: "NIRF 2024 Data Submitted — JKKN College of Nursing and Research",
+    description: "NIRF 2024 data submitted by JKKN College of Nursing and Research to the National Institutional Ranking Framework.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-2024",
     siteName: "JKKN College of Nursing and Research",
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     ],
   },  twitter: {
     card: "summary_large_image",
-    title: "NIRF 2024 — JKKN College of Nursing and Research Rankings",
-    description: "NIRF 2024 ranking data and performance metrics of JKKN College of Nursing and Research in national institutional ranking framework.",
+    title: "NIRF 2024 Data Submitted — JKKN College of Nursing and Research",
+    description: "NIRF 2024 data submitted by JKKN College of Nursing and Research to the National Institutional Ranking Framework.",
     images: ["/images/nursing_logo.png"],
   },
 

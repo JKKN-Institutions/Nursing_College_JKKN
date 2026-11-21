@@ -1,13 +1,13 @@
 ﻿import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NIRF Rankings — JKKN College of Nursing and Research",
+  title: "NIRF Data Submitted — JKKN College of Nursing and Research",
   description:
-    "NIRF national ranking data and annual performance metrics of JKKN College of Nursing and Research.",
+    "NIRF data submitted every year by JKKN College of Nursing and Research.",
   openGraph: {
-    title: "NIRF Rankings — JKKN College of Nursing and Research",
+    title: "NIRF Data Submitted — JKKN College of Nursing and Research",
     description:
-      "NIRF national ranking data and annual performance metrics of JKKN College of Nursing and Research.",
+      "NIRF data submitted every year by JKKN College of Nursing and Research.",
     type: "website",
     url: "https://nursing.sresakthimayeil.jkkn.ac.in/nirf-others",
     siteName: "JKKN College of Nursing and Research",
@@ -22,9 +22,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "NIRF Rankings — JKKN College of Nursing and Research",
+    title: "NIRF Data Submitted — JKKN College of Nursing and Research",
     description:
-      "NIRF national ranking data and annual performance metrics of JKKN College of Nursing and Research.",
+      "NIRF data submitted every year by JKKN College of Nursing and Research.",
     images: ["/images/nursing_logo.png"],
   },
   robots: {
