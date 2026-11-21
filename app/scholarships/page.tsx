@@ -7,7 +7,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Scholarships | Sresakthimayeil Institute Of Nursing And Research, Tamil Nadu",
-  description: "Explore government scholarships available for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing students at JKKN College of Nursing and Research — SC/SCA/ST, BC/MBC, and Naan Mudhalvan schemes.",
+  description: "Explore government scholarships available for B.Sc Nursing, M.Sc Nursing, and Post Basic B.Sc Nursing students at JKKN College of Nursing and Research — SC/SCA/ST, BC/MBC, and the Pudhumai Penn scheme for girls.",
   alternates: { canonical: "https://nursing.sresakthimayeil.jkkn.ac.in/scholarships" },
 };
 
@@ -62,8 +62,8 @@ const columns = [
   },
   {
     group: "All Community",
-    note: "Govt / Govt-Aided School · Std 6–12 · Tamil Medium",
-    items: [{ key: "naanMudhalvan", label: "Naan Mudhalvan Scholarship (Boys/Girls)" }],
+    note: "Girls · Govt School · Std 6–12 · Boys: confirm with the admission office",
+    items: [{ key: "naanMudhalvan", label: "Pudhumai Penn – Moovalur Ramamirtham Ammaiyar Scheme (Girls)" }],
   },
 ];
 
@@ -116,7 +116,7 @@ export default function ScholarshipsPage() {
                   {/* All community */}
                   <th className="px-5 py-4 font-semibold border border-[#005a2f] text-center">
                     All Community
-                    <span className="block text-xs font-normal text-white/75">Govt School · Std 6–12 · Tamil Medium</span>
+                    <span className="block text-xs font-normal text-white/75">Girls · Govt School · Std 6–12</span>
                   </th>
                 </tr>
                 <tr className="bg-[#e8f5ee] text-[#002309] text-xs font-semibold">
@@ -126,7 +126,7 @@ export default function ScholarshipsPage() {
                   <th className="px-5 py-3 border border-gray-200">First Graduate (GQ)</th>
                   <th className="px-5 py-3 border border-gray-200">Community Scholarship (GQ)</th>
                   <th className="px-5 py-3 border border-gray-200">Trust Scholarship – Merit Based (MQ/GQ)</th>
-                  <th className="px-5 py-3 border border-gray-200">Naan Mudhalvan Scholarship (Boys/Girls)</th>
+                  <th className="px-5 py-3 border border-gray-200">Pudhumai Penn – Moovalur Ramamirtham Ammaiyar Scheme (Girls)</th>
                 </tr>
               </thead>
               <tbody>
