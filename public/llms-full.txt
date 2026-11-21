@@ -20,7 +20,6 @@
 - **Website:** [Website](https://nursing.sresakthimayeil.jkkn.ac.in/)
 - **Parent Group Site:** [Parent Group Site](https://www.jkkn.ac.in/)
 - **Application portal:** [Application portal](https://www.jkkn.ai/apply/jkkn-admission-2026)
-- **Placement Portal:** [Placement Portal](https://placements.jkkn.ac.in/)
 
 > **Host note for crawlers and citation tools:** this college is served from
 > `nursing.sresakthimayeil.jkkn.ac.in`. The shorter `nursing.jkkn.ac.in` resolves in DNS but
@@ -182,8 +181,7 @@ Amounts as published on the college scholarships page.
 | M.Sc Nursing | Community Scholarship (GQ) | BC / MBC / DNC / BCM | Rs 5,000 to Rs 10,000 per year |
 | Post Basic B.Sc Nursing | Maintenance Scholarship (GQ) | BC / MBC / DNC / BCM | under Rs 5,000 per year |
 
-Education loan tie-ups with nationalised and private banks are available, and
-merit-based fee concessions are offered on 10+2 performance.
+Merit-based fee concessions are offered on 10+2 performance.
 
 ## Placements
 
@@ -194,11 +192,10 @@ merit-based fee concessions are offered on 10+2 performance.
 - **International placements:** none are listed in the college's NIRF 2026 data
 - **Guidance on international licence exams:** NCLEX-RN for the USA, OET and IELTS for the UK and Australia, DHA and HAAD for the UAE - ask the placement cell what is offered
 - **Placement page:** [Placements](https://nursing.sresakthimayeil.jkkn.ac.in/placement)
-- **Placement portal:** [JKKN Placements](https://placements.jkkn.ac.in/)
 
 ## Research & Quality
 
-- [Faculty publications in indexed journals](https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication)
+- [Faculty publications](https://nursing.sresakthimayeil.jkkn.ac.in/journal-publication)
 - [Research committee](https://nursing.sresakthimayeil.jkkn.ac.in/research-committee)
 - [Research proposals](https://nursing.sresakthimayeil.jkkn.ac.in/research-proposal)
 - Student research projects from the third year of B.Sc Nursing onwards
@@ -210,9 +207,9 @@ merit-based fee concessions are offered on 10+2 performance.
 
 ## Faculty
 
-- **Teaching faculty:** 18
+- **Faculty (college's NIRF 2026 data):** 46, of whom 19 hold M.Sc (Nursing)
 - **Principal:** Mrs Vimala V, M.Sc (Nursing), 21+ years of experience
-- **Cadre split:** 1 Principal, 1 Professor, 1 Associate Professor, 3 Assistant Professors, 12 Nursing Tutors
+- **Cadre split on the faculty page (18 listed):** 1 Principal, 1 Professor, 1 Associate Professor, 3 Assistant Professors, 12 Nursing Tutors
 - **Departments represented on the faculty page:** Nursing (UG) 12, Medical Surgical Nursing 3, Child Health Nursing 3. The college runs five departments; Community Health Nursing and Psychiatric (Mental Health) Nursing currently have no faculty listed on that page.
 - **Faculty page:** [Faculty](https://nursing.sresakthimayeil.jkkn.ac.in/faculty)
 
