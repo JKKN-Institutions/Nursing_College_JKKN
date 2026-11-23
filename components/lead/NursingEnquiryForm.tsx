@@ -329,7 +329,7 @@ export default function NursingEnquiryForm({
             : heading}
       </h2>
 
-      <ol aria-label="What happens next" className="grid grid-cols-3 gap-1.5">
+      <ol aria-label="What happens next" className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,4.75rem),1fr))] gap-1.5">
         {steps.map((step, i) => (
           <li
             key={step}
