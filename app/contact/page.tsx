@@ -131,7 +131,7 @@ export default function Contact() {
                   there directly because the endpoint sends no Access-Control-Allow-Origin. */}
               {/* The form is its own white card now (mockup #7, 2026-10-22); the green box stays as
                   the frame on the white page. */}
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-xl p-3 sm:p-6">
+              <div className="[&_form_div.grid.gap-4]:grid-cols-[repeat(auto-fit,minmax(min(100%,200px),1fr))] [&_form_div.grid.gap-4]:items-end bg-gradient-to-br from-[#006837] to-[#7cb983] rounded-xl p-3 sm:p-6">
                 <NursingEnquiryForm sourcePage="contact" />
 
                 <p className="text-white/70 text-sm mt-6 pt-6 px-1 sm:px-0 border-t border-white/20">
